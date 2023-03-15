@@ -1,0 +1,7 @@
+name=Diederiks Tile Palooza	
+poster=poster.png
+id=Diederiks Tile Palooza
+description=A mod to regulate custom tiles which are used in different mods
+url=http://theindiestone.com/forums
+pack=diederiks_tile_palooza
+tiledef=diederikv_tile_def 7001

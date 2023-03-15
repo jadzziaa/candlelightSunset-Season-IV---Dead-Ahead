@@ -1,0 +1,25 @@
+local PertsRoomDef = {
+
+    all = {
+        PaperTray = {
+            rolls = 20,
+            items = {
+                "Base.CrazedRamblings", 100,
+        "Base.CrazedRamblings2", 75,
+        "Base.CrazedRamblings3", 50,
+        "Base.CrazedRamblings4", 75,
+                   }
+            },
+			
+		EmergencyAxe = {
+			rolls = 2,
+			items = {
+			"Base.OverlookFireAxe", 100,
+			}
+		},
+		
+
+    }
+}
+
+table.insert(Distributions, 2, PertsRoomDef);

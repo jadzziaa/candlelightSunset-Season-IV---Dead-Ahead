@@ -1,0 +1,2095 @@
+module ivery
+{
+	/************************Furniture************************/
+
+	item ivery_TeaTray
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_TeaTray,
+        	Weight              = 0.3,
+        	DisplayName        = Tea Tray,
+        	WorldObjectSprite    = ivery_clutter_domestic_46,
+    	}
+
+	item ivery_Crib
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_Crib,
+        	Weight              = 12.0,
+        	DisplayName        = Crib,
+        	WorldObjectSprite    = ivery_clutter_domestic_56,
+    	}
+
+	item ivery_ModernCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ModernCabinet,
+		Weight		= 10,
+		DisplayName		= Modern Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_0,
+	}
+
+	item ivery_ModernSmallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ModernSmallCabinet,
+		Weight		= 10,
+		DisplayName		= Modern Small Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_4,
+	}
+
+	item ivery_DarkCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_DarkCabinet,
+		Weight		= 10,
+		DisplayName		= Dark Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_8,
+	}
+
+	item ivery_DarkSmallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_DarkSmallCabinet,
+		Weight		= 10,
+		DisplayName		= Dark Small Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_12,
+	}
+
+	item ivery_OakCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_OakCabinet,
+		Weight		= 10,
+		DisplayName		= Oak Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_16,
+	}
+
+	item ivery_OakSmallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_OakSmallCabinet,
+		Weight		= 10,
+		DisplayName		= Oak Small Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_20,
+	}
+
+	item ivery_GreenCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_GreenCabinet,
+		Weight		= 10,
+		DisplayName		= Green Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_24,
+	}
+
+	item ivery_GreenSmallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_GreenSmallCabinet,
+		Weight		= 10,
+		DisplayName		= Green Small Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_28,
+	}
+
+	item ivery_WoodenCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WoodenCabinet,
+		Weight		= 10,
+		DisplayName		= Wooden Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_32,
+	}
+
+	item ivery_WoodenSmallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WoodenSmallCabinet,
+		Weight		= 10,
+		DisplayName		= Wooden Small Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_36,
+	}
+
+	item ivery_BirchwoodCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_BirchwoodCabinet,
+		Weight		= 10,
+		DisplayName		= Birchwood Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_40,
+	}
+
+	item ivery_BirchwoodSmallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_BirchwoodSmallCabinet,
+		Weight		= 10,
+		DisplayName		= Birchwood Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_44,
+	}
+
+	item ivery_SteelCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_SteelCabinet,
+		Weight		= 10,
+		DisplayName		= Steel Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_48,
+	}
+
+	item ivery_SteelSmallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_SteelSmallCabinet,
+		Weight		= 10,
+		DisplayName		= Steel Small Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_52,
+	}
+
+	item ivery_WhiteCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteCabinet,
+		Weight		= 10,
+		DisplayName		= White Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_56,
+	}
+
+	item ivery_WhiteSmallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteSmallCabinet,
+		Weight		= 10,
+		DisplayName		= White Small Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_60,
+	}
+
+	item ivery_ModernCurtainedCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ModernCurtainedCabinet,
+		Weight		= 10,
+		DisplayName		= Modern Curtained Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_64,
+	}
+
+	item ivery_ModernCornerCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ModernCornerCabinet,
+		Weight		= 10,
+		DisplayName		= Modern Corner Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_67,
+	}
+
+	item ivery_ModernTallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ModernTallCabinet,
+		Weight		= 10,
+		DisplayName		= Modern Tall Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_70,
+	}
+
+	item ivery_DarkCurtainedCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_DarkCurtainedCabinet,
+		Weight		= 10,
+		DisplayName		= Dark Curtained Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_72,
+	}
+
+	item ivery_DarkCornerCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_DarkCornerCabinet,
+		Weight		= 10,
+		DisplayName		= Dark Corner Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_74,
+	}
+
+	item ivery_DarkTallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_DarkTallCabinet,
+		Weight		= 10,
+		DisplayName		= Dark Tall Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_78,
+	}
+
+	item ivery_OakCurtainedCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_OakCurtainedCabinet,
+		Weight		= 10,
+		DisplayName		= Oak Curtained Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_80,
+	}
+
+	item ivery_OakCornerCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_OakCornerCabinet,
+		Weight		= 10,
+		DisplayName		= Oak Corner Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_82,
+	}
+
+	item ivery_OakTallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_OakTallCabinet,
+		Weight		= 10,
+		DisplayName		= Oak Tall Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_86,
+	}
+
+	item ivery_GreenCurtainedCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_GreenCurtainedCabinet,
+		Weight		= 10,
+		DisplayName		= Green Curtained Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_88,
+	}
+
+	item ivery_GreenCornerCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_GreenCornerCabinet,
+		Weight		= 10,
+		DisplayName		= Green Corner Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_90,
+	}
+
+	item ivery_GreenTallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_GreenTallCabinet,
+		Weight		= 10,
+		DisplayName		= Green Tall Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_94,
+	}
+
+	item ivery_WoodenCurtainedCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WoodenCurtainedCabinet,
+		Weight		= 10,
+		DisplayName		= Wooden Curtained Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_96,
+	}
+
+	item ivery_WoodenCornerCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WoodenCornerCabinet,
+		Weight		= 10,
+		DisplayName		= Wooden Corner Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_98,
+	}
+
+	item ivery_WoodenTallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WoodenTallCabinet,
+		Weight		= 10,
+		DisplayName		= Wooden Tall Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_102,
+	}
+
+	item ivery_BirchwoodCurtainedCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_BirchwoodCurtainedCabinet,
+		Weight		= 10,
+		DisplayName		= Birchwood Curtained Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_104,
+	}
+
+	item ivery_BirchwoodCornerCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_BirchwoodCornerCabinet,
+		Weight		= 10,
+		DisplayName		= Birchwood Corner Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_106,
+	}
+
+	item ivery_BirchwoodTallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_BirchwoodTallCabinet,
+		Weight		= 10,
+		DisplayName		= Birchwood Tall Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_110,
+	}
+
+	item ivery_SteelCurtainedCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_SteelCurtainedCabinet,
+		Weight		= 10,
+		DisplayName		= Steel Curtained Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_112,
+	}
+
+	item ivery_SteelCornerCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_SteelCornerCabinet,
+		Weight		= 10,
+		DisplayName		= Steel Corner Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_114,
+	}
+
+	item ivery_SteelTallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_SteelTallCabinet,
+		Weight		= 10,
+		DisplayName		= Steel Tall Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_118,
+	}
+
+	item ivery_WhiteCurtainedCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteCurtainedCabinet,
+		Weight		= 10,
+		DisplayName		= White Curtained Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_120,
+	}
+
+	item ivery_WhiteCornerCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteCornerCabinet,
+		Weight		= 10,
+		DisplayName		= White Corner Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_122,
+	}
+
+	item ivery_WhiteTallCabinet
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteTallCabinet,
+		Weight		= 10,
+		DisplayName		= White Tall Cabinet,
+		WorldObjectSprite	= ivery_uppercabinets_126,
+	}
+
+	item ivery_LightPetBowl
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_LightPetBowl,
+		Weight		= 1,
+		DisplayName		= Light Pet Bowl,
+		WorldObjectSprite	= ivery_pet_stuff_0,
+	}
+
+	item ivery_PetCageFish
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_PetCageFish,
+		Weight		= 1,
+		DisplayName		= PetCageFish,
+		WorldObjectSprite	= ivery_pet_stuff_4,
+	}
+
+	item ivery_DarkPetBowl
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_DarkPetBowl,
+		Weight		= 1,
+		DisplayName		= Dark Pet Bowl,
+		WorldObjectSprite	= ivery_pet_stuff_8,
+	}
+
+	item ivery_PetCageLizard
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_PetCageLizard,
+		Weight		= 1,
+		DisplayName		= Pet Cage Lizard,
+		WorldObjectSprite	= ivery_pet_stuff_12,
+	}
+
+	item ivery_ModernPetBowl
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ModernPetBowl,
+		Weight		= 1,
+		DisplayName		= Modern Pet Bowl,
+		WorldObjectSprite	= ivery_pet_stuff_16,
+	}
+
+	item ivery_PetCageFrog
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_PetCageFrog,
+		Weight		= 1,
+		DisplayName		= Pet Cage Frog,
+		WorldObjectSprite	= ivery_pet_stuff_20,
+	}
+
+	item ivery_LightBluePetBowl
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_LightBluePetBowl,
+		Weight		= 1,
+		DisplayName		= Light Blue Pet Bowl,
+		WorldObjectSprite	= ivery_pet_stuff_24,
+	}
+
+	item ivery_PetCageHamster
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_PetCageHamster,
+		Weight		= 1,
+		DisplayName		= PetCageHamster,
+		WorldObjectSprite	= ivery_pet_stuff_28,
+	}
+
+	item ivery_RedPetBowl
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_RedPetBowl,
+		Weight		= 1,
+		DisplayName		= Red Pet Bowl,
+		WorldObjectSprite	= ivery_pet_stuff_32,
+	}
+
+	item ivery_PetTree
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_PetTree,
+		Weight		= 3,
+		DisplayName		= Pet Tree,
+		WorldObjectSprite	= ivery_pet_stuff_36,
+	}
+
+	item ivery_PurplePetBowl
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_PurplePetBowl,
+		Weight		= 1,
+		DisplayName		= Purple Pet Bowl,
+		WorldObjectSprite	= ivery_pet_stuff_40,
+	}
+
+	item ivery_PetScratchingPost
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_PetScratchingPost,
+		Weight		= 1,
+		DisplayName		= Pet Scratching Post,
+		WorldObjectSprite	= ivery_pet_stuff_44,
+	}
+
+	item ivery_GreenPetBowl
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_GreenPetBowl,
+		Weight		= 1,
+		DisplayName		= Green Pet Bowl,
+		WorldObjectSprite	= ivery_pet_stuff_48,
+	}
+
+	item ivery_PetCageBird
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_PetCageBird,
+		Weight		= 1,
+		DisplayName		= Pet Cage Bird,
+		WorldObjectSprite	= ivery_pet_stuff_52,
+	}
+
+	item ivery_ChristmasTree
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ChristmasTree,
+		Weight		= 10,
+		DisplayName		= Christmas Tree,
+		WorldObjectSprite	= ivery_christmas_0,
+	}
+
+	item ivery_ColorfulOrnaments
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ColorfulOrnaments,
+		Weight		= 1,
+		DisplayName		= Colorful Ornaments,
+		WorldObjectSprite	= ivery_christmas_1,
+	}
+
+	item ivery_GoldStringOrnaments
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_GoldStringOrnaments,
+		Weight		= 1,
+		DisplayName		= Gold String Ornaments,
+		WorldObjectSprite	= ivery_christmas_2,
+	}
+
+	item ivery_MetallicOrnaments
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_MetallicOrnaments,
+		Weight		= 1,
+		DisplayName		= Metallic Ornaments,
+		WorldObjectSprite	= ivery_christmas_3,
+	}
+
+	item ivery_StarOrnaments
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_StarOrnaments,
+		Weight		= 1,
+		DisplayName		= Star Ornaments,
+		WorldObjectSprite	= ivery_christmas_4,
+	}
+
+	item ivery_SilverStringOrnaments
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_SilverStringOrnaments,
+		Weight		= 1,
+		DisplayName		= Silver String Ornaments,
+		WorldObjectSprite	= ivery_christmas_5,
+	}
+
+	item ivery_RedBowOrnaments
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_RedBowOrnaments,
+		Weight		= 1,
+		DisplayName		= Red Bow Ornaments,
+		WorldObjectSprite	= ivery_christmas_6,
+	}
+
+	item ivery_SilverChristmasStar
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_SilverChristmasStar,
+		Weight		= 1,
+		DisplayName		= Silver Christmas Star,
+		WorldObjectSprite	= ivery_christmas_8,
+	}
+
+	item ivery_GoldChristmasStar
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_GoldChristmasStar,
+		Weight		= 1,
+		DisplayName		= Gold Christmas Star,
+		WorldObjectSprite	= ivery_christmas_9,
+	}
+
+	item ivery_ChristmasWreath
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ChristmasWreath,
+		Weight		= 1,
+		DisplayName		= Christmas Wreath,
+		WorldObjectSprite	= ivery_christmas_10,
+	}
+
+	item ivery_MetallicChristmasWreath
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_MetallicChristmasWreath,
+		Weight		= 1,
+		DisplayName		= MetallicChristmas Wreath,
+		WorldObjectSprite	= ivery_christmas_12,
+	}
+
+	item ivery_WhiteBulbFairyLights
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteBulbFairyLights,
+		Weight		= 1,
+		DisplayName		= White Bulb Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_16,
+	}
+
+	item ivery_WhiteBulbFairyLightsRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteBulbFairyLightsRight,
+		Weight		= 1,
+		DisplayName		= White Bulb Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_17,
+	}
+
+	item ivery_ChristmasFairyLights
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ChristmasFairyLights,
+		Weight		= 1,
+		DisplayName		= Christmas Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_20,
+	}
+
+	item ivery_ChristmasFairyLightsRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ChristmasFairyLightsRight,
+		Weight		= 1,
+		DisplayName		= Christmas Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_21,
+	}
+
+	item ivery_MetallicFairyLights
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_MetallicFairyLights,
+		Weight		= 1,
+		DisplayName		= Metallic Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_24,
+	}
+
+	item ivery_MetallicFairyLightsRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_MetallicFairyLightsRight,
+		Weight		= 1,
+		DisplayName		= Metallic Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_25,
+	}
+
+	item ivery_WhiteChristmasFairyLights
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteChristmasFairyLights,
+		Weight		= 1,
+		DisplayName		= White Christmas Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_28,
+	}
+
+	item ivery_WhiteChristmasFairyLightsRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteChristmasFairyLightsRight,
+		Weight		= 1,
+		DisplayName		= White Christmas Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_29,
+	}
+
+	item ivery_WhiteBulbFairyLightsLow
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteBulbFairyLightsLow,
+		Weight		= 1,
+		DisplayName		= Low White Bulb Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_32,
+	}
+
+	item ivery_WhiteBulbFairyLightsLowRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteBulbFairyLightsLowRight,
+		Weight		= 1,
+		DisplayName		= Low White Bulb Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_33,
+	}
+
+	item ivery_ChristmasFairyLightsLow
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ChristmasFairyLightsLow,
+		Weight		= 1,
+		DisplayName		= Low Christmas Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_36,
+	}
+
+	item ivery_ChristmasFairyLightsLowRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ChristmasFairyLightsLowRight,
+		Weight		= 1,
+		DisplayName		= Low Christmas Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_37,
+	}
+
+	item ivery_MetallicFairyLightsLow
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_MetallicFairyLightsLow,
+		Weight		= 1,
+		DisplayName		= Low Metallic Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_40,
+	}
+
+	item ivery_MetallicFairyLightsLowRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_MetallicFairyLightsLowRight,
+		Weight		= 1,
+		DisplayName		= Low Metallic Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_41,
+	}
+
+	item ivery_WhiteChristmasFairyLightsLow
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteChristmasFairyLightsLow,
+		Weight		= 1,
+		DisplayName		= Low White Christmas Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_44,
+	}
+
+	item ivery_WhiteChristmasFairyLightsLowRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteChristmasFairyLightsLowRight,
+		Weight		= 1,
+		DisplayName		= Low White Christmas Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_45,
+	}
+
+	item ivery_WhiteBulbFairyLightsHigh
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteBulbFairyLightsHigh,
+		Weight		= 1,
+		DisplayName		= High White Bulb Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_48,
+	}
+
+	item ivery_WhiteBulbFairyLightsHighRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteBulbFairyLightsHighRight,
+		Weight		= 1,
+		DisplayName		= High White Bulb Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_49,
+	}
+
+	item ivery_ChristmasFairyLightsHigh
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ChristmasFairyLightsHigh,
+		Weight		= 1,
+		DisplayName		= High Christmas Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_52,
+	}
+
+	item ivery_ChristmasFairyLightsHighRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_ChristmasFairyLightsHighRight,
+		Weight		= 1,
+		DisplayName		= High Christmas Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_53,
+	}
+
+	item ivery_MetallicFairyLightsHigh
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_MetallicFairyLightsHigh,
+		Weight		= 1,
+		DisplayName		= High Metallic Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_56,
+	}
+
+	item ivery_MetallicFairyLightsHighRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_MetallicFairyLightsHighRight,
+		Weight		= 1,
+		DisplayName		= High Metallic Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_57,
+	}
+
+	item ivery_WhiteChristmasFairyLightsHigh
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteChristmasFairyLightsHigh,
+		Weight		= 1,
+		DisplayName		= High White Christmas Fairy Lights,
+		WorldObjectSprite	= ivery_christmas_60,
+	}
+
+	item ivery_WhiteChristmasFairyLightsHighRight
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_WhiteChristmasFairyLightsHighRight,
+		Weight		= 1,
+		DisplayName		= High White Christmas Fairy Lights - Right,
+		WorldObjectSprite	= ivery_christmas_61,
+	}
+
+	item ivery_HanukkahMenorah
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HanukkahMenorah,
+        	Weight              = 1.0,
+        	DisplayName        = Menorah,
+        	WorldObjectSprite    = ivery_christmas_64,
+    	}
+
+	item ivery_HanukkahFlameDay1
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HanukkahFlameDay1,
+        	Weight              = 1.0,
+        	DisplayName        = Menorah Flame Day 1,
+        	WorldObjectSprite    = ivery_christmas_68,
+    	}
+
+	item ivery_HanukkahFlameDay2
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HanukkahFlameDay2,
+        	Weight              = 1.0,
+        	DisplayName        = Menorah Flame Day 2,
+        	WorldObjectSprite    = ivery_christmas_72,
+    	}
+
+	item ivery_HanukkahFlameDay3
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HanukkahFlameDay3,
+        	Weight              = 1.0,
+        	DisplayName        = Menorah Flame Day 3,
+        	WorldObjectSprite    = ivery_christmas_76,
+    	}
+
+	item ivery_HanukkahFlameDay4
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HanukkahFlameDay4,
+        	Weight              = 1.0,
+        	DisplayName        = Menorah Flame Day 4,
+        	WorldObjectSprite    = ivery_christmas_80,
+    	}
+
+
+	item ivery_HanukkahFlameDay5
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HanukkahFlameDay5,
+        	Weight              = 1.0,
+        	DisplayName        = Menorah Flame Day 5,
+        	WorldObjectSprite    = ivery_christmas_84,
+    	}
+
+	item ivery_HanukkahFlameDay6
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HanukkahFlameDay6,
+        	Weight              = 1.0,
+        	DisplayName        = Menorah Flame Day 6,
+        	WorldObjectSprite    = ivery_christmas_88,
+    	}
+
+	item ivery_HanukkahFlameDay7
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HanukkahFlameDay7,
+        	Weight              = 1.0,
+        	DisplayName        = Menorah Flame Day 7,
+        	WorldObjectSprite    = ivery_christmas_92,
+    	}
+
+	item ivery_HanukkahFlameDay8
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HanukkahFlameDay8,
+        	Weight              = 1.0,
+        	DisplayName        = Menorah Flame Day 8,
+        	WorldObjectSprite    = ivery_christmas_96,
+    	}
+
+	/************************Rugs************************/
+
+	item ivery_LightDiamondRug_2PerRug
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_LightDiamondRug_2PerRug,
+		Weight			= 1.0,
+		DisplayName		= Light Diamond Rug,
+		WorldObjectSprite	= ivery_rugs_01_2,
+	}
+
+	item ivery_LightDiamondRugNS_4PerRug
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_LightDiamondRugNS_4PerRug,
+		Weight			= 1.0,
+		DisplayName		= Light Diamond Rug NS,
+		WorldObjectSprite	= ivery_rugs_01_0,
+	}
+
+	item ivery_LightDiamondRugEW_4PerRug
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_LightDiamondRugEW_4PerRug,
+		Weight			= 1.0,
+		DisplayName		= Light Diamond Rug EW,
+		WorldObjectSprite	= ivery_rugs_01_8,
+	}
+	
+	item ivery_RedRug_2PerRug
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_RedRug_2PerRug,
+		Weight			= 1.0,
+		DisplayName		= Red Rug,
+		WorldObjectSprite	= ivery_rugs_01_18,
+	}
+
+	item ivery_RedRugNS_4PerRug
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_RedRugNS_4PerRug,
+		Weight			= 1.0,
+		DisplayName		= Red Rug NS,
+		WorldObjectSprite	= ivery_rugs_01_16,
+	}
+
+	item ivery_RedRugEW_4PerRug
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_RedRugEW_4PerRug,
+		Weight			= 1.0,
+		DisplayName		= Red Rug EW,
+		WorldObjectSprite	= ivery_rugs_01_24,
+	}
+
+	item ivery_BlueRug_2PerRug
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_BlueRug_2PerRug,
+		Weight			= 1.0,
+		DisplayName		= Blue Rug,
+		WorldObjectSprite	= ivery_rugs_01_34,
+	}
+
+	item ivery_BlueRugNS_4PerRug
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_BlueRugNS_4PerRug,
+		Weight			= 1.0,
+		DisplayName		= Blue Rug NS,
+		WorldObjectSprite	= ivery_rugs_01_32,
+	}
+
+	item ivery_BlueRugEW_4PerRug
+	{
+		DisplayCategory = Furniture,
+		Type			= Moveable,
+		Icon			= ivery_BlueRugEW_4PerRug,
+		Weight			= 1.0,
+		DisplayName		= Blue Rug EW,
+		WorldObjectSprite	= ivery_rugs_01_40,
+	}
+
+	/************************ClutterDomestic************************/
+
+	item ivery_FoldedShirts
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_FoldedShirts,
+        	Weight              = 0.1,
+        	DisplayName        = Folded Shirts,
+        	WorldObjectSprite    = ivery_clutter_domestic_0,
+    	}
+
+	item ivery_FoldedShirt
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_FoldedShirt,
+        	Weight              = 0.1,
+        	DisplayName        = Folded Shirt,
+        	WorldObjectSprite    = ivery_clutter_domestic_2,
+    	}
+	
+	item ivery_PlacedSneakers
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_PlacedSneakers,
+        	Weight              = 0.1,
+        	DisplayName        = Placed Sneakers,
+        	WorldObjectSprite    = ivery_clutter_domestic_4,
+    	}
+	
+	item ivery_PlacedRainboots
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_PlacedRainboots,
+        	Weight              = 0.1,
+        	DisplayName        = Placed Rainboots,
+        	WorldObjectSprite    = ivery_clutter_domestic_6,
+    	}
+
+	item ivery_RowOfBoots
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_RowOfBoots,
+        	Weight              = 0.1,
+        	DisplayName        = Row of Boots,
+        	WorldObjectSprite    = ivery_clutter_domestic_8,
+    	}
+
+	item ivery_RowOfShoes
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_RowOfShoes,
+        	Weight              = 0.1,
+        	DisplayName        = Row Of Shoes,
+        	WorldObjectSprite    = ivery_clutter_domestic_10,
+    	}
+	
+	item ivery_OfficeSupplies
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_OfficeSupplies,
+        	Weight              = 0.1,
+        	DisplayName        = Office Supplies,
+        	WorldObjectSprite    = ivery_clutter_domestic_12,
+    	}
+	
+	item ivery_PrinterPaper
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_PrinterPaper,
+        	Weight              = 0.1,
+        	DisplayName        = Printer Paper,
+        	WorldObjectSprite    = ivery_clutter_domestic_14,
+    	}
+
+	item ivery_PapersAndPencils
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_PapersAndPencils,
+        	Weight              = 0.1,
+        	DisplayName        = Papers And Pencils,
+        	WorldObjectSprite    = ivery_clutter_domestic_16,
+    	}
+
+	item ivery_ScatteredNotes
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_ScatteredNotes,
+        	Weight              = 0.1,
+        	DisplayName        = Scattered Notes,
+        	WorldObjectSprite    = ivery_clutter_domestic_18,
+    	}
+	
+	item ivery_PlacedBills
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_PlacedBills,
+        	Weight              = 0.1,
+        	DisplayName        = Placed Bills,
+        	WorldObjectSprite    = ivery_clutter_domestic_20,
+    	}
+	
+	item ivery_StackedReports
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_StackedReports,
+        	Weight              = 0.1,
+        	DisplayName        = Stacked Reports,
+        	WorldObjectSprite    = ivery_clutter_domestic_22,
+    	}
+
+	item ivery_BoxOfNotes
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BoxOfNotes,
+        	Weight              = 0.1,
+        	DisplayName        = Box of Notes,
+        	WorldObjectSprite    = ivery_clutter_domestic_24,
+    	}
+
+	item ivery_BoundReports
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BoundReports,
+        	Weight              = 0.1,
+        	DisplayName        = Bound Reports,
+        	WorldObjectSprite    = ivery_clutter_domestic_26,
+    	}
+	
+	item ivery_NotepadKit
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_NotepadKit,
+        	Weight              = 0.1,
+        	DisplayName        = Notepad Kit,
+        	WorldObjectSprite    = ivery_clutter_domestic_28,
+    	}
+	
+	item ivery_BoundNotes
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BoundNotes,
+        	Weight              = 0.1,
+        	DisplayName        = Bound Notes,
+        	WorldObjectSprite    = ivery_clutter_domestic_30,
+    	}
+
+	item ivery_WritingDrafts
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_WritingDrafts,
+        	Weight              = 0.1,
+        	DisplayName        = Writing Drafts,
+        	WorldObjectSprite    = ivery_clutter_domestic_32,
+    	}
+
+	item ivery_ManilaFolders
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_ManilaFolders,
+        	Weight              = 0.1,
+        	DisplayName        = Manila Folders,
+        	WorldObjectSprite    = ivery_clutter_domestic_34,
+    	}
+	
+	item ivery_TeacherSupplies
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_TeacherSupplies,
+        	Weight              = 0.1,
+        	DisplayName        = Teacher Supplies,
+        	WorldObjectSprite    = ivery_clutter_domestic_36,
+    	}
+	
+	item ivery_GradedEssays
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_GradedEssays,
+        	Weight              = 0.1,
+        	DisplayName        = Graded Essays,
+        	WorldObjectSprite    = ivery_clutter_domestic_38,
+    	}
+
+	item ivery_PencilDrawing
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_PencilDrawing,
+        	Weight              = 0.1,
+        	DisplayName        = Pencil Drawing,
+        	WorldObjectSprite    = ivery_clutter_domestic_40,
+    	}
+	
+	item ivery_CrayonDrawing
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_CrayonDrawing,
+        	Weight              = 0.1,
+        	DisplayName        = Crayon Drawing,
+        	WorldObjectSprite    = ivery_clutter_domestic_42,
+    	}
+	
+	item ivery_PlacedRulers
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_PlacedRulers,
+        	Weight              = 0.1,
+        	DisplayName        = Placed Rulers,
+        	WorldObjectSprite    = ivery_clutter_domestic_44,
+    	}
+
+	/************************ClutterIndustrial************************/
+
+	item ivery_PainterBox
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_PainterBox,
+        	Weight              = 0.1,
+        	DisplayName        = Painter Box,
+        	WorldObjectSprite    = ivery_clutter_industrial_0,
+    	}
+
+	item ivery_PainterKit
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_PainterKit,
+        	Weight              = 0.1,
+        	DisplayName        = Painter Kit,
+        	WorldObjectSprite    = ivery_clutter_industrial_2,
+    	}
+
+	item ivery_ClosetKit
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_ClosetKit,
+        	Weight              = 0.1,
+        	DisplayName        = Closet Kit,
+        	WorldObjectSprite    = ivery_clutter_industrial_4,
+    	}
+
+	item ivery_ChefSupplies
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_ChefSupplies,
+        	Weight              = 0.1,
+        	DisplayName        = Chef Supplies,
+        	WorldObjectSprite    = ivery_clutter_industrial_6,
+    	}
+	
+	item ivery_CookingKit
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_CookingKit,
+        	Weight              = 0.1,
+        	DisplayName        = Cooking Kit,
+        	WorldObjectSprite    = ivery_clutter_industrial_8,
+    	}
+
+	item ivery_OldCookware
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_OldCookware,
+        	Weight              = 0.1,
+        	DisplayName        = Old Cookware,
+        	WorldObjectSprite    = ivery_clutter_industrial_10,
+    	}
+
+	item ivery_BarSupplies
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BarSupplies,
+        	Weight              = 0.1,
+        	DisplayName        = Bar Supplies,
+        	WorldObjectSprite    = ivery_clutter_industrial_12,
+    	}
+
+	item ivery_StorageBoxes
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_StorageBoxes,
+        	Weight              = 0.1,
+        	DisplayName        = Storage Boxes,
+        	WorldObjectSprite    = ivery_clutter_industrial_14,
+    	}
+
+	item ivery_ConstructionKit
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_ConstructionKit,
+        	Weight              = 0.1,
+        	DisplayName        = Construction Kit,
+        	WorldObjectSprite    = ivery_clutter_industrial_16,
+    	}
+
+	item ivery_DisplayedGoods
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_DisplayedGoods,
+        	Weight              = 0.1,
+        	DisplayName        = Displayed Goods,
+        	WorldObjectSprite    = ivery_clutter_industrial_18,
+    	}
+
+	item ivery_FoodStorage
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_FoodStorage,
+        	Weight              = 0.1,
+        	DisplayName        = Food Storage,
+        	WorldObjectSprite    = ivery_clutter_industrial_20,
+    	}
+
+	item ivery_JarStorage
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_JarStorage,
+        	Weight              = 0.1,
+        	DisplayName        = Jar Storage,
+        	WorldObjectSprite    = ivery_clutter_industrial_22,
+    	}
+
+	item ivery_RowOfJars
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_RowOfJars,
+        	Weight              = 0.1,
+        	DisplayName        = Row of Jars,
+        	WorldObjectSprite    = ivery_clutter_industrial_24,
+    	}
+
+	item ivery_MiscSupplies
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_MiscSupplies,
+        	Weight              = 0.1,
+        	DisplayName        = Misc Supplies,
+        	WorldObjectSprite    = ivery_clutter_industrial_26,
+    	}
+
+	item ivery_BrandSupplies
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BrandSupplies,
+        	Weight              = 0.1,
+        	DisplayName        = Brand Supplies,
+        	WorldObjectSprite    = ivery_clutter_industrial_30,
+    	}
+
+	item ivery_MechanicKit
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_MechanicKit,
+        	Weight              = 0.1,
+        	DisplayName        = Mechanic Kit,
+        	WorldObjectSprite    = ivery_clutter_industrial_34,
+    	}
+
+	/************************ClutterLibrary************************/
+
+	item ivery_StackOfFables
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_StackOfFables,
+        	Weight              = 0.1,
+        	DisplayName        = Stack of Fables,
+        	WorldObjectSprite    = ivery_clutter_library_0,
+    	}
+
+	item ivery_RowOfFables
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_RowOfFables,
+        	Weight              = 0.1,
+        	DisplayName        = Row of Fables,
+        	WorldObjectSprite    = ivery_clutter_library_2,
+    	}
+
+	item ivery_JewelryBox
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_JewelryBox,
+        	Weight              = 0.1,
+        	DisplayName        = Jewelry Box,
+        	WorldObjectSprite    = ivery_clutter_library_4,
+    	}
+
+	item ivery_BoxAndBooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BoxAndBooks,
+        	Weight              = 0.1,
+        	DisplayName        = Box and Books,
+        	WorldObjectSprite    = ivery_clutter_library_8,
+    	}
+
+	item ivery_OfficeBooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_OfficeBooks,
+        	Weight              = 0.1,
+        	DisplayName        = Office Books,
+        	WorldObjectSprite    = ivery_clutter_library_12,
+    	}
+
+	item ivery_LeaningBooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LeaningBooks,
+        	Weight              = 0.1,
+        	DisplayName        = Leaning Books,
+        	WorldObjectSprite    = ivery_clutter_library_14,
+    	}
+
+	item ivery_FramedPhoto
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_FramedPhoto,
+        	Weight              = 0.1,
+        	DisplayName        = Framed Photo,
+        	WorldObjectSprite    = ivery_clutter_library_16,
+    	}
+
+	item ivery_RowOfTextbooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_RowOfTextbooks,
+        	Weight              = 0.1,
+        	DisplayName        = Row of Textbooks,
+        	WorldObjectSprite    = ivery_clutter_library_20,
+    	}
+
+	item ivery_OldTextbooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_OldTextbooks,
+        	Weight              = 0.1,
+        	DisplayName        = Old Textbooks,
+        	WorldObjectSprite    = ivery_clutter_library_22,
+    	}
+
+	item ivery_FallenBooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_FallenBooks,
+        	Weight              = 0.1,
+        	DisplayName        = Fallen Books,
+        	WorldObjectSprite    = ivery_clutter_library_24,
+    	}
+
+	item ivery_MessyBooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_MessyBooks,
+        	Weight              = 0.1,
+        	DisplayName        = Messy Books,
+        	WorldObjectSprite    = ivery_clutter_library_26,
+    	}
+
+	item ivery_ProfessorKit
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_ProfessorKit,
+        	Weight              = 0.1,
+        	DisplayName        = Professor Kit,
+        	WorldObjectSprite    = ivery_clutter_library_28,
+    	}
+
+	item ivery_OldGlobe
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_OldGlobe,
+        	Weight              = 0.1,
+        	DisplayName        = Old Globe,
+        	WorldObjectSprite    = ivery_clutter_library_30,
+    	}
+
+	item ivery_NewBooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_NewBooks,
+        	Weight              = 0.1,
+        	DisplayName        = New Books,
+        	WorldObjectSprite    = ivery_clutter_library_32,
+    	}
+
+	item ivery_CollegeNotes
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_CollegeNotes,
+        	Weight              = 0.1,
+        	DisplayName        = College Notes,
+        	WorldObjectSprite    = ivery_clutter_library_34,
+    	}
+
+	item ivery_ArtBooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_ArtBooks,
+        	Weight              = 0.1,
+        	DisplayName        = Art Books,
+        	WorldObjectSprite    = ivery_clutter_library_36,
+    	}
+
+	item ivery_ColorfulBooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_ColorfulBooks,
+        	Weight              = 0.1,
+        	DisplayName        = Colorful Books,
+        	WorldObjectSprite    = ivery_clutter_library_38,
+    	}
+
+	item ivery_HistoryBooks
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_HistoryBooks,
+        	Weight              = 0.1,
+        	DisplayName        = History Books,
+        	WorldObjectSprite    = ivery_clutter_library_40,
+    	}
+
+	item ivery_MountedCommBoard
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_MountedCommBoard,
+        	Weight              = 2.0,
+        	DisplayName        = Mounted Community Board,
+        	WorldObjectSprite    = ivery_community_01_0,
+    	}
+
+	item ivery_WoodenCommBoard
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_WoodenCommBoard,
+        	Weight              = 2.0,
+        	DisplayName        = Wooden Community Board,
+        	WorldObjectSprite    = ivery_community_01_4,
+    	}
+
+	item ivery_WeddingArch
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_WeddingArch,
+        	Weight              = 5.0,
+        	DisplayName        = Arch with Ribbons,
+        	WorldObjectSprite    = ivery_community_01_16,
+    	}
+
+	item ivery_BarbedWireLow
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BarbedWireLow,
+        	Weight              = 1.0,
+        	DisplayName        = Low Barbed Wire,
+        	WorldObjectSprite    = ivery_community_01_32,
+    	}
+
+	item ivery_BarbedWireLowCorner
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BarbedWireLowCorner,
+        	Weight              = 1.0,
+        	DisplayName        = Low Barbed Wire - Corner,
+        	WorldObjectSprite    = ivery_community_01_34,
+    	}
+
+	item ivery_BarbedWireHigh
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BarbedWireHigh,
+        	Weight              = 1.0,
+        	DisplayName        = High Barbed Wire,
+        	WorldObjectSprite    = ivery_community_01_35,
+    	}
+
+	item ivery_BarbedWireHighCorner
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BarbedWireHighCorner,
+        	Weight              = 1.0,
+        	DisplayName        = High Barbed Wire - Corner,
+        	WorldObjectSprite    = ivery_community_01_37,
+    	}
+
+	item ivery_CandleUnlit
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_CandleUnlit,
+        	Weight              = 1.0,
+        	DisplayName        = Unlit Candle,
+        	WorldObjectSprite    = ivery_community_01_38,
+    	}
+
+	item ivery_CandleLit
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_CandleLit,
+        	Weight              = 1.0,
+        	DisplayName        = Lit Candle,
+        	WorldObjectSprite    = ivery_community_01_39,
+    	}
+
+	item ivery_ScrapWindowBarrier
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_ScrapWindowBarrier,
+        	Weight              = 1.0,
+        	DisplayName        = Scrap Window Barrier,
+        	WorldObjectSprite    = ivery_community_01_28,
+    	}
+
+	item ivery_LongCurtainLeftGold
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftGold,
+        	Weight              = 1.0,
+        	DisplayName        = Gold Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_0,
+    	}
+
+	item ivery_LongCurtainRightGold
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightGold,
+        	Weight              = 1.0,
+        	DisplayName        = Gold Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_1,
+    	}
+
+	item ivery_LongCurtainLeftWhite
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftWhite,
+        	Weight              = 1.0,
+        	DisplayName        = White Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_8,
+    	}
+
+	item ivery_LongCurtainRightWhite
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightWhite,
+        	Weight              = 1.0,
+        	DisplayName        = White Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_9,
+    	}
+
+	item ivery_LongCurtainLeftBlue
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftBlue,
+        	Weight              = 1.0,
+        	DisplayName        = Blue Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_16,
+    	}
+
+	item ivery_LongCurtainRightBlue
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightBlue,
+        	Weight              = 1.0,
+        	DisplayName        = Blue Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_17,
+    	}
+
+	item ivery_LongCurtainLeftPink
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftPink,
+        	Weight              = 1.0,
+        	DisplayName        = Pink Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_24,
+    	}
+
+	item ivery_LongCurtainRightPink
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightPink,
+        	Weight              = 1.0,
+        	DisplayName        = Pink Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_25,
+    	}
+
+	item ivery_LongCurtainLeftRed
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftRed,
+        	Weight              = 1.0,
+        	DisplayName        = Red Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_32,
+    	}
+
+	item ivery_LongCurtainRightRed
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightRed,
+        	Weight              = 1.0,
+        	DisplayName        = Red Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_33,
+    	}
+
+	item ivery_LongCurtainLeftTan
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftTan,
+        	Weight              = 1.0,
+        	DisplayName        = Tan Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_40,
+    	}
+
+	item ivery_LongCurtainRightTan
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightTan,
+        	Weight              = 1.0,
+        	DisplayName        = Tan Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_41,
+    	}
+
+	item ivery_LongCurtainLeftYellow
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftYellow,
+        	Weight              = 1.0,
+        	DisplayName        = Yellow Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_48,
+    	}
+
+	item ivery_LongCurtainRightYellow
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightYellow,
+        	Weight              = 1.0,
+        	DisplayName        = Yellow Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_49,
+    	}
+
+	item ivery_LongCurtainLeftGreen
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftGreen,
+        	Weight              = 1.0,
+        	DisplayName        = Green Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_56,
+    	}
+
+	item ivery_LongCurtainRightGreen
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightGreen,
+        	Weight              = 1.0,
+        	DisplayName        = Green Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_57,
+    	}
+
+	item ivery_LongCurtainLeftBlack
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftBlack,
+        	Weight              = 1.0,
+        	DisplayName        = Black Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_64,
+    	}
+
+	item ivery_LongCurtainRightBlack
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightBlack,
+        	Weight              = 1.0,
+        	DisplayName        = Black Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_65,
+    	}
+
+	item ivery_LongCurtainLeftBrown
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainLeftBrown,
+        	Weight              = 1.0,
+        	DisplayName        = Brown Long Curtain - Left,
+        	WorldObjectSprite    = ivery_curtains_01_72,
+    	}
+
+	item ivery_LongCurtainRightBrown
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_LongCurtainRightBrown,
+        	Weight              = 1.0,
+        	DisplayName        = Brown Long Curtain - Right,
+        	WorldObjectSprite    = ivery_curtains_01_73,
+    	}
+
+	item ivery_BeadCurtainGold
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainGold,
+        	Weight              = 1.0,
+        	DisplayName        = Gold Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_0,
+    	}
+
+	item ivery_BeadCurtainTan
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainTan,
+        	Weight              = 1.0,
+        	DisplayName        = Tan Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_4,
+    	}
+
+	item ivery_BeadCurtainWhite
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainWhite,
+        	Weight              = 1.0,
+        	DisplayName        = White Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_8,
+    	}
+
+	item ivery_BeadCurtainYellow
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainYellow,
+        	Weight              = 1.0,
+        	DisplayName        = Yellow Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_12,
+    	}
+
+	item ivery_BeadCurtainBeige
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainBeige,
+        	Weight              = 1.0,
+        	DisplayName        = Beige Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_16,
+    	}
+
+	item ivery_BeadCurtainGreen
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainGreen,
+        	Weight              = 1.0,
+        	DisplayName        = Green Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_20,
+    	}
+
+	item ivery_BeadCurtainBlue
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainBlue,
+        	Weight              = 1.0,
+        	DisplayName        = Blue Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_24,
+    	}
+
+	item ivery_BeadCurtainBlack
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainBlack,
+        	Weight              = 1.0,
+        	DisplayName        = Black Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_28,
+    	}
+
+	item ivery_BeadCurtainPink
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainPink,
+        	Weight              = 1.0,
+        	DisplayName        = Pink Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_32,
+    	}
+
+	item ivery_BeadCurtainBrown
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainBrown,
+        	Weight              = 1.0,
+        	DisplayName        = Brown Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_36,
+    	}
+
+	item ivery_BeadCurtainRed
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainRed,
+        	Weight              = 1.0,
+        	DisplayName        = Red Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_40,
+    	}
+
+	item ivery_BeadCurtainRustic
+    	{
+        	DisplayCategory = Furniture,
+        	Type            = Moveable,
+        	Icon            = ivery_BeadCurtainRustic,
+        	Weight              = 1.0,
+        	DisplayName        = Rustic Bead Curtain,
+        	WorldObjectSprite    = ivery_curtains_02_44,
+    	}
+
+}
+

@@ -1,0 +1,8 @@
+require "Definitions/ContainerButtonsIcons"
+
+ContainerButtonIcons = ContainerButtonIcons or {}
+
+local t = {}
+t.PaperTray = getTexture("media/ui/Container_PaperTray.png")
+
+ContainerButtonIcons.PaperTray = t.PaperTray

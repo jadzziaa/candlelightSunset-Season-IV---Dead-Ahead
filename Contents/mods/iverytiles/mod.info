@@ -1,0 +1,6 @@
+name=ivery's Tiles
+id=iverytiles_01
+description=A pack of quality of life tiles for Project Zomboid
+poster=poster1.png
+pack=ivery_tiles
+tiledef=ivery_tiles_tiledefinitions 511

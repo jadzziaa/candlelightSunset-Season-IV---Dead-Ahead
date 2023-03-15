@@ -1,0 +1,6 @@
+name=throttlekitty's tiles
+id=tkTiles_01
+description=A resource of tile sprites for custom maps.
+poster=poster.png
+pack=tkTiles_01
+tiledef=tkTiles_01 830

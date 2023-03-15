@@ -1,0 +1,1806 @@
+module ivery
+{
+	/************************Furniture************************/
+
+	recipe Build Teatray
+	{
+		Plank,
+	   	keep Saw/GardenSaw,
+
+		Result:ivery_TeaTray,
+		Sound:Hammering,
+		Time:20.0,
+		OnGiveXP:Recipe.iveryXP.WoodWork5,
+		Category:Carpentry,
+	}
+
+	recipe Build Crib
+	{
+		Plank=3,
+		Nails=5,
+		keep Hammer,
+	   	keep Saw/GardenSaw,
+
+		Result:ivery_Crib,
+		Sound:Hammering,
+		Time:20.0,
+		OnGiveXP:Recipe.iveryXP.WoodWork10,
+		Category:Carpentry,
+		SkillRequired:Woodwork=2,
+	}
+
+	recipe Craft Modern Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_ModernCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Modern Small Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_ModernSmallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Dark Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_DarkCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Dark Small Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_DarkSmallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Oak Small Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_OakSmallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Green Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_GreenCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Green Small Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_GreenSmallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Wooden Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WoodenCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Wooden Small Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WoodenSmallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Birchwood Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_BirchwoodCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Birchwood Small Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_BirchwoodSmallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Steel Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_SteelCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Steel Small Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_SteelSmallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft White Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WhiteCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft White Small Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WhiteSmallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Modern Curtained Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_ModernCurtainedCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Modern Corner Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_ModernCornerCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Modern Tall Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_ModernTallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Dark Curtained Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_DarkCurtainedCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Dark Corner Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_DarkCornerCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Dark Tall Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_DarkTallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Oak Curtained Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_OakCurtainedCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Oak Corner Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_OakCornerCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Oak Tall Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_OakTallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Green Curtained Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_GreenCurtainedCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Green Corner Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_GreenCornerCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Green Tall Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_GreenTallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Wooden Curtained Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WoodenCurtainedCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Wooden Corner Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WoodenCornerCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Wooden Tall Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WoodenTallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Birchwood Curtained Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_BirchwoodCurtainedCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Birchwood Corner Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_BirchwoodCornerCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Birchwood Tall Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_Birchwood Tall Cabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Steel Curtained Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_SteelCurtainedCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Steel Corner Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_SteelCornerCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Steel Tall Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_SteelTallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft White Curtained Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WhiteCurtainedCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft White Corner Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WhiteCornerCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft White Tall Cabinet
+	{
+		Plank=5,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_WhiteTallCabinet,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Pet Bowl Light
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_LightPetBowl,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Fish Bowl
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_PetCageFish,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Pet Bowl Dark
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_DarkPetBowl,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Lizard Tank
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_PetCageLizard,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Pet Bowl Modern
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_ModernPetBowl,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Frog Tank
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_PetCageFrog,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Pet Bowl Light Blue
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_LightBluePetBowl,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Hamster Cage
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_PetCageHamster,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Pet Bowl Red
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_RedPetBowl,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Cat Tree
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_PetTree,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Pet Bowl Purple
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_PurplePetBowl,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Scratching Post
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_PetScratchingPost,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Pet Bowl Green
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_GreenPetBowl,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Bird Cage
+	{
+		Plank=1,
+		keep Hammer,
+
+		Result:ivery_PetCageBird,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Christmas Tree
+	{
+		Log=2,
+		keep Hammer,
+
+		Result:ivery_ChristmasTree,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.50,
+		Category:Carpentry,
+	}
+
+	recipe Craft Colorful Ornaments
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_ColorfulOrnaments,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Gold String Ornaments
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_GoldStringOrnaments,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Metallic Ornaments
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_MetallicOrnaments,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Star Ornaments
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_StarOrnaments,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Silver String Ornaments
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_SilverStringOrnaments,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Red Bow Ornaments
+	{
+		Sheet=5,
+		keep Hammer,
+
+		Result:ivery_RedBowOrnaments,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Christmas Star Silver
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_SilverChristmasStar,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Christmas Star Gold
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_GoldChristmasStar,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Christmas Wreath
+	{
+		Sheet=2,
+		TreeBranch=5,
+		keep Hammer,
+
+		Result:ivery_ChristmasWreath,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft Metallic Christmas Wreath
+	{
+		Sheet=2,
+		TreeBranch=5,
+		keep Hammer,
+
+		Result:ivery_MetallicChristmasWreath,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Craft White Bulb Fairy Lights
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteBulbFairyLights,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Bulb Fairy Lights - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteBulbFairyLightsRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Christmas Fairy Lights
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_ChristmasFairyLights,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Christmas Fairy Lights - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_ChristmasFairyLightsRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Metallic Fairy Lights
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_MetallicFairyLights,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Metallic Fairy Lights - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_MetallicFairyLightsRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Christmas Fairy Lights
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteChristmasFairyLights,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Christmas Fairy Lights - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteChristmasFairyLightsRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Bulb Fairy Lights Low
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteBulbFairyLightsLow,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Bulb Fairy Lights Low - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteBulbFairyLightsLowRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Christmas Fairy Lights Low
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_ChristmasFairyLightsLow,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Christmas Fairy Lights Low - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_ChristmasFairyLightsLowRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Metallic Fairy Lights Low
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_MetallicFairyLightsLow,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Metallic Fairy Lights Low - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_MetallicFairyLightsLowRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Christmas Fairy Light Low
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteChristmasFairyLightsLow,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Christmas Fairy Light Low - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteChristmasFairyLightsLowRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Bulb Fairy Lights High
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteBulbFairyLightsHigh,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Bulb Fairy Lights High - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteBulbFairyLightsHighRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Christmas Fairy Lights High
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_ChristmasFairyLightsHigh,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Christmas Fairy Lights High - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_ChristmasFairyLightsHighRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Metallic Fairy Lights High
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_MetallicFairyLightsHigh,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft Metallic Fairy Lights High - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_MetallicFairyLightsHighRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Christmas Fairy Lights High
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteChristmasFairyLightsHigh,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+	recipe Craft White Christmas Fairy Lights High - Right
+	{
+		ElectronicsScrap=5,
+		keep Hammer,
+
+		Result:ivery_WhiteChristmasFairyLightsHighRight,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Electronics,
+	}
+
+
+	/************************Organization************************/
+
+	recipe Organize Your Clothing
+	{
+		SheetPaper2,
+		keep Pencil/Pen/RedPen/BluePen,
+
+		Result:ivery_FoldedShirts,
+		OnCreate:Recipe.OnCreate.ClutterClothing,
+		Time:30.0,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Category:Juryrig,
+	}
+
+	recipe Organize Your Office
+	{
+		SheetPaper2,
+		keep Pencil/Pen/RedPen/BluePen,
+
+		Result:ivery_OfficeSupplies,
+		OnCreate:Recipe.OnCreate.ClutterOffice,
+		Time:30.0,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Category:Juryrig,
+	}
+
+	recipe Organize Your Kitchen
+	{
+		SheetPaper2,
+		keep Pencil/Pen/RedPen/BluePen,
+
+		Result:ivery_ChefSupplies,
+		OnCreate:Recipe.OnCreate.ClutterKitchen,
+		Time:30.0,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Category:Juryrig,
+	}
+
+	recipe Organize Your Garage
+	{
+		SheetPaper2,
+		keep Pencil/Pen/RedPen/BluePen,
+
+		Result:ivery_PainterBox,
+		OnCreate:Recipe.OnCreate.ClutterGarage,
+		Time:30.0,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Category:Juryrig,
+	}
+
+	recipe Organize Your Library
+	{
+		SheetPaper2,
+		keep Pencil/Pen/RedPen/BluePen,
+
+		Result:ivery_StackOfFables,
+		OnCreate:Recipe.OnCreate.ClutterLibrary,
+		Time:30.0,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Category:Juryrig,
+	}
+
+	recipe Organize Your Bedroom
+	{
+		SheetPaper2,
+		keep Pencil/Pen/RedPen/BluePen,
+
+		Result:ivery_ClosetKit,
+		OnCreate:Recipe.OnCreate.ClutterBedroom,
+		Time:30.0,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Category:Juryrig,
+	}
+	
+
+	/************************Tailoring************************/
+
+	recipe Weave Light Diamond Rug - North/South
+	{
+		Yarn=10,
+		keep KnittingNeedles,
+
+		Result:ivery_LightDiamondRug_2PerRug,
+		OnCreate:Recipe.OnCreate.LightDiamondRugNS,
+		NeedToBeLearn:true,
+		Time:60.0,
+		OnGiveXP:Recipe.DireXP.Tailoring50,
+		Category:Tailoring,
+		SkillRequired:Tailoring=5,
+	}
+
+	recipe Weave Light Diamond Rug - East/West
+	{
+		Yarn=10,
+		keep KnittingNeedles,
+
+		Result:ivery_LightDiamondRug_2PerRug,
+		OnCreate:Recipe.OnCreate.LightDiamondRugEW,
+		NeedToBeLearn:true,
+		Time:60.0,
+		OnGiveXP:Recipe.DireXP.Tailoring50,
+		Category:Tailoring,
+		SkillRequired:Tailoring=5,
+	}
+
+	recipe Weave Red Rug - North/South
+	{
+		Yarn=10,
+		keep KnittingNeedles,
+
+		Result:ivery_RedRug_2PerRug,
+		OnCreate:Recipe.OnCreate.RedRugNS,
+		NeedToBeLearn:true,
+		Time:60.0,
+		OnGiveXP:Recipe.DireXP.Tailoring50,
+		Category:Tailoring,
+		SkillRequired:Tailoring=5,
+	}
+
+	recipe Weave Red Rug - East/West
+	{
+		Yarn=10,
+		keep KnittingNeedles,
+
+		Result:ivery_RedRug_2PerRug,
+		OnCreate:Recipe.OnCreate.RedRugEW,
+		NeedToBeLearn:true,
+		Time:60.0,
+		OnGiveXP:Recipe.DireXP.Tailoring50,
+		Category:Tailoring,
+		SkillRequired:Tailoring=5,
+	}
+
+	recipe Weave Blue Rug - North/South
+	{
+		Yarn=10,
+		keep KnittingNeedles,
+
+		Result:ivery_BlueRug_2PerRug,
+		OnCreate:Recipe.OnCreate.BlueRugNS,
+		NeedToBeLearn:true,
+		Time:60.0,
+		OnGiveXP:Recipe.DireXP.Tailoring50,
+		Category:Tailoring,
+		SkillRequired:Tailoring=5,
+	}
+
+	recipe Weave Blue Rug - East/West
+	{
+		Yarn=10,
+		keep KnittingNeedles,
+
+		Result:ivery_BlueRug_2PerRug,
+		OnCreate:Recipe.OnCreate.BlueRugEW,
+		NeedToBeLearn:true,
+		Time:60.0,
+		OnGiveXP:Recipe.DireXP.Tailoring50,
+		Category:Tailoring,
+		SkillRequired:Tailoring=5,
+	}
+
+	recipe Sew Long Gold Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftGold,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Gold Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightGold,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long White Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftWhite,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long White Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightWhite,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Blue Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftBlue,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Blue Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightBlue,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Pink Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftPink,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Pink Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightPink,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Red Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftRed,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Red Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightRed,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Tan Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftTan,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Tan Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightTan,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Yellow Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftYellow,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Yellow Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightYellow,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Green Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftGreen,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Green Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightGreen,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Black Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftBlack,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Black Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightBlack,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Brown Curtain - Left
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainLeftBrown,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Sew Long Brown Curtain - Right
+	{
+		Sheet=2,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_LongCurtainRightBrown,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Gold Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainGold,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Tan Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainTan,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble White Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainWhite,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Yellow Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainYellow,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Beige Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainBeige,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Green Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainGreen,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Blue Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainBlue,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Black Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainBlack,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Pink Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainPink,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Brown Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainBrown,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Red Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainRed,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Assemble Rustic Bead Curtain
+	{
+		ScrapMetal=5,
+		Thread=2,
+		keep Needle,
+
+		Result:ivery_BeadCurtainRustic,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Tailoring,
+	}
+
+	recipe Construct Mounted Community Board
+	{
+		Plank=5,
+		Nails=10,
+		keep Hammer,
+
+		Result:ivery_MountedCommBoard,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Construct Wooden Community Board
+	{
+		Plank=5,
+		Nails=10,
+		keep Hammer,
+
+		Result:ivery_WoodenCommBoard,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Construct Wedding Arch
+	{
+		TreeBranch=10,
+		RippedSheets=5,
+		keep Hammer,
+
+		Result:ivery_WeddingArch,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Construct Low Barbed Wire
+	{
+		Wire=1,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_BarbedWireLow,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Metalworking,
+	}
+
+	recipe Construct Low Barbed Wire - Corner
+	{
+		Wire=1,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_BarbedWireLowCorner,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Metalworking,
+	}
+
+	recipe Construct High Barbed Wire
+	{
+		Wire=1,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_BarbedWireHigh,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Metalworking,
+	}
+
+	recipe Construct High Barbed Wire - Corner
+	{
+		Wire=1,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_BarbedWireHighCorner,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Metalworking,
+	}
+
+	recipe Construct High Barbed Wire - Corner
+	{
+		Wire=1,
+		Nails=5,
+		keep Hammer,
+
+		Result:ivery_BarbedWireHighCorner,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Metalworking,
+	}
+
+	recipe Light Candle
+	{
+		Candle,
+		
+		Result:ivery_CandleUnlit,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Light Candle
+	{
+		Candle=1,
+		Matches=1,
+		
+		Result:ivery_CandleLit,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Carpentry,
+	}
+
+	recipe Meld Scrap Barrier
+	{
+		SmallSheetMetal=2,
+		ScrapMetal=2,
+		
+		Result:ivery_ScrapWindowBarrier,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.10,
+		Category:Metalworking,
+	}
+
+	recipe Construct Menorah
+	{
+		Metal Pipe=4,
+		ScrapMetal=2,
+		
+		Result:ivery_HanukkahMenorah,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.0,
+		Category:Metalworking,
+	}
+
+	recipe Light Menorah
+	{
+		keep Lighter,
+		
+		Result:ivery_HanukkahFlameDay1,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.0,
+		Category:Metalworking,
+	}
+
+	recipe Light Menorah
+	{
+		keep Lighter,
+		
+		Result:ivery_HanukkahFlameDay2,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.0,
+		Category:Metalworking,
+	}
+
+	recipe Light Menorah
+	{
+		keep Lighter,
+		
+		Result:ivery_HanukkahFlameDay3,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.0,
+		Category:Metalworking,
+	}
+
+	recipe Light Menorah
+	{
+		keep Lighter,
+		
+		Result:ivery_HanukkahFlameDay4,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.0,
+		Category:Metalworking,
+	}
+
+	recipe Light Menorah
+	{
+		keep Lighter,
+		
+		Result:ivery_HanukkahFlameDay5,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.0,
+		Category:Metalworking,
+	}
+
+	recipe Light Menorah
+	{
+		keep Lighter,
+		
+		Result:ivery_HanukkahFlameDay6,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.0,
+		Category:Metalworking,
+	}
+
+	recipe Light Menorah
+	{
+		keep Lighter,
+		
+		Result:ivery_HanukkahFlameDay7,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.0,
+		Category:Metalworking,
+	}
+
+	recipe Light Menorah
+	{
+		keep Lighter,
+		
+		Result:ivery_HanukkahFlameDay8,
+		Time:10.0,
+		OnGiveXP:Recipe.OnGiveXP.0,
+		Category:Metalworking,
+	}
+
+}

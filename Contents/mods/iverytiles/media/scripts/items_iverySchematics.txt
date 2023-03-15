@@ -1,0 +1,46 @@
+module ivery
+{
+
+	imports    
+    	{
+		Base
+	}
+
+	/************************Tailoring************************/
+
+	item SchematicLightDiamondRug
+    	{
+        	DisplayCategory = SkillBook,
+        	Weight	=	0.1,
+        	Type	=	Literature,
+        	DisplayName	=	Pattern - Light Diamond Rug,
+        	Icon	=	Paper,
+		TeachedRecipes  =   Weave Light Diamond Rug - North/South;Weave Light Diamond Rug - East/West,
+        	ReplaceOnUse    =   SchematicLightDiamondRug,
+        	WorldStaticModel = EmptyNotebook,
+    	}
+
+	item SchematicRedRug
+    	{
+        	DisplayCategory = SkillBook,
+        	Weight	=	0.1,
+        	Type	=	Literature,
+        	DisplayName	=	Pattern - Red Rug,
+        	Icon	=	Paper,
+		TeachedRecipes  =   Weave Red Rug - North/South;Weave Red Rug - East/West,
+        	ReplaceOnUse    =   SchematicRedRug,
+        	WorldStaticModel = EmptyNotebook,
+    	}
+
+	item SchematicBlueRug
+    	{
+        	DisplayCategory = SkillBook,
+        	Weight	=	0.1,
+        	Type	=	Literature,
+        	DisplayName	=	Pattern - Blue Rug,
+        	Icon	=	Paper,
+		TeachedRecipes  =   Weave Blue Rug - North/South;Weave Blue Rug - East/West,
+        	ReplaceOnUse    =   SchematicBlueRug,
+        	WorldStaticModel = EmptyNotebook,
+    	}
+}
