@@ -1,0 +1,225 @@
+module RunFlat
+
+{
+
+	recipe Make M998 Side Window
+	{
+		keep Scalpel,
+		FrontWindow2=1,
+
+		Result:M998SideWindow2,
+		Time:200.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make M998 Side Window
+	{
+		keep Scalpel,
+		RearWindow2=1,
+
+		Result:M998SideWindow2,
+		Time:200.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make M998 Windshield
+	{
+		keep Scalpel,
+		Windshield2=1,
+
+		Result:M998Windshield2,
+		Time:200.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make M998 Small Muffler
+	{
+		keep Wrench,
+		OldCarMuffler2,
+
+		Result:M998Muffler1_Item,
+		Time:350.0,
+		Category:KI5,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make M998 Small Muffler
+	{
+		keep Wrench,
+		NormalCarMuffler2,
+
+		Result:M998Muffler1_Item,
+		Time:350.0,
+		Category:KI5,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make M998 Small Muffler
+	{
+		keep Wrench,
+		ModernCarMuffler2,
+
+		Result:M998Muffler1_Item,
+		Time:350.0,
+		Category:KI5,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make M998 Net Trunk Barrier
+	{
+		keep Needle,
+		RippedSheets=11,
+
+		Result:M998TrunkBarrier2_Item,
+		Time:2000.0,
+		Category:KI5,
+	}
+
+	recipe Make M101A3 Tarp
+	{
+		keep Needle,
+		Tarp=1,
+
+		Result:M101A3Tarp1_Item,
+		Time:1000.0,
+		Category:KI5,
+	}
+
+	recipe Make M998 Front Door Armor
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:M998CarFrontDoorArmor1_Item,
+		Time:1000.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make M998 Rear Door Armor
+	{
+		BlowTorch=7,
+      	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:M998CarRearDoorArmor1_Item,
+		Time:1000.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make M998 Makeshift Windshield Armor
+	{
+		BlowTorch=8,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=2,
+		Screws=2,
+		MetalPipe=4,
+
+		Result:M998WindshieldArmor1_Item,
+		Time:1000.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make M998 Windshield Armor
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:M998WindshieldArmor2_Item,
+		Time:1000.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make M998 Big Bullbar
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SmallSheetMetal=1,
+		MetalPipe=8,
+		Screws=2,
+
+		Result:M998Bullbar2_Item,
+		Time:1100.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make M998 Roofrack
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		SheetMetal=4,
+		MetalPipe=10,
+		Tarp=1,
+		Screws=2,
+
+		Result:M998Roofrack1_Item,
+		Time:1100.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Convert M998 RunFlat Tire
+	{
+		V101Tire2=2,
+		keep LugWrench,
+
+		Result:V100Tire2,
+		Time:500.0,
+		Category:KI5,
+		SkillRequired:Mechanics=3,
+	}
+
+	recipe Convert Standard RunFlat Tire
+	{
+		V100Tire2=2,
+		keep LugWrench,
+
+		Result:V101Tire2,
+		Time:500.0,
+		Category:KI5,
+		SkillRequired:Mechanics=3,
+	}
+
+	recipe Dismantle Spare Tire with Mount
+    	{
+		M998SpareTireMount_Item=1,
+		keep LugWrench,
+
+		NoBrokenItems:true,
+		Result:V101Tire2=1,
+		Time:350.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		NeedToBeLearn:false,
+		Prop1:LugWrench,
+    }
+
+}

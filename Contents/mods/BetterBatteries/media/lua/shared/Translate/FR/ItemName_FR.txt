@@ -1,0 +1,4 @@
+ItemName_FR = {
+	ItemName_Base.HandCrank = "Manivelle",
+	ItemName_Base.MakeshiftCrank = "Manivelle improvisée",
+}

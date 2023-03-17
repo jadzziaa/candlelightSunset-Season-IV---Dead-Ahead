@@ -1,0 +1,4 @@
+ItemName_RU = {
+	ItemName_HMWeapons.HMWoodenClub = "Дубина",
+	ItemName_HMWeapons.HMWoodenClubNails = "Дубина с гвоздями",
+}

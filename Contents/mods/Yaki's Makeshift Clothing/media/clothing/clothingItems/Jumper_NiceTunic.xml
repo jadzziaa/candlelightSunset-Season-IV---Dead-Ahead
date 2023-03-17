@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketlong</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacketlong</m_FemaleModel>
+	<m_GUID>04eaa712-e88c-475a-9b99-bc5e51745a20</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/JacketLong/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\dress\Jumper_NiceTunicRed</textureChoices>
+	<textureChoices>clothes\dress\Jumper_NiceTunicGreen</textureChoices>
+	<textureChoices>clothes\dress\Jumper_NiceTunicBlue</textureChoices>
+	<textureChoices>clothes\dress\Jumper_NiceTunicBrown</textureChoices>
+	<textureChoices>clothes\dress\Jumper_NiceTunicGrey</textureChoices>
+	<textureChoices>clothes\dress\Jumper_NiceTunicWhite</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Clothes\M_Poncho_MedievalHood.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Clothes\F_Poncho_MedievalHood.fbx</m_FemaleModel>
+	<m_GUID>09091482-7126-4a43-b052-621d6a626933</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nohair</m_HatCategory>
+	<textureChoices>clothes\poncho\Poncho_MedievalHood</textureChoices>
+</clothingItem>

@@ -1,0 +1,125 @@
+module Base
+
+{
+
+	recipe Make E150 Side Window
+	{
+		keep Scalpel,
+		FrontWindow2=1,
+
+		Result:E150SideWindow2,
+		Time:200.0,
+		Category:E150,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make E150 Side Window
+	{
+		keep Scalpel,
+		RearWindow2=1,
+
+		Result:E150SideWindow2,
+		Time:200.0,
+		Category:E150,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make E150 Windshield
+	{
+		keep Scalpel,
+		Windshield2=1,
+
+		Result:E150Windshield2,
+		Time:250.0,
+		Category:E150,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make E150 Rear Windshield
+	{
+		keep Scalpel,
+		RearWindshield2=1,
+
+		Result:E150RearWindshield2,
+		Time:250.0,
+		Category:E150,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make E150 Door Armor
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:E150DoorArmor,
+		Time:700.0,
+		Category:E150,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make E150 Windshield Armor
+	{
+		BlowTorch=9,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:E150WindshieldArmor,
+		Time:850.0,
+		Category:E150,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make E150 Rear Windshield Armor
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		SheetMetal=4,
+		MetalPipe=3,
+		Screws=2,
+
+		Result:E150WindshieldRearArmor,
+		Time:800.0,
+		Category:E150,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make E150 Front Bumper
+	{
+		BlowTorch=4,
+       	keep WeldingMask,
+		SheetMetal=5,
+		Screws=2,
+
+		Result:E150FrontBumper2,
+		Time:600.0,
+		Category:E150,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make E150 Rear Bumper
+	{
+		BlowTorch=4,
+       	keep WeldingMask,
+		SheetMetal=5,
+		Screws=2,
+
+		Result:E150RearBumper2,
+		Time:600.0,
+		Category:E150,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+}

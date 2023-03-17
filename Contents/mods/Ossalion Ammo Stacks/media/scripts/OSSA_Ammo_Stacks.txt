@@ -1,0 +1,316 @@
+module Ossalion
+{
+
+    /************** 22LR *******************/
+	item 22Stack
+	{
+		Weight		=	3.6,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of .22,
+		Icon		=	22AmmoStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	22AmmoStack,
+	}
+	
+	recipe Stack .22 Boxes
+	{
+		22Box=6,
+		Result:22Stack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack .22 Boxes
+	{
+		22Stack,
+		Result:22Box=6,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	/****************** 9mm *************************/
+	
+	item 9Stack
+	{
+		Weight		=	0.9,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of 9mm,
+		Icon		=	9AmmoStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	9AmmoStack,
+	}
+	
+	recipe Stack 9mm Boxes
+	{
+		Bullets9mmBox=6,
+		Result:9Stack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack 9mm Boxes
+	{
+		9Stack,
+		Result:Bullets9mmBox=6,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	/****************** 38 Specials *************************/
+	
+	item 38Stack
+	{
+		Weight		=	1.575,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of .38 Special,
+		Icon		=	38AmmoStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	38AmmoStack,
+	}
+	
+	recipe Stack .38 Special Boxes
+	{
+		Bullets38Box=6,
+		Result:38Stack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack .38 Special Boxes
+	{
+		38Stack,
+		Result:Bullets38Box=6,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	/****************** 45 ACP *************************/
+	
+	item 45Stack
+	{
+		Weight		=	4.5,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of .45 Auto,
+		Icon		=	45AmmoStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	45AmmoStack,
+	}
+	
+	recipe Stack .45 Auto Boxes
+	{
+		Bullets45Box=6,
+		Result:45Stack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack .45 Auto Boxes
+	{
+		45Stack,
+		Result:Bullets45Box=6,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	/****************** 44 Magnum *************************/
+	
+	item 44Stack
+	{
+		Weight		=	1.71,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of .44 Magnum,
+		Icon		=	44AmmoStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	44AmmoStack,
+	}
+	
+	recipe Stack .44 Magnum Boxes
+	{
+		Bullets44Box=6,
+		Result:44Stack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack .44 Magnum Boxes
+	{
+		44Stack,
+		Result:Bullets44Box=6,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	/****************** .223 Remington *************************/
+	
+	item 223Stack
+	{
+		Weight		=	2.7,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of .223,
+		Icon		=	223AmmoStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	223AmmoStack,
+	}
+	
+	recipe Stack .223 Boxes
+	{
+		223Box=6,
+		Result:223Stack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack .223 Boxes
+	{
+		223Stack,
+		Result:223Box=6,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	/****************** 5.56 NATO *************************/
+	
+	item 556Stack
+	{
+		Weight		=	5.4,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of 5.56,
+		Icon		=	556AmmoStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	556AmmoStack,
+	}
+	
+	recipe Stack 5.56 Boxes
+	{
+		556Box=6,
+		Result:556Stack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack 5.56 Boxes
+	{
+		556Stack,
+		Result:556Box=6,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	/****************** 7.62x39 Soviet Rounds *************************/
+	
+	item 762Stack
+	{
+		Weight		=	5.4,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of 7.62,
+		Icon		=	762AmmoStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	762AmmoStack,
+	}
+	
+	recipe Stack 7.62 Boxes
+	{
+		762Box=6,
+		Result:762Stack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack 7.62 Boxes
+	{
+		762Stack,
+		Result:762Box=6,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	/****************** .308 Winchester *************************/
+	
+	item 308Stack
+	{
+		Weight		=	2.7,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of .308,
+		Icon		=	308AmmoStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	308AmmoStack,
+	}
+	
+	recipe Stack .308 Boxes
+	{
+		308Box=6,
+		Result:308Stack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack .308 Boxes
+	{
+		308Stack,
+		Result:308Box=6,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	/****************** 12 Gauge Shotgun Shells *************************/
+	
+	item ShotgunShellsStack
+	{
+		Weight		=	5.4,
+		Type		=	Normal,
+		DisplayCategory =	Ammo,
+		DisplayName	=	Stack of Shotgun Shells,
+		Icon		=	ShotgunShellsStack,
+		MetalValue 	=	1,
+		WorldStaticModel =	ShotgunShellsStack,
+	}
+	
+	recipe Stack Shotgun Shells Boxes
+	{
+		ShotgunShellsBox=8,
+		Result:ShotgunShellsStack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+	recipe Unstack Shotgun Shells Boxes
+	{
+		ShotgunShellsStack,
+		Result:ShotgunShellsBox=8,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:30.0,
+	}
+	
+}	
+	
+	
+	
+	

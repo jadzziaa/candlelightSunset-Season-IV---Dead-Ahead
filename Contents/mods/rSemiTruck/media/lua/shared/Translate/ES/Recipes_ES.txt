@@ -1,0 +1,26 @@
+Recipe_ES = {
+
+	Recipe_Dismantle_Valu_Double_Tires = "W900: Desarmar una rueda gemela económica",
+	Recipe_Make_Valu_Double_Tires = "W900: Fabricar una rueda gemela ecónomica",
+
+	Recipe_Dismantle_Regular_Valu_Double_Tires = "W900: Desarmar una rueda gemela estándar",
+	Recipe_Make_Regular_Double_Tires = "W900: Fabricar una rueda gemela estándar",
+
+	Recipe_Dismantle_Performance_Valu_Double_Tires = "W900: Desarmar una rueda gemela deportivo",
+	Recipe_Make_Performance_Double_Tires = "W900: Fabricar una rueda gemela deportivo",
+
+	Recipe_Dismantle_Valu_4_Tire_Axle = "W900: Desarmar eje tándem económico",
+	Recipe_Make_Valu_4_Tire_Axle = "W900: Fabricar eje tándem económico",
+
+	Recipe_Dismantle_Regular_Valu_4_Tire_Axle = "W900: Desarmar eje tándem estándar",
+	Recipe_Make_Regular_4_Tire_Axle = "W900: Fabricar eje tándem estándar",
+
+	Recipe_Dismantle_Performance_Valu_4_Tire_Axle = "W900: Desarmar eje tándem deportivo",
+	Recipe_Make_Performance_4_Tire_Axle = "W900: Fabricar eje tándem deportivo",
+
+	Recipe_Make_W900_Front_Door_Armor = "W900: Fabricar rejilla lateral",
+	Recipe_Make_W900_Makeshift_Windshield_Armor = "W900: Fabricar rejilla delantera",
+	Recipe_Make_W900_Makeshift_Rear_Windshield_Armor = "W900: Fabricar rejilla trasera",
+
+
+}

@@ -1,0 +1,21 @@
+Recipe_RU = {
+	-- Credits to Heres from Steam
+	Recipe_Open_Beet_Seed_Packet = "Открыть упаковку семян свёклы",
+	Recipe_Open_Cauliflower_Seed_Packet = "Открыть упаковку семян цветной капусты",
+	Recipe_Open_Corn_Seed_Packet = "Открыть упаковку семян кукурузы",
+	Recipe_Open_Packet_of_Lemon_Grass_Seeds = "Открыть упаковку семян лемонграсса",
+	Recipe_Open_Packet_of_Wheat_Seeds = "Открыть упаковку пшеничных семян",
+	Recipe_Make_Cornflour = "Сделать кукурузную муку",
+	Recipe_Make_Flour = "Сделать муку",
+	Recipe_Make_Beet_Syrup = "Сделать свекольный сироп",
+	Recipe_Place_Beets_in_Cooking_Pot = "Положить свёклу в кастрюлю",
+	Recipe_Put_Beet_Seeds_in_Packet = "Сложить семена свёклы в упаковку",
+	Recipe_Put_Cauliflower_Seeds_in_Packet = "Сложить семена цветной капусты",
+	Recipe_Put_Lemon_Grass_Seeds_in_Packet = "Сложить семена лемонграсса",
+	Recipe_Put_Corn_Seeds_in_Packet = "Сложить семена кукурузы",
+	Recipe_Remove_Sugar_From_Pot = "Извлечь сахар из кастрюли",
+	Recipe_Thresh_Corn = "Перемолоть кукурузу",
+	Recipe_Thresh_Wheat = "Перемолоть пшеницу",
+	Recipe_Put_Wheat_Seeds_in_Packet = "Сложить семена пшеницы",
+	Recipe_Get_Wheat_Seeds = "Получить пшеничные семена",
+}

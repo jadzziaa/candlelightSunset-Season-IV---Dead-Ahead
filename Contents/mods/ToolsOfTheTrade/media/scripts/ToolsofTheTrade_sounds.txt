@@ -1,0 +1,17 @@
+module ToolsOfTheTrade {
+
+	sound StunGunHit
+    {
+        category						=	StunGun, 
+		loop							=	FALSE, 
+		is3D							=	TRUE,
+        clip { file = media/sounds/StunGun/StunGunHit.wav, distanceMax = 10, volume = 0.3, }
+    }
+	sound StunGunBreak
+    {
+        category						=	StunGun, 
+		loop							=	FALSE,
+		is3D							=	TRUE,
+        clip { file = media/sounds/StunGun/StunGunBreak.wav, distanceMax = 10, volume = 0.6, }
+    }
+}

@@ -1,0 +1,28 @@
+module MoreTapes{
+	imports {
+		Base
+	}
+	
+	item Braundo
+	{
+		HungerChange	=	-8,
+		Weight	=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Food,
+		UnhappyChange	=	-10,
+		ThirstChange	=	-60,
+		FatigueChange = -20,
+		DisplayName	=	Braundo,
+		Icon	=	EnergyDrinkGreen,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottle,
+        Carbohydrates = 39,
+        ReplaceOnUse = PopEmpty,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 140,
+        Packaged = TRUE,
+        CantBeFrozen = TRUE,
+		Tooltip = Tooltip_Braundo,
+	}
+}

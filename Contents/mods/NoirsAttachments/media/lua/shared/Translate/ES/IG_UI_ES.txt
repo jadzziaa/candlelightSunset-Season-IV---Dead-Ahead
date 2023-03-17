@@ -1,0 +1,29 @@
+IGUI_ES = {
+
+    IGUI_NATT_BackpackWR = "Aplicar reduccion de peso de mochila a articulos acoplados",
+    IGUI_NATT_BackpackWR_tooltip = "Requiere re-acoplar los articulos a la mochila (No funciona en articulos tipo comida, contenedores de agua y ropa)",
+
+    IGUI_NATT_AttachmentSlots = "Ranuras de accesorios",
+
+    IGUI_NATT_Sort_Slots = "Ordenar Ranuras",
+    IGUI_NATT_MoveUp = "Mover Arriba",
+    IGUI_NATT_MoveDown = "Mover Abajo",
+    IGUI_NATT_Ok = "Ok",
+
+    IGUI_HotbarAttachment_NATTWeapon = "Arma",
+    IGUI_HotbarAttachment_NATTShortWeapon = "Arma Corta",
+    IGUI_HotbarAttachment_NATTUtilityLeft = "Utilidad Izquierda",
+    IGUI_HotbarAttachment_NATTUtilityRight = "Utilidad Derecha",
+    IGUI_HotbarAttachment_NATTLeft = "Lateral Izquierdo",
+    IGUI_HotbarAttachment_NATTRight = "Lateral Derecho",
+    IGUI_HotbarAttachment_NATTContainer = "Contenedor",
+    IGUI_HotbarAttachment_NATTContainerSmallLeft = "Contenedor chico Izq",
+    IGUI_HotbarAttachment_NATTContainerSmallRight = "Contenedor chico Der",
+    IGUI_HotbarAttachment_NATTBedroll = "Saco de Dormir",
+    IGUI_HotbarAttachment_NATTFlashlight = "Linterna",
+
+    IGUI_CraftCategory_Tailoring = "Sastreria",
+    
+    IGUI_Set_Sleepingbag = "Colocar Saco de dormir",
+    IGUI_PickUp_Sleepingbag = "Recoger Saco de dormir",
+}

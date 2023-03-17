@@ -1,0 +1,5 @@
+name=Fix Inventory Tooltip Lag
+poster=poster.png
+id=FixTooltipLag
+description=Optimises the tooltip code to prevent game freezes that commonly occur when you have a large amount of clothes to rip up.
+versionMin=41.56

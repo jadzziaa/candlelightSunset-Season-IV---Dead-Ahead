@@ -1,0 +1,6 @@
+﻿UI_JP = {
+	UI_P4AddictedToWeight_Options_ShowHumanIcon_Name = "人型アイコンの表示",
+	UI_P4AddictedToWeight_Options_ShowHumanIcon_Tooltip = "人型アイコンを表示する場合は、チェックボックスをオンにします。",
+	UI_P4AddictedToWeight_Options_WeightChangeNotification_Name = "体重変化時の通知",
+	UI_P4AddictedToWeight_Options_WeightChangeNotification_Tooltip = "体重が変化した際にアラート通知する場合は、チェックボックスをオンにします。",
+}

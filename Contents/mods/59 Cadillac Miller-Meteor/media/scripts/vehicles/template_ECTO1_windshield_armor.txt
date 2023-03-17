@@ -1,0 +1,79 @@
+module Base
+{
+	model ECTO1WindshieldArmor1
+    	{
+        mesh = vehicles/Vehicles_ECTO1_Body|ECTO1_windshield_a,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+    	}
+
+	template vehicle ECTO1WindshieldArmors
+		{
+		part ECTO1WindshieldArmor
+        	{
+
+			model WindshieldArmor1
+				{
+                		file = ECTO1WindshieldArmor1,
+				}
+
+			area = Engine,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.ECTO1WindshieldArmor1_Item,
+			mechanicRequireKey = false,
+			table install
+					{
+						requireInstalled = Windshield,
+					}
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+				equip = primary,
+                    		}
+                	}
+
+                	time = 1100,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = ECTO1.InstallComplete.WindshieldArmor,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+  				type = Base.Screwdriver,
+				count = 1,
+				keep = true,
+				equip = primary,
+                    		}
+                	}
+
+			time = 1100,
+			skills = Mechanics:4,
+			recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+			complete = ECTO1.UninstallComplete.WindshieldArmor,
+            		}
+
+            		lua
+            		{
+			create = ECTO1.Create.WindshieldArmor,
+			init = ECTO1.Init.WindshieldArmor,
+			}
+		}
+	}
+
+		
+}

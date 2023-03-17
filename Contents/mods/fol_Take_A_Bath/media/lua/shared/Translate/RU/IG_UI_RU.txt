@@ -1,0 +1,7 @@
+IGUI_RU = {
+IGUI_take_off_headwear="Снять головной убор",
+IGUI_take_off_clothes="Снять одежду",
+IGUI_take_off_underWear="Снять нижнее белье",
+IGUI_take_off_backpack="Снять рюкзак",
+IGUI_consume_water="Расход воды",
+}

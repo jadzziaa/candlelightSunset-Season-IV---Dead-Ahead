@@ -1,0 +1,68 @@
+module Base
+{
+	
+	template vehicle PWRSideskirtsPA
+	{
+		part PWRSideskirts
+		{
+			model skirts1
+			{
+				file = 49powerWagonsideskirts2,
+			}
+			
+			model skirts0
+			{
+				file = 49powerWagonsideskirts1,
+			}
+			
+			area = GasTank,
+			itemType = Base.49powerWagonSideskirts1;Base.49powerWagonSideskirts0,
+			specificItem = false,
+			category = bodywork,
+			mechanicRequireKey = true,
+
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 600,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = PWR.InstallComplete.SideskirtsPA,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 600,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = PWR.UninstallComplete.SideskirtsPA,
+			}
+			lua
+			{
+				init = PWR.Init.SideskirtsPA,
+				create = PWR.Create.SideskirtsPA,
+			}
+		}
+	}
+}
+

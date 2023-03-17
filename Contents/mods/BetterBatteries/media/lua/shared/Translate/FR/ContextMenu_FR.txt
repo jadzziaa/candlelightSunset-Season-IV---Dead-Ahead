@@ -1,0 +1,6 @@
+ContextMenu_FR = {
+	ContextMenu_Crank_LowStam = "Trop épuisé(e) pour faire fonctionner.",
+	ContextMenu_Crank_NeedBattery = "Insérer une pile à recharger",
+	ContextMenu_Crank_FullBattery = "Impossible de recharger une pile pleine.",
+	ContextMenu_Crank_ChargeWith = "Recharger une pile avec:",
+}

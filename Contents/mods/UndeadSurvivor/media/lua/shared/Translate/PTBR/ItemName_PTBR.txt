@@ -1,0 +1,62 @@
+ ItemName_PTBR = {
+
+/*module_Clothing_UndeadSurvivor*/
+
+	ItemName_UndeadSurvivor.HeadhunterGasmask = "Máscara de Gás Headhunter",
+	ItemName_UndeadSurvivor.HeadhunterMantle = "Manto Headhunter",
+	ItemName_UndeadSurvivor.HeadhunterMantleDOWN = "Manto Headhunter",
+	ItemName_UndeadSurvivor.HeadhunterBackpack = "Mochila Headhunter",
+	ItemName_UndeadSurvivor.DeadlyHeadhunterGasmask = "Máscara de Gás Headhunter Mortal",
+	ItemName_UndeadSurvivor.DeadlyHeadhunterMantle = "Manto Headhunter Mortal",
+	ItemName_UndeadSurvivor.DeadlyHeadhunterMantleDOWN = "Manto Headhunter Mortal",
+	ItemName_UndeadSurvivor.DeadlyHeadhunterBackpack = "Mochila Headhunter Mortal",
+	ItemName_UndeadSurvivor.PrepperMask = "Máscara de Gás Prepper",
+	ItemName_UndeadSurvivor.PrepperHelmet = "Capacete Prepper",
+	ItemName_UndeadSurvivor.PrepperVest = "Colete Prepper",
+	ItemName_UndeadSurvivor.PrepperVestPacked = "Colete Prepper com Bolsos",
+	ItemName_UndeadSurvivor.PrepperBags = "Bolsos do Colete Prepper",
+	ItemName_UndeadSurvivor.PrepperJacket = "Jaqueta Prepper",
+	ItemName_UndeadSurvivor.PrepperTrousers = "Calça Prepper",
+	ItemName_UndeadSurvivor.PrepperTrousersTucked = "Calça Prepper",
+	ItemName_UndeadSurvivor.StalkerCloak = "Capote Stalker",
+	ItemName_UndeadSurvivor.StalkerCloakDOWN = "Capote Stalker",
+	ItemName_UndeadSurvivor.StalkerMask = "Máscara de Gás Stalker",
+	ItemName_UndeadSurvivor.StalkerJacket = "Jaqueta Stalker",
+	ItemName_UndeadSurvivor.StalkerTrousers = "Calça Stalker",
+	ItemName_UndeadSurvivor.StalkerTrousersTucked = "Calça Stalker",
+	ItemName_UndeadSurvivor.StalkerBoots = "Botas Stalker",
+	ItemName_UndeadSurvivor.StalkerGloves = "Luvas Stalker",
+	ItemName_UndeadSurvivor.NomadParka = "Parka Nomad",
+	ItemName_UndeadSurvivor.NomadParkaDOWN = "Parka Nomad",
+	ItemName_UndeadSurvivor.OminousNomadParka = "Parka Nomad Sinistra",
+	ItemName_UndeadSurvivor.OminousNomadParkaDOWN = "Parka Nomad Sinistra",
+	ItemName_UndeadSurvivor.NomadBackpack = "Mochila Nomad",
+	ItemName_UndeadSurvivor.NomadMask = "Máscara Nomad",
+	ItemName_UndeadSurvivor.OminousNomadMask = "Máscara Nomad Sinistra",
+	ItemName_UndeadSurvivor.NomadBoots = "Botas Nomad",
+	ItemName_UndeadSurvivor.NomadTrousers = "Calça Nomad",
+	ItemName_UndeadSurvivor.NomadTrousersTucked = "Calça Nomad",
+	
+/*module_Items_UndeadSurvivor*/
+
+	ItemName_UndeadSurvivor.PrepperFlashlight = "Lanterna Prepper",
+	ItemName_UndeadSurvivor.BountyPhoto01 = "Foto de Alvo 01",
+	ItemName_UndeadSurvivor.BountyPhoto02 = "Foto de Alvo 02",
+	ItemName_UndeadSurvivor.BountyPhoto03 = "Foto de Alvo 03",
+	ItemName_UndeadSurvivor.BountyPhoto04 = "Foto de Alvo 04",
+	ItemName_UndeadSurvivor.BountyPhoto05 = "Foto de Alvo 05",
+	ItemName_UndeadSurvivor.BountyPhoto06 = "Foto de Alvo 06",
+	ItemName_UndeadSurvivor.BountyPhoto07 = "Foto de Alvo 07",
+	ItemName_UndeadSurvivor.BountyPhoto08 = "Foto de Alvo 08",
+	ItemName_UndeadSurvivor.BountyPhoto09 = "Foto de Alvo 09",
+	ItemName_UndeadSurvivor.BountyPhoto10 = "Foto de Alvo 10",
+
+/*module_Weapons_UndeadSurvivor*/	
+
+	ItemName_UndeadSurvivor.HeadhunterRifle = "Rifle Headhunter",
+	ItemName_UndeadSurvivor.DeadlyHeadhunterRifle = "Rifle Headhunter Mortal",
+	ItemName_UndeadSurvivor.PrepperKnifeSwing = "Faca Prepper",
+	ItemName_UndeadSurvivor.PrepperKnifeStab = "Faca Prepper",
+	ItemName_UndeadSurvivor.StalkerKnife = "Faca Stalker",
+	
+}

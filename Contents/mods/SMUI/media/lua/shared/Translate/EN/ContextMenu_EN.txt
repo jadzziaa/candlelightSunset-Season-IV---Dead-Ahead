@@ -1,0 +1,21 @@
+ContextMenu_EN = {
+    
+	ContextMenu_RollUp = "Roll Up",
+    ContextMenu_RollDown = "Roll Down",
+	ContextMenu_TuckIn = "Tuck In",
+    ContextMenu_TuckOut = "Tuck Out",
+    ContextMenu_FlipUp = "Flip Up",
+    ContextMenu_FlipDown = "Flip Down",
+	ContextMenu_Strap = "Strap",
+    ContextMenu_Unstrap = "Unstrap",
+	ContextMenu_Fasten = "Fasten",
+    ContextMenu_Unfasten = "Unfasten",
+    ContextMenu_VisorUp = "Visor Up",
+    ContextMenu_VisorDown = "Visor Down",
+    ContextMenu_PullUp = "Pull Up",
+    ContextMenu_PullDown = "Pull Down",
+    ContextMenu_Left = "Left Arm",
+    ContextMenu_Right = "Right Arm",
+    ContextMenu_Fold = "Fold",
+    ContextMenu_Unfold = "Unfold",
+} 

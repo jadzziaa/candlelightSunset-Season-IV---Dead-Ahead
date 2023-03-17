@@ -1,0 +1,202 @@
+module RunFlat
+
+{
+
+	recipe Make M923 RunFlat 2 Tire Axle
+	{
+		keep LugWrench,
+		V100Tire2=2,
+		MetalPipe=1,
+
+		Result:M923Axle2,
+		Sound:Hammering,
+		Time:450.0,
+		Category:KI5,
+		SkillRequired:Mechanics=3,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make M923 Muffler
+	{
+		keep Wrench,
+		OldCarMuffler2,
+		MetalPipe=2,
+
+		Result:M923Muffler1_Item,
+		Time:350.0,
+		Category:KI5,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make M923 Muffler 1
+	{
+		keep Wrench,
+		NormalCarMuffler2,
+		MetalPipe=2,
+
+		Result:M923Muffler1_Item,
+		Time:350.0,
+		Category:KI5,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make M923 Muffler 2
+	{
+		keep Wrench,
+		ModernCarMuffler2,
+		MetalPipe=2,
+
+		Result:M923Muffler1_Item,
+		Time:350.0,
+		Category:KI5,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make M923 Flatbed Stakes
+	{
+		keep Wrench,
+		MetalPipe=10,
+		Plank=8,
+		Screws=2,
+
+		Result:M923FlatbedStakes1_Item,
+		Time:1250.0,
+		Category:KI5,
+		SkillRequired:Mechanics=3,
+		Prop1:Wrench,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make M923 Small Bumper
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		SheetMetal=3,
+		MetalPipe=2,
+		Screws=2,
+
+		Result:M923Bumper1_Item,
+		Time:1100.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make M923 Hillbilly Bumper
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		SheetMetal=6,
+		MetalPipe=10,
+		Screws=4,
+
+		Result:M923Bumper2_Item,
+		Time:2000.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make M923 Side Window
+	{
+		keep Scalpel,
+		FrontWindow2=1,
+
+		Result:M923SideWindow2,
+		Time:200.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make M923 Windshield
+	{
+		keep Scalpel,
+		Windshield2=1,
+
+		Result:M923Windshield2,
+		Time:300.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make M923 Windshield Armor
+	{
+		BlowTorch=8,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		Plank=2,
+		Screws=2,
+
+		Result:M923WindshieldArmor1_Item,
+		Time:1000.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make M923 Door Armor
+	{
+		BlowTorch=7,
+      	keep WeldingMask,
+		SheetMetal=6,
+		Screws=2,
+
+		Result:M923DoorArmor1_Item,
+		Time:1100.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make M923 Gunport
+	{
+		BlowTorch=9,
+      	keep WeldingMask,
+		SmallSheetMetal=1,
+		SheetMetal=2,
+		Screws=1,
+
+		Result:M923Gunport2,
+		Time:950.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make M923 Guntruck Armor
+	{
+		BlowTorch=10,
+      	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=10,
+		Screws=5,
+
+		Result:M923GuntruckArmor1_Item,
+		Time:2500,
+		Category:KI5,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make M923 Rear Seat
+	{
+		BlowTorch=3,
+      	keep WeldingMask,
+		NormalCarSeat2=1,
+		SheetMetal=3,
+		Screws=1,
+
+		Result:M923RearSeat2,
+		Time:650.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+}

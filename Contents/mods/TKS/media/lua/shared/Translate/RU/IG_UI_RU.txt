@@ -1,0 +1,7 @@
+IGUI_RU = 
+	{
+
+	IGUI_HotbarAttachment_KnifeSheathLeg = "Ножны (Бедро)",
+	IGUI_HotbarAttachment_KnifeSheathBack = "Ножны (Спина)",
+	IGUI_HotbarAttachment_KatanaSheath = "Ножны (Катана)",
+	}

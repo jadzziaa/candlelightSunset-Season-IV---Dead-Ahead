@@ -1,0 +1,438 @@
+module AuthenticZLite
+{
+
+
+import 
+{ 
+	Base 
+}
+
+
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Handbag_Secondary,
+        Result:Handbag_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Plasticbag_Secondary,
+        Result:Plasticbag_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Garbagebag_Secondary,
+        Result:Garbagebag_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Purse_Secondary,
+        Result:Purse_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Tote_Secondary,
+        Result:Tote_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		EmptySandbag_Secondary,
+        Result:EmptySandbag_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		SeedBag_Secondary,
+        Result:SeedBag_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Toolbox_Secondary,
+        Result:Toolbox_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		FirstAidKit_Secondary,
+        Result:FirstAidKit_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Lunchbox_Secondary,
+        Result:Lunchbox_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Lunchbox2_Secondary,
+        Result:Lunchbox2_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		PistolCase_Secondary,
+        Result:PistolCase_Secondary,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_B4BEvangelo,
+        Result:Bag_B4BEvangelo,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_B4BHoffman,
+        Result:Bag_B4BHoffman,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_B4BHolly,
+        Result:Bag_B4BHolly,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_B4BMom,
+        Result:Bag_B4BMom,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_B4BWalker,
+        Result:Bag_B4BWalker,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_SchoolBagCEDA,
+        Result:Bag_SchoolBagCEDA,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_SchoolBagCEDABlack,
+        Result:Bag_SchoolBagCEDABlack,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_SchoolBagCEDABlue,
+        Result:Bag_SchoolBagCEDABlue,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_SchoolBagCEDARed,
+        Result:Bag_SchoolBagCEDARed,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_L4DeadMedkit,
+        Result:Bag_L4DeadMedkit,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_SchoolBagNBH,
+        Result:Bag_SchoolBagNBH,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_ProtonPack_Back,
+        Result:Bag_ProtonPack_Back,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_Satchel,
+        Result:Bag_Satchel,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Suitcase2,
+        Result:Suitcase2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_ALICEpack_UrbanCamo,
+        Result:Bag_ALICEpack_UrbanCamo,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_MilitaryWebbing_AZ,
+        Result:Bag_MilitaryWebbingTightened_AZ,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_SpiffoBackpackAZ,
+        Result:Bag_SpiffoBackpackAZ,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+ 	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_PAWSBackpackAZ,
+        Result:Bag_PAWSBackpackAZ,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_RoadsideDuffel,
+        Result:Bag_RoadsideDuffel,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_MilitaryWebbing_AZ,
+        Result:Bag_MilitaryWebbing_AZ,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN AuthZ
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Bag_MilitaryWebbingTightened_AZ,
+        Result:Bag_MilitaryWebbingTightened_AZ,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+
+}
+
+

@@ -1,0 +1,6 @@
+name=Azakaela's Bottomless Pit Tiles
+id=AzaBottomlessPitTiles
+description=Some tiles for making sink holes.
+pack=SinkHole
+tiledef=SinkHole 8008
+poster=poster.png

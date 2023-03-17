@@ -1,0 +1,7 @@
+IGUI_DE = 
+	{
+
+	IGUI_HotbarAttachment_KnifeSheathLeg = "Messerholster (Bein)",
+	IGUI_HotbarAttachment_KnifeSheathBack = "Messerholster (Ruecken)",
+	IGUI_HotbarAttachment_KatanaSheath = "Messerholster (Katana)",
+	}

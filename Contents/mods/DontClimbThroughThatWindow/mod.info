@@ -1,0 +1,4 @@
+name=Don't Climb Through That Window
+id=DontClimbThroughThatWindow
+description=Prevents your character from climbing through a broken window when you click on the window frame.  Does not prevent your character from climbing through by pressing E or using the right-click menu.
+poster=poster.png

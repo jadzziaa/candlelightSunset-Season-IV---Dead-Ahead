@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>701358f9-5b1e-4724-a3e8-e101511e5963</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>WorldItems/NCtrunkorganizer</textureChoices>
+	<textureChoices>WorldItems/NCtrunkorganizer_b</textureChoices>
+	<textureChoices>WorldItems/NCtrunkorganizer_g</textureChoices>
+	<textureChoices>WorldItems/NCtrunkorganizer_i</textureChoices>
+	<textureChoices>WorldItems/NCtrunkorganizer_m</textureChoices>
+	<textureChoices>WorldItems/NCtrunkorganizer_o</textureChoices>
+	<textureChoices>WorldItems/NCtrunkorganizer_p</textureChoices>
+	<textureChoices>WorldItems/NCtrunkorganizer_r</textureChoices>
+	<textureChoices>WorldItems/NCtrunkorganizer_y</textureChoices>
+</clothingItem>

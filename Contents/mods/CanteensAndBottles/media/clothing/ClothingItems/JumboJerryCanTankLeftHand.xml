@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\JumboJerryCanTankLeftHand</m_MaleModel>
+	<m_FemaleModel>Skinned\JumboJerryCanTankLeftHand</m_FemaleModel>
+	<m_GUID>7cdb78a2-4619-413d-8100-bbf27b355a14</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Items\JumboJerryCanTankTexture</textureChoices>
+</clothingItem>

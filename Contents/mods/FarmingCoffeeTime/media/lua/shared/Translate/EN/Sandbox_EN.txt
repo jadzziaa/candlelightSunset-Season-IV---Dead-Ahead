@@ -1,0 +1,5 @@
+Sandbox_EN = {
+    Sandbox_FarmingCoffee = "Farming Coffee",
+    Sandbox_FarmingCoffee_RemoveMonthBloomRestriction = "Remove Month Bloom Restriction",
+    Sandbox_FarmingCoffee_RemoveMonthBloomRestriction_tooltip = "Activate it for the harvest to be available any time of the year.",
+}

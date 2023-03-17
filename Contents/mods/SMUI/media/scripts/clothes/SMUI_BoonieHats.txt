@@ -1,0 +1,192 @@
+module SMUIClothing 
+{
+
+        item Hat_BoonieHatWoodland
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Boonie Hat,
+        ClothingItem = Hat_BoonieHatWoodland,
+        BodyLocation = Hat,
+        Icon = BoonieHatWoodland,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatWoodlandFolded,
+        ClothingItemExtraOption = Fold,
+        ClothingExtraSubmenu = Unfold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        Tags = Military,
+        WorldStaticModel = BoonieHatWoodland_WorldItem,
+    }
+
+        item Hat_BoonieHatWoodlandFolded
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Boonie Hat (Folded),
+        ClothingItem = Hat_BoonieHatWoodlandFolded,
+        BodyLocation = Hat,
+        Icon = BoonieHatWoodland,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatWoodland,
+        ClothingItemExtraOption = Unfold,
+        ClothingExtraSubmenu = Fold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        Tags = Military,
+        WorldStaticModel = BoonieHatWoodland_WorldItem,
+    }
+
+        item Hat_BoonieHatSixColorDesert
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Battle Boonie Hat,
+        ClothingItem = Hat_BoonieHatSixColorDesert,
+        BodyLocation = Hat,
+        Icon = BoonieHatSixColor,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatSixColorDesertFolded,
+        ClothingItemExtraOption = Unfold,
+        ClothingExtraSubmenu = Fold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        Tags = Military,
+        WorldStaticModel = BoonieHatSixColor_WorldItem,
+    }
+
+        item Hat_BoonieHatSixColorDesertFolded
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Battle Boonie Hat (Folded),
+        ClothingItem = Hat_BoonieHatSixColorDesertFolded,
+        BodyLocation = Hat,
+        Icon = BoonieHatSixColor,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatSixColorDesert,
+        ClothingItemExtraOption = Fold,
+        ClothingExtraSubmenu = Unfold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        Tags = Military,
+        WorldStaticModel = BoonieHatSixColor_WorldItem,
+    }
+
+        item Hat_BoonieHatThreeColorDesert
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Combat Boonie Hat,
+        ClothingItem = Hat_BoonieHatThreeColorDesert,
+        BodyLocation = Hat,
+        Icon = BoonieHatThreeColor,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatThreeColorDesertFolded,
+        ClothingItemExtraOption = Unfold,
+        ClothingExtraSubmenu = Fold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        Tags = Military,
+        WorldStaticModel = BoonieHatThreeColor_WorldItem,
+    }
+
+        item Hat_BoonieHatThreeColorDesertFolded
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName =  Desert Combat Boonie Hat (Folded),
+        ClothingItem = Hat_BoonieHatThreeColorDesertFolded,
+        BodyLocation = Hat,
+        Icon = BoonieHatThreeColor,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatThreeColorDesert,
+        ClothingItemExtraOption = Fold,
+        ClothingExtraSubmenu = Unfold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        Tags = Military,
+        WorldStaticModel = BoonieHatThreeColor_WorldItem,
+    }
+
+        item Hat_BoonieHatERDL
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Lowland ERDL Pattern Boonie Hat,
+        ClothingItem = Hat_BoonieHatERDL,
+        BodyLocation = Hat,
+        Icon = BoonieHatERDL,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatERDLFolded,
+        ClothingItemExtraOption = Fold,
+        ClothingExtraSubmenu = Unfold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        Tags = Military,
+        WorldStaticModel = BoonieHatERDL_WorldItem,
+    }
+
+        item Hat_BoonieHatERDLFolded
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Lowland ERDL Pattern Boonie Hat (Folded),
+        ClothingItem = Hat_BoonieHatERDLFolded,
+        BodyLocation = Hat,
+        Icon = BoonieHatERDL,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatERDL,
+        ClothingItemExtraOption = Unfold,
+        ClothingExtraSubmenu = Fold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        Tags = Military,
+        WorldStaticModel = BoonieHatERDL_WorldItem,
+    }
+
+        item Hat_BoonieHatTigerStripe
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Tiger Stripe Boonie Hat,
+        ClothingItem = Hat_BoonieHatTigerStripe,
+        BodyLocation = Hat,
+        Icon = BoonieHatTigerStripe,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatTigerStripeFolded,
+        ClothingItemExtraOption = Fold,
+        ClothingExtraSubmenu = Unfold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        WorldStaticModel = BoonieHatTigerStripe_WorldItem,
+    }
+
+        item Hat_BoonieHatTigerStripeFolded
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Tiger Stripe Boonie Hat (Folded),
+        ClothingItem = Hat_BoonieHatTigerStripeFolded,
+        BodyLocation = Hat,
+        Icon = BoonieHatTigerStripe,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatTigerStripe,
+        ClothingItemExtraOption = Unfold,
+        ClothingExtraSubmenu = Fold,
+        CanHaveHoles = false,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        Weight = 0.1,
+        WorldStaticModel = BoonieHatTigerStripe_WorldItem,
+    }
+}
+

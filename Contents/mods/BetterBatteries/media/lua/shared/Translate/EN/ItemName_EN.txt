@@ -1,0 +1,4 @@
+ItemName_EN = {
+	DisplayName_Hand_Crank = "Hand Crank",
+	DisplayName_Makeshift_Hand_Crank = "Makeshift Hand Crank",
+}

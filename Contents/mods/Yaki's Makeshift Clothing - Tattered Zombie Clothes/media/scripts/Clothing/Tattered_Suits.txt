@@ -1,0 +1,28 @@
+module Base
+{
+    item Makeshift_Dress_Tattered
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Dress Tattered,
+        ClothingItem = Makeshift_Dress_Tattered,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressLongWhite,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+    item Makeshift_Dress_KneesTattered
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Knee-length Dress Tattered,
+        ClothingItem = Makeshift_Dress_KneesTattered,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = DressShortWhite,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Short_Ground,
+    }
+
+}

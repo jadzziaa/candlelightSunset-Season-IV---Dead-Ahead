@@ -1,0 +1,48 @@
+module Base
+{
+	sound TIsnd_ToolM
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_1.ogg,
+			volume = 0.16,
+		}
+	}
+	sound TIsnd_ToolM
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_2.ogg,
+			volume = 0.16,
+		}
+	}
+	sound TIsnd_ToolM
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_3.ogg,
+			volume = 0.16,
+		}
+	}
+	sound TIsnd_ToolM
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_4.ogg,
+			volume = 0.16,
+		}
+	}
+	sound TIsnd_ToolM
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_ToolM_5.ogg,
+			volume = 0.16,
+		}
+	}
+}

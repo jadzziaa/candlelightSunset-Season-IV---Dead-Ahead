@@ -1,0 +1,43 @@
+VERSION = 1,
+
+option DiveThruWindows.DiveClosedWindowInjuryChance
+{
+	type = integer, min = 0, max = 200, default = 50,
+	page = DiveThruWindows, translation = DiveThruWindows_DiveClosedWindowInjuryChance,
+}
+
+option DiveThruWindows.DiveBrokenWindowInjuryChance
+{
+	type = integer, min = 0, max = 200, default = 30,
+	page = DiveThruWindows, translation = DiveThruWindows_DiveBrokenWindowInjuryChance,
+}
+
+option DiveThruWindows.BaseDodge
+{
+	type = integer, min = 0, max = 200, default = 100,
+	page = DiveThruWindows, translation = DiveThruWindows_BaseDodge,
+}
+
+option DiveThruWindows.ArmorEffectiveness
+{
+	type = integer, min = 0, max = 200, default = 100,
+	page = DiveThruWindows, translation = DiveThruWindows_ArmorEffectiveness,
+}
+
+option DiveThruWindows.BaseFailDiveChance
+{
+	type = integer, min = 0, max = 200, default = 45,
+	page = DiveThruWindows, translation = DiveThruWindows_BaseFailDiveChance,
+}
+
+option DiveThruWindows.CanInjureLegs
+{
+	type = boolean, default = false,
+	page = DiveThruWindows, translation = DiveThruWindows_CanInjureLegs,
+}
+
+option DiveThruWindows.ExtraInjuryRolls
+{
+	type = integer, min = 0, max = 9, default = 0,
+	page = DiveThruWindows, translation = DiveThruWindows_ExtraInjuryRolls,
+}

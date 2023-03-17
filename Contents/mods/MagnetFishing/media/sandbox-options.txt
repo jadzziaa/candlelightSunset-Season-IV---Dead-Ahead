@@ -1,0 +1,35 @@
+VERSION = 1,
+
+option MagnetFishing.Tier1Chance = {
+	type = double, 
+	min = 0,
+	max = 100,
+	default = 65,
+	page = MagnetFishing, 
+	translation = MagnetFishing_Tier1Chance,
+}
+
+option MagnetFishing.Tier2Chance = {
+	type = double, 
+	min = 0,
+	max = 100,
+	default = 30,
+	page = MagnetFishing, 
+	translation = MagnetFishing_Tier2Chance,
+}
+
+option MagnetFishing.Tier3Chance = {
+	type = double, 
+	min = 0,
+	max = 100,
+	default = 5,
+	page = MagnetFishing, 
+	translation = MagnetFishing_Tier3Chance,
+}
+
+option MagnetFishing.ItemEdits = {
+	type = string, 
+	default = ,
+	page = MagnetFishing, 
+	translation = MagnetFishing_ItemEdits,
+}

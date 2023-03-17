@@ -1,0 +1,134 @@
+module Base
+{
+
+    model 82jeepJ10spareRear
+    {
+        mesh = vehicles/Vehicles_82jeepJ10_Body|j10_spare1,
+        texture = Vehicles/Vehicles_82jeepJ10_Interior_Wheel,
+        shader = vehiclewheel,
+        scale = 0.1,
+    }
+
+    model 82jeepJ10spareTop
+    {
+        mesh = vehicles/Vehicles_82jeepJ10_Body|j10_spare2,
+        texture = Vehicles/Vehicles_82jeepJ10_Interior_Wheel,
+        shader = vehiclewheel,
+        scale = 0.1,
+    }
+
+	template vehicle JP82SpareTires
+	{
+
+        part JP82SpareTireRear
+        {
+            model spare658
+            {
+            file = 82jeepJ10spareRear,
+            }
+                
+            specificItem = false,
+            itemType = Base.80sOffroadTireA,
+            area = TruckBed,
+            category = bodywork,
+            mechanicRequireKey = false,
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+			             equip = primary,
+                    }
+                }
+                time = 700,
+                skills = Mechanics:5,
+                recipes = Advanced Mechanics,
+                door = TrunkDoor,
+                test = Vehicles.InstallTest.Default,
+                complete = JP82.InstallComplete.SpareTire,
+            }
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+						equip = primary,
+                    }
+                }
+                time = 700,
+                  skills = Mechanics:5,
+                  recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = JP82.UninstallComplete.SpareTire,
+            }
+            lua
+            {
+                create = JP82.Create.SpareTire,
+            }
+        }
+
+        part JP82SpareTireRoof
+        {
+            model spare411154
+            {
+            file = 82jeepJ10spareTop,
+            }
+        
+            specificItem = false,
+            itemType = Base.80sOffroadTireA,
+            area = TruckBed,
+            category = bodywork,
+            mechanicRequireKey = false,
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+            equip = primary,
+                    }
+                }
+                time = 700,
+                skills = Mechanics:5,
+                recipes = Advanced Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Default,
+                requireInstalled = JP82Roofrack,
+            }
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 700,
+                  skills = Mechanics:5,
+                  recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+            }
+            lua
+                    {
+                    create = KI5.Create.Blank,
+                    }
+        }
+
+    }
+
+}

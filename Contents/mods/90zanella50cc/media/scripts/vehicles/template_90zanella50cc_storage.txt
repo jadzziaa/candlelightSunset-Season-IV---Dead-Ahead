@@ -1,0 +1,117 @@
+module Base
+{
+	model 90zanella50cc_storageFront
+    {
+        mesh = vehicles/Bikes_90zanella50cc_Body|zan_front_storage,
+        shader = vehicle_noreflect,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+
+    model 90zanella50cc_storageBox
+    {
+        mesh = vehicles/Bikes_90zanella50cc_Body|zan_box,
+        shader = vehicle_noreflect,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+
+	template vehicle ZNL50trunkStorages
+	{
+	    part ZNL50FrontStorage
+		{
+			model 156484614
+			{
+			file = 90zanella50cc_storageFront,
+			}
+
+			category = bodywork,
+			area = FrontStorage,
+			specificItem = false,
+			itemType = Base.ZNL50storageFront,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = ZNL50.ContainerAccess.storageFront,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part ZNL50DeliveryBox
+		{
+			model 5646841
+			{
+			file = 90zanella50cc_storageBox,
+			}
+
+			category = bodywork,
+			area = TruckBed,
+			specificItem = false,
+			itemType = Base.ZNL50storageBox,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = ZNL50.ContainerAccess.storageBox,
+			}
+			table uninstall
+			{
+				requireUninstalled = TrunkDoor,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part ZNL50*
+		{
+			table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:1,
+                	test = Vehicles.InstallTest.Default,
+                	complete = Vehicles.InstallComplete.Default,
+            		}
+
+            table uninstall
+            	{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:1,
+                	test = Vehicles.UninstallTest.Default,
+					complete = Vehicles.UninstallComplete.Default,
+					requireEmpty = true,
+            	}
+		}
+
+	}
+
+}

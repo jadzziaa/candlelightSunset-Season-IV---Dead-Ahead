@@ -1,0 +1,29 @@
+module Base
+{
+
+	fixing Fix VN125 Trunk
+	{
+	   Require : VN125storage1;VN125sidestorage1;VN125storagePizza1,
+	   ConditionModifier : 0.5,
+
+      Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix VN125 Tire
+	{
+	   Require : VN125oldTire;VN125normalTire;VN125modernTire,
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix VN125 Seat
+	{
+	   Require : VN125seat,
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+}

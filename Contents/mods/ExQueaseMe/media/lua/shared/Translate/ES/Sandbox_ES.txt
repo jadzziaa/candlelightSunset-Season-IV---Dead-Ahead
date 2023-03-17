@@ -1,0 +1,7 @@
+Sandbox_ES = {
+    Sandbox_ExQueaseMe = "ExQuease Me",
+    Sandbox_ExQueaseMe_ReduceQuease = "Náuseas reducidas",
+    Sandbox_ExQueaseMe_ReduceQuease_tooltip = "La cantidad de enfermedad removida cada 10 minutos cuando se está lejos de los cadáveres y con una máscara de gas equipada.<LINE>Esto es una adición al valor 1 que el juego ya hace. Ajustar a 0 para desactivar.",
+    Sandbox_ExQueaseMe_ReduceQueaseGain = "Ganancia de náuseas reducidas",
+    Sandbox_ExQueaseMe_ReduceQueaseGain_tooltip = "La cantidad de enfermedad removida cada 10 minutos cuando se está entre cadáveres con una máscara de gas equipada.<LINE>En promedio, obtienes 0.7 de enfermedad cada 10 minutos. Ajustar a 0 para desactivar.",
+}

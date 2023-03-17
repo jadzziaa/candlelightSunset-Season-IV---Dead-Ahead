@@ -1,0 +1,5 @@
+Tooltip_EN = {
+
+    Tooltip_AddSlotUnequip = "Unequip your backpack before adding/removing slots",
+
+}

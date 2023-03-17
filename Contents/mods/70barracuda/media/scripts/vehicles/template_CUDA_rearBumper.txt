@@ -1,0 +1,87 @@
+module Base
+{
+	model 70barracudarearBumper0
+	{
+		mesh = vehicles/Vehicles_70barracuda_Body|cuda_bumper_rear0,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model 70barracudarearBumpera
+	{
+		mesh = vehicles/Vehicles_70barracuda_Body|cuda_bumper_rear_a,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	template vehicle CUDARearBumpers
+		{
+		part CUDARearBumper
+        	{
+
+			model RearBumper0
+				{
+                		file = 70barracudarearBumper0,
+				}
+
+			model RearBumperA
+				{
+                		file = 70barracudarearBumpera,
+				}
+
+				area = TruckBed,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.CUDARearBumper0;Base.CUDARearBumperA,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = CUDA.InstallComplete.RearBumper,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = CUDA.UninstallComplete.RearBumper,
+            		}
+
+            		lua
+            		{
+					create = CUDA.Create.RearBumper,
+					init = CUDA.Init.RearBumper,
+					}
+		}
+	}
+
+		
+}

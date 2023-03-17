@@ -1,0 +1,179 @@
+VERSION = 1,
+
+option IMNAL.CarLighterChance
+{
+	type = integer,
+	max = 100,
+    min = 0,
+	default = 30,
+	page = IMightNeedALighter,
+	translation = IMNAL_CarLighterChance,
+}
+
+option IMNAL.CarLighterSocketChance
+{
+	type = integer,
+	max = 100,
+    min = 0,
+	default = 50,
+	page = IMightNeedALighter,
+	translation = IMNAL_CarLighterSocketChance,
+}
+
+option IMNAL.electricityReq
+{
+	type = integer,
+	max = 10,
+    min = 0,
+	default = 1,
+	page = IMightNeedALighter,
+	translation = IMNAL_electricityReq,
+}
+
+option IMNAL.mechanicReq
+{
+	type = integer,
+	max = 10,
+    min = 0,
+	default = 2,
+	page = IMightNeedALighter,
+	translation = IMNAL_mechanicReq,
+}
+
+option IMNAL.allowStove
+{
+	type = boolean,
+	default = true,
+	page = IMightNeedALighter,
+	translation = IMNAL_allowStove,
+}
+
+option IMNAL.allowMicrowave
+{
+	type = boolean,
+	default = false,
+	page = IMightNeedALighter,
+	translation = IMNAL_allowMicrowave,
+}
+
+option IMNAL.allowFireplace
+{
+	type = boolean,
+	default = true,
+	page = IMightNeedALighter,
+	translation = IMNAL_allowFireplace,
+}
+
+option IMNAL.allowCampfire
+{
+	type = boolean,
+	default = true,
+	page = IMightNeedALighter,
+	translation = IMNAL_allowCampfire,
+}
+
+option IMNAL.allowFire
+{
+	type = boolean,
+	default = true,
+	page = IMightNeedALighter,
+	translation = IMNAL_allowFire,
+}
+
+option IMNAL.allowBump
+{
+	type = boolean,
+	default = true,
+	page = IMightNeedALighter,
+	translation = IMNAL_allowBump,
+}
+
+option IMNAL.noStoveRisk
+{
+	type = boolean,
+	default = true,
+	page = IMightNeedALighter,
+	translation = IMNAL_noStoveRisk,
+}
+
+option IMNAL.carLighterBaseTimer
+{
+	type = integer,
+	max = 400,
+    min = 0,
+	default = 200,
+	page = IMightNeedALighter,
+	translation = IMNAL_carLighterBaseTimer,
+}
+
+option IMNAL.stoveBaseTimer
+{
+	type = integer,
+	max = 300,
+    min = 0,
+	default = 150,
+	page = IMightNeedALighter,
+	translation =  IMNAL_stoveBaseTimer,
+}
+
+option IMNAL.microwaveBaseTimer
+{
+	type = integer,
+	max = 2000,
+    min = 0,
+	default = 1000,
+	page = IMightNeedALighter,
+	translation = IMNAL_microwaveBaseTimer,
+}
+
+option IMNAL.fireplaceBaseTimer
+{
+	type = integer,
+	max = 200,
+    min = 0,
+	default = 100,
+	page = IMightNeedALighter,
+	translation = IMNAL_fireplaceBaseTimer,
+}
+
+option IMNAL.barbecueBaseTimer
+{
+	type = integer,
+	max = 200,
+    min = 0,
+	default = 100,
+	page = IMightNeedALighter,
+	translation = IMNAL_barbecueBaseTimer ,
+}
+
+option IMNAL.campingBaseTimer
+{
+	type = integer,
+	max = 240,
+    min = 0,
+	default = 120,
+	page = IMightNeedALighter,
+	translation = IMNAL_campingBaseTimer ,
+}
+
+option IMNAL.fireBaseTimer
+{
+	type = integer,
+	max = 80,
+    min = 0,
+	default = 40,
+	page = IMightNeedALighter,
+	translation = IMNAL_fireBaseTimer,
+}
+
+option IMNAL.playerBaseTimer
+{
+	type = integer,
+	max = 20,
+    min = 0,
+	default = 10,
+	page = IMightNeedALighter,
+	translation = IMNAL_playerBaseTimer,
+}
+
+

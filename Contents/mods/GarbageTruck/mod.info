@@ -1,0 +1,7 @@
+name=Skizot's Garbage Truck
+id=GarbageTruck
+description=Adds Garbage Truck with a Dumpster trunk.
+poster=poster.png
+pack=TrashCubes
+tiledef=TrashCubes 715
+icon=logo_mini.png

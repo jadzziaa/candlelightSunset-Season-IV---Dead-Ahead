@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\riddingboots_male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\kneehighs_female.fbx</m_FemaleModel>
+	<m_GUID>628f89b2-4274-4dba-bb82-fb4f97119fd3</m_GUID>
+	<m_Static>true</m_Static>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/longboots</m_UnderlayMasksFolder>
+	<textureChoices>blackboots1</textureChoices>
+	<textureChoices>blackboots2</textureChoices>
+	<textureChoices>blackboots3</textureChoices>
+	<textureChoices>blackboots4</textureChoices>
+	<textureChoices>blackboots5</textureChoices>
+	<textureChoices>blackboots6</textureChoices>
+	<textureChoices>brownboots1</textureChoices>
+	<textureChoices>brownboots2</textureChoices>
+	<textureChoices>brownboots3</textureChoices>
+	<textureChoices>brownboots5</textureChoices>
+	<textureChoices>gothboots1</textureChoices>
+	<textureChoices>gothboots3</textureChoices>
+	<textureChoices>grayboots</textureChoices>
+	<textureChoices>hikingboots1</textureChoices>
+</clothingItem>

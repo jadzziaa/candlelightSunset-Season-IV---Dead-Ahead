@@ -1,0 +1,445 @@
+module CardsModels {
+    imports{
+        Base
+    }
+
+    model shirted
+    {
+      mesh = WorldItems/CreditCard,
+      texture = shirted,
+      scale = 0.5,
+    }
+
+
+
+    model 2clubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 2clubs,
+      scale = 0.5,
+    }
+
+    model 2diamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 2diamonds,
+      scale = 0.5,
+    }
+
+    model 2hearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 2hearts,
+      scale = 0.5,
+    }
+
+    model 2spades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 2spades,
+      scale = 0.5,
+    }
+
+
+
+
+
+    model 3clubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 3clubs,
+      scale = 0.5,
+    }
+
+    model 3diamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 3diamonds,
+      scale = 0.5,
+    }
+
+    model 3hearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 3hearts,
+      scale = 0.5,
+    }
+
+    model 3spades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 3spades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model 4clubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 4clubs,
+      scale = 0.5,
+    }
+
+    model 4diamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 4diamonds,
+      scale = 0.5,
+    }
+
+    model 4hearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 4hearts,
+      scale = 0.5,
+    }
+
+    model 4spades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 4spades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model 5clubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 5clubs,
+      scale = 0.5,
+    }
+
+    model 5diamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 5diamonds,
+      scale = 0.5,
+    }
+
+    model 5hearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 5hearts,
+      scale = 0.5,
+    }
+
+    model 5spades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 5spades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model 6clubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 6clubs,
+      scale = 0.5,
+    }
+
+    model 6diamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 6diamonds,
+      scale = 0.5,
+    }
+
+    model 6hearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 6hearts,
+      scale = 0.5,
+    }
+
+    model 6spades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 6spades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model 7clubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 7clubs,
+      scale = 0.5,
+    }
+
+    model 7diamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 7diamonds,
+      scale = 0.5,
+    }
+
+    model 7hearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 7hearts,
+      scale = 0.5,
+    }
+
+    model 7spades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 7spades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model 8clubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 8clubs,
+      scale = 0.5,
+    }
+
+    model 8diamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 8diamonds,
+      scale = 0.5,
+    }
+
+    model 8hearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 8hearts,
+      scale = 0.5,
+    }
+
+    model 8spades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 8spades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model 9clubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 9clubs,
+      scale = 0.5,
+    }
+
+    model 9diamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 9diamonds,
+      scale = 0.5,
+    }
+
+    model 9hearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 9hearts,
+      scale = 0.5,
+    }
+
+    model 9spades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 9spades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model 10clubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 10clubs,
+      scale = 0.5,
+    }
+
+    model 10diamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 10diamonds,
+      scale = 0.5,
+    }
+
+    model 10hearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 10hearts,
+      scale = 0.5,
+    }
+
+    model 10spades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = 10spades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model aceclubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = aceclubs,
+      scale = 0.5,
+    }
+
+    model acediamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = acediamonds,
+      scale = 0.5,
+    }
+
+    model acehearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = acehearts,
+      scale = 0.5,
+    }
+
+    model acespades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = acespades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model jackclubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = jackclubs,
+      scale = 0.5,
+    }
+
+    model jackdiamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = jackdiamonds,
+      scale = 0.5,
+    }
+
+    model jackhearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = jackhearts,
+      scale = 0.5,
+    }
+
+    model jackspades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = jackspades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model queenclubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = queenclubs,
+      scale = 0.5,
+    }
+
+    model queendiamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = queendiamonds,
+      scale = 0.5,
+    }
+
+    model queenhearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = queenhearts,
+      scale = 0.5,
+    }
+
+    model queenspades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = queenspades,
+      scale = 0.5,
+    }
+    
+
+
+
+
+    model kingclubs
+    {
+      mesh = WorldItems/CreditCard,
+      texture = kingclubs,
+      scale = 0.5,
+    }
+
+    model kingdiamonds
+    {
+      mesh = WorldItems/CreditCard,
+      texture = kingdiamonds,
+      scale = 0.5,
+    }
+
+    model kinghearts
+    {
+      mesh = WorldItems/CreditCard,
+      texture = kinghearts,
+      scale = 0.5,
+    }
+
+    model kingspades
+    {
+      mesh = WorldItems/CreditCard,
+      texture = kingspades,
+      scale = 0.5,
+    }
+
+
+
+    model redjoker
+    {
+      mesh = WorldItems/CreditCard,
+      texture = redjoker,
+      scale = 0.5,
+    }
+
+    model blackjoker
+    {
+      mesh = WorldItems/CreditCard,
+      texture = blackjoker,
+      scale = 0.5,
+    }
+
+
+
+}

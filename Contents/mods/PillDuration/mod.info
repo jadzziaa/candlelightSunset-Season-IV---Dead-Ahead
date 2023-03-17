@@ -1,0 +1,5 @@
+name=PillDuration
+id=PillDuration
+description=Pill Duration
+poster=poster.png
+require=UIAPI

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Clothes\M_Jumper_RomanTunic.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Clothes\F_Jumper_RomanTunic.fbx</m_FemaleModel>
+	<m_GUID>076e210a-212b-4294-8f1a-a0ceb261390e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/JacketLong/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\dress\Jumper_EmperorTunicRed</textureChoices>
+	<textureChoices>clothes\dress\Jumper_EmperorTunicGreen</textureChoices>
+	<textureChoices>clothes\dress\Jumper_EmperorTunicBlue</textureChoices>
+	<textureChoices>clothes\dress\Jumper_EmperorTunicBrown</textureChoices>
+	<textureChoices>clothes\dress\Jumper_EmperorTunicGrey</textureChoices>
+</clothingItem>

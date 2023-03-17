@@ -1,0 +1,642 @@
+module CutePanties{
+   imports {
+	Base
+	}
+    item Simple_blue
+    {
+        Type = Clothing,
+        DisplayName = Simple Panty - Blue,
+        ClothingItem = Simple_blue,
+        BodyLocation = UnderwearBottom,
+        Icon = Simple_Blue,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Simple_Blue_Ground,
+    }
+    item Simple_green
+    {
+        Type = Clothing,
+        DisplayName = Simple Panty - Green,
+        ClothingItem = Simple_green,
+        BodyLocation = UnderwearBottom,
+        Icon = Simple_Green,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Simple_Green_Ground,
+    }
+    item Simple_orange
+    {
+        Type = Clothing,
+        DisplayName = Simple Panty - Orange,
+        ClothingItem = Simple_orange,
+        BodyLocation = UnderwearBottom,
+        Icon = Simple_Orange,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Simple_Orange_Ground,
+    }
+    item Simple_pink
+    {
+        Type = Clothing,
+        DisplayName = Simple Panty - Pink,
+        ClothingItem = Simple_pink,
+        BodyLocation = UnderwearBottom,
+        Icon = Simple_Pink,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Simple_Pink_Ground,
+    }
+
+
+
+    item Twotoned_blue
+    {
+        Type = Clothing,
+        DisplayName = Twotoned Panty - Blue,
+        ClothingItem = Twotoned_blue,
+        BodyLocation = UnderwearBottom,
+        Icon = Twotoned_Blue,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Twotoned_Blue_Ground,
+    }
+    item Twotoned_cyan
+    {
+        Type = Clothing,
+        DisplayName = Twotoned Panty - Cyan,
+        ClothingItem = Twotoned_cyan,
+        BodyLocation = UnderwearBottom,
+        Icon = Twotoned_Cyan,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Twotoned_Cyan_Ground,
+    }
+    item Twotoned_green
+    {
+        Type = Clothing,
+        DisplayName = Twotoned Panty - Green,
+        ClothingItem = Twotoned_green,
+        BodyLocation = UnderwearBottom,
+        Icon = Twotoned_Green,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Twotoned_Green_Ground,
+    }
+    item Twotoned_grey
+    {
+        Type = Clothing,
+        DisplayName = Twotoned Panty - Grey,
+        ClothingItem = Twotoned_grey,
+        BodyLocation = UnderwearBottom,
+        Icon = Twotoned_Grey,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Twotoned_Grey_Ground,
+    }
+    item Twotoned_orange
+    {
+        Type = Clothing,
+        DisplayName = Twotoned Panty - Orange,
+        ClothingItem = Twotoned_orange,
+        BodyLocation = UnderwearBottom,
+        Icon = Twotoned_Orange,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Twotoned_Orange_Ground,
+    }
+    item Twotoned_pink
+    {
+        Type = Clothing,
+        DisplayName = Twotoned Panty - Pink,
+        ClothingItem = Twotoned_pink,
+        BodyLocation = UnderwearBottom,
+        Icon = Twotoned_Pink,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Twotoned_Pink_Ground,
+    }
+    item Twotoned_purple
+    {
+        Type = Clothing,
+        DisplayName = Twotoned Panty - Purple,
+        ClothingItem = Twotoned_purple,
+        BodyLocation = UnderwearBottom,
+        Icon = Twotoned_Purple,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Twotoned_Purple_Ground,
+    }
+    item Twotoned_red
+    {
+        Type = Clothing,
+        DisplayName = Twotoned Panty - Red,
+        ClothingItem = Twotoned_red,
+        BodyLocation = UnderwearBottom,
+        Icon = Twotoned_Red,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Twotoned_Red_Ground,
+    }
+    item Twotoned_yellow
+    {
+        Type = Clothing,
+        DisplayName = Twotoned Panty - Yellow,
+        ClothingItem = Twotoned_yellow,
+        BodyLocation = UnderwearBottom,
+        Icon = Twotoned_Yellow,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Twotoned_Yellow_Ground,
+    }
+
+    item Frilly_black
+    {
+        Type = Clothing,
+        DisplayName = Frilly Panty - Black,
+        ClothingItem = Frilly_black,
+        BodyLocation = UnderwearBottom,
+        Icon = Frilly_Black,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Frilly_Black_Ground,
+    }
+    item Frilly_white
+    {
+        Type = Clothing,
+        DisplayName = Frilly Panty - White,
+        ClothingItem = Frilly_white,
+        BodyLocation = UnderwearBottom,
+        Icon = Frilly_White,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Frilly_White_Ground,
+    }
+    item Frilly_wine
+    {
+        Type = Clothing,
+        DisplayName = Frilly Panty - Wine,
+        ClothingItem = Frilly_wine,
+        BodyLocation = UnderwearBottom,
+        Icon = Frilly_Wine,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Frilly_Wine_Ground,
+    }
+
+
+    item Cat_bruce
+    {
+        Type = Clothing,
+        DisplayName = Cat Panty - Black,
+        ClothingItem = Cat_bruce,
+        BodyLocation = UnderwearBottom,
+        Icon = Cat_Bruce,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Cat_Bruce_Ground,
+    }
+    item Cat_winnie
+    {
+        Type = Clothing,
+        DisplayName = Cat Panty - Siamese,
+        ClothingItem = Cat_winnie,
+        BodyLocation = UnderwearBottom,
+        Icon = Cat_Winnie,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Cat_Winnie_Ground,
+    }
+
+    item Highwaist_black
+    {
+        Type = Clothing,
+        DisplayName = High Waisted Panty - Black,
+        ClothingItem = Highwaist_black,
+        BodyLocation = UnderwearBottom,
+        Icon = Highwaist_black,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Highwaist_Black_Ground,
+    }
+    item Highwaist_copper
+    {
+        Type = Clothing,
+        DisplayName = High Waisted Panty - Copper,
+        ClothingItem = Highwaist_copper,
+        BodyLocation = UnderwearBottom,
+        Icon = Highwaist_copper,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Highwaist_Copper_Ground,
+    }
+    item Highwaist_gold
+    {
+        Type = Clothing,
+        DisplayName = High Waisted Panty - Gold,
+        ClothingItem = Highwaist_gold,
+        BodyLocation = UnderwearBottom,
+        Icon = Highwaist_gold,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Highwaist_Gold_Ground,
+    }
+    item Highwaist_red
+    {
+        Type = Clothing,
+        DisplayName = High Waisted Panty - Red,
+        ClothingItem = Highwaist_red,
+        BodyLocation = UnderwearBottom,
+        Icon = Highwaist_red,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Highwaist_Red_Ground,
+    }
+    item Highwaist_silver
+    {
+        Type = Clothing,
+        DisplayName = High Waisted Panty - Silver,
+        ClothingItem = Highwaist_silver,
+        BodyLocation = UnderwearBottom,
+        Icon = Highwaist_silver,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Highwaist_Silver_Ground,
+    }
+
+
+    item Tanga_american
+    {
+        Type = Clothing,
+        DisplayName = Tanga - Star Spangled,
+        ClothingItem = Tanga_american,
+        BodyLocation = UnderwearBottom,
+        Icon = Tanga_american,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Tanga_American_Ground,
+    }
+    item Tanga_black
+    {
+        Type = Clothing,
+        DisplayName = Tanga - Black,
+        ClothingItem = Tanga_black,
+        BodyLocation = UnderwearBottom,
+        Icon = Tanga_black,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Tanga_Black_Ground,
+    }
+    item Tanga_camo
+    {
+        Type = Clothing,
+        DisplayName = Tanga - Camo,
+        ClothingItem = Tanga_camo,
+        BodyLocation = UnderwearBottom,
+        Icon = Tanga_camo,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Tanga_Camo_Ground,
+    }
+    item Tanga_grey
+    {
+        Type = Clothing,
+        DisplayName = Tanga - Grey,
+        ClothingItem = Tanga_grey,
+        BodyLocation = UnderwearBottom,
+        Icon = Tanga_grey,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Tanga_Grey_Ground,
+    }
+    item Tanga_orange
+    {
+        Type = Clothing,
+        DisplayName = Tanga - Orange,
+        ClothingItem = Tanga_orange,
+        BodyLocation = UnderwearBottom,
+        Icon = Tanga_orange,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Tanga_Orange_Ground,
+    }
+    item Tanga_pink
+    {
+        Type = Clothing,
+        DisplayName = Tanga - Pink,
+        ClothingItem = Tanga_pink,
+        BodyLocation = UnderwearBottom,
+        Icon = Tanga_pink,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Tanga_Pink_Ground,
+    }
+    item Tanga_purple
+    {
+        Type = Clothing,
+        DisplayName = Tanga - Purple,
+        ClothingItem = Tanga_purple,
+        BodyLocation = UnderwearBottom,
+        Icon = Tanga_purple,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Tanga_Purple_Ground,
+    }
+    item Tanga_red
+    {
+        Type = Clothing,
+        DisplayName = Tanga - Red,
+        ClothingItem = Tanga_red,
+        BodyLocation = UnderwearBottom,
+        Icon = Tanga_red,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Tanga_Red_Ground,
+    }
+
+    item Heart_red
+    {
+        Type = Clothing,
+        DisplayName = Heart Panty - Red,
+        ClothingItem = Heart_red,
+        BodyLocation = UnderwearBottom,
+        Icon = Heart_red,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Heart_Red_Ground,
+    }
+    item Heart_black
+    {
+        Type = Clothing,
+        DisplayName = Heart Panty - Black,
+        ClothingItem = Heart_black,
+        BodyLocation = UnderwearBottom,
+        Icon = Heart_black,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Heart_Black_Ground,
+    }
+    item Heart_white
+    {
+        Type = Clothing,
+        DisplayName = Heart Panty - White,
+        ClothingItem = Heart_white,
+        BodyLocation = UnderwearBottom,
+        Icon = Heart_white,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Heart_White_Ground,
+    }
+    item Heart_pink
+    {
+        Type = Clothing,
+        DisplayName = Heart Panty - Pink,
+        ClothingItem = Heart_pink,
+        BodyLocation = UnderwearBottom,
+        Icon = Heart_pink,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Heart_Pink_Ground,
+    }
+
+    item Ruffles_black
+    {
+        Type = Clothing,
+        DisplayName = Ruffled Panty - Black,
+        ClothingItem = Ruffles_black,
+        BodyLocation = UnderwearBottom,
+        Icon = Ruffles_black,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Ruffles_Black_Ground,
+    }
+    item Ruffles_blue
+    {
+        Type = Clothing,
+        DisplayName = Ruffled Panty - Blue,
+        ClothingItem = Ruffles_blue,
+        BodyLocation = UnderwearBottom,
+        Icon = Ruffles_blue,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Ruffles_Blue_Ground,
+    }
+    item Ruffles_pink
+    {
+        Type = Clothing,
+        DisplayName = Ruffled Panty - Pink,
+        ClothingItem = Ruffles_pink,
+        BodyLocation = UnderwearBottom,
+        Icon = Ruffles_pink,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Ruffles_Pink_Ground,
+    }
+    item Ruffles_red
+    {
+        Type = Clothing,
+        DisplayName = Ruffled Panty - Red,
+        ClothingItem = Ruffles_red,
+        BodyLocation = UnderwearBottom,
+        Icon = Ruffles_red,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Ruffles_Red_Ground,
+    }
+    item Ruffles_white
+    {
+        Type = Clothing,
+        DisplayName = Ruffled Panty - White,
+        ClothingItem = Ruffles_white,
+        BodyLocation = UnderwearBottom,
+        Icon = Ruffles_white,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Ruffles_White_Ground,
+    }
+
+    item Fancy_low_white
+    {
+        Type = Clothing,
+        DisplayName = Fancy Panty - White,
+        ClothingItem = Fancy_low_white,
+        BodyLocation = UnderwearBottom,
+        Icon = Fancy_Low_white,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Fancy_Low_White_Ground,
+    }
+    item Fancy_low_black
+    {
+        Type = Clothing,
+        DisplayName = Fancy Panty - Black,
+        ClothingItem = Fancy_low_black,
+        BodyLocation = UnderwearBottom,
+        Icon = Fancy_Low_black,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Fancy_Low_Black_Ground,
+    }
+    item Fancy_low_blue
+    {
+        Type = Clothing,
+        DisplayName = Fancy Panty - Blue,
+        ClothingItem = Fancy_low_blue,
+        BodyLocation = UnderwearBottom,
+        Icon = Fancy_Low_blue,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Fancy_Low_Blue_Ground,
+    }
+    item Fancy_low_pink
+    {
+        Type = Clothing,
+        DisplayName = Fancy Panty - Pink,
+        ClothingItem = Fancy_low_pink,
+        BodyLocation = UnderwearBottom,
+        Icon = Fancy_Low_pink,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Fancy_Low_Pink_Ground,
+    }
+
+    item Fancy_high_white
+    {
+        Type = Clothing,
+        DisplayName = Fancy Highwaist Panty - White,
+        ClothingItem = Fancy_high_white,
+        BodyLocation = UnderwearBottom,
+        Icon = Fancy_High_white,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Fancy_High_White_Ground,
+    }
+    item Fancy_high_black
+    {
+        Type = Clothing,
+        DisplayName = Fancy Highwaist Panty - Black,
+        ClothingItem = Fancy_high_black,
+        BodyLocation = UnderwearBottom,
+        Icon = Fancy_High_black,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Fancy_High_Black_Ground,
+    }
+    item Fancy_high_blue
+    {
+        Type = Clothing,
+        DisplayName = Fancy Highwaist Panty - Blue,
+        ClothingItem = Fancy_high_blue,
+        BodyLocation = UnderwearBottom,
+        Icon = Fancy_High_blue,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Fancy_High_Blue_Ground,
+    }
+    item Fancy_high_pink
+    {
+        Type = Clothing,
+        DisplayName = Fancy Highwaist Panty - Pink,
+        ClothingItem = Fancy_high_pink,
+        BodyLocation = UnderwearBottom,
+        Icon = Fancy_High_pink,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CombatSpeedModifier = 1,
+        Weight = .1,
+        WorldStaticModel = Fancy_High_Pink_Ground,
+    }
+}

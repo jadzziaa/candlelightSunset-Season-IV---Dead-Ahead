@@ -1,0 +1,121 @@
+module Base
+{
+	model PoliceDutyBelt_Ground
+	{
+		mesh = WorldItems/PoliceDutyBelt_Ground,
+		scale = 0.5,
+	}
+	model SecurityWalkie_Ground
+	{
+		mesh = WorldItems/SecurityWalkie_Ground,
+		texture = Clothes\Chest\Security_Walkie,
+	}
+	model RCRBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_Raven_Creek,
+        scale = 0.4,
+    }
+	model KSPBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_KSP,
+        scale = 0.4,
+    }
+	model MeadeBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_Meade,
+        scale = 0.4,
+    }
+	model RWBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_Rosewood,
+        scale = 0.4,
+    }
+	model WPBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_WestPoint,
+        scale = 0.4,
+    }
+	model MDBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_Muldraugh,
+        scale = 0.4,
+    }
+	model RSBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_Riverside,
+        scale = 0.4,
+    }
+	model LVBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_Louisville,
+        scale = 0.4,
+    }
+	model JCPDBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_JeffersonPD,
+        scale = 0.4,
+    }
+	model JCSDBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Police_JeffersonSD,
+        scale = 0.4,
+    }
+	model NSPBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Federal_Ranger,
+        scale = 0.4,
+    }
+	model SRBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_State_Ranger,
+        scale = 0.4,
+    }
+	model SPBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_State_Law_Ranger,
+        scale = 0.4,
+    }
+	model SBBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Security_Bank,
+        scale = 0.4,
+    }
+	model SMOBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Security_Mall_Ohio,
+        scale = 0.4,
+    }
+	model SMVBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Security_Mall_Valley,
+        scale = 0.4,
+    }
+	model SMLVBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Security_Mall_LV,
+        scale = 0.4,
+    }
+	model SHHBadge_Ground
+    {
+        mesh = WorldItems/SeedPacket,
+        texture = Item_Badge_Security_Hotel_Havisham,
+        scale = 0.4,
+    }
+}

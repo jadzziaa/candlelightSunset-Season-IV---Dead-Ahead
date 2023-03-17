@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>ca837df0-89ce-4cca-9ef0-38134bc97d19</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Rubber_Nude30</m_BaseTextures>
+	<m_BaseTextures>clothes\Rubber_Nude50</m_BaseTextures>
+	<m_BaseTextures>clothes\Rubber_Nude60</m_BaseTextures>
+</clothingItem>

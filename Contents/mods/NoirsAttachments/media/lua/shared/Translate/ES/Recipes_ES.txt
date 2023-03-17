@@ -1,0 +1,35 @@
+Recipes_ES = {
+
+    Recipe_Roll_Sleeping_Bag = "Enrollar saco de dormir",
+	Recipe_UnRoll_Sleeping_Bag = "Desenrollar saco de dormir",
+
+    Recipe_Add_Frame_SnakeAlice = "Agregar soporte a mochila Alice",
+    Recipe_Remove_Frame_SnakeAlice  = "Quitar soporte a mochila Alice",
+    Recipe_Add_Pouch_SnakeAlice = "Agregar bolsa de almacenaje a mochila Alice",
+    Recipe_Remove_Pouch_SnakeAlice = "Quitar bolsa de almacenaje a mochila Alice",
+
+    Recipe_Add_Weapon_Slot = "Agregar Ranura Arma",
+    Recipe_Add_Short_Weapon_Slot = "Agregar Ranura Arma Corta",
+    Recipe_Add_Utility_Right_Slot = "Agregar Ranura Utilidad Derecha",
+    Recipe_Add_Utility_Left_Slot = "Agregar Ranura Utilidad Izquierda",
+    Recipe_Add_Left_Slot = "Agregar Ranura Lateral Izquierdo",
+    Recipe_Add_Right_Slot = "Agregar Ranura Laternal Derecho",
+    Recipe_Add_Bedroll_Slot = "Agregar Ranura Saco de dormir",
+    Recipe_Add_Flashlight_Slot = "Agregar Ranura Linterna",
+    Recipe_Add_Container_Slot = "Agregar Ranura Contenedor",
+    Recipe_Add_Small_Container_Left_Slot = "Agregar Ranura Contenedor chico Izquierdo",
+    Recipe_Add_Small_Container_Right_Slot = "Agregar Ranura Contenedor chico Derecho",
+
+    Recipe_Remove_Weapon_Slot = "Quitar Ranura Arma",
+    Recipe_Remove_Short_Weapon_Slot = "Quitar Ranura Arma Corta",
+    Recipe_Remove_Utility_Right_Slot = "Quitar Ranura Utilidad Derecha",
+    Recipe_Remove_Utility_Left_Slot = "Quitar Ranura Utilidad Izquierda",
+    Recipe_Remove_Left_Slot = "Quitar Ranura Lateral Izquierdo",
+    Recipe_Remove_Right_Slot = "Quitar Ranura Lateral Derecho",
+    Recipe_Remove_Bedroll_Slot = "Quitar Ranura Saco de dormir",
+    Recipe_Remove_Flashlight_Slot = "Quitar Ranura Linterna",
+    Recipe_Remove_Container_Slot = "Quitar Ranura Contenedor",
+    Recipe_Remove_Small_Container_Left_Slot = "Quitar Ranura Contenedor chico Izquierdo",
+    Recipe_Remove_Small_Container_Right_Slot = "Quitar Ranura Contenedor chico Derecho",
+
+}

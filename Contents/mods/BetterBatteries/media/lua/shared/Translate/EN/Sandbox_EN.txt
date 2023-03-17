@@ -1,0 +1,16 @@
+Sandbox_EN = {
+	Sandbox_BetterBatteries = "Better Batteries",
+	Sandbox_BetterBatteries_CrankTime = "Base Crank Time",
+	Sandbox_BetterBatteries_CrankTime_tooltip = "Amount of in-game minutes it takes to charge a battery from empty to full without penalties / buffs in place.",
+	Sandbox_BetterBatteries_StrengthBuff = "Hand Crank Strength Buff",
+	Sandbox_BetterBatteries_StrengthBuff_tooltip = "Determines whether or not higher strength levels will apply a time buff.",
+	Sandbox_BetterBatteries_EndurancePenalty = "Hand Crank Endurance Penalty",
+	Sandbox_BetterBatteries_EndurancePenalty_tooltip = "Determines whether or not low endurance will apply a time penalty. (Regardless of this setting, you won't be permitted to use the Hand Crank at extremely low endurance.)",
+	Sandbox_BetterBatteries_UnhappinessPenalty = "Hand Crank Unhappiness Penalty",
+	Sandbox_BetterBatteries_UnhappinessPenalty_tooltip = "Determines whether or not unhappiness will apply a time penalty.",
+	Sandbox_BetterBatteries_MaxCharge = "Maximum Battery Charge",
+	Sandbox_BetterBatteries_MaxCharge_tooltip = "Sets the maximum charge a handcrank can restore a battery to.",
+	Sandbox_BetterBatteries_LifetimeMult = "Battery Lifetime Multiplier",
+	Sandbox_BetterBatteries_LifetimeMult_tooltip = "Lifetime multiplier applied to all electrical devices that use batteries. (Negative value results in unlimited charge, 0 results in instant charge loss.)"
+	
+}

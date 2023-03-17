@@ -1,0 +1,5 @@
+name=Road Block Fix
+id=RoadBlockFix
+description=Fixes road blocks to properly provide collision.
+poster=preview.png
+tiledef=roadblockfix 3371

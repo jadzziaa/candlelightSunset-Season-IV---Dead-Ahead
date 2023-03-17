@@ -1,0 +1,365 @@
+module Base
+{
+    model 86fordE150doorfla
+    	{
+        mesh = vehicles/Vehicles_86fordE150_Body|e150_door_fl_a,
+		shader = vehicle_noreflect,
+        scale = 0.1,
+        static = FALSE,
+    	}
+
+    model 86fordE150doorfra
+    	{
+        mesh = vehicles/Vehicles_86fordE150_Body|e150_door_fr_a,
+		shader = vehicle_noreflect,
+        scale = 0.1,
+        static = FALSE,
+    	}
+
+    model 86fordE150windshielda
+    	{
+        mesh = vehicles/Vehicles_86fordE150_Body|e150_windshield_a,
+		shader = vehicle_noreflect,
+        scale = 0.1,
+    	}
+
+    model 86fordE150windshieldreara
+    	{
+        mesh = vehicles/Vehicles_86fordE150_Body|e150_trunkDoor_a,
+		shader = vehicle_noreflect,
+        scale = 0.1,
+        static = FALSE,
+    	}
+
+    model 86fordE150windshieldrearla
+    	{
+        mesh = vehicles/Vehicles_86fordE150_Body|e150_trunkDoor_long_a,
+		shader = vehicle_noreflect,
+        scale = 0.1,
+        static = FALSE,
+    	}
+
+	template vehicle E150Armor
+		{
+		part E150WindshieldArmor
+        	{
+
+			model E150winda
+				{
+                		file = 86fordE150windshielda,
+				}
+
+			area = Engine,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.E150WindshieldArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 550,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = E150.InstallComplete.WindshieldArmor,
+                	requireInstalled = Windshield,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+						time = 600,
+						skills = Mechanics:4,
+						recipes = Intermediate Mechanics,
+			            test = Vehicles.UninstallTest.Default,
+						complete = E150.UninstallComplete.WindshieldArmor,
+            		}
+
+            		lua
+            		{
+					create = E150.Create.WindshieldArmor,
+					init = E150.Init.WindshieldArmor,
+					}
+		}
+
+		part E150LeftDoorArmor
+        	{
+
+			model E150leftdoora
+				{
+                		file = 86fordE150doorfla,
+				}
+
+			area = SeatFrontLeft,
+			category = bodywork,
+			parent = DoorFrontLeft,
+			specificItem = false,
+			itemType = Base.E150DoorArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 500,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = E150.InstallComplete.DoorLeftArmor,
+                	requireInstalled = WindowFrontLeft,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 550,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = E150.UninstallComplete.DoorLeftArmor,
+            		}
+
+            		lua
+            		{
+					create = E150.Create.DoorLeftArmor,
+					init = E150.Init.DoorLeftArmor,
+					}
+		}
+
+		part E150RightDoorArmor
+        	{
+
+			model E150rightdoora
+				{
+                		file = 86fordE150doorfra,
+				}
+
+			area = SeatFrontRight,
+			category = bodywork,
+			parent = DoorFrontRight,
+			specificItem = false,
+			itemType = Base.E150DoorArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 500,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = E150.InstallComplete.DoorRightArmor,
+                	requireInstalled = WindowFrontRight,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 550,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = E150.UninstallComplete.DoorRightArmor,
+            		}
+
+            		lua
+            		{
+					create = E150.Create.DoorRightArmor,
+					init = E150.Init.DoorRightArmor,
+					}
+		}
+	}
+
+	template vehicle E150NormalBack
+		{
+		part E150WindshieldRearArmor
+        	{
+
+			model E150windra
+				{
+                		file = 86fordE150windshieldreara,
+				}
+
+			area = TruckBed,
+			category = bodywork,
+			parent = TrunkDoor,
+			specificItem = false,
+			itemType = Base.E150WindshieldRearArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 700,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = E150.InstallComplete.WindshieldRearArmor,
+                	requireInstalled = WindshieldRear,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 750,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = E150.UninstallComplete.WindshieldRearArmor,
+            		}
+
+            		lua
+            		{
+					create = E150.Create.WindshieldRearArmor,
+					init = E150.Init.WindshieldRearArmor,
+					}
+			}
+
+		}
+
+	template vehicle E150LongBack
+		{
+		part E150WindshieldRearLongArmor
+        	{
+
+			model E150windrla
+				{
+                		file = 86fordE150windshieldrearla,
+				}
+
+			area = TruckBed,
+			category = bodywork,
+			parent = TrunkDoor,
+			specificItem = false,
+			itemType = Base.E150WindshieldRearArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 700,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = E150.InstallComplete.WindshieldRearLongArmor,
+                	requireInstalled = WindshieldRear,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 750,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = E150.UninstallComplete.WindshieldRearLongArmor,
+            		}
+
+            		lua
+            		{
+					create = E150.Create.WindshieldRearLongArmor,
+					init = E150.Init.WindshieldRearLongArmor,
+					}
+			}
+		}
+}

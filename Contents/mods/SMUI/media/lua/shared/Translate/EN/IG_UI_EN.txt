@@ -1,0 +1,10 @@
+IGUI_EN = {
+
+	IGUI_HotbarAttachment_SMUIWebbingLeft = "Webbing Left Slot",
+	IGUI_HotbarAttachment_SMUIWebbingRight = "Webbing Right Slot",
+
+    IGUI_ItemCat_Helmet = "Helmet",
+	IGUI_ItemCat_Webbing = "Webbing",
+	IGUI_ItemCat_GasMask = "Gas Mask",
+
+}

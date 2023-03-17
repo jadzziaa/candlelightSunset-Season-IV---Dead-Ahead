@@ -1,0 +1,258 @@
+VERSION = 1,
+
+option AirbobbelzLoot.GlobalMultiplier
+{
+	type = integer,
+	min = 0,
+	max = 100000000,
+	default = 100,
+	page = AirbobbelzLoot,
+	translation = airbobbelzLootGlobal,
+}
+
+option AirbobbelzLoot.ChanceMaxCondition
+{
+	type = integer, 
+	min = 0, 
+	max = 100, 
+	default = 20,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootChanceMaxCondition,
+}
+
+option AirbobbelzLoot.MinimumCondition
+{
+	type = integer, 
+	min = 0, 
+	max = 100, 
+	default = 10,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootMinimumCondition,
+}
+
+option AirbobbelzLoot.ChanceMaxDrainable
+{
+	type = integer, 
+	min = 0, 
+	max = 100, 
+	default = 20,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootChanceMaxDrainable,
+}
+
+option AirbobbelzLoot.MinimumDrainable
+{
+	type = integer, 
+	min = 0, 
+	max = 100, 
+	default = 20,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootMinimumDrainable,
+}
+
+option AirbobbelzLoot.OutfitMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootOutfit,
+}
+
+option AirbobbelzLoot.BagContentsMultiplier
+{
+	type = integer,
+	min = 0,
+	max = 100000000,
+	default = 100,
+	page = AirbobbelzLoot,
+	translation = airbobbelzLootBagContents,
+}
+
+option AirbobbelzLoot.GunLooseBulletsRolls
+{
+	type = integer,
+	min = 0,
+	max = 1000,
+	default = 12,
+	page = AirbobbelzLoot,
+	translation = airbobbelzLootLooseBulletRolls,
+}
+
+option AirbobbelzLoot.GunLooseBulletsMultiplier
+{
+	type = integer,
+	min = 0,
+	max = 1000,
+	default = 100,
+	page = AirbobbelzLoot,
+	translation = airbobbelzLootLooseBulletMultiplier,
+}
+
+option AirbobbelzLoot.AmmoMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootAmmo,
+}
+
+option AirbobbelzLoot.AmmoBoxMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootAmmoBox,
+}
+
+option AirbobbelzLoot.MeleeMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootMelee,
+}
+
+option AirbobbelzLoot.PistolMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootPistol,
+}
+
+option AirbobbelzLoot.LongGunMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootLongGun,
+}
+
+option AirbobbelzLoot.OtherGunsMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootOtherGuns,
+}
+
+option AirbobbelzLoot.CannedFoodMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootCanned,
+}
+
+option AirbobbelzLoot.OtherFoodMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootOtherFood,
+}
+
+option AirbobbelzLoot.ResourceMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootResource,
+}
+
+option AirbobbelzLoot.BagMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootBag,
+}
+
+option AirbobbelzLoot.GunBagMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootGunBag,
+}
+
+option AirbobbelzLoot.JunkMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootJunk,
+}
+
+option AirbobbelzLoot.ExtraMultiplier
+{
+	type = integer, 
+	min = 0, 
+	max = 100000000, 
+	default = 100,
+	page = AirbobbelzLoot, 
+	translation = airbobbelzLootExtra,
+}
+
+option AirbobbelzLoot.ExtraRollEach
+{
+	type = string, 
+	default=,
+	page=AirbobbelzLoot,
+	translation=airbobbelzLootExtraRollEach,
+}
+
+option AirbobbelzLoot.ExtraRollOne1
+{
+	type = string, 
+	default=,
+	page=AirbobbelzLoot,
+	translation=airbobbelzLootExtraRollOne1,
+}
+
+option AirbobbelzLoot.ExtraRollOne2 {
+	type = string, 
+	default=,
+	page=AirbobbelzLoot,
+	translation=airbobbelzLootExtraRollOne2,
+}
+
+option AirbobbelzLoot.ExtraRollOne3 {
+	type = string, 
+	default=,
+	page=AirbobbelzLoot,
+	translation=airbobbelzLootExtraRollOne3,
+}
+
+option AirbobbelzLoot.RemoveItems {
+	type = string,
+	default=,
+	page=AirbobbelzLoot,
+	translation=airbobbelzLootRemoveItems,
+}

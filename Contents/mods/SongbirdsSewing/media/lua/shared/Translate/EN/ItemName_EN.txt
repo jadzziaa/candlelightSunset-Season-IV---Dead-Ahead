@@ -1,0 +1,7 @@
+ItemName_EN = {
+	ItemName_Songbirds_Sewing_Patterns.TailoringMag1Shoes = "Tailoring Guide to Shoemaking",
+	ItemName_Songbirds_Sewing_Patterns.TailoringMag2Bulletproof = "Tailoring the Bulletproof Life",
+	ItemName_Songbirds_Sewing_Patterns.TailoringMag3Knitting = "Tailoring Handbook for Knitters",
+	ItemName_Songbirds_Sewing_Patterns.TailoringMag4Wedding = "Tailoring the Perfect Wedding",
+	ItemName_Songbirds_Sewing_Patterns.TailoringMag7Bags = "Tailoring Bags for All Occasions",
+}

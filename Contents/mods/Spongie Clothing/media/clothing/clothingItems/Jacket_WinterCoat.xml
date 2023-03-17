@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>Skinned\Clothes\Spongie\M_WinterCoat</m_MaleModel>
+    <m_FemaleModel>Skinned\Clothes\Spongie\F_WinterCoat</m_FemaleModel>
+	<m_GUID>spongiec-3b02-4e25-b27e-7e112006d7e2</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>Group03</m_HatCategory>
+	<m_Masks>12</m_Masks>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/JacketLong/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat1</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat2</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat3</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat4</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat5</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat6</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat7</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat8</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat9</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\WinterCoat10</textureChoices>
+</clothingItem>

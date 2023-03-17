@@ -1,0 +1,2045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+<!--Male-->
+	<male><name>M_P3Hero</name>
+		<model>skinned\hair\M_Makoto</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_P3HeroG1" />
+		<alternate category="Group01" style="M_P3HeroG1" />
+		<alternate category="Group02" style="M_P3HeroG1" />
+		<alternate category="Group03" style="M_P3HeroG1" />
+		<alternate category="Group04" style="M_P3HeroG1" />
+		<alternate category="Group05" style="M_P3Hero" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Aigis</name>
+		<model>skinned\hair\M_Aigis</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_AigisG1" />
+		<alternate category="Group01" style="M_AigisG1" />
+		<alternate category="Group02" style="M_AigisG1" />
+		<alternate category="Group03" style="M_AigisG4" />
+		<alternate category="Group04" style="M_AigisG4" />
+		<alternate category="Group05" style="M_Aigis" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_AigisAlt</name>
+		<model>skinned\hair\M_AigisAlt</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_AigisG1" />
+		<alternate category="Group01" style="M_AigisG1" />
+		<alternate category="Group02" style="M_AigisG1" />
+		<alternate category="Group03" style="M_AigisAltG4" />
+		<alternate category="Group04" style="M_AigisAltG4" />
+		<alternate category="Group05" style="M_AigisAlt" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Carlos</name>
+		<model>skinned\hair\M_Carlos</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_CarlosG1" />
+		<alternate category="Group01" style="M_CarlosG1" />
+		<alternate category="Group02" style="M_CarlosG1" />
+		<alternate category="Group03" style="M_CarlosG1" />
+		<alternate category="Group04" style="M_CarlosG1" />
+		<alternate category="Group05" style="M_Carlos" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Valentine</name>
+		<model>skinned\hair\M_Valentine</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ValentineG1" />
+		<alternate category="Group01" style="M_ValentineG1" />
+		<alternate category="Group02" style="M_ValentineG1" />
+		<alternate category="Group03" style="M_ValentineG4" />
+		<alternate category="Group04" style="M_ValentineG4" />
+		<alternate category="Group05" style="M_Valentine" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Redfield</name>
+		<model>skinned\hair\M_Redfield</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_RedfieldG1" />
+		<alternate category="Group01" style="M_RedfieldG1" />
+		<alternate category="Group02" style="M_RedfieldG2" />
+		<alternate category="Group03" style="M_RedfieldG1" />
+		<alternate category="Group04" style="M_RedfieldG1" />
+		<alternate category="Group05" style="M_Redfield" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Goth</name>
+		<model>skinned\hair\M_Goth</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_GothG1" />
+		<alternate category="Group01" style="M_GothG1" />
+		<alternate category="Group02" style="M_GothG2" />
+		<alternate category="Group03" style="M_GothG1" />
+		<alternate category="Group04" style="M_GothG1" />
+		<alternate category="Group05" style="M_Goth" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Rick</name>
+		<model>skinned\hair\M_Rick</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_RickG1" />
+		<alternate category="Group01" style="M_RickG1" />
+		<alternate category="Group02" style="M_RickG1" />
+		<alternate category="Group03" style="M_RickG1" />
+		<alternate category="Group04" style="M_RickG1" />
+		<alternate category="Group05" style="M_Rick" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Mitsuru</name>
+		<model>skinned\hair\M_Mitsuru</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_MitsuruG1" />
+		<alternate category="Group01" style="M_MitsuruG1" />
+		<alternate category="Group02" style="M_MitsuruG1" />
+		<alternate category="Group03" style="M_MitsuruPonytailG1" />
+		<alternate category="Group04" style="M_MitsuruPonytailG1" />
+		<alternate category="Group05" style="M_Mitsuru" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</male>
+	<male><name>M_MitsuruPonytail</name>
+		<model>skinned\hair\M_MitsuruPonytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_MitsuruPonytailG1" />
+		<alternate category="Group01" style="M_MitsuruPonytailG1" />
+		<alternate category="Group02" style="M_MitsuruPonytailG2" />
+		<alternate category="Group03" style="M_MitsuruPonytailG1" />
+		<alternate category="Group04" style="M_MitsuruPonytailG1" />
+		<alternate category="Group05" style="M_MitsuruPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Leon</name>
+		<model>skinned\hair\M_Leon</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_LeonG1" />
+		<alternate category="Group01" style="M_LeonG1" />
+		<alternate category="Group02" style="M_LeonG1" />
+		<alternate category="Group03" style="M_LeonG1" />
+		<alternate category="Group04" style="M_LeonG1" />
+		<alternate category="Group05" style="M_Leon" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_MessyParted</name>
+		<model>skinned\hair\M_MessyParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_MessyPartedG1" />
+		<alternate category="Group01" style="M_MessyPartedG1" />
+		<alternate category="Group02" style="M_MessyPartedG1" />
+		<alternate category="Group03" style="M_PartedG1" />
+		<alternate category="Group04" style="M_MessyPartedG4" />
+		<alternate category="Group05" style="M_MessyParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_ErenBun</name>
+		<model>skinned\hair\M_ErenBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ErenBunG1" />
+		<alternate category="Group01" style="M_ErenBunG1" />
+		<alternate category="Group02" style="M_ErenBun" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_ErenBunG1" />
+		<alternate category="Group05" style="M_ErenBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_ErenParted</name>
+		<model>skinned\hair\M_ErenParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ErenPartedG1" />
+		<alternate category="Group01" style="M_ErenPartedG1" />
+		<alternate category="Group02" style="M_ErenPartedG1" />
+		<alternate category="Group03" style="M_MarieG4" />
+		<alternate category="Group04" style="M_ErenPartedG4" />
+		<alternate category="Group05" style="M_ErenParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</male>
+	<male><name>M_ErenPartedG1</name>
+		<model>skinned\hair\M_ErenPartedG1</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ErenPartedG1" />
+		<alternate category="Group01" style="M_ErenPartedG1" />
+		<alternate category="Group02" style="M_ErenPartedG1" />
+		<alternate category="Group03" style="M_MarieG4" />
+		<alternate category="Group04" style="M_ErenPartedG4" />
+		<alternate category="Group05" style="M_ErenParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</male>
+	<male><name>M_Mikasa</name>
+		<model>skinned\hair\M_Mikasa</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_MikasaG1" />
+		<alternate category="Group01" style="M_MikasaG1" />
+		<alternate category="Group02" style="M_MikasaG1" />
+		<alternate category="Group03" style="M_MikasaShortG1" />
+		<alternate category="Group04" style="M_MikasaG4" />
+		<alternate category="Group05" style="M_Mikasa" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_MikasaShort</name>
+		<model>skinned\hair\M_MikasaShort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_MikasaShortG1" />
+		<alternate category="Group01" style="M_MikasaShortG1" />
+		<alternate category="Group02" style="M_MikasaShortG1" />
+		<alternate category="Group03" style="M_MikasaShortG1" />
+		<alternate category="Group04" style="M_MikasaShortG1" />
+		<alternate category="Group05" style="M_MikasaShort" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Marie</name>
+		<model>skinned\hair\M_Marie</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_MarieG4" />
+		<alternate category="Group01" style="M_MarieG4" />
+		<alternate category="Group02" style="M_MarieG4" />
+		<alternate category="Group03" style="M_MarieG4" />
+		<alternate category="Group04" style="M_MarieG4" />
+		<alternate category="Group05" style="M_Marie" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Dante</name>
+		<model>skinned\hair\M_Dante</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_DanteG1" />
+		<alternate category="Group01" style="M_DanteG1" />
+		<alternate category="Group02" style="M_DanteG1" />
+		<alternate category="Group03" style="M_DanteG4" />
+		<alternate category="Group04" style="M_DanteG4" />
+		<alternate category="Group05" style="M_Dante" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_DanteParted</name>
+		<model>skinned\hair\M_DanteParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_DanteG1" />
+		<alternate category="Group01" style="M_DanteG1" />
+		<alternate category="Group02" style="M_DanteG1" />
+		<alternate category="Group03" style="M_DanteG4" />
+		<alternate category="Group04" style="M_DanteG4" />
+		<alternate category="Group05" style="M_DanteParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Vergil</name>
+		<model>skinned\hair\M_Vergil</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_DanteG1" />
+		<alternate category="Group01" style="M_DanteG1" />
+		<alternate category="Group02" style="M_DanteG1" />
+		<alternate category="Group03" style="M_DanteG4" />
+		<alternate category="Group04" style="M_DanteG4" />
+		<alternate category="Group05" style="M_Vergil" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_RickShow</name>
+		<model>skinned\hair\M_RickShow</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_RickShowG1" />
+		<alternate category="Group01" style="M_RickShowG1" />
+		<alternate category="Group02" style="M_RickShowG1" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="M_RickShow" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Kotone</name>
+		<model>skinned\hair\M_Kotone</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_KotoneG1" />
+		<alternate category="Group01" style="M_KotoneG1" />
+		<alternate category="Group02" style="M_KotoneG1" />
+		<alternate category="Group03" style="M_KotonePonytailG1" />
+		<alternate category="Group04" style="M_KotonePonytailG1" />
+		<alternate category="Group05" style="F_Kotone" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</male>
+	<male><name>M_KotonePonytail</name>
+		<model>skinned\hair\M_KotonePonytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_KotonePonytailG1" />
+		<alternate category="Group01" style="M_KotonePonytailG1" />
+		<alternate category="Group02" style="M_KotonePonytailG2" />
+		<alternate category="Group03" style="M_KotonePonytailG1" />
+		<alternate category="Group04" style="M_KotonePonytailG1" />
+		<alternate category="Group05" style="M_KotonePonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yu</name>
+		<model>skinned\hair\M_Yu</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_YuG1" />
+		<alternate category="Group01" style="M_YuG1" />
+		<alternate category="Group02" style="M_YuG1" />
+		<alternate category="Group03" style="M_YuG1" />
+		<alternate category="Group04" style="M_YuG1" />
+		<alternate category="Group05" style="M_Yu" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</male>
+	<male><name>M_Parted</name>
+		<model>skinned\hair\M_Parted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_PartedG1" />
+		<alternate category="Group01" style="M_PartedG1" />
+		<alternate category="Group02" style="M_PartedG1" />
+		<alternate category="Group03" style="M_PartedG1" />
+		<alternate category="Group04" style="M_PartedG1" />
+		<alternate category="Group05" style="M_Parted" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</male>
+	<male><name>M_PartedMedium</name>
+		<model>skinned\hair\M_PartedMedium</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_PartedMediumG1" />
+		<alternate category="Group01" style="M_PartedMediumG1" />
+		<alternate category="Group02" style="M_PartedMediumG1" />
+		<alternate category="Group03" style="M_PartedMediumG1" />
+		<alternate category="Group04" style="M_PartedMediumG1" />
+		<alternate category="Group05" style="M_PartedMedium" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Curtains</name>
+		<model>skinned\hair\M_Curtains</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_CurtainsG1" />
+		<alternate category="Group01" style="M_CurtainsG1" />
+		<alternate category="Group02" style="M_CurtainsG1" />
+		<alternate category="Group03" style="M_CurtainsG1" />
+		<alternate category="Group04" style="M_CurtainsG1" />
+		<alternate category="Group05" style="M_Curtains" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Rei</name>
+		<model>skinned\hair\M_Rei</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ReiG1" />
+		<alternate category="Group01" style="M_ReiG1" />
+		<alternate category="Group02" style="M_ReiG1" />
+		<alternate category="Group03" style="M_ReiG4" />
+		<alternate category="Group04" style="M_ReiG4" />
+		<alternate category="Group05" style="M_Rei" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_ReiG1</name>
+		<model>skinned\hair\M_ReiG1</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ReiG1" />
+		<alternate category="Group01" style="M_ReiG1" />
+		<alternate category="Group02" style="M_ReiG1" />
+		<alternate category="Group03" style="M_ReiG4" />
+		<alternate category="Group04" style="M_ReiG4" />
+		<alternate category="Group05" style="M_ReiG1" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	
+	<male><name>M_Sideswept</name>
+		<model>skinned\hair\M_Sideswept</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_SidesweptG1" />
+		<alternate category="Group01" style="M_SidesweptG1" />
+		<alternate category="Group02" style="M_SidesweptG1" />
+		<alternate category="Group03" style="M_SidesweptG1" />
+		<alternate category="Group04" style="M_SidesweptG1" />
+		<alternate category="Group05" style="M_Sideswept" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</male>
+	<male><name>M_Yukari</name>
+		<model>skinned\hair\M_Yukari</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_YukariG1" />
+		<alternate category="Group01" style="M_YukariG1" />
+		<alternate category="Group02" style="M_YukariG1" />
+		<alternate category="Group03" style="M_SidesweptG1" />
+		<alternate category="Group04" style="M_SidesweptG1" />
+		<alternate category="Group05" style="M_Yukari" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</male>
+	<male><name>M_YukariAlt</name>
+		<model>skinned\hair\M_YukariAlt</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_YukariAltG1" />
+		<alternate category="Group01" style="M_YukariAltG1" />
+		<alternate category="Group02" style="M_YukariAltG1" />
+		<alternate category="Group03" style="M_SidesweptG1" />
+		<alternate category="Group04" style="M_SidesweptG1" />
+		<alternate category="Group05" style="M_YukariAlt" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_YukariBun</name>
+		<model>skinned\hair\M_YukariBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_SidesweptG1" />
+		<alternate category="Group01" style="M_SidesweptG1" />
+		<alternate category="Group02" style="M_YukariBunG2" />
+		<alternate category="Group03" style="M_SidesweptG1" />
+		<alternate category="Group04" style="M_SidesweptG1" />
+		<alternate category="Group05" style="M_YukariBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Agent</name>
+		<model>skinned\hair\M_Agent</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_AgentG1" />
+		<alternate category="Group01" style="M_AgentG1" />
+		<alternate category="Group02" style="M_AgentG1" />
+		<alternate category="Group03" style="M_AgentG1" />
+		<alternate category="Group04" style="M_AgentG1" />
+		<alternate category="Group05" style="M_Agent" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Shaggy</name>
+		<model>skinned\hair\M_Shaggy</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ShaggyG1" />
+		<alternate category="Group01" style="M_ShaggyG1" />
+		<alternate category="Group02" style="M_ShaggyG4" />
+		<alternate category="Group03" style="M_ShaggyG4" />
+		<alternate category="Group04" style="M_ShaggyG4" />
+		<alternate category="Group05" style="M_Shaggy" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_ShaggyCurly</name>
+		<model>skinned\hair\M_ShaggyCurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="M_ShaggyCurlyG1" />
+		<alternate category="Group01" style="M_ShaggyCurlyG1" />
+		<alternate category="Group02" style="M_ShaggyCurlyG4" />
+		<alternate category="Group03" style="M_ShaggyCurlyG4" />
+		<alternate category="Group04" style="M_ShaggyCurlyG4" />
+		<alternate category="Group05" style="M_ShaggyCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_PartedSide</name>
+		<model>skinned\hair\M_PartedSide</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_PartedSideG1" />
+		<alternate category="Group01" style="M_PartedSideG1" />
+		<alternate category="Group02" style="M_PartedSideG1" />
+		<alternate category="Group03" style="M_PartedSideG1" />
+		<alternate category="Group04" style="M_PartedSideG1" />
+		<alternate category="Group05" style="M_PartedSide" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</male>
+	<male><name>M_PartedSideMedium</name>
+		<model>skinned\hair\M_PartedSideMedium</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_PartedSideMediumG1" />
+		<alternate category="Group01" style="M_PartedSideMediumG1" />
+		<alternate category="Group02" style="M_PartedSideMediumG1" />
+		<alternate category="Group03" style="M_PartedSideMediumG1" />
+		<alternate category="Group04" style="M_PartedSideMediumG1" />
+		<alternate category="Group05" style="M_PartedSideMedium" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_SpikedUp</name>
+		<model>skinned\hair\M_SpikedUp</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="M_SpikedUp" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="M_SpikedUp" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</male>
+	<male><name>M_SpikedForward</name>
+		<model>skinned\hair\M_SpikedForward</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="M_SpikedForward" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="M_SpikedForward" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</male>
+	<male><name>M_Kusanagi</name>
+		<model>skinned\hair\M_Kusanagi</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_KusanagiG1" />
+		<alternate category="Group01" style="M_KusanagiG1" />
+		<alternate category="Group02" style="M_KusanagiG1" />
+		<alternate category="Group03" style="M_KusanagiG1" />
+		<alternate category="Group04" style="M_KusanagiG1" />
+		<alternate category="Group05" style="M_Kusanagi" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_LeonRE4</name>
+		<model>skinned\hair\M_LeonRE4</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_LeonG1" />
+		<alternate category="Group01" style="M_LeonG1" />
+		<alternate category="Group02" style="M_LeonG1" />
+		<alternate category="Group03" style="M_LeonG1" />
+		<alternate category="Group04" style="M_LeonG1" />
+		<alternate category="Group05" style="M_LeonRE4" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_LeonLong</name>
+		<model>skinned\hair\M_LeonLong</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_LeonLongG1" />
+		<alternate category="Group01" style="M_LeonLongG1" />
+		<alternate category="Group02" style="M_LeonLongG1" />
+		<alternate category="Group03" style="M_LeonLongG4" />
+		<alternate category="Group04" style="M_LeonLongG4" />
+		<alternate category="Group05" style="M_LeonLong" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Surfer</name>
+		<model>skinned\hair\M_Surfer</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_SurferG1" />
+		<alternate category="Group01" style="M_SurferG1" />
+		<alternate category="Group02" style="M_SurferG1" />
+		<alternate category="Group03" style="M_SurferG1" />
+		<alternate category="Group04" style="M_SurferG1" />
+		<alternate category="Group05" style="M_Surfer" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_CurtainsHigh</name>
+		<model>skinned\hair\M_CurtainsHigh</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_CurtainsHighG1" />
+		<alternate category="Group01" style="M_CurtainsHighG1" />
+		<alternate category="Group02" style="M_CurtainsHighG1" />
+		<alternate category="Group03" style="M_CurtainsHighG1" />
+		<alternate category="Group04" style="M_CurtainsHighG1" />
+		<alternate category="Group05" style="M_CurtainsHigh" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_Hero</name>
+		<model>skinned\hair\M_Hero</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_HeroG1" />
+		<alternate category="Group01" style="M_HeroG1" />
+		<alternate category="Group02" style="M_HeroG1" />
+		<alternate category="Group03" style="M_HeroG4" />
+		<alternate category="Group04" style="M_HeroG4" />
+		<alternate category="Group05" style="M_Hero" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</male>
+	<male><name>M_HeroTail</name>
+		<model>skinned\hair\M_HeroTail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_HeroTailG1" />
+		<alternate category="Group01" style="M_HeroTailG1" />
+		<alternate category="Group02" style="M_HeroTailG1" />
+		<alternate category="Group03" style="M_HeroG4" />
+		<alternate category="Group04" style="M_HeroG4" />
+		<alternate category="Group05" style="M_HeroTail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_HeroBun</name>
+		<model>skinned\hair\M_HeroBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_HeroBunG1" />
+		<alternate category="Group01" style="M_HeroBunG1" />
+		<alternate category="Group02" style="M_HeroBunG2" />
+		<alternate category="Group03" style="M_HeroG4" />
+		<alternate category="Group04" style="M_HeroG4" />
+		<alternate category="Group05" style="M_HeroBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Princely</name>
+		<model>skinned\hair\M_Princely</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_PrincelyG1" />
+		<alternate category="Group01" style="M_PrincelyG1" />
+		<alternate category="Group02" style="M_PrincelyG1" />
+		<alternate category="Group03" style="M_PrincelyG4" />
+		<alternate category="Group04" style="M_PrincelyG4" />
+		<alternate category="Group05" style="M_Princely" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_PrincelyShort</name>
+		<model>skinned\hair\M_PrincelyShort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_PrincelyG4" />
+		<alternate category="Group01" style="M_PrincelyG4" />
+		<alternate category="Group02" style="M_PrincelyG4" />
+		<alternate category="Group03" style="M_PrincelyG4" />
+		<alternate category="Group04" style="M_PrincelyG4" />
+		<alternate category="Group05" style="M_PrincelyShort" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</male>
+	<male><name>M_RedfieldLow</name>
+		<model>skinned\hair\M_RedfieldLow</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_RedfieldLowG1" />
+		<alternate category="Group01" style="M_RedfieldLowG1" />
+		<alternate category="Group02" style="M_RedfieldLowG1" />
+		<alternate category="Group03" style="M_RedfieldLowG4" />
+		<alternate category="Group04" style="M_RedfieldLowG4" />
+		<alternate category="Group05" style="M_RedfieldLow" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	
+	
+	
+	
+	
+<!--Female-->
+	<female><name>F_P3Hero</name>
+		<model>skinned\hair\F_Makoto</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_P3HeroG1" />
+		<alternate category="Group01" style="F_P3HeroG1" />
+		<alternate category="Group02" style="F_P3HeroG1" />
+		<alternate category="Group03" style="F_P3HeroG1" />
+		<alternate category="Group04" style="F_P3HeroG1" />
+		<alternate category="Group05" style="F_P3Hero" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Aigis</name>
+		<model>skinned\hair\F_Aigis</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_AigisG1" />
+		<alternate category="Group01" style="F_AigisG1" />
+		<alternate category="Group02" style="F_AigisG1" />
+		<alternate category="Group03" style="F_AigisG4" />
+		<alternate category="Group04" style="F_AigisG4" />
+		<alternate category="Group05" style="F_Aigis" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_AigisAlt</name>
+		<model>skinned\hair\F_AigisAlt</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_AigisG1" />
+		<alternate category="Group01" style="F_AigisG1" />
+		<alternate category="Group02" style="F_AigisG1" />
+		<alternate category="Group03" style="F_AigisAltG4" />
+		<alternate category="Group04" style="F_AigisAltG4" />
+		<alternate category="Group05" style="F_AigisAlt" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Valentine</name>
+		<model>skinned\hair\F_Valentine</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_ValentineG1" />
+		<alternate category="Group01" style="F_ValentineG1" />
+		<alternate category="Group02" style="F_ValentineG1" />
+		<alternate category="Group03" style="F_ValentineG4" />
+		<alternate category="Group04" style="F_ValentineG4" />
+		<alternate category="Group05" style="F_Valentine" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Carlos</name>
+		<model>skinned\hair\F_Carlos</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_CarlosG1" />
+		<alternate category="Group01" style="F_CarlosG1" />
+		<alternate category="Group02" style="F_CarlosG1" />
+		<alternate category="Group03" style="F_CarlosG1" />
+		<alternate category="Group04" style="F_CarlosG1" />
+		<alternate category="Group05" style="F_Carlos" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Redfield</name>
+		<model>skinned\hair\F_Redfield</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_RedfieldG1" />
+		<alternate category="Group01" style="F_RedfieldG1" />
+		<alternate category="Group02" style="F_RedfieldG2" />
+		<alternate category="Group03" style="F_RedfieldG1" />
+		<alternate category="Group04" style="F_RedfieldG1" />
+		<alternate category="Group05" style="F_Redfield" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Goth2</name>
+		<model>skinned\hair\F_Goth</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_GothG1" />
+		<alternate category="Group01" style="F_GothG1" />
+		<alternate category="Group02" style="F_GothG2" />
+		<alternate category="Group03" style="F_GothG1" />
+		<alternate category="Group04" style="F_GothG1" />
+		<alternate category="Group05" style="F_Goth2" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Rick</name>
+		<model>skinned\hair\F_Rick</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_RickG1" />
+		<alternate category="Group01" style="F_RickG1" />
+		<alternate category="Group02" style="F_RickG1" />
+		<alternate category="Group03" style="F_RickG1" />
+		<alternate category="Group04" style="F_RickG1" />
+		<alternate category="Group05" style="F_Rick" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Mitsuru</name>
+		<model>skinned\hair\F_Mitsuru</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_MitsuruG1" />
+		<alternate category="Group01" style="F_MitsuruG1" />
+		<alternate category="Group02" style="F_MitsuruG1" />
+		<alternate category="Group03" style="F_MitsuruPonytailG1" />
+		<alternate category="Group04" style="F_MitsuruPonytailG1" />
+		<alternate category="Group05" style="F_Mitsuru" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</female>
+	<female><name>F_MitsuruPonytail</name>
+		<model>skinned\hair\F_MitsuruPonytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_MitsuruPonytailG1" />
+		<alternate category="Group01" style="F_MitsuruPonytailG1" />
+		<alternate category="Group02" style="F_MitsuruPonytailG2" />
+		<alternate category="Group03" style="F_MitsuruPonytailG1" />
+		<alternate category="Group04" style="F_MitsuruPonytailG1" />
+		<alternate category="Group05" style="F_MitsuruPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Leon</name>
+		<model>skinned\hair\F_Leon</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_LeonG1" />
+		<alternate category="Group01" style="F_LeonG1" />
+		<alternate category="Group02" style="F_LeonG1" />
+		<alternate category="Group03" style="F_LeonG1" />
+		<alternate category="Group04" style="F_LeonG1" />
+		<alternate category="Group05" style="F_Leon" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_MessyParted</name>
+		<model>skinned\hair\F_MessyParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_MessyPartedG1" />
+		<alternate category="Group01" style="F_MessyPartedG1" />
+		<alternate category="Group02" style="F_MessyPartedG1" />
+		<alternate category="Group03" style="F_PartedG1" />
+		<alternate category="Group04" style="F_MessyPartedG4" />
+		<alternate category="Group05" style="F_MessyParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_ErenBun</name>
+		<model>skinned\hair\F_ErenBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_ErenBunG1" />
+		<alternate category="Group01" style="F_ErenBunG1" />
+		<alternate category="Group02" style="F_ErenBun" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_ErenBunG1" />
+		<alternate category="Group05" style="F_ErenBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_ErenParted</name>
+		<model>skinned\hair\F_ErenParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_ErenPartedG1" />
+		<alternate category="Group01" style="F_ErenPartedG1" />
+		<alternate category="Group02" style="F_ErenPartedG1" />
+		<alternate category="Group03" style="F_MarieG4" />
+		<alternate category="Group04" style="F_ErenPartedG4" />
+		<alternate category="Group05" style="F_ErenParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</female>
+	<female><name>F_ErenPartedG1</name>
+		<model>skinned\hair\F_ErenPartedG1</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_ErenPartedG1" />
+		<alternate category="Group01" style="F_ErenPartedG1" />
+		<alternate category="Group02" style="F_ErenPartedG1" />
+		<alternate category="Group03" style="F_MarieG4" />
+		<alternate category="Group04" style="F_ErenPartedG4" />
+		<alternate category="Group05" style="F_ErenParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</female>
+	<female><name>F_Mikasa</name>
+		<model>skinned\hair\F_Mikasa</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_MikasaG1" />
+		<alternate category="Group01" style="F_MikasaG1" />
+		<alternate category="Group02" style="F_MikasaG1" />
+		<alternate category="Group03" style="F_MikasaShortG1" />
+		<alternate category="Group04" style="F_MikasaG4" />
+		<alternate category="Group05" style="F_Mikasa" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_MikasaShort</name>
+		<model>skinned\hair\F_MikasaShort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_MikasaShortG1" />
+		<alternate category="Group01" style="F_MikasaShortG1" />
+		<alternate category="Group02" style="F_MikasaShortG1" />
+		<alternate category="Group03" style="F_MikasaShortG1" />
+		<alternate category="Group04" style="F_MikasaShortG1" />
+		<alternate category="Group05" style="F_MikasaShort" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Marie</name>
+		<model>skinned\hair\F_Marie</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_MarieG4" />
+		<alternate category="Group01" style="F_MarieG4" />
+		<alternate category="Group02" style="F_MarieG4" />
+		<alternate category="Group03" style="F_MarieG4" />
+		<alternate category="Group04" style="F_MarieG4" />
+		<alternate category="Group05" style="F_Marie" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Dante</name>
+		<model>skinned\hair\F_Dante</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_DanteG1" />
+		<alternate category="Group01" style="F_DanteG1" />
+		<alternate category="Group02" style="F_DanteG1" />
+		<alternate category="Group03" style="F_DanteG4" />
+		<alternate category="Group04" style="F_DanteG4" />
+		<alternate category="Group05" style="F_Dante" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_DanteParted</name>
+		<model>skinned\hair\F_DanteParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_DanteG1" />
+		<alternate category="Group01" style="F_DanteG1" />
+		<alternate category="Group02" style="F_DanteG1" />
+		<alternate category="Group03" style="F_DanteG4" />
+		<alternate category="Group04" style="F_DanteG4" />
+		<alternate category="Group05" style="F_DanteParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Vergil</name>
+		<model>skinned\hair\M_Vergil</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_DanteG1" />
+		<alternate category="Group01" style="F_DanteG1" />
+		<alternate category="Group02" style="F_DanteG1" />
+		<alternate category="Group03" style="F_DanteG4" />
+		<alternate category="Group04" style="F_DanteG4" />
+		<alternate category="Group05" style="F_Vergil" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_RickShow</name>
+		<model>skinned\hair\F_RickShow</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_RickShowG1" />
+		<alternate category="Group01" style="F_RickShowG1" />
+		<alternate category="Group02" style="F_RickShowG1" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="F_RickShow" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Kotone</name>
+		<model>skinned\hair\F_Kotone</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_KotoneG1" />
+		<alternate category="Group01" style="F_KotoneG1" />
+		<alternate category="Group02" style="F_KotoneG1" />
+		<alternate category="Group03" style="F_KotonePonytailG1" />
+		<alternate category="Group04" style="F_KotonePonytailG1" />
+		<alternate category="Group05" style="F_Kotone" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</female>
+	<female><name>F_KotonePonytail</name>
+		<model>skinned\hair\F_KotonePonytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_KotonePonytailG1" />
+		<alternate category="Group01" style="F_KotonePonytailG1" />
+		<alternate category="Group02" style="F_KotonePonytailG2" />
+		<alternate category="Group03" style="F_KotonePonytailG1" />
+		<alternate category="Group04" style="F_KotonePonytailG1" />
+		<alternate category="Group05" style="F_KotonePonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yu</name>
+		<model>skinned\hair\F_Yu</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_YuG1" />
+		<alternate category="Group01" style="F_YuG1" />
+		<alternate category="Group02" style="F_YuG1" />
+		<alternate category="Group03" style="F_YuG1" />
+		<alternate category="Group04" style="F_YuG1" />
+		<alternate category="Group05" style="F_Yu" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</female>
+	<female><name>F_Parted</name>
+		<model>skinned\hair\F_Parted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_PartedG1" />
+		<alternate category="Group01" style="F_PartedG1" />
+		<alternate category="Group02" style="F_PartedG1" />
+		<alternate category="Group03" style="F_PartedG1" />
+		<alternate category="Group04" style="F_PartedG1" />
+		<alternate category="Group05" style="F_Parted" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</female>
+	<female><name>F_PartedMedium</name>
+		<model>skinned\hair\F_PartedMedium</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_PartedMediumG1" />
+		<alternate category="Group01" style="F_PartedMediumG1" />
+		<alternate category="Group02" style="F_PartedMediumG1" />
+		<alternate category="Group03" style="F_PartedMediumG1" />
+		<alternate category="Group04" style="F_PartedMediumG1" />
+		<alternate category="Group05" style="F_PartedMedium" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Curtains</name>
+		<model>skinned\hair\F_Curtains</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_CurtainsG1" />
+		<alternate category="Group01" style="F_CurtainsG1" />
+		<alternate category="Group02" style="F_CurtainsG1" />
+		<alternate category="Group03" style="F_CurtainsG1" />
+		<alternate category="Group04" style="F_CurtainsG1" />
+		<alternate category="Group05" style="F_Curtains" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Rei</name>
+		<model>skinned\hair\F_Rei</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_ReiG1" />
+		<alternate category="Group01" style="F_ReiG1" />
+		<alternate category="Group02" style="F_ReiG1" />
+		<alternate category="Group03" style="F_ReiG4" />
+		<alternate category="Group04" style="F_ReiG4" />
+		<alternate category="Group05" style="F_Rei" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_ReiG1</name>
+		<model>skinned\hair\F_ReiG1</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_ReiG1" />
+		<alternate category="Group01" style="F_ReiG1" />
+		<alternate category="Group02" style="F_ReiG1" />
+		<alternate category="Group03" style="F_ReiG4" />
+		<alternate category="Group04" style="F_ReiG4" />
+		<alternate category="Group05" style="F_ReiG1" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Sideswept</name>
+		<model>skinned\hair\F_Sideswept</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_SidesweptG1" />
+		<alternate category="Group01" style="F_SidesweptG1" />
+		<alternate category="Group02" style="F_SidesweptG1" />
+		<alternate category="Group03" style="F_SidesweptG1" />
+		<alternate category="Group04" style="F_SidesweptG1" />
+		<alternate category="Group05" style="F_Sideswept" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</female>
+	<female><name>F_Yukari</name>
+		<model>skinned\hair\F_Yukari</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_YukariG1" />
+		<alternate category="Group01" style="F_YukariG1" />
+		<alternate category="Group02" style="F_YukariG1" />
+		<alternate category="Group03" style="F_SidesweptG1" />
+		<alternate category="Group04" style="F_SidesweptG1" />
+		<alternate category="Group05" style="F_Yukari" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</female>
+	<female><name>F_YukariAlt</name>
+		<model>skinned\hair\F_YukariAlt</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_YukariAltG1" />
+		<alternate category="Group01" style="F_YukariAltG1" />
+		<alternate category="Group02" style="F_YukariAltG1" />
+		<alternate category="Group03" style="F_SidesweptG1" />
+		<alternate category="Group04" style="F_SidesweptG1" />
+		<alternate category="Group05" style="F_YukariAlt" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_YukariBun</name>
+		<model>skinned\hair\F_YukariBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_SidesweptG1" />
+		<alternate category="Group01" style="F_SidesweptG1" />
+		<alternate category="Group02" style="F_YukariBunG2" />
+		<alternate category="Group03" style="F_SidesweptG1" />
+		<alternate category="Group04" style="F_SidesweptG1" />
+		<alternate category="Group05" style="F_YukariBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Agent</name>
+		<model>skinned\hair\F_Agent</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_AgentG1" />
+		<alternate category="Group01" style="F_AgentG1" />
+		<alternate category="Group02" style="F_AgentG1" />
+		<alternate category="Group03" style="F_AgentG1" />
+		<alternate category="Group04" style="F_AgentG1" />
+		<alternate category="Group05" style="F_Agent" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Shaggy</name>
+		<model>skinned\hair\F_Shaggy</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_ShaggyG1" />
+		<alternate category="Group01" style="F_ShaggyG1" />
+		<alternate category="Group02" style="F_ShaggyG4" />
+		<alternate category="Group03" style="F_ShaggyG4" />
+		<alternate category="Group04" style="F_ShaggyG4" />
+		<alternate category="Group05" style="F_Shaggy" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_ShaggyCurly</name>
+		<model>skinned\hair\F_ShaggyCurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="F_ShaggyCurlyG1" />
+		<alternate category="Group01" style="F_ShaggyCurlyG1" />
+		<alternate category="Group02" style="F_ShaggyCurlyG4" />
+		<alternate category="Group03" style="F_ShaggyCurlyG4" />
+		<alternate category="Group04" style="F_ShaggyCurlyG4" />
+		<alternate category="Group05" style="F_ShaggyCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_PartedSide</name>
+		<model>skinned\hair\F_PartedSide</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_PartedSideG1" />
+		<alternate category="Group01" style="F_PartedSideG1" />
+		<alternate category="Group02" style="F_PartedSideG1" />
+		<alternate category="Group03" style="F_PartedSideG1" />
+		<alternate category="Group04" style="F_PartedSideG1" />
+		<alternate category="Group05" style="F_PartedSide" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</female>
+	<female><name>F_PartedSideMedium</name>
+		<model>skinned\hair\F_PartedSideMedium</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_PartedSideMediumG1" />
+		<alternate category="Group01" style="F_PartedSideMediumG1" />
+		<alternate category="Group02" style="F_PartedSideMediumG1" />
+		<alternate category="Group03" style="F_PartedSideMediumG1" />
+		<alternate category="Group04" style="F_PartedSideMediumG1" />
+		<alternate category="Group05" style="F_PartedSideMedium" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_SpikedUp</name>
+		<model>skinned\hair\F_SpikedUp</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="F_SpikedUp" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="F_SpikedUp" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</female>
+	<female><name>F_SpikedForward</name>
+		<model>skinned\hair\F_SpikedForward</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="F_SpikedForward" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="F_SpikedForward" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</female>
+	<female><name>F_Kusanagi</name>
+		<model>skinned\hair\F_Kusanagi</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_KusanagiG1" />
+		<alternate category="Group01" style="F_KusanagiG1" />
+		<alternate category="Group02" style="F_KusanagiG1" />
+		<alternate category="Group03" style="F_KusanagiG1" />
+		<alternate category="Group04" style="F_KusanagiG1" />
+		<alternate category="Group05" style="F_Kusanagi" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_LeonRE4</name>
+		<model>skinned\hair\F_LeonRE4</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_LeonG1" />
+		<alternate category="Group01" style="F_LeonG1" />
+		<alternate category="Group02" style="F_LeonG1" />
+		<alternate category="Group03" style="F_LeonG1" />
+		<alternate category="Group04" style="F_LeonG1" />
+		<alternate category="Group05" style="F_LeonRE4" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_LeonLong</name>
+		<model>skinned\hair\F_LeonLong</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_LeonLongG1" />
+		<alternate category="Group01" style="F_LeonLongG1" />
+		<alternate category="Group02" style="F_LeonLongG1" />
+		<alternate category="Group03" style="F_LeonLongG4" />
+		<alternate category="Group04" style="F_LeonLongG4" />
+		<alternate category="Group05" style="F_LeonLong" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Surfer</name>
+		<model>skinned\hair\F_Surfer</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_SurferG1" />
+		<alternate category="Group01" style="F_SurferG1" />
+		<alternate category="Group02" style="F_SurferG1" />
+		<alternate category="Group03" style="F_SurferG1" />
+		<alternate category="Group04" style="F_SurferG1" />
+		<alternate category="Group05" style="F_Surfer" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_CurtainsHigh</name>
+		<model>skinned\hair\F_CurtainsHigh</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_CurtainsHighG1" />
+		<alternate category="Group01" style="F_CurtainsHighG1" />
+		<alternate category="Group02" style="F_CurtainsHighG1" />
+		<alternate category="Group03" style="F_CurtainsHighG1" />
+		<alternate category="Group04" style="F_CurtainsHighG1" />
+		<alternate category="Group05" style="F_CurtainsHigh" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_Hero</name>
+		<model>skinned\hair\F_Hero</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_HeroG1" />
+		<alternate category="Group01" style="F_HeroG1" />
+		<alternate category="Group02" style="F_HeroG1" />
+		<alternate category="Group03" style="F_HeroG4" />
+		<alternate category="Group04" style="F_HeroG4" />
+		<alternate category="Group05" style="F_Hero" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</female>
+	<female><name>F_HeroTail</name>
+		<model>skinned\hair\F_HeroTail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_HeroTailG1" />
+		<alternate category="Group01" style="F_HeroTailG1" />
+		<alternate category="Group02" style="F_HeroTailG1" />
+		<alternate category="Group03" style="F_HeroG4" />
+		<alternate category="Group04" style="F_HeroG4" />
+		<alternate category="Group05" style="F_HeroTail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_HeroBun</name>
+		<model>skinned\hair\F_HeroBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_HeroTailG1" />
+		<alternate category="Group01" style="F_HeroTailG1" />
+		<alternate category="Group02" style="F_HeroBunG2" />
+		<alternate category="Group03" style="F_HeroG4" />
+		<alternate category="Group04" style="F_HeroG4" />
+		<alternate category="Group05" style="F_HeroBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Princely</name>
+		<model>skinned\hair\F_Princely</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_PrincelyG1" />
+		<alternate category="Group01" style="F_PrincelyG1" />
+		<alternate category="Group02" style="F_PrincelyG1" />
+		<alternate category="Group03" style="F_PrincelyG4" />
+		<alternate category="Group04" style="F_PrincelyG4" />
+		<alternate category="Group05" style="F_Princely" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_PrincelyShort</name>
+		<model>skinned\hair\F_PrincelyShort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_PrincelyG4" />
+		<alternate category="Group01" style="F_PrincelyG4" />
+		<alternate category="Group02" style="F_PrincelyG4" />
+		<alternate category="Group03" style="F_PrincelyG4" />
+		<alternate category="Group04" style="F_PrincelyG4" />
+		<alternate category="Group05" style="F_PrincelyShort" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+	</female>
+	<female><name>F_RedfieldLow</name>
+		<model>skinned\hair\F_RedfieldLow</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_RedfieldLowG1" />
+		<alternate category="Group01" style="F_RedfieldLowG1" />
+		<alternate category="Group02" style="F_RedfieldLowG1" />
+		<alternate category="Group03" style="F_RedfieldLowG4" />
+		<alternate category="Group04" style="F_RedfieldLowG4" />
+		<alternate category="Group05" style="F_RedfieldLow" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	
+	
+	
+	
+	
+	
+	
+<!--Hat-->
+	<female>
+		<name>F_ValentineG1</name>
+		<model>skinned/hair/F_ValentineG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_ValentineG4</name>
+		<model>skinned/hair/F_ValentineG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_ValentineG1</name>
+		<model>skinned/hair/M_ValentineG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_ValentineG4</name>
+		<model>skinned/hair/M_ValentineG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<male><name>M_CarlosG1</name>
+		<model>skinned\hair\M_CarlosG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female><name>F_CarlosG1</name>
+		<model>skinned\hair\F_CarlosG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<female><name>F_GothG1</name>
+		<model>skinned\hair\F_GothG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_GothG2</name>
+		<model>skinned\hair\F_GothG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male><name>M_GothG1</name>
+		<model>skinned\hair\M_GothG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male><name>M_GothG2</name>
+		<model>skinned\hair\M_GothG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<female><name>F_RedfieldG1</name>
+		<model>skinned\hair\F_RedfieldG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_RedfieldG2</name>
+		<model>skinned\hair\F_RedfieldG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male><name>M_RedfieldG1</name>
+		<model>skinned\hair\M_RedfieldG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male><name>M_RedfieldG2</name>
+		<model>skinned\hair\M_RedfieldG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<female><name>F_AigisG1</name>
+		<model>skinned\hair\F_AigisG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>F_AigisG4</name>
+		<model>skinned\hair\F_AigisG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male><name>M_AigisG1</name>
+		<model>skinned\hair\M_AigisG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male><name>M_AigisG4</name>
+		<model>skinned\hair\M_AigisG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<female><name>F_AigisAltG4</name>
+		<model>skinned\hair\F_AigisAltG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<male><name>M_AigisAltG4</name>
+		<model>skinned\hair\M_AigisAltG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<male><name>M_RickG1</name>
+		<model>skinned\hair\M_RickG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female><name>F_RickG1</name>
+		<model>skinned\hair\F_RickG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<female>
+		<name>F_MitsuruG1</name>
+		<model>skinned/hair/F_MitsuruG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_MitsuruG4</name>
+		<model>skinned/hair/F_MitsuruG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male><name>M_MitsuruG1</name>
+		<model>skinned\hair\M_MitsuruG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male><name>M_MitsuruG4</name>
+		<model>skinned\hair\M_MitsuruG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<female>
+		<name>F_MitsuruPonytailG1</name>
+		<model>skinned/hair/F_MitsuruPonytailG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_MitsuruPonytailG2</name>
+		<model>skinned/hair/F_MitsuruPonytailG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male><name>M_MitsuruPonytailG1</name>
+		<model>skinned\hair\M_MitsuruPonytailG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male><name>M_MitsuruPonytailG2</name>
+		<model>skinned\hair\M_MitsuruPonytailG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<male><name>M_LeonG1</name>
+		<model>skinned\hair\M_LeonG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_LeonG1</name>
+		<model>skinned/hair/F_LeonG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_MessyPartedG1</name>
+		<model>skinned/hair/M_MessyPartedG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_MessyPartedG4</name>
+		<model>skinned/hair/M_MessyPartedG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_MessyPartedG1</name>
+		<model>skinned/hair/F_MessyPartedG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_MessyPartedG4</name>
+		<model>skinned/hair/F_MessyPartedG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male><name>M_ErenBunG1</name>
+		<model>skinned\hair\M_ErenBunG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female><name>F_ErenBunG1</name>
+		<model>skinned\hair\F_ErenBunG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male><name>M_ErenPartedG4</name>
+		<model>skinned\hair\M_ErenPartedG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female><name>F_ErenPartedG4</name>
+		<model>skinned\hair\F_ErenPartedG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<female>
+		<name>F_MikasaG1</name>
+		<model>skinned/hair/F_MikasaG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_MikasaG4</name>
+		<model>skinned/hair/F_MikasaG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<female>
+		<name>F_MikasaShortG1</name>
+		<model>skinned/hair/F_MikasaShortG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_MikasaG1</name>
+		<model>skinned/hair/M_MikasaG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_MikasaG4</name>
+		<model>skinned/hair/M_MikasaG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<male>
+		<name>M_MikasaShortG1</name>
+		<model>skinned/hair/M_MikasaShortG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<female>
+		<name>F_MarieG4</name>
+		<model>skinned/hair/F_MarieG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_MarieG4</name>
+		<model>skinned/hair/M_MarieG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<male>
+		<name>M_DanteG1</name>
+		<model>skinned/hair/M_DanteG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_DanteG4</name>
+		<model>skinned/hair/M_DanteG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_DanteG1</name>
+		<model>skinned/hair/F_DanteG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_DanteG4</name>
+		<model>skinned/hair/F_DanteG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_P3HeroG1</name>
+		<model>skinned/hair/M_MakotoG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_P3HeroG1</name>
+		<model>skinned/hair/F_MakotoG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_RickShowG1</name>
+		<model>skinned/hair/M_RickShowG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_RickShowG1</name>
+		<model>skinned/hair/F_RickShowG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<female>
+		<name>F_KotoneG1</name>
+		<model>skinned/hair/F_KotoneG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_KotonePonytailG1</name>
+		<model>skinned/hair/F_KotonePonytailG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_KotonePonytailG2</name>
+		<model>skinned/hair/F_KotonePonytailG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_KotoneG1</name>
+		<model>skinned/hair/M_KotoneG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_KotonePonytailG1</name>
+		<model>skinned/hair/M_KotonePonytailG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_KotonePonytailG2</name>
+		<model>skinned/hair/M_KotonePonytailG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<male>
+		<name>M_YuG1</name>
+		<model>skinned/hair/M_YuG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_YuG1</name>
+		<model>skinned/hair/F_YuG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_PartedG1</name>
+		<model>skinned/hair/M_PartedG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_PartedG1</name>
+		<model>skinned/hair/F_PartedG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_PartedMediumG1</name>
+		<model>skinned/hair/M_PartedMediumG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_PartedMediumG1</name>
+		<model>skinned/hair/F_PartedMediumG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_CurtainsG1</name>
+		<model>skinned/hair/M_CurtainsG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_CurtainsG1</name>
+		<model>skinned/hair/F_CurtainsG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_ReiG4</name>
+		<model>skinned/hair/M_ReiG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_ReiG4</name>
+		<model>skinned/hair/F_ReiG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	
+	<female>
+		<name>F_SidesweptG1</name>
+		<model>skinned/hair/F_SidesweptG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YukariG1</name>
+		<model>skinned/hair/F_YukariG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YukariAltG1</name>
+		<model>skinned/hair/F_YukariAltG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YukariBunG2</name>
+		<model>skinned/hair/F_YukariBunG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_SidesweptG1</name>
+		<model>skinned/hair/M_SidesweptG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YukariG1</name>
+		<model>skinned/hair/M_YukariG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YukariAltG1</name>
+		<model>skinned/hair/M_YukariAltG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YukariBunG2</name>
+		<model>skinned/hair/M_YukariBunG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<male>
+		<name>M_AgentG1</name>
+		<model>skinned/hair/M_AgentG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_AgentG1</name>
+		<model>skinned/hair/F_AgentG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	
+	<male>
+		<name>M_ShaggyG1</name>
+		<model>skinned/hair/M_ShaggyG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_ShaggyG4</name>
+		<model>skinned/hair/M_ShaggyG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_ShaggyG1</name>
+		<model>skinned/hair/F_ShaggyG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_ShaggyG4</name>
+		<model>skinned/hair/F_ShaggyG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_ShaggyCurlyG1</name>
+		<model>skinned/hair/M_ShaggyCurlyG1</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_ShaggyCurlyG4</name>
+		<model>skinned/hair/M_ShaggyCurlyG4</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_ShaggyCurlyG1</name>
+		<model>skinned/hair/F_ShaggyCurlyG1</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_ShaggyCurlyG4</name>
+		<model>skinned/hair/F_ShaggyCurlyG4</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_PartedSideG1</name>
+		<model>skinned/hair/M_PartedSideG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_PartedSideMediumG1</name>
+		<model>skinned/hair/M_PartedSideMediumG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_PartedSideG1</name>
+		<model>skinned/hair/F_PartedSideG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_PartedSideMediumG1</name>
+		<model>skinned/hair/F_PartedSideMediumG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<female>
+		<name>F_KusanagiG1</name>
+		<model>skinned/hair/F_KusanagiG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<male>
+		<name>M_KusanagiG1</name>
+		<model>skinned/hair/M_KusanagiG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LeonLongG1</name>
+		<model>skinned/hair/M_LeonLongG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LeonLongG4</name>
+		<model>skinned/hair/M_LeonLongG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_LeonLongG1</name>
+		<model>skinned/hair/F_LeonLongG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LeonLongG4</name>
+		<model>skinned/hair/F_LeonLongG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<female>
+		<name>F_SurferG1</name>
+		<model>skinned/hair/F_SurferG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<male>
+		<name>M_SurferG1</name>
+		<model>skinned/hair/M_SurferG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<female>
+		<name>F_CurtainsHighG1</name>
+		<model>skinned/hair/F_CurtainsHighG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<male>
+		<name>M_CurtainsHighG1</name>
+		<model>skinned/hair/M_CurtainsHighG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+
+	<male>
+		<name>M_HeroG1</name>
+		<model>skinned/hair/M_HeroG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HeroG4</name>
+		<model>skinned/hair/M_HeroG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HeroTailG1</name>
+		<model>skinned/hair/M_HeroTailG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HeroBunG1</name>
+		<model>skinned/hair/M_HeroBunG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HeroBunG2</name>
+		<model>skinned/hair/M_HeroBunG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	<female>
+		<name>F_HeroG1</name>
+		<model>skinned/hair/F_HeroG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HeroG4</name>
+		<model>skinned/hair/F_HeroG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HeroTailG1</name>
+		<model>skinned/hair/F_HeroTailG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HeroBunG1</name>
+		<model>skinned/hair/F_HeroBunG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HeroBunG2</name>
+		<model>skinned/hair/F_HeroBunG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<male>
+		<name>M_PrincelyG1</name>
+		<model>skinned/hair/M_PrincelyG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_PrincelyG4</name>
+		<model>skinned/hair/M_PrincelyG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_PrincelyG1</name>
+		<model>skinned/hair/F_PrincelyG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_PrincelyG4</name>
+		<model>skinned/hair/F_PrincelyG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	<female>
+		<name>F_RedfieldLowG1</name>
+		<model>skinned/hair/F_RedfieldLowG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_RedfieldLowG4</name>
+		<model>skinned/hair/F_RedfieldLowG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<male>
+		<name>M_RedfieldLowG1</name>
+		<model>skinned/hair/M_RedfieldLowG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_RedfieldLowG4</name>
+		<model>skinned/hair/M_RedfieldLowG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	
+	
+	
+</hairStyles>

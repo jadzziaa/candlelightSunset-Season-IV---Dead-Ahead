@@ -1,0 +1,7 @@
+Sandbox_FR = {
+    Sandbox_ExQueaseMe = "Excurez Moi?",
+    Sandbox_ExQueaseMe_ReduceQuease = "Reduit la nausée",
+    Sandbox_ExQueaseMe_ReduceQuease_tooltip = "La quantité de maladie réduite toutes les 10mn, lorsqu'éloigné des carcasses, tout en étant équipé d'un masque.<LINE>S'ajoute au 1 que le jeu fait naturellement. Reglez à 0 pour désactiver.",
+    Sandbox_ExQueaseMe_ReduceQueaseGain = "Réduire le gain de nausée",
+    Sandbox_ExQueaseMe_ReduceQueaseGain_tooltip = "La quantité de maladie à enlever toutes les 10 minutes lorsqu'il est entouré de corps équipés d'un masque à gaz.<LINE>En moyenne, vous gagnerez 0,7 maladie toutes les 10 minutes. Définissez sur 0 pour désactiver.",
+}

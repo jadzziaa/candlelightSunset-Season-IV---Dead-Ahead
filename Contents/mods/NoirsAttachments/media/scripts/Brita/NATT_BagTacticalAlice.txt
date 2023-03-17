@@ -1,0 +1,898 @@
+module Base {
+
+	model FemaleBody
+	{
+		
+		attachment BagTacticalAlice_right
+		{
+			offset = 0.0300 -0.1350 -0.0700,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_wineright
+		{
+			offset = 0.0300 -0.1350 -0.0400,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_left
+		{
+			offset = 0.0300 0.1350 -0.0700,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_wineleft
+		{
+			offset = 0.0300 0.1350 -0.0400,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_bedroll {
+			offset = -0.0350 0.0000 0.1300,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_uldoll {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_uldogchew {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulcattoy {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulballon {
+			offset = 0.0650 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulrubberducky {
+			offset = 0.0950 0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ultoybear {
+			offset = 0.1550 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_uldawn {
+			offset = 0.1550 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ultoycar {
+			offset = 0.0950 0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulyoyo {
+			offset = 0.1250 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulcube {
+			offset = 0.1550 0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulmask {
+			offset = 0.0850 0.0750 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulmaskground {
+			offset = 0.0850 0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulplushie {
+			offset = 0.0750 0.0950 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulpawsplushie {
+			offset = 0.0750 0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulweapon {
+			offset = 0.0900 0.1050 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulweaponpan {
+			offset = 0.0900 0.1050 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulweaponsaucepan {
+			offset = 0.0900 0.1050 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulsnightstick {
+			offset = 0.0900 0.0750 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulwrench {
+			offset = 0.0900 0.1050 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulbottle {
+			offset = 0.0900 0.1050 -0.1000,
+			rotate = 90.0000 10.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulwine {
+			offset = 0.0900 0.1050 -0.0500,
+			rotate = 90.0000 10.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urdoll {
+			offset = 0.0950 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urdogchew {
+			offset = 0.0950 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urcattoy {
+			offset = 0.0950 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urballon {
+			offset = 0.0650 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urrubberducky {
+			offset = 0.0950 -0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urtoybear {
+			offset = 0.1550 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urdawn {
+			offset = 0.1550 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urtoycar {
+			offset = 0.0950 -0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_uryoyo {
+			offset = 0.1250 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urcube {
+			offset = 0.1550 -0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urmask {
+			offset = 0.0850 -0.0750 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urmaskground {
+			offset = 0.0850 -0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urplushie {
+			offset = 0.0750 -0.0950 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urpawsplushie {
+			offset = 0.0750 -0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urweapon {
+			offset = 0.0900 -0.1050 0.0700,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urweaponpan {
+			offset = 0.0900 -0.1050 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urweaponsaucepan {
+			offset = 0.0900 -0.1050 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ursnightstick {
+			offset = 0.0900 -0.0750 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urwrench {
+			offset = 0.0900 -0.1050 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urbottle {
+			offset = 0.0900 -0.1050 -0.1000,
+			rotate = 90.0000 -20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urwine {
+			offset = 0.0900 -0.1050 -0.0500,
+			rotate = 90.0000 -20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_weapon {
+			offset = 0.1300 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_rifle {
+			offset = 0.1300 0.0200 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_weaponbig {
+			offset = 0.1300 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_weaponshovel {
+			offset = 0.1300 0.0000 0.1500,
+			rotate = 90.0000 90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_weaponpan {
+			offset = 0.1300 -0.0400 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_weaponsaucepan {
+			offset = 0.1300 -0.0400 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_snightstick {
+			offset = 0.1400 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_wrench {
+			offset = 0.1400 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_flashlight {
+			offset = -0.0050 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment BagTacticalAlice_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagTacticalAlice_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagTacticalAlice_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagTacticalAlice_container {
+			offset = 0.0800 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containerseed {
+			offset = 0.0800 0.0000 -0.2800,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containertool {
+			offset = 0.0700 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containercooler {
+			offset = 0.0700 0.0000 -0.3800,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containertote {
+			offset = 0.0700 0.0000 -0.3800,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containertrash {
+			offset = 0.1300 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersack {
+			offset = 0.1200 0.0000 -0.2700,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containermk {
+			offset = 0.0500 0.0000 -0.2700,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersl {
+			offset = 0.0600 0.1300 -0.2200,
+			rotate = -90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersr {
+			offset = 0.0600 -0.1200 -0.2200,
+			rotate = -90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containerseedsl {
+			offset = 0.0600 0.1300 -0.2200,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containerseedsr {
+			offset = 0.0600 -0.1200 -0.2200,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersacksl {
+			offset = 0.0700 0.1500 -0.2200,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersacksr {
+			offset = 0.0700 -0.0700 -0.2200,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+	}
+
+
+	model MaleBody
+	{
+		
+		attachment BagTacticalAlice_right
+		{
+			offset = 0.0300 -0.1450 -0.0700,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_wineright
+		{
+			offset = 0.0300 -0.1450 -0.0400,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_left
+		{
+			offset = 0.0300 0.1450 -0.0700,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_wineleft
+		{
+			offset = 0.0300 0.1450 -0.0400,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_bedroll {
+			offset = -0.0250 0.0000 0.1300,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_uldoll {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_uldogchew {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulcattoy {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulballon {
+			offset = 0.0650 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulrubberducky {
+			offset = 0.0950 0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ultoybear {
+			offset = 0.1550 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_uldawn {
+			offset = 0.1550 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ultoycar {
+			offset = 0.0950 0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulyoyo {
+			offset = 0.1250 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulcube {
+			offset = 0.1550 0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulmask {
+			offset = 0.1000 0.0750 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulmaskground {
+			offset = 0.1000 0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulplushie {
+			offset = 0.0950 0.0950 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulpawsplushie {
+			offset = 0.1150 0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulweapon {
+			offset = 0.1100 0.1050 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulweaponpan {
+			offset = 0.1100 0.1050 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulweaponsaucepan {
+			offset = 0.1100 0.1050 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulsnightstick {
+			offset = 0.1100 0.0750 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulwrench {
+			offset = 0.1100 0.1050 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulbottle {
+			offset = 0.1100 0.1050 -0.1000,
+			rotate = 90.0000 10.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ulwine {
+			offset = 0.1100 0.1050 -0.0500,
+			rotate = 90.0000 10.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urdoll {
+			offset = 0.0950 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urdogchew {
+			offset = 0.0950 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urcattoy {
+			offset = 0.0950 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urballon {
+			offset = 0.0650 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urrubberducky {
+			offset = 0.0950 -0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urtoybear {
+			offset = 0.1550 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urdawn {
+			offset = 0.1550 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urtoycar {
+			offset = 0.0950 -0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_uryoyo {
+			offset = 0.1250 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urcube {
+			offset = 0.1550 -0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urmask {
+			offset = 0.1000 -0.0750 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urmaskground {
+			offset = 0.1000 -0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urplushie {
+			offset = 0.0950 -0.0950 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urpawsplushie {
+			offset = 0.1150 -0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urweapon {
+			offset = 0.1100 -0.1050 0.0700,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urweaponpan {
+			offset = 0.1100 -0.1050 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urweaponsaucepan {
+			offset = 0.1100 -0.1050 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_ursnightstick {
+			offset = 0.1100 -0.0750 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urwrench {
+			offset = 0.1100 -0.1050 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urbottle {
+			offset = 0.1100 -0.1050 -0.1000,
+			rotate = 90.0000 -20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_urwine {
+			offset = 0.1100 -0.1050 -0.0500,
+			rotate = 90.0000 -20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_rifle {
+			offset = 0.1500 0.0200 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_weaponbig {
+			offset = 0.1500 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_weaponshovel {
+			offset = 0.1500 0.0000 0.1500,
+			rotate = 90.0000 90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_weaponpan {
+			offset = 0.1400 -0.0400 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_weaponsaucepan {
+			offset = 0.1400 -0.0400 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_snightstick {
+			offset = 0.1400 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_wrench {
+			offset = 0.1400 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_flashlight {
+			offset = -0.0050 0.0700 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment BagTacticalAlice_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagTacticalAlice_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagTacticalAlice_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagTacticalAlice_container {
+			offset = 0.0800 0.0000 -0.3300,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containerseed {
+			offset = 0.0800 0.0000 -0.3100,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containertool {
+			offset = 0.0700 0.0000 -0.3400,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containercooler {
+			offset = 0.0700 0.0000 -0.4400,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containertote {
+			offset = 0.0800 0.0000 -0.4400,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containertrash {
+			offset = 0.1500 0.0000 -0.3400,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersack {
+			offset = 0.1200 0.0000 -0.3200,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containermk {
+			offset = 0.0500 0.0000 -0.3000,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersl {
+			offset = 0.0600 0.1400 -0.2400,
+			rotate = -90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersr {
+			offset = 0.0600 -0.1300 -0.2400,
+			rotate = -90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containerseedsl {
+			offset = 0.0600 0.1400 -0.2400,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containerseedsr {
+			offset = 0.0600 -0.1300 -0.2400,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersacksl {
+			offset = 0.0800 0.1900 -0.2200,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagTacticalAlice_containersacksr {
+			offset = 0.0800 -0.1100 -0.2200,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}		
+
+	}
+
+}

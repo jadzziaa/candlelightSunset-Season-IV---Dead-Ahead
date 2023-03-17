@@ -1,0 +1,26 @@
+   module SMUIClothing 
+{
+
+        item Hat_Army
+	{
+		Type = Clothing,
+		ClothingItem = Hat_MilitaryHelmet,
+		BodyLocation = Hat,
+		Icon = MilitaryHelmet,
+		BloodLocation = Head,
+		WorldStaticModel = MilitaryHelmet_WorldItem,
+        Obsolete = TRUE,		
+	}
+
+        item Hat_ArmyHelmetStrapless
+	{
+		Type = Clothing,
+		ClothingItem = Hat_MilitaryHelmetStrapless,
+		BodyLocation = Hat,
+		Icon = MilitaryHelmet,
+		BloodLocation = Head,
+		WorldStaticModel = MilitaryHelmet_WorldItem,
+        Obsolete = TRUE,		
+	}
+
+}

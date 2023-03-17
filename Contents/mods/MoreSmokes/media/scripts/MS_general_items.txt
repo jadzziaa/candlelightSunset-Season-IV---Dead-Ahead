@@ -1,0 +1,500 @@
+module MoreSmokes
+{
+	/****************************** GENERAL ******************************/
+
+	item SmokesKit
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 3,
+		Type			            = Normal,
+		DisplayName		            = Smokes Kit,
+		Icon			            = SmokesKit,
+        WorldStaticModel            = SmokesKit,
+		Tooltip						= Tooltip_item_SmokesKit,
+	}
+
+	item RollingPapersPack
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight			            = 0.15,
+		Type			            = Drainable,
+		DisplayName		            = Rolling Papers Pack,
+		Icon			            = RollingPapersPack,
+		UseDelta  	 	            = 0.05,
+		UseWhileEquipped	        = FALSE,
+		cantBeConsolided	        = TRUE,
+        WorldStaticModel            = RollingPapersPack,
+		Tooltip						= Tooltip_item_RollingPapersPack,
+	}
+
+	item Grinder
+	{
+		DisplayCategory             = MoreSmokes,
+		Weight		                = 0.1,
+		Type		                = Normal,
+		DisplayName 	            = Weed Grinder,
+		Icon		                = Grinder,
+        WorldStaticModel            = Grinder,
+		Tooltip						= Tooltip_item_Grinder,
+	}
+
+	/****************************** PACKS ******************************/
+
+	item MSCigarettePack
+	{
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.09,
+		Type			            = Drainable,
+		DisplayName		            = Cigarette Pack,
+		Icon			            = MSCigarettePack,
+		UseDelta  	 	            = 0.05,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+        WorldStaticModel            = MSCigarettePack,
+		Tooltip 					= Tooltip_Item_MSCigarettePack,
+	}
+
+	item MSCigaretteCarton
+	{
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.2,
+		Type			            = Drainable,
+		DisplayName		            = Cigarette Carton,
+		Icon			            = MSCigaretteCarton,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+        WorldStaticModel            = MSCigaretteCarton,
+		Tooltip 					= Tooltip_Item_MSCigaretteCarton,
+	}
+
+	item CigarilloPack
+	{
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.12,
+		Type			            = Drainable,
+		DisplayName		            = Cigarillos Pack,
+		Icon			            = CigarillosPack,
+		UseDelta  	 	            = 0.05,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+        WorldStaticModel            = CigarilloPack,
+		Tooltip 					= Tooltip_Item_CigarilloPack,	
+	}
+
+	item CigarBox
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.24,
+		Type			            = Drainable,
+		DisplayName		            = Cigar Box,
+		Icon			            = CigarBox,
+		UseDelta  	 	            = 0.125,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = CigarBox,
+		Tooltip 					= Tooltip_Item_CigarBox,
+	}
+
+	item JointsPackNorthernLights
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.08,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Joints ["Northern Lights"],
+		Icon			            = JointsPackNorthernLights,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = JointsPackNorthernLights,
+		Tooltip 					= Tooltip_Item_JointsPack,
+	}
+
+	item JointsPackPurpleHaze
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.08,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Joints ["Purple Haze"],
+		Icon			            = JointsPackPurpleHaze,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = JointsPackPurpleHaze,
+		Tooltip 					= Tooltip_Item_JointsPack,
+	}
+
+	item JointsPackSourDiesel
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.08,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Joints ["Sour Diesel"],
+		Icon			            = JointsPackSourDiesel,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = JointsPackSourDiesel,
+		Tooltip 					= Tooltip_Item_JointsPack,
+	}
+
+	item BluntsPackNorthernLights
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.14,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Blunts ["Northern Lights"],
+		Icon			            = BluntsPackNorthernLights,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = BluntsPackNorthernLights,
+		Tooltip 					= Tooltip_Item_BluntsPack,
+	}
+
+	item BluntsPackPurpleHaze
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.14,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Blunts ["Purple Haze"],
+		Icon			            = BluntsPackPurpleHaze,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = BluntsPackPurpleHaze,
+		Tooltip 					= Tooltip_Item_BluntsPack,
+	}
+
+	item BluntsPackSourDiesel
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.14,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Blunts ["Sour Diesel"],
+		Icon			            = BluntsPackSourDiesel,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = BluntsPackSourDiesel,
+		Tooltip 					= Tooltip_Item_BluntsPack,
+	}
+
+	item SpliffsPackNorthernLights
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.18,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Spliffs ["Northern Lights"],
+		Icon			            = SpliffsPackNorthernLights,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = SpliffsPackNorthernLights,
+		Tooltip 					= Tooltip_Item_SpliffsPack,
+	}
+
+	item SpliffsPackPurpleHaze
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.18,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Spliffs ["Purple Haze"],
+		Icon			            = SpliffsPackPurpleHaze,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = SpliffsPackPurpleHaze,
+		Tooltip 					= Tooltip_Item_SpliffsPack,
+	}
+
+	item SpliffsPackSourDiesel
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.18,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Spliffs ["Sour Diesel"],
+		Icon			            = SpliffsPackSourDiesel,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = SpliffsPackSourDiesel,
+		Tooltip 					= Tooltip_Item_SpliffsPack,
+	}
+
+	item JointsPackIndigoFog
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.08,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Joints ["Indigo Fog"],
+		Icon			            = JointsPackIndigoFog,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = JointsPackIndigoFog,
+		Tooltip 					= Tooltip_Item_JointsPack,
+	}
+
+	item BluntsPackBackwoods
+	{	
+		DisplayCategory             = MoreSmokes,
+		Weight			            = 0.14,
+		Type			            = Drainable,
+		DisplayName		            = Pack of Blunts ["Backwoods"],
+		Icon			            = BluntsPackBackwoods,
+		UseDelta  	 	            = 0.1,
+		UseWhileEquipped	        = FALSE,
+		ConsolidateOption 			= ContextMenu_Merge,
+		WorldStaticModel 	        = BluntsPackBackwoods,
+		Tooltip 					= Tooltip_Item_BluntsPackBackwoods,
+	}
+
+	item ChewingTobaccoCanEmpty
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.05,
+		Type 						= Normal,
+		DisplayName 				= Chewing Tobacco Empty Can,
+		Icon 						= ChewingTobaccoCan,
+		Tags						= TobaccoCan,
+		WorldStaticModel 			= ChewingTobaccoCan,
+		Tooltip						= Tooltip_item_EmptyTobaccoCan,
+	}
+
+	item ShishaWatermelonCanEmpty
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.05,
+		Type 						= Normal,
+		DisplayName 				= Shisha Watermelon Tobacco Empty Can,
+		Icon 						= ShishaWatermelonCan,
+		Tags						= TobaccoCan,
+		WorldStaticModel 			= ShishaWatermelonCan,
+		Tooltip						= Tooltip_item_EmptyTobaccoCan,
+	}
+
+	item ShishaOrangeCanEmpty
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.05,
+		Type 						= Normal,
+		DisplayName 				= Shisha Orange Tobacco Empty Can,
+		Icon 						= ShishaOrangeCan,
+		Tags						= TobaccoCan,
+		WorldStaticModel 			= ShishaOrangeCan,
+		Tooltip						= Tooltip_item_EmptyTobaccoCan,
+	}
+
+	item ShishaLemonCanEmpty
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.05,
+		Type 						= Normal,
+		DisplayName 				= Shisha Lemon Tobacco Empty Can,
+		Icon 						= ShishaLemonCan,
+		Tags						= TobaccoCan,
+		WorldStaticModel 			= ShishaLemonCan,
+		Tooltip						= Tooltip_item_EmptyTobaccoCan,
+	}
+
+	/****************************** MAGAZINES ******************************/
+
+	item MoreSmokesMagazine1
+	{
+        DisplayCategory 	        = SkillBook,
+		Weight				        = 0.1,
+        Type				        = Literature,
+		DisplayName	                = MS Times: Cultivate Your Cannabis and Tobacco,
+		Icon	                    = MoreSmokesMagazine1,
+		TeachedRecipes              = Process Dry Tobacco;Convert into Tobacco Wrap;Shred Wrap into Loose Tobacco;Begin Curing Northern Lights Cannabis;Begin Curing Purple Haze Cannabis;Begin Curing Sour Diesel Cannabis;Process Northern Lights by Hand;Process Purple Haze by Hand;Process Sour Diesel by Hand;Process Northern Lights with Grinder;Process Purple Haze with Grinder;Process Sour Diesel with Grinder,
+		ReplaceOnUse                = MoreSmokesMagazine1,
+		StaticModel 		        = Magazine,
+		WorldStaticModel 	        = MoreSmokesMagazine1,
+        Tooltip				        = Tooltip_item_MoreSmokesMagazine1,
+	}
+
+	item MoreSmokesMagazine2
+	{
+        DisplayCategory 	        = SkillBook,
+		Weight				        = 0.1,
+        Type				        = Literature,
+		DisplayName	                = MS Times: Nicotine Needs,
+		Icon	                    = MoreSmokesMagazine2,
+		TeachedRecipes              = Roll 20 Cigarettes;Roll 10 Cigarillos;Roll 2 Cigars;Make Chewing Tobacco;Make Watermelon Shisha Tobacco;Make Orange Shisha Tobacco;Make Lemon Shisha Tobacco;Make a Pack of Rolling Paper,
+		ReplaceOnUse                = MoreSmokesMagazine2,
+		StaticModel 		        = Magazine,
+		WorldStaticModel 	        = MoreSmokesMagazine2,
+        Tooltip				        = Tooltip_item_MoreSmokesMagazine2,
+	}
+
+    item MoreSmokesMagazine3
+	{
+        DisplayCategory 	        = SkillBook,
+		Weight				        = 0.1,
+        Type				        = Literature,
+		DisplayName	                = MS Times: Crafting Cannabis Creations,
+		Icon	                    = MoreSmokesMagazine3,
+		TeachedRecipes              = Roll Joint Northern Lights;Roll Joint Purple Haze;Roll Joint Sour Diesel;Roll Blunt Northern Lights;Roll Blunt Purple Haze;Roll Blunt Sour Diesel;Roll Spliff Northern Lights;Roll Spliff Purple Haze;Roll Spliff Sour Diesel,
+		ReplaceOnUse                = MoreSmokesMagazine3,
+		StaticModel 		        = Magazine,
+		WorldStaticModel 	        = MoreSmokesMagazine3,
+        Tooltip				        = Tooltip_item_MoreSmokesMagazine3,
+	}
+
+	item MoreSmokesMagazine4
+	{
+        DisplayCategory 	        = SkillBook,
+		Weight				        = 0.1,
+        Type				        = Literature,
+		DisplayName	                = MS Times: Euphoric Edibles,
+		Icon	                    = MoreSmokesMagazine4,
+		TeachedRecipes              = Make Cannabis Butter;Make Cannabis Chocolate;Make Cannabis Chocolate Bar;Make Cannabis Brownie Pan;Make Cannabis Chocolate Chip Cookie Dough;Make Cannabis Sugar Cookie Dough;Make Cannabis Gummies,
+		ReplaceOnUse                = MoreSmokesMagazine4,
+		StaticModel 		        = Magazine,
+		WorldStaticModel 	        = MoreSmokesMagazine4,
+        Tooltip				        = Tooltip_item_MoreSmokesMagazine4,
+	}
+
+	item MoreSmokesSmokesPlusMagazine
+	{
+        DisplayCategory 	        = SkillBook,
+		Weight				        = 0.1,
+        Type				        = Literature,
+		DisplayName	                = MS Times: Better Smokes,
+		Icon	                    = MoreSmokesMagazine3,
+		TeachedRecipes              = Roll 2 Cigar Plus;Roll Joint Northern Lights Plus;Roll Joint Purple Haze Plus;Roll Joint Sour Diesel Plus,
+		StaticModel 		        = Magazine,
+		WorldStaticModel 	        = MoreSmokesMagazine3,
+        Tooltip				        = Tooltip_item_SmokesPlusMagazine4,
+	}
+
+	item MoreSmokesEdiblesPlusMagazine
+	{
+        DisplayCategory 	        = SkillBook,
+		Weight				        = 0.1,
+        Type				        = Literature,
+		DisplayName	                = MS Times: Better Edibles,
+		Icon	                    = MoreSmokesMagazine4,
+		TeachedRecipes              = Make Cannabis Brownie Pan Plus;Cut Cannabis Brownies Plus;Make Cannabis Sugar Cookie Dough Plus;Get 6 Cannabis Sugar Cookies Plus,
+		StaticModel 		        = Magazine,
+		WorldStaticModel 	        = MoreSmokesMagazine4,
+        Tooltip				        = Tooltip_item_EdiblesPlusMagazine,
+	}
+
+	item BackwoodBluntsMagazine
+	{
+        DisplayCategory 	        = SkillBook,
+		Weight				        = 0.1,
+        Type				        = Literature,
+		DisplayName	                = MS Times: Backwood Blunts,
+		Icon	                    = MoreSmokesMagazine5,
+		TeachedRecipes              = Roll Blunt Backwoods,
+		StaticModel 		        = Magazine,
+		WorldStaticModel 	        = MoreSmokesMagazine5,
+        Tooltip				        = Tooltip_item_BackPlusMagazine,
+	}
+
+	item IndigoFogMagazine
+	{
+        DisplayCategory 	        = SkillBook,
+		Weight				        = 0.1,
+        Type				        = Literature,
+		DisplayName	                = MS Times: Indigo Fog Joints,
+		Icon	                    = MoreSmokesMagazine5,
+		TeachedRecipes              = Roll Joint Indigo Fog,
+		StaticModel 		        = Magazine,
+		WorldStaticModel 	        = MoreSmokesMagazine5,
+        Tooltip				        = Tooltip_item_IndigoFogMagazine,
+	}
+
+	item CannabisButterGreenDreamsMagazine
+	{
+        DisplayCategory 	        = SkillBook,
+		Weight				        = 0.1,
+        Type				        = Literature,
+		DisplayName	                = MS Times: Green Dreams Cannabutter,
+		Icon	                    = MoreSmokesMagazine5,
+		TeachedRecipes              = Make Cannabis Butter Green Dreams,
+		StaticModel 		        = Magazine,
+		WorldStaticModel 	        = MoreSmokesMagazine5,
+        Tooltip				        = Tooltip_item_GreenDreamsMagazine,
+	}
+
+	/****************************** BOOKS ******************************/
+
+	item BookCultivation1
+	{
+		DisplayCategory 			= SkillBook,
+		NumberOfPages				= 200,
+		Weight						= 0.8,
+		Type						= Literature,
+		DisplayName					= Cultivation Vol. 1,
+		Icon						= CultivationBook,
+		SkillTrained 				= Cultivation,
+		LvlSkillTrained 			= 1,
+		NumLevelsTrained 			= 2,
+		StaticModel 				= Book,
+		WorldStaticModel 			= BookCultivation_Ground,
+	}
+
+	item BookCultivation2
+	{
+		DisplayCategory 			= SkillBook,
+		NumberOfPages				= 220,
+		Weight						= 0.8,
+		Type						= Literature,
+		DisplayName					= Cultivation Vol. 2,
+		Icon						= CultivationBook,
+		SkillTrained 				= Cultivation,
+		LvlSkillTrained 			= 3,
+		NumLevelsTrained 			= 2,
+		StaticModel 				= Book,
+		WorldStaticModel 			= BookCultivation_Ground,
+	}
+
+	item BookCultivation3
+	{
+		DisplayCategory 			= SkillBook,
+		NumberOfPages				= 240,
+		Weight						= 0.8,
+		Type						= Literature,
+		DisplayName					= Cultivation Vol. 3, 
+		Icon						= CultivationBook,
+		SkillTrained 				= Cultivation,
+		LvlSkillTrained 			= 5,
+		NumLevelsTrained 			= 2,
+		StaticModel 				= Book,
+		WorldStaticModel 			= BookCultivation_Ground,
+	}
+
+	item BookCultivation4
+	{
+		DisplayCategory 			= SkillBook,
+		NumberOfPages				= 260,
+		Weight						= 0.8,
+		Type						= Literature,
+		DisplayName					= Cultivation Vol. 4, 
+		Icon						= CultivationBook,
+		SkillTrained 				= Cultivation,
+		LvlSkillTrained 			= 7,
+		NumLevelsTrained 			= 2,
+		StaticModel 				= Book,
+		WorldStaticModel 			= BookCultivation_Ground,
+	}
+
+	item BookCultivation5
+	{
+		DisplayCategory 			= SkillBook,
+		NumberOfPages				= 300,
+		Weight						= 0.8,
+		Type						= Literature,
+		DisplayName					= Cultivation Vol. 5, 
+		Icon						= CultivationBook,
+		SkillTrained 				= Cultivation,
+		LvlSkillTrained 			= 9,
+		NumLevelsTrained 			= 2,
+		StaticModel 				= Book,
+		WorldStaticModel 			= BookCultivation_Ground,
+	}
+}

@@ -1,0 +1,141 @@
+module Base
+{
+	item Hat_CrashHelmetFULL
+	{
+		DisplayCategory 		= Accessory,
+		Type 		= Clothing,
+		DisplayName 		= Motorcycle Helmet,
+		ClothingItem 		= Hat_CrashHelmetFULL,
+		BodyLocation 		= FullHat,
+		IconsForTexture 		= HelmetMotorcycleFullBlue;HelmetMotorcycleFullBlack;HelmetMotorcycleFullRed,
+		BloodLocation 		= FullHelmet;Neck,
+		CanHaveHoles 		= false,
+		CombatSpeedModifier 		= 0.95,
+		BiteDefense 		= 100,
+		ScratchDefense 		= 100,
+		ChanceToFall 		= 0,
+		Insulation 		= 1.0,
+		WindResistance 		= 1.0,
+	}
+	item Hat_RiotHelmet
+	{
+		DisplayCategory 		= Accessory,
+		Type 		= Clothing,
+		DisplayName 		= Riot Helmet,
+		ClothingItem 		= Hat_RiotHelmet,
+		BodyLocation 		= FullHat,
+		Icon 		= HelmetRiot,
+		BloodLocation 		= FullHelmet;Neck,
+		CanHaveHoles 		= false,
+		CombatSpeedModifier 		= 0.95,
+		BiteDefense 		= 100,
+		ScratchDefense 		= 100,
+		ChanceToFall 		= 0,
+		Insulation 		= 0.45,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 1.0,
+	}
+	item Hat_SPHhelmet
+	{
+		DisplayCategory 		= Accessory,
+		Type 		= Clothing,
+		DisplayName 		= Airforce Helmet,
+		ClothingItem 		= Hat_SPHhelmet,
+		BodyLocation 		= FullHat,
+		BloodLocation 		= FullHelmet;Neck,
+		Icon 		= HelmetSP,
+		CanHaveHoles 		= false,
+		CombatSpeedModifier 		= 0.95,
+		BiteDefense 		= 100,
+		ScratchDefense 		= 100,
+		ChanceToFall 		= 0,
+		Insulation 		= 0.70,
+		WindResistance 		= 0.70,
+		WaterResistance 		= 1.0,
+	}
+	item Hat_NBCmask
+	{
+		DisplayCategory 		= Accessory,
+		Type 		= Clothing,
+		DisplayName 		= Nuclear Biochemical Mask,
+		ClothingItem 		= Hat_NBCmask,
+		BodyLocation 		= FullHat,
+		BloodLocation 		= Head;Neck,
+		Icon 		= NBCMask,
+		CanHaveHoles 		= false,
+		BiteDefense 		= 100,
+		ScratchDefense 		= 100,
+		Insulation 		= 0.50,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 1.0,
+		WorldStaticModel 		= NBC_Mask_Ground,
+	}
+	item Scarf_StripeBlackWhite
+	{
+		DisplayCategory 		= Accessory,
+		Type 		= Clothing,
+		DisplayName 		= Scarf,
+		ClothingItem 		= Scarf_StripeBlackWhite,
+		BodyLocation 		= Scarf,
+		Icon 		= ScarfStripedBlack,
+		Weight 		= 0.2,
+		BloodLocation 		= Neck,
+		ScratchDefense 		= 20,
+		BiteDefense 		= 10,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.55,
+		FabricType 		= Cotton,
+		WorldStaticModel 		= Scarf_Ground,
+	}
+	item Scarf_StripeBlueWhite
+	{
+		DisplayCategory 		= Accessory,
+		Type 		= Clothing,
+		DisplayName 		= Scarf,
+		ClothingItem 		= Scarf_StripeBlueWhite,
+		BodyLocation 		= Scarf,
+		Icon 		= ScarfStripedBlue,
+		Weight 		= 0.2,
+		BloodLocation 		= Neck,
+		ScratchDefense 		= 20,
+		BiteDefense 		= 10,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.3,
+		FabricType 		= Cotton,
+		WorldStaticModel 		= Scarf_Ground,
+	}
+	item Scarf_StripeRedWhite
+	{
+		DisplayCategory 		= Accessory,
+		Type 		= Clothing,
+		DisplayName 		= Scarf,
+		ClothingItem 		= Scarf_StripeRedWhite,
+		BodyLocation 		= Scarf,
+		Icon 		= ScarfStripedRed,
+		Weight 		= 0.2,
+		BloodLocation 		= Neck,
+		ScratchDefense 		= 20,
+		BiteDefense 		= 10,
+		Insulation 		= 0.75,
+		WindResistance 		= 0.75,
+		FabricType 		= Cotton,
+		WorldStaticModel 		= Scarf_Ground,
+	}
+	item Scarf_White
+	{
+		DisplayCategory 		= Accessory,
+		Type 		= Clothing,
+		DisplayName 		= Scarf,
+		ClothingItem 		= Scarf_White,
+		BodyLocation 		= Scarf,
+		Icon 		= ScarfGeneric,
+		Weight 		= 0.2,
+		BloodLocation 		= Neck,
+		ScratchDefense 		= 20,
+		BiteDefense 		= 10,
+		Insulation 		= 1.0,
+		WindResistance 		= 1.0,
+		FabricType 		= Cotton,
+		WorldStaticModel 		= Scarf_Ground,
+	}
+}

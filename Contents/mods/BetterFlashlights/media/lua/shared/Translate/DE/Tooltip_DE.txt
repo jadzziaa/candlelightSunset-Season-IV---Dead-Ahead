@@ -1,0 +1,17 @@
+Tooltip_DE = {
+	Tooltip_MiningHelmet_BetterFlashlights 			= "An diesen Helm kann ein Helmlicht angebracht werden."
+	Tooltip_HeadLight_BetterFlashlights 			= "Diese Lampe kann an einem Bergbauhelm mit Halterung angebracht werden."
+	Tooltip_HandTorch_BetterFlashlights				= "Eine ganz gewöhnliche Taschenlampe."
+	Tooltip_Torch_BetterFlashlights					= "Eine ganz gewöhnliche Taschenlampe."
+	Tooltip_HandTorch_CK_LED_BetterFlashlights		= "Eine sehr kleine Taschenlampe."
+	Tooltip_HandTorch_ManLite_BetterFlashlights		= "Eine sehr männliche Taschenlampe."
+	Tooltip_HandTorch_Army1_BetterFlashlights		= "Eine sehr starke Taschenlampe."
+	Tooltip_HandTorch_Army2_BetterFlashlights		= "Eine sehr starke Taschenlampe."
+	Tooltip_Torch1_BetterFlashlights				= "Eine normale, aber leistungsstarke Taschenlampe."
+	Tooltip_ToyTorch_BetterFlashlights				= "Eine verrückte kleine Spielzeug-Taschenlampe."
+	Tooltip_EmergencyFlashlight_BetterFlashlights	= "Eine sehr leistungsstarke Taschenlampe für Notfälle."
+	Tooltip_TorchArmy1_BetterFlashlights			= "Eine normale, aber leistungsstarke Taschenlampe für den militärischen Einsatz."
+	Tooltip_BF_EgenerexLite_BetterFlashlights		= "Eine unglaublich langlebige Taschenlampe von EGENEREX."
+	Tooltip_BF_SpiffoLitee_BetterFlashlights		= "Eine billige Plastik-Taschenlampe von Spiffos."
+	Tooltip_BF_OldFlashlight_BetterFlashlights		= "Eine seltsame, alte, rostige Taschenlampe."
+}

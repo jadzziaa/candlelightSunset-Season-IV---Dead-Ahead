@@ -1,0 +1,134 @@
+module UndeadSurvivor
+{	
+	imports {
+		Base
+		}
+	
+    item PrepperFlashlight
+    {
+        DisplayCategory = LightSource,
+        LightDistance	=	20,
+        Weight	=	0.5,
+        DisappearOnUse	=	FALSE,
+        Type	=	Drainable,
+        TorchCone	=	TRUE,
+		UseDelta	=	0.0009,
+		LightStrength	=	2,
+		TorchDot = 0.66,
+        DisplayName	=	Prepper Flashlight,
+        ActivatedItem	=	TRUE,
+        Icon	=	PrepperFlashlight,
+        MetalValue = 10,
+        cantBeConsolided = TRUE,
+        StaticModel = PrepperFlashlight,
+		AttachmentType = PrepperFlashlight,
+        primaryAnimMask = holdingTorchRightVertical,
+        secondaryAnimMask = holdingTorchLeftVertical,
+    }
+		
+	item BountyPhoto01
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 01,
+	Map=Bounty01,
+	Icon=Bounty01,
+	StaticModel = Bounty01_ground,
+	WorldStaticModel = Bounty01_ground,
+	}
+	
+		item BountyPhoto02
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 02,
+	Map=Bounty02,
+	Icon=Bounty02,
+	WorldStaticModel = Bounty02_ground,
+	}
+	
+	
+		item BountyPhoto03
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 03,
+	Map=Bounty03,
+	Icon=Bounty03,
+	WorldStaticModel = Bounty03_ground,
+	}
+	
+		item BountyPhoto04
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 04,
+	Map=Bounty04,
+	Icon=Bounty04,
+	WorldStaticModel = Bounty04_ground,
+	}
+	
+		item BountyPhoto05
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 05,
+	Map=Bounty05,
+	Icon=Bounty05,
+	WorldStaticModel = Bounty05_ground,
+	}
+	
+		item BountyPhoto06
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 06,
+	Map=Bounty06,
+	Icon=Bounty06,
+	WorldStaticModel = Bounty06_ground,
+	}
+	
+		item BountyPhoto07
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 07,
+	Map=Bounty07,
+	Icon=Bounty07,
+	WorldStaticModel = Bounty07_ground,
+	}
+	
+		item BountyPhoto08
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 08,
+	Map=Bounty08,
+	Icon=Bounty08,
+	WorldStaticModel = Bounty08_ground,
+	}
+	
+		item BountyPhoto09
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 09,
+	Map=Bounty09,
+	Icon=Bounty09,
+	WorldStaticModel = Bounty09_ground,
+	}
+	
+			item BountyPhoto10
+	{
+	Weight=0.05,
+	Type=Map,
+	DisplayName=Bounty Photo 10,
+	Map=Bounty10,
+	Icon=Bounty10,
+	WorldStaticModel = Bounty10_ground,
+	}
+	
+    
+	
+}
+	

@@ -1,0 +1,17 @@
+Sandbox_EN = {
+    Sandbox_WeaponModifiers = "Weapon Modifiers & Tinkering",
+
+    Sandbox_WeaponModifiers_RangedWeaponsTinkerable = "Ranged Weapons can be tinkered",
+    Sandbox_WeaponModifiers_RangedWeaponsTinkerable_tooltip = "Don't enable this if you use the Realistic list."
+    Sandbox_WeaponModifiers_DynamicTinkerer = "Tinkerer Trait is dynamic",
+    Sandbox_WeaponModifiers_DynamicTinkerer_tooltip = "To acquire the trait, you'll need the sum of your maintenance and tinkering levels to be at least 8, and to have tinkered 15 modifiers of at least epic rarity.",
+    Sandbox_WeaponModifiers_TinkeringSkillXpMultiplier = "Tinkering Skill XP multiplier"
+
+    Sandbox_WeaponModifiers_TinkerCost = "Tinkering Cost",
+    Sandbox_WeaponModifiers_TinkerCost_tooltip = "How many items / how much of a drainable item is consumed when tinkering.",
+    Sandbox_TinkerCost_value_option1 = "1",
+    Sandbox_TinkerCost_value_option2 = "2",
+    Sandbox_TinkerCost_value_option3 = "3",
+    Sandbox_TinkerCost_value_option4 = "4",
+
+}

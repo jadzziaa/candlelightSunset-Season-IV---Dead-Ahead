@@ -1,0 +1,5 @@
+UI_CH = {
+	UI_suicide_are_you_sure = "自殺? 你確定嗎?",
+    UI_no_Ammo = "沒有子彈或需要裝填",
+    UI_Suicide = "自殺"
+}

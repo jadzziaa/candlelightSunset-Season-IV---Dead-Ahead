@@ -1,0 +1,8 @@
+ContextMenu_EN = {
+    ContextMenu_Holster_visibleStyle = "Wear over jacket",
+    ContextMenu_Holster_visibleStyle1 = "Wear without a jacket",
+    ContextMenu_Holster_visibleStyle2 = "Wear without a belt",
+    ContextMenu_HolsterDouble_visibleStyle = "Wear over jacket",
+    ContextMenu_HolsterDouble_visibleStyle1 = "Wear without a jacket",
+    ContextMenu_HolsterDouble_visibleStyle2 = "Wear without a belt",
+} 

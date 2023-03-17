@@ -1,0 +1,588 @@
+module Base
+{
+	model 90zanella50ccBase
+    {
+        mesh = vehicles/Bikes_90zanella50cc_Body|zan_body,
+        shader = vehicle_norandom_multiuv,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 90zanella50cc_seat
+    {
+        mesh = vehicles/Bikes_90zanella50cc_Body|zan_seat,
+        shader = vehicle_noreflect,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 90zanella50cc_headlight
+    {
+        mesh = vehicles/Bikes_90zanella50cc_Body|zan_headlight,
+        shader = vehicle_noreflect,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 90zanella50cc_exhaust
+    {
+        mesh = vehicles/Bikes_90zanella50cc_Body|zan_exhaust,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+    model 90zanella50cc_gastank
+    {
+        mesh = vehicles/Bikes_90zanella50cc_Body|zan_gastank,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 90zanella50cc_front_suspension
+    {
+        mesh =vehicles/Bikes_90zanella50cc_Body|zan_suspension_front,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 90zanella50cc_rear_suspension
+    {
+        mesh = vehicles/Bikes_90zanella50cc_Body|zan_suspension_rear,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 90zanella50cc_wheel
+    {
+        mesh = vehicles/Bikes_90zanella50cc_Wheels|zan_tire,
+        texture = Vehicles/Bikes_90zanella50cc_Shell_Red,
+        shader = vehiclewheel,
+        scale = 0.10,
+    }
+	vehicle 90zanella50cc
+	{
+		part AMCConfig
+		{
+			category = nodisplay,
+
+			table AMCConfig
+			{
+				type = QUAD,
+				fallDelta = 5,
+				speedDelta = 5,
+				hideWeapon = 1,
+				quickEnter = 1,
+			}
+		}
+
+		part TCLConfig
+		{
+			category = nodisplay,
+
+			table TCLConfig
+			{
+				disableDoorLocker = 1,
+				disableSleep = 1,
+				wreckerName = TrailerAMC,
+			}
+		}
+
+		mechanicType = 1,
+		engineRepairLevel = 4,
+		playerDamageProtection = 1.1,
+
+		model
+		{
+			file = 90zanella50ccBase,
+			scale = 1.0000,
+			offset = 0.0000 0.1300 0.0000,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_90zanella50cc_Shell_Red,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_90zanella50cc_Shell_WhiteBlack,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_90zanella50cc_Shell_Yellow,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_90zanella50cc_Shell_Black,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_90zanella50cc_Shell_Green,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_90zanella50cc_Shell_White,
+		}
+
+		textureRust = Vehicles/Bikes_90zanella50cc_rust,
+		textureMask = Vehicles/Bikes_90zanella50cc_mask,
+		textureLights = Vehicles/Bikes_90zanella50cc_lights,
+		textureDamage1Shell = Vehicles/Bikes_90zanella50cc_damage1,
+		textureDamage2Shell = Vehicles/Bikes_90zanella50cc_damage1,
+		textureDamage1Overlay = Vehicles/Bikes_90zanella50cc_blood,
+		textureDamage2Overlay = Vehicles/Bikes_90zanella50cc_blood,
+		textureShadow = Vehicles/Bikes_90zanella50cc_shadow,
+
+		sound
+		{
+			engine = VehicleEngineSmallCar,
+			engineStart = VehicleEngineSmallCar,
+			engineTurnOff = VehicleEngineSmallCar,
+			horn = VehicleHornStandard,
+			ignitionFail = VehicleIgnitionFailSmallCar,
+		}
+
+		engineForce = 620,
+		maxSpeed = 40f,
+		extents = 0.7000 0.9600 1.5400,
+		mass = 120,
+		physicsChassisShape = 0.7000 0.9600 1.5400,
+		centerOfMassOffset = 0.0000 0.6100 0.0000,
+		shadowExtents = 2.2069 1.9375,
+		shadowOffset = 0.0125 -0.0450,
+		engineLoudness = 90,
+		engineQuality = 65,
+		brakingForce = 3,
+		stoppingMovementForce = 0.0f,
+		rollInfluence = 0.4f,
+		steeringIncrement = 0.03,
+		steeringClamp = 0.1,
+		suspensionStiffness = 50,
+		suspensionCompression = 0,
+		suspensionDamping = 100,
+		maxSuspensionTravelCm = 16,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 5.4f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 1,
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.2000 0.1000 1.4700,
+			radius = 0.2f,
+			width = 0.5f,
+		}
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.2000 0.1000 1.4700,
+			radius = 0.2f,
+			width = 0.5f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.0000 -0.0100 -0.4600,
+			radius = 0.2f,
+			width = 0.5f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = 0.0000 0.1000 0.5500,
+			radius = 0.2f,
+			width = 0.5f,
+		}
+
+		passenger FrontLeft
+		{
+			door = DoorFrontLeft,
+			door2 = DoorFrontRight,
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.4700 -0.2100,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.0000 0.4700 -0.2100,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -0.9000 1.7000 1.0200,
+		}
+
+		area FrontStorage
+		{
+			xywh = 0.0000 0.8700 1.7000 1.0200,
+		}
+
+		area Engine
+		{
+			xywh = -0.8000 0.1600 0.4000 0.4000,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.7600 -0.1600 0.8200 0.8200,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.7600 -0.1600 0.8200 0.8200,
+		}
+
+		area GasTank
+		{
+			xywh = 0.8000 -0.3000 0.4000 0.4000,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.0800 -1.2200 0.4000 0.4000,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.0000 1.2600 0.4000 0.4000,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.0800 -1.2200 0.4000 0.4000,
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			specificItem = false,
+			itemType = Base.ZNL50gasTank,
+			category = gastank,
+
+			model Gastank8556327
+			{
+				file = 90zanella50cc_gastank,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table uninstall
+			{
+				requireUninstalled = SeatFrontLeft,
+			}
+		}
+
+		template = Engine,
+		template = ZNL50trunkStorages,
+		template = ZNL50Fenders,
+		template = ZNL50trunkLids,
+
+		part Engine
+		{
+			category = engine,
+		}
+
+		template = Battery,
+
+		part Battery
+		{
+			category = engine,
+			area = GasTank,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Muffler,
+
+		part Muffler
+		{
+			specificItem = false,
+			itemType = Base.ZNL50muffler,
+
+			model Muffler72782366
+			{
+				file = 90zanella50cc_exhaust,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			category = engine,
+			area = TireRearLeft,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Brake/part/BrakeFrontLeft,
+		template = Brake/part/BrakeRearLeft,
+
+		part BrakeFrontLeft
+		{
+			area = TireFrontLeft,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionFrontLeft,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+		}
+
+		part BrakeRearLeft
+		{
+			area = TireRearLeft,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionRearLeft,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+		}
+
+		template = Headlight/part/HeadlightLeft,
+
+		part HeadlightLeft
+		{
+			area = TireFrontLeft,
+
+			model headlight57783
+			{
+				file = 90zanella50cc_headlight,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+		}
+
+		template = Headlight/part/HeadlightRearLeft,
+		template = Suspension,
+
+		part SuspensionFrontLeft
+		{
+			area = TireFrontLeft,
+
+			model sus81wff866
+			{
+				file = 90zanella50cc_front_suspension,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = BrakeFrontLeft,
+			}
+		}
+
+		part SuspensionFrontRight
+		{
+			category = nodisplay,
+		}
+
+		part SuspensionRearLeft
+		{
+			area = TireRearLeft,
+
+			model sus245642452
+			{
+				file = 90zanella50cc_rear_suspension,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = BrakeRearLeft,
+			}
+		}
+
+		part SuspensionRearRight
+		{
+			category = nodisplay,
+			area = TireRearLeft,
+		}
+
+		template! = ATAMotoWheelsReady,
+
+		part ATAMotoTireFrontWheel
+		{
+			specificItem = false,
+			itemType = Base.ZNL50oldTire;Base.ZNL50normalTire;Base.ZNL50modernTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = 90zanella50cc_wheel,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionFrontLeft,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		part ATAMotoTireRearWheel
+		{
+			specificItem = false,
+			itemType = Base.ZNL50oldTire;Base.ZNL50normalTire;Base.ZNL50modernTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = 90zanella50cc_wheel,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionRearLeft,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template! = PassengerCommon,
+		template = Seat/part/SeatFrontLeft,
+
+		part SeatFrontLeft
+		{
+			category = seat,
+			specificItem = false,
+			itemType = Base.ZNL50seat,
+
+			model seat4571287
+			{
+				file = 90zanella50cc_seat,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				requireInstalled = GasTank,
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+
+			anim Open
+			{
+				sound =,
+			}
+
+			anim Close
+			{
+				sound =,
+			}
+
+			anim Lock
+			{
+				sound =,
+			}
+
+			anim Unlock
+			{
+				sound =,
+			}
+
+			anim IsLocked
+			{
+				sound =,
+			}
+
+			lua
+			{
+				create = CommonTemplates.Create.setInventoryNil,
+				init = CommonTemplates.Init.setInventoryNil,
+				use = ATATuning.Use.Door,
+			}
+		}
+
+		template = Radio,
+
+		part Radio*
+		{
+			itemType = Radio.WalkieTalkie4,
+		}
+	}
+}

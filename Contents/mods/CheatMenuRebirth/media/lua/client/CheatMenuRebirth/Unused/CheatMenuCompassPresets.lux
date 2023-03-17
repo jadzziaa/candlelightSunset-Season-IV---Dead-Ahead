@@ -1,0 +1,485 @@
+
+-- Old System, I will convert it as soon as possible.
+
+CheatCoreCM.Language = {
+	-- Town Names if the string key isn't the same...
+	Towns = {
+		-- Dixie					= "Dixie";
+		-- Muldraugh				= "Muldraugh";
+		Westpoint				= "West Point";
+		Drayton					= "Drayton ( Rebuild )";
+		-- Dreadwood				= "Dreadwood";
+		SouthMuldraugh			= "South Muldraugh";
+		Phoenix					= "Phoenix";
+		NewDenver				= "New Denver, BC";
+		TheWalkingDeadPrison	= "The Walking Dead: Prison";
+	};
+
+	-- This is so you can use identifiers for naming the areas instead of rewriting the same thing over and over...
+	Locations = {
+		warehouse_small		= "Small Warehouse";
+		warehouse_large		= "Large Warehouse";
+		warehouse_cluster	= "Warehouses";
+		spiffos				= "Spiffo's";
+		cabin				= "Cabin";
+	};
+};
+
+
+CheatCoreCM.CompassPresets = {
+	Dixie = {
+		{ Name = "Spiffo's", X = "11659", Y = "8301" };
+		{ Name = "Cabin", X = "11246", Y = "8954" };
+		{ Name = "Barg-n-Clothes", X = "11603",  Y = "8268" };
+		{ Name = "Gas Station", X = "11509", Y = "8832" };
+		{ Name = "Gas-2-Go", X = "11602", Y = "8311" };
+		{ Name = "Picnic Dining Area", X = "11557", Y = "8858" };
+		{ Name = "Super Market", X = "11672", Y = "8795" };
+		{ Name = "Trailer Park", X = "11493", Y = "8914" };
+	};
+
+	Muldraugh = {
+		{ Name = "The Mall", X = "13943", Y = "5929" };
+		{ Name = "Spiffo's", X = "10613", Y = "9650" };
+		{ Name = "The Warehouse", X = "10630", Y = "9313" };
+		{ Name = "Large Urban Warehouse", X = "10702", Y = "10104" };
+		{ Name = "Out of Town Warehouses", X = "10707", Y = "9816" };
+		{ Name = "McCoy's Logging Corp.", X = "10316", Y = "9289" };
+		{ Name = "Motel", X = "10909", Y = "9762" };
+		{ Name = "Sunstar Hotel", X = "10622", Y = "9814" };
+		{ Name = "Tavern", X = "10762", Y = "10558" };
+		{ Name = "Police Station", X = "10634", Y = "10419" };
+		{ Name = "Self Storage Buildings", X = "10707", Y = "9816" };
+		{ Name = "Diner", X = "11475", Y = "8811" };
+		{ Name = "Elementary School", X = "10608", Y = "9972" };
+		{ Name = "Pile-O-Crepe", X = "10623", Y = "9522" };
+		{ Name = "Forest House", X = "11070", Y = "10640" };
+	};
+
+	Westpoint = {
+		{ Name = "Shopping District", X = "11920", Y = "6899" };
+		{ Name = "Enigma's Books & Mendy's Eatery", X = "11898", Y = "6894" };
+		{ Name = "Elementary School", X = "11748", Y = "6912" };
+		{ Name = "Farm House", X = "11124", Y = "6853" };
+		{ Name = "Gun Shop", X = "12074", Y = "6760" };
+		{ Name = "Twiggy's", X = "12069", Y = "6807" };
+		{ Name = "GIGA Mart", X = "12023", Y = "6870" };
+		{ Name = "Knox Bank", X = "11914", Y = "6915" };
+		{ Name = "Large Warehouse", X = "12129", Y = "7096" };
+		{ Name = "Mini Hotel", X = "12009", Y = "6911" };
+		{ Name = "Police Station", X = "11912", Y = "6952" };
+		{ Name = "Seahorse Coffee", X = "11963", Y = "6888" };
+		{ Name = "Pharmahug", X = "11928", Y = "6807" };
+		{ Name = "Pizza Whirled & Zippee Market", X = "11669",  Y = "7070" };
+		{ Name = "Church and Cemetary", X = "11090", Y = "6720" };
+		{ Name = "Shack By The Lake", X = "10186", Y = "6765" };
+		{ Name = "Large Forest House/Store", X = "12047",  Y = "7374" };
+		{ Name = "Spiffo's", X = "11978",  Y = "6821" };
+		{ Name = "School", X = "11345",  Y = "6785" };
+		{ Name = "Fossoil", X = "12072",  Y = "7150" };
+	};
+	
+	
+	--
+	-- Addon Maps
+	--
+	
+	
+	-- Drayon ( Rebuild )
+	Drayton = {
+		{ Name = "Bridge - West Side", X = "8336", Y = "9422" };
+		{ Name = "Bridge - East Side", X = "", Y = "9422" };
+		{ Name = "Cinema - Entrance", X = "7921", Y = "8270" };
+		{ Name = "Cinema - Lobby", X = "7920", Y = "8268" };
+		{ Name = "Gas2Go - Entrance", X = "7781", Y = "8485" };
+		{ Name = "Fossoil - Entrance", X = "8235", Y = "7845" };
+		{ Name = "GigaMart - Entrance", X = "7847", Y = "8323" };
+		{ Name = "GigaMart - Inside Entrance", X = "7845", Y = "8319" };
+		{ Name = "GunStore - Entrance", X = "7765", Y = "8453" };
+		{ Name = "Gun Store - Lobby", X = "7765", Y = "8451" };
+		{ Name = "Hardware Store - Entrance", X = "7874", Y = "8379" };
+		{ Name = "Hospital - Parking Lot Entrance Outside", X = "7844", Y = "8553" };
+		{ Name = "Hospital - Parking Lot Entrance", X = "7839", Y = "8553" };
+		{ Name = "Hospital - Entrance", X = "7820", Y = "8586" };
+		{ Name = "Hospital - Entrance NumericTest", X = "7820", Y = "8586" };
+		{ Name = "Hospital - Lobby", X = "7807", Y = "8591" };
+		{ Name = "Military Medical Camp - Entrance", X = "7872", Y = "7870" };
+		{ Name = "Pharmacy - Entrance", X = "7863", Y = "8249" };
+		{ Name = "Police Station - Entrance", X = "7768", Y = "8228" };
+		{ Name = "Police Station - Lobby", X = "7768", Y = "8231" };
+		{ Name = "Police Station - Armory", X = "7752", Y = "8236" };
+		{ Name = "School - Entrance", X = "8257", Y = "8450" };
+		{ Name = "Spiffo's - Entrance", X = "8166", Y = "8414" };
+		{ Name = "Strip Club - Entrance", X = "7858", Y = "8382" };
+		{ Name = "Strip Club - Lobby", X = "7854", Y = "8382" };
+		{ Name = "Tool Store - Entrance", X = "8196", Y = "7875" };
+		{ Name = "Abandoned Warehouse - Entrance", X = "8130", Y = "7828" };
+		{ Name = "Swimming Pool", X = "7870", Y = "8036" };
+		{ Name = "Convenience Store - Entrance", X = "7824", Y = "7912" };
+		{ Name = "Small Convenience Store - Entrance", X = "8181", Y = "8199" };
+		{ Name = "Convenience Store - In Town - Entrance", X = "7840", Y = "8355" };
+		{ Name = "Train Cars", X = "8055", Y = "8148" };
+		{ Name = "Small Motel - Entrance", X = "7963", Y = "8124" };
+		{ Name = "Warehouse and Storage - Entrance", X = "7873", Y = "8163" };
+		{ Name = "Camp Shack", X = "8009", Y = "8281" };
+		{ Name = "Cabin South of Town", X = "7926", Y = "8801" };
+		{ Name = "Valu Insurance", X = "7875", Y = "8671" };
+		{ Name = "Warehouse - Small, In Town", X = "7864", Y = "8523" };
+		{ Name = "Kindergarten", X = "7832", Y = "8504" };
+		{ Name = "Diner - Entrance", X = "7801", Y = "8460" };
+		{ Name = "Tavern - Entrance", X = "7786", Y = "8453" };
+		{ Name = "Furniture & Appliance Store - Entrance", X = "7747", Y = "8413" };
+		{ Name = "Seahorse Coffee - Entrance", X = "7753", Y = "8393" };
+		{ Name = "Book Store - Entrance", X = "7840", Y = "8355" };
+		{ Name = "Book Store 2 - Entrance", X = "7747", Y = "8270" };
+		{ Name = "DMV", X = "7746", Y = "8287" };
+	};
+	
+	TheWalkingDeadPrison = {
+		{ Name = "Entrance - Main Gate", X = "9815", Y = "9515" };
+		{ Name = "Entrance - Inner Gate", X = "9770", Y = "9495" };
+		{ Name = "Guard Tower 1 - Main Gate", X = "9805", Y = "9521" };
+		{ Name = "Guard Tower 2 - Left Inner Gate", X = "9763", Y = "9495" };
+		{ Name = "Guard Tower 3 - Right Inner Gate", X = "9775", Y = "9488" };
+		{ Name = "Guard Tower 4 - Yard Overlook", X = "9802", Y = "9489" };
+		{ Name = "Guard Tower 5 - River Overlook", X = "9737", Y = "9543" };
+		{ Name = "Laundry Room", X = "9788", Y = "9478" };
+		{ Name = "Guns&Ammo Container", X = "9736", Y = "9488" };
+		{ Name = "Warehouse - Small Garage Entrance", X = "9738", Y = "9479" };
+		{ Name = "Warehouse - Large Garage Entrance", X = "9745", Y = "9465" };
+		{ Name = "Dining Room", X = "9765", Y = "9455" };
+		{ Name = "Kitchen", X = "9770", Y = "9458" };
+		{ Name = "Kitchen Pantry", X = "9774", Y = "9459" };
+		{ Name = "Yard - Soccer Pitch", X = "9792", Y = "9476" };
+		{ Name = "Yard - Basketball 1", X = "9795", Y = "9463" };
+		{ Name = "Yard - Basketball 2", X = "9795", Y = "9457" };
+		{ Name = "Yard - Burned Yard", X = "9790", Y = "9448" };
+		{ Name = "Cell Block 1 - Game Area", X = "9758", Y = "9473" };
+		{ Name = "Cell Block 1 - Cells Hall", X = "9762", Y = "9465" };
+		{ Name = "Cell Block Burned - Cells Hall", X = "9780", Y = "9451" };
+	};
+	
+	
+	NewDenver = {
+		{ Name = "Hospital - Entrance", X = "8223", Y = "12441" };
+		{ Name = "Cabin Hotel 1 - Entrance", X = "8365", Y = "11161" };
+		{ Name = "Cabin Hotel 2 - Entrance", X = "8254", Y = "11537" };
+		{ Name = "Gas Station - Entrance", X = "8290", Y = "11769" };
+		{ Name = "Hardware Store - Entrance", X = "8061", Y = "11744" };
+		{ Name = "Lakeside Shack - Entrance", X = "8076", Y = "11426" };
+		{ Name = "Liquor Store - Entrance", X = "8092", Y = "11784" };
+		{ Name = "Lucerne Elementary & Secondary School - Entrance", X = "8393", Y = "11646" };
+		{ Name = "Police Station - Entrance", X = "8216", Y = "11859" };
+		{ Name = "Police Station - Armory", X = "8206", Y = "11867" };
+		{ Name = "70's Style House in the woods - Entrance", X = "8422", Y = "12106" };
+		{ Name = "River Island", X = "8313", Y = "11957" };
+		{ Name = "River Mouth Island 1", X = "7812", Y = "12024" };
+		{ Name = "River Mouth Island 2", X = "7817", Y = "12006" };
+		{ Name = "River Mouth Island 3", X = "7814", Y = "11996" };
+		{ Name = "River Mouth Campsite", X = "7829", Y = "12067" };
+		{ Name = "River Mouth Marina and Boat Landing", X = "7924", Y = "12144" };
+		{ Name = "Marina Campgrounds - Entrance", X = "8019", Y = "12130" };
+		{ Name = "Large Fenced in House with warehouse - Entrance", X = "8098", Y = "12163" };
+		{ Name = "Park Benches", X = "7926", Y = "11740" };
+		{ Name = "Small Farm with Well - Entrance", X = "8638", Y = "11195" };
+		{ Name = "Low Income Neighborhood - Entrance", X = "8812", Y = "11295" };
+	};
+	
+	Phoenix = {
+		{ Name = "Apartment Block ( Quarantined ) - Entrance", X = "11833", Y = "11217" };
+		{ Name = "Big Office Area ( EON Building ) - Entrance", X = "12141", Y = "11181" };
+		{ Name = "Construction, Science & Tech College - Entrance", X = "12449", Y = "11137" };
+		{ Name = "CST Construction Site", X = "12475", Y = "11221" };
+		{ Name = "Civilian Refuge Camp - Entrance", X = "11767", Y = "11230" };
+		{ Name = "[F] Downey's All you can eat - Entrance", X = "11907", Y = "11308" };
+		{ Name = "[G] Fossoil - Entrance", X = "12037", Y = "11261" };
+		{ Name = "Gated Community?? - Entrance", X = "12512", Y = "11297" };
+		{ Name = "[F] Greene's Market - Entrance", X = "12309", Y = "11235" };
+		{ Name = "Hair Genesis - Entrance", X = "11908", Y = "11284" };
+		{ Name = "[T] Haywood Hardware - Entrance", X = "11760", Y = "11215" };
+		{ Name = "Knox Bank Phoenix Branch - Entrance", X = "12118", Y = "11182" };
+		{ Name = "[W] McCrusty's Gun Store - Entrance", X = "11798", Y = "11215" };
+		{ Name = "[W] McCrusty's Gun Store - Lobby", X = "11795", Y = "11209" };
+		{ Name = "[M] Medical Office ( Quarantined ) - Entrance", X = "12308", Y = "11252" };
+		{ Name = "[W] Military Outpost - Entrance", X = "11777", Y = "11303" };
+		{ Name = "[W] Military Outpost - Armory", X = "11776", Y = "11313" };
+		{ Name = "[M] Pharmacy - Entrance", X = "12307", Y = "11173" };
+		{ Name = "[M] Pharmahug - Entrance", X = "11908", Y = "11318" };
+		{ Name = "Phoenix General Hospital East Wing - Entrance", X = "11843", Y = "11291" };
+		{ Name = "Phoenix General Hospital West Wing - Entrance", X = "11900", Y = "11320" };
+		{ Name = "Phoenix Nature Reserve - Entrance", X = "11930", Y = "10999" };
+		{ Name = "Phoenix Nature Reserve - Island 1", X = "11981", Y = "11007" };
+		{ Name = "Phoenix Nature Reserve - Island 2", X = "12031", Y = "10990" };
+		{ Name = "[W] Phoenix Police Station - Entrance", X = "11838", Y = "11167" };
+		{ Name = "[W] Phoenix Police Station - Entrance", X = "11840", Y = "11141" };
+		{ Name = "Plumbers Merchant Warehouse - Entrance", X = "12112", Y = "11123" };
+		{ Name = "Plumbers Merchant Warehouse 2 - Entrance", X = "12099", Y = "11128" };
+		{ Name = "Plumbers Merchant Warehouse 3 - Entrance", X = "12147", Y = "11119" };
+		{ Name = "Plumbers Merchant Warehouse 4 - Entrance", X = "12131", Y = "11115" };
+		{ Name = "Plumbers Merchant Warehouse 5 - Entrance", X = "12102", Y = "11084" };
+		{ Name = "Plumbers Merchant Offices - Entrance", X = "12102", Y = "11084" };
+		{ Name = "Quarantine East Entrance", X = "11929", Y = "11131" };
+		{ Name = "Quarantine North Entrance", X = "11755", Y = "11248" };
+		{ Name = "Quarantine North-East Entrance", X = "11808", Y = "11105" };
+		{ Name = "Quarantine North-West Entrance", X = "11752", Y = "11299" };
+		{ Name = "Quarantine South Entrance", X = "11971", Y = "11331" };
+		{ Name = "Quarantine West Entrance", X = "11903", Y = "11370" };
+		{ Name = "Quarantine Main Entrance", X = "11935", Y = "11242" };
+		{ Name = "Self Storage - Entrance", X = "12283", Y = "11308" };
+		{ Name = "Strip Mall - Entrance", X = "12189", Y = "11274" };
+		{ Name = "[F] SuperMarket ( Quarantined ) - Entrance", X = "11910", Y = "11222" };
+		{ Name = "[F] Nuthall Diner - Entrance", X = "12088", Y = "11274" };
+		{ Name = "Travelers Rest Hotel - Entrance", X = "12037", Y = "11179" };
+		{ Name = "Water Treatment Plant - Entrance", X = "12102", Y = "10991" };
+		{ Name = "Large Warehouses - Entrance", X = "12032", Y = "11554" };
+		{ Name = "Construction Site", X = "12371", Y = "11463" };
+		{ Name = "SunStar Motel - Entrance", X = "12646", Y = "11234" };
+	};
+
+	-- SouthMuldraugh = {
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+	
+	-- };
+	
+	
+	Dreadwood = {
+		{ Name = "Church and Cemetary - Entrance", X = "10742", Y = "7825" };
+		{ Name = "Farm - Entrance", X = "10595", Y = "7828" };
+		{ Name = "[G] Gas 2 Go - Entrance", X = "10555", Y = "7906" };
+		{ Name = "Gazebo", X = "10680", Y = "8133" };
+		{ Name = "Mansion - Entrance", X = "10454", Y = "8046" };
+		{ Name = "[W] Police Station - Entrance", X = "10484", Y = "7957" };
+		{ Name = "[W] Police Station - Armory", X = "10470", Y = "7967" };
+		{ Name = "Military Tents - Entrance", X = "10756", Y = "8297" };
+		{ Name = "Prison - Entrance", X = "10901", Y = "7900" };
+		{ Name = "Prison - Medical Ward", X = "10891", Y = "7874" };
+		{ Name = "Prison - Execution Viewing Room", X = "10929", Y = "7824" };
+		{ Name = "[F] Spiffo's - Entrance", X = "10530", Y = "8193" };
+		{ Name = "Water Treatment Plant - Entrance", X = "10827", Y = "7818" };
+		{ Name = "Water Treatment Plant - Inside", X = "10827", Y = "7806" };
+		{ Name = "Citr-s Wave Self Storage - Entrance", X = "10786", Y = "7918" };
+		{ Name = "Citr-s Wave Self Storage and Logging - Entrance", X = "10525", Y = "7834" };
+		{ Name = "Citr-s Wave Self Storage and Logging - nside", X = "10520", Y = "7834" };
+		{ Name = "Small Shopping Mall - Entrance", X = "10760", Y = "7888" };
+		{ Name = "[F] Seahorse Coffee - Entrance", X = "10735", Y = "7883" };
+		{ Name = "[F] Food Market - Entrance", X = "10704", Y = "7918" };
+		{ Name = "Greenhouse - Entrance", X = "10683", Y = "7817" };
+		{ Name = "Modern House - Entrance", X = "10515", Y = "7792" };
+		{ Name = "Abandoned Warehouse - Entrance", X = "10504", Y = "8326" };
+		-- { Name = "X - Entrance", X = "", Y = "" };
+	
+	};
+};
+
+
+--
+-- Addon Maps
+--
+
+
+--
+--
+--
+-- CheatCoreCM.CompassPresets.BedfordFalls = CheatCoreCM.CompassPresets.BedfordFalls or { };
+
+
+
+--
+-- Drayton ( Rebuild )
+--
+-- CheatCoreCM.CompassPresets.Drayton = CheatCoreCM.CompassPresets.Drayton or { };
+
+
+-- CheatCoreCM.CompassPresets.Drayton. = { Name = " - ", X = "", Y = "" };
+-- CheatCoreCM.CompassPresets.Drayton. = { Name = " - ", X = "", Y = "" };
+-- CheatCoreCM.CompassPresets.Drayton. = { Name = " - ", X = "", Y = "" };
+-- CheatCoreCM.CompassPresets.Drayton. = { Name = " - ", X = "", Y = "" };
+
+
+
+--
+--
+--
+-- CheatCoreCM.CompassPresets.NewDenver = CheatCoreCM.CompassPresets.NewDenver or { };
+
+
+
+--
+--
+--
+-- CheatCoreCM.CompassPresets.Phoenix = CheatCoreCM.CompassPresets.Phoenix or { };
+
+
+
+--
+--
+--
+-- CheatCoreCM.CompassPresets.SouthMuldraugh = CheatCoreCM.CompassPresets.SouthMuldraugh or { };
+
+
+
+--
+-- The Walking Dead Prison Compass Locations...
+--
+-- CheatCoreCM.CompassPresets.TheWalkingDeadPrison = CheatCoreCM.CompassPresets.TheWalkingDeadPrison or { };
+
+
+
+do return; end
+--
+-- Categorized Places
+--
+
+
+--
+-- BOOKS
+--
+CheatCoreCM.CompassPresets.PlacesBooks = CheatCoreCM.CompassPresets.PlacesBooks or { };
+-- CheatCoreCM.CompassPresets.PlacesBooks.Books1 = { Name = "", X = "", Y = "" };
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesBooks, { Name = "Drayton - Book Store - Entrance", X = "7840", Y = "8355" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesBooks, { Name = "Drayton - Book Store 2 - Entrance", X = "7747", Y = "8270" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesBooks, { Name = "Westpoint - Enigma's Books", X = "11898", Y = "6894" } );
+
+
+--
+-- CLOTHING
+--
+-- CheatCoreCM.CompassPresets.PlacesClothing = CheatCoreCM.CompassPresets.PlacesClothing or { };
+-- CheatCoreCM.CompassPresets.PlacesClothing.Clothing1 = { Name = "", X = "", Y = "" };
+-- table.insert( CheatCoreCM.CompassPresets.PlacesClothing,  );
+
+
+--
+-- FUEL
+--
+CheatCoreCM.CompassPresets.PlacesFuel = CheatCoreCM.CompassPresets.PlacesFuel or { };
+-- CheatCoreCM.CompassPresets.PlacesFuel.Fuel1 = { Name = "", X = "", Y = "" };
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesFuel, { Name = "Dixie - Gas Station", X = "11509", Y = "8832" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFuel, { Name = "Dixie - Gas-2-Go", X = "11602", Y = "8311" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesFuel, { Name = "Drayton - Gas2Go", X = "7781", Y = "8485" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFuel, { Name = "Drayton - Fossoil", X = "8235", Y = "7845" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesFuel, { Name = "West Point - Fossoil", X = "12072", Y = "7150" } );
+
+
+--
+-- TOOLS
+--
+CheatCoreCM.CompassPresets.PlacesTools = CheatCoreCM.CompassPresets.PlacesTools or { };
+-- CheatCoreCM.CompassPresets.PlacesTools.Fuel1 = { Name = "", X = "", Y = "" };
+-- table.insert( CheatCoreCM.CompassPresets.PlacesTools,  );
+
+table.insert( CheatCoreCM.CompassPresets.PlacesTools, { Name = "Drayton - Hardware Store - Entrance", X = "7874", Y = "8379" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesTools, { Name = "Drayton - Tool Store - Entrance", X = "8196", Y = "7875" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesTools, { Name = "Drayton - Furniture & Appliance Store - Entrance", X = "7747", Y = "8413" } );
+
+
+--
+-- FOOD
+--
+CheatCoreCM.CompassPresets.PlacesFood = CheatCoreCM.CompassPresets.PlacesFood or { };
+-- CheatCoreCM.CompassPresets.PlacesFood.Food1 = { Name = "", X = "", Y = "" };
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Dixie - Spiffo's", X = "11659", Y = "8301" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Dixie - Super Market", X = "11672", Y = "8795" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Muldraugh - Spiffo's", X = "10613", Y = "9650" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Muldraugh - Pile-O-Crepe", X = "10623", Y = "9522" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Muldraugh - Diner", X = "11475", Y = "8811" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Westpoint - Pizza Whirled & Zippee Market", X = "11669", Y = "7070" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Westpoint - Spiffo's", X = "11978", Y = "6821" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Westpoint - Mendy's Eatery", X = "11898", Y = "6894" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Westpoint - GIGA Mart", X = "12023", Y = "6870" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Drayton - Diner", X = "7801", Y = "8460" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Drayton - Seahorse Coffee", X = "7753", Y = "8393" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Drayton - Spiffo's", X = "8166", Y = "8414" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Drayton - Convenience Store", X = "7824", Y = "7912" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Drayton - Small Convenience Store", X = "8181", Y = "8199" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesFood, { Name = "Drayton - Convenience Store - In Town", X = "7840", Y = "8355" } );
+
+
+--
+-- MEDICINE
+--
+CheatCoreCM.CompassPresets.PlacesMedicine = CheatCoreCM.CompassPresets.PlacesMedicine or { };
+-- CheatCoreCM.CompassPresets.PlacesMedicine.Fuel1 = { Name = "", X = "", Y = "" };
+-- table.insert( CheatCoreCM.CompassPresets.PlacesMedicine,  );
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesMedicine, { Name = "Drayton - Pharmacy", X = "7863", Y = "8249" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesMedicine, { Name = "Drayton - Hospital", X = "7820", Y = "8586" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesMedicine, { Name = "Drayton - Military Medical Camp", X = "7872", Y = "7870" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesMedicine, { Name = "West Point - Pharmahug", X = "11928", Y = "6807" } );
+
+
+--
+-- WEAPONS
+--
+CheatCoreCM.CompassPresets.PlacesWeapons = CheatCoreCM.CompassPresets.PlacesWeapons or { };
+-- CheatCoreCM.CompassPresets.PlacesWeapons.Weapons1 = { Name = "", X = "", Y = "" };
+-- table.insert( CheatCoreCM.CompassPresets.PlacesWeapons,  );
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesWeapons, { Name = "Drayton - GunStore - Entrance", X = "7765", Y = "8453" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesWeapons, { Name = "Drayton - Gun Store - Lobby", X = "7765", Y = "8451" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesWeapons, { Name = "Drayton - Police Station - Armory", X = "7752", Y = "8236" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesWeapons, { Name = "Muldraugh - Police Station", X = "10634", Y = "10419" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesWeapons, { Name = "West Point - Police Station", X = "11912", Y = "6952" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesWeapons, { Name = "West Point - Gun Shop", X = "12074", Y = "6760" } );
+
+
+--
+-- STORAGE
+--
+CheatCoreCM.CompassPresets.PlacesStorage = CheatCoreCM.CompassPresets.PlacesStorage or { };
+-- CheatCoreCM.CompassPresets.PlacesStorage.Storage1 = { Name = "", X = "", Y = "" };
+-- table.insert( CheatCoreCM.CompassPresets.PlacesStorage,  );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesStorage, { Name = "Drayton - Abandoned Warehouse", X = "8130", Y = "7828" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesStorage, { Name = "Drayton - Warehouse and Storage", X = "7873", Y = "8163" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesStorage, { Name = "Drayton - Warehouse - Small, In Town", X = "7864", Y = "8523" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesStorage, { Name = "Muldraugh - The Warehouse", X = "10630", Y = "9313" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesStorage, { Name = "Muldraugh - Large Urban Warehouse", X = "10702", Y = "10104" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesStorage, { Name = "Muldraugh - Out of Town Warehouses", X = "10707", Y = "9816" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesStorage, { Name = "Muldraugh - McCoy's Logging Corp.", X = "10316", Y = "9289" } );
+table.insert( CheatCoreCM.CompassPresets.PlacesStorage, { Name = "Muldraugh - Self Storage Buildings", X = "10707", Y = "9816" } );
+
+--
+table.insert( CheatCoreCM.CompassPresets.PlacesStorage, { Name = "West Point - Large Warehouse", X = "12129", Y = "7096" } );
+
+

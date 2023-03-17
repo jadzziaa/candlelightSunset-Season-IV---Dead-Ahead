@@ -1,0 +1,58 @@
+module Base
+{
+	model KZ1K_tireWI
+	{
+		mesh    = vehicles/Bikes_80kz1000_Objects|kz1k_wheelWI,
+		texture = Vehicles/Objects_80kz1000_wheel,
+		scale   = 0.6,
+	}
+
+	model KZ1K_storageLidWI
+	{
+		mesh    = vehicles/Bikes_80kz1000_Objects|kz1k_box_rear_lidWI,
+		texture = Vehicles/Objects_80kz1000_Shell,
+		scale   = 0.6,
+	}
+
+	model KZ1K_storageLidsideWI
+	{
+		mesh    = vehicles/Bikes_80kz1000_Objects|kz1k_box_right_lidWI,
+		texture = Vehicles/Objects_80kz1000_Shell,
+		scale   = 0.6,
+	}
+
+	model KZ1K_mufflerWI
+	{
+		mesh    = vehicles/Bikes_80kz1000_Objects|kz1k_mufflerWI,
+		texture = Vehicles/Objects_80kz1000_Shell,
+		scale   = 0.6,
+	}
+
+	model KZ1K_gastankWI
+	{
+		mesh    = vehicles/Bikes_80kz1000_Objects|kz1k_gastankWI,
+		texture = Vehicles/Objects_80kz1000_Shell,
+		scale   = 0.6,
+	}
+
+	model KZ1K_seatWI
+	{
+		mesh    = vehicles/Bikes_80kz1000_Objects|kz1k_seatWI,
+		texture = Vehicles/Objects_80kz1000_Shell,
+		scale   = 0.6,
+	}
+
+	model KZ1K_windshieldWI
+	{
+		mesh    = vehicles/Bikes_80kz1000_Objects|kz1k_windshieldWI,
+		texture = Vehicles/Objects_80kz1000_Shell,
+		scale   = 0.6,
+	}
+
+	model CHiPshelmetWI
+	{
+		mesh    = vehicles/Bikes_80kz1000_Objects|chips_helmetWI,
+		texture = Clothes/CHiPsHelmet,
+		scale   = 1.0,
+	}
+}

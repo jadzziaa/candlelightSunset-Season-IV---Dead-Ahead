@@ -1,0 +1,455 @@
+module Base
+{
+	model HeadhunterRifle
+	{
+		mesh = weapons/HeadhunterRifle,
+		texure = weapons/HeadhunterRifle,
+
+		attachment muzzle
+		{
+			offset = -0.0020 -0.0320 0.6670,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1800 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = -0.0010 -0.0010 0.5420,
+			rotate = 91.0000 -1.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.2950 -0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 -0.0610 0.0030,
+			rotate = 90.0000 0.0000 -1.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 -0.0450 0.1590,
+			rotate = 90.0000 0.0000 180.0000,
+		}
+
+		attachment gunlight
+		{
+			offset = 0.0000 0.0080 0.5080,
+			rotate = -90.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = -0.0020 -0.0370 0.1830,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0000 -0.0000,
+			rotate = -90.0000 0.0000 -180.0000,
+		}
+
+		attachment silencer
+		{
+			offset = 0.0000 0.4920 -0.0340,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0230 -0.1470,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+
+		attachment bipod
+		{
+			offset = 0.0000 0.3170 -0.0150,
+			rotate = -0.0000 0.0000 -0.0000,
+		}
+	}
+
+	model DeadlyHeadhunterRifle
+	{
+		mesh = weapons/DeadlyHeadhunterRifle,
+		texure = weapons/DeadlyHeadhunterRifle,
+
+		attachment muzzle
+		{
+			offset = -0.0020 -0.0320 0.6670,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0000 0.1800 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment bayonnet
+		{
+			offset = -0.0010 -0.0010 0.5420,
+			rotate = 91.0000 -1.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.2950 -0.0050,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 -0.0610 0.0030,
+			rotate = 90.0000 0.0000 -1.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 -0.0450 0.1590,
+			rotate = 90.0000 0.0000 180.0000,
+		}
+
+		attachment gunlight
+		{
+			offset = 0.0000 0.0080 0.5080,
+			rotate = -90.0000 0.0000 -180.0000,
+		}
+
+		attachment laser
+		{
+			offset = -0.0020 -0.0370 0.1830,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0000 -0.0000,
+			rotate = -90.0000 0.0000 -180.0000,
+		}
+
+		attachment silencer
+		{
+			offset = 0.0000 0.4920 -0.0340,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0230 -0.1470,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+
+		attachment bipod
+		{
+			offset = 0.0000 0.3170 -0.0150,
+			rotate = -0.0000 0.0000 -0.0000,
+		}
+	}
+	model PrepperKnife
+	{
+		mesh = weapons/PrepperKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model PrepperFlashlight
+	{
+		mesh = Stuff/PrepperFlashlight,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model PrepperHelmet_Ground
+    {
+        mesh = WorldItems/PrepperHelmet_ground,
+        texture = Clothes/PrepperHelmet,
+        scale = 1,
+    }
+	model PrepperMask_Ground
+    {
+        mesh = WorldItems/PrepperMask_ground,
+        texture = Clothes/PrepperMask,
+        scale = 1,
+    }
+	model PrepperJacket_Ground
+    {
+        mesh = WorldItems/PrepperJacket_ground,
+        texture = Clothes/PrepperJacket,
+        scale = 1,
+    }
+	model PrepperVest_Ground
+    {
+        mesh = WorldItems/PrepperVest_ground,
+        texture = Clothes/PrepperVest,
+        scale = 1,
+    }
+	model PrepperVestPacked_Ground
+    {
+        mesh = WorldItems/PrepperVestPacked_ground,
+        texture = Clothes/PrepperVest,
+        scale = 1,
+    }
+	model PrepperBags_Ground
+    {
+        mesh = WorldItems/PrepperBags_Ground,
+        texture = Clothes/PrepperVest,
+        scale = 1,
+    }
+	model PrepperTrousers_Ground
+    {
+        mesh = WorldItems/PrepperTrousers_ground,
+        texture = Clothes/PrepperTrousers,
+        scale = 1,
+    }
+	model StalkerBoots_Ground
+    {
+        mesh = WorldItems/StalkerBoots_ground,
+        texture = Clothes/StalkerBoots,
+        scale = 1,
+    }
+	model StalkerCloak_Ground
+    {
+        mesh = WorldItems/StalkerCloak_ground,
+        texture = Clothes/StalkerCloak,
+        scale = 1,
+    }
+	model StalkerGloves_Ground
+    {
+        mesh = WorldItems/StalkerGloves_ground,
+        texture = Clothes/StalkerGloves,
+        scale = 1,
+    }
+	model StalkerJacket_Ground
+    {
+        mesh = WorldItems/StalkerJacket_ground,
+        texture = Clothes/StalkerJacket,
+        scale = 1,
+    }
+	model StalkerMask_Ground
+    {
+        mesh = WorldItems/StalkerMask_ground,
+        texture = Clothes/StalkerMask,
+        scale = 1,
+    }
+	model StalkerTrousers_Ground
+    {
+        mesh = WorldItems/StalkerTrousers_ground,
+        texture = Clothes/StalkerTrousers,
+        scale = 1,
+    }
+	model StalkerKnife
+	{
+		mesh = Weapons/StalkerKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	model AmazonaSpear
+	{
+		mesh = Weapons/AmazonaSpear,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model NomadBoots_Ground
+    {
+        mesh = WorldItems/NomadBoots_ground,
+        texture = Clothes/NomadBoots,
+        scale = 1,
+    }
+	model NomadBackpack_Ground
+    {
+        mesh = WorldItems/NomadBackpack_ground,
+        texture = Clothes/NomadBackpack,
+        scale = 1,
+    }
+	model NomadParka_Ground
+    {
+        mesh = WorldItems/NomadParka_ground,
+        texture = Clothes/NomadParka,
+        scale = 1,
+    }
+	model NomadMask_Ground
+    {
+        mesh = WorldItems/NomadMask_ground,
+        texture = Clothes/NomadMask,
+        scale = 1,
+    }
+	model NomadTrousers_Ground
+    {
+        mesh = WorldItems/NomadTrousers_ground,
+        texture = Clothes/NomadTrousers,
+        scale = 1,
+    }
+	model OminousNomadParka_Ground
+    {
+        mesh = WorldItems/NomadParka_ground,
+        texture = Clothes/OminousNomadParka,
+        scale = 1,
+    }
+	model OminousNomadMask_Ground
+    {
+        mesh = WorldItems/NomadMask_ground,
+        texture = Clothes/OminousNomadMask,
+        scale = 1,
+    }
+	model Bounty01_ground
+	{
+		mesh = WorldItems/Bounty_ground,
+		texture = WorldItems/Bounty01,
+		scale = 1,
+	}
+	model Bounty02_ground
+    {
+        mesh = WorldItems/Bounty_ground,
+        texture = WorldItems/Bounty02,
+        scale = 1,
+    }
+	model Bounty03_ground
+    {
+        mesh = WorldItems/Bounty_ground,
+        texture = WorldItems/Bounty03,
+        scale = 1,
+    }
+	model Bounty04_ground
+    {
+        mesh = WorldItems/Bounty_ground,
+        texture = WorldItems/Bounty04,
+        scale = 1,
+    }
+	model Bounty05_ground
+    {
+        mesh = WorldItems/Bounty_ground,
+        texture = WorldItems/Bounty05,
+        scale = 1,
+    }
+	model Bounty06_ground
+    {
+        mesh = WorldItems/Bounty_ground,
+        texture = WorldItems/Bounty06,
+        scale = 1,
+    }
+	model Bounty07_ground
+    {
+        mesh = WorldItems/Bounty_ground,
+        texture = WorldItems/Bounty07,
+        scale = 1,
+    }
+	model Bounty08_ground
+    {
+        mesh = WorldItems/Bounty_ground,
+        texture = WorldItems/Bounty08,
+        scale = 1,
+    }
+	model Bounty09_ground
+    {
+        mesh = WorldItems/Bounty_ground,
+        texture = WorldItems/Bounty09,
+        scale = 1,
+    }
+	model Bounty10_ground
+    {
+        mesh = WorldItems/Bounty_ground,
+        texture = WorldItems/Bounty10,
+        scale = 1,
+    }
+	model HeadhunterGasmask_Ground
+    {
+        mesh = WorldItems/HeadhunterGasmask_ground,
+        texture = Clothes/HeadhunterGasmask,
+        scale = 1,
+    }
+	model HeadhunterBackpack_Ground
+    {
+        mesh = WorldItems/HeadhunterBackpack_ground,
+        texture = Clothes/HeadhunterBackpack,
+        scale = 1,
+    }
+	model HeadhunterMantle_Ground
+    {
+        mesh = WorldItems/HeadhunterMantle_ground,
+        texture = Clothes/HeadhunterMantle,
+        scale = 1,
+    }
+	model DeadlyHeadhunterGasmask_Ground
+    {
+        mesh = WorldItems/HeadhunterGasmask_ground,
+        texture = Clothes/DeadlyHeadhunterGasmask,
+        scale = 1,
+    }
+	model DeadlyHeadhunterBackpack_Ground
+    {
+        mesh = WorldItems/HeadhunterBackpack_ground,
+        texture = Clothes/DeadlyHeadhunterBackpack,
+        scale = 1,
+    }
+	model DeadlyHeadhunterMantle_Ground
+    {
+        mesh = WorldItems/HeadhunterMantle_ground,
+        texture = Clothes/DeadlyHeadhunterMantle,
+        scale = 1,
+    }
+	model HeadhunterScope
+	{
+		mesh = weapons/parts/HeadhunterScope,
+		texture = weapons/HeadhunterRifle,
+	}
+	model HeadhunterScope_ground
+	{
+		mesh = WorldItems/HeadhunterScope_ground,
+		texture = weapons/HeadhunterRifle,
+	}
+	model AmazonaBoots_ground
+    {
+        mesh = WorldItems/AmazonaBoots_ground,
+        texture = Clothes/AmazonaBoots,
+    }
+	model AmazonaCloak_ground
+    {
+        mesh = WorldItems/AmazonaCloak_ground,
+        texture = Clothes/AmazonaCloak,
+    }
+	model AmazonaDress_ground
+    {
+        mesh = WorldItems/AmazonaDress_ground,
+        texture = Clothes/AmazonaDress,
+    }
+	model AmazonaDressTrimmed04_ground
+    {
+        mesh = WorldItems/AmazonaDressTrimmed04_ground,
+        texture = Clothes/AmazonaDress,
+    }
+	model AmazonaDressTrimmed06_ground
+    {
+        mesh = WorldItems/AmazonaDressTrimmed06_ground,
+        texture = Clothes/AmazonaDress,
+    }
+	model AmazonaFeather_ground
+    {
+        mesh = WorldItems/AmazonaFeather_ground,
+        texture = Clothes/accessory/AmazonaFeather03,
+    }
+	model AmazonaHipBag_ground
+    {
+        mesh = WorldItems/AmazonaHipBag_ground,
+        texture = Clothes/AmazonaHipBag,
+    }
+}

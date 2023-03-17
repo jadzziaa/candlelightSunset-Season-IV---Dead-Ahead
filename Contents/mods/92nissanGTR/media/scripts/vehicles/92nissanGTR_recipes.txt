@@ -1,0 +1,186 @@
+module Base
+{
+	recipe Make R32 SideWindow
+	{
+		keep Scalpel,
+		FrontWindow3=1,
+
+		Result:R32FrontSideWindow3,
+		Time:200.0,
+		Category:R32,
+		SkillRequired:Mechanics=2,
+		Prop1:Scalpel,
+	}
+
+	recipe Make R32 SideWindow 1
+	{
+		keep Scalpel,
+		RearWindow3=1,
+
+		Result:R32RearSideWindow3,
+		Time:200.0,
+		Category:R32,
+		SkillRequired:Mechanics=2,
+		Prop1:Scalpel,
+	}
+
+	recipe Make R32 Windshield
+	{
+		keep Scalpel,
+		Windshield3=1,
+
+		Result:R32Windshield3,
+		Time:200.0,
+		Category:R32,
+		SkillRequired:Mechanics=2,
+		Prop1:Scalpel,
+	}
+
+	recipe Make R32 Windshield Rear
+	{
+		keep Scalpel,
+		RearWindshield3=1,
+
+		Result:R32WindshieldRear3,
+		Time:200.0,
+		Category:R32,
+		SkillRequired:Mechanics=2,
+		Prop1:Scalpel,
+	}
+
+	recipe Make R32 Stock Muffler
+	{
+		keep Wrench,
+		OldCarMuffler3,
+
+		Result:R32muffler0,
+		Time:400.0,
+		Category:R32,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make R32 Type1 Muffler
+	{
+		keep Wrench,
+		NormalCarMuffler3,
+
+		Result:R32muffler1,
+		Time:350.0,
+		Category:R32,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make R32 Front Door Armor
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:R32DoorArmor,
+		Time:1200.0,
+		Category:R32,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make R32 Rear Window Armor
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=2,
+		Screws=2,
+		MetalPipe=4,
+
+		Result:R32RearWindowArmor,
+		Time:500.0,
+		Category:R32,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+	
+	recipe Make R32 Windshield Armor
+	{
+		BlowTorch=10,
+      	keep WeldingMask,
+		SmallSheetMetal=3,
+		SheetMetal=2,
+		Screws=2,
+		MetalPipe=7,
+
+		Result:R32WindshieldArmor,
+		Time:1000.0,
+		Category:R32,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make R32 Rear Windshield Armor
+	{
+		BlowTorch=8,
+      	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=2,
+		Screws=2,
+		MetalPipe=5,
+
+		Result:R32WindshieldRearArmor,
+		Time:1000.0,
+		Category:R32,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make R32 Front Bullbar
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SmallSheetMetal=6,
+		SheetMetal=2,
+		MetalPipe=8,
+		Screws=2,
+
+		Result:R32BumperA,
+		Time:1300.0,
+		Category:R32,
+		SkillRequired:MetalWelding=6,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make R32 Rear Bullbar
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SmallSheetMetal=5,
+		SheetMetal=2,
+		MetalPipe=6,
+		Screws=2,
+
+		Result:R32BumperRearA,
+		Time:1150.0,
+		Category:R32,
+		SkillRequired:MetalWelding=6,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make R32 Armored Sideskirts Bullbar
+	{
+		BlowTorch=5,
+       	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=2,
+		MetalPipe=6,
+		Screws=2,
+
+		Result:R32SideskirtsA,
+		Time:750.0,
+		Category:R32,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+}

@@ -1,0 +1,6 @@
+ItemName_EN = {
+ItemName_Base.CoffeeFruit   = "Coffee Fruit",
+ItemName_Base.CoffeeRotten  = "Coffee Fruit",
+ItemName_Base.CoffeeRoasted = "Roasted Coffee",
+ItemName_Base.CoffeeBagSeed = "Coffee Seeds Packet",
+}

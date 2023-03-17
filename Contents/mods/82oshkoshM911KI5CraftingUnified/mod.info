@@ -1,0 +1,6 @@
+name='82 Oshkosh M911 - Unified KI5 Crafting Category
+authors=Panopticon
+poster=preview.png
+id=82oshkoshM911KI5CraftingUnified
+require=82oshkoshM911
+description=Overwrites the crafting recipes to be under "KI5" instead of "M911".

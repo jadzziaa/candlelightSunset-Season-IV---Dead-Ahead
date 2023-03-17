@@ -1,0 +1,12 @@
+Recipes_ES = {
+
+	Recipe_Rip_Out_Paper = "Rasgar papel",
+	Recipe_Relieve_Some_Stress = "Alivia el estrés",
+	Recipe_Apply_Lotion = "Aplicar loción",
+    Recipe_Fold_Origami_Duck = "Hacer pato de origami",
+	Recipe_Fold_Origami_Frog = "Hacer rana de origami",
+	Recipe_Crumple_Paper = "Hacer papel arrugado",
+    Recipe_Fold_Origami_Mouse = "Hacer ratón de origami",
+
+
+}

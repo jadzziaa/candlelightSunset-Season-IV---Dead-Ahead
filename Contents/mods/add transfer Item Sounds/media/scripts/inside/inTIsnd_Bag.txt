@@ -1,0 +1,48 @@
+module Base
+{
+	sound inTIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Bag_1.ogg,
+			volume = 0.55,
+		}
+	}
+	sound inTIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Bag_2.ogg,
+			volume = 0.55,
+		}
+	}
+	sound inTIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Bag_3.ogg,
+			volume = 0.55,
+		}
+	}
+	sound inTIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Bag_4.ogg,
+			volume = 0.55,
+		}
+	}
+	sound inTIsnd_Bag
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Bag_5.ogg,
+			volume = 0.55,
+		}
+	}
+}

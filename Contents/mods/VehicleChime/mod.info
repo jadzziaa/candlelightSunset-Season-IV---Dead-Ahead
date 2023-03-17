@@ -1,0 +1,4 @@
+name=Vehicle Light Chime
+id=DaszhVehicleChime
+description=Lets you know you have your lights on and the engine off, by playing a sound
+poster=preview.png

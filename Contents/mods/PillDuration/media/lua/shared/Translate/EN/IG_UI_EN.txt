@@ -1,0 +1,10 @@
+IGUI_EN = {
+ IGUI_PillInfoOpen = "Pill Infos",
+ IGUI_PillInfoTitle = "Pill Information Window", 
+ IGUI_NoneActiveInfo = "No pills selected for display",
+ IGUI_PillBeta = "Beta Blockers",
+ IGUI_PillPain = "Painkillers",
+ IGUI_PillDepr = "Anti-Depressants",
+ IGUI_PillSleep = "Sleeping Tablets",
+ IGUI_Antibiotics = "Antibiotics",
+}

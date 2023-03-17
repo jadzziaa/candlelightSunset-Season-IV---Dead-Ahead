@@ -1,0 +1,32 @@
+ContextMenu_PL = {
+
+ContextMenu_RSSigns_Vanilla = "Vanilla",
+ContextMenu_RSSigns_Letters = "Litery i cyfry",
+
+	ContextMenu_RSSigns_Parts = "Czêœci",
+	ContextMenu_RSSigns_Metal = "Metal",
+	ContextMenu_RSSigns_Wood = "Drewno",
+	ContextMenu_RSSigns_Clean = "Sprz¹tanie",
+	
+ContextMenu_RSSigns_Cars = "Samochody",
+	ContextMenu_RSSigns_Fuel = "Paliwo",
+	ContextMenu_RSSigns_RegularCar = "Osobowy",
+	ContextMenu_RSSigns_Truck = "Ciê¿arowy",
+	ContextMenu_RSSigns_SportsCar = "Sportowy",
+	
+	ContextMenu_RSSigns_FoodFresh = "Œwie¿a ¿ywnoœæ",
+	ContextMenu_RSSigns_FoodCanned = "Trwa³a ¿ywnoœæ",
+	ContextMenu_RSSigns_IceCream = "Lody",
+	ContextMenu_RSSigns_Fish = "Ryby",
+	ContextMenu_RSSigns_Meat = "Miêso",
+	ContextMenu_RSSigns_Drink = "Napoje",
+	
+	ContextMenu_RSSigns_Bash = "Obuchowa",
+	ContextMenu_RSSigns_Cut = "Sieczna",
+	ContextMenu_RSSigns_Ranged = "Dystansowa",
+
+ContextMenu_RSSigns_OtherItems = "Inne przedmioty",
+	ContextMenu_RSSigns_Books = "Ksi¹¿ka",
+	ContextMenu_RSSigns_VHS = "VHS",
+	
+}

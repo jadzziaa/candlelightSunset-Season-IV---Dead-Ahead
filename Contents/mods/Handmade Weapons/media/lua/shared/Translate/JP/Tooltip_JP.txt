@@ -1,0 +1,3 @@
+Tooltip_JP = {
+	Tooltip_ChiselInfo = "木工用として使用します。",
+}

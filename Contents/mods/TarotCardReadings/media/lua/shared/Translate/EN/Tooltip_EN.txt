@@ -1,0 +1,11 @@
+Tooltip_EN = {
+	Tooltip_TarotCardInfo           = "Information about Tarot Cards, open to read",
+    Tooltip_TarotCardDeckFull       = "Pull 1, 3, 5, 7, 10, or 12 cards from the full deck",
+    Tooltip_TarotCardDeckinUse1     = "Shuffle back in the 1 card to do a new spread",
+    Tooltip_TarotCardDeckinUse3     = "Shuffle back in the 3 card to do a new spread",
+    Tooltip_TarotCardDeckinUse5     = "Shuffle back in the 5 card to do a new spread",
+    Tooltip_TarotCardDeckinUse7     = "Shuffle back in the 7 card to do a new spread",
+    Tooltip_TarotCardDeckinUse10    = "Shuffle back in the 10 card to do a new spread",
+    Tooltip_TarotCardDeckinUse12    = "Shuffle back in the 12 card to do a new spread",
+}
+

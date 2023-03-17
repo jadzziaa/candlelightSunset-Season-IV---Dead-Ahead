@@ -1,0 +1,274 @@
+module Base
+{
+    model Vehicles_ModernCarSmashedRear
+	{
+		mesh = vehicles/Vehicles_ModernCarSMASH_Rear,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle ModernCarSmashedRear
+	{
+		template! = ModernCar,
+
+		model
+		{
+			file = Vehicles_ModernCarSmashedRear,
+			scale = 1.7500,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_cran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkcran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkgreen,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_ltblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_tan,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_black,
+		}
+	}
+
+    model Vehicles_ModernCarSmashedRight
+	{
+		mesh = vehicles/Vehicles_ModernCarSMASH_Right,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle ModernCarSmashedRight
+	{
+		template! = ModernCar,
+
+		model
+		{
+			file = Vehicles_ModernCarSmashedRight,
+			scale = 1.7500,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_cran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkcran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkgreen,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_ltblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_tan,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_black,
+		}
+	}
+
+	model Vehicles_ModernCarSmashedLeft
+	{
+		mesh = vehicles/Vehicles_ModernCarSMASH_Left,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle ModernCarSmashedLeft
+	{
+		template! = ModernCar,
+
+		model
+		{
+			file = Vehicles_ModernCarSmashedLeft,
+			scale = 1.7500,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_cran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkcran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkgreen,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_ltblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_tan,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_black,
+		}
+	}
+
+	model Vehicles_ModernCarSmashedFront
+	{
+		mesh = vehicles/Vehicles_ModernCarSMASH_Front,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle ModernCarSmashedFront
+	{
+		template! = ModernCar,
+
+		model
+		{
+			file = Vehicles_ModernCarSmashedFront,
+			scale = 1.7500,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_cran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkcran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkgreen,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_ltblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_tan,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_dkblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_moderncar_black,
+		}
+	}
+}

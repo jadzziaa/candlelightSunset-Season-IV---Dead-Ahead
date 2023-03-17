@@ -1,0 +1,3 @@
+DynamicRadio_CN = {
+	AEBS_SupplyDrop = "补给箱已投放。"
+}

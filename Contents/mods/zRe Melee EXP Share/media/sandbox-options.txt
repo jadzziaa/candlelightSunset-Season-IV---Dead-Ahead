@@ -1,0 +1,167 @@
+VERSION = 1,
+
+option zReEXPS.SmallBluntToBlunt
+{
+	type = integer, min = 0, max = 100, default = 30,
+	page = zReEXPS_general, translation = zReEXPS_SmallBluntToBlunt,
+}
+option zReEXPS.SmallBluntToSmallBlade
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SmallBluntToSmallBlade,
+}
+option zReEXPS.SmallBluntToLongBlade
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SmallBluntToLongBlade,
+}
+option zReEXPS.SmallBluntToAxe
+{
+	type = integer, min = 0, max = 100, default = 15,
+	page = zReEXPS_general, translation = zReEXPS_SmallBluntToAxe,
+}
+option zReEXPS.SmallBluntToSpear
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SmallBluntToSpear,
+}
+
+
+
+option zReEXPS.SmallBladeToLongBlade
+{
+	type = integer, min = 0, max = 100, default = 30,
+	page = zReEXPS_general, translation = zReEXPS_SmallBladeToLongBlade,
+}
+option zReEXPS.SmallBladeToSmallBlunt
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SmallBladeToSmallBlunt,
+}
+option zReEXPS.SmallBladeToBlunt
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SmallBladeToBlunt,
+}
+option zReEXPS.SmallBladeToAxe
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SmallBladeToAxe,
+}
+option zReEXPS.SmallBladeToSpear
+{
+	type = integer, min = 0, max = 100, default = 15,
+	page = zReEXPS_general, translation = zReEXPS_SmallBladeToSpear,
+}
+
+
+
+option zReEXPS.BluntToSmallBlunt
+{
+	type = integer, min = 0, max = 100, default = 60,
+	page = zReEXPS_general, translation = zReEXPS_BluntToSmallBlunt,
+}
+option zReEXPS.BluntToLongBlade
+{
+	type = integer, min = 0, max = 100, default = 30,
+	page = zReEXPS_general, translation = zReEXPS_BluntToLongBlade,
+}
+option zReEXPS.BluntToSmallBlade
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_BluntToSmallBlade,
+}
+option zReEXPS.BluntToAxe
+{
+	type = integer, min = 0, max = 100, default = 30,
+	page = zReEXPS_general, translation = zReEXPS_BluntToAxe,
+}
+option zReEXPS.BluntToSpear
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_BluntToSpear,
+}
+
+
+
+option zReEXPS.LongBladeToSmallBlade
+{
+	type = integer, min = 0, max = 100, default = 60,
+	page = zReEXPS_general, translation = zReEXPS_LongBladeToSmallBlade,
+}
+option zReEXPS.LongBladeToBlunt
+{
+	type = integer, min = 0, max = 100, default = 30,
+	page = zReEXPS_general, translation = zReEXPS_LongBladeToBlunt,
+}
+option zReEXPS.LongBladeToSmallBlunt
+{
+	type = integer, min = 0, max = 100, default = 15,
+	page = zReEXPS_general, translation = zReEXPS_LongBladeToSmallBlunt,
+}
+option zReEXPS.LongBladeToAxe
+{
+	type = integer, min = 0, max = 100, default = 15,
+	page = zReEXPS_general, translation = zReEXPS_LongBladeToAxe,
+}
+option zReEXPS.LongBladeToSpear
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_LongBladeToSpear,
+}
+
+
+
+option zReEXPS.AxeToBlunt
+{
+	type = integer, min = 0, max = 100, default = 45,
+	page = zReEXPS_general, translation = zReEXPS_AxeToBlunt,
+}
+option zReEXPS.AxeToSmallBlunt
+{
+	type = integer, min = 0, max = 100, default = 30,
+	page = zReEXPS_general, translation = zReEXPS_AxeToSmallBlunt,
+}
+option zReEXPS.AxeToLongBlade
+{
+	type = integer, min = 0, max = 100, default = 30,
+	page = zReEXPS_general, translation = zReEXPS_AxeToLongBlade,
+}
+option zReEXPS.AxeToSmallBlade
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_AxeToSmallBlade,
+}
+option zReEXPS.AxeToSpear
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_AxeToSpear,
+}
+
+
+
+option zReEXPS.SpearToBlunt
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SpearToBlunt,
+}
+option zReEXPS.SpearToSmallBlunt
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SpearToSmallBlunt,
+}
+option zReEXPS.SpearToLongBlade
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SpearToLongBlade,
+}
+option zReEXPS.SpearToSmallBlade
+{
+	type = integer, min = 0, max = 100, default = 50,
+	page = zReEXPS_general, translation = zReEXPS_SpearToSmallBlade,
+}
+option zReEXPS.SpearToAxe
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = zReEXPS_general, translation = zReEXPS_SpearToAxe,
+}

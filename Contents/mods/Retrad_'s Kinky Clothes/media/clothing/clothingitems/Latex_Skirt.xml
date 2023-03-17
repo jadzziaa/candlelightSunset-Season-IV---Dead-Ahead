@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>3a2096a6-5989-471a-940c-0e36ca9a35bd</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Latex_Skirt</m_BaseTextures>
+	<m_BaseTextures>clothes\Latex_SkirtR</m_BaseTextures>
+</clothingItem>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Bob_MiniSkirt.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Kate_MiniSkirt.X</m_FemaleModel>
+	<m_GUID>75d3be73-4d55-42ee-9d64-b661fa0082e7</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<textureChoices>clothes\skirt\Skirt_SkinFur</textureChoices>
+	<textureChoices>clothes\skirt\Skirt_SkinLeopard</textureChoices>
+</clothingItem>

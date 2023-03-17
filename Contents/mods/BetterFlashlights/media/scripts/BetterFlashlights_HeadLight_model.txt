@@ -1,0 +1,22 @@
+module Base
+{
+	model BF_HeadLight
+	{
+		mesh = WorldItems/BF_HeadLight,
+        texture = BF_HeadLight,
+        scale = 0.008,
+	}
+	
+	model BF_HeadLight_Ground
+    {
+        mesh = BF_HeadLight,
+        texture = BF_HeadLight,
+        scale = 0.02,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+    }
+}

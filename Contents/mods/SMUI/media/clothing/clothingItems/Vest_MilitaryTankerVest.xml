@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_TankerVest</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_TankerVest</m_FemaleModel>
+	<m_GUID>e29129b7-5c6f-4a7c-b18c-20de3d46e06f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\vest\Vest_MilitaryTankerVest</textureChoices>
+</clothingItem>

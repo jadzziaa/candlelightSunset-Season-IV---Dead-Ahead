@@ -1,0 +1,22 @@
+Items_ES = {
+	-- Translation by Alapma from Steam
+	DisplayNameBeet_Seeds = "Semillas de remolacha",
+	DisplayNameBeet_Seeds_Packet = "Paquete de semillas de remolacha",
+	DisplayNameBeetroot = "Remolacha",
+	DisplayNameCauliflower = "Coliflor",
+	DisplayNameCauliflower_Seeds = "Semillas de coliflor",
+	DisplayNameCauliflower_Seeds_Packet = "Paquete de semillas de coliflor",
+	DisplayNameComplete_Farming_Guide = "Guía completa de agricultura",
+	DisplayNameCorn_Seeds = "Semillas de maíz",
+	DisplayNameCorn_Seeds_Packet = "Paquete de semillas de maíz",
+	DisplayNameLemon_Grass_Seeds = "Semillas de citronela",
+	DisplayNameLemon_Grass_Seeds_Packet = "Paquete de semillas de citronela",
+	DisplayNameThe_Farming_Magazine_2 = "Revista de agricultura 2",
+	DisplayNameThe_Farming_Magazine_3 = "Revista de agricultura 3",
+	DisplayNameGrain_Grinder = "Molinillo de granos",
+	DisplayNamePot_With_Beet_Syrup = "Olla con sirope de remolacha",
+	DisplayNamePot_With_Beets = "Olla con remolachas",
+	DisplayNameWheat = "Trigo",
+	DisplayNameWheat_Grain = "Granos de trigo",
+	DisplayNameWheat_Grain_Packet = "Paquete de granos de trigo",
+}

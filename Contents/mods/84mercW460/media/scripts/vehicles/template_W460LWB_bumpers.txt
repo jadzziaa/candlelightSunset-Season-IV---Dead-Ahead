@@ -1,0 +1,99 @@
+module Base
+{
+	model W460LWB4bumper1
+	{
+		mesh = vehicles/Vehicles_84mercLWB_Body|w460_lwb_bumper_front1,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model W460LWB4bullbar2
+	{
+		mesh = vehicles/Vehicles_84mercLWB_Body|w460_lwb_bumper_front2,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model W460LWB4bullbar3
+	{
+		mesh = vehicles/Vehicles_84mercLWB_Body|w460_lwb_bumper_front3,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	template vehicle W460LWBBumpers
+		{
+		part W460LWBBumper
+        	{
+
+			model Bumper1
+				{
+                		file = W460LWB4bumper1,
+				}
+
+			model Bullbar2
+				{
+                		file = W460LWB4bullbar2,
+				}
+
+			model Bullbar3
+				{
+                		file = W460LWB4bullbar3,
+				}
+
+			area = Engine,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.W460Bumper1_Item;Base.W460Bullbar2_Item;Base.W460Bullbar3_Item,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+				equip = primary,
+                    		}
+                	}
+
+                	time = 750,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = W460LWB.InstallComplete.Bumper,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+  				type = Base.Wrench,
+				count = 1,
+				keep = true,
+				equip = primary,
+                    		}
+                	}
+
+			time = 650,
+			skills = Mechanics:3,
+			recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+			complete = W460LWB.UninstallComplete.Bumper,
+            		}
+
+            		lua
+            		{
+			create = W460LWB.Create.Bumper,
+			init = W460LWB.Init.Bumper,
+			}
+		}
+	}
+
+		
+}

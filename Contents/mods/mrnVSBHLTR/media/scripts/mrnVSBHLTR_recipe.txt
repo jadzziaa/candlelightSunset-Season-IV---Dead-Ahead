@@ -1,0 +1,31 @@
+module mrnVSBHLTR{
+
+  imports {
+      Base
+          }
+
+recipe Craft a Holster
+       {
+         Belt,
+         Thread=5,
+         LeatherStrips=5,
+         keep [Recipe.GetItemTypes.SewingNeedle],
+
+         Result:Base.HolsterSimple,
+         Time:200,
+         SkillRequired:Tailoring=2,
+         OnGiveXP:Recipe.OnGiveXP.Tailoring3,
+       }
+recipe Craft a Double Holster
+       {
+         Belt,
+         Thread=10,
+         LeatherStrips=10,
+         keep [Recipe.GetItemTypes.SewingNeedle],
+
+         Result:Base.HolsterDouble,
+         Time:250,
+         SkillRequired:Tailoring=4,
+         OnGiveXP:Recipe.OnGiveXP.Tailoring3,
+       }
+}

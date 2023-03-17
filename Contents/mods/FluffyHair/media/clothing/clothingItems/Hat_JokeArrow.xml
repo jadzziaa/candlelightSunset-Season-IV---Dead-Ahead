@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\M_JokeArrow.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\F_JokeArrow.X</m_FemaleModel>
+	<m_GUID>93173642-2d29-4c86-ae3d-2f5546a09eef</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group05</m_HatCategory>
+	<textureChoices>clothes\hat\joke_arrow</textureChoices>
+</clothingItem>

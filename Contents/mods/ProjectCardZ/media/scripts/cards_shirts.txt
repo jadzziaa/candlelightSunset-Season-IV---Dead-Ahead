@@ -1,0 +1,569 @@
+module CardsShirts{
+    imports{
+        Base
+    }
+
+    item 2clubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 2diamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 2spadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 2heartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item 3clubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 3diamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 3spadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 3heartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item 4clubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 4diamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 4spadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 4heartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 5clubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 5diamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 5spadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 5heartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item 6clubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 6diamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 6spadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 6heartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item 7clubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 7diamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 7spadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 7heartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item 8clubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 8diamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 8spadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 8heartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item 9clubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 9diamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 9spadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 9heartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item 10clubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 10diamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 10spadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item 10heartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item jackclubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item jackdiamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item jackspadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item jackheartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item queenclubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item queendiamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item queenspadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item queenheartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item kingclubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item kingdiamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item kingspadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item kingheartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item aceclubsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item acediamondsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item acespadesshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item aceheartsshirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+
+
+    item redjokershirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+
+    item blackjokershirted
+    {
+		Type = Normal,
+		DisplayName	= Playing Card,
+		Icon = shirted,
+		Weight = 0.01,
+        StaticModel = shirted,
+        WorldStaticModel = shirted,
+    }
+}

@@ -1,0 +1,9 @@
+name=Mini Health Panel
+id=MiniHealthPanel
+description=A minimalistic health panel that shows up when needed.
+poster=miniHealth.png
+icon=miniHealth_mini.png
+authors=Speedy Von Gofast
+versionMin=41.60
+modVersion=1.1.5
+tags=Interface

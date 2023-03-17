@@ -1,0 +1,5 @@
+name=Ossalion's Ammo Stacks (VFE Edition)
+poster=poster.png
+id=OssalionAmmoStacksVFE
+description=Adds Ammo Stacks to the Game
+require=VFExpansion1

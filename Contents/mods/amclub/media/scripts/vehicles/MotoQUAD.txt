@@ -1,0 +1,584 @@
+module Base
+{
+    model AMC_quad
+    {
+        mesh = moto/AMC_quad|Suzuki_body,
+        shader = vehicle_norandom_multiuv,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_quad_headlight
+    {
+        mesh = moto/AMC_quad|Suzuki_headlight,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_quad_seat
+    {
+        mesh = moto/AMC_quad|Suzuki_seat,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_quad_wheel_left
+    {
+        mesh = moto/AMC_quad|Suzuki_wheel_front,
+        texture = AMC_quad_texture,
+        shader = vehiclewheel,
+        scale = 1,
+    }
+    model AMC_quad_wheel_right
+    {
+        mesh = moto/AMC_quad|Suzuki_wheel_front,
+        texture = AMC_quad_texture,
+        invertX = TRUE,
+        shader = vehiclewheel,
+        scale = 1,
+    }
+    model AMC_quad_NormalHikingBag
+    {
+        mesh = moto/AMC_quad|Quad_backpack1,
+        texture = BigHikingBagRed,
+        shader = vehiclewheel,
+        scale = 1.00,
+    }
+    model AMC_quad_DuffelBagGreen
+    {
+        mesh = moto/AMC_quad|Quad_bag1,
+        texture = DuffelBagGreen,
+        shader = vehiclewheel,
+        scale = 1.00,
+    }
+    model AMC_quad_DuffelBagBlue
+    {
+        mesh = moto/AMC_quad|Quad_bag2,
+        texture = DuffelBagBlue,
+        shader = vehiclewheel,
+        scale = 1.00,
+    }
+    model AMC_quad_DuffelBagWhite
+    {
+        mesh = moto/AMC_quad|Quad_bag3,
+        texture = DuffelBagWhite,
+        shader = vehiclewheel,
+        scale = 1.00,
+    }
+    model AMC_quad_GasCan1
+    {
+        mesh = moto/AMC_quad|Quad_GasCan1,
+        texture = GasCan,
+        shader = vehiclewheel,
+        scale = 1.00,
+    }
+    model AMC_quad_GasCan2
+    {
+        mesh = moto/AMC_quad|Quad_GasCan2,
+        texture = GasCan,
+        shader = vehiclewheel,
+        scale = 1.00,
+    }
+    model AMC_quad_Cooler
+    {
+        mesh = moto/AMC_quad|Quad_Cooler,
+        texture = clothes/bag/Cooler,
+        shader = vehiclewheel,
+        scale = 1.00,
+    }
+    vehicle AMC_quad
+    {
+        part AMCConfig
+        {
+            category = nodisplay,
+
+            table AMCConfig
+            {
+                type = QUAD,
+                fallDelta = 5,
+                speedDelta = 5,
+                hideWeapon = 1,
+                quickEnter = 1,
+            }
+        }
+        part TCLConfig
+        {
+            category = nodisplay,
+            table TCLConfig
+            {
+                disableDoorLocker = 1,
+                disableSleep = 1,
+            }
+        }
+
+        mechanicType = 1,
+        engineRepairLevel = 4,
+        playerDamageProtection = 1.1,
+
+        sound
+        {
+            engine = VehicleEngineSUV,
+            engineStart = VehicleEngineSUV,
+            engineTurnOff = VehicleEngineSUV,
+            horn = VehicleHornStandard,
+            ignitionFail = VehicleIgnitionFailSUV,
+        }
+
+        model
+        {
+            file = AMC_quad,
+            scale = 1.0000,
+            offset = 0.0000 0.0000 0.0000,
+        }
+
+        spawnOffsetY = 0.0,
+
+        skin
+        {
+            texture = AMC_quad_texture,
+        }
+
+        skin
+        {
+            texture = AMC_quad_texture2,
+        }
+
+        skin
+        {
+            texture = AMC_quad_texture3,
+        }
+
+        textureRust = AMC_quad_rust,
+        textureMask = AMC_quad_mask,
+        textureLights = AMC_quad_lights,
+        textureDamage1Shell = AMC_quad_damage,
+        textureDamage2Shell = AMC_quad_damage,
+        textureDamage1Overlay = AMC_quad_blood,
+        textureDamage2Overlay = AMC_quad_blood,
+        textureShadow = AMC_quad_shadow,
+
+        sound
+        {
+            horn = VehicleHorn,
+        }
+
+        extents = 1.1800 0.5000 1.9800,
+        mass = 300,
+        physicsChassisShape = 1.1800 0.5000 1.9800,
+        centerOfMassOffset = 0.0000 0.2500 -0.0300,
+        shadowExtents = 1.1750 2.1500,
+        shadowOffset = 0.0000 -0.0500,
+        engineForce = 2500,
+        maxSpeed = 50f,
+        engineLoudness = 80,
+        engineQuality = 70,
+        brakingForce = 10,
+        stoppingMovementForce = 1.0f,
+        rollInfluence = 0.4f,
+        steeringIncrement = 0.01,
+        steeringClamp = 0.08,
+        suspensionStiffness = 80,
+        suspensionCompression = 10,
+        suspensionDamping = 100,
+        maxSuspensionTravelCm = 15,
+        suspensionRestLength = 0.2f,
+        wheelFriction = 5.4f,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 2,
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.4600 0.0000 0.6300,
+            radius = 0.25f,
+            width = 0.35f,
+        }
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.4600 0.0000 0.6300,
+            radius = 0.25f,
+            width = 0.35f,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = 0.4600 0.0000 -0.6200,
+            radius = 0.25f,
+            width = 0.35f,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = -0.4600 0.0000 -0.6200,
+            radius = 0.25f,
+            width = 0.35f,
+        }
+
+        template = PassengerSeat2,
+
+        passenger FrontLeft
+        {
+            
+            door = DoorFrontLeft,
+            door2 = DoorFrontRight,
+            showPassenger = true,
+            hasRoof = false,
+
+            position inside
+            {
+                offset = 0.0000 0.4700 -0.2100,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.0000 0.4700 -0.2100,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontLeft,
+            }
+        }
+
+        passenger FrontRight
+        {
+            door = DoorFrontRight,
+            door2 = DoorFrontLeft,
+            showPassenger = true,
+            hasRoof = false,
+
+            position inside
+            {
+                offset = 0.0000 0.4700 -0.5300,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.0000 0.4700 -0.5200,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontRight,
+            }
+        }
+
+        area Engine
+        {
+            xywh = -1.0900 0.3400 1.0000 1.0000,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 1.0900 -0.1200 1.0000 1.0000,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -1.0900 -0.1200 1.0000 1.0000,
+        }
+
+        area GasTank
+        {
+            xywh = 0.9900 0.0800 1.0000 1.0000,
+        }
+
+        area TrunkBedRear
+        {
+            xywh = 0.0000 -1.4900 1.9000 1.0000,
+        }
+
+        area TrunkBedFront
+        {
+            xywh = 0.0000 1.4900 1.9000 1.0000,
+        }
+
+        area TireFrontLeft
+        {
+            xywh = 1.0900 0.5900 1.0000 1.0000,
+        }
+
+        area TireFrontRight
+        {
+            xywh = -1.0900 0.5900 1.0000 1.0000,
+        }
+
+        area TireRearLeft
+        {
+            xywh = 1.0900 -0.6800 1.0000 1.0000,
+        }
+
+        area TireRearRight
+        {
+            xywh = -1.0900 -0.6800 1.0000 1.0000,
+        }
+
+        template = Seat/part/SeatFrontLeft,
+        template = Seat/part/SeatFrontRight,
+
+        part SeatFrontLeft
+        {
+            category = bodywork,
+
+            model Default
+            {
+                file = AMC_quad_seat,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+        }
+
+        part SeatFrontRight
+        {
+            category = nodisplay,
+
+            lua
+            {
+                create = AMC_Moto.Create.SeatFrontRight,
+                init = AMC_Moto.Init.SeatFrontRight,
+                update = AMC_Moto.Update.SeatFrontRight,
+            }
+        }
+        
+        part Seat*
+        {
+            container
+			{
+				test = CommonTemplates.ContainerAccess.False,
+			}
+        }
+        
+        template = GasTank,
+
+        part GasTank
+        {
+            category = bodywork,
+
+            install
+            {
+                skills = Mechanics:6,
+            }
+
+            uninstall
+            {
+                skills = Mechanics:6,
+            }
+        }
+
+        template = Engine,
+
+        part Engine
+        {
+            category = bodywork,
+        }
+
+        template = Battery,
+
+        part Battery
+        {
+            category = bodywork,
+            area = GasTank,
+        }
+
+        template = Muffler,
+
+        part Muffler
+        {
+            category = bodywork,
+            area = TireRearRight,
+        }
+
+        template = Brake/part/BrakeFrontLeft,
+        template = Brake/part/BrakeFrontRight,
+        template = Brake/part/BrakeRearLeft,
+        template = Brake/part/BrakeRearRight,
+        template = Suspension,
+
+        template = Headlight/part/HeadlightLeft,
+        template = Headlight/part/HeadlightRight,
+
+        part HeadlightLeft
+        {
+            model frontHeadlight
+            {
+                file = AMC_quad_headlight,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            area = TireFrontLeft,
+        }
+
+        template = Headlight/part/HeadlightRearLeft,
+        part HeadlightRearLeft
+		{
+			area = TrunkBedRear,
+		}
+        
+        template = Tire,
+
+        part TireFrontLeft
+        {
+            model InflatedTirePlusWheel
+            {
+                file = AMC_quad_wheel_left,
+            }
+        }
+
+        part TireRearLeft
+        {
+            model InflatedTirePlusWheel
+            {
+                file = AMC_quad_wheel_left,
+            }
+        }
+
+        part TireFrontRight
+        {
+            model InflatedTirePlusWheel
+            {
+                file = AMC_quad_wheel_right,
+            }
+        }
+
+        part TireRearRight
+        {
+            model InflatedTirePlusWheel
+            {
+                file = AMC_quad_wheel_right,
+            }
+        }
+
+        template = ATAInteractiveTrunk/part/ATAInteractiveTrunkFront,
+
+        part ATAInteractiveTrunkFront
+        {
+            area = TrunkBedFront,
+            category = nodisplay,
+
+            container
+            {
+                capacity = 50,
+            }
+
+            model DuffelBagWhite
+            {
+                file = AMC_quad_DuffelBagWhite,
+            }
+
+            model NormalHikingBag
+            {
+                file = AMC_quad_NormalHikingBag,
+            }
+
+            table interactiveItems
+            {
+                fullness
+                {
+                    1 = DuffelBagWhite,
+                    2 = NormalHikingBag,
+                }
+            }
+        }
+
+        template = ATAInteractiveTrunk/part/ATAInteractiveTrunkRear,
+
+        part ATAInteractiveTrunkRear
+        {
+            area = TrunkBedRear,
+            category = nodisplay,
+
+            container
+            {
+                capacity = 50,
+            }
+
+            model DuffelBagGreen
+            {
+                file = AMC_quad_DuffelBagGreen,
+            }
+
+            model DuffelBagBlue
+            {
+                file = AMC_quad_DuffelBagBlue,
+            }
+
+            model GasCan1
+            {
+                file = AMC_quad_GasCan1,
+            }
+
+            model GasCan2
+            {
+                file = AMC_quad_GasCan2,
+            }
+
+            model Cooler
+            {
+                file = AMC_quad_Cooler,
+            }
+
+            table interactiveItems
+            {
+                fullness
+                {
+                    1 = DuffelBagGreen,
+                    2 = DuffelBagBlue,
+                }
+
+                PetrolCan#EmptyPetrolCan
+                {
+                    1 = GasCan1,
+                    2 = GasCan2,
+                }
+
+                Cooler
+                {
+                    1 = Cooler,
+                }
+            }
+        }
+
+        template = Door/part/DoorFrontLeft,
+        template = Door/part/DoorFrontRight,
+
+        part Door*
+        {
+            category = nodisplay,
+
+            anim Open
+            {
+                sound =,
+            }
+
+            anim Close
+            {
+                sound =,
+            }
+
+            anim Lock
+            {
+                sound =,
+            }
+
+            anim Unlock
+            {
+                sound =,
+            }
+
+            anim IsLocked
+            {
+                sound =,
+            }
+
+            lua
+            {
+                create = CommonTemplates.Create.setInventoryNil,
+                init = CommonTemplates.Init.setInventoryNil,
+                use = ATATuning.Use.Door,
+            }
+        }
+    }
+}

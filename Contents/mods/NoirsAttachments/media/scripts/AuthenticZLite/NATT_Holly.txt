@@ -1,0 +1,839 @@
+module Base {
+
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		attachment Holly_right
+		{
+			offset = 0.0400 -0.0850 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_wineright
+		{
+			offset = 0.0400 -0.0850 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_left
+		{
+			offset = 0.0400 0.0950 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_wineleft
+		{
+			offset = 0.0400 0.0950 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_bedroll {
+			offset = -0.0350 0.0000 0.1500,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_uldoll {
+			offset = 0.0650 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_uldogchew {
+			offset = 0.0650 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulcattoy {
+			offset = 0.0750 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulballon {
+			offset = 0.0150 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulrubberducky {
+			offset = 0.0650 0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ultoybear {
+			offset = 0.1250 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_uldawn {
+			offset = 0.1250 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ultoycar {
+			offset = 0.0750 0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulyoyo {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulcube {
+			offset = 0.1250 0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulmask {
+			offset = 0.0750 0.0600 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulmaskground {
+			offset = 0.0750 0.0600 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulplushie {
+			offset = 0.0750 0.0650 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulpawsplushie {
+			offset = 0.0750 0.0850 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulweapon {
+			offset = 0.1000 0.0650 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulweaponpan {
+			offset = 0.0950 0.0850 0.0600,
+			rotate = 90.0000 60.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulweaponsaucepan {
+			offset = 0.0950 0.0850 0.0600,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulsnightstick {
+			offset = 0.1000 0.0250 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulwrench {
+			offset = 0.1000 0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulbottle {
+			offset = 0.0800 0.0550 -0.1000,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulwine {
+			offset = 0.0800 0.0550 -0.0500,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urdoll {
+			offset = 0.0650 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urdogchew {
+			offset = 0.0650 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urcattoy {
+			offset = 0.0650 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urballon {
+			offset = 0.0150 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urrubberducky {
+			offset = 0.0650 -0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urtoybear {
+			offset = 0.1250 -0.0650 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urdawn {
+			offset = 0.1250 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urtoycar {
+			offset = 0.0750 -0.0650 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_uryoyo {
+			offset = 0.0950 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urcube {
+			offset = 0.1250 -0.0550 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urmask {
+			offset = 0.0750 -0.0600 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urmaskground {
+			offset = 0.0750 -0.0600 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urplushie {
+			offset = 0.0750 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urpawsplushie {
+			offset = 0.0750 -0.0850 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urweapon {
+			offset = 0.1000 -0.0650 0.0700,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urweaponpan {
+			offset = 0.0950 -0.0850 0.0600,
+			rotate = 90.0000 20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urweaponsaucepan {
+			offset = 0.0950 -0.0850 0.0600,
+			rotate = 90.0000 -60.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ursnightstick {
+			offset = 0.1000 -0.0250 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urwrench {
+			offset = 0.1000 -0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urbottle {
+			offset = 0.0800 -0.0550 -0.1000,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urwine {
+			offset = 0.0800 -0.0550 -0.0500,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weapon {
+			offset = 0.0700 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -160.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_rifle {
+			offset = 0.0900 0.0200 0.0700,
+			rotate = 90.0000 0.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weaponbig {
+			offset = 0.0300 0.0000 0.2000,
+			rotate = 90.0000 0.0000 -160.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weaponshovel {
+			offset = 0.1100 0.0000 0.1500,
+			rotate = 90.0000 90.0000 180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weaponpan {
+			offset = 0.1000 0.0000 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weaponsaucepan {
+			offset = 0.1000 0.0000 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_snightstick {
+			offset = 0.1100 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_wrench {
+			offset = 0.1100 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_container {
+			offset = 0.0500 0.0000 -0.2300,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containerseed {
+			offset = 0.0500 0.0000 -0.2100,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containertool {
+			offset = 0.0500 0.0000 -0.2400,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containercooler {
+			offset = 0.0500 0.0000 -0.3300,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containertote {
+			offset = 0.0400 0.0000 -0.3700,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containertrash {
+			offset = 0.1400 0.0000 -0.2600,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containersack {
+			offset = 0.1000 0.0000 -0.2500,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}	
+
+		attachment Holly_containermk {
+			offset = 0.0600 0.0000 -0.1800,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}	
+
+		attachment Holly_flashlight {
+			offset = -0.0050 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment Holly_militaryflashlight
+		{
+			offset = 0.0800 0.0550 0.0900,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Holly_prepperflashlight
+		{
+			offset = 0.0600 0.0550 0.0900,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Holly_azmilitaryflashlight
+		{
+			offset = 0.0400 0.0550 0.0900,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+	}
+
+    model MaleBody 
+    {
+        mesh = Skinned/MaleBody,
+
+		attachment Holly_right
+		{
+			offset = 0.0400 -0.0850 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_wineright
+		{
+			offset = 0.0400 -0.0850 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_left
+		{
+			offset = 0.0400 0.0950 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_wineleft
+		{
+			offset = 0.0400 0.0950 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_bedroll {
+			offset = -0.0350 0.0000 0.1500,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_uldoll {
+			offset = 0.0650 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_uldogchew {
+			offset = 0.0650 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulcattoy {
+			offset = 0.0750 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulballon {
+			offset = 0.0150 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulrubberducky {
+			offset = 0.0650 0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ultoybear {
+			offset = 0.1250 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_uldawn {
+			offset = 0.1250 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ultoycar {
+			offset = 0.0750 0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulyoyo {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulcube {
+			offset = 0.1250 0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulmask {
+			offset = 0.0750 0.0600 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulmaskground {
+			offset = 0.0750 0.0600 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulplushie {
+			offset = 0.0750 0.0650 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulpawsplushie {
+			offset = 0.0750 0.0850 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulweapon {
+			offset = 0.1000 0.0650 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulweaponpan {
+			offset = 0.0950 0.0850 0.0600,
+			rotate = 90.0000 60.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulweaponsaucepan {
+			offset = 0.0950 0.0850 0.0600,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulsnightstick {
+			offset = 0.1000 0.0250 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulwrench {
+			offset = 0.1000 0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulbottle {
+			offset = 0.0800 0.0550 -0.1000,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ulwine {
+			offset = 0.0800 0.0550 -0.0500,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urdoll {
+			offset = 0.0650 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urdogchew {
+			offset = 0.0650 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urcattoy {
+			offset = 0.0650 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urballon {
+			offset = 0.0150 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urrubberducky {
+			offset = 0.0650 -0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urtoybear {
+			offset = 0.1250 -0.0650 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urdawn {
+			offset = 0.1250 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urtoycar {
+			offset = 0.0750 -0.0650 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_uryoyo {
+			offset = 0.0950 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urcube {
+			offset = 0.1250 -0.0550 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urmask {
+			offset = 0.0750 -0.0600 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urmaskground {
+			offset = 0.0750 -0.0600 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urplushie {
+			offset = 0.0750 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urpawsplushie {
+			offset = 0.0750 -0.0850 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urweapon {
+			offset = 0.1000 -0.0650 0.0700,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urweaponpan {
+			offset = 0.0950 -0.0850 0.0600,
+			rotate = 90.0000 20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urweaponsaucepan {
+			offset = 0.0950 -0.0850 0.0600,
+			rotate = 90.0000 -60.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_ursnightstick {
+			offset = 0.1000 -0.0250 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urwrench {
+			offset = 0.1000 -0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urbottle {
+			offset = 0.0800 -0.0550 -0.1000,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_urwine {
+			offset = 0.0800 -0.0550 -0.0500,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weapon {
+			offset = 0.0700 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -160.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_rifle {
+			offset = 0.0900 0.0200 0.0700,
+			rotate = 90.0000 0.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weaponbig {
+			offset = 0.0300 0.0000 0.2000,
+			rotate = 90.0000 0.0000 -160.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weaponshovel {
+			offset = 0.1100 0.0000 0.1500,
+			rotate = 90.0000 90.0000 180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weaponpan {
+			offset = 0.1000 0.0000 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_weaponsaucepan {
+			offset = 0.1000 0.0000 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_wrench {
+			offset = 0.1100 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_snightstick {
+			offset = 0.1100 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_wrench {
+			offset = 0.1100 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_container {
+			offset = 0.0500 0.0000 -0.2200,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containerseed {
+			offset = 0.0500 0.0000 -0.2100,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containertool {
+			offset = 0.0500 0.0000 -0.2300,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containercooler {
+			offset = 0.0500 0.0000 -0.3200,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containertote {
+			offset = 0.0400 0.0000 -0.3600,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containertrash {
+			offset = 0.1400 0.0000 -0.2500,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Holly_containersack {
+			offset = 0.1000 0.0000 -0.2400,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}	
+
+		attachment Holly_containermk {
+			offset = 0.0600 0.0000 -0.1700,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}	
+
+		attachment Holly_flashlight {
+			offset = -0.0050 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment Holly_militaryflashlight
+		{
+			offset = 0.0800 0.0550 0.0900,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Holly_prepperflashlight
+		{
+			offset = 0.0600 0.0550 0.0900,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Holly_azmilitaryflashlight
+		{
+			offset = 0.0400 0.0550 0.0900,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+    }
+
+}

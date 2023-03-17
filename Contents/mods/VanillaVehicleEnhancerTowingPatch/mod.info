@@ -1,0 +1,7 @@
+name=Vanilla Vehicle Enhancer Towing Patch
+id=VVehicleEnhancer+TowingFix
+description=Adds my towing point to the Vanilla Vehicle Enhancer mod [from Sports Car Towing Fixed mod].
+require=VVehicleEnhancer
+poster=Pic1.png
+poster=Pic2.png
+icon=icon.png

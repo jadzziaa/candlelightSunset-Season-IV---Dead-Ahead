@@ -1,0 +1,4 @@
+ContextMenu_NO = {
+	ContextMenu_ThrowCorpseOutTheWindow = "Kast liket ut av vinduet"
+	ContextMenu_ThrowCorpseOverFence = "Kast liket over gjerdet"
+}

@@ -1,0 +1,142 @@
+ module SLEOClothing
+
+    {
+        item Trousers_PoliceTactical
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Blue Tactical Pants,
+        ClothingItem = Trousers_PoliceTactical,
+        BodyLocation = Pants,
+        Icon = PoliceTacticalPants,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        ClothingItemExtra = SLEOClothing.Trousers_PoliceTacticalTucked,
+        ClothingItemExtraOption = TuckIn,
+        ClothingExtraSubmenu = TuckOut,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+        item Trousers_PoliceTacticalTucked
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Blue Tactical Pants (Tucked),
+        ClothingItem = Trousers_PoliceTacticalTucked,
+        BodyLocation = Pants,
+        Icon = PoliceTacticalPants,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        ClothingItemExtra = SLEOClothing.Trousers_PoliceTactical,
+        ClothingItemExtraOption = TuckOut,
+        ClothingExtraSubmenu = TuckIn,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tooltip = Tooltip_Tucked,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+        item Trousers_PoliceTacticalBlack
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Tactical Pants,
+        ClothingItem = Trousers_PoliceTacticalBlack,
+        BodyLocation = Pants,
+        Icon = PoliceTacticalPantsBlack,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        ClothingItemExtra = SLEOClothing.Trousers_PoliceTacticalBlackTucked,
+        ClothingItemExtraOption = TuckIn,
+        ClothingExtraSubmenu = TuckOut,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+        
+    }
+        item Trousers_PoliceTacticalBlackTucked
+
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Tactical Pants (Tucked),
+        ClothingItem = Trousers_PoliceTacticalBlackTucked,
+        BodyLocation = Pants,
+        Icon = PoliceTacticalPantsBlack,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        ClothingItemExtra = SLEOClothing.Trousers_PoliceTacticalBlack,
+        ClothingItemExtraOption = TuckOut,
+        ClothingExtraSubmenu = TuckIn,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tooltip = Tooltip_Tucked,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+        item Trousers_SheriffTactical
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Green Tactical Pants,
+        ClothingItem = Trousers_SheriffTactical,
+        BodyLocation = Pants,
+        Icon = SheriffTacticalPants,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.45,
+        ClothingItemExtra = SLEOClothing.Trousers_SheriffTacticalTucked,
+        ClothingItemExtraOption = TuckIn,
+        ClothingExtraSubmenu = TuckOut,
+        Weight = 0.5,
+        WindResistance = 0.3,
+        WaterResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+        
+    }
+
+        item Trousers_SheriffTacticalTucked
+    {
+        DisplayCategory = Clothing, 
+        Type = Clothing,
+        DisplayName = Green Tactical Pants (Tucked),
+        ClothingItem = Trousers_SheriffTacticalTucked,
+        BodyLocation = Pants,
+        Icon = SheriffTacticalPants,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        ClothingItemExtra = SLEOClothing.Trousers_SheriffTactical,
+        ClothingItemExtraOption = TuckOut,
+        ClothingExtraSubmenu = TuckIn,
+        Insulation = 0.45,
+        Weight = 0.5,
+        WindResistance = 0.3,
+        WaterResistance = 0.45,
+        FabricType = Cotton,
+        Tooltip = Tooltip_Tucked,
+        WorldStaticModel = Trousers_Ground,
+    }
+}
+    
+   

@@ -1,0 +1,12 @@
+Sandbox_EN = {
+	Sandbox_MagnetFishing = "Magnet Fishing",
+	Sandbox_MagnetFishing_Tier1Chance = "Tier 1 Chance",
+	Sandbox_MagnetFishing_Tier1Chance_tooltip = "Chance of a Tier 1 item being selected when fishing with a magnet.",
+	Sandbox_MagnetFishing_Tier2Chance = "Tier 2 Chance",
+	Sandbox_MagnetFishing_Tier2Chance_tooltip = "Chance of a Tier 2 item being selected when fishing with a magnet.",
+	Sandbox_MagnetFishing_Tier3Chance = "Tier 3 Chance",
+	Sandbox_MagnetFishing_Tier3Chance_tooltip = "Chance of a Tier 3 item being selected when fishing with a magnet.",
+	Sandbox_MagnetFishing_ItemEdits = "Item Edits",
+	Sandbox_MagnetFishing_ItemEdits_tooltip = "Allows the addition / editing of items. Make sure to follow the format. (Module.ItemName:Tier:Rarity:MinAmount:MaxAmount:MinCondition:MaxCondition)",
+
+}

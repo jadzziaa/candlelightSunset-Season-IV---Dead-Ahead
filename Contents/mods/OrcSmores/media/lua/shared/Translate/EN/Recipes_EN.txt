@@ -1,0 +1,3 @@
+Recipe_EN = {
+    Recipe_PrepareSmores = "Make Smore",
+}

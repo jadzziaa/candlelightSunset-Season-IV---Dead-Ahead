@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Eat1HandBWM0.xml">
+	<m_Name>Eat1HandWAVE1</m_Name>
+    <m_Conditions />
+    <m_Conditions>
+		<m_StringValue>WAVE1</m_StringValue>
+	</m_Conditions>
+</animNode>

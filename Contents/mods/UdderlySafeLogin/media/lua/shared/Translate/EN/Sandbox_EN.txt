@@ -1,0 +1,13 @@
+Sandbox_EN = 
+{
+	Sandbox_UdderlySafeLogin = "Udderly Safe Login",
+	
+	Sandbox_UdderlySafeLogin_SafeTime = "Safe Time",
+	Sandbox_UdderlySafeLogin_SafeTime_tooltip = "Safe time in seconds, note that this begins when they hit Click To Start, not when they are able to move.",
+	
+	Sandbox_UdderlySafeLogin_MovementMultiplier = "Movement Multiplier",
+	Sandbox_UdderlySafeLogin_MovementMultiplier_tooltip = "Movement multiplier, this is what changes the amount of time you get once you move.",
+	
+	Sandbox_UdderlySafeLogin_UseInvisibility = "Use Invisibility",
+	Sandbox_UdderlySafeLogin_UseInvisibility_tooltip = "Use invisibility instead of not allowing zombies to hit you. This prevents them from noticing or following you but could be exploited by users.",
+}

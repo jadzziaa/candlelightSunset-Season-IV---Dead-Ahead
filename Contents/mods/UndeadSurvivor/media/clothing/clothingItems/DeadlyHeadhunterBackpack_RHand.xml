@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>stuff\headhunterbackpack_rhand</m_MaleModel>
+	<m_FemaleModel>stuff\headhunterbackpack_rhand</m_FemaleModel>
+	<m_GUID>8f08cadc-29a1-462b-8b11-cd5a12ee434c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\deadlyheadhunterbackpack</textureChoices>
+</clothingItem>

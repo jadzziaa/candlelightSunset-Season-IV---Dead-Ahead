@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Clothes\M_JacketLong_SkinTunic.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Clothes\F_JacketLong_SkinTunic.fbx</m_FemaleModel>
+	<m_GUID>1d239c3b-b723-48e6-b1b4-c163d98dd1af</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/JacketLong/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\jacket\JacketLong_SkinTunicFur</textureChoices>
+	<textureChoices>clothes\jacket\JacketLong_SkinTunicLeopard</textureChoices>
+</clothingItem>

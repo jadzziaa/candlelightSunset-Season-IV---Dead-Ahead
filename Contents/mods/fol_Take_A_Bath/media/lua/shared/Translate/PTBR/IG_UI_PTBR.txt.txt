@@ -1,0 +1,7 @@
+IGUI_PTBR = {
+    IGUI_take_off_headwear="Remover chapéu",
+    IGUI_take_off_clothes="Remover roupas",
+    IGUI_take_off_underWear="Remover roupas íntimas",
+    IGUI_take_off_backpack="Tirar a mochila",
+    IGUI_consume_water="Consumo de água",
+}

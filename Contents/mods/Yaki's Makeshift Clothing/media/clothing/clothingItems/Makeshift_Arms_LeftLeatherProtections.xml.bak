@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Clothes\M_Makeshift_Arms_LeftLeatherProtections.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Clothes\F_Makeshift_Arms_LeftLeatherProtections.fbx</m_FemaleModel>
+	<m_GUID>cbfe3acf-62c0-44fc-8de7-c9037428ca2a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\arms\Makeshift_Arms_LeftLeatherProtections</textureChoices>
+</clothingItem>

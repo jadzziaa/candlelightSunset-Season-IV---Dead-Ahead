@@ -1,0 +1,4 @@
+ContextMenu_PL = {
+	ContextMenu_ThrowCorpseOutTheWindow = "Wyrzuæ zw³oki przez okno"
+	ContextMenu_ThrowCorpseOverFence = "Przerzuæ zw³oki przez p³ot"
+}

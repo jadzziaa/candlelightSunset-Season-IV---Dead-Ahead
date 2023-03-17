@@ -1,0 +1,15 @@
+
+ItemName_FR = {
+ItemName_Spongie.Jacket_SheepWool = "Veste d'hiver",
+ItemName_Spongie.Jacket_SheepWoolOPEN = "Veste d'hiver ouverte",
+ItemName_Spongie.Jacket_Flight = "Veste d'aviateur",
+ItemName_Spongie.Jacket_FlightOPEN = "Veste d'aviateur (ouverte)",
+ItemName_Spongie.Jacket_FlightVest = "Gilet d'aviateur",
+ItemName_Spongie.Jacket_FlightVestOPEN = "Gilet d'aviateur (ouvert)",
+ItemName_Spongie.TShirt_Compression = "T-shirt de compression",
+ItemName_Spongie.TShirt_CompressionLong = "T-shirt de compression à manches longues",
+ItemName_Spongie.Jumper_TurtleVest = "Sweater à col roulé",
+ItemName_Spongie.Jacket_PoliceArmor = "Veste de police renforcée",
+ItemName_Spongie.Shorts_Spandex = "Shorts de compression",
+ItemName_Spongie.Shorts_SpandexLong = "Leggings de compression",
+}

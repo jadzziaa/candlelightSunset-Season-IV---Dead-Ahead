@@ -1,0 +1,4 @@
+Tooltip_RU = {
+	Tooltip_BicPen = "4-х цветная ручка. Гениально и просто.",
+	Tooltip_Map_NeedBicPen = "Вам нужна Ручка Bic - 4 цвета",
+}

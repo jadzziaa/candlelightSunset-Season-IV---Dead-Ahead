@@ -1,0 +1,4 @@
+ContextMenu_DE = {
+	ContextMenu_KnifeSheath_WearBack = "Am Ruecken anbringen",
+	ContextMenu_KnifeSheath_WearLeg = "Am Bein anbringen",
+}

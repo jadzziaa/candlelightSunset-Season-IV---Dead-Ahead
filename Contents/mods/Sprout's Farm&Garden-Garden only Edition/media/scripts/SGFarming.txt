@@ -1,0 +1,843 @@
+module Sprout
+{
+	imports
+	{
+		Base
+	}
+
+/****************Crops***************/
+
+    	item Olive
+	{
+		Type		=		Food,
+		DisplayName	=		Olive,
+		Icon		=		olive,
+		Weight		=		0.01,
+		HungerChange 	=		-2,
+		DaysFresh 	=		14,
+		DaysTotallyRotten =	 	28,
+        	EvolvedRecipe   =       Soup:18;Stew:18;Pie:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+        	FoodType    	=   Vegetables,
+        	Carbohydrates 	= 10,
+        	Proteins 	= 2,
+        	Lipids 		= 0.34,
+        	Calories 	= 10,
+        	StaticModel = RoundFood_Green,
+	}
+
+    	item SoyBean
+	{
+		Type		=		Food,
+		DisplayName	=		Soybeans,
+		Icon		=		SoyBean,
+		Weight		=		0.1,
+		HungerChange 	=		-2,
+		DaysFresh 	=		14,
+		DaysTotallyRotten =	 	14,
+        	FoodType    	=   Vegetables,
+        	Carbohydrates 	= 10,
+        	Proteins 	= 2,
+        	Lipids 		= 0.34,
+        	Calories 	= 10,
+        	StaticModel = RoundFood_Green,
+	}
+
+    	item Wheat
+	{
+		Type		=		Food,
+		DisplayName	=		Wheat,
+		Icon		=		Wheat,
+		Weight		=		0.5,
+		HungerChange 	=		-1,
+		DaysFresh 	=		28,
+		DaysTotallyRotten =	 	28,
+        	FoodType    	=   Vegetables,
+        	StaticModel = RoundFood_Green,
+	}
+
+    	item SugarCane
+	{
+		Type		=		Food,
+		DisplayName	=		SugarCane,
+		Icon		=		SugarCane,
+		Weight		=		0.5,
+		HungerChange 	=		-1,
+		DaysFresh 	=		30,
+		DaysTotallyRotten =	 	28,
+        	FoodType    	=   Vegetables,
+        	StaticModel = RoundFood_Green,
+	}
+
+
+
+/****************Seeds***************/
+
+
+item AppleSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Apple Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item AppleBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Apple Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	TomatoSeedBag_Ground,
+	}
+item AvocadoSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Avocado Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item AvocadoBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Avocado Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	BroccoliSeedBag_Ground,
+	}
+
+item BananaSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Banana Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item BananaBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Banana Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	BroccoliSeedBag_Ground,
+	}
+
+item BellPepperSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= BellPepper Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item BellPepperBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	BellPepper Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	BroccoliSeedBag_Ground,
+	}
+
+
+item BerryBlackSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= BerryBlack Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item BerryBlackBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	BerryBlack Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	BroccoliSeedBag_Ground,
+	}
+
+item BerryBlueSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= BerryBlue Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item BerryBlueBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	BerryBlue Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	BroccoliSeedBag_Ground,
+	}
+
+item CherrySeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Cherry Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item CherryBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Cherry Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	BroccoliSeedBag_Ground,
+	}
+
+item CornSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Corn Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item CornBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Corn Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	BroccoliSeedBag_Ground,
+	}
+
+item EggplantSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Eggplant Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item EggplantBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Eggplant Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	BroccoliSeedBag_Ground,
+	}
+
+
+item GingerSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Ginger seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item GingerBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	GingerSeeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	PotatoSeedBag_Ground,
+	}
+item GinsengSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Ginseng seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item GinsengBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Ginseng seed Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	PotatoSeedBag_Ground,
+	}
+
+item GrapefruitSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Grapefruit seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item GrapefruitBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Grapefruit seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	RadishSeedBag_Ground,
+	}
+
+item GrapeSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Grape seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item GrapeBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Grape seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	StrawberrySeedBag_Ground,
+	}
+item LeekSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Leek seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item LeekBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Leek Seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	RadishSeedBag_Ground,
+	}
+
+item LemongrassSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Lemongrass seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item LemongrassBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Lemongrass seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	RadishSeedBag_Ground,
+	}
+item LemonSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Lemon Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item LemonBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Lemon Seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	PotatoSeedBag_Ground,
+	}
+item LettuceSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Lettuce Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item LettuceBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Lettuce Seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	PotatoSeedBag_Ground,
+	}
+
+
+item LimeSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Lime Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item LimeBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Lime Seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	PotatoSeedBag_Ground,
+	}
+
+item MangoSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Mango seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item MangoBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Mango seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	TomatoSeedBag_Ground,
+	}
+
+item MushroomSpores
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Mushroom spores,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item MushroomBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Mushroom spore packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	PotatoSeedBag_Ground,
+	}
+
+
+item OliveSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Olive seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item OliveBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Olive seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	CabbageSeedBag_Ground,
+	}
+
+item OnionSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Onion seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item OnionBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Onion seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	CabbageSeedBag_Ground,
+	}
+
+
+item OrangeSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Orange seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item OrangeBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Orange seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	TomatoSeedBag_Ground,
+	}
+
+item PeachSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Peach seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item PeachBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Peach seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	TomatoSeedBag_Ground,
+	}
+
+item PineappleSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Pineapple seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item PineappleBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Pineapple seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	PotatoSeedBag_Ground,
+	}
+
+item PumpkinSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Pumpkin seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item PumpkinBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Pumpkin seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	PotatoSeedBag_Ground,
+	}
+
+item SoyBeanSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Soybean seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item SoyBeanBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Soybean seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	PotatoSeedBag_Ground,
+	}
+
+item SugarCaneSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= SugarCane seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item SugarCaneBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	SugarCane seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	RadishSeedBag_Ground,
+	}
+
+item WatermelonSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Watermelon seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item WatermelonBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Watermelon seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	CabbageSeedBag_Ground,
+	}
+
+item WheatSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Wheat seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item WheatBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Wheat seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	CabbageSeedBag_Ground,
+	}
+item ZucchiniSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Zucchini seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item ZucchiniBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Zucchini seed packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	CabbageSeedBag_Ground,
+	}
+
+/************ MORE SEEDS ********************/
+item RiceSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Rice Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item RiceBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Rice Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	BroccoliSeedBag_Ground,
+	}
+item PepperPlantSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Pepper Plant Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item PepperPlantBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Pepper Plant Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	TomatoSeedBag_Ground,
+	}
+
+item CottonSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Cotton Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item CottonBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Cotton Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	TomatoSeedBag_Ground,
+	}
+item HopsSeed
+	{
+	    	DisplayCategory 		= Gardening,
+		Type				= Normal,
+		DisplayName			= Hops Seeds,
+		Icon				= BasicSeeds,
+		Weight			= 0.009,
+		SurvivalGear 		= TRUE,
+		WorldStaticModel 		= Seeds_Ground,
+	}
+ 
+item HopsBagSeed
+	{
+	    	DisplayCategory 		= 	Gardening,
+		Type				=	Normal,
+		DisplayName			=	Hops Seeds Packet,
+		Icon				=	seedpacket_basic,
+		Weight			=	0.1,
+		SurvivalGear 		= 	TRUE,
+		WorldStaticModel 		= 	TomatoSeedBag_Ground,
+	}
+}

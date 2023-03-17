@@ -1,0 +1,74 @@
+module Base
+{	
+	item Makeshift_Vest_Junker
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Junker Chest Plate,
+        ClothingItem = Makeshift_Vest_Junker,
+        BodyLocation = TorsoExtraVest,
+        Icon = JunkerChestPlate,
+        BloodLocation = UpperBody; LowerBody,
+        BiteDefense = 50,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 1,
+        Insulation = 0.50,
+        WindResistance = 0.6,
+	BulletDefense = 40,
+	DisplayCategory = Armor,
+        Weight = 2,
+        WorldStaticModel = JunkerVest_Ground,
+    }
+	item Makeshift_Vest_LeatherChestPlate
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Leather Chest Plate,
+        ClothingItem = Makeshift_Vest_LeatherChestPlate,
+        BodyLocation = TorsoExtraVest,
+        Icon = LeatherChestPlate,
+       	BloodLocation = UpperBody; LowerBody,
+        BiteDefense = 40,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 1,
+        Insulation = 0.50,
+        WindResistance = 0.60,
+	BulletDefense = 10,
+	DisplayCategory = Armor,
+        Weight = 1.5,
+	FabricType = Leather,
+        WorldStaticModel = LeatherChestPlate_Ground,
+    }
+	item Makeshift_Vest_TireChestPlate
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Tire Chest Plate,
+        ClothingItem = Makeshift_Vest_TireChestPlate,
+        BodyLocation = TorsoExtraVest,
+        IconsForTexture = TireChestPlateRED;TireChestPlateGREEN;TireChestPlateBLUE;TireChestPlateYELLOW;TireChestPlateBLACK;,
+       	BloodLocation = UpperBody; LowerBody,
+        BiteDefense = 45,
+        ScratchDefense = 45,
+        NeckProtectionModifier = 1,
+	BulletDefense = 20,
+	DisplayCategory = Armor,
+        Weight = 2,
+        WorldStaticModel = ChestPlateTire_Ground,
+    }
+    item Makeshift_Vest_RogueCorset
+   	{
+        Type = Clothing,
+        DisplayName = Rogue Corset,
+        ClothingItem = Makeshift_Vest_RogueCorset,
+        BodyLocation = TorsoExtra,
+        Icon = RogueCorset,
+        BloodLocation = UpperBody; LowerBody,
+	ScratchDefense = 30,
+	BiteDefense = 30,
+	DisplayCategory = Armor,
+        Weight = 1.5,
+	WorldStaticModel = CorsetRogue_Ground,
+    }
+
+}

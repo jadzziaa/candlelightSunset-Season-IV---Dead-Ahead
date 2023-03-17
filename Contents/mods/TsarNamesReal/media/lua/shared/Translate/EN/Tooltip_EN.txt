@@ -1,0 +1,23 @@
+Tooltip_EN = {
+    Tooltip_Compact_Appliance = "Can be installed in some vehicles and trailers.",
+    Tooltip_item_ATATuningMagUniversal = "After reading this issue, you will gain basic tuning knowledge and learn how to <br>create armor for windows, additional trunks,<br> and more lethal bumpers.",
+
+    Tooltip_item_SwimMag = "Мagazine about the most effective swimming methods. Interviews with the best swimmers in the country.<br>Reviews of swimming trunks, caps and goggles.", 
+
+    Tooltip_item_AtTuningMagBus = "After reading this issue, you will gain basic tuning knowledge and learn how to<br>create armor for windows and wheels, create an effective grill, and create a roomy roof rack for the Blue Bird CV200.",
+    Tooltip_item_kengur = "You have come up with a new kind of bullbar.<br>All that's left to do is to study your drawings more closely.",
+
+    Tooltip_item_AtTuningMagJeep = "After reading this issue, you will gain basic tuning knowledge and learn how to<br>create armor, bumpers, roof rails and additional trunks for the Jeep Wrangler.",
+
+    Tooltip_item_ATATuningFordMustang = "After reading this issue, you will gain basic tuning knowledge and learn how to<br>create armor, a bullbar, and a roof rack for modern cars like the<br>Ford Mustang and Chevrolet Camaro.",
+
+    Tooltip_item_ATADodgeTuningMag = "After reading this issue, you will gain basic tuning knowledge and learn how to<br>create armor, bullbars and racks for the Dodge Stealth.",
+
+    Tooltip_item_ATAPetyarbuiltTuningMag = "After reading this issue, you will gain basic tuning knowledge and learn how to<br>create armor for the Peterbilt 379.",
+
+    Tooltip_item_ATATuningMagLuton = "After reading this issue, you will gain basic tuning knowledge and learn how to<br>create armor for the Volkswagen Transporter LT",
+
+    Tooltip_item_ATATuningMagDeRumba = "After reading this issue, you will gain basic tuning knowledge and learn how to<br>create armor for the Ford Econoline DeRumba.",
+
+    Tooltip_item_ATADodgeTuningMag = "After reading this issue, you will gain basic tuning knowledge and learn how to<br>create armor, bullbars and racks for the BMW E36.",
+}

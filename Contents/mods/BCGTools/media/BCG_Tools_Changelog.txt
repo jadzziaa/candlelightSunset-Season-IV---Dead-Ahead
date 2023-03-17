@@ -1,0 +1,9 @@
+- New Blunt weapon: Hand Shovel
+- New Spear weapon: Shovel Spear
+- New 2h axe weapon: Fiskars 2hand axe
+- Tags for weapons
+- Cheap Survival knife color variations
+- Btw you need to change "Spear with Machete" to "Spear with Kukri Machete"  or at least "Spear with Kukri"
+
+Spear Kukri Machete
+- Weight 3.7 >>> 3.9

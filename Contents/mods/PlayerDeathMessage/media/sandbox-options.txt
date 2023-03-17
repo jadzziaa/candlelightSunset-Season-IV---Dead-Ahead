@@ -1,0 +1,63 @@
+VERSION = 1,
+
+option PlayerDeathMessage.disabled = {
+	type = boolean,
+	default = false,
+	page = PlayerDeathMessage,
+	translation = PlayerDeathMessage_disabled,
+}
+
+option PlayerDeathMessage.useUsername = {
+	type = boolean,
+	default = true,
+	page = PlayerDeathMessage,
+	translation = PlayerDeathMessage_useUsername,
+}
+
+option PlayerDeathMessage.useCharacterName = {
+	type = boolean,
+	default = true,
+	page = PlayerDeathMessage,
+	translation = PlayerDeathMessage_useCharacterName,
+}
+
+option PlayerDeathMessage.showPlayerStats = {
+	type = boolean,
+	default = true,
+	page = PlayerDeathMessage,
+	translation = PlayerDeathMessage_showPlayerStats,
+}
+
+option PlayerDeathMessage.showPlayerFavWeapon = {
+	type = boolean,
+	default = true,
+	page = PlayerDeathMessage,
+	translation = PlayerDeathMessage_showPlayerFavWeapon,
+}
+
+option PlayerDeathMessage.messageColorRed = {
+	type = double,
+	default = 1,
+	min = 0,
+	max = 1,
+	page = PlayerDeathMessage,
+	translation = PlayerDeathMessage_messageColorRed,
+}
+
+option PlayerDeathMessage.messageColorGreen = {
+	type = double,
+	default = 0,
+	min = 0,
+	max = 1,
+	page = PlayerDeathMessage,
+	translation = PlayerDeathMessage_messageColorGreen,
+}
+
+option PlayerDeathMessage.messageColorBlue = {
+	type = double,
+	default = 0,
+	min = 0,
+	max = 1,
+	page = PlayerDeathMessage,
+	translation = PlayerDeathMessage_messageColorBlue,
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="UseTreadmillVanilla.xml">
+	<m_Name>treadmillloop</m_Name>
+	<m_AnimName>Bob_Run</m_AnimName>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>ExerciseStarted</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+</animNode>

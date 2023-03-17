@@ -1,0 +1,251 @@
+module Base
+{
+    model Vehicles_CarSmallSmashedRear
+	{
+		mesh = vehicles/Vehicles_SmallCarSMASH_Rear,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle CarSmallSmashedRear
+	{
+		template! = SmallCar,
+
+		model
+		{
+			file = Vehicles_CarSmallSmashedRear,
+			scale = 1.7400,
+			offset = 0.0000 0.2692 0.0000,
+		}
+	skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_gold,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_gray,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_silver,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_white,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_green,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_brown,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_blue,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_red,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_orange,
+        }
+	}
+    model Vehicles_CarSmallSmashedFront
+	{
+		mesh = vehicles/Vehicles_SmallCarSMASH_Front,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle CarSmallSmashedFront
+	{
+		template! = SmallCar,
+
+		model
+		{
+			file = Vehicles_CarSmallSmashedFront,
+			scale = 1.7400,
+			offset = 0.0000 0.2692 0.0000,
+		}
+	skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_gold,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_gray,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_silver,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_white,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_green,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_brown,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_blue,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_red,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_orange,
+        }
+	}
+    model Vehicles_CarSmallSmashedRight
+	{
+		mesh = vehicles/Vehicles_SmallCarSMASH_Right,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle CarSmallSmashedRight
+	{
+		template! = SmallCar,
+
+		model
+		{
+			file = Vehicles_CarSmallSmashedRight,
+			scale = 1.7400,
+			offset = 0.0000 0.2692 0.0000,
+		}
+	skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_gold,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_gray,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_silver,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_white,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_green,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_brown,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_blue,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_red,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_orange,
+        }
+	}
+    model Vehicles_CarSmallSmashedLeft
+	{
+		mesh = vehicles/Vehicles_SmallCarCRASH_Left,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle CarSmallSmashedLeft
+	{
+		template! = SmallCar,
+
+		model
+		{
+			file = Vehicles_CarSmallSmashedLeft,
+			scale = 1.7400,
+			offset = 0.0000 0.2692 0.0000,
+		}
+	skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_gold,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_gray,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_silver,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_white,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_green,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_brown,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_blue,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_red,
+        }
+
+        skin
+        {
+            texture = Vehicles/vehicle_smallcarshell_orange,
+        }
+	}
+}

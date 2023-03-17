@@ -1,0 +1,13 @@
+module Base
+{
+
+	sound vehicle_horn_niva
+	{
+		category = Vehicle,
+		clip
+		{
+			event = Vehicle/Standard/Horn,
+		}
+	}
+
+}

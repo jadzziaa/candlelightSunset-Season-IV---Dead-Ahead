@@ -1,0 +1,6 @@
+name='83 AM General M923 Hillbilly - Unified KI5 Crafting Category
+authors=Panopticon
+poster=preview.png
+id=83amgeneralM923KI5CraftingUnified
+require=83amgeneralM923
+description=Overwrites the crafting recipes to be under "KI5" instead of "M923".

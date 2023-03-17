@@ -1,0 +1,17 @@
+Recipes_RU = {
+
+
+/*Actions*/
+Recipe_Fold_Stock = "Сложить приклад",
+Recipe_Unfold_Stock = "Разложить приклад",
+
+
+Recipe_Saw_Off_Shotgun_Stock = "Спилить приклад", /*NEW-NEW*/
+
+Recipe_Open_Box_of_7.62_Ammo = "Вынуть патроны из коробки",
+Recipe Place_7.62_Ammo_in_Box = "Сложить патроны в коробку", /*NEW-NEW*/
+
+Recipe_Open _Box_of_.22_Ammo = "Вынуть патроны из коробки", /*NEW-NEW*/
+Recipe_Place_.22_Ammo_in_Box = "Сложить патроны в коробку ", /*NEW-NEW*/
+
+}

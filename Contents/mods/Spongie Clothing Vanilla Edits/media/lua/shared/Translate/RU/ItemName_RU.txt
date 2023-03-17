@@ -1,0 +1,23 @@
+ItemName_RU = {
+ItemName_Base.Jacket_WhiteOPEN = "Куртка (Расстегнуто)",
+ItemName_Base.Jacket_PoliceOPEN = "Куртка патрульного (Расстегнуто)",
+ItemName_Base.Jacket_RangerOPEN = "Куртка рейнджера (Расстегнуто)",
+ItemName_Base.Jacket_ArmyCamoDesertOPEN = "Армейская куртка «пустынный камуфляж» (Расстегнуто)",
+ItemName_Base.Jacket_ArmyCamoGreenOPEN = "Армейская куртка «лесной камуфляж» (Расстегнуто)",
+ItemName_Base.Jacket_ChefOPEN = "Фартук шефа (Расстегнуто)",
+ItemName_Base.Jacket_FiremanOPEN = "Куртка пожарного (Расстегнуто)",
+ItemName_Base.Jacket_CoatArmyOPEN = "Армейский пиджак (Расстегнуто)",
+
+ItemName_Base.Jacket_VarsityOPEN = "Университетская куртка (Расстегнуто)",
+
+ItemName_Base.JacketLong_Random = "Кожаная куртка",
+ItemName_Base.JacketLong_RandomOPEN = "Кожаное куртка (Расстегнуто)",
+ItemName_Base.JacketLong_DoctorOPEN = "Медицинский халат (Расстегнуто)",
+ItemName_Base.JacketLong_SantaOPEN = "Куртка Санта-Клауса (Расстегнуто)",
+ItemName_Base.JacketLong_SantaGreenOPEN = "Костюм эльфа (Расстегнуто)",
+
+ItemName_Base.Jacket_BlackOPEN = "Кожаная куртка (Расстегнуто)",
+ItemName_Base.Jacket_LeatherWildRacoonsOPEN = "Кожаная куртка «Wild Racoons» (Расстегнуто)",
+ItemName_Base.Jacket_LeatherIronRodentOPEN = "Кожаная куртка «Iron Rodent» (Расстегнуто)",
+ItemName_Base.Jacket_LeatherBarrelDogsOPEN = "Кожаная куртка «Barrel Dogs» (Расстегнуто)"
+}

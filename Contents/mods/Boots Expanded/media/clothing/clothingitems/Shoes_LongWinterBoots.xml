@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\bootswinter_male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\bootswinter_female.fbx</m_FemaleModel>
+	<m_GUID>b4291999-38fa-4ac4-8c4f-0693d3754d5a</m_GUID>
+	<m_Static>true</m_Static>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/longboots</m_UnderlayMasksFolder>
+	<textureChoices>winterboots1</textureChoices>
+	<textureChoices>winterboots2</textureChoices>
+	<textureChoices>winterboots3</textureChoices>
+	<textureChoices>winterboots4</textureChoices>
+	<textureChoices>winterboots5</textureChoices>
+</clothingItem>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\MPBrassardLeft</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\MPBrassardLeft</m_FemaleModel>
+	<m_GUID>f83486c6-ea9d-40cb-b9d7-0e56ef735b1f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\MPBrassard</textureChoices>
+</clothingItem>

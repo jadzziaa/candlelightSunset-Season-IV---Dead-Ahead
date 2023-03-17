@@ -1,0 +1,37 @@
+module Base
+{		
+	model MPoncho_GroundRed
+	{
+		mesh = WorldItems/Clothing/MPoncho_Ground,
+		texture = Clothes/MPoncho/MPoncho_Red,
+		scale = 0.3000,
+	}
+	
+	model MPoncho_GroundNavy
+	{
+		mesh = WorldItems/Clothing/MPoncho_Ground,
+		texture = Clothes/MPoncho/MPoncho_Navy,
+		scale = 0.3000,
+	}
+	
+	model MPoncho_GroundBrown
+	{
+		mesh = WorldItems/Clothing/MPoncho_Ground,
+		texture = Clothes/MPoncho/MPoncho_Brown,
+		scale = 0.3000,
+	}
+	
+	model MPoncho_GroundWhite
+	{
+		mesh = WorldItems/Clothing/MPoncho_Ground,
+		texture = Clothes/MPoncho/MPoncho_White,
+		scale = 0.3000,
+	}
+	
+	model MPoncho_GroundCow
+	{
+		mesh = WorldItems/Clothing/MPoncho_Ground,
+		texture = Clothes/MPoncho/MPoncho_Cow,
+		scale = 0.3000,
+	}
+}

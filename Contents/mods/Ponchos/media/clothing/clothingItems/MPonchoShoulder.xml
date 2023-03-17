@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_ponchoshoulder</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\M_ponchoshoulder</m_FemaleModel>
+	<m_GUID>c7b52377-6d1a-429d-bc89-a7fa61664cb9</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>Group01</m_HatCategory>
+	<m_UnderlayMasksFolder>media/textures/Clothes/MPoncho</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Mponcho\Mponcho_green</textureChoices>
+</clothingItem>

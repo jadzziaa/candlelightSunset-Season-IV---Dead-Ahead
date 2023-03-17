@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketlong</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacketlong</m_FemaleModel>
+	<m_GUID>ab13a42d-a722-4725-8387-34dffac977aa</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Blazer\Blazer1</textureChoices>
+	<textureChoices>clothes\Blazer\Blazer2</textureChoices>
+	<textureChoices>clothes\Blazer\Blazer3</textureChoices>
+	<textureChoices>clothes\Blazer\Blazer4</textureChoices>
+	<textureChoices>clothes\Blazer\Blazer5</textureChoices>
+	<textureChoices>clothes\Blazer\Blazer6</textureChoices>
+	<textureChoices>clothes\Blazer\Blazer7</textureChoices>
+	<textureChoices>clothes\Blazer\Blazer8</textureChoices>
+</clothingItem>

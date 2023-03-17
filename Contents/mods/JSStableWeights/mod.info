@@ -1,0 +1,4 @@
+name=Stable Weights
+poster=poster.png
+id=JSStableWeights
+description=A simple mod that adjusts player weight change to slow down (or speed up) gains and losses. The rate can be adjusted in the 'Character' page in sandbox options.

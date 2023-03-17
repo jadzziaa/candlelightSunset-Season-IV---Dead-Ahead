@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_ShoulderMicSide</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\M_ShoulderMicSide</m_FemaleModel>
+	<m_GUID>a6e99959-5334-429f-a1d6-87f6638da9f6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\PoliceShoulderRadio</textureChoices>
+</clothingItem>

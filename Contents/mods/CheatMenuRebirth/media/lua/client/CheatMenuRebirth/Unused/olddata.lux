@@ -1,0 +1,213 @@
+-- A data is not using in the game
+
+--Recipe
+--[[
+local recipes = getAllRecipes()
+local recipes_evo = getEvolvedRecipes()
+print(getPlayer():getKnownRecipes())
+for i = 0,recipes:size() - 1 do
+-- print (recipe:getTeachedRecipes())
+    local recipe = recipes:get(i)
+    --print (recipe:getName())
+    --print (recipe:getFullType())
+    --print (recipe:getOriginalname())
+    --if not getPlayer():isRecipeKnown(recipe) and recipe:needToBeLearn() then
+        getPlayer():getKnownRecipes():add(recipe:getOriginalname())
+        getPlayer():Say(getText("UI_CMRB_Learned"))
+        recipe:setNeedToBeLearn(false)
+    --end
+end
+
+for i = 0,recipes_evo:size() - 1 do
+    local recipe = recipes_evo:get(i)
+    --print (recipe:getName())
+    --print (recipe:getBaseItem())
+    --if not getPlayer():isRecipeKnown(recipe) and recipe:needToBeLearn() then
+        getPlayer():getKnownRecipes():add(recipe:getOriginalname())
+        getPlayer():Say(getText("UI_CMRB_Learned"))
+
+    --end
+end
+--]]
+
+
+-- NutritionBox
+
+
+
+-----------------------------
+--Making the Nutrition menu--
+-----------------------------
+
+--[[
+local subMenuNutrition = subMenu:getNew(subMenu);
+context:addSubMenu(NutritionOption, subMenuNutrition)
+
+local HealthyOption = subMenuNutrition:addOption("Become Healthy", worldobjects, CheatCoreCM.becomeHealthy)
+
+local EditOption = subMenuNutrition:addOption("Edit...", worldobjects)
+local subMenuEdit = subMenuNutrition:getNew(subMenuNutrition)
+context:addSubMenu(EditOption, subMenuEdit)
+
+local NutrTable = {
+"Calories",
+"Carbohydrates",
+"Lipids",
+"Proteins",
+"Weight"
+}
+
+for k,v in ipairs(NutrTable) do
+    subMenuEdit:addOption(v, worldobjects, function() CheatCoreCM.editNutrition(v) end)
+end
+--]]
+
+
+
+--ISUINutritionWindow = ISCollapsableWindow:derive("ISUINutritionWindow");
+
+--[[
+function ISUINutritionWindow:initialise()
+	ISCollapsableWindow.initialise(self);
+	self.NutrBar = ISTextEntryBox:new("", self:getWidth() / 12, self:getHeight() / 4, self:getWidth() / 1.18, self:getHeight() / 4.4);
+	self.NutrBar:initialise();
+	self.NutrBar:instantiate();
+	self.NutrBar:setMultipleLine(true)
+	self.NutrBar.javaObject:setMaxLines(1);
+	self:addChild(self.NutrBar);
+	self.NutrButton = ISButton:new(self:getWidth() / 12, self:getHeight() / 2.15, self:getWidth() / 1.18, self:getHeight() / 3, "Set", function() CheatCoreCM.editNutrition(CheatCoreCM.NutrType) end);
+	self.NutrButton:initialise();
+	self.NutrButton:instantiate();
+	self.NutrButton.borderColor = {r=0.4, g=0.4, b=0.4, a=1.0}
+	self:addChild(self.NutrButton);
+end
+
+function NutritionWindowCreate() -- basic UI setup
+	ISUINutritionWindow = ISUINutritionWindow:new(getCore():getScreenWidth() - 1050, getCore():getScreenHeight() - 350, getCore():getScreenWidth() / 10, getCore():getScreenHeight() / 10);
+	ISUINutritionWindow:initialise();
+	ISUINutritionWindow:addToUIManager();
+	ISUINutritionWindow:setVisible(false);
+end
+
+CheatCoreCM.editNutrition = function(nutrType)
+	CheatCoreCM.NutrType = nutrType -- this variable is passed as an arg to this function every time the Set button is clicked. This is so that it "remembers" what it's supposed to be editing
+	ISUINutritionWindow.title = "Edit "..CheatCoreCM.NutrType -- set the title as a reminder of what nutrient type is selected for editing if the user forgets
+	if not ISUINutritionWindow:getIsVisible() then -- make sure that the nutrition-editing code isn't run yet
+		ISUINutritionWindow:setVisible(true) -- set the nutrition window to visible
+	else -- if it's already visible, run the code as this function is only called again by the Set button which would mean that the user has to click Set for this check to pass
+		--loadstring("print(".."getPlayer():getNutrition():get"..nutrType.."())")()
+		loadstring("getPlayer():getNutrition():set"..nutrType.."("..ISUINutritionWindow.NutrBar:getText()..")")() -- bit of a codehacky way to do this, but it works.
+		getPlayer():getNutrition():update() -- finally, resync the nutrition values
+	end
+end
+
+CheatCoreCM.printNutrition = function()
+	local NutrTable = {
+		"Calories",
+		"Carbohydrates",
+		"Lipids",
+		"Proteins",
+		"Weight"
+	}
+	for k,v in ipairs(NutrTable) do
+		loadstring("print('"..v..":'..getPlayer():getNutrition():get"..v.."())")()
+	end
+end
+
+CheatCoreCM.becomeHealthy = function()
+	local NutrTable = { -- it goes NutritionType, then the healthy value for it
+		"Calories",
+		800,
+		"Carbohydrates",
+		500,
+		"Lipids",
+		500,
+		"Proteins",
+		500,
+		"Weight",
+		80
+	}
+	for i = 1,#NutrTable do
+		if (i % 2) ~= 0 then -- if it is an uneven number then continue. essentially "skips" the healthy value and just gets the label for it.
+			loadstring("getPlayer():getNutrition():set"..NutrTable[i].."("..NutrTable[i + 1]..")")()
+			--print("print('"..NutrTable[i]..":'..getPlayer():getNutrition():set"..NutrTable[i].."("..NutrTable[i + 1].."))")
+		end
+	end
+	getPlayer():getNutrition():update()
+	--CheatCoreCM.printNutrition()
+end
+
+
+Events.OnGameStart.Add(NutritionWindowCreate);
+--]]
+
+
+
+-- God Mode
+--[[ depreciated
+local godFuncCall = "getPlayer():setGodMod(CheatCoreCM.IsGod)"
+if versionNumber <= 39 then	-- the new cheat uses the game's built-in isGodMod() function that was added in build 40. The legacy function is used for builds 39 and under.
+    godFuncCall = nil
+end
+--]]
+
+
+-- Weather
+
+
+--[[
+CheatCoreCM.SetWeather = function(weather) --old
+	local world = getWorld()
+	local rm = RainManager
+	local gt = getGameTime()
+
+	if weather == "rain" then
+		world:setWeather(weather)
+		rm:startRaining()
+	end
+
+	if weather == "thunder" then
+		if not rm:isRaining() then rm:startRaining(); world:setWeather("rain") end -- must rain first
+		if gt:getThunderStorm() == false then
+			gt:thunderStart()
+		else
+			gt:thunderStop()
+		end
+	end
+
+	if weather == "cloud" or weather == "sunny" then
+		if rm:isRaining() then
+			rm:stopRaining()
+		end
+		world:setWeather(weather)
+	end
+
+	if isClient() then
+		world:transmitWeather()
+	end
+end
+
+CheatCoreCM.DoWeather = function(action, val) --doesn't work
+	local weather = getWorld():getClimateManager()
+	if action == "stop" then
+		weather:stopWeatherAndThunder()
+		--print("-----------------Done!-----------------")
+	end
+
+	if action == "snow" then
+		local snow = weather:getPrecipitationIsSnow()
+		if snow == true then
+			getPlayer():Say("Snow toggled off.")
+			weather:setPrecipitationIsSnow(false)
+		else
+			getPlayer():Say("Snow toggled on.")
+			weather:setPrecipitationIsSnow(true)
+		end
+	end
+
+	if action == "finalValue" then
+		weather.getClimateFloat:setFinalValue(5555555)
+	end
+end
+]]--
+

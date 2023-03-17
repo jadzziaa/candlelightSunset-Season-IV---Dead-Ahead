@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketlong</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacketlong</m_FemaleModel>
+	<m_GUID>2130c4ec-196f-4e3c-a6cc-c3e0a9831ee8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Dress_Textures\Judge_Robe</textureChoices>
+</clothingItem>

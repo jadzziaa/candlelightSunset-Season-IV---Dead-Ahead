@@ -1,0 +1,3 @@
+ContextMenu_HU = {
+	ContextMenu_VehicleHotwireSkillEH = "Kulcs vagy<br>Villanszerel�s ? �s<br>Mechanika ?<br>sz�ks�ges",
+}

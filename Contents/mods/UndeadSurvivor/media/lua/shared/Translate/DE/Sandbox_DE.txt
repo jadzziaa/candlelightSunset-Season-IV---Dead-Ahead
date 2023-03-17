@@ -1,0 +1,15 @@
+Sandbox_DE = {	
+	Sandbox_UndeadSurvivor.StalkerChance = "Die Chance dass ein Stalker erscheint in Prozent",
+	Sandbox_UndeadSurvivor.StalkerChance_tooltip = "Der Wert ist in Prozent, teilt aber die Chance mit anderen Outfits (Beispiel: Bei 100 hast du nie nur Zombies in diesem Outfit)",
+		
+	Sandbox_UndeadSurvivor.NomadChance = "Die Chance dass ein Nomade erscheint in Prozent",
+	Sandbox_UndeadSurvivor.NomadChance_tooltip = "Der Wert ist in Prozent, teilt aber die Chance mit anderen Outfits (Beispiel: Bei 100 hast du nie nur Zombies in diesem Outfit)",
+		
+	Sandbox_UndeadSurvivor.PrepperChance = "Die Chance dass ein Prepper erscheint in Prozent",
+	Sandbox_UndeadSurvivor.PrepperChance_tooltip = "Der Wert ist in Prozent, teilt aber die Chance mit anderen Outfits (Beispiel: Bei 100 hast du nie nur Zombies in diesem Outfit)",
+	
+	Sandbox_UndeadSurvivor.HeadhunterChance = "Die Chance dass ein Kopfgeldjäger erscheint in Prozent",
+	Sandbox_UndeadSurvivor.HeadhunterChance_tooltip = "Der Wert ist in Prozent, teilt aber die Chance mit anderen Outfits (Beispiel: Bei 100 hast du nie nur Zombies in diesem Outfit)",
+	
+	Sandbox_UndeadSurvivor = "Undead Survivor"
+	}

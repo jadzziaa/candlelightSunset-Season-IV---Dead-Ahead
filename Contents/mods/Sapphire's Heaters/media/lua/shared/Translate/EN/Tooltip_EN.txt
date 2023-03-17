@@ -1,0 +1,9 @@
+ContextMenu_EN = {
+    Tooltip_SmallHeater = "Small heater powered by car batteries.",
+    Tooltip_OutdoorHeater = "Outdoor Heater powered by car batteries.",
+    Tooltip_ElectricHeater = "Heater powered by generators.",
+    Tooltip_HeaterCircuit = "A component used in heaters.",
+    Tooltip_ElectriciansIssue1 = "Teaches how to craft Small Heaters",
+    Tooltip_ElectriciansIssue2 = "Teaches how to craft Outdoor Heaters",
+    Tooltip_ElectriciansIssue3 = "Teaches how to craft Electric Heaters",
+}

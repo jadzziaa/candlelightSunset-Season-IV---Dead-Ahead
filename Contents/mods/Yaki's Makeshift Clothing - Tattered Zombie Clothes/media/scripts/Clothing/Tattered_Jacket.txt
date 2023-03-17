@@ -1,0 +1,42 @@
+module Base
+{
+    item Makeshift_Jumper_RoundNeckTattered
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Round Neck Sweater Tattered,
+        ClothingItem = Makeshift_Jumper_RoundNeckTattered,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = SweaterWhite,
+        FabricType = Cotton,
+        WorldStaticModel = Jumper_Ground,
+    }
+    item Makeshift_JacketLong_Tattered
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Leather Jacket Tattered,
+        ClothingItem = Makeshift_JacketLong_Tattered,
+        BodyLocation = Jacket,
+        Icon = JacketLongBrown,
+        BloodLocation = LongJacket,
+        FabricType = Leather,
+        Weight = 1,
+        WorldStaticModel = JacketLong_Ground,
+    }
+    item Makeshift_Jacket_Tattered
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Jacket Tattered,
+        ClothingItem = Makeshift_Jacket_Tattered,
+        BodyLocation = Jacket,
+        Icon = Jacket_White,
+        BloodLocation = Jacket,
+        FabricType = Cotton,
+        Weight = 1,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+}

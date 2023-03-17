@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_CFP90PatrolPack</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_CFP90PatrolPack</m_FemaleModel>
+	<m_GUID>80c41e56-7aeb-48ee-a1a7-c75be8cd80cc</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\CFP90</textureChoices>
+</clothingItem>

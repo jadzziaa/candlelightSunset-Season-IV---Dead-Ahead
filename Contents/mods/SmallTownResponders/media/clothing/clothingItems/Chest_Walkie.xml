@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Clothes\SecurityWalkie</m_MaleModel>
+	<m_FemaleModel>skinned\Clothes\SecurityWalkie_F</m_FemaleModel>
+	<m_GUID>3dcb7087-e7cd-4530-8df4-b5ec7898d861</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\Chest\Security_Walkie</textureChoices>
+</clothingItem>

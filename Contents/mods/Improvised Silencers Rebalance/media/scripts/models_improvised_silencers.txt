@@ -1,0 +1,93 @@
+module ImprovisedSilencers
+{
+
+	imports
+	{
+		Base
+	}
+
+	model Silencer
+	{
+		mesh = weapons/firearm/Silencer,
+		texture = weapons/firearm/Silencer,
+		scale = 0.01,
+	}
+	model SilencerRifle
+	{
+		mesh = weapons/firearm/SilencerRifle,
+		texture = weapons/firearm/Silencer,
+		scale = 0.01,
+	}
+	model SilencerBig
+	{
+		mesh = weapons/firearm/SilencerBig,
+		texture = weapons/firearm/Silencer,
+		scale = 0.01,
+	}
+	model MetalPipeSilencer
+	{
+		mesh = weapons/firearm/MetalPipeSilencer,
+		texture = weapons/firearm/MetalBarMetalPipe,
+		scale = 0.01,
+	}
+	model MetalPipeSilencerBig
+	{
+		mesh = weapons/firearm/MetalPipeSilencerBig,
+		texture = weapons/firearm/MetalBarMetalPipe,
+		scale = 0.01,
+	}
+	model MetalPipeSilencerRifle
+	{
+		mesh = weapons/firearm/MetalPipeSilencerRifle,
+		texture = weapons/firearm/MetalBarMetalPipe,
+		scale = 0.01,
+	}
+	model TorchSilencer
+	{
+		mesh = weapons/firearm/TorchSilencer,
+		texture = weapons/firearm/HandTorch,
+		scale = 0.01,
+	}
+	model TorchSilencerRifle
+	{
+		mesh = weapons/firearm/TorchSilencer,
+		texture = weapons/firearm/HandTorch,
+		scale = 0.01,
+	}
+	model WaterBottleSilencer
+	{
+		mesh = weapons/firearm/WaterBottleSilencer,
+		texture = weapons/firearm/WaterBottleSilencer,
+        scale = 0.01,
+	}
+	model WaterBottleSilencerRifle
+	{
+		mesh = weapons/firearm/WaterBottleSilencer,
+		texture = weapons/firearm/WaterBottleSilencer,
+        scale = 0.01,
+	}
+	model Silencer_Ground
+	{
+		mesh = WorldItems/Silencer_Ground,
+		texture = weapons/firearm/Silencer,
+		scale = 0.015,
+	}
+	model MetalPipeSilencer_Ground
+	{
+		mesh = WorldItems/MetalPipeSilencer_Ground,
+		texture = weapons/firearm/MetalBarMetalPipe,
+		scale = 0.0045,
+	}
+	model TorchSilencer_Ground
+	{
+		mesh = WorldItems/TorchSilencer_Ground,
+		texture = weapons/firearm/HandTorch,
+		scale = 0.004,
+	}
+	model WaterBottleSilencer_Ground
+	{
+		mesh = WorldItems/WaterBottleSilencer_Ground,
+		texture = weapons/firearm/WaterBottleSilencer,
+		scale = 0.0045,
+	}
+}

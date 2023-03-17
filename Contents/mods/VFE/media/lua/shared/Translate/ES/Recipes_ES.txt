@@ -1,0 +1,8 @@
+Recipes_ES = {
+
+/*Actions*/
+Recipe_Fold_Stock = "Plegar culata",
+Recipe_Unfold_Stock = "Desplegar culata",
+
+Recipe_Open_Box_of_7.62_Ammo = "Abrir caja de munición 7.62",
+}

@@ -1,0 +1,26 @@
+--require 'Items/SuburbsDistributions'
+--
+--if string.match(getCore():getVersionNumber(), "IWBUMS") then
+--	table.insert(SuburbsDistributions["giftstore"]["displaycase"].items, "eris_nvg.nvgoggles41");
+--	table.insert(SuburbsDistributions["giftstore"]["displaycase"].items, 0.0001);
+--	table.insert(SuburbsDistributions["departmentstore"]["counter"].items, "eris_nvg.nvgoggles41");
+--	table.insert(SuburbsDistributions["departmentstore"]["counter"].items, 0.0001);
+--	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, "eris_nvg.nvgoggles41");
+--	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, 0.0001);
+--	table.insert(SuburbsDistributions["electronicsstore"]["shelves"].items, "eris_nvg.nvgoggles41");
+--	table.insert(SuburbsDistributions["electronicsstore"]["shelves"].items, 0.0001);
+--
+--	table.insert(SuburbsDistributions["policestorage"]["metal_shelves"].items, "eris_nvg.nvgoggles41");
+--	table.insert(SuburbsDistributions["policestorage"]["metal_shelves"].items, 0.001);
+--else
+--	table.insert(SuburbsDistributions["giftstore"]["displaycase"].items, "eris_nvg.nvgoggles");
+--	table.insert(SuburbsDistributions["giftstore"]["displaycase"].items, 0.0001);
+--	table.insert(SuburbsDistributions["departmentstore"]["counter"].items, "eris_nvg.nvgoggles");
+--	table.insert(SuburbsDistributions["departmentstore"]["counter"].items, 0.0001);
+--	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, "eris_nvg.nvgoggles");
+--	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, 0.0001);
+--	table.insert(SuburbsDistributions["electronicsstore"]["shelves"].items, "eris_nvg.nvgoggles");
+--	table.insert(SuburbsDistributions["electronicsstore"]["shelves"].items, 0.0001);
+--	table.insert(SuburbsDistributions["policestorage"]["metal_shelves"].items, "eris_nvg.nvgoggles");
+--	table.insert(SuburbsDistributions["policestorage"]["metal_shelves"].items, 0.001);
+--end

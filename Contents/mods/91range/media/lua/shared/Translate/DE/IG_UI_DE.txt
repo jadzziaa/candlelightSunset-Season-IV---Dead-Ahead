@@ -1,0 +1,4 @@
+IG_UI_DE = {
+	IGUI_VehicleName91range = "'91 RANGE ROVER Viertürer",
+	IGUI_VehicleName91range2 = "'91 RANGE ROVER Zweitürer",
+}

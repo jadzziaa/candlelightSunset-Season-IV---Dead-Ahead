@@ -1,0 +1,5 @@
+Tooltip_EN = {
+	Tooltip_SmallMagnet = "Can be used in magnet fishing with limited success.",
+	Tooltip_MediumMagnet = "Can be used in magnet fishing with some success.",
+	Tooltip_LargeMagnet = "Can be used in magnet fishing with great success.",
+}

@@ -1,0 +1,108 @@
+module Base
+{
+	model vino125tb
+    {
+        mesh = vehicles/Bikes_vino125_Body|vino125_bags_top,
+        shader = vehicle_noreflect,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+
+    model vino125sb
+    {
+        mesh = vehicles/Bikes_vino125_Body|vino125_bags_side,
+        shader = vehicle_noreflect,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+
+	template vehicle VN125trunkStorages
+	{
+	    part VN125TopBags
+		{
+			model
+			{
+			file = vino125tb,
+			}
+
+			category = bodywork,
+			area = TruckBed,
+			itemType = Base.VN125storage,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = VN125.ContainerAccess.TrunkBox,
+			}
+			lua
+			{
+			}
+		}
+
+		part VN125SideBags
+		{
+			model
+			{
+			file = vino125sb,
+			}
+
+			category = bodywork,
+			area = TruckBed,
+			itemType = Base.VN125sidestorage,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = VN125.ContainerAccess.TrunkBox,
+			}
+			lua
+			{
+			}
+		}
+
+		part VN125*
+		{
+			table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:1,
+                	test = Vehicles.InstallTest.Default,
+                	complete = Vehicles.InstallComplete.Default,
+            		}
+
+            table uninstall
+            	{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:1,
+                	test = Vehicles.UninstallTest.Default,
+					complete = Vehicles.UninstallComplete.Default,
+            	}
+		}
+
+	}
+
+}

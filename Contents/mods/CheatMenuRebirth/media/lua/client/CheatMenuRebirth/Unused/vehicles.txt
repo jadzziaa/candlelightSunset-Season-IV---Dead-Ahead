@@ -1,0 +1,140 @@
+{
+    ['types'] = {
+        {
+            ['name'] = "Standards",
+            ['vehicles'] = {
+                {
+                    ['name'] = "IGUI_VehicleNameSmallCar",
+                    ['spawnname'] = "Base.SmallCar"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameSmallCar02",
+                    ['spawnname'] = "Base.SmallCar02"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameCarStationWagon",
+                    ['spawnname'] = "Base.CarStationWagon2"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameOffRoad",
+                    ['spawnname'] = "Base.OffRoad"
+                }
+            }
+        },
+        {
+            ['name'] = "Sports",
+            ['vehicles'] = {
+                {
+                    ['name'] = "IGUI_VehicleNameSportsCar",
+                    ['spawnname'] = "Base.SportsCar"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameCarNormal",
+                    ['spawnname'] = "Base.CarNormal"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameCarNormal_with_Ranger",
+                    ['spawnname'] = "Base.CarLights"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameCarNormal_with_Police",
+                    ['spawnname'] = "Base.CarLightsPolice"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameCarNormal_with_Taxi_Yellow",
+                    ['spawnname'] = "Base.CarTaxi"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameCarNormal_with_Taxi_Green",
+                    ['spawnname'] = "Base.CarTaxi2"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameCarLuxury",
+                    ['spawnname'] = "Base.CarLuxury"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameModernCar",
+                    ['spawnname'] = "Base.ModernCar"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameModernCar02",
+                    ['spawnname'] = "Base.ModernCar02"
+                }
+            }
+        },
+        {
+            ['name'] = "Heavy Duty",
+            ['vehicles'] = {
+                {
+                    ['name'] = "IGUI_VehicleNameSUV",
+                    ['spawnname'] = "Base.SUV"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameStepVan",
+                    ['spawnname'] = "Base.StepVan"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameStepVan_with_Mail",
+                    ['spawnname'] = "Base.StepVanMail"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNamePickUpVan",
+                    ['spawnname'] = "Base.PickUpVan"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNamePickUpVan_with_Fossoil_Ranger",
+                    ['spawnname'] = "Base.PickUpVanLights"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNamePickUpVan_with_Fire_Dept",
+                    ['spawnname'] = "Base.PickUpVanLightsFire"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNamePickUpVan_with_UI_CM_Police",
+                    ['spawnname'] = "Base.PickUpVanPolice"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNamePickUpVan_with_McCoy",
+                    ['spawnname'] = "Base.PickUpVanMccoy"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameVan",
+                    ['spawnname'] = "Base.Van"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNamePickUpTruck",
+                    ['spawnname'] = "Base.PickUpTruck"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNamePickUpTruck_with_McCoy",
+                    ['spawnname'] = "Base.PickUpTruckMccoy"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNamePickUpTruck_Fossoil_Ranger",
+                    ['spawnname'] = "Base.PickUpTruckLights"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNamePickUpTruck_Fire_Dept",
+                    ['spawnname'] = "Base.PickUpTruckFire"
+                }
+            }
+        },
+        {
+            ['name'] = "Trailer",
+            ['vehicles'] = {
+                {
+                    ['name'] = "IGUI_VehicleNameTrailer",
+                    ['spawnname'] = "Base.Trailer"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameTrailerAdvert",
+                    ['spawnname'] = "Base.TrailerAdvert"
+                },
+                {
+                    ['name'] = "IGUI_VehicleNameTrailerCover",
+                    ['spawnname'] = "Base.TrailerCover"
+                }
+            }
+        }
+    }
+}

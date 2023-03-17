@@ -1,0 +1,88 @@
+ItemName_IT = {
+    /*Weapons*/
+    ItemName_Base.AK47 = "Fucile d'assalto AK47",	
+	ItemName_Base.AK47Folded = "Fucile d'assalto AK47",
+	
+	ItemName_Base.SKS = "Fucile SKS",
+	
+	ItemName_Base.Mini14 = "Fucile MINI-14",	
+	ItemName_Base.Mini14Folded = "Fucile MINI-14",
+	
+	ItemName_Base.HuntingRifle = "Fucile R788",	
+	ItemName_Base.VarmintRifle = "Fucile R700",
+	
+	ItemName_Base.Spas12 = "Fucile a pompa SPAS-12",
+	ItemName_Base.Spas12Folded = "Fucile a pompa SPAS-12",
+	
+	ItemName_Base.Revolver_Short = "Revolver M10-5",
+	
+	ItemName_Base.Revolver_Long = "Revolver Magnum M29",
+	
+	ItemName_Base.Shotgun = "Fucile a pompa M500",
+	
+	ItemName_Base.ShotgunSawnoff = "Fucile a canne mozze M500",
+	
+	ItemName_Base.Pistol3 = "Pistola DE",
+	
+	ItemName_Base.Tec9 = "Pistola TEC9",
+	
+	ItemName_Base.LeverRifle = "Carabina W1866",
+	
+	ItemName_Base.MP5 = "Mitraglietta MP5",
+	
+	ItemName_Base.1022 = "Fucile R1022", /*NEW-NEW*/
+	
+	ItemName_Base.Glock = "Pistola G17", /*NEW-NEW*/
+	
+	ItemName_Base.ShotgunSawnoffNoStock = "Fucile a canne mozze M500", /*NEW-NEW*/
+	
+	ItemName_Base.MP5SD = "Mitraglietta MP5SD", /*NEW-NEW*/
+	
+	ItemName_Base.CAR15 = "Fucile d'assalto CAR-15", /*NEW-NEW*/
+	
+	ItemName_Base.CAR15D = "Fucile d'assalto CAR-15", /*NEW-NEW*/
+	
+	/*Ammo*/	
+	ItemName_Base.762Box = "Scatola di munizioni 7.62",
+	ItemName_Base.762Bullets = "Munizioni 7.62",
+	
+	ItemName_Base.22Box = "Scatola di munizioni .22",
+	ItemName_Base.22Bullets = "Munizioni .22",
+	
+	/*Magazines*/
+	ItemName_Base.762Clip = "Caricatore per proiettili AK47",
+	ItemName_Base.223Clip20 = "Caricatore per proiettili MINI-14",
+	
+	ItemName_Base.9mmClip20 = "Caricatore per proiettili TEC9",
+	ItemName_Base.9mmClip30 = "Caricatore per proiettili MP5",
+	
+	ItemName_Base.22ClipRifle = "Caricatore per proiettili R1022",
+	ItemName_Base.22ClipPistol = "Caricatore per proiettili.22 WIP",
+	
+	ItemName_Base.9mmClip = "Caricatore per proiettili M9", /*NEW*/
+	ItemName_Base.44Clip = "Caricatore per proiettili DE", /*NEW*/
+	ItemName_Base.45Clip = "Caricatore per proiettili M1911", /*NEW*/
+	ItemName_Base.308Clip = "Caricatore per proiettili MSR788", /*NEW*/
+	ItemName_Base.556Clip = "Caricatore per proiettili M16", /*NEW*/
+	ItemName_Base.M14Clip = "Caricatore per proiettili M14", /*NEW*/
+	ItemName_Base.22ClipRifle = "Caricatore per proiettili R1022", /*NEW-NEW*/
+	ItemName_Base.9mmClip17 = "Caricatore per proiettili G17", /*NEW-NEW*/
+	
+	
+	/*Attachments*/
+	ItemName_Base.OilFilterSuppressor = "Soppressore filtro dell'olio WIP",		
+	ItemName_Base.OilFilterSuppressor2 = "Soppressore filtro dell'olio WIP",
+	
+	ItemName_Base.OilFilter = "Filtro dell'olio WIP",
+	ItemName_Base.OilFilter2 = "Filtro dell'olio WIP",
+	
+	ItemName_Base.Bipod = "Bipode",
+	
+	ItemName_Base.ShellHolder = "Portacartucce",
+	
+	/*Items*/
+	ItemName_Base.CleaningKit = "kit per la pulizia delle armi", /*NEW-NEW*/
+	ItemName_Base.FireKlean = "Lubrificante per armi FireKlean", /*NEW-NEW*/
+	}
+	
+	

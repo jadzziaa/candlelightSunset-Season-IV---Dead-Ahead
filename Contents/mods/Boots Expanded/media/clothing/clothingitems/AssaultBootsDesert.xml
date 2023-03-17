@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\boots_male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\boots_female.fbx</m_FemaleModel>
+	<m_GUID>98e3727b-ab76-446d-b719-4d1a3f108396</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>desertboots</textureChoices>
+</clothingItem>	

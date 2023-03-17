@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\DustGoggles</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\DustGoggles</m_FemaleModel>
+	<m_GUID>7f1d6713-a249-40cc-a6e3-5608e64b9cfe</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>clothes\hat\Glasses_DustGoggles</textureChoices>
+</clothingItem>

@@ -1,0 +1,73 @@
+module Base
+{
+	model 86fordE150rearBumperLong
+	{
+		mesh = vehicles/Vehicles_86fordE150_Body|e150_bumperRear_long,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	template vehicle E150RearBumperLong
+		{
+		part E150RearBumper
+        	{
+
+			model RearBumper546844
+				{
+                		file = 86fordE150rearBumperLong,
+				}
+
+				area = TruckBed,
+				category = bodywork,
+				itemType = Base.E150RearBumper,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = Vehicles.InstallComplete.Default,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = Vehicles.UninstallComplete.Default,
+            		}
+
+            		lua
+            		{
+					create = Vehicles.Create.Default,
+					}
+		}
+	}
+
+		
+}

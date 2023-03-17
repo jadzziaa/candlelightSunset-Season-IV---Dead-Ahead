@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+<m_MaleModel>media\models_X\Static\Clothes\sandals_male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\sandals_female.fbx</m_FemaleModel>
+	<m_GUID>f00a9cc6-9c04-4023-98ba-e5f6cede1ef1</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>blackboots0</textureChoices>
+	<textureChoices>shoesbrown</textureChoices>
+</clothingItem>

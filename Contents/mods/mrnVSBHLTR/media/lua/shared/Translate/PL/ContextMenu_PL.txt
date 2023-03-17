@@ -1,0 +1,8 @@
+ContextMenu_PL = {
+    ContextMenu_Holster_visibleStyle = "Noś na kurtce",
+    ContextMenu_Holster_visibleStyle1 = "Noś bez kurtki",
+    ContextMenu_Holster_visibleStyle2 = "Noś bez paska",
+    ContextMenu_HolsterDouble_visibleStyle = "Noś na kurtce",
+    ContextMenu_HolsterDouble_visibleStyle1 = "Noś bez kurtki",
+    ContextMenu_HolsterDouble_visibleStyle2 = "Noś bez paska",
+} 

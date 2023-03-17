@@ -1,0 +1,3 @@
+ContextMenu_IT = {
+    ContextMenu_VehicleHotwireSkillEH = "Hai bisogno delle chiavi o di<br>Elettronica livello ? e<br>Meccanica livello ?<br>per collegare i cavi",
+}

@@ -1,0 +1,435 @@
+module Base
+{
+
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bquiet,
+		Result:Bquiet,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Aquiet,
+		Result:Aquiet,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		SPbag,
+		Result:SPbag,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		CPBB,
+		Result:CPBB,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		CPBC,
+		Result:CPBC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		TFA,
+		Result:TFA,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Blei,
+		Result:Blei,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		HipPouch,
+		Result:HipPouch,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+	
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MhunkL,
+		Result:MhunkL,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+	
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MhunkR,
+		Result:MhunkR,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+	
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Qchr,
+		Result:Qchr,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+	
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Qchr2,
+		Result:Qchr2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+	
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bjill,
+		Result:Bjill,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+	
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bhunk,
+		Result:Bhunk,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+	
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bada,
+		Result:Bada,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bcla,
+		Result:Bcla,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		TBjill,
+		Result:TBjill,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bhunk,
+		Result:Bhunk,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bchr,
+		Result:Bchr,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Breb,
+		Result:Breb,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Cjill,
+		Result:Cjill,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Abag,
+		Result:Abag,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Achr,
+		Result:Achr,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Ajill,
+		Result:Ajill,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Aada2,
+		Result:Aada2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Vhunk,
+		Result:Vhunk,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Vchr,
+		Result:Vchr,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Ahunk,
+		Result:Ahunk,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Vage,
+		Result:Vage,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bage,
+		Result:Bage,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Abar,
+		Result:Abar,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		ArmbagL,
+		Result:ArmbagL,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN REMOD
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		ArmbagR,
+		Result:ArmbagR,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+
+}

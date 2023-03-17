@@ -1,0 +1,132 @@
+module SDelight
+{
+    imports    
+    {
+		Base
+	}
+
+    item MaduroCigarBox
+	{
+	    DisplayName 		= Box of Maduro Cigars,
+		Type 		= Drainable,
+		UseDelta 		= 0.1,
+		UseWhileEquipped 		= false,
+		Icon 		= MaduroCigarBoxIcon,
+		WorldStaticModel 		= MaduroCigarBox,
+		Weight 		= 0.5,
+	}
+	
+	item MaduroCigarSingle
+	{
+		DisplayCategory 		= Junk,
+		Type 		= Food,
+		DisplayName 		= Maduro Cigar,
+		Icon 		= MaduroCigarIcon,
+		CustomContextMenu = Smoke,
+		CantBeFrozen = TRUE,
+		OnEat = OnEat_Cigarettes,
+		Weight 		= 0.05,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		UnhappyChange 		= -15,
+		StressChange	=	-15,
+		WorldStaticModel 		= MaduroCigarSingle,
+		StaticModel 		= S_MaduroCigar,
+		EatType 		= Cigarettes,
+		CustomEatSound 		= ,
+	}
+	
+	recipe Take cigar
+	{
+		MaduroCigarBox,
+		Result 		:  MaduroCigarSingle,
+		Time 		: 30.0,
+		NeedToBeLearn 		: false,
+		OnGiveXP 		: NoXP_OnGiveXP,
+		CanBeDoneFromFloor 		: false,
+		StopOnWalk 		: false,
+	}
+
+	item ColoradoCigarBox
+	{
+	    DisplayName 		= Box of Colorado Cigars,
+		Type 		= Drainable,
+		UseDelta 		= 0.1,
+		UseWhileEquipped 		= false,
+		Icon 		= ColoradoCigarBoxIcon,
+		WorldStaticModel 		= ColoradoCigarBox,
+		Weight 		= 0.5,
+	}
+	
+	item ColoradoCigarSingle
+	{
+		DisplayCategory 		= Junk,
+		Type 		= Food,
+		DisplayName 		= Colorado Cigar,
+		Icon 		= ColoradoCigarIcon,
+		CustomContextMenu = Smoke,
+		CantBeFrozen = TRUE,
+		OnEat = OnEat_Cigarettes,
+		Weight 		= 0.05,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		UnhappyChange 		= -10,
+		StressChange	=	-15,
+		WorldStaticModel 		= ColoradoCigarSingle,
+		StaticModel 		= S_ColoradoCigar,
+		EatType 		= Cigarettes,
+		CustomEatSound 		= ,
+	}
+	
+	recipe Take cigar
+	{
+		ColoradoCigarBox,
+		Result 		:  ColoradoCigarSingle,
+		Time 		: 30.0,
+		NeedToBeLearn 		: false,
+		OnGiveXP 		: NoXP_OnGiveXP,
+		CanBeDoneFromFloor 		: false,
+		StopOnWalk 		: false,
+	}
+
+	item ClaroCigarBox
+	{
+	    DisplayName 		= Box of Claro Cigars,
+		Type 		= Drainable,
+		UseDelta 		= 0.1,
+		UseWhileEquipped 		= false,
+		Icon 		= ClaroCigarBoxIcon,
+		WorldStaticModel 		= ClaroCigarBox,
+		Weight 		= 0.5,
+	}
+	
+	item ClaroCigarSingle
+	{
+		DisplayCategory 		= Junk,
+		Type 		= Food,
+		DisplayName 		= Claro Cigar,
+		Icon 		= ClaroCigarIcon,
+		CustomContextMenu = Smoke,
+		CantBeFrozen = TRUE,
+		OnEat = OnEat_Cigarettes,
+		Weight 		= 0.05,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		UnhappyChange 		= -10,
+		StressChange	=	-10,
+		WorldStaticModel 		= ClaroCigarSingle,
+		StaticModel 		= S_ClaroCigar,
+		EatType 		= Cigarettes,
+		CustomEatSound 		= ,
+	}
+	
+	recipe Take cigar
+	{
+		ClaroCigarBox,
+		Result 		:  ClaroCigarSingle,
+		Time 		: 30.0,
+		NeedToBeLearn 		: false,
+		OnGiveXP 		: NoXP_OnGiveXP,
+		CanBeDoneFromFloor 		: false,
+		StopOnWalk 		: false,
+	}
+
+	
+}

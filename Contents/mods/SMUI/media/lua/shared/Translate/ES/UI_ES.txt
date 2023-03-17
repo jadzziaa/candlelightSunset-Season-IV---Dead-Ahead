@@ -1,0 +1,8 @@
+UI_ES = {
+
+ContextMenu_FlipUp = "Voltear hacia arriba",
+ContextMenu_FlipDown = "Voltear hacia abajo",
+ContextMenu_RollUp = "Enrollar",
+ContextMenu_RollDown = "Desenrollar",
+
+}

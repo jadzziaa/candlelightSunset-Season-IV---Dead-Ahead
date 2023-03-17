@@ -1,0 +1,65 @@
+module Base
+{		
+
+	item Hat_CrashHelmet_Police
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Police Riot Helmet,
+		ClothingItem = Hat_CrashHelmet_Police,
+		BodyLocation = Hat,
+		BloodLocation = FullHelmet,
+		Icon = RiotHelmetUpSLEO,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+		ClothingItemExtra = Base.Hat_RiotHelmet,
+        ClothingItemExtraOption = VisorDown,
+		ClothingExtraSubmenu = VisorUp,
+        ChanceToFall = 0,
+        Insulation = 0.8,
+        WindResistance = 0.8,
+		WorldStaticModel = PoliceRiotHelmet_WorldItem,
+	}
+
+	    item Hat_RiotHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Police Riot Helmet (Down),
+		ClothingItem = Hat_RiotHelmet,
+		BodyLocation = FullHat,
+		Icon = RiotHelmetSLEO,
+		BloodLocation = Head;Neck,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+		ClothingItemExtra = Base.Hat_CrashHelmet_Police,
+        ClothingItemExtraOption = VisorUp,
+		ClothingExtraSubmenu = VisorDown,
+        Insulation = 0.45,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+		WorldStaticModel = PoliceRiotHelmet_WorldItem,
+	}
+
+	    item Vest_BulletPolice
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Bulletproof Vest,
+        ClothingItem = Vest_BulletPolice,
+        BodyLocation = TorsoExtra,
+        Icon = PoliceBodyArmor,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        WorldStaticModel = PoliceBodyArmor_WorldItem,
+    }
+}

@@ -1,0 +1,7 @@
+name=Slow Consumption
+poster=poster.png
+id=SlowConsumption
+versionMin=41.65
+modVersion=0.5
+authors=PaddiSson_
+description=Reduces flashlight battery consumption, soap consumption and lighter/matches consumption by 2. Increases colored light bulb condition by 10.

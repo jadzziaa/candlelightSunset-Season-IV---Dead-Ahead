@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_nomadparkaDOWN</m_MaleModel>
+	<m_FemaleModel>skinned\f_nomadparkaDOWN</m_FemaleModel>
+	<m_GUID>eb1d7da5-18e1-4b27-bf0b-ea2a47beeadf</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<textureChoices>clothes\ominousnomadparka</textureChoices>
+	<m_Masks>1</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+</clothingItem>

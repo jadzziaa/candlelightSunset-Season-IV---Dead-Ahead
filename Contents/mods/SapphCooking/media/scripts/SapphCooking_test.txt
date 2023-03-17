@@ -1,0 +1,86 @@
+module SapphCooking
+{
+	imports
+	{
+		Base,
+	}
+
+	/****************************** This file is for testing recipes. ******************************/	
+
+	item PalateCleanser
+	{
+		DisplayCategory = Food,
+		HungerChange	=	30,
+		Weight	=	0.01,
+		Type	=	Food,
+		DisplayName	=	Palate Cleanser,
+		Icon	=	,
+        	Carbohydrates = 160,
+        	Proteins = 22,
+        	Lipids = 60,
+        	Calories = 800,
+        	WorldStaticModel = ,
+	}
+
+	/****************************** Palate Cleanser is for testing. ******************************/	
+	/****************************** Everything here is work in progress, you can't craft them without a spawn menu. ******************************/	
+
+
+	item Meatgrinder
+	{
+		Weight 		= 2.5,
+		Type 		= Normal,
+		DisplayName 		= Manual Meat Grinder,
+		Icon 		= BakingMoldsIcon,
+		WorldStaticModel 		=  Meatgrinder_Ground,
+	}
+
+	recipe Grind Meat
+	{
+	   keep Meatgrinder,
+	   CanBeDoneFromFloor:false,
+	   Result:Plank=1,
+	   Sound:Sawing,
+	   Time:230.0,
+	   Category:Cooking,
+	   StopOnWalk 		: false,
+	   AnimNode:Sapph_Grind_Meatgrinder,
+	   Prop2:Cooking_Meatgrinder,
+	}
+
+	item CrackersEvolved
+	{
+		DisplayName = Crackers,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Crackers,
+		FoodType = NoExplicit,
+		HungerChange = -5,
+		Calories = 70,
+		Carbohydrates = 12,
+		Lipids = 6,
+		Proteins = 1,
+		CustomEatSound = EatingCrispy,
+		WorldStaticModel = Crackers_Ground,
+	}
+
+	    item GrahamCrackersEvolved
+	{
+		DisplayName = Graham Crackers,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = GrahamCrackers,
+		HungerChange = -5,
+		Calories = 70,
+		Carbohydrates = 12,
+		Lipids = 6,
+		Proteins = 1,
+		CustomEatSound = EatingCrispy,
+		WorldStaticModel = CrackersGraham_Ground,
+	}
+
+
+}
+

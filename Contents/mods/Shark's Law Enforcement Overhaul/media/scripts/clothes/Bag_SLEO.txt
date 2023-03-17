@@ -1,0 +1,174 @@
+module SLEOClothing
+  {
+
+    item Bag_DuffelPolice
+    {
+      	DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Police Duffel Bag,
+        ClothingItem = Bag_DuffelPolice,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	PoliceDuffel,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelPolice_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelPolice_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+
+        item Bag_DuffelSheriff
+    {
+      	DisplayCategory = Bag,
+        Type = Container,
+        ClothingItem = Bag_DuffelSheriff,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	SheriffDuffel,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelSheriff_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelSheriff_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+
+        item Bag_PoliceUtilityBag
+    {
+      	DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Black Utility Bag,
+        ClothingItem = Bag_PoliceUtilityBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	45,
+        Weight	=	1,
+        Capacity	=	14,
+        Icon	=	PoliceUtilityBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_PoliceUtilityBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PoliceUtilityBag_RHand holdingbagright,
+        WorldStaticModel = PoliceUtilityBag_WorldItem,
+    }
+
+        item Bag_PoliceUtilityBagGreen
+    {
+      	DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Green Utility Bag,
+        ClothingItem = Bag_PoliceUtilityBagGreen,
+        CanBeEquipped = Back,
+        WeightReduction	=	45,
+        Weight	=	1,
+        Capacity	=	14,
+        Icon	=	PoliceUtilityBagGreen,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_PoliceUtilityBagGreen_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_PoliceUtilitybagGreen_RHand holdingbagright,
+        WorldStaticModel = PoliceUtilityBagGreen_WorldItem,
+    }
+
+        item BlackLegPouch_RLeg
+    {
+      	DisplayCategory = Bag,
+        Type = Container,
+        ClothingItem = BlackLegPouch_Right,
+        DisplayName = Black Leg Pouch (Right),
+        CanBeEquipped = SLEOThighRightPlus,
+        ClothingItemExtra = BlackLegPouch_LLeg,
+        ClothingItemExtraOption = LeftLeg,
+        ClothingExtraSubmenu = RightLeg,
+        WeightReduction	=	30,
+        Weight	=	0.2,
+        Capacity	=	3,
+        Icon	=	BlackLegPouch,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        WorldStaticModel = BlackLegPouch_WorldItem,
+    }
+
+        item BlackLegPouch_LLeg
+    {
+      	DisplayCategory = Bag,
+        Type = Container,
+        ClothingItem = BlackLegPouch_Left,
+        DisplayName = Black Leg Pouch (Left),
+        CanBeEquipped = SLEOThighLeftPlus,
+        ClothingItemExtra = BlackLegPouch_RLeg,
+        ClothingItemExtraOption = RightLeg,
+        ClothingExtraSubmenu = LeftLeg,
+        WeightReduction	=	30,
+        Weight	=	0.2,
+        Capacity	=	3,
+        Icon	=	BlackLegPouch,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        WorldStaticModel = BlackLegPouch_WorldItem,
+    }
+
+        item GreenLegPouch_RLeg
+    {
+      	DisplayCategory = Bag,
+        Type = Container,
+        ClothingItem = GreenLegPouch_Right,
+        DisplayName = Green Leg Pouch (Right),
+        CanBeEquipped = SLEOThighRightPlus,
+        ClothingItemExtra = GreenLegPouch_LLeg,
+        ClothingItemExtraOption = LeftLeg,
+        ClothingExtraSubmenu = RightLeg,
+        WeightReduction	=	30,
+        Weight	=	0.2,
+        Capacity	=	3,
+        Icon	=	GreenLegPouch,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        WorldStaticModel = GreenLegPouch_WorldItem,
+    }
+
+        item GreenLegPouch_LLeg
+    {
+      	DisplayCategory = Bag,
+        Type = Container,
+        ClothingItem = GreenLegPouch_Left,
+        DisplayName = Green Leg Pouch (Left),
+        CanBeEquipped = SLEOThighLeftPlus,
+        ClothingItemExtra = GreenLegPouch_RLeg,
+        ClothingItemExtraOption = RightLeg,
+        ClothingExtraSubmenu = LeftLeg,
+        WeightReduction	=	30,
+        Weight	=	0.2,
+        Capacity	=	3,
+        Icon	=	GreenLegPouch,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        WorldStaticModel = GreenLegPouch_WorldItem,
+    }
+
+  }
+

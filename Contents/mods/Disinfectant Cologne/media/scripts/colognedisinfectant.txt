@@ -1,0 +1,18 @@
+module Base {
+
+    item Cologne
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.2,
+        Type	=	Drainable,
+        DisplayName	=	Cologne,
+        Icon	=	Cologne,
+        WorldStaticModel = Cologne,
+        UseDelta	        =	        0.3,
+        UseWhileEquipped	=           FALSE,
+        AlcoholPower        =           2,
+        Tooltip = Tooltip_Disinfectant,
+        Medical = TRUE,
+        Tags = Disinfectant,
+    }
+}

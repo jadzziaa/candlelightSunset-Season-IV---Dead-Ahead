@@ -1,0 +1,12 @@
+Farming_EN = {
+  Farming_CoffeeFruit = "Coffee",
+  Farming_Tree-CoffeeFruit = "Coffee Tree",
+
+  Farming_State_Seedling = "Seedling",
+  Farming_State_Young = "Young",
+  Farming_State_Mature = "Mature",
+  Farming_State_Blooming = "Blooming",
+  Farming_State_Fruit-bearing = "Fruit bearing",
+  Farming_State_Seed-bearing = "Seed bearing",
+  Farming_State_Old  = "Old",
+}

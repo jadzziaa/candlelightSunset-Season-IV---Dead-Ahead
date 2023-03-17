@@ -1,0 +1,30 @@
+module Base
+{
+
+recipe Craft Fanny Pack
+ 	{
+		DenimStrips=3,
+        	keep Scissors,
+        	keep Needle/SutureNeedle,
+        	Thread=2,
+        	Belt/Belt2,
+		Result: Bag_FannyPackFront,
+		Time:10.0,
+		Category:Tailoring,
+        	SkillRequired:Tailoring=1
+ 	}
+
+
+recipe Craft Respawn Token
+ 	{
+		keep Scissors,
+		RippedSheets=1,
+		Result: Respawn_Token,
+		Time:400.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnToken,
+ 	}
+
+
+}

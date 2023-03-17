@@ -1,0 +1,7 @@
+UI_JP = {
+	UI_HWMallet = "手作りマレット",
+	UI_HW_SharpedStonePrior = "工作の優先順位"
+	UI_HW_SharpedStonePrior_Tooltip = "クラフトには刃物の代わりに鋭利な石を使用する"
+	UI_HW_SharpedStoneUnprior = "クラフトの優先順位を削除"
+	UI_HW_SharpedStoneUnprior_Tooltip = "クラフトには鋭利な石の代わりに刃物を使う"
+}

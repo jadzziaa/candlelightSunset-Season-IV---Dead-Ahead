@@ -1,0 +1,14 @@
+module Base 
+{
+
+item Respawn_Token
+	{
+	    DisplayCategory = 	Material,
+		Weight		=	0.05,
+		CanStack	=	FALSE,
+		DisplayName	=	Respawn Token,
+		Icon		=	Respawn_Token,
+		Tooltip 	= 	Tooltip_RespawnToken,
+	}
+
+}

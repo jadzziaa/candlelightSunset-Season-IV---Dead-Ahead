@@ -1,0 +1,101 @@
+module TKS
+{
+	imports
+	{
+		Base
+	}
+
+	recipe Make Knife Sheath
+	{
+		Belt2,
+		LeatherStrips=4,
+		Thread=4,
+	    keep Scissors,
+		keep Needle,
+
+		Result 				: KnifeSheathBack,
+		Time 				: 400,
+		Category    		: Survivalist,
+		SkillRequired 		: Tailoring=2,
+		AnimNode 			: Disassemble,
+		Prop1 				: Needle,
+	}	
+	
+	recipe Make Katana Sheath
+	{
+		Belt2,
+		LeatherStrips=8,
+		Thread=8,
+		RippedSheets=10,
+	    keep Scissors,
+		keep Needle,
+
+		Result 				: KatanaSheath,
+		Time 				: 500,
+		Category    		: Survivalist,
+		SkillRequired 		: Tailoring=2,
+		AnimNode 			: Disassemble,
+		Prop1 				: Needle,
+	}	
+	
+	recipe Paint Katana Sheath Green
+	{
+		KatanaSheath/KatanaSheathRed/KatanaSheathBlack/KatanaSheathBlue/KatanaSheathWhite,
+		PaintGreen,
+		
+		Result 				: KatanaSheathGreen,
+		Time 				: 500,
+		AnimNode 			: Disassemble,
+	}
+	
+	recipe Paint Katana Sheath Red
+	{
+		KatanaSheath/KatanaSheathGreen/KatanaSheathBlack/KatanaSheathBlue/KatanaSheathWhite,
+		PaintRed,
+		
+		Result 				: KatanaSheathRed,
+		Time 				: 500,
+		AnimNode 			: Disassemble,
+	}	
+	
+	
+	recipe Paint Katana Sheath Black
+	{
+		KatanaSheath/KatanaSheathGreen/KatanaSheathRed/KatanaSheathBlue/KatanaSheathWhite,
+		PaintBlack,
+		
+		Result 				: KatanaSheathBlack,
+		Time 				: 500,
+		AnimNode 			: Disassemble,
+	}
+	
+	recipe Paint Katana Sheath Blue
+	{
+		KatanaSheath/KatanaSheathGreen/KatanaSheathRed/KatanaSheathBlack/KatanaSheathWhite,
+		PaintBlue,
+		
+		Result 				: KatanaSheathBlue,
+		Time 				: 500,
+		AnimNode 			: Disassemble,
+	}
+	
+	recipe Paint Katana Sheath White
+	{
+		KatanaSheath/KatanaSheathGreen/KatanaSheathRed/KatanaSheathBlack/KatanaSheathBlue,
+		PaintWhite,
+		
+		Result 				: KatanaSheathWhite,
+		Time 				: 500,
+		AnimNode 			: Disassemble,
+	}
+	
+	recipe Wash Off the Paint
+	{
+		KatanaSheathWhite/KatanaSheathGreen/KatanaSheathRed/KatanaSheathBlack/KatanaSheathBlue,
+		Bleach,
+		
+		Result 				: KatanaSheath,
+		Time 				: 500,
+		AnimNode 			: Disassemble,
+	}	
+}

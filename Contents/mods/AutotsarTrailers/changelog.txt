@@ -1,0 +1,225 @@
+v.1.40
+2023-01-03
+
+Исправлена работа багажника у бочки с топливом (спасибо Lexx https://steamcommunity.com/id/MrLexx).
+Добавлены анимации для капотов и багажников (спасибо Lexx).
+В прицеп-генератор теперь можно устанавливать аккумуляторы от разных типов автомобилей.
+
+Corrected the trunk operation at the fuel tanker (thanks to Lexx https://steamcommunity.com/id/MrLexx).
+Added animations for hood and trunk (thanks to Lexx).
+Batteries from different vehicle types can now be installed in the generator trailer.
+
+-------------------
+
+v.1.39
+2022-01-20
+
+Переводы перенесены в tsarslib.
+Уменьшен спавн прицепов.
+Исправлено: не запускается генератор в кемпере.
+Исправлено: цистерны восстанавливают топливо при инициализации.
+
+Translations transferred to tsarslib.
+The trailer spawn has been reduced.
+Fixed: the generator in the camper does not start.
+Fixed: cistern recovers fuel during initialization.
+
+-------------------
+
+v.1.38
+2021-12-29
+
+Изменена логика работы прицепа-генератора.
+Управление прицепом-генератором перенесено в радиальное меню.
+Исправлены ошибки с зарядкой аккумуляторов в мультиплеере.
+Исправлена ошибка с появлением обычных генераторов.
+
+Changed the trailer-generator logic.
+The trailer-generator control has been moved to the radial menu.
+Fixed errors with battery charging in multiplayer.
+Fixed a bug with the appearance of normal generators.
+
+-------------------
+
+v.1.37
+
+Исправлены физические размеры колес.
+Увеличен шанс спавна цистерны и генератора.
+Переименованы файлы скриптов.
+Улучшены физические размеры дышла.
+
+Fixed the physical size of the wheels.
+Increased chance of tanker and generator spawning.
+Renamed script files.
+Improved physical dimensions of drawbar.
+-------------------
+v.1.36
+Добавлен испанский перевод.
+
+Added Spanish translation.
+
+Thanks Siowar.
+-------------------
+v.1.35
+Исправлен спавн некоторых прицепов.
+
+Fixed spawn some trailers.
+-------------------
+v.1.34
+Улучшен крепеж прицепов к автомобилям.
+Починен холодильник.
+
+Improved fastening of trailers to vehicles.
+The refrigerator was repaired.
+-------------------
+v.1.33
+Исправлены звуки прицепа-генератора.
+Исправлены ошибки связанный с прицепом-генератором.
+
+Fixed the sounds of the generator trailer.
+Fixed bugs related to generator trailer.
+-------------------
+v.1.32
+Выполнена интеграция с обновленной общей библиотекой.
+
+Integration with the updated common library.
+-------------------
+v.1.31
+Fixed incompatibility with Filibuster cars.
+-------------------
+v.1.30
+Добавлены правильные тени для прицепов.
+
+Added correct shadows for trailers.
+-------------------
+v.1.29.5
+New Ilya-1990: Explorer and Hartman.
+-------------------
+v.1.29.4
+The towbar has been returned to its rightful place.
+-------------------
+v.1.29.3
+We continue to improve the appearance of our trailers.
+-------------------
+v.1.29.2
+With the last design update, we found that all the old trailers suddenly decided to become camouflage. The problem has been fixed. In addition, our engineers have finally found the causes of blackening of trailer parts and eliminated it.
+-------------------
+v.1.29.1
+Our old designer didn’t show up for work in full. His arm was missing, his left leg was slightly gnawed, he moved not quite naturally, he made only one sound: "Hrrrr" and wanted to bite everyone a little. Given these circumstances, the designer had to be sent on an indefinite leave to rest and gain strength. So we had to hire a new designer who immediately got to work and refreshed the look of our trailers.
+
+The first batch of updated trailers has already arrived at our dealerships. Come, choose, buy.
+-------------------
+v.1.28
+Fixed compatibility issues with new Filibuster Rhymes vehicles.
+Common library removed. Don't forget to subscribe: https://steamcommunity.com/workshop/filedetails/?id=2392709985
+-------------------
+v.1.27.2
+The exhaust fumes from our generator were damaging the Chinese crops. We installed a new catalytic converter and the problem went away. Thanks to the vigilant users who promptly reported and assisted in solving this problem.
+-------------------
+v.1.27
+We've heard customer complaints about our generator for a long time. Everyone was not happy, but no one could explain what exactly. And finally, a responsible buyer was found, who officially turned to the service center and described the problem in detail. We are glad to announce that we have found and eliminated a malfunction leading to the shutdown of the generator in the absence of its owner. And also, we stopped the reproduction of our generators. Please return all "childGEN" back to our factory.
+
+In addition, all other trailers have been serviced. The wheelsets are reinforced, so you no longer want to suddenly exit the game (fixed a crash when vehicle stories with a trailer appeared).
+-------------------
+v.1.26
+Connected to the common library.
+-------------------
+v.1.25
+The hometrailer seats are again removable.
+-------------------
+v.1.24
+Update of model "iLYA-1990":
+- improved door locks. Uninvited guests will no longer be able to enter the trailer through unlocked emergency exits
+- installed a new stove with built-in timer and temperature control
+- added first aid kit
+- switch is installed for the refrigerator. Now you don't have to waste your battery unnecessarily
+- new extremely irreplaceable device has been installed!
+
+The material of all our trailers has been improved and will no longer be subject to darkening and blackening.
+In addition, the unusual behavior of the plain fridge has been fixed.
+
+Added brochure and user manual in Italian. The team Autotsar Trailers Inc. thanks @thedarklordkitten for the translation.
+-------------------
+v.1.23
+Added battery charger in generator trailer.
+The windows in the camper are made openable.
+-------------------
+v.1.22
+Mobile generator added to catalog.
+-------------------
+v.1.21
+Improved camper insulation. Now you will feel the effect of the heater.
+-------------------
+v.1.20
+Hotfix released. For save your saves.
+-------------------
+v.1.19
+Fixed a very serious flaw in our trailers related to "Random Vehicle Story". Urgently contact the service center to replace the trailers under warranty.
+
+WARNING! Before upgrading to v.1.19, get ready for your trailers to disappear.
+-------------------
+v.1.18
+Extra spare parts have been removed from the trailers. Reduced KBAC hose length.
+-------------------
+v.1.17
+Fixed shortcomings of trailers in cooperation with Eggon's Worthwile Cars.
+-------------------
+v.1.16
+Betriebsanleitung added for trailers. The team Autotsar Trailers Inc. thanks @0xM4RC3L for the translation.
+-------------------
+v.1.15
+The electrical wiring was replaced in Autotsar iLYA-1990. You will no longer worry about a non-working refrigerator.
+-------------------
+v.1.14
+Polish manual added for trailers. The team Autotsar Trailers Inc. thanks @geras for the translation.
+-------------------
+v.1.12
+The ignition lock mechanism in Autotsar iLYA-1990 is simplified. 
+Now you can start the generator using the available tools.
+-------------------
+v.1.11 Hotfix
+-------------------
+v.1.10
+In order to improve speed characteristics, one axle is installed on all trailers instead of two.
+-------------------
+v.1.09
+-------------------
+v.1.08
+We were forced to terminate cooperation with the company Vehicles Additions (https://steamcommunity.com/sharedfiles/filedetails/?Id=2094336923). The reason is their reluctance to get in touch on the issue of replacing a number of defective spare parts. In this regard, we had to copy their drawings, modify them on our own and start our own production. The entire batch of new trailers has been recalled and replaced under our extended warranty.
+
+P.S. We thank Vehicles Additions for the previous work. Without them, we would not have been able to found our company. It's a pity that we parted ways.
+-------------------
+v.1.07
+We are glad to inform you about the update of our trailers. See the full list of improvements below.
+
+Autotsar GNV:
+- the Autotsar GNV-300 trailer was replaced by its updated model - GNV-250, the Autotsar GNV-600 trailer was replaced by its updated model - GNV-500. In the new versions, the frame design has been redesigned, thanks to which we were able to achieve better dynamic performance, but at the same time we had to sacrifice capacity.
+- for each trailer we have attached an information table on self-repair of the body. Now you can easily repair your trailer by finding the necessary items.
+
+Autotsar iLYA-1990:
+- installed unified seats;
+- to replace windows, you no longer need doors;
+- a trunk opening button is installed in the front of the cabin;
+- now you can independently adapt any refrigerator and stove for use in a camper.
+
+Kingly Benzin Amazing Cistern:
+- the frame design has been changed. One axle was removed, new wheels of increased diameter with studded all-season tires were installed;
+- now our tanks are available in several colors.
+
+Thank you for your feedback and suggestions. We are glad that you remain our client.
+-------------------
+v.1.06
+-------------------
+v.1.05
+-------------------
+v.1.04
+-------------------
+v.1.03
+-------------------
+v.1.02
+Added a new position to the catalog:
+Autotsar KBAC.
+-------------------
+v.1.01 Spawn chance change.
+-------------------
+v1.0

@@ -1,0 +1,61 @@
+module Base
+{	
+
+	item Makeup_LipsScar
+    {
+        DisplayCategory = Appearance,
+        Type = Clothing,
+        ClothingItem = MakeUp_LipsScar,
+        BodyLocation = MakeUp_Lips,
+    }
+	item Makeup_NoseScar
+    {
+        DisplayCategory = Appearance,
+        Type = Clothing,
+        ClothingItem = MakeUp_NoseScar,
+        BodyLocation = MakeUp_FullFace,
+    }
+	item Makeup_EyeScar
+    {
+        DisplayCategory = Appearance,
+        Type = Clothing,
+        ClothingItem = MakeUp_EyeScar,
+        BodyLocation = MakeUp_Eyes,
+    }
+	item Makeup_ChestScar
+    {
+        DisplayCategory = Appearance,
+        Type = Clothing,
+        ClothingItem = MakeUp_ChestScar,
+        BodyLocation = MakeUp_FullFace,
+    }
+	item Makeup_CheekBoneScar
+    {
+        DisplayCategory = Appearance,
+        Type = Clothing,
+        ClothingItem = MakeUp_CheekBoneScar,
+        BodyLocation = MakeUp_FullFace,
+    }
+	item Makeup_BrowScar
+    {
+        DisplayCategory = Appearance,
+        Type = Clothing,
+        ClothingItem = MakeUp_BrowScar,
+        BodyLocation = MakeUp_Eyes,
+    }
+	item Makeup_BodyScars
+    {
+        DisplayCategory = Appearance,
+        Type = Clothing,
+        ClothingItem = MakeUp_BodyScars,
+        BodyLocation = MakeUp_FullFace,
+    }
+	item Makeup_Bandages
+    {
+        DisplayCategory = Appearance,
+        Type = Clothing,
+        ClothingItem = MakeUp_Bandages,
+        BodyLocation = MakeUp_FullFace,
+    }
+
+}

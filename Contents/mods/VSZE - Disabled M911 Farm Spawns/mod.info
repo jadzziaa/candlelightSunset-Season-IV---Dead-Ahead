@@ -1,0 +1,9 @@
+name=Vehicle Spawn Zones Expanded - Oshkosh M911 Disabled Farm Spawns
+poster=preview.png
+versionMin=41.60
+id=fhqExpVehSpawnM911FarmDisable
+authors=fhqwhgads
+tags=Vehicles, Map
+modVersion=1.0.0
+description=Disables the Farm spawns for the Oshkosh M911.
+require=fhqExpVehSpawn,82oshkoshM911

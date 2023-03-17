@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\riddingboots_male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\riddingboots_female.fbx</m_FemaleModel>
+	<m_GUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/longboots</m_UnderlayMasksFolder>
+	<textureChoices>blackboots0</textureChoices>
+	<textureChoices>blackboots4</textureChoices>
+	<textureChoices>blackboots7</textureChoices>
+	<textureChoices>shoesblack2</textureChoices>
+	<textureChoices>brownboots1</textureChoices>
+	<textureChoices>brownboots3</textureChoices>
+	<textureChoices>brownboots6</textureChoices>
+	<textureChoices>shoesbrown</textureChoices>
+</clothingItem>

@@ -1,0 +1,6 @@
+
+IGUI_EN = {
+
+    IGUI_ItemCat_Armor = "Armor"
+
+}

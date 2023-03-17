@@ -1,0 +1,3 @@
+ItemName_EN = {
+	ItemName_BicPen.BicPen = "4-Color Bic Pen",
+}

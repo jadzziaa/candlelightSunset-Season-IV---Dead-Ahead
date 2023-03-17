@@ -1,0 +1,3 @@
+ContextMenu_PTBR = {
+    ContextMenu_VehicleHotwireSkillEH = "Voc� precisa das chaves ou<br>El�trica n�vel ? e<br>Mec�nica n�vel ?<br>para liga��o direta.",
+}

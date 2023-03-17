@@ -1,0 +1,56 @@
+module CardsCrafts{
+    imports{
+        Base
+    }
+
+    item CardBoxClassicSealed
+    {
+		Type = Normal,
+		DisplayName	= Sealed Pack of Playing Cards (Classic),
+		Icon = cardboxsealed,
+		Weight = 0.15,
+    StaticModel = CardDeck,
+    WorldStaticModel = CardDeck,
+    }
+
+    item CardBoxClassic
+    {
+		Type = Normal,
+		DisplayName	= Full Pack of Playing Cards (Classic),
+		Icon = cardboxfull,
+		Weight = 0.14,
+    StaticModel = CardDeck,
+    WorldStaticModel = CardDeck,
+    }
+
+    item CardBoxClassicEmpty
+    {
+		Type = Container,
+    WeightReduction = 100,
+    Capacity = 1,
+		DisplayName	= Pack of Playing Cards (Classic),
+		Icon = cardboxempty,
+		Weight = 0.08,
+    StaticModel = CardDeck,
+    WorldStaticModel = CardDeck,
+    }
+
+    recipe Unseal Pack of Cards
+    {
+        CardBoxClassicSealed,
+
+        Result:CardBoxClassic,
+        Sound:SliceBread,
+        Time:100.0,
+    }
+
+    recipe Take Cards from Pack
+    {
+        CardBoxClassic,
+
+        Result:CardBoxClassicEmpty,
+        OnCreate:recipe_TakeCardsClassic,
+        Sound:SliceBread,
+        Time:100.0,
+    }
+}

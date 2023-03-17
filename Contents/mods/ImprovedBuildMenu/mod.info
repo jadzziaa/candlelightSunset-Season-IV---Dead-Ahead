@@ -1,0 +1,10 @@
+name=Improved Build Menu [Build 41.73] 
+id=ImprovedBuildMenuFallen
+author=Vaileasys
+author=Fallen
+poster=preview.png
+description=<RGB:1,1,0.5>Made for Build 41.<LINE><LINE><RGB:1,0,0>Requires Item Tweaker API<LINE><LINE><RGB:0.7,0.7,0.7>This mod is an updated version of Improved Build Menu [Build 41] by Vaileasys <LINE><LINE><RGB:0.7,0.7,0.7>This mod adjusts the current game's build menu for both Carpentry and Metalworking, along with adding some new buildables.<LINE><LINE>Changes include: reorganised build menus, renamed objects, added/changed tooltip descriptions, added container capacities and more. Metal pipe and metal bar can now be crafted after reading 'Metalwork Magazine Vol. 4' - crafted with empty tin cans and empty pop cans.
+pack=milcrates
+tiledef=milcratedefs 1944
+tiledef=ibmdefs 1875
+require=ItemTweakerAPI

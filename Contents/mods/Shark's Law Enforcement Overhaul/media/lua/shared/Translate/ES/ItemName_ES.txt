@@ -1,0 +1,65 @@
+ItemName_ES = {
+
+	/* Bags */
+	ItemName_SLEOClothing.Bag_DuffelPolice = "Bolsa de deporte policial",
+	ItemName_SLEOClothing.Bag_DuffelSheriff = "Bolsa de deporte de sheriff",
+	ItemName_SLEOClothing.Bag_PoliceUtilityBag = "Mochila negra de utilidad",
+	ItemName_SLEOClothing.Bag_PoliceUtilityBagGreen = "Mochila verde de utilidad",
+	
+	ItemName_SLEOClothing.BlackLegPouch_RLeg = "Bolso negro para pierna (Derecha)",
+	ItemName_SLEOClothing.BlackLegPouch_LLeg = "Bolso negro para pierna (Izquierda)",
+	ItemName_SLEOClothing.GreenLegPouch_RLeg = "Bolso verde para pierna (Derecha)",
+	ItemName_SLEOClothing.GreenLegPouch_LLeg = "Bolso verde para pierna (Izquierda)",
+	
+	/* Hats and Helmets */
+	ItemName_SLEOClothing.Hat_PatrolCapPolice = "Gorra de patrulla policial",
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceReversed = "Gorra de patrulla policial (Hacia atrás)",
+	ItemName_SLEOClothing.Hat_PatrolCapSheriff = "Gorra de patrulla de sheriff",
+	ItemName_SLEOClothing.Hat_PatrolCapSheriffReversed = "Gorra de patrulla de sheriff (Hacia atrás)",
+	ItemName_SLEOClothing.Hat_PoliceBaseballCap = "Gorra de béisbol policial",
+	ItemName_SLEOClothing.Hat_PoliceBaseballCapReversed = "Gorra de béisbol policial (Hacia atrás)",
+	ItemName_SLEOClothing.Hat_SheriffBaseballCap = "Gorra de béisbol de sheriff",
+	ItemName_SLEOClothing.Hat_SheriffBaseballCapReversed = "Gorra de béisbol de sheriff (Hacia atrás)",
+	ItemName_SLEOClothing.Hat_PoliceHelmet = "Casco policial",
+	ItemName_SLEOClothing.Hat_PoliceHelmetStrapless = "Casco policial (Desabrochado)",
+	ItemName_SLEOClothing.Hat_PoliceHelmetGoggles = "Casco policial con gafas antipolvo",
+	ItemName_SLEOClothing.Hat_PoliceHelmetGogglesStrapless = "Casco policial con gafas antipolvo (Desabrochado)",
+	ItemName_SLEOClothing.Hat_PoliceRiotHelmet = "Casco antidisturbios",
+	ItemName_SLEOClothing.Hat_PoliceRiotHelmetUP = "Casco antidisturbios (Visor arriba)",
+	
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceBlack = "Gorra negra de patrulla policial",
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceBlackReversed = "Gorra negra de patrulla policial (Hacia atrás)",
+	
+	/* Jackets */
+	ItemName_SLEOClothing.Jacket_PoliceTactical = "Chaqueta táctica policial azul",
+	ItemName_SLEOClothing.Jacket_PoliceTacticalRolled = "Chaqueta táctica policial azul (Arremangada)",
+	ItemName_SLEOClothing.Jacket_SheriffTactical = "Chaqueta táctica de sheriff",
+	ItemName_SLEOClothing.Jacket_SheriffTacticalRolled = "Chaqueta táctica de sheriff (Arremangada)",
+	
+	ItemName_SLEOClothing.Jacket_PoliceTacticalBlack = "Chaqueta táctica policial negra",
+	ItemName_SLEOClothing.Jacket_PoliceTacticalBlackRolled = "Chaqueta táctica policial negra (Arremangada)",
+	
+	/* Vests */
+	ItemName_SLEOClothing.PoliceTacticalVest = "Chaleco táctico policial",
+	
+	ItemName_SLEOClothing.TacticalVestUpperArm = "Hombreras tácticas",
+	ItemName_SLEOClothing.KneePads = "Rodilleras",
+	ItemName_SLEOClothing.ElbowPads = "Coderas",
+	
+	/* Pants */
+	ItemName_SLEOClothing.Trousers_PoliceTactical = "Pantalones tácticos policiales azules",
+	ItemName_SLEOClothing.Trousers_PoliceTacticalTucked = "Pantalones tácticos policiales azules (Enrollados)",
+	ItemName_SLEOClothing.Trousers_SheriffTactical = "Pantalones tácticos de sheriff",
+	ItemName_SLEOClothing.Trousers_SheriffTacticalTucked = "Pantalones tácticos de sheriff (Enrollados)",
+	
+	ItemName_SLEOClothing.Trousers_PoliceTacticalBlack = "Pantalones tácticos policiales negros",
+	ItemName_SLEOClothing.Trousers_PoliceTacticalBlackTucked = "Pantalones tácticos policiales negros (Enrollados)",
+	
+	/* Accessories */
+	ItemName_SLEOClothing.Hat_PoliceBalaclava = "Pasamontañas policial",
+	ItemName_SLEOClothing.TacticalGoggles = "Gafas antipolvo",
+	ItemName_SLEOClothing.Hat_PoliceM17 = "Máscara de gas M17",
+	ItemName_SLEOClothing.PoliceDutyBelt = "Cinturón de servicio",
+	ItemName_SLEOClothing.Gloves_TacticalGloves = "Guantes tácticos",
+	ItemName_SLEOClothing.Shoes_TacticalBoots = "Botas tácticas",
+} 

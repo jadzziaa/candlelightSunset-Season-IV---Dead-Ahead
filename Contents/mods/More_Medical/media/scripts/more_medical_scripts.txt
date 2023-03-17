@@ -1,0 +1,518 @@
+module MoreMedical
+{
+    model MM_PillsCommercialPainkillers
+    {
+        mesh = WorldItems/PainKillers,
+        texture = WorldItems/MM_PillsCommercialPainkillers,
+        scale = 0.4,
+    }
+    
+    item PillsCommercialPainkillers
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.2,
+        Type    =    Drainable,
+        UseDelta    =    0.1,
+        UseWhileEquipped    =    FALSE,
+        DisplayName    =    CommercialPainkillers,
+        Icon    =    PillsCommercialPainkillers,
+        Tooltip = Tooltip_PillsCommercialPainkillers,
+        StaticModel = PillBottle,
+        WorldStaticModel = MM_PillsCommercialPainkillers,
+        Medical = TRUE,
+    }
+    
+    model MM_PillsPrescriptionPainkillers
+    {
+        mesh = WorldItems/PainKillers,
+        texture = WorldItems/MM_PillsPrescriptionPainkillers,
+        scale = 0.4,
+    }
+    
+    item PillsPrescriptionPainkillers
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.2,
+        Type    =    Drainable,
+        UseDelta    =    0.1,
+        UseWhileEquipped    =    FALSE,
+        DisplayName    =    PillsPrescriptionPainkillers,
+        Icon    =    PillsPrescriptionPainkillers,
+        Tooltip = Tooltip_PillsPrescriptionPainkillers,
+        StaticModel = PillBottle,
+        WorldStaticModel = MM_PillsPrescriptionPainkillers,
+        Medical = TRUE,
+    }
+    
+    model MM_PillsCaffeine
+    {
+        mesh = WorldItems/PainKillers,
+        texture = WorldItems/MM_PillsCaffeine,
+        scale = 0.4,
+    }
+    
+    item PillsCaffeine
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.2,
+        Type    =    Drainable,
+        UseDelta    =    0.1,
+        UseWhileEquipped    =    FALSE,
+        DisplayName    =    PillsCaffeine,
+        Icon    =    PillsCaffeine,
+        Tooltip = Tooltip_PillsCaffeine,
+        StaticModel = PillBottle,
+        WorldStaticModel = MM_PillsCaffeine,
+        Medical = TRUE,
+    }
+    
+    model MM_PillsCommercialAntibiotic
+    {
+        mesh = WorldItems/Antibiotics,
+        texture = WorldItems/MM_PillsCommercialAntibiotic,
+        scale = 0.6,
+    }
+    
+    item PillsCommercialAntibiotic
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.2,
+        Type    =    Drainable,
+        UseDelta    =    1,
+        UseWhileEquipped    =    FALSE,
+        DisplayName    =    PillsCommercialAntibiotic,
+        Icon    =    PillsCommercialAntibiotic,
+        Tooltip = Tooltip_PillsCommercialAntibiotic,
+        StaticModel = PillBottle,
+        WorldStaticModel = MM_PillsCommercialAntibiotic,
+        Medical = TRUE,
+    }
+    
+    model MM_PillsAntiPoisoning
+    {
+        mesh = WorldItems/PainKillers,
+        texture = WorldItems/MM_PillsAntiPoisoning,
+        scale = 0.4,
+    }
+    
+    item PillsAntiPoisoning
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.2,
+        Type    =    Drainable,
+        UseDelta    =    0.1,
+        UseWhileEquipped    =    FALSE,
+        DisplayName    =    PillsAntiPoisoning,
+        Icon    =    PillsAntiPoisoning,
+        Tooltip = Tooltip_PillsAntiPoisoning,
+        StaticModel = PillBottle,
+        WorldStaticModel = MM_PillsAntiPoisoning,
+        Medical = TRUE,
+    }
+    
+    model MM_PillsCommercialSedative
+    {
+        mesh = WorldItems/PainKillers,
+        texture = WorldItems/MM_PillsCommercialSedative,
+        scale = 0.4,
+    }
+    
+    item PillsCommercialSedative
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.2,
+        Type    =    Drainable,
+        UseDelta    =    0.1,
+        UseWhileEquipped    =    FALSE,
+        DisplayName    =    PillsCommercialSedative,
+        Icon    =    PillsCommercialSedative,
+        Tooltip = Tooltip_PillsCommercialSedative,
+        StaticModel = PillBottle,
+        WorldStaticModel = MM_PillsCommercialSedative,
+        Medical = TRUE,
+    }
+    
+    item PillsPharmacyPrescription
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.2,
+        Type    =    Drainable,
+        UseDelta    =    0.1,
+        UseWhileEquipped    =    FALSE,
+        DisplayName    =    PillsPharmacyPrescription,
+        Icon    =    PillsPharmacyPrescription,
+        Tooltip = Tooltip_PillsPharmacyPrescription,
+        StaticModel = PillBottle,
+        WorldStaticModel = PainKillers_Ground,
+        Medical = TRUE,
+    }
+    
+    model MM_Syrette
+    {
+        mesh = WorldItems/MM_Syrette,
+        texture = WorldItems/MM_Syrette,
+        scale = 0.001,
+    }
+    
+    item SyretteHighGradePainkillers
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.05,
+        HungerChange    =   0,
+        Type    =    Food,
+        DisplayName    =    SyretteHighGradePainkillers,
+        CustomEatSound = ,
+        StressChange    =   10,
+        EatType = mmsyrette,
+        CustomContextMenu = Inject,
+        OnEat = OnEat_SyretteHighGradePainkillers,
+        Icon    =    SyretteHighGradePainkillers,
+        Tooltip = Tooltip_SyretteHighGradePainkillers,
+        WorldStaticModel = MM_Syrette,
+        Medical = TRUE,
+    }
+    
+    item SyretteAdrenalin
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.05,
+        HungerChange    =   0,
+        Type    =    Food,
+        DisplayName    =    SyretteAdrenalin,
+        CustomEatSound = ,
+        StressChange    =   10,
+        EatType = mmsyrette,
+        CustomContextMenu = Inject,
+        OnEat = OnEat_SyretteAdrenalin,
+        Icon    =    SyretteAdrenalin,
+        Tooltip = Tooltip_SyretteAdrenalin,
+        WorldStaticModel = MM_Syrette,
+        Medical = TRUE,
+    }
+    
+    item SyrettePrescriptionAntibiotic
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.05,
+        HungerChange    =   0,
+        Type    =    Food,
+        DisplayName    =    SyrettePrescriptionAntibiotic,
+        CustomEatSound = ,
+        StressChange    =   10,
+        EatType = mmsyrette,
+        CustomContextMenu = Inject,
+        OnEat = OnEat_SyrettePrescriptionAntibiotic,
+        Icon    =    SyrettePrescriptionAntibiotic,
+        Tooltip = Tooltip_SyrettePrescriptionAntibiotic,
+        WorldStaticModel = MM_Syrette,
+        Medical = TRUE,
+    }
+    
+    item SyrettePrescriptionSedatives 
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.05,
+        HungerChange    =   0,
+        Type    =    Food,
+        DisplayName    =    SyrettePrescriptionSedatives,
+        CustomEatSound = ,
+        StressChange    =   10,
+        EatType = mmsyrette,
+        CustomContextMenu = Inject,
+        OnEat = OnEat_SyrettePrescriptionSedatives,
+        Icon    =    SyrettePrescriptionSedatives,
+        Tooltip = Tooltip_SyrettePrescriptionSedatives,
+        WorldStaticModel = MM_Syrette,
+        Medical = TRUE,
+    }
+    
+    model MM_BottleFluMedication
+    {
+        mesh = WorldItems/Bottle,
+        texture = WorldItems/MM_BottleFluMedication,
+        scale = 0.3,
+    }
+    
+    item BottleFluMedication
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.1,
+        HungerChange    =   0,
+        Type    =    Food,
+        DisplayName    =    BottleFluMedication,
+        CustomEatSound = ,
+        EatType = popcan,
+        CustomContextMenu = Drink,
+        OnEat = OnEat_BottleFluMedication,
+        Icon    =    BottleFluMedication,
+        Tooltip = Tooltip_BottleFluMedication,
+        WorldStaticModel = MM_BottleFluMedication,
+        Medical = TRUE,
+    }
+    
+    model MM_PowderPackFluMedication
+    {
+        mesh = WorldItems/ColdPack,
+        texture = WorldItems/MM_PowderPackFluMedication,
+        scale = 0.15,
+    }
+    
+    item PowderPackFluMedication
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.1,
+        Type    =    Normal,
+        DisplayName    =    PowderPackFluMedication,
+        Icon    =    PowderPackFluMedication,
+        Tooltip = Tooltip_PowderPackFluMedication,
+        WorldStaticModel = MM_PowderPackFluMedication,
+        Medical = TRUE,
+    }
+    
+    recipe Make HotDrinkFluMedication
+    {
+        destroy WaterMug,
+        PowderPackFluMedication,
+        Result:HotDrinkFluMedicationMug,
+        Time:50.0,
+    }
+    
+    item HotDrinkFluMedicationMug
+    {
+        DisplayName = HotDrinkFluMedication,
+        DisplayCategory = FirstAid,
+        Type = Food,
+        Weight = 0.5,
+        Icon = MugFulll,
+        GoodHot = true,
+        IsCookable = true,
+        ReplaceOnUse = Base.Mugl,
+        MinutesToCook = 5,
+        MinutesToBurn = 15,
+        ThirstChange = -20,
+        UnhappyChange = -10,
+        CustomContextMenu = Drink,
+        OnEat = OnEat_HotDrinkFluMedication,
+        CustomEatSound = DrinkingFromCan,
+        StaticModel = Mug,
+        WorldStaticModel = Mug,
+    }
+    
+    recipe Make HotDrinkFluMedication
+    {
+        destroy WaterMugRed,
+        PowderPackFluMedication,
+        Result:HotDrinkFluMedicationMugRed,
+        Time:50.0,
+    }
+    
+    item HotDrinkFluMedicationMugRed
+    {
+        DisplayName = HotDrinkFluMedication,
+        DisplayCategory = FirstAid,
+        Type = Food,
+        Weight = 0.5,
+        Icon = MugRedFull,
+        GoodHot = true,
+        IsCookable = true,
+        ReplaceOnUse = Base.MugRed,
+        MinutesToCook = 5,
+        MinutesToBurn = 15,
+        ThirstChange = -20,
+        UnhappyChange = -10,
+        CustomContextMenu = Drink,
+        OnEat = OnEat_HotDrinkFluMedication,
+        CustomEatSound = DrinkingFromCan,
+        StaticModel = MugRed,
+        WorldStaticModel = MugRed,
+    }
+    
+    recipe Make HotDrinkFluMedication
+    {
+        destroy WaterMugWhite,
+        PowderPackFluMedication,
+        Result:HotDrinkFluMedicationMugWhite,
+        Time:50.0,
+    }
+    
+    item HotDrinkFluMedicationMugWhite
+    {
+        DisplayName = HotDrinkFluMedication,
+        DisplayCategory = FirstAid,
+        Type = Food,
+        Weight = 0.5,
+        Icon = MugWhiteFull,
+        GoodHot = true,
+        IsCookable = true,
+        ReplaceOnUse = Base.MugWhite,
+        MinutesToCook = 5,
+        MinutesToBurn = 15,
+        ThirstChange = -20,
+        UnhappyChange = -10,
+        CustomContextMenu = Drink,
+        OnEat = OnEat_HotDrinkFluMedication,
+        CustomEatSound = DrinkingFromCan,
+        StaticModel = MugWhite,
+        WorldStaticModel = MugWhite,
+    }
+    
+    recipe Make HotDrinkFluMedication
+    {
+        destroy WaterMugSpiffo,
+        PowderPackFluMedication,
+        Result:HotDrinkFluMedicationMugSpiffo,
+        Time:50.0,
+    }
+    
+    item HotDrinkFluMedicationMugSpiffo
+    {
+        DisplayName = HotDrinkFluMedication,
+        DisplayCategory = FirstAid,
+        Type = Food,
+        Weight = 0.5,
+        Icon = MugSpiffoFull,
+        GoodHot = true,
+        IsCookable = true,
+        ReplaceOnUse = Base.MugSpiffo,
+        MinutesToCook = 5,
+        MinutesToBurn = 15,
+        ThirstChange = -20,
+        UnhappyChange = -10,
+        CustomContextMenu = Drink,
+        OnEat = OnEat_HotDrinkFluMedication,
+        CustomEatSound = DrinkingFromCan,
+        StaticModel = MugSpiffo,
+        WorldStaticModel = MugSpiffo,
+    }
+    
+    model MM_SealedBandage
+    {
+        mesh = WorldItems/MM_SealedBandage,
+        texture = WorldItems/MM_SealedBandage,
+        scale = 0.002,
+    }
+    
+    item SealedBandage
+    {
+        DisplayCategory = FirstAid,
+        Weight  =   0.11,
+        DisplayName =   SealedBandage,
+        Icon    =   SealedBandage,
+        SurvivalGear = TRUE,
+        WorldStaticModel = MM_SealedBandage,
+    }
+    
+    recipe Open SealedBandage
+    {
+        SealedBandage,
+        Result:AlcoholBandage,
+        Sound:OpenSeedPacket,
+        Category:Health,
+        Time:20.0,
+    }
+    
+    model MM_BurnTreatment
+    {
+        mesh = WorldItems/HairGel,
+        texture = WorldItems/MM_BurnTreatment,
+        scale = 0.4,
+    }
+    
+    item BurnTreatment 
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.2,
+        Type    =    Drainable,
+        UseDelta    =    0.1,
+        DisplayName    =    BurnTreatment,
+        Icon    =    BurnTreatment,
+        Tooltip = Tooltip_MoreMedicalWarning89,
+        WorldStaticModel = MM_BurnTreatment,
+    }
+    
+    model MM_PowderPackHemostatic
+    {
+        mesh = WorldItems/ColdPack,
+        texture = WorldItems/MM_PowderPackHemostatic,
+        scale = 0.15,
+    }
+    
+    item PowderPackHemostatic
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.1,
+        Type    =    Normal,
+        DisplayName    =    PowderPackHemostatic,
+        Icon    =    PowderPackHemostatic,
+        Tooltip = Tooltip_PowderPackHemostatic,
+        WorldStaticModel = MM_PowderPackHemostatic,
+        Medical = TRUE,
+    }
+    
+    model MM_Tourniquet
+    {
+        mesh = WorldItems/String,
+        texture = WorldItems/MM_Tourniquet,
+        scale = 0.7,
+    }
+    
+    item Tourniquet
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.1,
+        Type    =    Normal,
+        DisplayName    =    Tourniquet,
+        Icon    =    Tourniquet,
+        WorldStaticModel = MM_Tourniquet,
+        Tooltip = Tooltip_Tourniquet,
+        Medical = TRUE,
+    }
+    
+    model MM_BottleCoughSyrup
+    {
+        mesh = WorldItems/Bottle,
+        texture = WorldItems/MM_BottleCoughSyrup,
+        scale = 0.2,
+    }
+    
+    item BottleCoughSyrup
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.1,
+        HungerChange    =   0,
+        Type    =    Food,
+        DisplayName    =    BottleCoughSyrup,
+        CustomEatSound = ,
+        EatType = popcan,
+        CustomContextMenu = Drink,
+        OnEat = OnEat_BottleCoughSyrup,
+        Icon    =    BottleCoughSyrup,
+        Tooltip = Tooltip_BottleCoughSyrup,
+        WorldStaticModel = MM_BottleCoughSyrup,
+        Medical = TRUE,
+    }
+    
+    model MM_NasalSpray
+    {
+        mesh = WorldItems/MM_NasalSpray,
+        texture = WorldItems/MM_NasalSpray,
+        scale = 0.001,
+    }
+    
+    item NasalSpray
+    {
+        DisplayCategory = FirstAid,
+        Weight    =    0.1,
+        HungerChange    =   0,
+        Type    =    Food,
+        DisplayName    =    NasalSpray,
+        CustomEatSound = ,
+        EatType = popcan,
+        CustomContextMenu = Drink,
+        OnEat = OnEat_NasalSpray,
+        Icon    =    NasalSpray,
+        Tooltip = Tooltip_NasalSpray,
+        WorldStaticModel = MM_NasalSpray,
+        Medical = TRUE,
+    }
+}

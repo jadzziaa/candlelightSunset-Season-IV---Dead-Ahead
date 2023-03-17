@@ -1,0 +1,12 @@
+Items_RU = {
+
+	DisplayName_Hand_Hatchet = "Ручной топорик",
+	DisplayName_Survival_Knife = "Нож выживания",
+	DisplayName_Cheap_Survival_Knife = "Простой нож выживания",
+	DisplayName_Rancher_Machete = "Ранчо мачете",
+	DisplayName_Kukri_Machete = "Кукури мачете",
+	DisplayName_Splitting_Axe = "Топор-колун",
+	DisplayName_Spear_With_Survival_Knife = "Копье с ножом выживания",
+	DisplayName_Spear_With_Cheap_Survival_Knife = "Копье с дешевым ножом выживания",
+
+}

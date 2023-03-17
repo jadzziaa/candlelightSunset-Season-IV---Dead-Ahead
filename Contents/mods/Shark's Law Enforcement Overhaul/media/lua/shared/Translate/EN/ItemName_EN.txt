@@ -1,0 +1,15 @@
+ItemName_EN = {
+    ItemName_Base.Hat_CrashHelmet_Police = "Riot Helmet",
+    ItemName_Base.Hat_RiotHelmet = "Riot Helmet (Down)",
+    ItemName_Base.Tshirt_PoliceGrey = "State Police Shirt",
+    ItemName_Base.Tshirt_PoliceBlue = "Blue Police Shirt",
+    ItemName_Base.Trousers_PoliceGrey = "State Police Pants",
+    ItemName_Base.Shirt_PoliceBlue = "Blue Police Long Sleeve Shirt",
+    ItemName_Base.Shirt_OfficerWhite = "White Police Long Sleeve Shirt",
+    ItemName_Base.Trousers_Police = "Blue Police Pants",
+
+    ItemName_Base.Hat_Police = "Blue Police Campaign Hat",
+    ItemName_Base.Hat_Police_Grey = "State Police Campaign Hat",
+
+    ItemName_Base.Jacket_Police = "Blue Police Windbreaker",
+}

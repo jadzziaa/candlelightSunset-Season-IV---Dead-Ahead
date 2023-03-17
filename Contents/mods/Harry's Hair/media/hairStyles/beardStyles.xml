@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- define trimChoices so you will be able to trim your beard to those types (none is always available  -->
+<!-- note: all level udner your current beard will be available to trim (no need to define BeardOnly for "Full" or "Long" for example -->
+<!-- Level will determine the next step for your beard to grow -->
+<!-- when growing we take all the next level of beardStyles and check for the one with the growReference, setup only one! -->
+<beardStyles>
+	<style><name>Maxwell218</name>
+		<model>skinned/beards/Maxwell218</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+	</style>
+</beardStyles>

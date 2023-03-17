@@ -1,0 +1,12 @@
+ContextMenu_RU = {
+	ContextMenu_RollUp = "Закатать",
+    ContextMenu_RollDown = "Опустить",
+	ContextMenu_TuckIn = "Подвернуть",
+    ContextMenu_TuckOut = "Развернуть",
+    ContextMenu_FlipUp = "Поднять",
+    ContextMenu_FlipDown = "Опустить",
+	ContextMenu_Strap = "Пристегнуть",
+    ContextMenu_Unstrap = "Отстегнуть",
+	ContextMenu_Fasten = "Застегнуть",
+    ContextMenu_Unfasten = "Растегнуть",
+} 

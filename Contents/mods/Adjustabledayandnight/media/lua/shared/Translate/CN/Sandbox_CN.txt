@@ -1,0 +1,7 @@
+Sandbox_CN = {
+
+  Sandbox_DayandNight_Daypoint = "白天开始（时）",
+  Sandbox_DayandNight_Nightpoint = "夜晚开始（时）",
+  Sandbox_DayandNight_Day = "白天长度（分钟）",
+  Sandbox_DayandNight_Night = "夜晚长度（分钟）",
+}

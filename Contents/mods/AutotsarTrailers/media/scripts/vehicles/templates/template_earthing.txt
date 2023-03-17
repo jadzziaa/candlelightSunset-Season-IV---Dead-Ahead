@@ -1,0 +1,45 @@
+module Base
+{
+    item TsarEarthing
+    {
+        DisplayCategory = Electronics,
+        Weight	=	9000,
+        Type	=	Normal,
+        DisplayName	=	Light Bulb,
+        Icon	=	LightBulb,
+        ConditionMax = 100,
+        WorldStaticModel = LightBulb,
+    }
+	
+	template vehicle Earthing
+    {
+		part EarthingOn
+		{
+			lua
+			{
+				init = Trailers.Init.EarthingOn,
+				create = Trailers.Create.EarthingOn,
+				update = Trailers.Update.EarthingOn,
+			}
+		}
+		
+		part EarthingOff
+		{
+			lua
+			{
+				create = Trailers.Create.EarthingOff,
+			}
+		}
+		
+		part Earthing*
+		{
+			area = Engine,
+			/**/
+			category = nodisplay,
+			specificItem = false,
+			mechanicRequireKey = false,
+			itemType = Base.TsarEarthing,
+		}
+	}
+}
+

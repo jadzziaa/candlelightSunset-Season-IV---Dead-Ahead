@@ -1,0 +1,106 @@
+module RPDescriptors {
+    imports
+    {
+        Base
+    }
+
+/***** Creating the notes! *****/
+
+	recipe Pin Paper with Tape
+	{
+		SheetPaper2 = 1,
+		Scotchtape/DuctTape = 1,
+		
+		Result:PinnedPaper = 1,
+		OnCreate:Recipe.OnCreate.KeepText,
+		Time:20,
+		Category:RPDescriptors,
+	}
+	
+	recipe Pin Paper with a Nail
+	{
+		SheetPaper2 = 1,
+		Nails = 1,
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result:PinnedPaper = 1,
+		OnCreate:Recipe.OnCreate.KeepText,
+		Time:20,
+		Category:RPDescriptors,
+	}
+	
+	recipe Pin Paper with Hunting Knife
+	{
+		destroy HuntingKnife,
+		SheetPaper2 = 1,
+		
+		Result:PinnedPaperKnife = 1,
+		OnCreate:Recipe.OnCreate.StabNote,
+		Time:20,
+		Category:RPDescriptors,
+	}
+	
+	recipe Pin Paper with Kitchen Knife
+	{
+		destroy KitchenKnife,
+		SheetPaper2 = 1,
+		
+		Result:PinnedPaperKnife2 = 1,
+		OnCreate:Recipe.OnCreate.StabNote,
+		Time:20,
+		Category:RPDescriptors,
+	}
+	
+	recipe Pin Paper with a Screwdriver
+	{
+		destroy Screwdriver,
+		SheetPaper2 = 1,
+		
+		Result:PinnedPaperScrewdriver = 1,
+		OnCreate:Recipe.OnCreate.StabNote,
+		Time:20,
+		Category:RPDescriptors,
+	}
+
+/***** Getting Back the Paper & Pinning Item! *****/
+
+	recipe Reclaim Paper
+	{
+		PinnedPaper = 1,
+		
+		Result:SheetPaper2 = 1,
+		OnCreate:Recipe.OnCreate.KeepText,
+		Time:20,
+		Category:RPDescriptors,
+	}
+
+	recipe Reclaim Knife
+	{
+		PinnedPaperKnife = 1,
+		
+		Result:HuntingKnife = 1,
+		OnCreate:Recipe.OnCreate.ReclaimPin,
+		Time:20,
+		Category:RPDescriptors,
+	}
+	
+	recipe Reclaim Knife
+	{
+		PinnedPaperKnife2 = 1,
+		
+		Result:KitchenKnife = 1,
+		OnCreate:Recipe.OnCreate.ReclaimPin,
+		Time:20,
+		Category:RPDescriptors,
+	}
+
+	recipe Reclaim Screwdriver
+	{
+		PinnedPaperScrewdriver = 1,
+		
+		Result:Screwdriver = 1,
+		OnCreate:Recipe.OnCreate.ReclaimPin,
+		Time:20,
+		Category:RPDescriptors,
+	}
+}

@@ -1,0 +1,103 @@
+module Base
+{
+    item CoffeeFruit
+    {
+        DisplayCategory   = Food,
+        Type              = Food,
+        DisplayName       = Coffee Fruit,
+        Icon              = Cherry,
+        Weight            = 0.1,
+        HungerChange      = -2,
+        DaysFresh         = 2,
+        DaysTotallyRotten = 5,
+        ReplaceOnRotten   = Base.CoffeeRotten,
+        FoodType          = Fruits,
+        UnhappyChange     = 20,
+        ThirstChange      = 20,
+        Carbohydrates     = 0.01,
+        Proteins          = 0.09,
+        Lipids            = 0,
+        Calories          = 0,
+        StaticModel       = RoundFood_Red,
+        WorldStaticModel  = Cherry_Ground,
+        CustomEatSound    = EatingFruit,
+        IsCookable        = true,
+        MinutesToBurn     = 20,
+        MinutesToCook     = 4,
+        ReplaceOnCooked   = Base.CoffeeRoasted,
+    }
+
+    item CoffeeRotten
+    {
+        DisplayCategory  = Food,
+        HungerChange     = -1,
+        Weight           = 0.1,
+        Type             = Food,
+        DisplayName      = Coffee Fruit,
+        Icon             = Cherry,
+        FoodType         = NoExplicit,
+        DaysFresh         = 0,
+        DaysTotallyRotten = 0,
+        UnhappyChange    = 20,
+        ThirstChange     = 20,
+        Carbohydrates    = 0.01,
+        Proteins         = 0.01,
+        Lipids           = 0,
+        Calories         = 0,
+        CantBeFrozen     = TRUE,
+        StaticModel      = RoundFood_Red,
+        WorldStaticModel = Cherry_Ground,
+    }
+    
+    item CoffeeRoasted
+    {
+        DisplayCategory  = Food,
+        HungerChange     = -2,
+        Weight           = 0.1,
+        Type             = Food,
+        DisplayName      = Roasted Coffee,
+        Icon             = Peanut,
+        FoodType         = NoExplicit,
+        UnhappyChange    = 20,
+        ThirstChange     = 20,
+        Carbohydrates    = 0.01,
+        Proteins         = 0.09,
+        Lipids           = 0,
+        Calories         = 0,
+        CantBeFrozen     = TRUE,
+        WorldStaticModel = Peanuts,
+    }
+    
+    recipe Make Coffee
+    {
+        keep MortarPestle,
+        CoffeeRoasted=15,
+        /*EmptyJar=1, when we can get them back from evolved recipe*/
+        /*JarLid=1, when we can get them back from evolved recipe*/
+        Result:Coffee2,
+        Time:150.0,
+        Category:Health,
+    }
+    
+    item CoffeeBagSeed
+    {
+        DisplayCategory = Gardening,
+        Type         = Normal,
+        DisplayName  = Coffee Seeds Packet,
+        Icon         = TZ_SeedpackLRRadish,
+        Weight       = 0.1,
+        SurvivalGear = TRUE,
+        WorldStaticModel = RadishSeedBag_Ground,
+    }
+    
+    /*this is how you start the loop, but beware once open it rottens in 5 days and then it's lost unless initial fruit from packet is bugged as it seems*/
+    recipe Open Packet of Coffee Seeds
+    {
+        CoffeeBagSeed,
+        Result:CoffeeFruit=25,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+        /*add oncreate function to initiate food age update maybe ?*/
+    }
+}

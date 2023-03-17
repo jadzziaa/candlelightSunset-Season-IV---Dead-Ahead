@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_stalkercloakDOWN</m_MaleModel>
+	<m_FemaleModel>skinned\f_stalkercloakDOWN</m_FemaleModel>
+	<m_GUID>94ae0c8d-68c9-416d-ac17-a383d633312e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<textureChoices>clothes\StalkerCloakDOWN</textureChoices>
+</clothingItem>

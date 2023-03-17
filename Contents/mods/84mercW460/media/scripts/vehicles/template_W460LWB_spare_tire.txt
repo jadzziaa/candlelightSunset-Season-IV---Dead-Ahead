@@ -1,0 +1,88 @@
+module Base
+{
+	model W460LWBSpareTire1
+    	{
+        mesh = vehicles/Vehicles_84mercLWB_Body|w460_lwb_sparetire1,
+		shader = vehicle,
+		static = FALSE,
+        scale = 0.1,
+        boneWeight = trunk_bone 1.0,
+    	}
+
+	template vehicle W460LWBSpareTires
+		{
+		part W460LWBSpareTire
+        	{
+
+			model SpareTire1
+				{
+                		file = W460LWBSpareTire1,
+				}
+
+			model SpareTire2
+				{
+                		file = W460LWBSpareTire1,
+				}
+
+			model SpareTire3
+				{
+                		file = W460LWBSpareTire1,
+				}
+
+			area = TruckBed,
+			parent = TrunkDoor,
+			category = Other,
+			specificItem = false,
+			itemType = Base.W460NormalTire2;Base.W460WideTire2;Base.W460ModernTire2,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+				equip = primary,
+                    		}
+                	}
+
+                	time = 1100,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = W460LWB.InstallComplete.SpareTire,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+  				type = Base.Screwdriver,
+				count = 1,
+				keep = true,
+				equip = primary,
+                    		}
+                	}
+
+			time = 1100,
+			skills = Mechanics:4,
+			recipes = Intermediate Mechanics,
+            test = Vehicles.UninstallTest.Default,
+			complete = W460LWB.UninstallComplete.SpareTire,
+            		}
+
+            		lua
+            		{
+			create = W460LWB.Create.SpareTire,
+			init = W460LWB.Init.SpareTire,
+			}
+		}
+	}
+
+		
+}

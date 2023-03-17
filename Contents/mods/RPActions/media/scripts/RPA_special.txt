@@ -1,0 +1,40 @@
+module RPA
+{
+	imports
+	{
+		Base
+	}
+
+	item BobRPA_Family_Guy_card
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Family Guy Death Pose Card,
+		Tooltip	=	Tooltip_RPAcard,
+		Icon	=	MagazineElectronics03,
+		StaticModel	=	Magazine,
+		WorldStaticModel	=	MagazineElec2Ground,
+	}
+
+	item BobRPA_JackO_card
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Jack-O Pose Card,
+		Tooltip	=	Tooltip_RPAcard,
+		Icon	=	MagazineElectronics03,
+		StaticModel	=	Magazine,
+		WorldStaticModel	=	MagazineElec2Ground,
+	}
+
+	item BobRPA_Dad_Twerk_card
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Dad Twerk Card,
+		Tooltip	=	Tooltip_RPAcard,
+		Icon	=	MagazineElectronics03,
+		StaticModel	=	Magazine,
+		WorldStaticModel	=	MagazineElec2Ground,
+	}
+}

@@ -1,0 +1,12 @@
+name=Car Dashboard Radio Button
+id=Kaldo_CarDashboardRadioButton
+description=Adds a button to toggle radio on the car dashboard
+
+authors=Kaldo
+url=https://github.com/Kaldo/PZ_CarDashboardRadioButton
+modversion=1.0
+versionMin=41.65
+tags=Build 41,Interface,Car,Radio
+
+poster=poster.png
+icon=icon.png

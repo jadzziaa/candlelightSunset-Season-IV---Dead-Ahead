@@ -1,0 +1,5 @@
+IG_UI_DE = {
+	IGUI_VehicleName89def110 = "'89 LAND ROVER Defender 110 Geländewagen",
+	IGUI_VehicleName89def110op = "'89 LAND ROVER Defender 110 Geländewagen mit Offroadausstattung",
+	IGUI_VehiclePartdef110Spare = "Reserveradfach",
+}

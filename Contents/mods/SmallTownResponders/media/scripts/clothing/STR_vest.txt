@@ -1,0 +1,22 @@
+module STR {
+
+	imports {
+		Base
+	}
+    item Vest_BulletPolice_Meade
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Sheriff Bulletproof Vest,
+        ClothingItem = Vest_BulletPolice_Meade,
+        BodyLocation = TorsoExtra,
+        Icon = BulletVest_Police_Meade,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        WorldStaticModel = BulletVest_Ground,
+    }
+}

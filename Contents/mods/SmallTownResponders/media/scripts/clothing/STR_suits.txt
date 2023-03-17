@@ -1,0 +1,105 @@
+module STR {
+
+	imports {
+		Base
+	}
+    item Boilersuit_MeadeGenPopPrisoner
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Meade County General Population Jumpsuit,
+        ClothingItem = Boilersuit_MeadeGenPopPrisoner,
+        BodyLocation = Boilersuit,
+        Icon = Meade_Gen_Pop_Prisoner,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_MeadeLowRiskPrisoner
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Meade County Low Risk Jumpsuit,
+        ClothingItem = Boilersuit_MeadeLowRiskPrisoner,
+        BodyLocation = Boilersuit,
+        Icon = Meade_Low_Risk_Prisoner,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_MeadeMaxPrisoner
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Meade County Supermax Jumpsuit,
+        ClothingItem = Boilersuit_MeadeMaxPrisoner,
+        BodyLocation = Boilersuit,
+        Icon = Meade_Max_Prisoner,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_JeffersonPrisoner
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Jefferson County Inmate Jumpsuit,
+        ClothingItem = Boilersuit_JeffersonPrisoner,
+        BodyLocation = Boilersuit,
+        Icon = Jefferson_Prisoner,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_RavenCreekPrisoner
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = RavenCreek Inmate Jumpsuit,
+        ClothingItem = Boilersuit_RavenCreekPrisoner,
+        BodyLocation = Boilersuit,
+        Icon = RavenCreek_Prisoner,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Judge_Robe
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Judge Robe,
+        ClothingItem = Judge_Robe,
+        BodyLocation = Jacket,
+        BloodLocation = LongJacket,
+        Icon = Judge_Robe,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketLong_Ground,
+    }
+}

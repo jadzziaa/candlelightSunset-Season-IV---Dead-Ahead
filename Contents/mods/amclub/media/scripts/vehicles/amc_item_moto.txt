@@ -1,0 +1,482 @@
+module Autotsar
+{
+    imports
+    {
+        Base
+    }
+    
+    model ATAMotoBag
+    {
+        mesh = WorldItems/ATAMotoBag,
+        texture = WorldItems/ATAMotoBag,
+        scale = 0.05,
+    }
+
+    /******************* BMW ************************/
+
+    model ATAMotoBMW_bag_left
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|bag_left,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+
+    model ATAMotoBMW_bag_right
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|bag_right,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+    
+    item ATAMotoBagBMW1
+    {
+        DisplayCategory = Tuning,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = Moto Bag,
+        Icon    =    ATAMotoBagBMW1,
+        MaxCapacity = 12,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAMotoBMW_bag_right,
+    }
+    
+    item ATAMotoBagBMW2
+    {
+        DisplayCategory = Tuning,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = Moto Bag,
+        Icon    =    ATAMotoBagBMW1,
+        MaxCapacity = 15,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAMotoBMW_bag_left,
+    }
+
+    model ATAMotoBMW_exhaust1
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|exhaust1,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+
+    model ATAMotoBMW_exhaust2
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|exhaust2,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+
+    item ATAMotoBMWCustomMuffler
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	Average Muffler,
+        Icon	=	ATAMotoBMWCustomMuffler,
+        EngineLoudness = 60,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.008,
+        ConditionLowerOffroad = 0.25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoBMW_exhaust1,
+    }
+
+    item ATAMotoBMWClassicMuffler
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Muffler,
+        Icon	=	ATAMotoBMWClassicMuffler,
+        EngineLoudness = 120,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.015,
+        ConditionLowerOffroad = 0.35,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoBMW_exhaust2,
+    }
+    recipe Make ATAMotoBMWCustomMuffler
+    {
+        ATAMotoBMWClassicMuffler=1,
+        BlowTorch=20,
+        keep WeldingMask,
+        keep Saw,
+        Result:ATAMotoBMWCustomMuffler,
+        Time:350.0,
+        Category:Tuning,
+        SkillRequired:MetalWelding=4,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25, /* 10 15 20 25 */
+        NeedToBeLearn:false,
+    }
+    
+    model ATAMotoBMW_front_suspension1
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|front_suspension1,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+
+    model ATAMotoBMW_front_suspension2
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|front_suspension2,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+
+    model ATAMotoBMW_tire
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|front_tire,
+        texture = AMC_bmw_r80_wheel,
+        scale = 0.6,
+    }
+    
+    item ATAMotoBMWOldTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Valu-Tire,
+        Icon	=	ATAMotoBMWTire,
+        MaxCapacity = 30,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.08,
+        ConditionLowerOffroad = 0.5,
+        WheelFriction = 1.3,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoBMW_tire,
+    }
+
+    item ATAMotoBMWNormalTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Regular Tire,
+        Icon	=	ATAMotoBMWTire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.4,
+        WheelFriction = 1.6,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoBMW_tire,
+    }
+
+    item ATAMotoBMWModernTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Tire,
+        Icon	=	ATAMotoBMWTire,
+        MaxCapacity = 40,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.35,
+        WheelFriction = 1.8,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoBMW_tire,
+    }
+    
+    model ATAMotoBMW_gastank
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|gastank,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+    
+    item ATAMotoBMWGasTank
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	11.0,
+        Type	=	Normal,
+        DisplayName	=	Small Gas Tank,
+        Icon	=	ATAMotoBMWGasTank,
+        MaxCapacity = 39,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoBMW_gastank,
+    }
+    
+    model ATAMotoBMW_headlight
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|headlight,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+
+    model ATAMotoBMW_rear_brake
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|rear_brake,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+
+    model ATAMotoBMW_seat1
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|seat1,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+    
+    model ATAMotoBMW_seat2
+    {
+        mesh = moto/AMC_bmwR80_wordlItems|seat2,
+        texture = AMC_bmw_r80_worlditems,
+        scale = 0.6,
+    }
+    item ATAMotoBMWSeat
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	9.0,
+        Type	=	Normal,
+        DisplayName	=	Standard Seat,
+        Icon	=	ATAMotoBMWSeat,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoBMW_seat1,
+    }
+    item ATAMotoBMWSeatCustom
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	6.0,
+        Type	=	Normal,
+        DisplayName	=	Standard Seat,
+        Icon	=	ATAMotoBMWSeatCustom,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoBMW_seat2,
+    }
+
+    /******************* Harley ************************/
+
+    model ATAMotoHarley_bag
+    {
+        mesh = moto/AMC_harley86_worldItems|bag_left,
+        texture = AMC_harley_86_worlditems,
+        scale = 0.6,
+    }
+    
+    item ATAMotoHarleyBag
+    {
+        DisplayCategory = Tuning,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = Moto Bag,
+        Icon    =    ATAMotoHarleyBag,
+        MaxCapacity = 5,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAMotoHarley_bag,
+    }
+    
+    model ATAMotoHarley_exhaust
+    {
+        mesh = moto/AMC_harley86_worldItems|exhaust1,
+        texture = AMC_harley_86_worlditems,
+        scale = 0.6,
+    }
+    item ATAMotoHarleyMuffler
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Muffler,
+        Icon	=	ATAMotoHarleyMuffler,
+        EngineLoudness = 120,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.015,
+        ConditionLowerOffroad = 0.35,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoBMW_exhaust2,
+    }
+    model ATAMotoHarley_front_suspension
+    {
+        mesh = moto/AMC_harley86_worldItems|front_suspension1,
+        texture = AMC_harley_86_worlditems,
+        scale = 0.6,
+    }
+
+    model ATAMotoHarley_tire
+    {
+        mesh = moto/AMC_harley86_worldItems|front_w,
+        texture = AMC_harley_86_wheel,
+        scale = 0.6,
+    }
+
+    model ATAMotoHarley_rear_wheel
+    {
+        mesh = moto/AMC_harley86_worldItems|rear_w,
+        texture = AMC_harley_86_wheel,
+        scale = 0.6,
+    }
+    
+    item ATAMotoHarleyOldTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Valu-Tire,
+        Icon	=	ATAMotoHarleyTire,
+        MaxCapacity = 30,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.08,
+        ConditionLowerOffroad = 0.5,
+        WheelFriction = 1.3,w
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoHarley_rear_wheel,
+    }
+
+    item ATAMotoHarleyNormalTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Regular Tire,
+        Icon	=	ATAMotoHarleyTire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.4,
+        WheelFriction = 1.6,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoHarley_rear_wheel,
+    }
+
+    item ATAMotoHarleyModernTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Performance Tire,
+        Icon	=	ATAMotoHarleyTire,
+        MaxCapacity = 40,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.35,
+        WheelFriction = 1.8,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoHarley_rear_wheel,
+    }
+    
+    model ATAMotoHarley_gastank
+    {
+        mesh = moto/AMC_harley86_worldItems|gastank,
+        texture = AMC_harley_86_worlditems,
+        scale = 0.6,
+    }
+    item ATAMotoHarleyGasTank
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	11.0,
+        Type	=	Normal,
+        DisplayName	=	Small Gas Tank,
+        Icon	=	ATAMotoHarleyGasTank,
+        MaxCapacity = 43,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoHarley_gastank,
+    }
+    model ATAMotoHarley_headlight
+    {
+        mesh = moto/AMC_harley86_worldItems|headlight,
+        texture = AMC_harley_86_worlditems,
+        scale = 0.6,
+    }
+
+    model ATAMotoHarley_holster
+    {
+        mesh = moto/AMC_harley86_worldItems|holster_left,
+        texture = AMC_harley_86_worlditems,
+        scale = 0.6,
+    }
+    item ATAMotoHarleyHolster
+    {
+        DisplayCategory = Tuning,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = Moto Bag,
+        Icon    =    ATAMotoHarleyHolster,
+        MaxCapacity = 5,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        Tooltip = Tooltip_item_tuning,
+        WorldStaticModel = Autotsar.ATAMotoHarley_holster,
+    }
+    
+    model ATAMotoHarley_seat
+    {
+        mesh = moto/AMC_harley86_worldItems|seat1,
+        texture = AMC_harley_86_worlditems,
+        scale = 0.6,
+    }
+    
+    item ATAMotoHarleySeat
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	6.0,
+        Type	=	Normal,
+        DisplayName	=	Standard Seat,
+        Icon	=	ATAMotoHarleySeat,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoHarley_seat,
+    }
+
+    /******************* Quad ************************/
+
+    model ATAMotoQuad_tire
+    {
+        mesh = moto/AMC_quad_worldItems|wheel_front,
+        texture = AMC_quad_worlditems,
+        scale = 0.6,
+    }
+
+    model ATAMotoQuad_seat
+    {
+        mesh = moto/AMC_quad_worldItems|seat,
+        texture = AMC_quad_worlditems,
+        scale = 0.6,
+    }
+    item ATAMotoQuadSeat
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	6.0,
+        Type	=	Normal,
+        DisplayName	=	Standard Seat,
+        Icon	=	ATAMotoQuadSeat,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAMotoQuad_seat,
+    }
+
+    model ATAMotoQuad_headlight
+    {
+        mesh = moto/AMC_quad_worldItems|headlight,
+        texture = AMC_quad_worlditems,
+        scale = 0.6,
+    }
+}

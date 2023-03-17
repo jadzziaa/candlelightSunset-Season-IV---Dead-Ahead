@@ -1,0 +1,8 @@
+name=Empty my Gas Can
+id=EmptyGasCan
+description=Pour your gas can on the ground.
+poster=poster01.png
+poster=poster02.jpg
+versionMin=41.65
+modVersion=0.3
+authors=PaddiSson_

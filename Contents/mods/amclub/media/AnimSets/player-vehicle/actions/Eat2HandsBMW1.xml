@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Eat1HandBWM1.xml">
+	<m_Name>Eat2HandsBMW1</m_Name>
+	<m_AnimName>Bob_IdleEating2Hand</m_AnimName>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>FoodType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>2hand</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Type>OR</m_Type>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>FoodType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>2handforced</m_StringValue>
+	</m_Conditions>
+</animNode>

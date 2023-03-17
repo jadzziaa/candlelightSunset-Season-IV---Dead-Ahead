@@ -1,0 +1,11 @@
+Recipes_ES = {
+	Recipe_Attach_NVG_mount = "Acoplar soporte para visión nocturna",
+	Recipe_Attach_Night_Vision = "Acoplar visión nocturna", 
+	Recipe_Attach_goggles_to_helmet = "Acoplar gafas antipolvo al casco",
+	Recipe_Attach_doff_hood = "Acoplar capucha protectora", 
+	Recipe_Remove_doff_hood = "Remover capucha protectora", 
+	Recipe_Remove_goggles = "Remover gafas antipolvo",
+	Recipe_Unseal_package = "Abrir paquete",
+	Recipe_Roll_patrol_cap = "Enrollar gorra de patrulla",
+	Recipe_Unroll_patrol_cap = "Desenrollar gorra de patrulla",
+}

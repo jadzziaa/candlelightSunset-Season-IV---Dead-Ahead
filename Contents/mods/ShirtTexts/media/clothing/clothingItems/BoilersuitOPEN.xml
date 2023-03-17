@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Spongie\M_BoilerSuitOpen</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Spongie\F_BoilerSuitOpen</m_FemaleModel>
+	<m_GUID>559ed514-OPEN-497c-a2a0-b7e1ec77f8ef</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+    <m_UnderlayMasksFolder>media/textures/clothes/Spongie/Jacket\Masks\LongSleeves\OpenMasks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\boliersuit\boilersuit_grey</textureChoices>
+</clothingItem>

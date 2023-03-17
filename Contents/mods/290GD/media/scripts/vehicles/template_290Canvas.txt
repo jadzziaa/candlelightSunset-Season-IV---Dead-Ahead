@@ -1,0 +1,69 @@
+module Base
+{
+	model 290gdcanvas
+	{
+		mesh = vehicles/Vehicle_290GDOpenTop|SoftTop,
+		shader = vehicle_noreflect,
+		scale = 1,
+	}
+
+	template vehicle 290Canvas
+		{
+		part 290SoftTop
+        	{
+
+			model 290gdsofttop
+				{
+                		file = 290gdcanvas,
+				}
+		area = TruckBed,
+            category = bodywork,
+            itemType = Base.RearWindshield,
+            mechanicRequireKey = true,
+            window
+            {
+                openable = false,
+            }
+		table install
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+						equip = primary,
+                    }
+                }
+                time = 300,
+                  skills = Mechanics:1,
+                  recipes = Basic Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Window,
+            }
+
+            		table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+ 						equip = primary,
+                   }
+                }
+                time = 300,
+                  skills = Mechanics:5,
+                  recipes = Basic Mechanics,
+                test = Vehicles.UninstallTest.Default,
+            }
+            lua
+            {
+                create = Vehicles.Create.Default,
+            }
+		}
+	}		
+}

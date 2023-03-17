@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_nomadparka</m_MaleModel>
+	<m_FemaleModel>skinned\f_nomadparka</m_FemaleModel>
+	<m_GUID>a75d819a-15a3-4f91-b8b8-db46e300a5fb</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<textureChoices>clothes\nomadparka</textureChoices>
+	<m_HatCategory>Group03</m_HatCategory>
+	<m_Masks>1</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+</clothingItem>

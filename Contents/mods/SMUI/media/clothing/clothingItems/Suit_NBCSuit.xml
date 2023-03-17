@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_MOPPTopDOWN</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_MOPPTopDOWN</m_FemaleModel>
+	<m_GUID>4ccf342e-fd28-42f6-81c2-f7e2810b5736</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<textureChoices>clothes\suit\NBCSuit</textureChoices>
+</clothingItem>

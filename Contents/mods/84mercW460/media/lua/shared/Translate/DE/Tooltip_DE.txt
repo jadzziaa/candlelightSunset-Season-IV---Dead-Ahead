@@ -1,0 +1,17 @@
+Tooltip_EN = {
+	Tooltip_item_W460NormalTires = "Reguläre, schmale W460 Reifen.",
+	Tooltip_item_W460WideTires = "Verstärkte breite W460 Reifen, die nicht platzen, aber im beschädigten Zustand Traktion verlieren.",
+	Tooltip_item_W460ModernTires = "Moderne W460 Reifen die gut aussehen und bessere Traktion haben.",
+	Tooltip_item_W460Roofrack1 = "Zusätzlicher Stauraum auf dem Dach. Erreichbar von allen Seiten des Fahrzeugs.",
+	Tooltip_item_W460Bodykit1 = "Kosmetisches Anbauteil. Verbreitert die Kotflügel und fügt Seitenschürzen für W460 Fahrzeuge hinzu.",
+	Tooltip_item_W460FrontDoorArmor1 = "Schützt W460 Türen und Fenster, wenn es an Vordertüren angebaut wird",
+	Tooltip_item_W460RearDoorArmor1 = "Schützt W460 Türen und Fenster, wenn es an den hinteren Türen angebaut wird",
+	Tooltip_item_W460SideWindow2 = "Mit einem Skalpell kann man Windschutzscheiben von Schwerlastfahrzeugen zu W460 Fensterscheiben umbauen",
+	Tooltip_item_W460Windshield2 = "Mit einem Skalpell kann man Windschutzscheiben von Schwerlastfahrzeugen zu W460 Windschutzscheiben umbauen",
+	Tooltip_item_W460WindshieldArmor1 = "An die W460 Windschutzscheibe montieren, um diese zu schützen",
+	Tooltip_item_W460WindshieldArmorRear1 = "An den W460 Kofferraumdeckel montieren, um diesen und die Heckscheibe zu schützen",
+	Tooltip_item_W460BackWindowArmor1 = "Kosmetisches Anbauteil. Montiere es an die hinteren Fenster des W460",
+	Tooltip_item_W460Bumper1 = "An die Front des W460 montieren, um die Haube, Lampen und den Motor zu schützen",
+	Tooltip_item_W460BumperRear1 = "An das Heck des W460 montieren, um die Rückleuchten zu schützen",
+	Tooltip_item_W460Mudflaps1 = "Kosmetisches Anbauteil - erspart dem Typen hinter dir Staub und Matsch",
+}

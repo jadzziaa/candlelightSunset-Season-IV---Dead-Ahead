@@ -1,0 +1,513 @@
+module Base
+{
+	vehicle vino125b
+	{
+		part AMCConfig
+		{
+			category = nodisplay,
+
+			table AMCConfig
+			{
+				type = QUAD,
+				fallDelta = 5,
+				speedDelta = 5,
+				hideWeapon = 1,
+				quickEnter = 1,
+			}
+		}
+
+		part TCLConfig
+		{
+			category = nodisplay,
+
+			table TCLConfig
+			{
+				disableDoorLocker = 1,
+				disableSleep = 1,
+				wreckerName = TrailerAMC,
+			}
+		}
+
+		mechanicType = 1,
+		engineRepairLevel = 4,
+		playerDamageProtection = 1.1,
+
+		model
+		{
+			file = vino125Base,
+			scale = 1.0000,
+			offset = 0.0000 0.2500 0.0000,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Shell_BeigeBrown,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Shell_BlackBrown,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Shell_CherryRed,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Shell_CyanWhite,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Shell_NavyBrown,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Shell_WhiteBlack,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Shell_YellowBrown,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Shell_Black,
+		}
+
+		textureRust = Vehicles/Bikes_vino125_rust,
+		textureMask = Vehicles/Bikes_vino125_mask,
+		textureLights = Vehicles/Bikes_vino125_lights,
+		textureDamage1Shell = Vehicles/Bikes_vino125_damage1,
+		textureDamage2Shell = Vehicles/Bikes_vino125_damage1,
+		textureDamage1Overlay = Vehicles/Bikes_vino125_blood,
+		textureDamage2Overlay = Vehicles/Bikes_vino125_blood,
+		textureShadow = Vehicles/Bikes_vino125_shadow,
+
+		sound
+		{
+			engine = VehicleEngineSmallCar,
+			engineStart = VehicleEngineSmallCar,
+			engineTurnOff = VehicleEngineSmallCar,
+			horn = VehicleHornStandard,
+			ignitionFail = VehicleIgnitionFailSmallCar,
+		}
+
+		engineForce = 720,
+		maxSpeed = 45f,
+		extents = 0.7000 0.9600 1.5400,
+		mass = 200,
+		physicsChassisShape = 0.7000 0.9600 1.5400,
+		centerOfMassOffset = 0.0000 0.6100 0.0000,
+		shadowExtents = 2.2069 2.0775,
+		shadowOffset = 0.0125 0.0150,
+		engineLoudness = 42,
+		engineQuality = 70,
+		brakingForce = 3,
+		stoppingMovementForce = 0.0f,
+		rollInfluence = 0.4f,
+		steeringIncrement = 0.02,
+		steeringClamp = 0.06,
+		suspensionStiffness = 50,
+		suspensionCompression = 0,
+		suspensionDamping = 100,
+		maxSuspensionTravelCm = 16,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 5.4f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 1,
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.2700 0.0100 1.4700,
+			radius = 0.2f,
+			width = 0.5f,
+		}
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.2700 0.0100 1.4700,
+			radius = 0.2f,
+			width = 0.5f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.0000 -0.1000 -0.5400,
+			radius = 0.2f,
+			width = 0.5f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = 0.0000 0.0100 0.6000,
+			radius = 0.2f,
+			width = 0.5f,
+		}
+
+		passenger FrontLeft
+		{
+			door = DoorFrontLeft,
+			door2 = DoorFrontRight,
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.4700 -0.2100,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.0000 0.4700 -0.2100,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -0.9000 1.7000 1.0200,
+		}
+
+		area Engine
+		{
+			xywh = -0.8000 0.1600 0.4000 0.4000,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.8000 -0.1600 0.8200 0.8200,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.8000 -0.1600 0.8200 0.8200,
+		}
+
+		area GasTank
+		{
+			xywh = 0.8000 0.1600 0.4000 0.4000,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.0800 -1.5900 0.4000 0.4000,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.0000 1.5900 0.4000 0.4000,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.0800 -1.5900 0.4000 0.4000,
+		}
+
+		template = GasTank,
+		template = Engine,
+		template = VN125trunkStoragesB,
+
+		part Engine
+		{
+			category = engine,
+		}
+
+		template = Battery,
+
+		part Battery
+		{
+			category = engine,
+			area = GasTank,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Muffler,
+
+		part Muffler
+		{
+			specificItem = false,
+			itemType = Base.VN125muffler,
+
+			model Muffler72782366
+			{
+				file = vino125_exhaust,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			category = engine,
+			area = TireRearLeft,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Brake/part/BrakeFrontLeft,
+		template = Brake/part/BrakeRearLeft,
+
+		part BrakeFrontLeft
+		{
+			area = TireFrontLeft,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionFrontLeft,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+		}
+
+		part BrakeRearLeft
+		{
+			area = TireRearLeft,
+
+			model brakeRear7136783
+			{
+				file = vino125_rear_brake,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionRearLeft,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+		}
+
+		template = Headlight/part/HeadlightLeft,
+
+		part HeadlightLeft
+		{
+			area = TireFrontLeft,
+		}
+
+		template = Headlight/part/HeadlightRearLeft,
+		template = Suspension,
+
+		part SuspensionFrontLeft
+		{
+			area = TireFrontLeft,
+
+			model sus8127866
+			{
+				file = vino125_front_suspension,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = BrakeFrontLeft,
+			}
+		}
+
+		part SuspensionFrontRight
+		{
+			category = nodisplay,
+		}
+
+		part SuspensionRearLeft
+		{
+			area = TireRearLeft,
+
+			model sus24512452
+			{
+				file = vino125_rear_suspension,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = BrakeRearLeft,
+			}
+		}
+
+		part SuspensionRearRight
+		{
+			category = nodisplay,
+			area = TireRearLeft,
+		}
+
+		template! = ATAMotoWheelsReady,
+
+		part ATAMotoTireFrontWheel
+		{
+			specificItem = false,
+			itemType = Base.VN125oldTire;Base.VN125normalTire;Base.VN125modernTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = vino125_wheel,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionFrontLeft,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		part ATAMotoTireRearWheel
+		{
+			specificItem = false,
+			itemType = Base.VN125oldTire;Base.VN125normalTire;Base.VN125modernTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = vino125_wheel,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionRearLeft,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template! = PassengerCommon,
+		template = Seat/part/SeatFrontLeft,
+
+		part SeatFrontLeft
+		{
+			category = seat,
+			specificItem = false,
+			itemType = Base.VN125seat,
+
+			model seat4571287
+			{
+				file = vino125_seat,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+
+			anim Open
+			{
+				sound =,
+			}
+
+			anim Close
+			{
+				sound =,
+			}
+
+			anim Lock
+			{
+				sound =,
+			}
+
+			anim Unlock
+			{
+				sound =,
+			}
+
+			anim IsLocked
+			{
+				sound =,
+			}
+
+			lua
+			{
+				create = CommonTemplates.Create.setInventoryNil,
+				init = CommonTemplates.Init.setInventoryNil,
+				use = ATATuning.Use.Door,
+			}
+		}
+
+		template = Radio,
+
+		part Radio*
+		{
+			itemType = Radio.WalkieTalkie4,
+		}
+	}
+}

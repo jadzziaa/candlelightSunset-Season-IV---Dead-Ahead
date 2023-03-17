@@ -1,0 +1,7 @@
+IG_UI_TH = {
+	IGUI_VehicleName92amgeneralM998 = "GE Defense M380 SLMMR",
+	IGUI_VehicleName92amgeneralM998Burnt = "GE Defense M380 SLMMR (ถูกเผาไหม้)",
+	IGUI_VehicleNameTrailerM101A3cargo = "M99A1 รถพ่วงสิ่งของ ปี '92",
+	IGUI_CraftCategory_M998 = "M380",
+	IGUI_CraftCategory_M101A3 = "M99A1",
+}

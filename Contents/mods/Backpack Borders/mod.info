@@ -1,0 +1,4 @@
+name=Backpack Borders
+id=VISIBLE_BACKPACK_BACKGROUND
+description=Adjusts the background color and adds a border to inventory container buttons to allow for better visiblity. Particularly nice with dark colored backpacks.
+poster=poster.png

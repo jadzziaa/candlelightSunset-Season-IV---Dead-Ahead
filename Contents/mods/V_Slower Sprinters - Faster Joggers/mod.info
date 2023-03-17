@@ -1,0 +1,9 @@
+
+poster=joggers.png
+versionMin=41.65
+modversion=1.3
+
+description=(ENABLE ONLY ONE VERSION!) 40% slower sprinters and 14% slower players running speed. (Overall balance is as 30% slower sprinters, taking into account the decrease of the player running speed.)
+
+name=Slower Sprinters \ -40% (-30%) \ Faster Joggers \ v1.3
+id=V_SlowerSprinters_Runners

@@ -1,0 +1,13 @@
+module RewardingNightCombat {
+    imports {
+        Base
+    }
+    sound RNCTriggerSound
+    {
+        category = Player,
+        clip
+        {
+            file = media/sound/rnc_trigger.wav,
+        }
+    }
+}

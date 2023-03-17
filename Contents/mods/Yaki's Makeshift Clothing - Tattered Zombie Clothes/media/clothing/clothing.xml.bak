@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_FemaleOutfits>
+		<m_Name>TatteredF</m_Name>
+		<m_Guid>2b6aa694-7409-40b3-9875-090d959db98f</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items><!-- Dress-->
+			<probability>0.5</probability>
+			<itemGUID>63a07620-4d96-4932-85e1-b6bbb4f46377</itemGUID>
+		</m_items>
+		<m_items><!-- Dress Knees-->
+			<probability>0.6</probability>
+			<itemGUID>416dd799-9671-4574-9862-13d48e97b7d3</itemGUID>
+		</m_items>
+		<m_items><!-- Jacket-->
+			<probability>0.5</probability>
+			<itemGUID>72385cee-ec7b-4904-bfcd-af79dcf03bd9</itemGUID>
+		</m_items>
+		<m_items><!-- JacketLong-->
+			<probability>0.5</probability>
+			<itemGUID>5e28d856-d96a-46b0-ae92-04a1733deec0</itemGUID>
+		</m_items>
+		<m_items><!-- Jumper RoundNeck-->
+			<probability>0.5</probability>
+			<itemGUID>08595191-c05d-46c9-a5c4-960c4112d14a</itemGUID>
+		</m_items>
+		<m_items><!-- CropTop-->
+			<probability>0.5</probability>
+			<itemGUID>d82507f6-c5ee-4d07-beef-6bbbd8c5cdac</itemGUID>
+		</m_items>
+		<m_items><!-- DenimShirt-->
+			<probability>0.5</probability>
+			<itemGUID>056f4050-5694-4718-9771-deb51621f9f9</itemGUID>
+		</m_items>
+		<m_items><!-- FormalShirt-->
+			<probability>0.5</probability>
+			<itemGUID>63c3e616-2d18-4a1b-8b13-75558c9ea7f4</itemGUID>
+		</m_items>
+		<m_items><!-- Skirt-->
+			<probability>0.5</probability>
+			<itemGUID>6f778c73-b8f3-447e-abe7-c7ad58697925</itemGUID>
+		</m_items>
+		<m_items><!-- Pants-->
+			<probability>0.5</probability>
+			<itemGUID>b52f473d-fa89-4f94-9784-801b0b8650be</itemGUID>
+		</m_items>
+		<m_items><!-- ShirtPolo-->
+			<probability>0.5</probability>
+			<itemGUID>ca39cadb-db59-4776-8a47-8d8bdf1c9d98</itemGUID>
+		</m_items>
+		<m_items><!-- Shirt-->
+			<probability>0.5</probability>
+			<itemGUID>2f542ed9-1863-475a-b971-5efd6060557d</itemGUID>
+		</m_items>
+		<m_items><!-- Shoes-->
+			<probability>0.2</probability>
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+		<m_items><!-- CamoGreen-->
+			<probability>0.3</probability>
+			<itemGUID>3427ee78-6a24-44d3-9292-27e31570100b</itemGUID>
+		</m_items>
+		<m_items><!-- CamoUrban LongShorts-->
+			<probability>0.5</probability>
+			<itemGUID>beb99bc8-535b-44c8-954a-2a3162f29860</itemGUID>
+		</m_items>
+		<m_items><!-- CamoUrban Pants-->
+			<probability>0.5</probability>
+			<itemGUID>ac883e10-e831-4df1-91eb-04a0131ba6b1</itemGUID>
+		</m_items>
+		<m_items><!-- CamoGreen Pants-->
+			<probability>0.5</probability>
+			<itemGUID>5e052630-fddf-4a6f-80e4-0e8892ade808</itemGUID>
+		</m_items>
+		<m_items><!-- Denim LongShorts-->
+			<probability>0.5</probability>
+			<itemGUID>00a84f95-3e9f-4a94-b0d2-57a0edd71299</itemGUID>
+		</m_items>
+		<m_items><!-- Denim Pants-->
+			<probability>0.5</probability>
+			<itemGUID>71fdb07c-4b0e-41b0-8b95-3139d97f808e</itemGUID>
+		</m_items>
+		<m_items><!-- Denim Shorts-->
+			<probability>0.5</probability>
+			<itemGUID>072cc194-3435-4848-a7a4-2dca65e74ad3</itemGUID>
+		</m_items>
+		<m_items><!-- Pants Texture-->
+			<probability>0.5</probability>
+			<itemGUID>967c69e2-a6f5-4323-b13e-ab2eccc33f17</itemGUID>
+		</m_items>
+		<m_items><!-- Pants Denim Texture-->
+			<probability>0.5</probability>
+			<itemGUID>ca63d9eb-dfd5-427c-9a7b-3d74dfc18053</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	
+	<m_MaleOutfits>
+		<m_Name>TatteredM</m_Name>
+		<m_Guid>2b6aa694-7409-40b3-9875-090d959db98f</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items><!-- Jacket-->
+			<probability>0.5</probability>
+			<itemGUID>72385cee-ec7b-4904-bfcd-af79dcf03bd9</itemGUID>
+		</m_items>
+		<m_items><!-- JacketLong-->
+			<probability>0.5</probability>
+			<itemGUID>5e28d856-d96a-46b0-ae92-04a1733deec0</itemGUID>
+		</m_items>
+		<m_items><!-- Jumper RoundNeck-->
+			<probability>0.5</probability>
+			<itemGUID>08595191-c05d-46c9-a5c4-960c4112d14a</itemGUID>
+		</m_items>
+		<m_items><!-- DenimShirt-->
+			<probability>0.5</probability>
+			<itemGUID>056f4050-5694-4718-9771-deb51621f9f9</itemGUID>
+		</m_items>
+		<m_items><!-- FormalShirt-->
+			<probability>0.5</probability>
+			<itemGUID>63c3e616-2d18-4a1b-8b13-75558c9ea7f4</itemGUID>
+		</m_items>
+		<m_items><!-- Pants-->
+			<probability>0.5</probability>
+			<itemGUID>b52f473d-fa89-4f94-9784-801b0b8650be</itemGUID>
+		</m_items>
+		<m_items><!-- ShirtPolo-->
+			<probability>0.5</probability>
+			<itemGUID>ca39cadb-db59-4776-8a47-8d8bdf1c9d98</itemGUID>
+		</m_items>
+		<m_items><!-- Shirt-->
+			<probability>0.5</probability>
+			<itemGUID>2f542ed9-1863-475a-b971-5efd6060557d</itemGUID>
+		</m_items>
+		<m_items><!-- Shoes-->
+			<probability>0.2</probability>
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+		<m_items><!-- CamoGreen-->
+			<probability>0.5</probability>
+			<itemGUID>3427ee78-6a24-44d3-9292-27e31570100b</itemGUID>
+		</m_items>
+		<m_items><!-- CamoUrban LongShorts-->
+			<probability>0.5</probability>
+			<itemGUID>beb99bc8-535b-44c8-954a-2a3162f29860</itemGUID>
+		</m_items>
+		<m_items><!-- CamoUrban Pants-->
+			<probability>0.5</probability>
+			<itemGUID>ac883e10-e831-4df1-91eb-04a0131ba6b1</itemGUID>
+		</m_items>
+		<m_items><!-- CamoGreen Pants-->
+			<probability>0.5</probability>
+			<itemGUID>5e052630-fddf-4a6f-80e4-0e8892ade808</itemGUID>
+		</m_items>
+		<m_items><!-- Denim LongShorts-->
+			<probability>0.5</probability>
+			<itemGUID>00a84f95-3e9f-4a94-b0d2-57a0edd71299</itemGUID>
+		</m_items>
+		<m_items><!-- Denim Pants-->
+			<probability>0.5</probability>
+			<itemGUID>71fdb07c-4b0e-41b0-8b95-3139d97f808e</itemGUID>
+		</m_items>
+		<m_items><!-- Denim Shorts-->
+			<probability>0.5</probability>
+			<itemGUID>072cc194-3435-4848-a7a4-2dca65e74ad3</itemGUID>
+		</m_items>
+		<m_items><!-- Pants Texture-->
+			<probability>0.5</probability>
+			<itemGUID>967c69e2-a6f5-4323-b13e-ab2eccc33f17</itemGUID>
+		</m_items>
+		<m_items><!-- Pants Denim Texture-->
+			<probability>0.5</probability>
+			<itemGUID>ca63d9eb-dfd5-427c-9a7b-3d74dfc18053</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+	
+</outfitManager>

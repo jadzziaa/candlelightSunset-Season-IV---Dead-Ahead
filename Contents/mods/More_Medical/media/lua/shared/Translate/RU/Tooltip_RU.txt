@@ -1,0 +1,27 @@
+Tooltip_RU = {
+    Tooltip_MoreMedicalWarning86 = "Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1986)",
+    Tooltip_MoreMedicalWarning87 = "Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1987)",
+    Tooltip_MoreMedicalWarning88 = "Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1988)",
+    Tooltip_MoreMedicalWarning89 = "Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1989)",
+    Tooltip_MoreMedicalWarning90 = "Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1990)",
+
+    Tooltip_PillsCommercialPainkillers = "Обезболивающее. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1986)",
+    Tooltip_PillsPrescriptionPainkillers = "Обезболивающее. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1987)",
+    Tooltip_PillsCaffeine = "Бодрящее. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1988)",
+    Tooltip_PillsCommercialAntibiotic = "Антибиотик. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1989)",
+    Tooltip_PillsAntiPoisoning = "Таблетки от отравления.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1990)",
+    Tooltip_PillsCommercialSedative = "Седативное. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1986)",
+    Tooltip_PillsPharmacyPrescription = "Unknown prescription drugs. It is dangerous to take.",
+    
+    Tooltip_SyretteHighGradePainkillers = "Обезболивающее. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1987)",
+    Tooltip_SyretteAdrenalin = "Бодрящее. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1988)",
+    Tooltip_SyrettePrescriptionAntibiotic = "Антибиотик. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1989)",
+    Tooltip_SyrettePrescriptionSedatives = "Седативное. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1990)",
+    Tooltip_BottleFluMedication = "Лекарство от гриппа. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1986)",
+    Tooltip_PowderPackFluMedication = "Лекарство от гриппа. ВНИМАНИЕ: РИСК СМЕРТЕЛЬНОЙ ПЕРЕДОЗИРОВКИ.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1987)",
+    Tooltip_PowderPackHemostatic = "Кровоостанавливающее.<br>Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1990)",
+    Tooltip_Tourniquet = "ВНИМАНИЕ: НЕ ПРИМЕНЯЙТЕ НА ШЕЕ.",
+    
+    Tooltip_BottleCoughSyrup = "Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1988)",
+    Tooltip_NasalSpray = "Произведено компанией Z-Ontic Medical Breakthroughs Inc.<br>Ожидает одобрения FDA (1989)",
+}

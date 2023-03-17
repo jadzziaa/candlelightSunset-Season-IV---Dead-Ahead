@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_longshorts</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_longshorts</m_FemaleModel>
+	<m_GUID>de88ee33-3848-4baf-a833-104b01b5becb</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<textureChoices>clothes\pants\Shorts_SheetLong</textureChoices>
+</clothingItem>

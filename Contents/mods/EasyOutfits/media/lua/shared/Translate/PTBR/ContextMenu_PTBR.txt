@@ -1,0 +1,12 @@
+ContextMenu_PTBR = {
+	ContextMenu_EasyOutfitsApplyTag = "Aplicar etiqueta na roupa",
+	ContextMenu_EasyOutfitsRenameTag = "Renomear a etiqueta da roupa",
+	ContextMenu_EasyOutfitsApplyPlayer = "Não é possível aplicar uma etiqueta ao inventário do jogador",
+	ContextMenu_EasyOutfitsApplyFloor = "Não é possível aplicar uma etiqueta ao piso",
+	ContextMenu_EasyOutfitsApplyVehicle = "Não é possível aplicar uma etiqueta a veículos",
+	ContextMenu_EasyOutfitsStoreOutfit = "Loja de Roupas",
+	ContextMenu_EasyOutfitsWearOutfit = "Vestir Traje",
+	ContextMenu_EasyOutfitsRetreiveOutfit = "Recuperar Traje",
+	ContextMenu_EasyOutfitsRegisterOutfit = "Adicionar Traje",
+	ContextMenu_EasyOutfitsRemoveOutfit = "Remover etiqueta da roupa",
+}

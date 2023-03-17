@@ -1,0 +1,1157 @@
+module Base
+{
+    item Fridge3SilverCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	40,
+        Type	=	Container,
+        DisplayName	=	Steel Fridge,
+        Icon	=	Fridge,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	40,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Fridge3_Silver,
+        primaryAnimMask = HoldingHandDollyTallRight,
+        WorldStaticModel = W_Fridge3_Silver,
+    }
+	
+    item Fridge2WhiteCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	40,
+        Type	=	Container,
+        DisplayName	=	Plain Fridge,
+        Icon	=	Fridge,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	40,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Fridge2_White,
+        primaryAnimMask = HoldingHandDollyTallRight,
+        WorldStaticModel = W_Fridge2_White,
+    }
+
+    item Fridge2TealCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	40,
+        Type	=	Container,
+        DisplayName	=	Blue Fridge,
+        Icon	=	Fridge,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	40,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Fridge2_Teal,
+        primaryAnimMask = HoldingHandDollyTallRight,
+        WorldStaticModel = W_Fridge2_Teal,
+    }
+	
+    item FridgeGreenCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	40,
+        Type	=	Container,
+        DisplayName	=	Green Fridge,
+        Icon	=	Fridge,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	40,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Fridge_Green,
+        primaryAnimMask = HoldingHandDollyTallRight,
+        WorldStaticModel = W_Fridge_Green,
+    }
+	
+    item FridgeWhiteCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	40,
+        Type	=	Container,
+        DisplayName	=	White Fridge,
+        Icon	=	Fridge,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	40,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Fridge_White,
+        primaryAnimMask = HoldingHandDollyTallRight,
+        WorldStaticModel = W_Fridge_White,
+    }
+	
+    item FridgeRedCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	40,
+        Type	=	Container,
+        DisplayName	=	Red Fridge,
+        Icon	=	Fridge,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	40,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Fridge_Red,
+        primaryAnimMask = HoldingHandDollyTallRight,
+        WorldStaticModel = W_Fridge_Red,
+    }
+	
+    item WasherCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	20,
+        Type	=	Container,
+        DisplayName	=	White Washing Machine,
+        Icon	=	Washer,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	20,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Washer,
+        primaryAnimMask = HoldingHandDollyRight,
+        WorldStaticModel = W_Washer,
+    }
+	
+    item DryerCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	20,
+        Type	=	Container,
+        DisplayName	=	White Clothing Dryer,
+        Icon	=	Washer,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	20,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Dryer,
+        primaryAnimMask = HoldingHandDollyRight,
+        WorldStaticModel = W_Dryer,
+    }
+	
+    item ComboCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	20,
+        Type	=	Container,
+        DisplayName	=	Blue Combo Washer Dryer,
+        Icon	=	Combo,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	20,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_ComboWD,
+        primaryAnimMask = HoldingHandDollyRight,
+        WorldStaticModel = W_ComboWD,
+    }	
+	
+    item RegisterCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	2,
+        Type	=	Container,
+        DisplayName	=	Cash Register,
+        Icon	=	Register,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	5,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Register,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_Register,
+    }
+	
+    item Register2Carry
+    {
+        DisplayCategory = Container,
+        Weight	=	2,
+        Type	=	Container,
+        DisplayName	=	Cash Register,
+        Icon	=	Register2,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	5,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Register2,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_Register2,
+    }	
+	
+    item ConeCarry
+    {
+        DisplayCategory = Normal,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	Road Cone,
+        Icon	=	RCone,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = PA_Cone,
+        primaryAnimMask = HoldingCarryRight,
+        secondaryAnimMask = HoldingCarryLeft,
+        WorldStaticModel = W_Cone,
+    }
+
+    item Cone2Carry
+    {
+        DisplayCategory = Normal,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	Road Cone,
+        Icon	=	Cone2,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = PA_Cone2,
+        primaryAnimMask = HoldingCarryRight,
+        secondaryAnimMask = HoldingCarryLeft,
+        WorldStaticModel = W_Cone2,
+    }
+	
+    item GnomeCarry
+    {
+        DisplayCategory = Normal,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	David the Gnome,
+        Icon	=	Gnome,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = PA_Gnome,
+        primaryAnimMask = HoldingCarryMidRight,
+        secondaryAnimMask = HoldingCarryMidLeft,
+        WorldStaticModel = W_Gnome,
+    }
+	
+    item MiniFridgeCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	5,
+        Type	=	Container,
+        DisplayName	=	Mini Fridge,
+        Icon	=	MiniFridge,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	10,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_MiniFridge,
+        primaryAnimMask = HoldingHandDollyRight,
+        WorldStaticModel = W_MiniFridge,
+    }
+	
+    item TrunkCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	2,
+        Type	=	Container,
+        DisplayName	=	Small Chest,
+        Icon	=	Trunk,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	10,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Trunk,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_Trunk,
+    }
+	
+    item BarrelTrashCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	10,
+        Type	=	Container,
+        DisplayName	=	Green Garbage Bin,
+        Icon	=	OilBarrel,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	10,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_TrashBarrel,
+        primaryAnimMask = HoldingHandDollyRight,
+        WorldStaticModel = W_TrashBarrel,
+    }	
+	
+    item BarrelYellowCarry
+    {
+        DisplayCategory = Furniture,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	Barrel,
+        Icon	=	OilBarrel,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = PA_Barrel_Yellow,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_Barrel_Yellow,
+    }
+
+    item BarrelGreenCarry
+    {
+        DisplayCategory = Furniture,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	Barrel,
+        Icon	=	OilBarrel,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = PA_Barrel_Green,
+        primaryAnimMask = HoldingHandDollyRight,
+        WorldStaticModel = W_Barrel_Green,
+    }
+
+    item BarrelGreyCarry
+    {
+        DisplayCategory = Furniture,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	Barrel,
+        Icon	=	OilBarrel,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = PA_Barrel_Grey,
+        primaryAnimMask = HoldingHandDollyRight,
+        WorldStaticModel = W_Barrel_Grey,
+    }
+
+    item BarrelOrangeCarry
+    {
+        DisplayCategory = Furniture,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	Barrel,
+        Icon	=	OilBarrel,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = PA_Barrel_Orange,
+        primaryAnimMask = HoldingHandDollyRight,
+        WorldStaticModel = W_Barrel_Orange,
+    }
+	
+    item ToiletCarry
+    {
+        DisplayCategory = Furniture,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	Fancy Toilet,
+        Icon	=	Toilet,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = PA_Toilet,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_Toilet,
+    }
+	
+    item SmallTrashCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	2,
+        Type	=	Container,
+        DisplayName	=	Round Bin,
+        Icon	=	SmallTrash,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	10,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_SmallTrash,
+        primaryAnimMask = HoldingCarryMidRight,
+       /* secondaryAnimMask = HoldingUmbrellaLeft, */
+        WorldStaticModel = W_SmallTrash,
+    }
+	
+    item Microwave1Carry
+    {
+        DisplayCategory = Container,
+        Weight	=	2,
+        Type	=	Container,
+        DisplayName	=	White Microwave,
+        Icon	=	Microwave1,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	10,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Microwave1,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_Microwave1,
+    }
+
+    item Microwave2Carry
+    {
+        DisplayCategory = Container,
+        Weight	=	2,
+        Type	=	Container,
+        DisplayName	=	Chrome Microwave,
+        Icon	=	Microwave2,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	10,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = PA_Microwave2,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_Microwave2,
+    }
+	
+    item TelevisionCarry
+    {
+        DisplayCategory = Electronics,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	Antique Television,
+        Icon	=	tv,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = KYRP/PA_TV,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_TV,
+    }
+
+    item Television2Carry
+    {
+        DisplayCategory = Electronics,
+        Weight	=	10,
+        Type	=	Normal,
+        DisplayName	=	ValuTech Television,
+        Icon	=	tv2,
+        EquippedNoSprint         = TRUE,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+        StaticModel = KYRP/PA_TV2,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_TV2,
+    }
+
+    item GarbageCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	10,
+        Type	=	Container,
+        DisplayName	=	Garbage Can,
+        Icon	=	MGCan,
+        Tooltip = Tooltip_MGCan,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	10,
+        Tags = HeavyItem,
+        StaticModel = KYRP/PA_MGCan,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_MGCan,
+    }
+
+    item CardboardBoxCarry
+    {
+        DisplayCategory = Container,
+        Weight	=	2,
+        Type	=	Container,
+        DisplayName	=	Large Cardboard Box,
+        Icon	=	Cartbox,
+        Tooltip = Tooltip_Cartbox,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	25,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = KYRP/PA_Cardboard_Box,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+        WorldStaticModel = W_Cardboard_Box,
+    }
+	
+    item CardboardBox2Carry
+    {
+        DisplayCategory = Container,
+        Weight	=	2,
+        Type	=	Container,
+        DisplayName	=	Cardboard Box,
+        Icon	=	Cartbox2,
+        Tooltip = Tooltip_Cartbox,
+        EquippedNoSprint         = TRUE,
+        WeightReduction	=	65,
+        RequiresEquippedBothHands = true,
+        ConditionMax = 100,
+        Capacity	=	10,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        Tags = HeavyItem,
+        StaticModel = KYRP/PA_Cardboard_Box2,
+        primaryAnimMask = HoldingCarryMidRight,
+       /* secondaryAnimMask = HoldingUmbrellaLeft, */
+        WorldStaticModel = W_Cardboard_Box2,
+    }
+	
+	item BucketEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Bucket,
+		Icon	=	MetalBucket,
+        ReplaceOnUseOn = WaterSource-BucketWaterFull,
+        MetalValue = 20,
+        RainFactor = 1,
+		Tooltip = Tooltip_item_RainFromGround,
+        EatType = Bucket,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Bucket_Ground,
+        StaticModel = bucket,
+        primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,		
+	}
+	
+	item BucketConcreteFull
+	{
+	    DisplayCategory = Material,
+		Weight	=	10,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Bucket of Concrete,
+		ReplaceOnDeplete	=	BucketEmpty,
+		ReplaceOnUseOn	=	WaterSource-BucketWaterFull,
+		Icon	=	MetalBucket_Concrete,
+		StaticModel = PA_BucketFullConcrete,
+		EatType = Bucket,
+		WorldStaticModel = BucketFullConcrete_Ground,
+        StaticModel = PA_BucketFullConcrete,
+        primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,		
+	}
+
+	item BucketPlasterFull
+	{
+	    DisplayCategory = Material,
+		Weight	=	10,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.1,
+		DisplayName	=	Bucket of Plaster,
+		ReplaceOnDeplete	=	BucketEmpty,
+		ReplaceOnUseOn	=	WaterSource-BucketWaterFull,
+		Icon	=	MetalBucket_Plaster,
+		StaticModel = PA_BucketFullPlaster,
+		EatType = Bucket,
+		WorldStaticModel = BucketFullPlaster_Ground,
+        StaticModel = PA_BucketFullPlaster,
+        primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,				
+	}
+
+	item BucketWaterFull
+	{
+	    DisplayCategory = Water,
+		IsWaterSource	=	TRUE,
+		Weight	=	4,
+		CanStoreWater	=	TRUE,
+		FillFromDispenserSound = GetWaterFromDispenserMetalBig,
+		FillFromTapSound = GetWaterFromTapMetalBig,
+		Type	=	Drainable,
+		DisplayName	=	Bucket of Water,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.04,
+		ReplaceOnDeplete	=	BucketEmpty,
+		ReplaceOnUseOn	=	WaterSource-BucketWaterFull,
+		Icon	=	MetalBucket_Water,
+		RainFactor = 1,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = PA_BucketFullWater,
+		EatType = Bucket,
+		WorldStaticModel = BucketFullWater_Ground,
+		IsCookable = TRUE,
+		Tags = HasMetal,
+        StaticModel = PA_BucketFullWater,
+        primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,				
+	}	
+	
+	/* these are overwrites. DON'T DO THIS */
+	item PropaneTank
+	{
+	    DisplayCategory = Material,
+		Weight	=	10.0,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.0625,
+		DisplayName	=	Propane Tank,
+		Icon	=	PropaneTank,
+		UseWorldItem = TRUE,
+		ScaleWorldIcon = 2.0,
+		WeightEmpty = 5.0,
+		StaticModel = PA_PropaneTank,
+		WorldStaticModel = PropaneTank,
+        primaryAnimMask = HoldingCarrySmallRight,
+       /* secondaryAnimMask = HoldingUmbrellaLeft, */		
+		cantBeConsolided = TRUE,
+	}	
+	
+    item Extinguisher
+	{
+	    DisplayCategory = Household,
+		Weight	=	2,
+		Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.1,
+		DisplayName	=	Extinguisher,
+		Icon	=	Extinguisher,
+		MetalValue = 25,
+		Tooltip = Tooltip_Extinguisher,
+		StaticModel = PA_Extinguisher,
+		WorldStaticModel = W_Extinguisher,
+		cantBeConsolided = TRUE,
+		primaryAnimMask = HoldingCarryExtinguisherRight,
+        secondaryAnimMask = HoldingCarryExtinguisherLeft,
+	}
+	
+    item CordlessPhone
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Cordless Phone,
+        Icon	=	CordlessPhone,
+        WorldStaticModel = CordlessPhone,
+	    StaticModel = PA_CordlessPhone,
+        primaryAnimMask = holdingCordlessPhoneRight,
+        secondaryAnimMask = holdingCordlessPhoneLeft,		
+    }
+
+    item Notebook
+    {
+        DisplayCategory = Literature,
+        Weight	=	0.5,
+        Type	=	Literature,
+        DisplayName	=	Empty Notebook,
+        Icon	=	Notebook,
+        CanBeWrite  =   true,
+        PageToWrite =   10,
+        WorldStaticModel = EmptyNotebook,
+	    /* added by skiz */
+	    StaticModel = PA_EmptyNotebook,
+        primaryAnimMask = HoldingUmbrellaRight,
+       /* secondaryAnimMask = HoldingUmbrellaLeft, */
+    }	
+	
+	item Pot
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Cooking Pot,
+		ReplaceOnUseOn	=	WaterSource-WaterPot,
+		Icon	=	Pot,
+		MetalValue = 40,
+		RainFactor = 1,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = CookingPot,
+		EatType = Pot,
+		WorldStaticModel = CookingPotGround,
+	    /* added by skiz */
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_CookingPot,
+        primaryAnimMask = HoldingCarryMidRight,
+       /* secondaryAnimMask = HoldingUmbrellaLeft, */		
+	}
+
+	item WaterPot
+	{
+		DisplayName = Cooking Pot with Water,
+		DisplayCategory = Water,
+		Type = Drainable,
+		Weight = 3,
+		Icon = Pot_Water,
+		CanStoreWater = TRUE,
+		EatType = Pot,
+		FillFromDispenserSound = GetWaterFromDispenserMetalBig,
+		FillFromTapSound = GetWaterFromTapMetalBig,
+		IsCookable = TRUE,
+		IsWaterSource = TRUE,
+		RainFactor = 1,
+		ReplaceOnDeplete = Pot,
+		ReplaceOnUseOn = WaterSource-WaterPot,
+		Tooltip = Tooltip_item_RainFromGround,
+		UseDelta = 0.04,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+		Tags = HasMetal,
+	    /* added by skiz */
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_CookingPotWater,
+        primaryAnimMask = HoldingCarryMidRight,
+       /* secondaryAnimMask = HoldingUmbrellaLeft, */		
+	}	
+	
+	item WaterPotRice
+	{
+		DisplayName = Cooking Pot with Rice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		BadInMicrowave = true,
+		CookingSound = BoilingFood,
+		EvolvedRecipe = Soup:10;Stew:10;Burrito:10|Cooked,
+		EatType = Pot,
+		FoodType = Rice,
+		GoodHot = true,
+		IsCookable = true,
+		ReplaceOnUse = Pot,
+		MinutesToCook = 20,
+		MinutesToBurn = 50,
+		DaysFresh = 3,
+		DaysTotallyRotten = 6,
+		HungerChange = -10,
+		UnhappyChange = 20,
+		Calories = 480,
+		Carbohydrates = 108,
+		Lipids = 0,
+		Proteins = 12,
+		WorldStaticModel = CookingPotRice_Ground,
+		Tags = RiceRecipe;HasMetal,
+		EvolvedRecipeName = Rice,
+	    /* added by skiz */
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_CookingPotRice,
+        primaryAnimMask = HoldingCarryMidRight,
+       /* secondaryAnimMask = HoldingUmbrellaLeft, */			
+	}
+
+	item WaterPotPasta
+	{
+		DisplayName = Cooking Pot with Pasta,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		BadCold = true,
+		BadInMicrowave = true,
+		CookingSound = BoilingFood,
+		EatType = Pot,
+		GoodHot = true,
+		IsCookable = true,
+		ReplaceOnUse = Pot,
+		MinutesToCook = 20,
+		MinutesToBurn = 50,
+		DaysFresh = 3,
+		DaysTotallyRotten = 6,
+		HungerChange = -10,
+		UnhappyChange = 20,
+		Calories = 560,
+		Carbohydrates = 109.3,
+		Lipids = 2.66,
+		Proteins = 18.66,
+		WorldStaticModel = CookingPotPasta_Ground,
+		Tags = HasMetal,
+	    /* added by skiz */
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_CookingPotPasta,
+        primaryAnimMask = HoldingCarryMidRight,	
+		/* secondaryAnimMask = HoldingUmbrellaLeft, */
+	}	
+	
+	item PotOfSoup
+	{
+		DisplayName = Pot of Soup,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 3,
+		Icon = PotFull,
+		CookingSound = BoilingFood,
+		EatType = Pot,
+		IsCookable = TRUE,
+		ReplaceOnUse = Pot,
+		MinutesToCook = 50,
+		MinutesToBurn = 100,
+		DaysFresh = 3,
+		DaysTotallyRotten = 5,
+		HungerChange = -30,
+		ThirstChange = -30,
+		UnhappyChange = -20,
+		Calories = 202,
+		Carbohydrates = 25,
+		Lipids = 4.5,
+		Proteins = 14,
+		CustomContextMenu = Drink,
+		CustomEatSound = EatingSoup,
+		WorldStaticModel = CookingPotSoup_Ground,
+		Tags = HasMetal,
+	    /* added by skiz */
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_CookingPotSoup,
+        primaryAnimMask = HoldingCarryMidRight,	
+		/* secondaryAnimMask = HoldingUmbrellaLeft, */		
+	}	
+	
+	item PastaPot
+	{
+		DisplayName = Pasta,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 3,
+		Icon = PotFull,
+		BadCold = true,
+		BadInMicrowave = true,
+		CookingSound = BoilingFood,
+		GoodHot = true,
+		IsCookable = true,
+		ReplaceOnUse = Pot,
+		MinutesToCook = 20,
+		MinutesToBurn = 50,
+		DaysFresh = 4,
+		DaysTotallyRotten = 7,
+		UnhappyChange = 20,
+		Calories = 560,
+		Carbohydrates = 109.3,
+		Lipids = 2.66,
+		Proteins = 18.66,
+		WorldStaticModel = CookingPotPasta_Ground,
+		Tags = HasMetal,
+	    /* added by skiz */
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_CookingPotPasta,
+        primaryAnimMask = HoldingCarryMidRight,	
+		/* secondaryAnimMask = HoldingUmbrellaLeft, */			
+	}
+
+	item RicePot
+	{
+		DisplayName = Rice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 3,
+		Icon = PotFull,
+		BadInMicrowave = true,
+		CookingSound = BoilingFood,
+		GoodHot = true,
+		IsCookable = true,
+		ReplaceOnUse = Pot,
+		MinutesToCook = 20,
+		MinutesToBurn = 50,
+		DaysFresh = 4,
+		DaysTotallyRotten = 7,
+		UnhappyChange = 20,
+		Calories = 720,
+		Carbohydrates = 0,
+		Lipids = 48,
+		Proteins = 78,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotRice_Ground,
+		Tags = HasMetal,
+	    /* added by skiz */
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_CookingPotRice,
+        primaryAnimMask = HoldingCarryMidRight,	
+		/* secondaryAnimMask = HoldingUmbrellaLeft, */			
+	}	
+	
+	item PotOfStew
+	{
+		DisplayName = Pot of Stew,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 3,
+		Icon = PotFull,
+		BadCold = true,
+		BadInMicrowave = true,
+		CookingSound = BoilingFood,
+		EatType = Pot,
+		IsCookable = TRUE,
+		ReplaceOnUse = Pot,
+		MinutesToCook = 70,
+		MinutesToBurn = 140,
+		DaysFresh = 3,
+		DaysTotallyRotten = 5,
+		HungerChange = -40,
+		ThirstChange = -40,
+		UnhappyChange = -20,
+		Calories = 310,
+		Carbohydrates = 26.3,
+		Lipids = 14.5,
+		Proteins = 3.8,
+		WorldStaticModel = CookingPotSoup_Ground,
+		Tags = HasMetal,
+	    /* added by skiz */
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_CookingPotSoup,
+        primaryAnimMask = HoldingCarryMidRight,	
+		/* secondaryAnimMask = HoldingUmbrellaLeft, */			
+	}	
+	
+	item PotOfSoupRecipe
+	{
+		DisplayName = Pot of Soup,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 3,
+		Icon = PotFull,
+		CookingSound = BoilingFood,
+		EatType = Pot,
+		IsCookable = TRUE,
+		ReplaceOnUse = Pot,
+		MinutesToCook = 50,
+		MinutesToBurn = 100,
+		DaysFresh = 3,
+		DaysTotallyRotten = 5,
+		HungerChange = -40,
+		ThirstChange = -40,
+		UnhappyChange = -20,
+		Calories = 202,
+		Carbohydrates = 25,
+		Lipids = 4.5,
+		Proteins = 14,
+		CustomContextMenu = Drink,
+		CustomEatSound = EatingSoup,
+		WorldStaticModel = CookingPotSoup_Ground,
+		Tags = HasMetal,
+	    /* added by skiz */
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_CookingPotSoup,
+        primaryAnimMask = HoldingCarryMidRight,	
+		/* secondaryAnimMask = HoldingUmbrellaLeft, */			
+	}	
+
+	
+	/* these are from the other carry mod. I couldn't leave them behind */
+	
+    item Generator
+    {
+        DisplayCategory = Electronics,
+        Weight	=	40,
+        Type	=	Normal,
+        DisplayName	=	Generator,
+        Icon	=	Generator,
+        Tooltip = Tooltip_Generator,
+	    RequiresEquippedBothHands = true,
+	    MetalValue = 500,
+        ConditionMax = 100,
+        Tags = HeavyItem,
+	    StaticModel = PA_Generator,
+        primaryAnimMask = HoldingCarryGrabRight,
+        secondaryAnimMask = HoldingCarryGrabLeft,
+    }
+
+    item CorpseMale
+	{
+	    DisplayCategory = Corpse,
+	    Weight	=	20.0,
+	    Type	=	Normal,
+	    DisplayName	=	Corpse,
+	    Icon = DeadPerson_MaleZombie,
+	    RequiresEquippedBothHands = true,
+	    Tags = HeavyItem,
+	    StaticModel = PA_Corpse,
+        primaryAnimMask = HoldingCarryRight,
+        secondaryAnimMask = HoldingCarryLeft,
+	}
+
+    item CorpseFemale
+	{
+	    DisplayCategory = Corpse,
+	    Weight	=	20.0,
+	    Type	=	Normal,
+	    DisplayName	=	Corpse,
+	    Icon = DeadPerson_FemaleZombie,
+	    RequiresEquippedBothHands = true,
+	    Tags = HeavyItem,
+	    StaticModel = PA_Corpse,
+        primaryAnimMask = HoldingCarryRight,
+        secondaryAnimMask = HoldingCarryLeft,
+	}
+
+	item Log
+	{
+	    DisplayCategory = Material,
+		Weight	=	9,
+		Type	=	Normal,
+		DisplayName	=	Log,
+		Icon	=	Logs,
+		WorldStaticModel = Log,
+		RequiresEquippedBothHands = true,
+	    StaticModel = PA_Log,
+        primaryAnimMask = HoldingCarryRight,
+        secondaryAnimMask = HoldingCarryLeft,		
+	}
+	
+    item LogStacks2
+	{
+	    DisplayCategory = Material,
+		Weight	=	6,
+		Type	=	Normal,
+		DisplayName	=	Two Logs Stack,
+		Icon	=	Logs2,
+		WorldStaticModel = TwoLogsStack,
+		RequiresEquippedBothHands = true,		
+	    StaticModel = PA_TwoLogsStack,
+        primaryAnimMask = HoldingCarryRight,
+        secondaryAnimMask = HoldingCarryLeft,		
+	}
+
+	item LogStacks3
+    {
+        DisplayCategory = Material,
+        Weight	=	9,
+        Type	=	Normal,
+        DisplayName	=	Three Logs Stack,
+        Icon	=	Logs3,
+        WorldStaticModel = ThreeLogsStack,
+		RequiresEquippedBothHands = true,		
+	    StaticModel = PA_ThreeLogsStack,
+        primaryAnimMask = HoldingCarryRight,
+        secondaryAnimMask = HoldingCarryLeft,		
+    }
+
+    item LogStacks4
+    {
+        DisplayCategory = Material,
+        Weight	=	12,
+        Type	=	Normal,
+        DisplayName	=	Four Logs Stack,
+        Icon	=	Logs4,
+        WorldStaticModel = FourLogsStack,
+		RequiresEquippedBothHands = true,		
+	    StaticModel = PA_FourLogsStack,
+        primaryAnimMask = HoldingCarryRight,
+        secondaryAnimMask = HoldingCarryLeft,		
+    }	
+	
+	item KYRPHanddolly
+    {
+        DisplayCategory 			= Container,
+        Weight						= 7,
+        Type						= Container,
+        DisplayName					= Hand Dolly,
+        Icon						= HandDolly,
+        EquippedNoSprint         	= TRUE,
+        WeightReduction				= 65,
+        RequiresEquippedBothHands 	= true,
+        ConditionMax 				= 100,
+        Capacity					= 170,
+        OpenSound   				= OpenBag,
+        CloseSound   				= CloseBag,
+        PutInSound   				= PutItemInBag,
+        Tags 						= HeavyItem,
+        StaticModel 				= KYRPHanddolly,
+        primaryAnimMask 			= holdinghanddollyright,
+        /*secondaryAnimMask 		= HoldingCarryGrabLeft,*/
+        WorldStaticModel 			= W_KYRPHanddolly,
+    } 
+}
+

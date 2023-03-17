@@ -1,0 +1,119 @@
+module Rotators
+{
+	template vehicle SemiTruckArmor
+	{
+		part ArmorDoorL
+		{
+			model Default
+			{
+				file = Rotators.SemiTruckArmorDoorL,
+			}
+			area = SeatFrontLeft,
+			table install
+			{
+				requireInstalled = DoorFrontLeft,
+			}
+		}
+
+		part ArmorDoorR
+		{
+			model Default
+			{
+				file = Rotators.SemiTruckArmorDoorR,
+			}
+			area = SeatFrontRight,
+			table install
+			{
+				requireInstalled = DoorFrontRight,
+			}
+		}
+
+		part ArmorFront
+		{
+			model Default
+			{
+				file = Rotators.SemiTruckArmorFront,
+			}
+			area = SeatFrontLeft,
+			category = bodywork,
+			itemType = Rotators.SemiTruckArmorFront_Item,
+		}
+
+		part ArmorRear
+		{
+			model Default
+			{
+				file = Rotators.SemiTruckArmorRear,
+			}
+			area = SeatFrontLeft,
+			category = bodywork,
+			itemType = Rotators.SemiTruckArmorRear_Item,
+		}
+
+		part ArmorBullbar
+		{
+			model Default
+			{
+				file = Rotators.SemiTruckBullbar,
+			}
+			area = SeatFrontLeft,
+			category = Other,
+			itemType = Rotators.SemiTruckBullbar_Item,
+			lua
+			{
+				create = rSemiTruck.Vehicle.CreateBullbar,
+			}
+		}
+
+		part ArmorDoor*
+		{
+			category = door,
+			itemType = Rotators.SemiTruckArmorDoor_Item,
+		}
+
+		part Armor*
+		{
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.InstallTest.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				requireEmpty = true,
+			}
+			/*lua
+			{
+				create = Vehicles.Create.Default,
+			}*/
+		}
+	}
+}

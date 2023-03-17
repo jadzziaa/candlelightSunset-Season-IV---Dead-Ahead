@@ -1,0 +1,54 @@
+module BicPen {
+	imports {
+		Base
+	}
+	
+	item BicPen {
+		DisplayName = 4 Colour Bic Pen,
+		Icon = BicPen,
+		Weight = 0.05,
+		DisplayCategory = Household,
+		MaxRange        =       0.8,
+		WeaponSprite    =       Pen,
+		MinAngle        =       0.65,
+		Type    =       Weapon,
+		MinimumSwingTime        =       2,
+		KnockBackOnNoDeath      =       FALSE,
+		SwingAmountBeforeImpact =       0.02,
+		Categories      =       Improvised,
+		ConditionLowerChanceOneIn       =       1,
+		Weight  =       0.1,
+		SplatNumber     =       1,
+		PushBackMod     =       0.3,
+		SubCategory     =       Stab,
+		AimingMod       =       0.8,
+		ConditionMax    =       2,
+		MaxHitCount     =       1,
+		IsAimedHandWeapon       =       TRUE,
+		DoorDamage      =       0,
+		SwingAnim       =       Stab,
+		DisplayName     =       Blue Pen,
+		MinRange        =       0.61,
+		SwingTime       =       2,
+		KnockdownMod    =       0,
+		SplatBloodOnNoDeath     =       FALSE,
+		RunAnim =       Run_Weapon2,
+		IdleAnim        =       Idle_Weapon2,
+		TreeDamage  =   0,
+		EnduranceMod = 0.5,
+		CriticalChance  =       0,
+		MinDamage       =       0.1,
+		MaxDamage       =       0.1,
+		WeaponLength = 0.15,
+		Tags = Write;BluePen;Pen;RedPen;
+		BreakSound  =   PenBreak,
+		HitFloorSound   = PenHit,
+		ImpactSound     =       PenHit,
+		DoorHitSound = PenHit,
+		HitSound        =       PenHit,
+		SwingSound = PenSwing,0
+		Tooltip = Tooltip_BicPen,
+		WorldStaticModel = BicPen,
+	}
+}
+		

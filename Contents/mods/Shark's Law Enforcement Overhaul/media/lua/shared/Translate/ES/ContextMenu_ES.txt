@@ -1,0 +1,10 @@
+ContextMenu_ES = {
+	ContextMenu_VisorUp= "Visor arriba",
+	ContextMenu_VisorDown = "Visor abajo",
+	ContextMenu_RollUp= "Arremangar",
+	ContextMenu_RollDown = "Desarremangar",
+	ContextMenu_TuckIn = "Enrollar",
+	ContextMenu_TuckOut = "Desenrollar",
+	ContextMenu_RightLeg = "Pierna derecha",
+	ContextMenu_LeftLeg = "Pierna izquierda",
+} 

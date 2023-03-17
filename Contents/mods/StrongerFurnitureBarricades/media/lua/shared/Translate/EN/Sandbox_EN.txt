@@ -1,0 +1,5 @@
+Sandbox_EN = {
+    Sandbox_MHM = "Stronger Furniture Barricades",
+
+    Sandbox_MHM_HealthMultiplier = "Multiplier",
+}

@@ -1,0 +1,9 @@
+name=Collectible Die-Cast Cars - Lore-Friendly Motorious Zone Names
+poster=preview.png
+versionMin=41.60
+id=CollectibleCarsLoreFriendlyMZfhq
+authors=fhqwhgads
+tags=Vehicles
+description=Changes the names of Motorious Zone diecast cars to be lore-friendly
+modVersion=1.0.0
+require=CollectibleCarsfhq

@@ -1,0 +1,6 @@
+IGUI_RU = {
+	IGUI_BenchPress= "Жим лежа",
+	IGUI_BenchPress_Tooltip= "Тренировать жим лёжа"
+	IGUI_Treadmill= "Беговая дорожка",
+	IGUI_Treadmill_Tooltip= "Тренировка на беговой дорожке"
+}

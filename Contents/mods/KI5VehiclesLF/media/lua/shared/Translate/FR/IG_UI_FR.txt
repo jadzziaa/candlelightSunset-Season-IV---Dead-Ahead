@@ -1,0 +1,7 @@
+IG_UI_FR = {
+	IGUI_VehicleNameECTO1 = "Laumet Smith-Boise ECTO-1",
+	IGUI_VehicleName59meteor = "Laumet Smith-Boise",
+	IGUI_VehicleName59ambulance = "Laumet Smith-Boise Ambulance",
+	IGUI_VehicleNameECTO1Burnt = "Laumet Smith-Boise ECTO-1 Brûlée",
+	IGUI_CraftCategory_59Meteor = "Smith-Boise",
+}

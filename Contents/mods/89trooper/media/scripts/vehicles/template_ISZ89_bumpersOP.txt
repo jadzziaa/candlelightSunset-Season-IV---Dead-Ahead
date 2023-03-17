@@ -1,0 +1,136 @@
+module Base
+{
+
+	template vehicle ISZ89OPBumpers
+		{
+		part ISZ89BumperFront
+        	{
+
+			model FrontBullbarA
+				{
+                		file = 89trooperfrontBullbarA,
+				}
+
+			model FrontBullbarB
+				{
+                		file = 89trooperfrontBullbarB,
+				}
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.89trooperBullbarFrontA;Base.89trooperBullbarFrontB,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = ISZ89.InstallComplete.BumperFrontOP,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = ISZ89.UninstallComplete.BumperFrontOP,
+					requireUninstalled = ISZ89SpareTireFront,
+            		}
+
+            		lua
+            		{
+					create = ISZ89.Create.BumperFrontOP,
+					init = ISZ89.Init.BumperFrontOP,
+					}
+		}
+
+		part ISZ89BumperRear
+        	{
+
+			model RearBumper0
+				{
+                		file = 89trooperrearBumper0,
+				}
+
+				area = TruckBed,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.89trooperBumperRear0,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = ISZ89.InstallComplete.BumperRear,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = ISZ89.UninstallComplete.BumperRear,
+            		}
+
+            		lua
+            		{
+					create = ISZ89.Create.BumperRear,
+					init = ISZ89.Init.BumperRear,
+					}
+		}
+	}
+
+		
+}

@@ -1,0 +1,8 @@
+VERSION = 1,
+
+option Darkvision.everyoneHasDarkvision = {
+	type = boolean,
+	default = false,
+	page = Darkvision,
+	translation = Darkvision.everyoneHasDarkvision
+}

@@ -1,0 +1,351 @@
+module Base
+{
+    model Vehicles_CarSmall02SmashedRear
+	{
+		mesh = vehicles/Vehicles_SmallCar02SMASH_Rear,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle CarSmall02SmashedRear
+	{
+		template! = SmallCar02,
+
+		model
+		{
+			file = Vehicles_CarSmall02SmashedRear,
+			scale = 1.6200,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_black,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_red,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_red2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green3,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green4,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_brown,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_brown2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_blue2,
+		}
+	}
+    model Vehicles_CarSmall02SmashedFront
+	{
+		mesh = vehicles/Vehicles_SmallCar02CRASH_Front,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle CarSmall02SmashedFront
+	{
+		template! = SmallCar02,
+
+		model
+		{
+			file = Vehicles_CarSmall02SmashedFront,
+			scale = 1.6200,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_black,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_red,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_red2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green3,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green4,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_brown,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_brown2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_blue2,
+		}
+	}
+    model Vehicles_CarSmall02SmashedRight
+	{
+		mesh = vehicles/Vehicles_SmallCar02CRASH_Right,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle CarSmall02SmashedRight
+	{
+		template! = SmallCar02,
+
+		model
+		{
+			file = Vehicles_CarSmall02SmashedRight,
+			scale = 1.6200,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_black,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_red,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_red2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green3,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green4,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_brown,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_brown2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_blue2,
+		}
+	}
+    model Vehicles_CarSmall02SmashedLeft
+	{
+		mesh = vehicles/Vehicles_SmallCar02CRASH_Left,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle CarSmall02SmashedLeft
+	{
+		template! = SmallCar02,
+
+		model
+		{
+			file = Vehicles_CarSmall02SmashedLeft,
+			scale = 1.6200,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_black,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_red,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_red2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green3,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_green4,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_brown,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_brown2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_smallcar2_blue2,
+		}
+	}
+}

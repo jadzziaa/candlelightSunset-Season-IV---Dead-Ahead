@@ -1,0 +1,224 @@
+module Base
+{
+	model 86fordE150pd1
+	{
+		mesh = vehicles/Vehicles_86fordE150_Body|e150_seat_pd1,
+		texture = Vehicles/Vehicles_86fordE150_Wheel_Interior,
+		shader = vehiclewheel,
+		invertX = FALSE,
+		scale = 0.1,
+	}
+
+	model 86fordE150pd2
+	{
+		mesh = vehicles/Vehicles_86fordE150_Body|e150_seat_pd2,
+		texture = Vehicles/Vehicles_86fordE150_Wheel_Interior,
+		shader = vehiclewheel,
+		invertX = FALSE,
+		scale = 0.1,
+	}
+
+	model 86fordE150pd3
+	{
+		mesh = vehicles/Vehicles_86fordE150_Body|e150_seat_pd3,
+		texture = Vehicles/Vehicles_86fordE150_Wheel_Interior,
+		shader = vehiclewheel,
+		invertX = FALSE,
+		scale = 0.1,
+	}
+	
+	template vehicle E150SeatsPayday
+	{
+		part SeatFrontLeft
+		{
+			
+			model SeatFL
+			{
+				file = 86fordE150seatfl,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+			
+			area = SeatFrontLeft,
+			container
+			{
+				seat = FrontLeft,
+			}
+		}
+
+		part SeatFrontRight
+		{
+
+			model seatFR
+			{
+				file = 86fordE150seatfr,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			area = SeatFrontRight,
+			container
+			{
+				seat = FrontRight,
+			}
+		}
+
+		part E150RearSeatOne
+		{
+			
+			model SeatOne
+			{
+				file = 86fordE150pd1,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+			
+			area = SeatRearRight,
+			container
+			{
+				seat = PD1,
+			}
+		}
+
+		part E150RearSeatTwo
+		{
+
+			model seatDva
+			{
+				file = 86fordE150pd2,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			area = SeatRearLeft,
+			container
+			{
+				seat = PD2,
+			}
+		}
+
+		part E150RearSeatThree
+		{
+			
+			model SeatDrei
+			{
+				file = 86fordE150pd3,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+			
+			area = TruckBed,
+			container
+			{
+				seat = PD3,
+			}
+		}
+
+		part SeatFront*
+		{
+			category = seat,
+			itemType = Base.E150CarSeat,
+			mechanicRequireKey = true,
+			container
+			{
+				test = Vehicles.ContainerAccess.Seat,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.InstallTest.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				requireEmpty = true,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part E150RearSeat*
+		{
+			category = seat,
+			itemType = Base.E150CarSeat,
+			mechanicRequireKey = true,
+			container
+			{
+				test = Vehicles.ContainerAccess.Seat,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.InstallTest.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 300,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				requireEmpty = true,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+	}
+}
+

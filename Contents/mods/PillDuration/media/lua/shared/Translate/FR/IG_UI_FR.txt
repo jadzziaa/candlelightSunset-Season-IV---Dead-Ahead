@@ -1,0 +1,10 @@
+IGUI_FR = {
+    IGUI_PillInfoOpen = "Informations sur les médicaments",
+    IGUI_PillInfoTitle = "Fenêtre d'informations sur les médicaments",
+    IGUI_NoneActiveInfo = "Aucun médicament sélectionné à afficher",
+    IGUI_PillBeta = "Bêta-Bloquants",
+    IGUI_PillPain = "Antidouleurs",
+    IGUI_PillDepr = "Antidépresseurs",
+    IGUI_PillSleep = "Somnifères",
+    IGUI_Antibiotics = "Antibiotiques",
+}

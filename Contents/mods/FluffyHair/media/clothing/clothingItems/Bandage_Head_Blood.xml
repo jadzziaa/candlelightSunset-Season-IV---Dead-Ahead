@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\M_HeadBandage.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\F_HeadBandage.X</m_FemaleModel>
+	<m_GUID>2e67a0c0-b92b-4718-a3ee-9af695316b3c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group02</m_HatCategory>
+	<textureChoices>bodydmg\malebody01_bandages_head_blood</textureChoices>
+</clothingItem>

@@ -1,0 +1,32 @@
+ Recipes_PTBR = {
+    
+/*module_Weapons_UndeadSurvivor*/	
+	Recipe_Butcher_Small_Animal = "Esfolar Animal Pequeno",
+
+/*recipes_UndeadSurvivor*/	
+	Recipe_Butcher_Rabbit = "Esfolar Coelho",
+	Recipe_Butcher_Bird = "Esfolar Pássaro",
+	Recipe_Create_Spear = "Criar Lança",
+	Recipe_Make_Stake = "Criar Estaca",
+	Recipe_Slice_Watermelon = "Fatiar Melancia",
+	Recipe_Slice_Bread = "Fatiar Pão",
+	Recipe_Slice_Pie = "Fatiar Torta",
+	Recipe_Slice_Cake = "Fatiar Bolo",
+	Recipe_Slice_Fillet = "Fatiar Filé",
+	Recipe_Slice_Ham = "Fatiar Presunto",
+	Recipe_Slice_Frog = "Fatiar Sapo",
+	Recipe_Make_Fishing_Rod = "Criar Vara de Pescar",
+	Recipe_Drill_Plank = "Furar Tábua",
+	Recipe_Make_Squid_Calamari = "Fazer Lula",
+	Recipe_Make_Halloween_Pumpkin = "Fazer Abóbora de Halloween",
+	Recipe_Get_Bacon_Rashers = "Obter Tiras de Bacon",
+	Recipe_Get_Bacon_Bits = "Obter Pedaços de Bacon",
+	Recipe_Stab_Prepper_Knife = "Mudar para Estocada",
+	Recipe_Swing_Prepper_Knife = "Mudar para Corte",
+	Recipe_Make_Prepper_Vest_with_bags = "Fazer Colete Prepper com Bolsos",
+	Recipe_Remove_Bags_from_Prepper_Vest = "Remover Bolsos de Colete Prepper",
+	Recipe_Remove_Battery_from_Prepper_Flashlight = "Remover Bateria",
+	Recipe_Insert_Battery_into_Prepper_Flashlight = "Inserir Bateria na Lanterna",
+	Recipe_Dismantle_Prepper_Flashlight = "Desmontar Lanterna",
+	
+}  

@@ -1,0 +1,3 @@
+IGUI_EN = {
+	IGUI_PlayerText_NeedTakeOffMask = "I need to take off my mask first."
+}

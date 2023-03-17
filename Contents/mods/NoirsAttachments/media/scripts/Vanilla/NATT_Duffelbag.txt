@@ -1,0 +1,785 @@
+module Base {
+
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		attachment Duffelbag_right
+		{
+			offset = 0.0300 -0.1500 -0.2000,
+			rotate = 90.0000 -90.0000 -20.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_wineright
+		{
+			offset = 0.0200 -0.1600 -0.1700,
+			rotate = 90.0000 -90.0000 -20.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_left
+		{
+			offset = 0.0600 0.1700 -0.0500,
+			rotate = 90.0000 90.0000 30.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_wineleft
+		{
+			offset = 0.0600 0.1600 -0.0200,
+			rotate = 90.0000 90.0000 30.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_uldoll {
+			offset = 0.1200 0.1200 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_uldogchew {
+			offset = 0.1200 0.1200 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulcattoy {
+			offset = 0.1200 0.1200 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulballon {
+			offset = 0.1200 0.1200 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulrubberducky {
+			offset = 0.1100 0.1200 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ultoybear {
+			offset = 0.1500 0.1200 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_uldawn {
+			offset = 0.1500 0.1200 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ultoycar {
+			offset = 0.1100 0.1200 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulyoyo {
+			offset = 0.1200 0.1200 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulcube {
+			offset = 0.1500 0.1200 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulmask {
+			offset = 0.1100 0.1200 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulmaskground {
+			offset = 0.0900 0.1200 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulplushie {
+			offset = 0.1200 0.1200 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulpawsplushie {
+			offset = 0.1200 0.1200 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulweapon {
+			offset = 0.1300 0.1000 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulweaponpan {
+			offset = 0.1300 0.1200 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulweaponsaucepan {
+			offset = 0.1300 0.1200 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulsnightstick {
+			offset = 0.1300 0.0700 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulwrench {
+			offset = 0.1300 0.1000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulbottle {
+			offset = 0.1300 0.1000 -0.1000,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulwine {
+			offset = 0.1300 0.1000 -0.0500,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urdoll {
+			offset = 0.1000 -0.1250 -0.1900,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urdogchew {
+			offset = 0.1000 -0.1250 -0.1900,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urcattoy {
+			offset = 0.1000 -0.1250 -0.1900,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urballon {
+			offset = 0.1000 -0.1250 -0.1900,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urrubberducky {
+			offset = 0.0900 -0.1250 -0.1700,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urtoybear {
+			offset = 0.1400 -0.1250 -0.2500,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urtoycar {
+			offset = 0.1000 -0.1250 -0.1900,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_uryoyo {
+			offset = 0.1000 -0.1250 -0.1900,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urcube {
+			offset = 0.1300 -0.1250 -0.1900,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urmask {
+			offset = 0.1000 -0.1250 -0.2500,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urmaskground {
+			offset = 0.0800 -0.1250 -0.1900,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urplushie {
+			offset = 0.1000 -0.1250 -0.2700,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urpawsplushie {
+			offset = 0.1000 -0.1250 -0.2700,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urdawn {
+			offset = 0.1400 -0.1250 -0.2700,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urweapon {
+			offset = 0.1100 -0.1250 -0.0800,
+			rotate = 90.0000 160.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urweaponpan {
+			offset = 0.1200 -0.1250 -0.0800,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urweaponsaucepan {
+			offset = 0.1200 -0.1250 -0.0800,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ursnightstick{
+			offset = 0.1100 -0.0950 -0.0800,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urwrench {
+			offset = 0.1100 -0.1250 -0.0800,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urbottle {
+			offset = 0.1100 -0.1250 -0.2000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urwine {
+			offset = 0.1100 -0.1250 -0.1500,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_weapon {
+			offset = 0.1400 0.0000 0.0200,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_weaponpan {
+			offset = 0.1400 0.0000 0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_weaponsaucepan {
+			offset = 0.1400 0.0000 0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_snightstick {
+			offset = 0.1400 0.0300 0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_wrench {
+			offset = 0.1400 0.0000 0.0200,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_flashlight {
+			offset = -0.0050 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment Duffelbag_militaryflashlight
+		{
+			offset = 0.0800 0.0500 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Duffelbag_prepperflashlight
+		{
+			offset = 0.0600 0.0500 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Duffelbag_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0500 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Duffelbag_container {
+			offset = 0.0800 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containerseed {
+			offset = 0.0800 0.0000 -0.3000,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containertool {
+			offset = 0.0700 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containercooler {
+			offset = 0.0400 0.0000 -0.3600,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containertote {
+			offset = 0.0500 0.0000 -0.4000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containertrash {
+			offset = 0.1300 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containersack {
+			offset = 0.1000 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containermk {
+			offset = 0.0500 0.0000 -0.2700,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+	}
+
+    model MaleBody 
+    {
+        mesh = Skinned/MaleBody,
+
+		attachment Duffelbag_right
+		{
+			offset = 0.0100 -0.1500 -0.2000,
+			rotate = 90.0000 -90.0000 -20.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_wineright
+		{
+			offset = 0.0100 -0.1600 -0.1700,
+			rotate = 90.0000 -90.0000 -20.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_left
+		{
+			offset = 0.0600 0.1700 -0.0500,
+			rotate = 90.0000 90.0000 30.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_wineleft
+		{
+			offset = 0.0600 0.1600 -0.0200,
+			rotate = 90.0000 90.0000 30.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_uldoll {
+			offset = 0.1300 0.1200 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_uldogchew {
+			offset = 0.1300 0.1200 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulcattoy {
+			offset = 0.1300 0.1200 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulballon {
+			offset = 0.1300 0.1200 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulrubberducky {
+			offset = 0.1200 0.1200 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ultoybear {
+			offset = 0.1600 0.1200 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_uldawn {
+			offset = 0.1600 0.1200 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ultoycar {
+			offset = 0.1200 0.1200 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulyoyo {
+			offset = 0.1300 0.1200 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulcube {
+			offset = 0.1600 0.1200 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulmask {
+			offset = 0.1200 0.1000 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulmaskground {
+			offset = 0.0900 0.1000 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulplushie {
+			offset = 0.1200 0.1200 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulpawsplushie {
+			offset = 0.1200 0.1200 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulweapon {
+			offset = 0.1500 0.1000 0.0700,
+			rotate = 90.0000 180.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulweaponpan {
+			offset = 0.1500 0.1200 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulweaponsaucepan {
+			offset = 0.1500 0.1200 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulsnightstick {
+			offset = 0.1500 0.0700 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulwrench {
+			offset = 0.1500 0.1000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulbottle {
+			offset = 0.1500 0.0800 -0.1000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ulwine {
+			offset = 0.1500 0.0800 -0.0500,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urdoll {
+			offset = 0.1000 -0.1450 -0.1900,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urdogchew {
+			offset = 0.1000 -0.1450 -0.1900,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urcattoy {
+			offset = 0.1000 -0.1450 -0.1900,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urballon {
+			offset = 0.1000 -0.1450 -0.1900,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urrubberducky {
+			offset = 0.0900 -0.1450 -0.1700,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urtoybear {
+			offset = 0.1400 -0.1450 -0.2500,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urtoycar {
+			offset = 0.1000 -0.1450 -0.1900,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_uryoyo {
+			offset = 0.1000 -0.1450 -0.1900,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urcube {
+			offset = 0.1300 -0.1450 -0.1900,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urmask {
+			offset = 0.1000 -0.1450 -0.2500,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urmaskground {
+			offset = 0.0600 -0.1450 -0.1900,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urplushie {
+			offset = 0.0900 -0.1450 -0.2700,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urpawsplushie {
+			offset = 0.0900 -0.1450 -0.2700,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urdawn {
+			offset = 0.1400 -0.1450 -0.2700,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urweapon {
+			offset = 0.1100 -0.1450 -0.0800,
+			rotate = 90.0000 160.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urweaponpan {
+			offset = 0.1100 -0.1450 -0.0800,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urweaponsaucepan {
+			offset = 0.1100 -0.1450 -0.0800,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_ursnightstick{
+			offset = 0.1100 -0.1150 -0.0800,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urwrench {
+			offset = 0.1100 -0.1450 -0.0800,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urbottle {
+			offset = 0.1100 -0.1450 -0.2000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_urwine {
+			offset = 0.1100 -0.1450 -0.1500,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_weapon {
+			offset = 0.1400 -0.0200 0.0200,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_weaponpan {
+			offset = 0.1400 -0.0200 0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_weaponsaucepan {
+			offset = 0.1400 -0.0200 0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_snightstick {
+			offset = 0.1400 0.0100 0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_wrench {
+			offset = 0.1400 -0.0200 0.0200,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_flashlight {
+			offset = -0.0050 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment Duffelbag_militaryflashlight
+		{
+			offset = 0.0800 0.0500 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Duffelbag_prepperflashlight
+		{
+			offset = 0.0600 0.0500 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Duffelbag_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0500 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Duffelbag_container {
+			offset = 0.0800 0.0000 -0.3100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containerseed {
+			offset = 0.0800 0.0000 -0.3100,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containertool {
+			offset = 0.0700 0.0000 -0.3100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containercooler {
+			offset = 0.0400 0.0000 -0.3700,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containertote {
+			offset = 0.0500 0.0000 -0.4100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containertrash {
+			offset = 0.1300 0.0000 -0.3100,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containersack {
+			offset = 0.1000 0.0000 -0.3100,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Duffelbag_containermk {
+			offset = 0.0500 0.0000 -0.2700,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+    }
+
+}

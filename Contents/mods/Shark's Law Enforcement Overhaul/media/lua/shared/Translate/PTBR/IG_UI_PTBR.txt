@@ -1,0 +1,8 @@
+IGUI_PTBR = {
+
+    IGUI_ItemCat_Helmet = "Capacete",
+	IGUI_ItemCat_Webbing = "Arnês",
+	IGUI_ItemCat_GasMask = "Máscara de Gás",
+	
+
+}

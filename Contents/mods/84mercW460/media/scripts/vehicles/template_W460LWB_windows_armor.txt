@@ -1,0 +1,80 @@
+module Base
+{
+
+	model W460LWBWindowArmor1
+	{
+		mesh = vehicles/Vehicles_84mercLWB_Body|w460_lwb_rear_windows_a,
+		shader = vehiclewheel,
+		scale = 0.1,
+	}
+
+	template vehicle W460LWBWindowArmors
+	{
+		part W460LWBWindowArmor
+		{
+
+			model WindowArmor1
+				{
+                		file = W460LWBWindowArmor1,
+				}
+
+			category = bodywork,
+			area = TireRearLeft,
+			specificItem = false,
+			itemType = Base.W460WindowArmor1_Item,
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 1500,
+                	skills = Mechanics:1,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 1500,
+					skills = Mechanics:1,
+					recipes = Intermediate Mechanics,
+            		test = Vehicles.UninstallTest.Default,
+					complete = W460LWB.UninstallComplete.WindowArmor,
+					requireEmpty = true,
+
+            		}
+
+            		lua
+            		{
+					create = W460LWB.Create.WindowArmor,
+					init = W460LWB.Init.WindowArmor,
+					}
+		}
+	}
+}
+

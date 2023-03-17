@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Clothes\M_Jacket_SkinShirt.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Clothes\F_Jacket_SkinShirt.fbx</m_FemaleModel>
+	<m_GUID>be8eb11a-a07f-4b2b-9c28-5308fd686c9b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\jacket\Jacket_SkinShirtFur</textureChoices>
+	<textureChoices>clothes\jacket\Jacket_SkinShirtLeopard</textureChoices>
+</clothingItem>

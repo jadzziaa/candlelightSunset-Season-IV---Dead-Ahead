@@ -1,0 +1,78 @@
+module Base
+{
+	model ECTO1WindshieldRearArmor1
+    	{
+        mesh = vehicles/Vehicles_ECTO1_Body|ECTO1_trunk_a,
+		shader = vehicle_noreflect,
+		static = FALSE,
+        scale = 0.1,
+        boneWeight = trunk_bone 1.0,
+    	}
+
+	template vehicle ECTO1WindshieldRearArmors
+		{
+		part ECTO1WindshieldRearArmor
+        	{
+
+			model WindshieldArmor1
+				{
+                		file = ECTO1WindshieldRearArmor1,
+				}
+
+			area = Engine,
+			parent = TrunkDoor,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.ECTO1WindshieldRearArmor1_Item,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+				equip = primary,
+                    		}
+                	}
+
+                	time = 1100,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = ECTO1.InstallComplete.WindshieldRearArmor,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+  				type = Base.Screwdriver,
+				count = 1,
+				keep = true,
+				equip = primary,
+                    		}
+                	}
+
+			time = 1100,
+			skills = Mechanics:4,
+			recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+			complete = ECTO1.UninstallComplete.WindshieldRearArmor,
+            		}
+
+            		lua
+            		{
+			create = ECTO1.Create.WindshieldRearArmor,
+			init = ECTO1.Init.WindshieldRearArmor,
+			}
+		}
+	}
+
+		
+}

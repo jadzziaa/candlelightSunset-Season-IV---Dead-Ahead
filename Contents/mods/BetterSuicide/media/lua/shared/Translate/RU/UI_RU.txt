@@ -1,0 +1,5 @@
+UI_RU = {
+    UI_suicide_are_you_sure = "Суицид? Вы уверены?",
+    UI_no_Ammo = "Нет патронов или оружие не заряжено",
+    UI_Suicide = "Суицид"
+}

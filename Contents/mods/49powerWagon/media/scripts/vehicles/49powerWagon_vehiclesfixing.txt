@@ -1,0 +1,65 @@
+module Base
+{
+	fixing Fix 49powerWagon Storage Welding
+	{
+	   Require : PWRTrunk2,
+	   GlobalItem : BlowTorch=3,
+	   ConditionModifier : 1.0,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix 49powerWagon Door Welding
+	{
+	   Require : 49powerWagonFrontDoor2;49powerWagonRearDoor2;49powerWagonEngineDoor2;49powerWagonTrunkDoor2,
+	   GlobalItem : BlowTorch=3,
+	   ConditionModifier : 0.95,
+
+       Fixer : SheetMetal;MetalWelding=6;Mechanics=4,
+	}
+
+	fixing Fix 49powerWagon Fender Welding
+	{
+	   Require : 49powerWagonFrontFender;49powerWagonRearFender;49powerWagonFrontFenderMakeshift;49powerWagonRearFenderMakeshift,
+	   GlobalItem : BlowTorch=1,
+	   ConditionModifier : 0.85,
+
+       Fixer : SheetMetal;MetalWelding=5;Mechanics=4,
+	}
+
+	fixing Fix 49powerWagon Armor Welding
+	{
+	   Require : 49powerWagonSideskirts0;49powerWagonSideskirts1;49powerWagonFrontDoorArmor;49powerWagonRearDoorArmor;49powerWagonWindshieldArmor;49powerWagonWindshieldRearArmor;49powerWagonBumper0;49powerWagonBullbar1;49powerWagonBullbar2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.35,
+
+       Fixer : SheetMetal;MetalWelding=5;Mechanics=4,
+	}
+
+	fixing Fix 49powerWagon Tire
+	{
+	   Require : 49powerWagonTire;49powerWagonApocalypseTire,
+	   ConditionModifier : 0.45,
+
+       Fixer : DuctTape=2;Mechanics=2,
+       Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix 49powerWagon Seat
+	{
+	   Require : 49powerWagonSeat2,
+	   ConditionModifier : 0.4,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix 49powerWagon TruckBed Seat
+	{
+	   Require : 49powerWagonTruckBedSeat2,
+	   ConditionModifier : 0.4,
+
+       Fixer : Plank=1;Nails=2,
+	}
+
+}

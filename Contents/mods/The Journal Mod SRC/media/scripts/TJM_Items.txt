@@ -1,0 +1,124 @@
+module TJM
+{
+	imports
+	{
+		Base
+	}
+
+	item TJMJournalRed
+	{
+		DisplayCategory		=	Literature,
+		Weight				=	0.1,
+		Type				=	Literature,
+		DisplayName			=	Red Leather Bound Journal,
+		Icon				=	TJMJournalRed,
+		CanBeWrite  		=   true,
+		PageToWrite 		=   20,
+		StaticModel 		=	BookRed,
+		WorldStaticModel	=	JournalRed,
+	}
+
+	item TJMJournalOrange
+	{
+		DisplayCategory		=	Literature,
+		Weight				=	0.1,
+		Type				=	Literature,
+		DisplayName			=	Orange Leather Bound Journal,
+		Icon				=	TJMJournalOrange,
+		CanBeWrite  		=   true,
+		PageToWrite 		=   20,
+		StaticModel 		=	BookOrange,
+		WorldStaticModel	=	JournalOrange,
+	}
+
+	item TJMJournalYellow
+	{
+		DisplayCategory		=	Literature,
+		Weight				=	0.1,
+		Type				=	Literature,
+		DisplayName			=	Yellow Leather Bound Journal,
+		Icon				=	TJMJournalYellow,
+		CanBeWrite  		=   true,
+		PageToWrite 		=   20,
+		StaticModel 		=	BookYellow,
+		WorldStaticModel	=	JournalYellow,
+	}
+
+	item TJMJournalGreen
+	{
+		DisplayCategory		=	Literature,
+		Weight				=	0.1,
+		Type				=	Literature,
+		DisplayName			=	Green Leather Bound Journal,
+		Icon				=	TJMJournalGreen,
+		CanBeWrite  		=   true,
+		PageToWrite 		=   20,
+		StaticModel 		=	BookGreen,
+		WorldStaticModel	=	JournalGreen,
+	}
+
+	item TJMJournalBlue
+	{
+		DisplayCategory		=	Literature,
+		Weight				=	0.1,
+		Type				=	Literature,
+		DisplayName			=	Blue Leather Bound Journal,
+		Icon				=	TJMJournalBlue,
+		CanBeWrite  		=   true,
+		PageToWrite 		=   20,
+		StaticModel 		=	BookBlue,
+		WorldStaticModel	=	JournalBlue,
+	}
+
+	item TJMJournalPurple
+	{
+		DisplayCategory		=	Literature,
+		Weight				=	0.1,
+		Type				=	Literature,
+		DisplayName			=	Purple Leather Bound Journal,
+		Icon				=	TJMJournalPurple,
+		CanBeWrite  		=   true,
+		PageToWrite 		=   20,
+		StaticModel 		=	BookPurple,
+		WorldStaticModel	=	JournalPurple,
+	}
+
+	item TJMJournalBrown
+	{
+		DisplayCategory		=	Literature,
+		Weight				=	0.1,
+		Type				=	Literature,
+		DisplayName			=	Brown Leather Bound Journal,
+		Icon				=	TJMJournalBrown,
+		CanBeWrite  		=   true,
+		PageToWrite 		=   20,
+		StaticModel 		=	BookBrown,
+		WorldStaticModel	=	JournalBrown,
+	}
+
+	item TJMJournalBlack
+	{
+		DisplayCategory		=	Literature,
+		Weight				=	0.1,
+		Type				=	Literature,
+		DisplayName			=	Black Leather Bound Journal,
+		Icon				=	TJMJournalBlack,
+		CanBeWrite  		=   true,
+		PageToWrite 		=   20,
+		StaticModel 		=	BookBlack,
+		WorldStaticModel	=	JournalBlack,
+	}
+
+	item TJMJournalWhite
+	{
+		DisplayCategory		=	Literature,
+		Weight				=	0.1,
+		Type				=	Literature,
+		DisplayName			=	White Leather Bound Journal,
+		Icon				=	TJMJournalWhite,
+		CanBeWrite  		=   true,
+		PageToWrite 		=   20,
+		StaticModel 		=	BookWhite,
+		WorldStaticModel	=	JournalWhite,
+	}
+}

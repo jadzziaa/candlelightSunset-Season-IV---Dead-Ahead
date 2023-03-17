@@ -1,0 +1,29 @@
+blindfold (coding problem)
+-when worn player is blinded
+-slower inventory transfer
+-can't read
+
+-trigger on clothing equip -> if name has "blindfold" then -> add black fog overlay or something
+
+
+
+
+
+
+boot plug (model problem)
+-run speed is cut in half because...
+
+-move vanilla spiffo tail under player (change model? attachment point?)
+
+
+
+
+
+
+straightjacket (animation problem)
+-can't transfer items
+-can't spear fish
+-can't build
+-can't... yeah...
+
+-need animation where player folds arms in by her side (or his) and then it's just textures

@@ -1,0 +1,44 @@
+module SLEOClothing
+{		
+	
+        item Hat_PoliceRiotHelmet
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		ClothingItem = Hat_PoliceRiotHelmet,
+		BodyLocation = Hat,
+	}
+
+	    item Hat_PoliceRiotHelmetUP
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		ClothingItem = Hat_PoliceRiotHelmetUP,
+		BodyLocation = Hat,
+	}
+
+		item Hat_PoliceM17
+    {
+		DisplayCategory = GasMask,
+		Type = Clothing,
+        BodyLocation = MaskEyes,
+        WindResistance = 0.41,
+    }
+
+		item TacticalGoggles
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = TacticalGoggles,
+		BodyLocation = Eyes,
+	}
+	
+       item TacticalVestUpperArm
+	{
+       Type = Clothing,
+       ClothingItem = TacticalVestUpperArm,
+       BodyLocation = SLEOArmProtectorsPlus,
+       BloodLocation = ShirtNoSleeves,
+  }
+
+}

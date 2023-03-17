@@ -1,0 +1,6 @@
+name='74 AM General M151A2 MUTT - Unified KI5 Crafting Category
+authors=Panopticon
+poster=preview.png
+id=74amgeneralM151A2KI5CraftingUnified
+require=74amgeneralM151A2
+description=Overwrites the crafting recipes to be under "KI5" instead of "M151A2".

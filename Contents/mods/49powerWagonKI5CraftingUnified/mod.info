@@ -1,0 +1,6 @@
+name='49 Dodge Power Wagon Crew Cab - Unified KI5 Crafting Category
+authors=Panopticon
+poster=preview.png
+id=49powerWagonKI5CraftingUnified
+require=49powerWagon
+description=Overwrites the crafting recipes to be under "KI5" instead of "PWR".

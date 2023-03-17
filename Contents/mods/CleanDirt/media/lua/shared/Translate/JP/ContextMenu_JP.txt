@@ -1,0 +1,3 @@
+ContextMenu_JP = {
+	ContextMenu_CleanDirt = "汚れをきれいにする",
+}

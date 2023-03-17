@@ -1,0 +1,231 @@
+module Base
+{
+
+	model 89trooperRSWindowfl
+	{
+		mesh = vehicles/Vehicles_89trooper_Body|trooperRS_window_fl,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+	}
+
+	model 89trooperRSWindowfr
+	{
+		mesh = vehicles/Vehicles_89trooper_Body|trooperRS_window_fr,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+	}
+
+	model 89trooperRSWindowrl
+	{
+		mesh = vehicles/Vehicles_89trooper_Body|trooperRS_window_rl,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+	}
+
+	model 89trooperRSWindowrr
+	{
+		mesh = vehicles/Vehicles_89trooper_Body|trooperRS_window_rr,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+	}
+
+	model 89trooperRSWindowbl
+	{
+		mesh = vehicles/Vehicles_89trooper_Body|trooperRS_window_bl,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model 89trooperRSWindowbr
+	{
+		mesh = vehicles/Vehicles_89trooper_Body|trooperRS_window_br,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	template vehicle ISZ89RSWindows
+	{
+		part WindowFrontLeft
+		{
+			model windowFL
+			{
+				file = 89trooperRSWindowfl,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_fl_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontLeft,
+			area = SeatFrontLeft,
+			itemType = Base.89trooperSideWindow,
+			table install
+			{
+				requireInstalled = DoorFrontLeft,
+			}
+			table uninstall
+				{
+				requireUninstalled = ISZ89DoorFrontLeftArmor,
+				}
+		}
+
+		part WindowFrontRight
+		{
+			model windowFR
+			{
+				file = 89trooperRSWindowfr,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_fr_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontRight,
+			area = SeatFrontRight,
+			itemType = Base.89trooperSideWindow,
+			table install
+			{
+				requireInstalled = DoorFrontRight,
+			}
+			table uninstall
+				{
+				requireUninstalled = ISZ89DoorFrontRightArmor,
+				}
+		}
+
+		part WindowRearLeft
+		{
+			model windowRL
+			{
+				file = 89trooperRSWindowrl,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_rl_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorRearLeft,
+			area = SeatRearLeft,
+			itemType = Base.89trooperSideWindow,
+			table uninstall
+				{
+				requireUninstalled = ISZ89DoorRearLeftArmor,
+				}
+		}
+
+		part WindowRearRight
+		{
+			model windowRR
+			{
+				file = 89trooperRSWindowrr,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_rr_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorRearRight,
+			area = SeatRearRight,
+			itemType = Base.89trooperSideWindow,
+			table uninstall
+				{
+				requireUninstalled = ISZ89DoorRearRightArmor,
+				}
+		}
+
+		part WindowBackLeft
+		{
+			model windowBL
+			{
+				file = 89trooperRSWindowbl,
+			}
+
+			area = SeatRearLeft,
+			itemType = Base.89trooperSideWindow,
+			table uninstall
+				{
+				requireUninstalled = ISZ89WindowBackLeftArmor,
+				}
+		}
+
+		part WindowBackRight
+		{
+			model windowBR
+			{
+				file = 89trooperRSWindowbr,
+			}
+
+			area = SeatRearRight,
+			itemType = Base.89trooperSideWindow,
+
+			table uninstall
+				{
+				requireUninstalled = ISZ89WindowBackRightArmor,
+				}
+		}
+
+		part Window*
+		{
+			category = door,
+			mechanicRequireKey = true,
+			window
+			{
+				openable = true,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:3,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Window,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:3,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+			}
+			lua
+			{
+				create = Vehicles.Create.Window,
+				init = Vehicles.Init.Window,
+			}
+		}
+	}
+}
+

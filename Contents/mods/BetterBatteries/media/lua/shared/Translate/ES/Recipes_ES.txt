@@ -1,0 +1,5 @@
+Recipes_ES = {
+	Recipe_Make_Makeshift_Hand_Crank = "Hacer cargador manual improvisado",
+    Recipe_Insert_Battery_into_Makeshift_Hand_Crank = "Insertar batería en el cargador manual improvisado",
+	Recipe_Insert_Battery_into_Hand_Crank = "Insertar batería en el cargador manual",
+}

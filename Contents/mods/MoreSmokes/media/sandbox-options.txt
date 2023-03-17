@@ -1,0 +1,204 @@
+VERSION = 1,
+
+option MoreSmokes.Loot
+{
+	type = enum,
+	default = 2,
+	numValues = 5,
+	page = MS_Loot,
+	translation = MS_LootGeneral,
+}
+
+option MoreSmokes.Moodle
+{
+	type = boolean,
+	default = true,
+	page = MS_Loot,
+	translation = MS_Moodle,
+}
+
+option MoreSmokes.Kits
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MS_Loot,
+	translation = MS_Kits,
+}
+
+option MoreSmokes.Magazines
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MS_Loot,
+	translation = MS_Magazines,
+}
+
+option MoreSmokes.RareMagazines
+{
+	type = boolean,
+	default = false,
+	page = MS_Loot,
+	translation = MS_RareMagazines,
+}
+
+option MoreSmokes.Seeds
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MS_Loot,
+	translation = MS_Seeds,
+}
+
+option MoreSmokes.Cannabis
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MS_Loot,
+	translation = MS_Cannabis,
+}
+
+option MoreSmokes.Tobacco
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MS_Loot,
+	translation = MS_Tobacco,
+}
+
+option MoreSmokes.Edibles
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MS_Loot,
+	translation = MS_Edibles,
+}
+
+option MoreSmokes.Glassware
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 10,
+	page = MS_Loot,
+	translation = MS_Glassware,
+}
+
+option MoreSmokes.Munchies
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 50,
+	page = MS_Loot,
+	translation = MS_Munchies,
+}
+
+option MoreSmokes.StonerPerk
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 50,
+	page = MS_Loot,
+	translation = MS_StonerPerk,
+}
+
+option MoreSmokes.Paranoid
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 50,
+	page = MS_Loot,
+	translation = MS_Paranoid,
+}
+
+option MoreSmokes.CultivationBonus
+{
+	type = integer,
+	default = 0,
+	min = 0,
+	max = 5,
+	page = MS_Loot,
+	translation = MS_CultivationBonus,
+}
+
+option MoreSmokes.StonedIncreaseMulti
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 50,
+	page = MS_Loot,
+	translation = MS_StonedIncreaseMulti,
+}
+
+option MoreSmokes.StonedDecreaseMulti
+{
+	type = integer,
+	default = 2,
+	min = 1,
+	max = 50,
+	page = MS_Loot,
+	translation = MS_StonedDecreaseMulti,
+}
+
+option MoreSmokes.TimerInfo
+{
+	type = boolean,
+	default = true,
+	page = MS_Loot,
+	translation = MS_TimerInfo,
+}
+
+option MoreSmokes.DryCureChange
+{
+	type = integer,
+	default = 10,
+	min = 1,
+	max = 20,
+	page = MS_Loot,
+	translation = MS_DryCureChange,
+}
+
+option MoreSmokes.HarvestAdd
+{
+	type = integer,
+	default = 2,
+	min = 0,
+	max = 10,
+	page = MS_Loot,
+	translation = MS_HarvestAdd,
+}
+
+option MoreSmokes.GrowTimer
+{
+	type = integer,
+	default = 90,
+	min = 12,
+	max = 250,
+	page = MS_Loot,
+	translation = MS_GrowTimer,
+}
+
+option MoreSmokes.RotTimer
+{
+	type = integer,
+	default = 90,
+	min = 12,
+	max = 250,
+	page = MS_Loot,
+	translation = MS_RotTimer,
+}

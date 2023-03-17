@@ -1,0 +1,10 @@
+IGUI_TH =
+{
+	IGUI_ItemCat_MoreSmokes = "กัญชา",
+	IGUI_CraftCategory_MoreSmokes =  "กัญชา",
+	IGUI_BTSE.Tobacco = "ยาสูบ",
+	IGUI_BTSE.Farming_Cannabis = "สายพันธุ์กัญชา",
+	IGUI_perks_Cultivation = "การเพาะปลูกกัญชา",
+	IGUI_BTSE_F_RevitalizePlant = "ฟื้นฟู %1",
+	IGUI_PARP_F_CnfRevitalized = "นี่น่าจะดีขึ้นภายใน 10 นาที",
+}

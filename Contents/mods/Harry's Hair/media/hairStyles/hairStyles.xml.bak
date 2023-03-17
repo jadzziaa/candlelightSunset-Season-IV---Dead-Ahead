@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+
+
+<!--Male-->
+	<male><name>M_MegaMullet</name>
+		<model>skinned\hair\M_MegaMullet</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_MegaMullet" />
+		<alternate category="Group01" style="M_MegaMulletCat1" />
+		<alternate category="Group02" style="M_MegaMullet" />
+		<alternate category="Group04" style="M_MegaMullet" />
+		<alternate category="Group05" style="M_MegaMullet" />
+		<level>3</level>
+		<trimChoices>Mullet</trimChoices>
+		<trimChoices>Fabian</trimChoices>
+		<trimChoices>Metal</trimChoices>
+	</male>
+	<male><name>M_Aiteron</name>
+		<model>skinned\hair\M_Aiteron</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="M_Aiteron" />
+		<alternate category="Group01" style="M_AiteronCat1" />
+		<alternate category="Group02" style="M_Aiteron" />
+		<alternate category="Group04" style="M_Aiteron" />
+		<alternate category="Group05" style="M_Aiteron" />
+		<level>2</level>
+	</male>
+	<male><name>M_Soulfilcher</name>
+		<model>skinned\hair\M_Soulfilcher</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="M_Soulfilcher" />
+		<alternate category="Group01" style="M_SoulfilcherCat1" />
+		<alternate category="Group02" style="M_Soulfilcher" />
+		<alternate category="Group04" style="M_Soulfilcher" />
+		<alternate category="Group05" style="M_Soulfilcher" />
+		<level>3</level>
+		<trimChoices>FabianCurly</trimChoices>
+		<trimChoices>MulletCurly</trimChoices>
+	</male>
+	<male><name>M_ObiWanCannoli</name>
+		<model>skinned\hair\M_ObiWanCannoli</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ObiWanCannoli" />
+		<alternate category="Group01" style="M_ObiWanCannoliCat1" />
+		<alternate category="Group02" style="M_ObiWanCannoli" />
+		<alternate category="Group04" style="M_ObiWanCannoli" />
+		<alternate category="Group05" style="M_ObiWanCannoli" />
+		<level>1</level>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Recede</trimChoices>
+		<trimChoices>ShortHatCurly</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+	</male>
+
+
+<!--Female-->
+	<female><name>F_Grunge01</name>
+		<model>skinned\hair\F_Grunge01</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Grunge01" />
+		<alternate category="Group01" style="F_Grunge01Cat1" />
+		<alternate category="Group02" style="F_Grunge01" />
+		<alternate category="Group04" style="F_Grunge01" />
+		<alternate category="Group05" style="F_Grunge01" />
+		<level>3</level>
+		<trimChoices>Long</trimChoices>
+		<trimChoices>Kate</trimChoices>
+	</female>
+	<female><name>F_PonytailLong</name>
+		<model>skinned\hair\F_PonytailLong</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_PonytailLong" />
+		<alternate category="Group01" style="F_PonytailLongCat1" />
+		<alternate category="Group02" style="F_PonytailLong" />
+		<alternate category="Group04" style="F_PonytailLong" />
+		<alternate category="Group05" style="F_PonytailLong" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+		<trimChoices>Long</trimChoices>
+		<trimChoices>Kate</trimChoices>
+	</female>
+	<female><name>F_Merigold</name>
+		<model>skinned\hair\F_Merigold</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Merigold" />
+		<alternate category="Group01" style="F_MerigoldCat1" />
+		<alternate category="Group02" style="F_Merigold" />
+		<alternate category="Group04" style="F_Merigold" />
+		<alternate category="Group05" style="F_Merigold" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+		<trimChoices>Long</trimChoices>
+		<trimChoices>Kate</trimChoices>
+	</female>
+	<female><name>F_ThrottleKitty</name>
+		<model>skinned\hair\F_ThrottleKitty</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_ThrottleKitty" />
+		<alternate category="Group01" style="F_ThrottleKittyCat1" />
+		<alternate category="Group02" style="F_ThrottleKitty" />
+		<alternate category="Group04" style="F_ThrottleKitty" />
+		<alternate category="Group05" style="F_ThrottleKitty" />
+		<level>2</level>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+	</female>
+	<female><name>F_PonytailMedium</name>
+		<model>skinned\hair\F_PonytailMedium</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_PonytailMedium" />
+		<alternate category="Group01" style="F_PonytailMediumCat1" />
+		<alternate category="Group02" style="F_PonytailMedium" />
+		<alternate category="Group04" style="F_PonytailMedium" />
+		<alternate category="Group05" style="F_PonytailMedium" />
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+	</female>
+	<female><name>F_BRITA</name>
+		<model>skinned\hair\F_BRITA</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_BRITA" />
+		<alternate category="Group01" style="F_BRITACat1" />
+		<alternate category="Group02" style="F_BRITA" />
+		<alternate category="Group04" style="F_BRITA" />
+		<alternate category="Group05" style="F_BRITA" />
+		<level>2</level>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+	</female>
+	
+	
+	<!--Hat-->
+	<male><name>M_AiteronCat1</name>
+		<model>skinned\hair\M_AiteronCat1</model>
+		<texture>F_HairCurly_Short</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</male>
+	<male><name>M_MegaMulletCat1</name>
+		<model>skinned\hair\M_MegaMulletCat1</model>
+		<texture>F_Hair_White</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</male>
+	<male><name>M_ObiWanCannoliCat1</name>
+		<model>skinned\hair\M_ObiWanCannoliCat1</model>
+		<texture>F_Hair_White</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</male>
+	<male><name>M_SoulfilcherCat1</name>
+		<model>skinned\hair\M_SoulfilcherCat1</model>
+		<texture>F_HairCurly_Short</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</male>
+	
+	<female><name>F_PonytailLongCat1</name>
+		<model>skinned\hair\F_PonytailLongCat1</model>
+		<texture>F_Hair_White</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</female>
+	<female><name>F_MerigoldCat1</name>
+		<model>skinned\hair\F_MerigoldCat1</model>
+		<texture>F_Hair_White</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</female>
+	<female><name>F_BRITACat1</name>
+		<model>skinned\hair\F_BRITACat1</model>
+		<texture>F_Hair_White</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</female>
+		<female><name>F_Grunge01Cat1</name>
+		<model>skinned\hair\F_Grunge01Cat1</model>
+		<texture>F_Hair_White</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</female>
+	<female><name>F_PonytailMediumCat1</name>
+		<model>skinned\hair\F_PonytailMediumCat1</model>
+		<texture>F_Hair_White</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</female>
+	<female><name>F_ThrottleittyCat1</name>
+		<model>skinned\hair\F_ThrottlekittyCat1</model>
+		<texture>F_Hair_White</texture>
+		<level>0</level>
+		<nochoose>true</nochoose>
+	</female>
+	
+	
+	
+	
+	
+</hairStyles>

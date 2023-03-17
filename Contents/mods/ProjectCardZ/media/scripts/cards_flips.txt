@@ -1,0 +1,743 @@
+module CardsFlips {
+    imports {
+        Base,
+    }
+
+    recipe Flip Card
+    {
+      2clubs,
+      Result:2clubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      2hearts,
+      Result:2heartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      2spades,
+      Result:2spadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      2diamonds,
+      Result:2diamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      3clubs,
+      Result:3clubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      3hearts,
+      Result:3heartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      3spades,
+      Result:3spadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      3diamonds,
+      Result:3diamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      4clubs,
+      Result:4clubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      4hearts,
+      Result:4heartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      4spades,
+      Result:4spadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      4diamonds,
+      Result:4diamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      5clubs,
+      Result:5clubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      5hearts,
+      Result:5heartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      5spades,
+      Result:5spadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      5diamonds,
+      Result:5diamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      6clubs,
+      Result:6clubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      6hearts,
+      Result:6heartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      6spades,
+      Result:6spadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      6diamonds,
+      Result:6diamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      7clubs,
+      Result:7clubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      7hearts,
+      Result:7heartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      7spades,
+      Result:7spadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      7diamonds,
+      Result:7diamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      8clubs,
+      Result:8clubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      8hearts,
+      Result:8heartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      8spades,
+      Result:8spadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      8diamonds,
+      Result:8diamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      9clubs,
+      Result:9clubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      9hearts,
+      Result:9heartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      9spades,
+      Result:9spadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      9diamonds,
+      Result:9diamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      10clubs,
+      Result:10clubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      10hearts,
+      Result:10heartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      10spades,
+      Result:10spadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      10diamonds,
+      Result:10diamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      aceclubs,
+      Result:aceclubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      acehearts,
+      Result:aceheartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      acespades,
+      Result:acespadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      acediamonds,
+      Result:acediamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      jackclubs,
+      Result:jackclubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      jackhearts,
+      Result:jackheartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      jackspades,
+      Result:jackspadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      jackdiamonds,
+      Result:jackdiamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      queenclubs,
+      Result:queenclubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      queenhearts,
+      Result:queenheartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      queenspades,
+      Result:queenspadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      queendiamonds,
+      Result:queendiamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      kingclubs,
+      Result:kingclubsshirted,
+    }
+
+    recipe Flip Card
+    {
+      kinghearts,
+      Result:kingheartsshirted,
+    }
+
+    recipe Flip Card
+    {
+      kingspades,
+      Result:kingspadesshirted,
+    }
+
+    recipe Flip Card
+    {
+      kingdiamonds,
+      Result:kingdiamondsshirted,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      redjoker,
+      Result:redjokershirted,
+    }
+
+    recipe Flip Card
+    {
+      blackjoker,
+      Result:blackjokershirted,
+    }
+
+
+
+
+
+
+
+
+
+
+
+    recipe Flip Card
+    {
+      2clubsshirted,
+      Result:2clubs,
+    }
+
+    recipe Flip Card
+    {
+      2heartsshirted,
+      Result:2hearts,
+    }
+
+    recipe Flip Card
+    {
+      2spadesshirted,
+      Result:2spades,
+    }
+
+    recipe Flip Card
+    {
+      2diamondsshirted,
+      Result:2diamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      3clubsshirted,
+      Result:3clubs,
+    }
+
+    recipe Flip Card
+    {
+      3heartsshirted,
+      Result:3hearts,
+    }
+
+    recipe Flip Card
+    {
+      3spadesshirted,
+      Result:3spades,
+    }
+
+    recipe Flip Card
+    {
+      3diamondsshirted,
+      Result:3diamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      4clubsshirted,
+      Result:4clubs,
+    }
+
+    recipe Flip Card
+    {
+      4heartsshirted,
+      Result:4hearts,
+    }
+
+    recipe Flip Card
+    {
+      4spadesshirted,
+      Result:4spades,
+    }
+
+    recipe Flip Card
+    {
+      4diamondsshirted,
+      Result:4diamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      5clubsshirted,
+      Result:5clubs,
+    }
+
+    recipe Flip Card
+    {
+      5heartsshirted,
+      Result:5hearts,
+    }
+
+    recipe Flip Card
+    {
+      5spadesshirted,
+      Result:5spades,
+    }
+
+    recipe Flip Card
+    {
+      5diamondsshirted,
+      Result:5diamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      6clubsshirted,
+      Result:6clubs,
+    }
+
+    recipe Flip Card
+    {
+      6heartsshirted,
+      Result:6hearts,
+    }
+
+    recipe Flip Card
+    {
+      6spadesshirted,
+      Result:6spades,
+    }
+
+    recipe Flip Card
+    {
+      6diamondsshirted,
+      Result:6diamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      7clubsshirted,
+      Result:7clubs,
+    }
+
+    recipe Flip Card
+    {
+      7heartsshirted,
+      Result:7hearts,
+    }
+
+    recipe Flip Card
+    {
+      7spadesshirted,
+      Result:7spades,
+    }
+
+    recipe Flip Card
+    {
+      7diamondsshirted,
+      Result:7diamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      8clubsshirted,
+      Result:8clubs,
+    }
+
+    recipe Flip Card
+    {
+      8heartsshirted,
+      Result:8hearts,
+    }
+
+    recipe Flip Card
+    {
+      8spadesshirted,
+      Result:8spades,
+    }
+
+    recipe Flip Card
+    {
+      8diamondsshirted,
+      Result:8diamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      9clubsshirted,
+      Result:9clubs,
+    }
+
+    recipe Flip Card
+    {
+      9heartsshirted,
+      Result:9hearts,
+    }
+
+    recipe Flip Card
+    {
+      9spadesshirted,
+      Result:9spades,
+    }
+
+    recipe Flip Card
+    {
+      9diamondsshirted,
+      Result:9diamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      10clubsshirted,
+      Result:10clubs,
+    }
+
+    recipe Flip Card
+    {
+      10heartsshirted,
+      Result:10hearts,
+    }
+
+    recipe Flip Card
+    {
+      10spadesshirted,
+      Result:10spades,
+    }
+
+    recipe Flip Card
+    {
+      10diamondsshirted,
+      Result:10diamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      aceclubsshirted,
+      Result:aceclubs,
+    }
+
+    recipe Flip Card
+    {
+      aceheartsshirted,
+      Result:acehearts,
+    }
+
+    recipe Flip Card
+    {
+      acespadesshirted,
+      Result:acespades,
+    }
+
+    recipe Flip Card
+    {
+      acediamondsshirted,
+      Result:acediamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      jackclubsshirted,
+      Result:jackclubs,
+    }
+
+    recipe Flip Card
+    {
+      jackheartsshirted,
+      Result:jackhearts,
+    }
+
+    recipe Flip Card
+    {
+      jackspadesshirted,
+      Result:jackspades,
+    }
+
+    recipe Flip Card
+    {
+      jackdiamondsshirted,
+      Result:jackdiamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      queenclubsshirted,
+      Result:queenclubs,
+    }
+
+    recipe Flip Card
+    {
+      queenheartsshirted,
+      Result:queenhearts,
+    }
+
+    recipe Flip Card
+    {
+      queenspadesshirted,
+      Result:queenspades,
+    }
+
+    recipe Flip Card
+    {
+      queendiamondsshirted,
+      Result:queendiamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      kingclubsshirted,
+      Result:kingclubs,
+    }
+
+    recipe Flip Card
+    {
+      kingheartsshirted,
+      Result:kinghearts,
+    }
+
+    recipe Flip Card
+    {
+      kingspadesshirted,
+      Result:kingspades,
+    }
+
+    recipe Flip Card
+    {
+      kingdiamondsshirted,
+      Result:kingdiamonds,
+    }
+
+
+
+
+    recipe Flip Card
+    {
+      redjokershirted,
+      Result:redjoker,
+      
+    }
+
+    recipe Flip Card
+    {
+      blackjokershirted,
+      Result:blackjoker,
+    }
+
+}

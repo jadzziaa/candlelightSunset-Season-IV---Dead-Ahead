@@ -1,0 +1,19 @@
+Sandbox_EN = {
+	Sandbox_UndeadSurvivor.StalkerChance = "Stalker spawn chance in percentage",
+	Sandbox_UndeadSurvivor.StalkerChance_tooltip = "Its percentual, but it does share its chance with other outfits, so at 100 you will never get only zombies with this outfits",
+		
+	Sandbox_UndeadSurvivor.NomadChance = "Nomad spawn chance in percentage",
+	Sandbox_UndeadSurvivor.NomadChance_tooltip = "Its percentual, but it does share its chance with other outfits, so at 100 you will never get only zombies with this outfits",
+		
+	Sandbox_UndeadSurvivor.PrepperChance = "Prepper spawn chance in percentage",
+	Sandbox_UndeadSurvivor.PrepperChance = "Its percentual, but it does share its chance with other outfits, so at 100 you will never get only zombies with this outfits",
+	
+	Sandbox_UndeadSurvivor.HeadhunterChance = "Headhunter spawn chance in percentage",
+	Sandbox_UndeadSurvivor.HeadhunterChance = "Its percentual, but it does share its chance with other outfits, so at 100 you will never get only zombies with this outfits",
+
+	Sandbox_UndeadSurvivor.AmazonaChance = "Amazona spawn chance in percentage",
+	Sandbox_UndeadSurvivor.AmazonaChance = "Its percentual, but it does share its chance with other outfits, so at 100 you will never get only zombies with this outfits.
+	If you want to have a equal spawnrate among all outfits you should make the percentage of the amazona twice as big as it only spawns on female zombies.",
+	
+	Sandbox_UndeadSurvivor = "Undead Survivor"
+}

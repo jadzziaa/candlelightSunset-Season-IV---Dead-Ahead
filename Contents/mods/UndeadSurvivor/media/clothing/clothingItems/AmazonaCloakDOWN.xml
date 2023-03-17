@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_AmazonacloakDOWN</m_MaleModel>
+	<m_FemaleModel>skinned\f_AmazonacloakDOWN</m_FemaleModel>
+	<m_GUID>8a95566f-5951-49c9-b30a-946cfb678b85</m_GUID>
+	<m_Static>false</m_Static>
+	<m_Masks>12</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<textureChoices>clothes\AmazonaCloak</textureChoices>
+</clothingItem>

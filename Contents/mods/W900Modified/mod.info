@@ -1,0 +1,5 @@
+name=W900 Semi-Truck - Modified
+id=W900Modified
+require=rSemiTruck
+description=This modification makes the "W900 Semi-Truck" able to tow a trailer or load more easily without losing speed in town or over land. Full credit goes to Lexx for this amazing mod!
+poster=poster.png

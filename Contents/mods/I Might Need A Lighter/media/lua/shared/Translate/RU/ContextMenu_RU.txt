@@ -1,0 +1,14 @@
+ContextMenu_RU = {
+	ContextMenu_Smoke = "Курить"
+	
+	ContextMenu_CarLighter = "Автомобильная зажигалка"
+	ContextMenu_NoCarLighter = "Нет автомобильной зажигалки"
+	ContextMenu_InstallCarLighter = "Подключите автомобильный прикуриватель"
+	ContextMenu_UnInstallCarLighter = "Отключите автомобильный прикуриватель"
+	ContextMenu_CarLighterRepairNoSkill = "<br> needs repair"
+	ContextMenu_CarLighterRepairWithSkill = "<br> can be repaired"
+	
+	ContextMenu_CarOutOfCigarette = " <br> Нечего курить"
+	ContextMenu_CarNoBattery = "<br> Батарея разряжена или отсутствует"
+	ContextMenu_CarNoKeyOrWire = "<br> Ключ или провод отсутствуют"
+}

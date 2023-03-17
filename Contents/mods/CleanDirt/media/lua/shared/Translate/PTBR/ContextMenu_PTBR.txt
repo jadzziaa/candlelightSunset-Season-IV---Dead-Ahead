@@ -1,0 +1,3 @@
+ContextMenu_PTBR = {
+	ContextMenu_CleanDirt = "Limpar a sujeira",
+} 

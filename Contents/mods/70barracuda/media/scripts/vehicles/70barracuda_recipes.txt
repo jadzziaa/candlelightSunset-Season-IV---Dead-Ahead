@@ -1,0 +1,128 @@
+module Base
+
+{
+
+	recipe Make CUDA Front Side Window
+	{
+		keep Scalpel,
+		FrontWindow3=1,
+
+		Result:CUDAFrontSideWindow3,
+		Time:200.0,
+		Category:CUDA,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make CUDA Rear Side Window
+	{
+		keep Scalpel,
+		RearWindow3=1,
+
+		Result:CUDARearSideWindow3,
+		Time:200.0,
+		Category:CUDA,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make CUDA Windshield
+	{
+		keep Scalpel,
+		Windshield3=1,
+
+		Result:CUDAWindshield3,
+		Time:250.0,
+		Category:CUDA,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make CUDA Rear Windshield
+	{
+		keep Scalpel,
+		RearWindshield3=1,
+
+		Result:CUDAWindshieldRear3,
+		Time:250.0,
+		Category:CUDA,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make CUDA Door Armor
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		SheetMetal=4,
+		MetalPipe=2,
+		Screws=2,
+
+		Result:CUDADoorArmor,
+		Time:700.0,
+		Category:CUDA,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make CUDA Windshield Armor
+	{
+		BlowTorch=10,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=3,
+		MetalPipe=4,
+		Screws=2,
+
+		Result:CUDAWindshieldArmor,
+		Time:850.0,
+		Category:CUDA,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make CUDA Rear Windshield Armor
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		SheetMetal=3,
+		MetalPipe=2,
+		Screws=2,
+
+		Result:CUDAWindshieldRearArmor,
+		Time:800.0,
+		Category:CUDA,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make CUDA Front Bullbar
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		MetalPipe=6,
+		SheetMetal=1,
+		Screws=2,
+
+		Result:CUDAFrontBumperA,
+		Time:600.0,
+		Category:CUDA,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make CUDA Rear Bullbar
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		MetalPipe=6,
+		Screws=2,
+
+		Result:CUDARearBumperA,
+		Time:600.0,
+		Category:CUDA,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+}

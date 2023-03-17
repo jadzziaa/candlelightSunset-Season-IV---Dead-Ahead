@@ -1,0 +1,13 @@
+Recipe_FR = {
+    Recipe_Reinforce_59_Meteor_Tire = "Reinforce Smith-Boise Tire",
+	Recipe_Make_59_Meteor_Side_Window = "Make Smith-Boise Side Window",
+	Recipe_Make_59_Meteor_Side_Window_1 = "Make Smith-Boise Side Window",
+	Recipe_Make_59_Meteor_Windshield = "Make Smith-Boise Windshield",
+	Recipe_Make_59_Meteor_Rear_Windshield = "Make Smith-Boise Rear Windshield",
+	Recipe_Make_59_Meteor_Front_Door_Armor = "Make Smith-Boise Front Door Armor",
+	Recipe_Make_59_Meteor_Rear_Door_Armor = "Make Smith-Boise Rear Door Armor",
+	Recipe_Make_59_Meteor_Windshield_Armor = "Make Smith-Boise Windshield Armor",
+	Recipe_Make_59_Meteor_Rear_Windshield_Armor = "Make Smith-Boise Rear Windshield Armor",
+	Recipe_Make_59_Meteor_Bullbar = "Make Smith-Boise Bullbar",
+	Recipe_Make_59_Meteor_Roofrack = "Make Smith-Boise Roof Rack",
+}

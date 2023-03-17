@@ -1,0 +1,105 @@
+Sandbox_ES = {
+    Sandbox_RewardingNightCombat = "Combate nocturno recompensador",
+
+    Sandbox_RewardingNightCombat_enableIndicator = "Activar indicador",
+    Sandbox_RewardingNightCombat_enableIndicator_tooltip = "En la esquina superior derecha aparecerá un icono de una luna indicando si las bonificaciones están activas o no.",
+
+    Sandbox_RewardingNightCombat_indicatorColor = "Color del indicador",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option1 = "Original",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option2 = "Naranja brillante",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option3 = "Carmesí",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option4 = "Cian",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option5 = "Verde tóxico",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option6 = "Cian oscuro - Verde lima",
+
+    Sandbox_RewardingNightCombat_enableTriggerSound = "Sonido de activación",
+    Sandbox_RewardingNightCombat_enableTriggerSound_tooltip = "Sonido de suspenso sonara cuando el evento de Combate nocturno recompensador se activa",
+
+    Sandbox_RewardingNightCombat_triggerProbability = "Probabilidad de activación %",
+    Sandbox_RewardingNightCombat_triggerProbability_tooltip = "Probabilidad de que el evento de Combate nocturno recompensador se active. Valor de 100 significa que el evento se activara todos los días",
+
+    Sandbox_RewardingNightCombat_startAfterXDays = "Comenzar luego de X días",
+    Sandbox_RewardingNightCombat_startAfterXDays_tooltip = "El día que el evento comenzara.",
+
+    Sandbox_RewardingNightCombat_startTimeSummer = "Verano - Comienza a las",
+    Sandbox_RewardingNightCombat_startTimeSummer_tooltip = "Horario en que los jugadores comenzaran a recibir las bonificaciones durante verano",
+    Sandbox_RewardingNightCombat_endTimeSummer = "Verano - Termina a las",
+    Sandbox_RewardingNightCombat_endTimeSummer_tooltip = "Horario en que los jugadores dejaran de recibir las bonificaciones durante verano",
+
+    Sandbox_RewardingNightCombat_startTimeAutumn = "Otoño - Comienza a las",
+    Sandbox_RewardingNightCombat_startTimeAutumn_tooltip = "Horario en que los jugadores comenzaran a recibir las bonificaciones durante otoño",
+    Sandbox_RewardingNightCombat_endTimeAutumn = "Otoño - Termina a las",
+    Sandbox_RewardingNightCombat_endTimeAutumn_tooltip = "Horario en que los jugadores dejaran de recibir las bonificaciones durante otoño",
+
+    Sandbox_RewardingNightCombat_startTimeWinter = "Invierno - Comienza a las",
+    Sandbox_RewardingNightCombat_startTimeWinter_tooltip = "Horario en que los jugadores comenzaran a recibir las bonificaciones durante invierno",
+    Sandbox_RewardingNightCombat_endTimeWinter = "Invierno - Termina a las",
+    Sandbox_RewardingNightCombat_endTimeWinter_tooltip = "Horario en que los jugadores dejaran de recibir las bonificaciones durante invierno",
+
+    Sandbox_RewardingNightCombat_startTimeSpring = "Primavera - Comienza a las",
+    Sandbox_RewardingNightCombat_startTimeSpring_tooltip = "Horario en que los jugadores comenzaran a recibir las bonificaciones durante primavera",
+    Sandbox_RewardingNightCombat_endTimeSpring = "Primavera - Termina a las",
+    Sandbox_RewardingNightCombat_endTimeSpring_tooltip = "Horario en que los jugadores dejaran de recibir las bonificaciones durante primavera",
+
+    Sandbox_RewardingNightCombat_timeLevels_option1 = "12 AM / 00:00",
+    Sandbox_RewardingNightCombat_timeLevels_option2 = "1 AM / 01:00",
+    Sandbox_RewardingNightCombat_timeLevels_option3 = "2 AM / 02:00",
+    Sandbox_RewardingNightCombat_timeLevels_option4 = "3 AM / 03:00",
+    Sandbox_RewardingNightCombat_timeLevels_option5 = "4 AM / 04:00",
+    Sandbox_RewardingNightCombat_timeLevels_option6 = "5 AM / 05:00",
+    Sandbox_RewardingNightCombat_timeLevels_option7 = "6 AM / 06:00",
+    Sandbox_RewardingNightCombat_timeLevels_option8 = "7 AM / 07:00",
+    Sandbox_RewardingNightCombat_timeLevels_option9 = "8 AM / 08:00",
+    Sandbox_RewardingNightCombat_timeLevels_option10 = "9 AM / 09:00",
+    Sandbox_RewardingNightCombat_timeLevels_option11 = "10 AM / 10:00",
+    Sandbox_RewardingNightCombat_timeLevels_option12 = "11 AM / 11:00",
+    Sandbox_RewardingNightCombat_timeLevels_option13 = "12 PM / 12:00",
+    Sandbox_RewardingNightCombat_timeLevels_option14 = "1 PM / 13:00",
+    Sandbox_RewardingNightCombat_timeLevels_option15 = "2 PM / 14:00",
+    Sandbox_RewardingNightCombat_timeLevels_option16 = "3 PM / 15:00",
+    Sandbox_RewardingNightCombat_timeLevels_option17 = "4 PM / 16:00",
+    Sandbox_RewardingNightCombat_timeLevels_option18 = "5 PM / 17:00",
+    Sandbox_RewardingNightCombat_timeLevels_option19 = "6 PM / 18:00",
+    Sandbox_RewardingNightCombat_timeLevels_option20 = "7 PM / 19:00",
+    Sandbox_RewardingNightCombat_timeLevels_option21 = "8 PM / 20:00",
+    Sandbox_RewardingNightCombat_timeLevels_option22 = "9 PM / 21:00",
+    Sandbox_RewardingNightCombat_timeLevels_option23 = "10 PM / 22:00",
+    Sandbox_RewardingNightCombat_timeLevels_option24 = "11 PM / 23:00",
+
+    Sandbox_RewardingNightCombat_axeMultiplier = "Multiplicador de hacha",
+    Sandbox_RewardingNightCombat_axeMultiplier_tooltip = "Multiplicador de experiencia adicional para hachas durante la noche. Vainilla significa que no habrá bonificación, mientras que, por ejemplo, x1.5 otorga una bonificación de 50%"
+
+    Sandbox_RewardingNightCombat_longBluntMultiplier = "Multiplicador de arma larga contundente",
+    Sandbox_RewardingNightCombat_longBluntMultiplier_tooltip = "Multiplicador de experiencia adicional para armas largas contundentes durante la noche. Vainilla significa que no habrá bonificación, mientras que, por ejemplo, x1.5 otorga una bonificación de 50%"
+
+    Sandbox_RewardingNightCombat_shortBluntMultiplier = "Multiplicador de arma corta contundente",
+    Sandbox_RewardingNightCombat_shortBluntMultiplier_tooltip = "Multiplicador de experiencia adicional para armas cortas contundentes durante la noche. Vainilla significa que no habrá bonificación, mientras que, por ejemplo, x1.5 otorga una bonificación de 50%"
+
+    Sandbox_RewardingNightCombat_longBladeMultiplier = "Multiplicador de arma de hoja larga",
+    Sandbox_RewardingNightCombat_longBladeMultiplier_tooltip = "Multiplicador de experiencia adicional para armas de hoja larga durante la noche. Vainilla significa que no habrá bonificación, mientras que, por ejemplo, x1.5 otorga una bonificación de 50%"
+
+    Sandbox_RewardingNightCombat_shortBladeMultiplier = "Multiplicador de arma de hoja corta",
+    Sandbox_RewardingNightCombat_shortBladeMultiplier_tooltip = "Multiplicador de experiencia adicional para armas de hoja corta durante la noche. Vainilla significa que no habrá bonificación, mientras que, por ejemplo, x1.5 otorga una bonificación de 50%"
+
+    Sandbox_RewardingNightCombat_spearMultiplier = "Multiplicador de lanza",
+    Sandbox_RewardingNightCombat_spearMultiplier_tooltip = "Multiplicador de experiencia adicional para lanzas durante la noche. Vainilla significa que no habrá bonificación, mientras que, por ejemplo, x1.5 otorga una bonificación de 50%"
+
+    Sandbox_RewardingNightCombat_ignoreAimingXPNerf = "Ignorar nerfeo de puntería vainilla",
+    Sandbox_RewardingNightCombat_ignoreAimingXPNerf_tooltip = "Cuando el nivel de puntería es 4 o mayor, el juego nerfea la experiencia obtenida; si esta opción es seleccionada, la bonificación de experiencia no se vera afectada por este nerfeo",
+    Sandbox_RewardingNightCombat_aimingMultiplier = "Multiplicador de puntería",
+    Sandbox_RewardingNightCombat_aimingMultiplier_tooltip = "Multiplicador de experiencia adicional para armas de larga distancia durante la noche. Vainilla significa que no habrá bonificación, mientras que, por ejemplo, x1.5 otorga una bonificación de 50%"
+
+    Sandbox_RewardingNightCombat_multiplierLevels_option1 = "Vainilla",
+    Sandbox_RewardingNightCombat_multiplierLevels_option2 = "x1.1",
+    Sandbox_RewardingNightCombat_multiplierLevels_option3 = "x1.15",
+    Sandbox_RewardingNightCombat_multiplierLevels_option4 = "x1.25",
+    Sandbox_RewardingNightCombat_multiplierLevels_option5 = "x1.5",
+    Sandbox_RewardingNightCombat_multiplierLevels_option6 = "x1.75",
+    Sandbox_RewardingNightCombat_multiplierLevels_option7 = "x2",
+    Sandbox_RewardingNightCombat_multiplierLevels_option8 = "x2.5",
+    Sandbox_RewardingNightCombat_multiplierLevels_option9 = "x3",
+    Sandbox_RewardingNightCombat_multiplierLevels_option10 = "x4",
+    Sandbox_RewardingNightCombat_multiplierLevels_option11 = "x5",
+    Sandbox_RewardingNightCombat_multiplierLevels_option12 = "x7.5",
+    Sandbox_RewardingNightCombat_multiplierLevels_option13 = "x10",
+}

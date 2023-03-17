@@ -1,0 +1,15 @@
+local GameAPI = require("ComputerMod/GameAPI");
+
+GameAPI.Add("starve", "Starve.", "1993", "O-Kei Entertainment", "Survival")
+GameAPI.Add("ssw", "Super Spiffo World!", "1990", "Spiffo Corp.", "Platformer")
+GameAPI.Add("yoshi", "Yoshi Commits Tax Evasion", "1993", "Nintendon't", "FPS")
+GameAPI.Add("wii", "Wii are resorting to violence", "1992", "Nintendon't", "Shoot 'em Up")
+GameAPI.Add("karen", "Karen Simulator", "1993", "The Management", "Simulator")
+GameAPI.Add("moon", "Blood Moon Rising", "1991", "Forged Labs", "Tower Defense")
+GameAPI.Add("project_w", "Project W", "1993", "Project M", "Beat 'em Up")
+GameAPI.Add("paws", "Whatever happened to PAWS", "1992", "Spiffo Corp.", "Story Game")
+GameAPI.Add("dust", "DUST", "1992", "Facekick Studio", "FPS/Survival")
+GameAPI.Add("die", "I hoped you would DIE", "1992", "Trevor Inc.", "Story/puzzle")
+GameAPI.Add("polybius", "Polybius - Disc Release", "1987", "Steven Roach", "Hit 'n Run")
+GameAPI.Add("tyrany", "Tyrany 6", "1993", "Limb Entertainment", "Colony Builder")
+GameAPI.Add("cdda", "Cataclysm: Dark Days Ahead", "1993", "Kevin Granade & Community", "Ultimate Survival Horror")

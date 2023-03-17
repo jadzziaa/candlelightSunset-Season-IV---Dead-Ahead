@@ -1,0 +1,46 @@
+module Base
+{
+    item Makeshift_LegPad_TireRIGHT
+    {
+	    Type = Clothing,
+		DisplayName = Right Tire Leg Pad,
+		ClothingItem = Makeshift_LegPad_TireRIGHT,
+		BodyLocation = ThighRight,
+		IconsForTexture = TireLegPadRED;TireLegPadGREEN;TireLegPadBLUE;TireLegPadYELLOW;TireLegPadBLACK,
+		CanHaveHoles = True,
+		BloodLocation = Trousers,
+		BiteDefense = 35,
+		ScratchDefense = 35,
+		BulletDefense = 10,
+		DisplayCategory = Armor,
+		Insulation = 0,
+		WaterResistance = 0,
+        Weight = 2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 15,
+        RemoveOnBroken = false,
+	WorldStaticModel = LegPadTireRIGHT_Ground,
+    }
+	item Makeshift_LegPad_TireLEFT
+    {
+	    Type = Clothing,
+		DisplayName = Left Tire Leg Pad,
+		ClothingItem = Makeshift_LegPad_TireLEFT,
+		BodyLocation = ThighLeft,
+		IconsForTexture = TireLegPadRED;TireLegPadGREEN;TireLegPadBLUE;TireLegPadYELLOW;TireLegPadBLACK,
+		CanHaveHoles = True,
+		BloodLocation = Trousers,
+		BiteDefense = 35,
+		ScratchDefense = 35,
+		BulletDefense = 10,
+		DisplayCategory = Armor,
+		Insulation = 0,
+		WaterResistance = 0,
+        Weight = 2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 15,
+        RemoveOnBroken = false,
+	WorldStaticModel = LegPadTireLEFT_Ground,
+    }
+
+}

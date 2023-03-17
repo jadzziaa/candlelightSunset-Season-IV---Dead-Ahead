@@ -1,0 +1,12 @@
+Items_ES = {
+
+		DisplayName_Hand_Hatchet = "Hacha de mano",
+		DisplayName_Survival_Knife = "Cuchillo de supervivencia",
+		DisplayName_Cheap_Survival_Knife = "Cuchillo de supervivencia barato",
+		DisplayName_Rancher_Machete = "Machete Rancher",
+		DisplayName_Kukri_Machete = "Machete Kukri",
+		DisplayName_Splitting_Axe = "Hacha de cortar",
+		DisplayName_Spear_With_Survival_Knife = "Lanza con cuchillo de supervivencia",
+		DisplayName_Spear_With_Cheap_Survival_Knife = "Lanza con cuchillo de supervivencia barato",
+
+}

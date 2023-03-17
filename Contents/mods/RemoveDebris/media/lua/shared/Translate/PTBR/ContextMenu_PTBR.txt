@@ -1,0 +1,3 @@
+ContextMenu_PTBR = {
+    ContextMenu_RemoveDebris = "remover detritos",
+} 

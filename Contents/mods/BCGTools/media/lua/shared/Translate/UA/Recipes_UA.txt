@@ -1,0 +1,11 @@
+Recipes_UA = {
+
+	Recipe_Attach_Survival_Knife_to_Spear = "Закріпити Мисливський ніж на списі",
+	Recipe_Attach_Cheap_Survival_Knife_to_Spear = "Закріпити Похідний ніж на списі",
+	Recipe_Attach_Kukri_Machete_to_Spear = "Закріпити Кукрі на списі",
+
+	Recipe_Reclaim_Survival_Knife_from_Spear = "Зняти зі списа Мисливський ніж"
+	Recipe_Reclaim_Cheap_Survival_Knife_from_Spear	= "Зняти зі списа Похідний ніж"
+	Recipe_Reclaim_Kukri_Machete_from_Spear	= "Зняти зі списа Кукрі"
+
+}

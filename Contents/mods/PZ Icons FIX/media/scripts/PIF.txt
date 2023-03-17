@@ -1,0 +1,353 @@
+module Base
+{
+   item Shorts_CamoGreenLong
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Camo Shorts,
+        ClothingItem = Shorts_CamoGreenLong,
+        BodyLocation = Pants,
+        Icon = ShortsCamoGreen,
+        BloodLocation = Trousers,
+        Insulation = 0.5,
+        WindResistance = 0.3,
+        WaterResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_CamoUrbanLong
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Camo Shorts,
+        ClothingItem = Shorts_CamoUrbanLong,
+        BodyLocation = Pants,
+        Icon = ShortsCamoGrey,
+        BloodLocation = Trousers,
+        Insulation = 0.5,
+        WindResistance = 0.3,
+        WaterResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+item BreadKnife
+	{
+	    DisplayCategory = Cooking,
+		MaxRange	=	1,
+		WeaponSprite	=	BreadKnife,
+		MinAngle	=	0.65,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlade,
+		ConditionLowerChanceOneIn	=	5,
+		Weight	=	0.3,
+		SplatNumber	=	2,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		CloseKillMove = Jaw_Stab,
+		ConditionMax	=	5,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		DisplayName	=	Bread Knife,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	BreadKnife,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   BreadKnifeBreak,
+        TreeDamage  =   0,
+        EnduranceMod = 0.5,
+        MetalValue = 8,
+        CriticalChance	=	15,
+        CritDmgMultiplier = 10,
+        MinDamage	=	0.1,
+        MaxDamage	=	0.4,
+		WeaponLength = 0.17,
+		HitFloorSound	=	BreadKnifeHit,
+        ImpactSound	=	BreadKnifeHit,
+        DoorHitSound = BreadKnifeHit,
+		HitSound	=	BreadKnifeHit,
+		SwingSound = BreadKnifeSwing,
+		AttachmentType = Knife,
+		Tags = DullKnife,
+ 	}
+item ButterKnife
+	{
+	    DisplayCategory = Cooking,
+		MaxRange	=	0.8,
+		WeaponSprite	=	ButterKnife,
+		MinAngle	=	0.65,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlade,
+		ConditionLowerChanceOneIn	=	1,
+		Weight	=	0.3,
+		SplatNumber	=	2,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		CloseKillMove = Jaw_Stab,
+		ConditionMax	=	3,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		DisplayName	=	Butter Knife,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	ButterKnife,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   ButterKnifeBreak,
+        TreeDamage  =   0,
+        EnduranceMod = 0.5,
+        MetalValue = 8,
+        CriticalChance	=	7,
+        CritDmgMultiplier = 10,
+        MinDamage	=	0.1,
+        MaxDamage	=	0.4,
+		WeaponLength = 0.17,
+		HitFloorSound	=	ButterKnifeHit,
+        ImpactSound	=	ButterKnifeHit,
+        DoorHitSound = ButterKnifeHit,
+		HitSound	=	ButterKnifeHit,
+		SwingSound = ButterKnifeSwing,
+		AttachmentType = Screwdriver,
+ 		Tags = DullKnife,
+}
+item BookTailoring1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName = Tailoring Vol. 1,
+		Icon	=	Tailoring_Book,
+        SkillTrained = Tailoring,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookYellow_Ground,
+	}
+
+    item BookTailoring2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName = Tailoring Vol. 2,
+		Icon	=	Tailoring_Book,
+        SkillTrained = Tailoring,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookYellow_Ground,
+	}
+
+    item BookTailoring3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName = Tailoring Vol. 3,
+		Icon	=	Tailoring_Book,
+        SkillTrained = Tailoring,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookYellow_Ground,
+	}
+
+    item BookTailoring4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName = Tailoring Vol. 4,
+		Icon	=	Tailoring_Book,
+        SkillTrained = Tailoring,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+
+    item BookTailoring5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName = Tailoring Vol. 5,
+		Icon	=	Tailoring_Book,
+        SkillTrained = Tailoring,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedYellow_Ground,
+	}
+    item DenimStripsDirty
+    {
+        DisplayCategory = Material,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Dirty Denim Strips,
+        Icon	=	Dirty_DenimStrips,
+        BandagePower    =   0.5,
+        CanBandage	=	TRUE,
+        WorldStaticModel = DenimStripsDirty,
+    }
+    item LeatherStripsDirty
+    {
+        DisplayCategory = Material,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Dirty Leather Strips,
+        Icon	=	Dirty_LeatherStrips,
+        BandagePower    =   0.5,
+        CanBandage	=	TRUE,
+        WorldStaticModel = LeatherStripsDirty,
+    }
+    item AlcoholRippedSheets
+    {
+        DisplayCategory = FirstAid,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift	=	TRUE,
+        Alcoholic	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Sterilized Rag,
+        ReplaceOnUse    =   RippedSheetsDirty,
+        Icon	=	Sterilized_Rag,
+        BandagePower    =   2,
+        Tooltip = Tooltip_SterilizedRag,
+        WorldStaticModel = RippedSheets,
+    }
+
+    item LightBulbRed
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Red Light Bulb,
+        Icon	=	LightBulbRed_Icon,
+        WorldStaticModel = LightBulbRed,
+    }
+    item LightBulbGreen
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Green Light Bulb,
+        Icon	=	LightBulbGreen_Icon,
+        WorldStaticModel = LightBulbGreen,
+    }
+    item LightBulbBlue
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Blue Light Bulb,
+        Icon	= LightBulbBlue_Icon,
+        WorldStaticModel = LightBulbBlue,
+    }
+    item LightBulbYellow
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Yellow Light Bulb,
+        Icon	= LightBulbYellow_Icon,
+        WorldStaticModel = LightBulbYellow,
+    }
+    item LightBulbCyan
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Cyan Light Bulb,
+        Icon	= LightBulbCyan_Icon,
+        WorldStaticModel = LightBulbCyan,
+    }
+    item LightBulbMagenta
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Magenta Light Bulb,
+        Icon	= LightBulbMagenta_Icon,
+        WorldStaticModel = LightBulbMagenta,
+    }
+    item LightBulbOrange
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Orange Light Bulb,
+        Icon	= LightBulbOrange_Icon,
+        WorldStaticModel = LightBulbOrange,
+    }
+    item LightBulbPurple
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Purple Light Bulb,
+        Icon	= LightBulbPurple_Icon,
+        WorldStaticModel = LightBulbPurple,
+    }
+    item LightBulbPink
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Pink Light Bulb,
+        Icon	= LightBulbPink_Icon,
+        WorldStaticModel = LightBulbPink,
+    }
+    item AlcoholBandage
+    {
+        DisplayCategory = FirstAid,
+        Count	=	1,
+        Weight	=	0.1,
+        AlwaysWelcomeGift	=	true,
+        Type	=	Normal,
+        DisplayName	=	Sterilized Bandage,
+        ReplaceOnUse    =   BandageDirty,
+        Alcoholic	=	TRUE,
+        Icon	=	Sterilized_Bandage,
+        CanBandage	=	true,
+        BandagePower    =   4,
+        Tooltip = Tooltip_AlcoholBandage,
+        Medical = TRUE,
+        WorldStaticModel = Bandage,
+    }
+    item LightBulb
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Light Bulb,
+        Icon	=	LightBulb_Icon,
+        ConditionMax = 100,
+        WorldStaticModel = LightBulb,
+    }
+}

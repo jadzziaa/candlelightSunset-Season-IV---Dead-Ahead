@@ -1,0 +1,17 @@
+require "Items/ProceduralDistributions"
+-- E150Tire2
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Base.E150Tire2");
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 0.2);
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, "Base.E150Tire2");
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, 0.2);
+table.insert(ProceduralDistributions.list["MechanicShelfMisc"].items, "Base.E150Tire2");
+table.insert(ProceduralDistributions.list["MechanicShelfMisc"].items, 0.2);
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, "Base.E150Tire2");
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, 0.2);
+table.insert(ProceduralDistributions.list["GarageTools"].items, "Base.E150Tire2");
+table.insert(ProceduralDistributions.list["GarageTools"].items, 0.2);
+-- E150CarSeat2
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Base.E150CarSeat2");
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 0.2);
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, "Base.E150CarSeat2");
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, 0.3);

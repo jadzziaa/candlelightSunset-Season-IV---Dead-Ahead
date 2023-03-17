@@ -1,0 +1,48 @@
+module Base
+{
+	sound inTIsnd_FoodM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_FoodM_1.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_FoodM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_FoodM_2.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_FoodM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_FoodM_3.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_FoodM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_FoodM_4.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_FoodM	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_FoodM_5.ogg,
+			volume = 0.8,
+		}
+	}
+}

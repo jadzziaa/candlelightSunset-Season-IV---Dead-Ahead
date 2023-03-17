@@ -1,0 +1,4 @@
+ContextMenu_ES = {
+	ContextMenu_KnifeSheath_WearBack = "Equipar (Detrás)",
+	ContextMenu_KnifeSheath_WearLeg = "Equipar (Muslo)",
+}

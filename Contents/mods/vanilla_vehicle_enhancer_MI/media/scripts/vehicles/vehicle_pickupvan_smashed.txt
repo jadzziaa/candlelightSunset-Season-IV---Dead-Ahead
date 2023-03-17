@@ -1,0 +1,438 @@
+module Base
+{
+    model Vehicles_PickUpVanSmashedRear
+	{
+		mesh = vehicles/Vehicles_PickUpVanCRASH_Rear,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle PickUpVanSmashedRear
+	{
+		template! = PickUpVan,
+
+		model
+		{
+			file = Vehicles_PickUpVanSmashedRear,
+			scale = 1.9500,
+			offset = 0.0000 0.2692 0.0000,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_01,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_02,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_03,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_03a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_04,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_04a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_05,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_05a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_06,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_06a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_07,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_07a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_08,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_08a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_09,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_09a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_10,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_10a,
+		}
+	}
+
+    model Vehicles_PickUpVanSmashedRight
+	{
+		mesh = vehicles/Vehicles_PickUpVanCRASH_Right,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle PickUpVanSmashedRight
+	{
+		template! = PickUpVan,
+
+		model
+		{
+			file = Vehicles_PickUpVanSmashedRight,
+			scale = 1.9500,
+			offset = 0.0000 0.2692 0.0000,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_01,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_02,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_03,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_03a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_04,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_04a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_05,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_05a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_06,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_06a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_07,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_07a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_08,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_08a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_09,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_09a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_10,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_10a,
+		}
+	}
+
+	model Vehicles_PickUpVanSmashedLeft
+	{
+		mesh = vehicles/Vehicles_PickUpVanCRASH_Left,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle PickUpVanSmashedLeft
+	{
+		template! = PickUpVan,
+
+		model
+		{
+			file = Vehicles_PickUpVanSmashedLeft,
+			scale = 1.9500,
+			offset = 0.0000 0.2692 0.0000,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_01,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_02,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_03,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_03a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_04,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_04a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_05,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_05a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_06,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_06a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_07,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_07a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_08,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_08a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_09,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_09a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_10,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_10a,
+		}
+	}
+
+	model Vehicles_PickUpVanSmashedFront
+	{
+		mesh = vehicles/Vehicles_PickUpVanCRASH_Front,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle PickUpVanSmashedFront
+	{
+		template! = PickUpVan,
+
+		model
+		{
+			file = Vehicles_PickUpVanSmashedFront,
+			scale = 1.9500,
+			offset = 0.0000 0.2692 0.0000,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_01,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_02,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_03,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_03a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_04,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_04a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_05,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_05a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_06,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_06a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_07,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_07a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_08,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_08a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_09,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_09a,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_10,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_pickupsub88_10a,
+		}
+	}
+}

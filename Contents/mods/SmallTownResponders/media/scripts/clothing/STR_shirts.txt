@@ -1,0 +1,1344 @@
+module STR {
+
+	imports {
+		Base
+	}
+	item Shirt_Police_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = RavenCreek PD Shirt,
+		ClothingItem = Shirt_Police_RavenCreek,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_RavenCreek,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Police_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = RavenCreek PD T-Shirt,
+		ClothingItem = TShirt_Police_RavenCreek,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_RavenCreek,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_EMS_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = FD RavenCreek EMS Shirt,
+		ClothingItem = Shirt_EMS_RavenCreek,
+		BodyLocation = Shirt,
+		Icon = Shirt_EMS_RavenCreek,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_EMS_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = FD RavenCreek EMS T-Shirt,
+		ClothingItem = TShirt_EMS_RavenCreek,
+		BodyLocation = Tshirt,
+		Icon = TShirt_EMS_RavenCreek,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_EMS_Supervisor_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = FD RavenCreek EMS Supervisor Shirt,
+		ClothingItem = Shirt_EMS_RavenCreek_Supervisor,
+		BodyLocation = Shirt,
+		Icon = Shirt_EMS_RavenCreek_Supervisor,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_EMS_Supervisor_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = FD RavenCreek EMS Supervisor T-Shirt,
+		ClothingItem = TShirt_EMS_RavenCreek_Supervisor,
+		BodyLocation = Tshirt,
+		Icon = TShirt_EMS_RavenCreek_Supervisor,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Fire_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = FD RavenCreek Shirt,
+		ClothingItem = Shirt_Fire_RavenCreek,
+		BodyLocation = Shirt,
+		Icon = Shirt_Fire_RavenCreek,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Fire_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = FD RavenCreek T-Shirt,
+		ClothingItem = TShirt_Fire_RavenCreek,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Fire_RavenCreek,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Fire_Supervisor_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = FD RavenCreek Supervisor Shirt,
+		ClothingItem = Shirt_Fire_Supervisor_RavenCreek,
+		BodyLocation = Shirt,
+		Icon = Shirt_Fire_Supervisor_RavenCreek,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Fire_Supervisor_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = FD RavenCreek Supervisor T-Shirt,
+		ClothingItem = TShirt_Fire_Supervisor_RavenCreek,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Fire_Supervisor_RavenCreek,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_DOC_RavenCreek
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = RavenCreek DoC Shirt,
+		ClothingItem = Shirt_DOC_RavenCreek,
+		BodyLocation = Shirt,
+		Icon = Shirt_DOC_RavenCreek,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+    item TShirt_DOC_RavenCreek
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = RavenCreek DoC T-Shirt,
+        ClothingItem = TShirt_DOC_RavenCreek,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_DOC_RavenCreek,
+        BloodLocation = Shirt,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Shirt_Police_Muldraugh
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Muldraugh PD Shirt,
+		ClothingItem = Shirt_Police_Muldraugh,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_Muldraugh,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Police_Muldraugh
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Muldraugh PD T-Shirt,
+		ClothingItem = TShirt_Police_Muldraugh,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_Muldraugh,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Police_Meade
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Meade County SO Shirt,
+		ClothingItem = Shirt_Police_Meade,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_Meade,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Police_Meade
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Meade County SO T-Shirt,
+		ClothingItem = TShirt_Police_Meade,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_Meade,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Police_WestPoint
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = WestPoint PD Shirt,
+		ClothingItem = Shirt_Police_WestPoint,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_WestPoint,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Police_WestPoint
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = WestPoint PD T-Shirt,
+		ClothingItem = TShirt_Police_WestPoint,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_WestPoint,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Police_Riverside
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Riverside PD Shirt,
+		ClothingItem = Shirt_Police_Riverside,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_Riverside,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Police_Riverside
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Riverside PD T-Shirt,
+		ClothingItem = TShirt_Police_Riverside,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_Riverside,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Police_Rosewood
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rosewood SD Shirt,
+		ClothingItem = Shirt_Police_Rosewood,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_Rosewood,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Police_Rosewood
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rosewood SD T-Shirt,
+		ClothingItem = TShirt_Police_Rosewood,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_Rosewood,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Police_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville DoP Shirt,
+		ClothingItem = Shirt_Police_Louisville,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_Louisville,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Police_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville DoP T-Shirt,
+		ClothingItem = TShirt_Police_Louisville,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_Louisville,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Police_JeffersonPD
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Jefferson County PD Shirt,
+		ClothingItem = Shirt_Police_JeffersonPD,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_JeffersonPD,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Police_JeffersonPD
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Jefferson County PD T-Shirt,
+		ClothingItem = TShirt_Police_JeffersonPD,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_JeffersonPD,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Police_JeffersonSD
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Jefferson County SD Shirt,
+		ClothingItem = Shirt_Police_JeffersonSD,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_JeffersonSD,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Police_JeffersonSD
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Jefferson County SD T-Shirt,
+		ClothingItem = TShirt_Police_JeffersonSD,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_JeffersonSD,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+    item Shirt_PoliceKSP
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Kentucky State Police Shirt,
+		ClothingItem = Shirt_PoliceKSP,
+		BodyLocation = Shirt,
+		Icon = Shirt_Police_KSP,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+    }
+	item TShirt_PoliceKSP
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Kentucky State Police T-Shirt,
+		ClothingItem = TShirt_PoliceKSP,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Police_KSP,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Federal_Ranger
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Federal Ranger Shirt,
+		ClothingItem = Shirt_Federal_Ranger,
+		BodyLocation = Shirt,
+		Icon = Shirt_Federal_Ranger,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+    item TShirt_Federal_Ranger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Federal Ranger T-Shirt,
+        ClothingItem = TShirt_Federal_Ranger,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Federal_Ranger,
+        BloodLocation = Shirt,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Shirt_State_LawRanger
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Kentucky State Park Ranger Shirt,
+		ClothingItem = Shirt_State_LawRanger,
+		BodyLocation = Shirt,
+		Icon = Shirt_State_Law_Ranger,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+    item TShirt_State_LawRanger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Kentucky State Park Ranger T-Shirt,
+        ClothingItem = TShirt_State_LawRanger,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_State_Law_Ranger,
+        BloodLocation = Shirt,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Shirt_State_Ranger
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Kentucky Fish & Wildlife Ranger Shirt,
+		ClothingItem = Shirt_State_Ranger,
+		BodyLocation = Shirt,
+		Icon = Shirt_State_Ranger,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+    item TShirt_State_Ranger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Kentucky Fish & Wildlife Ranger T-Shirt,
+        ClothingItem = TShirt_State_Ranger,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_State_Ranger,
+        BloodLocation = Shirt,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Shirt_DOC_Meade
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Meade County DoC Shirt,
+		ClothingItem = Shirt_DOC_Meade,
+		BodyLocation = Shirt,
+		Icon = Shirt_DOC_Meade,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+    item TShirt_DOC_Meade
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Meade County DoC T-Shirt,
+        ClothingItem = TShirt_DOC_Meade,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_DOC_Meade,
+        BloodLocation = Shirt,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Shirt_DOC_Jefferson
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Jefferson County DoC Shirt,
+		ClothingItem = Shirt_DOC_Jefferson,
+		BodyLocation = Shirt,
+		Icon = Shirt_DOC_Jefferson,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+    item TShirt_DOC_Jefferson
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Jefferson County DoC T-Shirt,
+        ClothingItem = TShirt_DOC_Jefferson,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_DOC_Jefferson,
+        BloodLocation = Shirt,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Shirt_EMS_Meade
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Meade County EMS Shirt,
+		ClothingItem = Shirt_EMS_Meade,
+		BodyLocation = Shirt,
+		Icon = Shirt_EMS_Meade,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_EMS_Meade
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Meade County EMS T-Shirt,
+		ClothingItem = TShirt_EMS_Meade,
+		BodyLocation = Tshirt,
+		Icon = TShirt_EMS_Meade,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_EMS_Jefferson
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Jefferson County EMS Shirt,
+		ClothingItem = Shirt_EMS_Jefferson,
+		BodyLocation = Shirt,
+		Icon = Shirt_EMS_Jefferson,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_EMS_Jefferson
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Jefferson County EMS T-Shirt,
+		ClothingItem = TShirt_EMS_Jefferson,
+		BodyLocation = Tshirt,
+		Icon = TShirt_EMS_Jefferson,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_EMS_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville EMS Shirt,
+		ClothingItem = Shirt_EMS_Louisville,
+		BodyLocation = Shirt,
+		Icon = Shirt_EMS_Louisville,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_EMS_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville EMS T-Shirt,
+		ClothingItem = TShirt_EMS_Louisville,
+		BodyLocation = Tshirt,
+		Icon = TShirt_EMS_Louisville,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+    item TShirt_Profession_FiremanBlue_Meade
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Blue Meade County FD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanBlue_Meade,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Blue_Meade,
+        BloodLocation = Shirt,
+        ColorRed = 46,
+        ColorGreen = 58,
+        ColorBlue = 93,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanRed_Meade
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Red Meade County FD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanRed_Meade,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Red_Meade,
+        BloodLocation = Shirt,
+        ColorRed = 160,
+        ColorGreen = 29,
+        ColorBlue = 28,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanRed_Meade02
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Dark Red Meade County FD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanRed_Meade02,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Red_Meade02,
+        BloodLocation = Shirt,
+        ColorRed = 118,
+        ColorGreen = 24,
+        ColorBlue = 24,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanWhite_Meade
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = White Meade County FD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanWhite_Meade,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_White_Meade,
+        BloodLocation = Shirt,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanBlue_Rosewood
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Blue Rosewood VFD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanBlue_Rosewood,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Blue_Rosewood,
+        BloodLocation = Shirt,
+        ColorRed = 46,
+        ColorGreen = 58,
+        ColorBlue = 93,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanRed_Rosewood
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Red Rosewood VFD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanRed_Rosewood,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Red_Rosewood,
+        BloodLocation = Shirt,
+        ColorRed = 160,
+        ColorGreen = 29,
+        ColorBlue = 28,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanRed_Rosewood02
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Dark Red Rosewood VFD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanRed_Rosewood02,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Red_Rosewood02,
+        BloodLocation = Shirt,
+        ColorRed = 118,
+        ColorGreen = 24,
+        ColorBlue = 24,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanWhite_Rosewood
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = White Rosewood VFD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanWhite_Rosewood,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_White_Rosewood,
+        BloodLocation = Shirt,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanBlue_Louisville
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Blue Louisville FD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanBlue_Louisville,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Blue_Louisville,
+        BloodLocation = Shirt,
+        ColorRed = 46,
+        ColorGreen = 58,
+        ColorBlue = 93,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanRed_Louisville
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Red Louisville FD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanRed_Louisville,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Red_Louisville,
+        BloodLocation = Shirt,
+        ColorRed = 160,
+        ColorGreen = 29,
+        ColorBlue = 28,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanRed_Louisville02
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Dark Red Louisville FD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanRed_Louisville02,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Red_Louisville02,
+        BloodLocation = Shirt,
+        ColorRed = 118,
+        ColorGreen = 24,
+        ColorBlue = 24,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanWhite_Louisville
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = White Louisville FD T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanWhite_Louisville,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_White_Louisville,
+        BloodLocation = Shirt,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanBlue_RavenCreek
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Blue FD RavenCreek T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanBlue_RavenCreek,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Blue_RavenCreek,
+        BloodLocation = Shirt,
+        ColorRed = 46,
+        ColorGreen = 58,
+        ColorBlue = 93,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanRed_RavenCreek
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Red FD RavenCreek T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanRed_RavenCreek,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Red_RavenCreek,
+        BloodLocation = Shirt,
+        ColorRed = 160,
+        ColorGreen = 29,
+        ColorBlue = 28,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanRed_RavenCreek02
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Dark Red FD RavenCreek T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanRed_RavenCreek02,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_Red_RavenCreek02,
+        BloodLocation = Shirt,
+        ColorRed = 118,
+        ColorGreen = 24,
+        ColorBlue = 24,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item TShirt_Profession_FiremanWhite_RavenCreek
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = White FD RavenCreek T-Shirt,
+        ClothingItem = TShirt_Profession_FiremanWhite_RavenCreek,
+        BodyLocation = Tshirt,
+        Icon	=	TShirt_Fireman_White_RavenCreek,
+        BloodLocation = Shirt,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Shirt_USPS
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = USPS Shirt,
+		ClothingItem = Shirt_USPS,
+		BodyLocation = Shirt,
+		Icon = Shirt_USPS,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_USPS
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = USPS T-Shirt,
+		ClothingItem = TShirt_USPS,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Polo_USPS,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item TShirt_Polo_Federal_Ranger
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Federal Ranger Polo,
+		ClothingItem = TShirt_Polo_Federal_Ranger,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Polo_Federal_Ranger,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item TShirt_Polo_State_Ranger
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName =  Kentucky Fish & Wildlife Ranger Polo,
+		ClothingItem = TShirt_Polo_State_Ranger,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Polo_State_Ranger,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item TShirt_Polo_State_Law_Ranger
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName =  Kentucky State Park Ranger Polo,
+		ClothingItem = TShirt_Polo_State_Law_Ranger,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Polo_State_Law_Ranger,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Fire_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville FD Shirt,
+		ClothingItem = Shirt_Fire_Louisville,
+		BodyLocation = Shirt,
+		Icon = Shirt_Fire_Louisville,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Fire_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville FD T-Shirt,
+		ClothingItem = TShirt_Fire_Louisville,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Fire_Louisville,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Fire_Supervisor_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville FD Supervisor Shirt,
+		ClothingItem = Shirt_Fire_Supervisor_Louisville,
+		BodyLocation = Shirt,
+		Icon = Shirt_Fire_Supervisor_Louisville,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Fire_Supervisor_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville FD Supervisor T-Shirt,
+		ClothingItem = TShirt_Fire_Supervisor_Louisville,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Fire_Supervisor_Louisville,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Fire_Supervisor_Formal_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville FD Supervisor Formal Shirt,
+		ClothingItem = Shirt_Fire_Supervisor_Formal_Louisville,
+		BodyLocation = Shirt,
+		Icon = Shirt_Fire_Supervisor_Formal_Louisville,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Fire_Supervisor_Formal_Louisville
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Louisville FD Supervisor Formal T-Shirt,
+		ClothingItem = TShirt_Fire_Supervisor_Formal_Louisville,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Fire_Supervisor_Formal_Louisville,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Fire_Meade
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Meade County FD Shirt,
+		ClothingItem = Shirt_Fire_Meade,
+		BodyLocation = Shirt,
+		Icon = Shirt_Fire_Meade,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Fire_Meade
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Meade County FD T-Shirt,
+		ClothingItem = TShirt_Fire_Meade,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Fire_Meade,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Fire_Supervisor_Meade
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Meade County FD Supervisor Shirt,
+		ClothingItem = Shirt_Fire_Supervisor_Meade,
+		BodyLocation = Shirt,
+		Icon = Shirt_Fire_Supervisor_Meade,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Fire_Supervisor_Meade
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Meade County FD Supervisor T-Shirt,
+		ClothingItem = TShirt_Fire_Supervisor_Meade,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Fire_Supervisor_Meade,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Fire_Rosewood
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rosewood VFD Shirt,
+		ClothingItem = Shirt_Fire_Rosewood,
+		BodyLocation = Shirt,
+		Icon = Shirt_Fire_Rosewood,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Fire_Rosewood
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rosewood VFD T-Shirt,
+		ClothingItem = TShirt_Fire_Rosewood,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Fire_Rosewood,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Fire_Supervisor_Rosewood
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rosewood VFD Supervisor Shirt,
+		ClothingItem = Shirt_Fire_Supervisor_Rosewood,
+		BodyLocation = Shirt,
+		Icon = Shirt_Fire_Supervisor_Rosewood,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Fire_Supervisor_Rosewood
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rosewood VFD Supervisor T-Shirt,
+		ClothingItem = TShirt_Fire_Supervisor_Rosewood,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Fire_Supervisor_Rosewood,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Security_Bank
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bank Security Shirt,
+		ClothingItem = Shirt_Security_Bank,
+		BodyLocation = Shirt,
+		Icon = Shirt_Security_Bank,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Security_Bank
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bank Security T-Shirt,
+		ClothingItem = TShirt_Security_Bank,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Security_Bank,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Security_Hotel_Havisham
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Havisham Hotel Security Shirt,
+		ClothingItem = Shirt_Security_Hotel_Havisham,
+		BodyLocation = Shirt,
+		Icon = Shirt_Security_Hotel_Havisham,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Security_Hotel_Havisham
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Havisham Hotel Security T-Shirt,
+		ClothingItem = TShirt_Security_Hotel_Havisham,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Security_Hotel_Havisham,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Security_Hotel_Fancy
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Hotel Security Shirt,
+		ClothingItem = Shirt_Security_Hotel_Fancy,
+		BodyLocation = Shirt,
+		Icon = Shirt_Security_Hotel_Fancy,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Polo_Security_Hotel_Fancy
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName =  Hotel Security Polo,
+		ClothingItem = TShirt_Polo_Security_Hotel_Fancy,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Polo_Security_Hotel_Fancy,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Security_Mall_Ohio
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Grand Ohio Mall Security Shirt,
+		ClothingItem = Shirt_Security_Mall_Ohio,
+		BodyLocation = Shirt,
+		Icon = Shirt_Security_Mall_Ohio,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Security_Mall_Ohio
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Grand Ohio Mall Security T-Shirt,
+		ClothingItem = TShirt_Security_Mall_Ohio,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Security_Mall_Ohio,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Security_Mall_Valley
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Valley Station Mall Security Shirt,
+		ClothingItem = Shirt_Security_Mall_Valley,
+		BodyLocation = Shirt,
+		Icon = Shirt_Security_Mall_Valley,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Security_Mall_Valley
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Valley Station Mall Security T-Shirt,
+		ClothingItem = TShirt_Security_Mall_Valley,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Security_Mall_Valley,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Shirt_Security_Mall_LV
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Mall Security Shirt,
+		ClothingItem = Shirt_Security_Mall_LV,
+		BodyLocation = Shirt,
+		Icon = Shirt_Security_Mall_LV,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_Security_Mall_LV
+	{
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Mall Security T-Shirt,
+		ClothingItem = TShirt_Security_Mall_LV,
+		BodyLocation = Tshirt,
+		Icon = TShirt_Security_Mall_LV,
+		BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+}

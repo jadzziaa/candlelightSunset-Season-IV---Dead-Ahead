@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="AttachItem_BackBMW0.xml">
+	<m_Name>AttachItem_BackHARLEY0</m_Name>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>HARLEY0</m_StringValue>
+	</m_Conditions>
+</animNode>

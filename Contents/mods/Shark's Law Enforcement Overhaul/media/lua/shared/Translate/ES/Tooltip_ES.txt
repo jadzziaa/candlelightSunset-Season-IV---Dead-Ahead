@@ -1,0 +1,6 @@
+Tooltip_ES = {
+    Tooltip_PoliceM17 = "Máscara de gas militar reeditada para los departamentos de policía",
+    Tooltip_RiotHelmet = "Casco antidisturbios retráctil; ineficaz contra las balas",
+    Tooltip_PoliceTacticalVest = "Armadura diseñada para las unidades policiales",
+    Tooltip_PoliceDutyBelt = "Cinturón de policía con funda",
+}

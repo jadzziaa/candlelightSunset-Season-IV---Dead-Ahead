@@ -1,0 +1,8 @@
+Recipes_PTBR = 
+{
+	Recipe_Extract_Bladder_from_Soccer_Ball = "Extrair Bexiga da Bola de Futebol",
+	Recipe_Extract_Bladder_from_Football = "Extrair Bexiga de Bola de Futebol Americano",
+	Recipe_Make_a_Small_Waterskin = "Fazer um Odre Pequeno",
+	Recipe_Make_a_Large_Waterskin = "Fazer um Odre Grande",
+	Recipe_Make_a_Quality_Waterskin = "Fazer um Odre Ótimo",
+}

@@ -1,0 +1,455 @@
+module Base 
+{
+
+        item Hat_Army
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		ClothingItem = Hat_Army,
+		BodyLocation = Hat,
+        Icon = MilitaryHelmet,
+		BloodLocation = Head,
+        BiteDefense = 100,
+		ScratchDefense = 100,
+        BulletDefense = 100,
+        CanHaveHoles = false,
+        ClothingItemExtra = SMUIClothing.Hat_MilitaryHelmetStrapless,
+        ClothingItemExtraOption = Unstrap,
+        ClothingExtraSubmenu = Strap,
+        Insulation = 0.10,
+        Weight = 1,
+        WorldStaticModel = MilitaryHelmet_WorldItem,
+	}
+
+        item Vest_BulletArmy
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland PASGT Vest,
+        ClothingItem = Vest_BulletArmy,
+        BodyLocation = TorsoExtra,
+        Icon = WoodlandPASGT,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.75,
+        WindResistance = 0.45,
+        BiteDefense = 75,
+        ScratchDefense = 75,
+        BulletDefense = 100,
+        WorldStaticModel = PASGTWoodland_WorldItem,
+    }
+    	item Shoes_ArmyBoots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Black Combat Boots,
+		ClothingItem = Shoes_ArmyBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = BlackCombatBoots,
+		StompPower = 2.5,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 0.8,
+        WorldStaticModel = Boots_Ground,
+	}
+    	item Shoes_ArmyBootsDesert
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Desert Combat Boots,
+		ClothingItem = Shoes_ArmyBootsDesert,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = DesertCombatBoots,
+		StompPower = 2.5,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.5,
+        WindResistance = 0.60,
+        WaterResistance = 0.5,
+        WorldStaticModel = Boots_Ground,
+	}
+
+        item Hat_BonnieHat_CamoGreen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Boonie Hat,
+        ClothingItem = Hat_BonnieHat_CamoGreen,
+        BodyLocation = Hat,
+        Icon = BoonieHatWoodland,
+        ClothingItemExtra = SMUIClothing.Hat_BoonieHatWoodlandFolded,
+        ClothingItemExtraOption = Fold,
+        ClothingExtraSubmenu = Unfold,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        BloodLocation = Head,
+        Insulation = 0.5,
+        WindResistance = 0.3,
+        Weight = 0.1,
+        WorldStaticModel = BoonieHatWoodland_WorldItem,
+    }
+
+    	item Hat_NBCmask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = M17 w/ Doff Hood,
+		ClothingItem = Hat_M17Doff,
+        BodyLocation = MaskEyes,
+        BloodLocation = Head,
+        Icon = M17Doff,
+        CanHaveHoles = false,
+        Weight = 0.0,
+        ScratchDefense = 20,
+        BiteDefense = 5,
+        Insulation = 0.90,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+        WorldStaticModel = M17Doff_WorldItem,
+    }
+
+        item Tshirt_CamoGreen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGreen,
+        ClothingItem = Tshirt_CamoGreen,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoGreenRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    	item Shirt_CamoGreen
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGreen,
+        ClothingItem = Shirt_CamoGreen,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoGreenRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+	}
+    
+        item Jacket_ArmyCamoGreen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGreen,
+        ClothingItem = Jacket_ArmyCamoGreen,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoGreenRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Tshirt_CamoDesert
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoSand,
+        ClothingItem = Tshirt_CamoDesert,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoDesertRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    	item Shirt_CamoDesert
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoSand,
+        ClothingItem = Jacket_ArmyCamoDesert,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoDesertRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+	}
+    
+        item Jacket_ArmyCamoDesert
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoSand,
+        ClothingItem = Jacket_ArmyCamoDesert,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoDesertRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Tshirt_CamoUrban
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGrey,
+        ClothingItem = Jacket_ArmyCamoUrban,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoUrbanRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    	item Shirt_CamoUrban
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGrey,
+        ClothingItem = Jacket_ArmyCamoUrban,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoUrbanRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 1,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+	}
+    
+        item Trousers_CamoGreen
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,   
+        ClothingItem = Trousers_CamoGreen,
+        ClothingItemExtra = SMUIClothing.Trousers_CamoGreenTucked,
+        ClothingItemExtraOption = TuckIn,
+        ClothingExtraSubmenu = TuckOut,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+        item Trousers_CamoDesert
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Pants,
+        Icon = TrousersCamoSand,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,      
+        ClothingItem = Trousers_CamoDesert,
+        ClothingItemExtra = SMUIClothing.Trousers_CamoDesertTucked,
+        ClothingItemExtraOption = TuckIn,
+        ClothingExtraSubmenu = TuckOut,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+        item Trousers_CamoUrban
+    
+    {   
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGrey,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        ClothingItem = Trousers_CamoUrban,
+        ClothingItemExtra = SMUIClothing.Trousers_CamoUrbanTucked,
+        ClothingItemExtraOption = TuckIn,
+        ClothingExtraSubmenu = TuckOut,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+        item Bag_Military
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = GI Duffelbag,
+        ClothingItem = Bag_Military,
+        CanBeEquipped = Back,
+        WeightReduction	=	25,
+        Weight	=	1,
+        Capacity	=	30,
+        Icon	=	GIDuffel,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.75,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_LHandMilitary holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_RHandMilitary holdingbagright,
+        WorldStaticModel = GIDuffel_WorldItem,
+    }
+
+        item Bag_SurvivorBag
+        
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Medium ALICE Pack,
+        ClothingItem = Bag_SurvivorBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	1.5,
+        Capacity	=	35,
+        Icon	=	MediumGreenALICEPack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel = MediumALICEGreen_WorldItem,
+    }
+
+        item Bag_ALICEpack
+
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Medium ALICE Pack,
+        ClothingItem = Bag_ALICEpack,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	1.5,
+        Capacity	=	35,
+        Icon	=	MediumGreenALICEPack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel = MediumALICEGreen_WorldItem,
+    }
+
+        item Bag_ALICEpack_Army
+
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Medium Woodland ALICE Pack,
+        ClothingItem = Bag_ALICEpack_Army,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	1.5,
+        Capacity	=	35,
+        Icon	=	MediumWoodlandALICEPack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_Army_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_Army_RHand holdingbagright,
+        WorldStaticModel = MediumALICEWoodland_WorldItem,
+    }
+
+        item Boilersuit_Flying
+        
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = CWU-27/P Suit,
+        ClothingItem = Boilersuit_Flying,
+        BodyLocation = SMUIJumpsuitPlus,
+        Icon = BoilerSuitGreen,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 30,
+        BiteDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.60,
+        WaterResistance = 0.55,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+}

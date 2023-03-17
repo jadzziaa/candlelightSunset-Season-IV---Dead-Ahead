@@ -1,0 +1,905 @@
+module Base {
+
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		attachment ANAT_right
+		{
+			offset = 0.0700 -0.1800 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_wineright
+		{
+			offset = 0.0700 -0.1800 0.0100,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_left
+		{
+			offset = 0.0700 0.1800 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_wineleft
+		{
+			offset = 0.0700 0.1800 0.0100,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_bedroll {
+			offset = -0.0200 -0.0050 0.2500,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_uldoll {
+			offset = 0.1450 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_uldogchew {
+			offset = 0.1450 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulcattoy {
+			offset = 0.1550 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulballon {
+			offset = 0.1250 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulrubberducky {
+			offset = 0.1450 0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ultoybear {
+			offset = 0.2050 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_uldawn {
+			offset = 0.2050 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ultoycar {
+			offset = 0.1550 0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulyoyo {
+			offset = 0.1650 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulcube {
+			offset = 0.2050 0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulmask {
+			offset = 0.1350 0.0750 -0.0550,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulmaskground {
+			offset = 0.1350 0.0750 -0.0550,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulplushie {
+			offset = 0.1450 0.1050 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulpawsplushie {
+			offset = 0.1650 0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulweapon {
+			offset = 0.1800 0.0850 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulweaponpan {
+			offset = 0.1800 0.0850 0.0700,
+			rotate = 90.0000 60.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulweaponsaucepan {
+			offset = 0.1800 0.0850 0.0700,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulsnightstick {
+			offset = 0.1800 0.0350 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulwrench {
+			offset = 0.1800 0.0850 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulbottle {
+			offset = 0.1700 0.0850 -0.1000,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulwine {
+			offset = 0.1700 0.0850 -0.0300,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urdoll {
+			offset = 0.1450 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urdogchew {
+			offset = 0.1450 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urcattoy {
+			offset = 0.1550 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urballon {
+			offset = 0.1250 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urrubberducky {
+			offset = 0.1450 -0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urtoybear {
+			offset = 0.2050 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urdawn {
+			offset = 0.2050 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urtoycar {
+			offset = 0.1550 -0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_uryoyo {
+			offset = 0.1650 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urcube {
+			offset = 0.2050 -0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urmask {
+			offset = 0.1350 -0.0750 -0.0550,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urmaskground {
+			offset = 0.1350 -0.0750 -0.0550,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urplushie {
+			offset = 0.1450 -0.1050 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urpawsplushie {
+			offset = 0.1650 -0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urweapon {
+			offset = 0.1800 -0.0850 0.0700,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urweaponpan {
+			offset = 0.1800 -0.0850 0.0700,
+			rotate = 90.0000 30.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urweaponsaucepan {
+			offset = 0.1800 -0.0850 0.0700,
+			rotate = 90.0000 -50.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ursnightstick {
+			offset = 0.1800 -0.0350 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urwrench {
+			offset = 0.1800 -0.0850 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urbottle {
+			offset = 0.1700 -0.0850 -0.1000,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urwine {
+			offset = 0.1700 -0.0850 -0.0300,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weapon {
+			offset = 0.1900 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_rifle {
+			offset = 0.1900 0.0200 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weaponbig {
+			offset = 0.1900 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weaponshovel {
+			offset = 0.1900 0.0000 0.1500,
+			rotate = 90.0000 90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weaponpan {
+			offset = 0.1750 -0.0400 0.0700,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weaponsaucepan {
+			offset = 0.1750 -0.0400 0.0700,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_snightstick {
+			offset = 0.1900 0.0300 0.0600,
+			rotate = 0.0000 0.0000 .0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_wrench {
+			offset = 0.1900 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_flashlight {
+			offset = -0.0050 0.0650 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment ANAT_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ANAT_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ANAT_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ANAT_container {
+			offset = 0.0900 -0.0050 -0.3100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containerseed {
+			offset = 0.0900 -0.0050 -0.2900,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containertool {
+			offset = 0.0900 -0.0050 -0.3300,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containercooler {
+			offset = 0.0900 -0.0050 -0.4100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containertote {
+			offset = 0.0900 -0.0050 -0.4100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containertrash {
+			offset = 0.1800 -0.0050 -0.3400,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containersack {
+			offset = 0.1400 -0.0050 -0.3400,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containermk {
+			offset = 0.1200 -0.0050 -0.2700,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+	
+		attachment ANAT_containersl {
+			offset = 0.0700 0.1400 -0.2000,
+			rotate = -90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containersr {
+			offset = 0.0700 -0.1400 -0.2000,
+			rotate = -90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containerseedsl {
+			offset = 0.0700 0.1400 -0.2000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containerseedsr {
+			offset = 0.0700 -0.1400 -0.2000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containersacksl {
+			offset = 0.0900 0.2100 -0.2000,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containersacksr {
+			offset = 0.0900 -0.1400 -0.2000,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}	
+
+	}
+
+    model MaleBody 
+    {
+        mesh = Skinned/MaleBody,
+
+		attachment ANAT_right
+		{
+			offset = 0.0700 -0.1800 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_wineright
+		{
+			offset = 0.0700 -0.1800 0.0100,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_left
+		{
+			offset = 0.0700 0.1800 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_wineleft
+		{
+			offset = 0.0700 0.1800 0.0100,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_bedroll {
+			offset = -0.0200 -0.0050 0.2500,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_uldoll {
+			offset = 0.1450 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_uldogchew {
+			offset = 0.1450 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulcattoy {
+			offset = 0.1650 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulballon {
+			offset = 0.1350 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulrubberducky {
+			offset = 0.1450 0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ultoybear {
+			offset = 0.2050 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_uldawn {
+			offset = 0.2050 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ultoycar {
+			offset = 0.1650 0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulyoyo {
+			offset = 0.1750 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulcube {
+			offset = 0.2150 0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulmask {
+			offset = 0.1450 0.0850 -0.0550,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulmaskground {
+			offset = 0.1450 0.0850 -0.0550,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulplushie {
+			offset = 0.1550 0.1050 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulpawsplushie {
+			offset = 0.1650 0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulweapon {
+			offset = 0.1900 0.0800 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulweaponpan {
+			offset = 0.1850 0.0800 0.0700,
+			rotate = 90.0000 60.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulweaponsaucepan {
+			offset = 0.1850 0.0800 0.0700,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulsnightstick {
+			offset = 0.1850 0.0500 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulwrench {
+			offset = 0.1850 0.0800 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulbottle {
+			offset = 0.1850 0.0800 -0.1000,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ulwine {	
+			offset = 0.1850 0.0800 -0.0500,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urdoll {
+			offset = 0.1450 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urdogchew {
+			offset = 0.1450 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urcattoy {
+			offset = 0.1650 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urballon {
+			offset = 0.1350 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urrubberducky {
+			offset = 0.1450 -0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urtoybear {
+			offset = 0.2050 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urdawn {
+			offset = 0.2050 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urtoycar {
+			offset = 0.1650 -0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_uryoyo {
+			offset = 0.1750 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urcube {
+			offset = 0.2150 -0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urmask {
+			offset = 0.1450 -0.0850 -0.0550,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urmaskground {
+			offset = 0.1450 -0.0850 -0.0550,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urplushie {
+			offset = 0.1550 -0.1050 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urpawsplushie {
+			offset = 0.1650 -0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urweapon {
+			offset = 0.1900 -0.0800 0.0700,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urweaponpan {
+			offset = 0.1850 -0.0800 0.0700,
+			rotate = 90.0000 30.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urweaponsaucepan {
+			offset = 0.1850 -0.0800 0.0700,
+			rotate = 90.0000 -50.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_ursnightstick {
+			offset = 0.1850 -0.0500 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urwrench {
+			offset = 0.1850 -0.0800 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urbottle {
+			offset = 0.1850 -0.0800 -0.1000,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_urwine {
+			offset = 0.1850 -0.0800 -0.0500,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weapon {
+			offset = 0.2000 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_rifle {
+			offset = 0.2000 0.0200 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weaponbig {
+			offset = 0.2000 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weaponshovel {
+			offset = 0.2000 0.0000 0.1500,
+			rotate = 90.0000 90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weaponpan {
+			offset = 0.1850 -0.0400 0.0700,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_weaponsaucepan {
+			offset = 0.1850 -0.0400 0.0700,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_snightstick {
+			offset = 0.2000 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_wrench {
+			offset = 0.2000 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_flashlight {
+			offset = 0.0000 0.0850 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment ANAT_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ANAT_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ANAT_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ANAT_container {
+			offset = 0.0900 -0.0050 -0.3100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containerseed {
+			offset = 0.0900 -0.0050 -0.2900,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containertool {
+			offset = 0.0900 -0.0050 -0.3300,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containercooler {
+			offset = 0.0900 -0.0050 -0.4100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containertote {
+			offset = 0.0900 -0.0050 -0.4100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containertrash {
+			offset = 0.1800 -0.0050 -0.3400,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containersack {
+			offset = 0.1400 -0.0050 -0.3400,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containermk {
+			offset = 0.1200 -0.0050 -0.2700,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containersl {
+			offset = 0.0700 0.1400 -0.2000,
+			rotate = -90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containersr {
+			offset = 0.0700 -0.1400 -0.2000,
+			rotate = -90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containerseedsl {
+			offset = 0.0700 0.1400 -0.2000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containerseedsr {
+			offset = 0.0700 -0.1400 -0.2000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containersacksl {
+			offset = 0.0900 0.2100 -0.2000,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ANAT_containersacksr {
+			offset = 0.0900 -0.1400 -0.2000,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}			
+
+    }
+
+}

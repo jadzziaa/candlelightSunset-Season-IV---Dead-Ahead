@@ -1,0 +1,5 @@
+name=Military Ponchos Expanded Nerf
+poster=preview.png
+id=MilitaryPonchosExpandedNerf
+description=Nerfs poncho stats to half the original defense.
+require=MilPoncho,MilitaryPonchosExpanded

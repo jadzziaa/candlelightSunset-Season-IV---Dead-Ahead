@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+	<female>
+		<name>Stalker</name>
+		<model>skinned\hair\f_stalker</model>
+		<texture>F_Hair_White_UndeadSurvivor</texture>
+		<alternate category="default" style="Stalker" />
+		<alternate category="Group01" style="Stalker" />
+		<alternate category="Group02" style="Stalker" />
+		<alternate category="Group03" style="bald" />
+		<alternate category="Group04" style="Stalker" />
+		<alternate category="Group05" style="Stalker" />
+		<alternate category="Group06" style="bound" />
+		<noChoose>true</noChoose>
+		<level>1</level>
+	</female>
+
+</hairStyles>

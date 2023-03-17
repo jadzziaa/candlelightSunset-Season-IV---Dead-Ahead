@@ -1,0 +1,168 @@
+module Base
+{
+	
+		model HandHatchet
+	{
+		mesh = weapons/1handed/HandHatchet,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.12500,
+			rotate = 0.0000 0.0000 0.0000,
+		}	
+	}
+	
+		model CheapSurvivalKnife
+	{
+		mesh = weapons/1handed/CheapSurvivalKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SurvivalKnife
+	{
+		mesh = weapons/1handed/SurvivalKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+		model RancherMachete
+	{
+		mesh = weapons/1handed/RancherMachete,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model KukriMachete
+	{
+		mesh = weapons/1handed/KukriMachete,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SplittingAxe
+	{
+		mesh = weapons/1handed/SplittingAxe,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SpearCheapSurvivalKnife
+	{
+		mesh = weapons/2handed/SpearCheapSurvivalKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.2500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SpearKukriMachete
+	{
+		mesh = weapons/2handed/SpearKukriMachete,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.2500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+		model SpearSurvivalKnife
+	{
+		mesh = weapons/2handed/SpearSurvivalKnife,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.2500,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+
+		fixing Fix Hand Hatchet
+	{
+	   Require : HandHatchet,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	
+	    fixing Fix Cheap Survival Knife
+    {
+       Require : CheapSurvivalKnife,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	
+	    fixing Fix Survival Knife
+    {
+       Require : SurvivalKnife,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	
+	    fixing Fix Rancher Machete
+    {
+       Require : RancherMachete,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	
+	    fixing Fix Kukri Machete
+    {
+       Require : KukriMachete,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	
+		fixing Fix Splitting Axe
+	{
+	   Require : SplittingAxe,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	
+		fixing Fix Spear With Cheap Survival Knife
+    {
+       Require : SpearCheapSurvivalKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }
+		
+		fixing Fix Spear With Survival Knife
+    {
+       Require : SpearSurvivalKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+    }
+}

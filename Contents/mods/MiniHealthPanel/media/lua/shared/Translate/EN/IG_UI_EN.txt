@@ -1,0 +1,3 @@
+IGUI_EN = {
+	IGUI_MiniHealth_UpdateNotes = "<CENTRE> <SIZE:medium> Mini Health Panel hotfix <LINE> <LINE> <LEFT> <SIZE:small> - Fixed blue body parts caused by Excrementum addon."
+}

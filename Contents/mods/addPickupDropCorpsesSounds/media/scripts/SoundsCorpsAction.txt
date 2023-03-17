@@ -1,0 +1,83 @@
+module Base
+{
+	sound corpsTake1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsTake1.ogg,
+		}
+	}
+	sound corpsTake2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsTake2.ogg,
+		}
+	}
+	sound corpsTake3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsTake3.ogg,
+		}
+	}
+	sound corpsTake4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsTake4.ogg,
+		}
+	}
+	sound corpsTake5
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsTake5.ogg,
+		}
+	}
+	sound corpsPut1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsPut1.ogg,
+		}
+	}
+	sound corpsPut2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsPut2.ogg,
+		}
+	}
+	sound corpsPut3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsPut3.ogg,
+		}
+	}
+	sound corpsPut4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsPut4.ogg,
+		}
+	}
+	sound corpsPut5
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/corpsPut5.ogg,
+		}
+	}
+}

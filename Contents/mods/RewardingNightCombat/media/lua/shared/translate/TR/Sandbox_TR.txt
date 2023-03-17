@@ -1,0 +1,107 @@
+Sandbox_TR = {
+    Sandbox_RewardingNightCombat = "Ödüllendirici Gece Mücadelesi",
+
+    Sandbox_RewardingNightCombat_enableIndicator = "Belirteç Ikonunu Aç",
+    Sandbox_RewardingNightCombat_enableIndicator_tooltip = "Ekranýn sað üst koþesinde bonuslarýn aktif olup olmadýðýný gösterecek belirteç ikonu",
+
+    Sandbox_RewardingNightCombat_draggableIndicator = "Sürüklenebilir Belirteç",
+
+    Sandbox_RewardingNightCombat_indicatorColor = "Belirteç Rengi",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option1 = "Orjinal",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option2 = "Parlak Turuncu",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option3 = "Kýzýl",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option4 = "Camgöbeði",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option5 = "Toksik Yeþil",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option6 = "Koyu Camgöbeði - Limon Yeþili",
+
+    Sandbox_RewardingNightCombat_enableTriggerSound = "Baþlangýç Sesi",
+    Sandbox_RewardingNightCombat_enableTriggerSound_tooltip = "Ödüllü Gece Mücadelesi baþladýðýnda çalan gergin ses.",
+
+    Sandbox_RewardingNightCombat_triggerProbability = "Baþlangýç Olasýlýðý %",
+    Sandbox_RewardingNightCombat_triggerProbability_tooltip = "Ödüllü Gece Mücadelesinýn baþlangýç olasýlýðý. 100 deðeri her gün etkinliðin olacaðýný ifade eder.",
+
+    Sandbox_RewardingNightCombat_startAfterXDays = "X gün sonra baþla",
+    Sandbox_RewardingNightCombat_startAfterXDays_tooltip = "Etkinliðin baþlayacaðý gün.",
+
+    Sandbox_RewardingNightCombat_startTimeSummer = "Yaz - Baþlangýç",
+    Sandbox_RewardingNightCombat_startTimeSummer_tooltip = "Oyuncularýn yaz sezonunda bonus deneyimleri almaya baslayacagi vakit",
+    Sandbox_RewardingNightCombat_endTimeSummer   = "Yaz - Bitiþ",
+    Sandbox_RewardingNightCombat_endTimeSummer_tooltip   = "Oyuncularýn yaz sezonunda bonus deneyimleri almayý býrakacaðý vakit",
+
+    Sandbox_RewardingNightCombat_startTimeAutumn = "Sonbahar - Baþlangýç",
+    Sandbox_RewardingNightCombat_startTimeAutumn_tooltip = "Oyuncularýn sonbahar sezonunda bonus deneyimleri almaya baslayacagi vakit",
+    Sandbox_RewardingNightCombat_endTimeAutumn   = "Sonbahar - Bitiþ",
+    Sandbox_RewardingNightCombat_endTimeAutumn_tooltip   = "Oyuncularýn sonbahar sezonunda bonus deneyimleri almayý býrakacaðý vakit",
+
+    Sandbox_RewardingNightCombat_startTimeWinter = "Kýþ - Baþlangýç",
+    Sandbox_RewardingNightCombat_startTimeWinter_tooltip = "Oyuncularýn kýþ sezonunda bonus deneyimleri almaya baslayacagi vakit",
+    Sandbox_RewardingNightCombat_endTimeWinter   = "Kýþ - Bitiþ",
+    Sandbox_RewardingNightCombat_endTimeWinter_tooltip   = "Oyuncularýn kýþ sezonunda bonus deneyimleri almayý býrakacaðý vakit",
+
+    Sandbox_RewardingNightCombat_startTimeSpring = "Bahar - Baþlangýç",
+    Sandbox_RewardingNightCombat_startTimeSpring_tooltip = "Oyuncularýn bahar sezonunda bonus deneyimleri almaya baslayacagi vakit",
+    Sandbox_RewardingNightCombat_endTimeSpring   = "Bahar - Bitiþ",
+    Sandbox_RewardingNightCombat_endTimeSpring_tooltip   = "Oyuncularýn bahar sezonunda bonus deneyimleri almayý býrakacaðý vakit",
+
+    Sandbox_RewardingNightCombat_timeLevels_option1 = "12 AM / 00:00",
+    Sandbox_RewardingNightCombat_timeLevels_option2 = "1 AM / 01:00",
+    Sandbox_RewardingNightCombat_timeLevels_option3 = "2 AM / 02:00",
+    Sandbox_RewardingNightCombat_timeLevels_option4 = "3 AM / 03:00",
+    Sandbox_RewardingNightCombat_timeLevels_option5 = "4 AM / 04:00",
+    Sandbox_RewardingNightCombat_timeLevels_option6 = "5 AM / 05:00",
+    Sandbox_RewardingNightCombat_timeLevels_option7 = "6 AM / 06:00",
+    Sandbox_RewardingNightCombat_timeLevels_option8 = "7 AM / 07:00",
+    Sandbox_RewardingNightCombat_timeLevels_option9 = "8 AM / 08:00",
+    Sandbox_RewardingNightCombat_timeLevels_option10 = "9 AM / 09:00",
+    Sandbox_RewardingNightCombat_timeLevels_option11 = "10 AM / 10:00",
+    Sandbox_RewardingNightCombat_timeLevels_option12 = "11 AM / 11:00",
+    Sandbox_RewardingNightCombat_timeLevels_option13 = "12 PM / 12:00",
+    Sandbox_RewardingNightCombat_timeLevels_option14 = "1 PM / 13:00",
+    Sandbox_RewardingNightCombat_timeLevels_option15 = "2 PM / 14:00",
+    Sandbox_RewardingNightCombat_timeLevels_option16 = "3 PM / 15:00",
+    Sandbox_RewardingNightCombat_timeLevels_option17 = "4 PM / 16:00",
+    Sandbox_RewardingNightCombat_timeLevels_option18 = "5 PM / 17:00",
+    Sandbox_RewardingNightCombat_timeLevels_option19 = "6 PM / 18:00",
+    Sandbox_RewardingNightCombat_timeLevels_option20 = "7 PM / 19:00",
+    Sandbox_RewardingNightCombat_timeLevels_option21 = "8 PM / 20:00",
+    Sandbox_RewardingNightCombat_timeLevels_option22 = "9 PM / 21:00",
+    Sandbox_RewardingNightCombat_timeLevels_option23 = "10 PM / 22:00",
+    Sandbox_RewardingNightCombat_timeLevels_option24 = "11 PM / 23:00",
+
+    Sandbox_RewardingNightCombat_axeMultiplier = "Balta Çarpaný",
+    Sandbox_RewardingNightCombat_axeMultiplier_tooltip = "Gece vaktinde baltalar için bonus deneyim çarpaný. Vanilya seçeneðý bonus olmayacaðý anlamýna gelmekle birlikte, örnek olarak 1.5x seçeneðý 50% bonus verileceðini ifade eder.",
+
+    Sandbox_RewardingNightCombat_longBluntMultiplier = "Uzun Ezici Çarpaný",
+    Sandbox_RewardingNightCombat_longBluntMultiplier_tooltip = "Gece vaktinde uzun eziciler için bonus deneyim çarpaný. Vanilya seçeneðý bonus olmayacaðý anlamýna gelmekle birlikte, örnek olarak 1.5x seçeneðý 50% bonus verileceðini ifade eder.",
+
+    Sandbox_RewardingNightCombat_shortBluntMultiplier = "Kýsa Ezici Çarpaný",
+    Sandbox_RewardingNightCombat_shortBluntMultiplier_tooltip = "Gece vaktinde kýsa eziciler için bonus deneyim çarpaný. Vanilya seçeneðý bonus olmayacaðý anlamýna gelmekle birlikte, örnek olarak 1.5x seçeneðý 50% bonus verileceðini ifade eder.",
+
+    Sandbox_RewardingNightCombat_longBladeMultiplier = "Uzun Býçak Çarpaný",
+    Sandbox_RewardingNightCombat_longBladeMultiplier_tooltip = "Gece vaktinde uzun býçaklar için bonus deneyim çarpaný. Vanilya seçeneðý bonus olmayacaðý anlamýna gelmekle birlikte, örnek olarak 1.5x seçeneðý 50% bonus verileceðini ifade eder.",
+
+    Sandbox_RewardingNightCombat_shortBladeMultiplier = "Kýsa Býçak Çarpaný",
+    Sandbox_RewardingNightCombat_shortBladeMultiplier_tooltip = "Gece vaktinde kýsa býçaklar için bonus deneyim çarpaný. Vanilya seçeneðý bonus olmayacaðý anlamýna gelmekle birlikte, örnek olarak 1.5x seçeneðý 50% bonus verileceðini ifade eder.",
+
+    Sandbox_RewardingNightCombat_spearMultiplier = "Mýzrak Çarpaný",
+    Sandbox_RewardingNightCombat_spearMultiplier_tooltip = "Gece vaktinde mýzraklar için bonus deneyim çarpaný. Vanilya seçeneðý bonus olmayacaðý anlamýna gelmekle birlikte, örnek olarak 1.5x seçeneðý 50% bonus verileceðini ifade eder."
+
+    Sandbox_RewardingNightCombat_ignoreAimingXPNerf = "Niþan Alma Zayýflatmasýný Dikkate Alma",
+    Sandbox_RewardingNightCombat_ignoreAimingXPNerf_tooltip = "Niþan alma seviyesi 4 veya üzeri olduðunda oyun deneyim kazanýmýný zayýflatýr; bu seçenek doðruysa bonus deneyimler bu zayýflatmadan etkilenmeyecektir.",
+    Sandbox_RewardingNightCombat_aimingMultiplier = "Niþan Alma Çarpaný",
+    Sandbox_RewardingNightCombat_aimingMultiplier_tooltip = "Gece vaktinde ateþli silahlar için bonus deneyim çarpaný. Vanilya seçeneði bonus olmayacaðý anlamýna gelmekle birlikte, örnek olarak 1.5x seçeneði 50% bonus verileceðini ifade eder.",
+
+    Sandbox_RewardingNightCombat_multiplierLevels_option1 = "Vanilya (bonus yok)",
+    Sandbox_RewardingNightCombat_multiplierLevels_option2 = "1.1x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option3 = "1.15x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option4 = "1.25x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option5 = "1.5x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option6 = "1.75x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option7 = "2x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option8 = "2.5x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option9 = "3x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option10 = "4x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option11 = "5x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option12 = "7.5x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option13 = "10x",
+}

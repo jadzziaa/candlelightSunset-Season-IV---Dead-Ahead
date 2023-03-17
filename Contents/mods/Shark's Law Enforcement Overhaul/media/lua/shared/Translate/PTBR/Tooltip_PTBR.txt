@@ -1,0 +1,9 @@
+Tooltip_PTBR = {
+
+	Tooltip_Shelved = "Reservado para uma atualização futura",
+	Tooltip_PoliceM17 = "Máscara de gás militar adaptada para uso policial",
+    Tooltip_RiotHelmet = "Capacete da Tropa de Choque. Ineficaz contra armas de fogo",
+    Tooltip_PoliceTacticalVest = "Proteção balística adaptada para uso policial",
+    Tooltip_PoliceDutyBelt = "Um cinto com bolsos suficientes para transportar todo o equipamento policial necessário",
+	
+}

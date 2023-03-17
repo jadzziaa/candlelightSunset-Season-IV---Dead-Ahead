@@ -1,0 +1,262 @@
+IG_UI_EN = { 
+
+	IGUI_Hair_F_DutchBraids = "Tresses Hollandaises",
+	IGUI_Hair_F_DutchBraids_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_DutchBraids_G2 = "zDoNotPickMe",
+	IGUI_Hair_F_DutchBraids_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_DutchBraids = "Tresses Hollandaises",
+	IGUI_Hair_M_DutchBraids_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_DutchBraids_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_DutchBraids_G4 = "zDoNotPickMe",
+	
+    IGUI_Hair_F_CroftHair = "Croft",
+    IGUI_Hair_F_Jessica = "Jessica",
+    IGUI_Hair_F_SideBraid = "Katniss",
+    IGUI_Hair_F_DoubleBraids = "Mercredi",
+    IGUI_Hair_F_HairBun = "Chignon soigné",
+	
+	IGUI_Hair_F_HairBunBangs = "Chignon a frange",
+	IGUI_Hair_F_HairBunBangs_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_HairBunBangs_G2 = "zDoNotPickMe",
+	IGUI_Hair_F_HairBunBangs_G4 = "zDoNotPickMe",
+
+	IGUI_Hair_F_VeryLongParted = "Tres long raie au millieu",
+	IGUI_Hair_F_VeryLongParted_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_VeryLongParted_G2 = "zDoNotPickMe",
+	IGUI_Hair_F_VeryLongParted_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_VeryLongParted = "Tres long raie au millieu",
+	IGUI_Hair_M_VeryLongParted_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_VeryLongParted_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_VeryLongParted_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_F_HairBunNoFringe = "Chignon sans frange",
+    IGUI_Hair_F_ClippedHair = "Veronica",
+    IGUI_Hair_F_Rochefort = "Rochefort",
+
+    IGUI_Hair_F_AfroBun = "Chignon afro",
+    IGUI_Hair_M_AfroBun = "Chignon afro",	
+    IGUI_Hair_F_Afro = "Afro",
+    IGUI_Hair_M_Afro = "Afro",
+    IGUI_Hair_Afro_G1 = "zDoNotPickMe",	
+    IGUI_Hair_AfroBuns_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_Afro_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_Afro_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_Afro_G4 = "zDoNotPickMe",
+    IGUI_Hair_M_AfroBun_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_AfroBun_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_AfroBun_G4 = "zDoNotPickMe",	
+	
+
+	IGUI_Hair_F_BraidedPonytail = "Queue de cheval tressée",
+	
+    IGUI_Hair_F_CheerLeader = "CheerLeader",
+    IGUI_Hair_F_Cheerleader_G1 = "zDoNotPickMe",
+    IGUI_Hair_F_Cheerleader_G2 = "zDoNotPickMe",
+    IGUI_Hair_F_CheerLeader_G4 = "zDoNotPickMe",
+
+    IGUI_Hair_M_CheerLeader = "CheerLeader",
+    IGUI_Hair_M_CheerLeader_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_CheerLeader_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_F_Classy = "Classe",
+	IGUI_Hair_F_Classy_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_Classy_G2 = "zDoNotPickMe",
+	IGUI_Hair_F_Classy_G4 = "zDoNotPickMe",	
+	
+    IGUI_Hair_M_Classy = "Classe",
+    IGUI_Hair_M_Classy_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_Classy_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_Classy_G4 = "zDoNotPickMe",		
+
+    IGUI_Hair_M_Dreadlocks = "Dreadlocks",
+	
+    IGUI_Hair_F_LowPonytail = "Queue de cheval basse",
+    IGUI_Hair_F_TiedHalfDown = "Moitié attaché",
+    IGUI_Hair_F_Dreadlocks = "Dreadlocks",
+	
+	IGUI_Hair_F_HalfUpShaved = "Chignon rasé",
+	IGUI_Hair_F_HalfUpShaved_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_HalfUpShaved_G2 = "zDoNotPickMe",
+	IGUI_Hair_F_HalfUpShaved_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_F_Undercut = "Undercut",
+	IGUI_Hair_F_UndercutCurly = "Curly Undercut",
+	
+	IGUI_Hair_F_Pigtails = "Couettes",
+	IGUI_Hair_F_Pigtails_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_Pigtails_G2 = "zDoNotPickMe",
+	IGUI_Hair_F_Pigtails_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_F_Sherry = "Sherry",
+	IGUI_Hair_F_Sherry_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_Sherry_G2 = "zDoNotPickMe",
+	IGUI_Hair_F_Sherry_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_F_Yaki = "Yaki",
+	IGUI_Hair_F_Yaki_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_Yaki_G2 = "zDoNotPickMe",
+	IGUI_Hair_F_Yaki_G4 = "zDoNotPickMe",	
+	
+	IGUI_Hair_F_YakiCurly = "Yaki Ondulé",
+	IGUI_Hair_F_YakiCurly_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_YakiCurly_G2 = "zDoNotPickMe",
+	IGUI_Hair_F_YakiCurly_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_F_YakiBehindEars = "Yaki derriere les oreilles",
+	IGUI_Hair_M_YakiBehindEars_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_YakiBehindEars_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_YakiBehindEars_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_F_YakiParted = "Yaki raie au millieu",
+	
+	IGUI_Hair_F_LowPonytailNoFringe = "Queue de cheval basse a frange",
+	IGUI_Hair_F_LowPonytailNoFringe_G1 = "zDoNotPickMe",
+	IGUI_Hair_F_LowPonytailNoFringe_G2 = "zDoNotPickMe",
+	
+	IGUI_Hair_F_LowPonytailBangs = "Queue de cheval sans frange",
+
+    IGUI_Hair_M_TiedHalfDown = "Moitié attaché",
+    IGUI_Hair_M_TiedHalfDown_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_TiedHalfDown_G4 = "zDoNotPickMe",
+	
+    IGUI_Hair_M_SideBraid = "Katniss",
+    IGUI_Hair_M_CroftHair = "Croft",
+	
+    IGUI_Hair_M_HalfUpShaved = "Chignon rasé",
+    IGUI_Hair_M_HalfUpShaved_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_HalfUpShaved_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_HalfUpShaved_G4 = "zDoNotPickMe",	
+	
+    IGUI_Hair_M_Jessica = "Jessica",
+    IGUI_Hair_M_Jessica_G2  = "zDoNotPickMe",
+    IGUI_Hair_M_Jessica_G4  = "zDoNotPickMe",
+	
+	IGUI_Hair_M_Rochefort = "Rochefort",
+	IGUI_Hair_M_LowPonytail = "Low Ponytail",
+	
+	IGUI_Hair_M_DoubleBraids = "Mercredi",
+	IGUI_Hair_M_DoubleBraids_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_DoubleBraids_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_DoubleBraids_G4 = "zDoNotPickMe",	
+	
+	IGUI_Hair_M_HairBun = "Chignon soigné",
+	IGUI_Hair_M_HairBun_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_HairBun_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_HairBun_G4 = "zDoNotPickMe",	
+	
+	IGUI_Hair_M_HairBunBangs = "Chignon a frange",
+	IGUI_Hair_M_HairBunBangs_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_HairBunBangs_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_HairBunBangs_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_HairBunNoFringe = "Chignon sans frange",
+	IGUI_Hair_M_HairBunNoFringe_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_HairBunNoFringe_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_HairBunNoFringe_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_ClippedHair = "Veronica",
+	IGUI_Hair_M_ClippedHair_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_ClippedHair_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_ClippedHair_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_Undercut = "Undercut",
+	IGUI_Hair_M_Undercut_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_Undercut_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_Undercut_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_UndercutCurly = "Undercut bouclé",
+	IGUI_Hair_M_UndercutCurly_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_UndercutCurly_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_UndercutCurly_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_VeryLongParted = "zDoNotPickMe",
+	IGUI_Hair_M_VeryLongParted_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_VeryLongParted_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_VeryLongParted_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_Pigtails = "Couettes",
+	IGUI_Hair_M_Pigtails_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_Pigtails_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_Pigtails_G4 = "zDoNotPickMe",
+	
+	
+	IGUI_Hair_M_Sherry = "Sherry",
+	IGUI_Hair_M_Sherry_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_Sherry_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_Sherry_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_Yaki = "Yaki",
+	IGUI_Hair_M_Yaki_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_Yaki_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_Yaki_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_YakiCurly = "Yaki Ondulé",
+	IGUI_Hair_M_YakiCurly_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_YakiCurly_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_YakiCurly_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_YakiBehindEars = "Yaki derriere les oreilles",
+	
+	IGUI_Hair_M_YakiParted = "Yaki raie au millieu",
+	IGUI_Hair_M_YakiParted_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_YakiParted_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_YakiParted_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_BraidedPonytail = "Queue de cheval tressée",
+	IGUI_Hair_M_BraidedPonytail_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_BraidedPonytail_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_BraidedPonytail_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_LowPonytailNoFringe = "Queue de cheval basse sans frange",
+	IGUI_Hair_M_LowPonytailNoFringe_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_LowPonytailNoFringe_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_LowPonytailNoFringe_G4 = "zDoNotPickMe",
+	
+	IGUI_Hair_M_LowPonytailBangs = "Queue de cheval basse a frange",
+	IGUI_Hair_M_LowPonytailBangs_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_LowPonytailBangs_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_LowPonytailBangs_G4 = "zDoNotPickMe",
+
+    IGUI_Hair_M_TiedHalfDown_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_Dreadlocks_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_Dreadlocks_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_Dreadlocks_G4 = "zDoNotPickMe",
+    IGUI_Hair_M_SideBraid_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_CroftHair_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_CroftHair_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_CroftHair_G4 = "zDoNotPickMe",
+    IGUI_Hair_M_SideBraid_G1 = "zDoNotPickMe",
+    IGUI_Hair_Classy_G1 = "zDoNotPickMe",
+	IGUI_Hair_HalfUpShaved_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_Jessica_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_CheerLeader_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_Rochefort_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_Rochefort_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_Rochefort_G4 = "zDoNotPickMe",
+	IGUI_Hair_M_LowPonytail_G1 = "zDoNotPickMe",
+	IGUI_Hair_M_LowPonytail_G2 = "zDoNotPickMe",
+	IGUI_Hair_M_LowPonytail_G4 = "zDoNotPickMe",
+
+    IGUI_Hair_CroftHair_G1 = "zDoNotPickMe",
+    IGUI_Hair_F_TiedHalfDown_G1 = "zDoNotPickMe",
+    IGUI_Hair_F_Dreadlocks_G1 = "zDoNotPickMe",
+    IGUI_Hair_Jessica_G1 = "zDoNotPickMe",
+    IGUI_Hair_SideBraid_G1 = "zDoNotPickMe",
+    IGUI_Hair_DoubleBraid_G1 = "zDoNotPickMe",
+    IGUI_Hair_HairBun_G1 = "zDoNotPickMe",
+    IGUI_Hair_ClippedHair_G1 = "zDoNotPickMe",
+    IGUI_Hair_Rochefort_G1 = "zDoNotPickMe",
+    IGUI_Hair_CheerLeader_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_SideBraid = "zDoNotPickMe",
+    IGUI_Hair_M_SideBraid_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_SideBraid_G4 = "zDoNotPickMe",
+    IGUI_Hair_M_Dreadlocks = "zDoNotPickMe",
+
+    IGUI_Hair_LowPonytail_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_SidePonytail_G1 = "zDoNotPickMe",
+    IGUI_Hair_M_SidePonytail_G2 = "zDoNotPickMe",
+    IGUI_Hair_M_SidePonytail_G4 = "zDoNotPickMe",
+    
+}

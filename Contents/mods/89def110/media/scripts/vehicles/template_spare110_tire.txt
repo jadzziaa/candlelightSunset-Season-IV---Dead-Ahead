@@ -1,0 +1,25 @@
+module Base
+{
+	template vehicle Defender110SpareTire
+	{
+		part def110Spare
+		{
+			category = bodywork,
+			area = TruckBed,
+			itemType = Base.def110SpareCompartment,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				test = Vehicles.ContainerAccess.TruckBed,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+	}
+
+}
+

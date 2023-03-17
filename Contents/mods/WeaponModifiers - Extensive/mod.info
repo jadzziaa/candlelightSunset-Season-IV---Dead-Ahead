@@ -1,0 +1,5 @@
+name=Weapon Modifiers - Extensive Modifier List
+id=WeaponModifiersExtensive
+poster=poster.png
+description=Lots of modifiers with "terraria-like" names and different levels (such as Dexterous I, Murderous II, Hurtful III, Lucky IV... ). <br> 7 possible rarities (legendary - 1%, insane - 2%, epic - 4%, great - 8%, good - 16%, common - 40%, bad - 25%, shitty - 4%).<br>Many stats affected. Both Melee and Ranged weapons can get modifiers. DO NOT ENABLE THE REALISTIC MODIFIER LIST AND EXTENSIVE MODIFIER LIST AT THE SAME TIME.
+require=WeaponModifiersFramework

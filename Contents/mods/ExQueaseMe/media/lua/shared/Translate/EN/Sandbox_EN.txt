@@ -1,0 +1,8 @@
+Sandbox_EN = {
+    Sandbox_ExQueaseMe = "ExQuease Me",
+    Sandbox_ExQueaseMe_ReduceQuease = "Reduce Queasiness",
+    Sandbox_ExQueaseMe_ReduceQuease_tooltip = "The amount of sickness removed every 10 minutes when away from bodies with a gas mask equipped.<LINE>This is in addition to the 1 the game already does. Set to 0 to disable.",
+
+    Sandbox_ExQueaseMe_ReduceQueaseGain = "Reduce Queasiness Gain",
+    Sandbox_ExQueaseMe_ReduceQueaseGain_tooltip = "The amount of sickness to remove every 10 minutes when around bodies with a gas mask equipped.<LINE>On average you will gain 0.7 sickness every 10 minutes. Set to 0 to disable.",
+}

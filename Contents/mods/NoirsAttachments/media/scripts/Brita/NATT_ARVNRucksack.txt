@@ -1,0 +1,904 @@
+module Base {
+
+	model FemaleBody
+	{
+		
+		attachment ARVNRucksack_right
+		{
+			offset = 0.0300 -0.1550 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_wineright
+		{
+			offset = 0.0300 -0.1550 -0.0200,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_left
+		{
+			offset = 0.0300 0.1550 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_wineleft
+		{
+			offset = 0.0300 0.1550 -0.0200,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_bedroll {
+			offset = -0.0300 0.0000 0.2800,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_uldoll {
+			offset = 0.1350 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_uldogchew {
+			offset = 0.1350 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulcattoy {
+			offset = 0.1350 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulballon {
+			offset = 0.1050 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulrubberducky {
+			offset = 0.1250 0.0750 -0.0700,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ultoybear {
+			offset = 0.1750 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_uldawn {
+			offset = 0.1750 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ultoycar {
+			offset = 0.1250 0.0750 -0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulyoyo {
+			offset = 0.1350 0.0950 -0.1150,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulcube {
+			offset = 0.2050 0.0750 -0.0550,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulmask {
+			offset = 0.1250 0.0750 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulmaskground {
+			offset = 0.1250 0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulplushie {
+			offset = 0.1350 0.0950 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulpawsplushie {
+			offset = 0.1450 0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulweapon {
+			offset = 0.1500 0.0850 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulweaponpan {
+			offset = 0.1500 0.0850 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulweaponsaucepan {
+			offset = 0.1500 0.0850 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulsnightstick{
+			offset = 0.1500 0.0350 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulwrench {
+			offset = 0.1500 0.0850 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulbottle {
+			offset = 0.1600 0.0850 -0.0700,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulwine {
+			offset = 0.1600 0.0850 -0.0200,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urdoll {
+			offset = 0.1350 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urdogchew {
+			offset = 0.1350 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urcattoy {
+			offset = 0.1350 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urballon {
+			offset = 0.1050 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urrubberducky {
+			offset = 0.1250 -0.0750 -0.0700,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urtoybear {
+			offset = 0.1750 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urdawn {
+			offset = 0.1750 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urtoycar {
+			offset = 0.1250 -0.0750 -0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_uryoyo {
+			offset = 0.1350 -0.0650 -0.1150,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urcube {
+			offset = 0.2050 -0.0750 -0.0550,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urmask {
+			offset = 0.1250 -0.0750 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urmaskground {
+			offset = 0.1250 -0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urplushie {
+			offset = 0.1350 -0.0950 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urpawsplushie {
+			offset = 0.1450 -0.1050 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urweapon {
+			offset = 0.1500 -0.0850 0.0700,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urweaponpan {
+			offset = 0.1500 -0.0850 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urweaponsaucepan {
+			offset = 0.1500 -0.0850 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ursnightstick{
+			offset = 0.1500 -0.0550 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urwrench {
+			offset = 0.1500 -0.0850 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urbottle {
+			offset = 0.1600 -0.0850 -0.0700,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urwine {
+			offset = 0.1600 -0.0850 -0.0200,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weapon {
+			offset = 0.1500 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_rifle {
+			offset = 0.1500 0.0200 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weaponbig {
+			offset = 0.1500 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weaponshovel {
+			offset = 0.1500 0.0000 0.1500,
+			rotate = 90.0000 90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weaponpan {
+			offset = 0.1500 0.0000 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weaponsaucepan {
+			offset = 0.1500 0.0000 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_snightstick {
+			offset = 0.1500 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_wrench {
+			offset = 0.1500 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_flashlight {
+			offset = -0.0050 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment ARVNRucksack_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ARVNRucksack_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ARVNRucksack_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ARVNRucksack_container {
+			offset = 0.0800 0.0000 -0.2000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containerseed {
+			offset = 0.0800 0.0000 -0.1800,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containertool {
+			offset = 0.0700 0.0000 -0.2300,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containercooler {
+			offset = 0.0700 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containertote {
+			offset = 0.0800 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containertrash {
+			offset = 0.1500 0.0000 -0.2500,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersack {
+			offset = 0.1100 0.0000 -0.2200,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containermk {
+			offset = 0.0600 0.0000 -0.1600,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersl {
+			offset = 0.0600 0.1400 -0.2100,
+			rotate = -90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersr {
+			offset = 0.0600 -0.1300 -0.2100,
+			rotate = -90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containerseedsl {
+			offset = 0.0600 0.1400 -0.2100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containerseedsr {
+			offset = 0.0600 -0.1300 -0.2100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersacksl {
+			offset = 0.0700 0.1600 -0.2200,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersacksr {
+			offset = 0.0700 -0.0800 -0.2200,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+	}
+
+
+	model MaleBody
+	{
+		
+		attachment ARVNRucksack_right
+		{
+			offset = 0.0300 -0.1550 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_wineright
+		{
+			offset = 0.0300 -0.1550 -0.0200,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_left
+		{
+			offset = 0.0300 0.1550 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_wineleft
+		{
+			offset = 0.0300 0.1550 -0.0200,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_bedroll {
+			offset = -0.0200 0.0000 0.2800,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_uldoll {
+			offset = 0.1450 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_uldogchew {
+			offset = 0.1450 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulcattoy {
+			offset = 0.1450 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulballon {
+			offset = 0.1150 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulrubberducky {
+			offset = 0.1350 0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ultoybear {
+			offset = 0.1950 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_uldawn {
+			offset = 0.1950 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ultoycar {
+			offset = 0.1450 0.0750 -0.0750,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulyoyo {
+			offset = 0.1550 0.0950 -0.1050,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulcube {
+			offset = 0.1950 0.0750 -0.0750,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulmask {
+			offset = 0.1400 0.0750 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulmaskground {
+			offset = 0.1400 0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulplushie {
+			offset = 0.1450 0.1050 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulpawsplushie {
+			offset = 0.1450 0.0950 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulweapon {
+			offset = 0.1600 0.0850 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulweaponpan {
+			offset = 0.1600 0.0850 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulweaponsaucepan {
+			offset = 0.1600 0.0850 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulsnightstick {
+			offset = 0.1600 0.0550 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulwrench {
+			offset = 0.1600 0.0850 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulbottle {
+			offset = 0.1600 0.0850 -0.0700,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ulwine {
+			offset = 0.1600 0.0850 -0.0200,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urdoll {
+			offset = 0.1450 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urdogchew {
+			offset = 0.1450 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urcattoy {
+			offset = 0.1450 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urballon {
+			offset = 0.1150 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urrubberducky {
+			offset = 0.1350 -0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urtoybear {
+			offset = 0.1950 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urdawn {
+			offset = 0.1950 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urtoycar {
+			offset = 0.1450 -0.0750 -0.0750,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_uryoyo {
+			offset = 0.1550 -0.0650 -0.1050,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urcube {
+			offset = 0.1950 -0.0750 -0.0750,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urmask {
+			offset = 0.1400 -0.0750 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urmaskground {
+			offset = 0.1400 -0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urplushie {
+			offset = 0.1450 -0.1050 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urpawsplushie {
+			offset = 0.1450 -0.0950 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urweapon {
+			offset = 0.1600 -0.0850 0.0700,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urweaponpan {
+			offset = 0.1600 -0.0850 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urweaponsaucepan {
+			offset = 0.1600 -0.0850 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_ursnightstick {
+			offset = 0.1600 -0.0550 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urwrench {
+			offset = 0.1600 -0.0850 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urbottle {
+			offset = 0.1600 -0.0850 -0.0700,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_urwine {
+			offset = 0.1600 -0.0850 -0.0200,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weapon {
+			offset = 0.1500 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_rifle {
+			offset = 0.1500 0.0200 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weaponbig {
+			offset = 0.1500 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weaponshovel {
+			offset = 0.1500 0.0000 0.1500,
+			rotate = 90.0000 90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weaponpan {
+			offset = 0.1500 0.0000 -0.0200,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_weaponsaucepan {
+			offset = 0.1500 0.0000 -0.0200,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_snightstick {
+			offset = 0.1500 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_wrench {
+			offset = 0.1500 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_flashlight {
+			offset = -0.0050 0.0700 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment ARVNRucksack_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ARVNRucksack_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ARVNRucksack_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment ARVNRucksack_container {
+			offset = 0.0800 0.0000 -0.2000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containerseed {
+			offset = 0.0800 0.0000 -0.1800,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containertool {
+			offset = 0.0700 0.0000 -0.2300,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containercooler {
+			offset = 0.0700 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containertote {
+			offset = 0.0800 0.0000 -0.3000,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containertrash {
+			offset = 0.1500 0.0000 -0.2500,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersack {
+			offset = 0.1100 0.0000 -0.2200,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containermk {
+			offset = 0.0600 0.0000 -0.1600,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersl {
+			offset = 0.0600 0.1400 -0.2100,
+			rotate = -90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersr {
+			offset = 0.0600 -0.1300 -0.2100,
+			rotate = -90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containerseedsl {
+			offset = 0.0600 0.1400 -0.2100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containerseedsr {
+			offset = 0.0600 -0.1300 -0.2100,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersacksl {
+			offset = 0.0700 0.1600 -0.2200,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment ARVNRucksack_containersacksr {
+			offset = 0.0700 -0.0800 -0.2200,
+			rotate = -90.0000 -70.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}		
+
+	}
+
+}

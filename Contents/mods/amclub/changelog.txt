@@ -1,0 +1,54 @@
+v.1.02
+2023-01-29
+
+Добавлен прицеп для перевозки мотоциклов.
+Добавлен спавн мотозапчастей в контейнерах.
+На BWM Classic установлено правильное сиденье.
+На BWM Classic больше нельзя повесить сумки, если нет сидения, аналогичным образом нельзя снять сиденья, пока висят сумки.
+Отключен источник бесконечных колес и подвесок.
+Добавлена возможность замены заднего фонаря.
+Исправлено неадекватное поведение персонажа при ремонте квадрацикла.
+Возможно исправлено: при слезания с BWM у вас был шанс умереть.
+Не исправлено: Анимация посадки на BMW в мультиплеере. Это связано с багом в игре. Я попросил разработчиков исправить этот баг, ждем их ответа.
+
+Added trailer to transport motorbikes.
+Added motorbike parts spawn in containers.
+The BWM Classic is fitted with the correct seat.
+It is no longer possible to hang bags on the BWM Classic if there is no seat, similarly it is not possible to remove the seats while the bags are hanging.
+Disabled source of endless wheels and suspensions.
+Added the ability to replace the taillight.
+Fixed inadequate character behaviour when repairing a quad bike.
+Possible fix: when getting off the BWM, you had a chance to die.
+Not fixed: BMW entry animation in multiplayer. This is due to a bug in the game. I have asked the developers to fix this bug, so we'll just have to wait for their response.
+
+-------------------
+
+v.1.01
+2022-03-20
+
+Исправлена ошибка из-за который нельзя было загрузить на прицеп гидроцикл с земли.
+Исправлена ошибка, из-за которой гидроциклы продолжали спавниться, хотя мод Aquatsar был отключен.
+Уменьшена мощность мотоциклов и квадроцикла.
+Возвращены потерянные тормоза для квадроцикла.
+Добавлена совместимость с модом "Fuel Side Indicator".
+Увеличен шанс спавна мотоциклов.
+Исправлены ошибки, связанные с колесами мотоциклов.
+Добавлены рецепты для ремонта уникальных запчастей мототехники.
+
+Fixed a bug that made it impossible to load a jet ski on the trailer from the ground.
+Fixed a bug that caused the jet skis continue to spawn even though the Aquatsar mod was disabled.
+Reduced power motorcycles and ATV.
+Returned the lost brakes for the ATV.
+Added compatibility with "Fuel Side Indicator" mod.
+Increased motorcycles spawn chance.
+Fixed bugs related to motorcycle wheels.
+Added recipes for repairing unique motorcycle parts.
+
+-------------------
+
+v.1.0
+2022-03-13
+
+Релиз
+
+Release

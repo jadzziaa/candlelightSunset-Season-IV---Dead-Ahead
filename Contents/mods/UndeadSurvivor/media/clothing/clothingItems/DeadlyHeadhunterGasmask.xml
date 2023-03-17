@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_headhuntergasmask</m_MaleModel>
+	<m_FemaleModel>skinned\f_headhuntergasmask</m_FemaleModel>
+	<m_GUID>095cd89b-5862-4db2-933d-05c79ed712e3</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_HatCategory>nobeard</m_HatCategory>
+	<textureChoices>clothes\deadlyheadhuntergasmask</textureChoices>
+</clothingItem>

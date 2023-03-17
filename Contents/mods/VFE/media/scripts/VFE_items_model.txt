@@ -1,0 +1,289 @@
+   module Base
+{
+
+    imports    
+    {
+		Base
+	}
+   
+	
+			 model Bullets9mm
+    {
+        mesh = weapons/ammo/9-45Ammo,
+		texture = weapons/ammo/38-9Ammo,
+		scale = 0.33,
+    }
+	
+	    model Bullets22lr
+    {
+        mesh = weapons/ammo/38-44Ammo,
+		texture = weapons/ammo/22Ammo,
+		scale = 0.35,
+    }
+	
+		 model Bullets45
+    {
+        mesh = weapons/ammo/9-45Ammo,
+		texture = weapons/ammo/45Ammo,
+		scale = 0.35,
+    }
+	
+		 model Bullets44
+    {
+        mesh = weapons/ammo/38-44Ammo,
+		texture = weapons/ammo/44Ammo,
+		scale = 0.55,
+		
+    }
+	
+		 model Bullets38
+    {
+        mesh = weapons/ammo/38-44Ammo,
+		texture = weapons/ammo/45Ammo,
+		scale = 0.48,
+		
+    }
+	
+		 model ShotgunShells
+    {
+        mesh = weapons/ammo/ShotgunShells,
+		texture = weapons/ammo/ShotgunShells,
+		scale = 0.6,
+		
+    }
+	
+		 model 762Bullets
+    {
+        mesh = weapons/ammo/762-556-308-223Ammo,
+		texture = weapons/ammo/762Ammo,
+		scale = 0.71,
+		
+    }
+	
+		 model 308Bullets
+    {
+        mesh = weapons/ammo/762-556-308-223Ammo,
+		texture = weapons/ammo/308Ammo,
+		scale = 0.7,
+		
+    }
+	
+			 model 556Bullets
+    {
+        mesh = weapons/ammo/762-556-308-223Ammo,
+		texture = weapons/ammo/556Ammo,
+		scale = 0.7,
+	}	
+	
+		model 223Bullets
+    {
+        mesh =    weapons/ammo/762-556-308-223Ammo,
+		texture = weapons/ammo/223Ammo,
+		scale = 0.6,
+    }	
+	
+		 model 556Box
+    {
+        mesh = weapons/ammo/762-556-308-223AmmoBox,
+		texture = weapons/ammo/556AmmoBox,
+		scale = 0.7,
+    }	
+	
+		 model 223Box
+    {
+        mesh = weapons/ammo/762-556-308-223AmmoBox,
+		texture = weapons/ammo/223AmmoBox,
+		scale = 0.7,
+    }	
+	
+		 model 308Box
+    {
+        mesh = weapons/ammo/762-556-308-223AmmoBox,
+		texture = weapons/ammo/308AmmoBox,
+		scale = 0.7,
+    }	
+		 model 762Box
+    {
+        mesh = weapons/ammo/762-556-308-223AmmoBox,
+		texture = weapons/ammo/762AmmoBox,
+		scale = 0.7,
+		
+    }
+	
+		model Magazine_9mm
+	{
+		mesh = Weapons/ammo/Magazine_9mm,
+		texture = WorldItems/Magazine_9mm,
+		scale = 0.8,
+	}
+
+	model Magazine_45
+	{
+		mesh = Weapons/ammo/Magazine_45,
+		texture = WorldItems/Magazine_45,
+		scale = 0.8,
+	}
+
+	model Magazine_44
+	{
+		mesh = Weapons/ammo/Magazine_44,
+		texture = WorldItems/Magazine_44,
+		scale = 0.8,
+	}
+
+	model Magazine_M16
+	{
+		mesh = Weapons/ammo/Magazine_M16,
+		texture = Weapons/Firearm/AssaultRifle,
+		scale = 10
+	}
+
+	model Magazine_M14
+	{
+		mesh = Weapons/ammo/Magazine_M14,
+		texture = WorldItems/Magazine_M14,
+		scale = 0.65,
+	}
+
+	model Magazine_223
+	{
+		mesh = Weapons/ammo/Magazine_CZ527,
+		texture = Weapons/Firearm/cz527_texture,
+	}
+	
+		model Magazine_MINI14
+	{
+		mesh = Weapons/ammo/Magazine_MINI14,
+		texture = Weapons/Firearm/mini14_texture,
+	}
+	
+			model Magazine_MP5
+	{
+		mesh = Weapons/ammo/mp5_magazine,
+		texture = Weapons/Firearm/mp5_texture,
+	}
+	
+				model Magazine_1022
+	{
+		mesh = Weapons/ammo/1022magazine,
+		texture = Weapons/Firearm/1022_texture,
+	}
+	
+					model Magazine_glock
+	{
+		mesh = Weapons/ammo/Magazine_9mm,
+		texture = WorldItems/Magazine_9mm,
+		scale = 0.8,
+	}
+
+	model CleaningKit
+	{
+		mesh = WorldItems/cleaningkit_model,
+		texture = WorldItems/cleaningkit_texture,
+		scale = 1.8,
+	}
+
+	model FireKlean
+	{
+		mesh = WorldItems/fireklean_model,
+		texture = WorldItems/fireklean_texture,
+		scale = 1.8,
+	}
+
+	model Magazine_308
+	{
+		mesh = Weapons/ammo/Magazine_308,
+		texture = WorldItems/Magazine_223_308,
+		scale = 0.70,
+	}
+	
+		model Magazine_AK47
+	{
+		mesh = Weapons/ammo/Magazine_AK47,
+		texture = Weapons/firearm/ak47_texture,
+	}
+
+	model x2Scope
+    {
+        mesh = Weapons/parts/Rifle_2XScope,
+        texture = Weapons/parts/Acog_Scope,
+    }
+
+	model x4Scope
+    {
+        mesh = Weapons/parts/Rifle_4XScope,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	model x8Scope
+    {
+        mesh = Weapons/parts/Rifle_4XScope,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	model Bipod
+    {
+        mesh = Weapons/parts/Bipod_Model,
+        texture = Weapons/parts/Weaver_Scope,
+    }
+	model RedDot
+	{
+	    mesh = Weapons/parts/AimPoint,
+	    texture = Weapons/parts/Aimpoint,
+	}
+
+	model ShellHolder
+	{
+	    mesh = Weapons/parts/shellholder_model,
+	    texture = Weapons/parts/shellholder_texture,
+	}
+
+	model BulletLoops
+	{
+	    mesh = Weapons/parts/bulletloop_model,
+	    texture = Weapons/parts/bulletloop_texture,
+	}
+
+	model OilFilterSuppressor
+	{
+	    mesh = Weapons/parts/OilFilterSuppressor_Model,
+	    texture = Weapons/parts/OilFilterSuppressor_Texture,
+	}
+
+
+	model OilFilter
+	{
+	    mesh = Weapons/parts/OilFilter_Model,
+	    texture = Weapons/parts/OilFilterSuppressor_Texture,
+	}
+
+
+	model Coupled556
+	{
+	    mesh = Weapons/parts/coupled556_model,
+	    texture = Weapons/parts/coupled556_texture,
+	}
+
+	model Coupled762
+	{
+	    mesh = Weapons/parts/coupled762_model,
+	    texture = Weapons/parts/coupled762_texture,
+	}
+	model OilFilterSuppressor2
+	{
+	    mesh = Weapons/parts/OilFilterSuppressor2_Model,
+	    texture = Weapons/parts/OilFilterSuppressor2_Texture,
+	}
+
+
+	model OilFilter2
+	{
+	    mesh = Weapons/parts/OilFilter2_Model,
+	    texture = Weapons/parts/OilFilterSuppressor2_Texture,
+	}
+	
+		model BoxOfRounds22LR
+	{
+		mesh = WorldItems/HandGunAmmoBox,
+		texture = WorldItems/BoxOfRounds22LR,
+		scale = 0.4,
+	}
+}

@@ -1,0 +1,11 @@
+Sandbox_FR = {
+
+    Sandbox_PlayerTradeOptions = "Options d'échange entre joueurs",
+
+    Sandbox_PlayerTradeOptions_useCharacterName = "Utiliser le nom du personnage",
+    Sandbox_PlayerTradeOptions_useCharacterName_tooltip = "Utilisez le nom complet du personnage au lieu du nom d'utilisateur du joueur",
+
+    Sandbox_PlayerTradeOptions_disabled = "Désactivé",
+    Sandbox_PlayerTradeOptions_disabled_tooltip = "Désactivez l'option d'échange",
+
+}

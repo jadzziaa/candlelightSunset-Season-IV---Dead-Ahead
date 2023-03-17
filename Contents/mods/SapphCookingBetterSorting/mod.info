@@ -1,0 +1,6 @@
+name=Sapph's Cooking Better Sorting Patch
+id=sapphcookingbettersorting
+description=Adds mod support for Better Sorting
+poster=poster.png
+icon=icon.png
+require=sapphcooking,BetterSortCC

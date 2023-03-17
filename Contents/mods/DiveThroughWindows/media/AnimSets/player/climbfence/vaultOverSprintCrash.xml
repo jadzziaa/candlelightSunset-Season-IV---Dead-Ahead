@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="vaultOverSprint.xml">
+	<m_Name>vaultOverSprintCrash</m_Name>
+	<m_AnimName>Bob_ValultOver_Sprint_Crash</m_AnimName>
+	<m_BlendTime>0.2</m_BlendTime>
+	<m_BlendOutTime>0.8</m_BlendOutTime>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>DiveThruWindow</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+</animNode>

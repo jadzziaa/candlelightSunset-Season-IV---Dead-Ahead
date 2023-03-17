@@ -1,0 +1,1 @@
+Events.OnGameBoot.Add(print("SMUI - ALICE Pack Tweak"))

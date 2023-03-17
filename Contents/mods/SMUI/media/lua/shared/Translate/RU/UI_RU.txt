@@ -1,0 +1,6 @@
+UI_RU = {
+	ContextMenu_FlipUp = "Поднять", 
+	ContextMenu_FlipDown = "Опустить", 
+	ContextMenu_RollUp = "Закатать", 
+	ContextMenu_RollDown = "Опустить",
+}

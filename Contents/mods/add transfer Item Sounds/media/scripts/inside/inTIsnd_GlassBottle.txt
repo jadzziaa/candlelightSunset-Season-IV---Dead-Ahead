@@ -1,0 +1,48 @@
+module Base
+{
+	sound inTIsnd_GlassBottle	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_GlassBottle_1.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_GlassBottle	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_GlassBottle_2.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_GlassBottle	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_GlassBottle_3.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_GlassBottle	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_GlassBottle_4.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_GlassBottle	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_GlassBottle_5.ogg,
+			volume = 0.9,
+		}
+	}
+}

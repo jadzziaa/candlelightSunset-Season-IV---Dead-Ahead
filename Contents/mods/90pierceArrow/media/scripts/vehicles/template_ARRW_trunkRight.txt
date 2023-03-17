@@ -1,0 +1,46 @@
+module Base
+{
+	template vehicle ARRWTrunkCompartmentRight
+	{
+		part ARRWTrunkRL
+		{
+			category = ARRWrighttrunk,
+			area = TruckBedRight,
+			itemType = Base.90pierceArrowTrunk,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				capacity = 45,
+				conditionAffectsCapacity = false,
+				test = ARRW.ContainerAccess.TrunkRight,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part ARRWTrunkRR
+		{
+			category = ARRWrighttrunk,
+			area = TruckBedRight,
+			itemType = Base.90pierceArrowTrunk,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				capacity = 30,
+				conditionAffectsCapacity = false,
+				test = ARRW.ContainerAccess.TrunkRight,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+	}
+
+}
+

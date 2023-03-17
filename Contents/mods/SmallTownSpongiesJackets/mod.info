@@ -1,0 +1,5 @@
+name=Small Town First Responders - Spongies Jackets Support
+id=STRSJ
+poster=poster.png
+description=Adds openable jackets with the power of Spongies Jackets!
+require=STR,SpnOpenCloth

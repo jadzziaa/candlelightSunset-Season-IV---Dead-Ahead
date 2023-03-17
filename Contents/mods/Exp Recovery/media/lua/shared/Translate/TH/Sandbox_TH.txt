@@ -1,0 +1,11 @@
+Sandbox_TH = {
+
+	Sandbox_ExpRecovery = "กู้คืนค่าประสบการณ์ที่หายไป",
+
+	Sandbox_ExpRecovery_ExpSaveMultiplier = "ตัวคูณค่าประสบการณ์ที่กู้คืนได้",
+	Sandbox_ExpRecovery_ExpSaveMultiplier_tooltip = "กำหนดอัตราร้อยละของค่าประสบการณ์ที่บันทึกไว้เพื่อรอการเพิ่มระดับทักษะ",
+	
+	Sandbox_ExpRecovery_DontSaveWhileReading = "ไม่บันทึกค่าประสบการณ์จากสื่อ",
+	Sandbox_ExpRecovery_DontSaveWhileReading_tooltip = "ใช้งานได้กับม็อดที่เพิ่มค่าประสบการณ์จากการอ่านหนังสือ/นิตยสาร รวมทั้งวิดีโอเทป/ทีวี หากเปิดใช้งานตัวเลือกนี้ค่าประสบการณ์ที่ได้รับจากสื่อเหล่านี้จะไม่ถูกบันทึก",
+
+}

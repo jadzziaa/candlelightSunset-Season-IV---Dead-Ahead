@@ -1,0 +1,8 @@
+ItemName_CN = {
+	ItemName_WeaponModifiers.BookTinkering1 = "铸造指南Vol. 1",
+	ItemName_WeaponModifiers.BookTinkering2 = "铸造指南Vol. 2",
+	ItemName_WeaponModifiers.BookTinkering5 = "铸造指南Vol. 5",
+	ItemName_WeaponModifiers.BookTinkering3 = "铸造指南Vol. 3",
+	ItemName_WeaponModifiers.BookTinkering4 = "铸造指南Vol. 4",
+	ItemName_WeaponModifiers.TinkeringMag = "铸造:从入门到入土",
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media/models_X/Skinned/clothes/MilitaryHelmetGogglesStrapless.FBX</m_MaleModel>
+	<m_FemaleModel>media/models_X/Skinned/clothes/MilitaryHelmetGogglesStrapless.FBX</m_FemaleModel>
+	<m_GUID>925f00d1-ac42-445f-8ebd-cd7cb73a4201</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group02</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes/hat/Hat_MilitaryHelmetDesertGoggles</textureChoices>
+</clothingItem>

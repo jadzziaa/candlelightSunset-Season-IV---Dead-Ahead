@@ -1,0 +1,11 @@
+Sandbox_EN = {
+
+	Sandbox_ExpRecovery = "Exp Recovery",
+
+	Sandbox_ExpRecovery_ExpSaveMultiplier = "Multiplier for the amount of saved exp",
+	Sandbox_ExpRecovery_ExpSaveMultiplier_tooltip = "What percent of missed exp will be saved",
+	
+	Sandbox_ExpRecovery_DontSaveWhileReading = "Don't save exp while reading",
+	Sandbox_ExpRecovery_DontSaveWhileReading_tooltip = "Compatibility for mods that gives exp for reading skill books/magazines. Exp even from VHS/TV shows won't be saved too",
+
+}

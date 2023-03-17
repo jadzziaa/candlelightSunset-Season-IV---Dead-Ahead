@@ -1,0 +1,399 @@
+module Base {
+
+   sound PG_E_0_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_E_0_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_F_0_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_F_0_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_F_Sharp_0_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_F_Sharp_0_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_G_0_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_G_0_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_G_Sharp_0_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_G_Sharp_0_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_A_0_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_A_0_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_A_Sharp_0_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_A_Sharp_0_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_B_0_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_B_0_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_C_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_C_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_C_Sharp_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_C_Sharp_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_D_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_D_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_D_Sharp_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_D_Sharp_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_E_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_E_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_F_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_F_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_F_Sharp_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_F_Sharp_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_G_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_G_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+	
+
+   sound PG_G_Sharp_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_G_Sharp_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_A_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_A_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+
+   sound PG_A_Sharp_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_A_Sharp_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_B_1_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_B_1_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_C_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_C_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_C_Sharp_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_C_Sharp_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_D_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_D_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+	
+   sound PG_D_Sharp_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_D_Sharp_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_E_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_E_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+	
+   sound PG_F_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_F_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_F_Sharp_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_F_Sharp_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_G_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_G_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_G_Sharp_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_G_Sharp_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+	
+   sound PG_A_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_A_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_A_Sharp_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_A_Sharp_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_B_2_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_B_2_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_C_3_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_C_3_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_C_Sharp_3_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_C_Sharp_3_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+	
+   sound PG_D_3_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_D_3_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_D_Sharp_3_Medium
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_D_Sharp_3_Medium.ogg, distanceMax = 10, volume = 0.3, }
+    }
+
+   sound PG_Chords_A
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_A_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_A_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+	
+   sound PG_Chords_A_Sharp
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_A_Sharp_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_A_Sharp_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_B
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_B_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_B_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+	
+   sound PG_Chords_C
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_C_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_C_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_C_Sharp
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_C_Sharp_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_C_Sharp_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+	
+   sound PG_Chords_D
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_D_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_D_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_D_Sharp
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_D_Sharp_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_D_Sharp_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_E
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_E_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_E_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_F
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_F_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_F_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_F_Sharp
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_F_Sharp_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_F_Sharp_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_G
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_G_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_G_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_G_Sharp
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_G_Sharp_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_G_Sharp_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_A_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_A_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_A_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+	
+   sound PG_Chords_A_Sharp_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_A_Sharp_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_A_Sharp_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_B_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_B_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_B_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+	
+   sound PG_Chords_C_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_C_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_C_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_C_Sharp_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_C_Sharp_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_C_Sharp_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+	
+   sound PG_Chords_D_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_D_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_D_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_D_Sharp_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_D_Sharp_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_D_Sharp_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_E_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_E_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_E_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_F_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_F_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_F_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_F_Sharp_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_F_Sharp_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_F_Sharp_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_G_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_G_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_G_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+
+   sound PG_Chords_G_Sharp_m
+    {
+        category = Voice, loop = false, is3D = true,
+        clip { file = media/sound/PG_Chords_G_Sharp_m_Up.ogg, distanceMax = 10, volume = 1.0, }
+        clip { file = media/sound/PG_Chords_G_Sharp_m_Down.ogg, distanceMax = 10, volume = 1.0, }
+    }
+}

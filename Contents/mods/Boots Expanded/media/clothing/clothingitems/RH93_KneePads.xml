@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models\skinned\clothes\KneePad_Male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models\skinned\clothes\KneePad_FeMale.fbx</m_FemaleModel>
+	<m_GUID>67c956a1-a177-4223-bef0-2ce66fbadbbc</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\kneepad</textureChoices>
+</clothingItem>

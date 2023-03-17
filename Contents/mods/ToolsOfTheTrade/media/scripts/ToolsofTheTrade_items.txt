@@ -1,0 +1,70 @@
+module ToolsOfTheTrade {
+	imports {
+		Base
+	}
+	item CastIronSkilletCornbread
+	{
+		DisplayName								=	Homemade Cornbread,
+		DisplayCategory							=	Food,
+		Type									=	Food,
+		Weight									=	3.3,
+		Icon									=	CastIronSkilletCornbread,
+		FoodType								=	NoExplicit,
+		BadInMicrowave							=	TRUE,
+		DangerousUncooked						=	TRUE,
+		IsCookable								=	TRUE,
+		GoodHot									=	TRUE,
+		RemoveUnhappinessWhenCooked				=	TRUE,
+		ReplaceOnUse							=	CastIronSkillet,
+		MinutesToCook							=	30,
+		MinutesToBurn							=	60,
+		DaysFresh								=	4,
+		DaysTotallyRotten						=	8,
+		HungerChange							=	-31,
+		UnhappyChange							=	25,
+		Calories								=	400,
+		Carbohydrates							=	75,
+		Lipids									=	15,
+		Proteins								=	10,
+		WorldStaticModel						=	WorldItem_CastIronSkilletCornbread_Ground,
+	}
+	item Backsaw
+    {
+		DisplayCategory							=	Tool,
+		Weight									=	0.3,
+		Type									=	Normal,
+		DisplayName								=	Backsaw,
+		Icon									=	Backsaw,
+		MetalValue								=	20,
+		SurvivalGear							=	TRUE,
+		Tags									=	Saw,
+		StaticModel								=	Backsaw,		
+		WorldStaticModel						=	WorldItem_Backsaw,
+    }
+	item BandageScissors
+    {
+		DisplayCategory							=	Household,
+		Weight									=	0.2,
+		Type									=	Normal,
+		DisplayName								=	Bandage Scissors,
+		Icon									=	BandageScissors,
+		MetalValue								=	20,
+		SurvivalGear							=	TRUE,
+		Tags									=	Scissors,
+		StaticModel								=	BandageScissors,		
+		WorldStaticModel						=	WorldItem_BandageScissors,
+    }
+	item ArmyCanOpener
+    {
+		DisplayCategory							=	Cooking,
+		Weight									=	0.1,
+		Type									=	Key,
+		DisplayName								=	Army Can Opener,
+		Icon									=	ArmyCanOpener,
+		MetalValue								=	1,
+		SurvivalGear							=	TRUE,
+		Tags									=	CanOpener,
+		StaticModel								=	ArmyCanOpener,		
+		WorldStaticModel						=	WorldItem_ArmyCanOpener,
+    }
+}

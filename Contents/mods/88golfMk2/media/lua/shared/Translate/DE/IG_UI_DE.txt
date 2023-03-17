@@ -1,0 +1,4 @@
+IG_UI_DE = {
+	IGUI_VehicleName88golf4doorMk2 = "'88 VW Golf II Viertürer",
+	IGUI_VehicleName88golf2doorMk2 = "'88 VW Golf II Zweitürer",
+}

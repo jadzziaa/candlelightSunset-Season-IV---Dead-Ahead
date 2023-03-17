@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_GasMaskBag</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_GasMaskBag</m_FemaleModel>
+	<m_GUID>25a8cb1d-0a71-425b-b2ab-25953532e366</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\GasMaskBag</textureChoices>
+</clothingItem>

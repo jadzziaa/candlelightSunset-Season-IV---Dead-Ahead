@@ -1,0 +1,821 @@
+module Base
+{
+	model AMC_bmw_r80
+    {
+        mesh = moto/AMC_bmwR80|frame,
+        shader = vehicle_norandom_multiuv,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_custom
+    {
+        mesh = moto/AMC_bmwR80|frame2,
+        shader = vehicle_norandom_multiuv,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_gastank
+    {
+        mesh = moto/AMC_bmwR80|gastank,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_exhaust1
+    {
+        mesh = moto/AMC_bmwR80|exhaust1,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_exhaust2
+    {
+        mesh = moto/AMC_bmwR80|exhaust2,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_front_brake
+    {
+        mesh = moto/AMC_bmwR80|front_brake,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_rear_brake
+    {
+        mesh = moto/AMC_bmwR80|rear_brake,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_front_suspension1
+    {
+        mesh = moto/AMC_bmwR80|front_suspension1,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_front_suspension2
+    {
+        mesh = moto/AMC_bmwR80|front_suspension2,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_rear_suspension
+    {
+        mesh = moto/AMC_bmwR80|rear_suspension,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_headlight
+    {
+        mesh = moto/AMC_bmwR80|headlight,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_seat1
+    {
+        mesh = moto/AMC_bmwR80|seat1,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_seat2
+    {
+        mesh = moto/AMC_bmwR80|seat2,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_bag_left
+    {
+        mesh = moto/AMC_bmwR80|bag_right,
+        shader = vehicle,
+        invertX = TRUE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_bag_left_ext
+    {
+        mesh = moto/AMC_bmwR80|bag_left,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_bag_right
+    {
+        mesh = moto/AMC_bmwR80|bag_right,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+	model AMC_bmw_r80_bag_right_ext
+    {
+        mesh = moto/AMC_bmwR80|bag_left,
+        shader = vehicle,
+        invertX = TRUE,
+        scale = 1.00,
+    }
+	model AMC_bmw_Wheel
+    {
+        mesh = moto/AMC_bmwR80_tire,
+        texture = AMC_bmw_r80_wheel,
+        shader = vehiclewheel,
+        scale = 1,
+    }
+	vehicle AMC_bmw_classic
+	{
+		template! = AMC_bmw,
+
+		model
+		{
+			file = AMC_bmw_r80,
+			scale = 0.8000,
+			offset = 0.0000 0.1375 -0.0750,
+		}
+
+		skin
+		{
+			texture = AMC_bmwR80_texture,
+		}
+
+		skin
+		{
+			texture = AMC_bmwR80_texture2,
+		}
+
+		skin
+		{
+			texture = AMC_bmwR80_texture3,
+		}
+
+		engineForce = 2700,
+		maxSpeed = 60f,
+		template = Seat/part/SeatFrontRight,
+
+		part SeatFrontRight
+		{
+			category = nodisplay,
+
+			lua
+			{
+				create = AMC_Moto.Create.SeatFrontRight,
+				init = AMC_Moto.Init.SeatFrontRight,
+				update = AMC_Moto.Update.SeatFrontRight,
+			}
+		}
+
+		template = PassengerSeat2,
+
+		passenger FrontLeft
+		{
+			door = DoorFrontLeft,
+			door2 = DoorFrontRight,
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.8750 -0.3375,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.3375 -0.0250 -0.3375,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+
+			switchSeat FrontRight
+			{
+				sound =,
+			}
+		}
+
+		passenger FrontRight
+		{
+			door = DoorFrontRight,
+			door2 = DoorFrontLeft,
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.9125 -0.7875,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.3500 0.0375 -0.7875,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+
+			switchSeat FrontRight
+			{
+				sound =,
+			}
+		}
+
+		part SeatFrontLeft
+		{
+			category = bodywork,
+			specificItem = false,
+			itemType = Autotsar.ATAMotoBMWSeat,
+
+			model Default
+			{
+				file = AMC_bmw_r80_seat1,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+            
+            table uninstall
+            {
+                requireUninstalled = ATABagMotoLeft;ATABagMotoRight,
+                test = ATATuning.UninstallTest.multiRequire,
+                complete = ATATuning.UninstallComplete.DefaultModel,
+            }
+		}
+
+		part Seat*
+		{
+			specificItem = false,
+			itemType = Autotsar.ATAMotoBMWSeat,
+
+			container
+			{
+				test = CommonTemplates.ContainerAccess.False,
+			}
+		}
+
+		template = ATABags/part/ATABagMotoLeft,
+
+		part ATABagMotoLeft
+		{
+			area = SeatFrontLeft,
+            
+            table install
+            {
+                requireInstalled = SeatFrontLeft,
+            }
+            
+			model Default
+			{
+				file = AMC_bmw_r80_bag_left,
+			}
+
+			model DefaultExt
+			{
+				file = AMC_bmw_r80_bag_left_ext,
+			}
+		}
+
+		template = ATABags/part/ATABagMotoRight,
+
+		part ATABagMotoRight
+		{
+			area = SeatFrontRight,
+
+            table install
+            {
+                requireInstalled = SeatFrontLeft,
+            }
+
+			model Default
+			{
+				file = AMC_bmw_r80_bag_right,
+			}
+
+			model DefaultExt
+			{
+				file = AMC_bmw_r80_bag_right_ext,
+			}
+		}
+
+		part ATABagMoto*
+		{
+			itemType = Autotsar.ATAMotoBagBMW1;Autotsar.ATAMotoBagBMW2,
+
+			table ataModels
+			{
+				ATAMotoBagBMW1 = Default,
+				ATAMotoBagBMW2 = DefaultExt,
+			}
+
+			lua
+			{
+				create = ATATuning.Create.Chance5,
+				init = ATATuning.Init.DefaultModel,
+			}
+		}
+
+		extents = 0.5000 0.9250 2.3250,
+		physicsChassisShape = 0.5000 0.9250 2.3250,
+		centerOfMassOffset = 0.0000 0.8000 0.0000,
+		shadowExtents = 0.7625 2.2875,
+		shadowOffset = 0.0125 -0.0250,
+	}
+	vehicle AMC_bmw_custom
+	{
+		template! = AMC_bmw,
+
+		model
+		{
+			file = AMC_bmw_r80_custom,
+			scale = 0.8000,
+			offset = 0.0000 0.1375 -0.0750,
+		}
+
+		skin
+		{
+			texture = AMC_bmwR80C_texture,
+		}
+
+		skin
+		{
+			texture = AMC_bmwR80C_texture2,
+		}
+
+		skin
+		{
+			texture = AMC_bmwR80C_texture3,
+		}
+
+		engineForce = 3000,
+		maxSpeed = 70f,
+
+		passenger FrontLeft
+		{
+			door = DoorFrontLeft,
+			door2 = DoorFrontRight,
+			area = SeatFrontLeft,
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.8750 -0.3375,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.3375 -0.0250 -0.3375,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+
+			switchSeat FrontRight
+			{
+				sound =,
+			}
+		}
+
+		template! = PassengerCommon,
+
+		part SeatFrontLeft
+		{
+			category = bodywork,
+			specificItem = false,
+			itemType = Autotsar.ATAMotoBMWSeatCustom,
+
+			model Default
+			{
+				file = AMC_bmw_r80_seat2,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+		}
+
+		part Seat*
+		{
+			container
+			{
+				test = CommonTemplates.ContainerAccess.False,
+			}
+		}
+
+		part SuspensionFrontLeft
+		{
+			model Default
+			{
+				file = AMC_bmw_r80_front_suspension1,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+		}
+
+		extents = 0.5000 0.9250 2.3250,
+		physicsChassisShape = 0.5000 0.9250 2.3250,
+		centerOfMassOffset = 0.0000 0.8000 0.0000,
+		shadowExtents = 0.7625 2.2875,
+		shadowOffset = 0.0125 -0.0250,
+	}
+	template vehicle AMC_bmw
+    {
+        part AMCConfig
+        {
+            category = nodisplay,
+            table AMCConfig
+            {
+                type = BMW,
+                fallDelta = 2,
+                speedDelta = 1,
+                hideWeapon = 1,
+                quickEnter = 1,
+            }
+        }
+        
+        part TCLConfig
+        {
+            category = nodisplay,
+            table TCLConfig
+            {
+                disableDoorLocker = 1,
+                disableSleep = 1,
+                wreckerName = TrailerAMC,
+            }
+        }
+
+        mechanicType = 3,
+        engineRepairLevel = 4,
+        playerDamageProtection = 1.1,
+
+        textureRust = AMC_bmw_r80_rust,
+        textureMask = AMC_bmw_r80_mask,
+        textureLights = AMC_bmw_r80_lights,
+        textureDamage1Shell = AMC_bmw_r80_damage,
+        textureDamage2Shell = AMC_bmw_r80_damage,
+        textureDamage1Overlay = AMC_bmw_r80_blood,
+        textureDamage2Overlay = AMC_bmw_r80_blood,
+        textureShadow = AMC_bmw_r80_shadow,
+
+        sound
+        {
+            horn = VehicleHorn,
+        }
+
+        extents = 0.7500 0.9250 2.3250,
+        mass = 180,
+        physicsChassisShape = 0.3000 0.9250 2.3250,
+        centerOfMassOffset = 0.0000 0.8000 0.0000,
+        shadowExtents = 0.7625 2.2875,
+        shadowOffset = 0.0125 -0.0250,
+        engineLoudness = 80,
+        engineQuality = 70,
+        brakingForce = 10,
+        stoppingMovementForce = 1.0f,
+        rollInfluence = 0.4f,
+        steeringIncrement = 0.01,
+        steeringClamp = 0.08,
+        suspensionStiffness = 50,
+        suspensionCompression = 0,
+        suspensionDamping = 100,
+        maxSuspensionTravelCm = 20,
+        suspensionRestLength = 0.2f,
+        wheelFriction = 5.4f,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 2,
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.1875 0.3250 1.4500,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.1875 0.3250 1.4500,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = 0.0000 0.2000 -0.6875,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = 0.0000 0.3250 0.7875,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        area Engine
+        {
+            xywh = -0.8000 0.3375 0.8500 0.8500,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 0.8000 -0.3875 1.0000 1.0000,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -0.8000 -0.8000 1.0000 1.0000,
+        }
+
+        area GasTank
+        {
+            xywh = 0.8000 0.1750 0.8500 0.8500,
+        }
+
+        area TireFrontLeft
+        {
+            xywh = 0.0000 1.5875 0.8500 0.8500,
+        }
+
+        area TireRearRight
+        {
+            xywh = 0.0000 -1.5875 0.8500 0.8500,
+        }
+        area TireRearLeft
+        {
+            xywh = 0.8000 0.1750 0.8500 0.8500,
+        }
+
+        template = Seat/part/SeatFrontLeft,
+        
+        template = GasTank,
+
+        part GasTank
+        {
+            category = bodywork,
+            specificItem = false,
+            itemType = Autotsar.ATAMotoBMWGasTank,
+            model Gastank
+            {
+                file = AMC_bmw_r80_gastank,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            install
+            {
+                skills = Mechanics:6,
+            }
+
+            uninstall
+            {
+                skills = Mechanics:6,
+            }
+        }
+
+        template = Engine,
+
+        part Engine
+        {
+            category = bodywork,
+        }
+
+        template = Battery,
+
+        part Battery
+        {
+            category = bodywork,
+            area = GasTank,
+        }
+
+        template = Muffler,
+
+        part Muffler
+        {
+            category = bodywork,
+            specificItem = false,
+            area = TireRearRight,
+            itemType = Autotsar.ATAMotoBMWCustomMuffler;Autotsar.ATAMotoBMWClassicMuffler,
+            model Default
+            {
+                file = AMC_bmw_r80_exhaust1,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+            model DefaultCustom
+            {
+                file = AMC_bmw_r80_exhaust2,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+            table ataModels 
+            {
+                ATAMotoBMWCustomMuffler = Default,
+                ATAMotoBMWClassicMuffler = DefaultCustom,
+            }
+            lua
+            {
+                create = ATATuning.Create.Default,
+                init = ATATuning.Init.Default,
+                update = Vehicles.Update.Muffler,
+            }
+        }
+
+        template = Brake/part/BrakeFrontLeft,
+        template = Brake/part/BrakeRearRight,
+
+        part BrakeFrontLeft
+        {
+            area = TireFrontLeft,
+            model brakeFront
+            {
+                file = AMC_bmw_r80_front_brake,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+            table install
+            {
+                requireInstalled = SuspensionFrontLeft,
+                requireUninstalled = ATAMotoTireFrontWheel,
+            }
+            table uninstall
+            {
+                requireUninstalled = ATAMotoTireFrontWheel,
+            }
+        }
+
+        part BrakeRearRight
+        {
+            area = TireRearRight,
+            model brakeRear
+            {
+                file = AMC_bmw_r80_rear_brake,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+            table install
+            {
+                requireUninstalled = ATAMotoTireRearWheel,
+            }
+            table uninstall
+            {
+                requireUninstalled = ATAMotoTireRearWheel,
+            }
+        }
+
+        template = Suspension,
+        
+        part SuspensionFrontRight
+        {
+            category = nodisplay,
+        }
+        
+        part SuspensionFrontLeft
+        {
+            area = TireFrontLeft,
+            model Default
+            {
+                file = AMC_bmw_r80_front_suspension1,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+            table install
+            {
+                requireUninstalled = ATAMotoTireFrontWheel,
+            }
+
+            table uninstall
+            {
+                requireUninstalled = BrakeFrontLeft,
+            }
+        }
+
+        part SuspensionRearRight
+        {
+            area = TireRearRight,
+            model Default
+            {
+                file = AMC_bmw_r80_rear_suspension,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+            
+            table install
+            {
+                requireInstalled = BrakeRearRight,
+                requireUninstalled = ATAMotoTireRearWheel,
+            }
+            table uninstall
+            {
+                requireUninstalled = ATAMotoTireRearWheel,
+            }
+        }
+        part SuspensionRearLeft
+        {
+            category = nodisplay,
+        }
+
+        template = Headlight/part/HeadlightLeft,
+
+        part HeadlightLeft
+        {
+            model frontHeadlight
+            {
+                file = AMC_bmw_r80_headlight,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+            area = TireFrontLeft,
+        }
+        
+        template = Door/part/DoorFrontLeft,
+        template = Door/part/DoorFrontRight,
+
+        part Door*
+        {
+            category = nodisplay,
+
+            anim Open
+            {
+                sound =,
+            }
+
+            anim Close
+            {
+                sound =,
+            }
+
+            anim Lock
+            {
+                sound =,
+            }
+
+            anim Unlock
+            {
+                sound =,
+            }
+
+            anim IsLocked
+            {
+                sound =,
+            }
+
+            lua
+            {
+                create = CommonTemplates.Create.setInventoryNil,
+                init = CommonTemplates.Init.setInventoryNil,
+                use = ATATuning.Use.Door,
+            }
+        }
+        
+        template = Headlight/part/HeadlightRearLeft,
+        part HeadlightRearLeft
+		{
+			area = TireRearRight,
+		}
+        
+        template! = ATAMotoWheelsReady,
+        part ATAMotoTireFrontWheel
+        {
+            specificItem = false,
+            itemType = Autotsar.ATAMotoBMWOldTire;Autotsar.ATAMotoBMWNormalTire;Autotsar.ATAMotoBMWModernTire,
+            model InflatedTirePlusWheel
+            {
+                file = AMC_bmw_Wheel,
+            }
+            table install
+            {
+                requireInstalled = SuspensionFrontLeft,
+            }
+        }
+
+        part ATAMotoTireRearWheel
+        {
+            specificItem = false,
+            itemType = Autotsar.ATAMotoBMWOldTire;Autotsar.ATAMotoBMWNormalTire;Autotsar.ATAMotoBMWModernTire,
+            model InflatedTirePlusWheel
+            {
+                file = AMC_bmw_Wheel,
+            }
+            table install
+            {
+                requireInstalled = SuspensionRearRight,
+            }
+        }
+    }
+}

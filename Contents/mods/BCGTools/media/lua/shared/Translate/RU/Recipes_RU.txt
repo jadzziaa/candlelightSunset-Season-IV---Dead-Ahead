@@ -1,0 +1,11 @@
+Recipes_RU = {
+
+	Recipe_Attach_Survival_Knife_to_Spear = "Закрепить нож выживания на копье",
+	Recipe_Attach_Cheap_Survival_Knife_to_Spear = "Закрепить походный нож на копье",
+	Recipe_Attach_Kukri_Machete_to_Spear = "Закрепить кукри на копье",
+
+	Recipe_Reclaim_Survival_Knife_from_Spear = "Снять с копья нож выживания"
+	Recipe_Reclaim_Cheap_Survival_Knife_from_Spear	= "Снять с копья походный нож"
+	Recipe_Reclaim_Kukri_Machete_from_Spear	= "Снять с копья кукри"
+
+}

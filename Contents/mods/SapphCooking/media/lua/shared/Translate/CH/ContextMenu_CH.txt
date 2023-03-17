@@ -1,0 +1,56 @@
+ContextMenu_CH = {
+	
+
+	ContextMenu_EvolvedRecipe_SapphCooking.ArborioRiceBowl = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofFriedRice = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofOmurice = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRisotto = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BrownRiceBowl = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRavioli = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofTortellini = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBeefStew = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRefriedBeans = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguetti = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguettiandMeatballs = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofYakisoba = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofKungPaoChicken = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofShuiZhuYu = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofJapaneseCurry = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBorscht = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes_Meatballs = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceJapaneseCurry = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.FryingPan_BaconandEggs = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_BaconandEggs = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_BaconandEggs = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_BaconandEggs = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_BaconandEggs = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.RiceBeanBowl = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofChickenStroganoff = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceChickenStroganoff = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_HuevosRancheros = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_HuevosRancheros = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_HuevosRancheros = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_HuevosRancheros = "添加",
+
+
+
+
+
+
+
+
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_1 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_2 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_3 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_4 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_5 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_6 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_7 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_8 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_9 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_10 = "添加",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_11 = "添加",
+  	ContextMenu_EvolvedRecipe_SapphCooking.MRE_12 = "添加",
+  
+} 

@@ -1,0 +1,48 @@
+module Base
+{
+	sound TIsnd_Security	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Security_1.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Security	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Security_2.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Security	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Security_3.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Security	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Security_4.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Security	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Security_5.ogg,
+			volume = 0.14,
+		}
+	}
+}

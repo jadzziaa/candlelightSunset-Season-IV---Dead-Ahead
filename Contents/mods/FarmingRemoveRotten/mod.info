@@ -1,0 +1,4 @@
+name=FarmingRemoveRotten
+poster=poster.png
+id=FarmingRemoveRotten
+description=Plants will not pass the seeding phase and never become rotten. This mod is ideally for multiplayer so you don't need to rely on teammates to pick your crops if you cannot login.

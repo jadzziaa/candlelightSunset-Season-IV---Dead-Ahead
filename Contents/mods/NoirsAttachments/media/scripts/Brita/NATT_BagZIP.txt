@@ -1,0 +1,832 @@
+module Base {
+
+	model FemaleBody
+	{
+
+		attachment BagZIP_right
+		{
+			offset = 0.0400 -0.0950 -0.0700,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_wineright
+		{
+			offset = 0.0400 -0.0950 -0.0400,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BagZIP_left
+		{
+			offset = 0.0400 0.0950 -0.0700,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_wineleft
+		{
+			offset = 0.0400 0.0950 -0.0400,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_bedroll {
+			offset = -0.0300 0.0000 0.1500,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_uldoll {
+			offset = 0.0850 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_uldogchew {
+			offset = 0.0850 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulcattoy {
+			offset = 0.0850 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulballon {
+			offset = 0.0550 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulrubberducky {
+			offset = 0.0850 0.0750 -0.0800,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ultoybear {
+			offset = 0.1450 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_uldawn {
+			offset = 0.1450 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ultoycar {
+			offset = 0.0950 0.0750 -0.0800,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulyoyo {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulcube {
+			offset = 0.1450 0.0750 -0.0800,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulmask {
+			offset = 0.0750 0.0750 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulmaskground {
+			offset = 0.0750 0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulplushie {
+			offset = 0.1050 0.0750 -0.1850,
+			rotate = 0.0000 -100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulpawsplushie {
+			offset = 0.1250 0.0750 -0.1850,
+			rotate = 180.0000 100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulweapon {
+			offset = 0.1100 0.0550 0.0600,
+			rotate = 90.0000 180.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulweaponpan {
+			offset = 0.1100 0.0550 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulweaponsaucepan {
+			offset = 0.1100 0.0550 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulsnightstick {
+			offset = 0.1100 0.0250 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulwrench {
+			offset = 0.1100 0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulbottle {
+			offset = 0.1200 0.0550 -0.1000,
+			rotate = 90.0000 10.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulwine {
+			offset = 0.1200 0.0550 -0.0500,
+			rotate = 90.0000 10.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urdoll {
+			offset = 0.0850 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urdogchew {
+			offset = 0.0850 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urcattoy {
+			offset = 0.0850 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urballon {
+			offset = 0.0550 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urrubberducky {
+			offset = 0.0850 -0.0750 -0.0800,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urtoybear {
+			offset = 0.1450 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urdawn {
+			offset = 0.1450 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urtoycar {
+			offset = 0.0950 -0.0750 -0.0800,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_uryoyo {
+			offset = 0.0950 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urcube {
+			offset = 0.1450 -0.0750 -0.0800,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urmask {
+			offset = 0.0750 -0.0750 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urmaskground {
+			offset = 0.0750 -0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urplushie {
+			offset = 0.1050 -0.0750 -0.1850,
+			rotate = 0.0000 -100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urpawsplushie {
+			offset = 0.1250 -0.0750 -0.1850,
+			rotate = 180.0000 100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urweapon {
+			offset = 0.1100 -0.0550 0.0600,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urweaponpan {
+			offset = 0.1100 -0.0550 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urweaponsaucepan {
+			offset = 0.1100 -0.0550 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ursnightstick {
+			offset = 0.1100 -0.0250 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urwrench {
+			offset = 0.1100 -0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urbottle {
+			offset = 0.1200 -0.0550 -0.1000,
+			rotate = 90.0000 -20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urwine {
+			offset = 0.1200 -0.0550 -0.0500,
+			rotate = 90.0000 -20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_weapon {
+			offset = 0.0950 0.0000 0.0600,
+			rotate = 90.0000 0.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_rifle {
+			offset = 0.0950 0.0200 0.0600,
+			rotate = 90.0000 0.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_weaponbig {
+			offset = 0.0950 0.0000 0.0600,
+			rotate = 90.0000 0.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_weaponshovel {
+			offset = 0.1100 0.0000 0.1500,
+			rotate = 90.0000 90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_weaponpan {
+			offset = 0.1100 0.0000 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_weaponsaucepan {
+			offset = 0.1100 0.0000 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_snightstick {
+			offset = 0.1100 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_wrench {
+			offset = 0.1100 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_flashlight {
+			offset = -0.0100 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment BagZIP_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagZIP_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagZIP_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagZIP_container {
+			offset = 0.0500 0.0000 -0.2600,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containerseed {
+			offset = 0.0500 0.0000 -0.2400,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containertool {
+			offset = 0.0500 0.0000 -0.2800,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containercooler {
+			offset = 0.0500 0.0000 -0.3700,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containertote {
+			offset = 0.0400 0.0000 -0.3700,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containertrash {
+			offset = 0.1100 0.0000 -0.2800,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containersack {
+			offset = 0.1000 0.0000 -0.2800,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containermk {
+			offset = 0.0600 0.0000 -0.2200,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}	
+
+	}
+
+
+	model MaleBody
+	{
+		
+		attachment BagZIP_right
+		{
+			offset = 0.0400 -0.0950 -0.0700,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_wineright
+		{
+			offset = 0.0400 -0.0950 -0.0400,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BagZIP_left
+		{
+			offset = 0.0400 0.0950 -0.0700,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_wineleft
+		{
+			offset = 0.0400 0.0950 -0.0400,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_bedroll {
+			offset = -0.0300 0.0000 0.1500,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_uldoll {
+			offset = 0.0850 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_uldogchew {
+			offset = 0.0850 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulcattoy {
+			offset = 0.0850 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulballon {
+			offset = 0.0550 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulrubberducky {
+			offset = 0.0850 0.0750 -0.0800,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ultoybear {
+			offset = 0.1450 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_uldawn {
+			offset = 0.1450 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ultoycar {
+			offset = 0.0950 0.0750 -0.0800,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulyoyo {
+			offset = 0.0950 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulcube {
+			offset = 0.1450 0.0750 -0.0800,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulmask {
+			offset = 0.0750 0.0750 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulmaskground {
+			offset = 0.0750 0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulplushie {
+			offset = 0.1050 0.0750 -0.1850,
+			rotate = 0.0000 -100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulpawsplushie {
+			offset = 0.1050 0.0750 -0.1850,
+			rotate = 180.0000 100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulweapon {
+			offset = 0.1200 0.0550 0.0600,
+			rotate = 90.0000 180.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BagZIP_ulweaponpan {
+			offset = 0.1200 0.0550 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulweaponsaucepan {
+			offset = 0.1200 0.0550 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulsnightstick {
+			offset = 0.1200 0.0250 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulwrench {
+			offset = 0.1200 0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulbottle {
+			offset = 0.1200 0.0550 -0.1000,
+			rotate = 90.0000 10.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ulwine {
+			offset = 0.1200 0.0550 -0.0500,
+			rotate = 90.0000 10.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urdoll {
+			offset = 0.0850 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urdogchew {
+			offset = 0.0850 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urcattoy {
+			offset = 0.0850 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urballon {
+			offset = 0.0550 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urrubberducky {
+			offset = 0.0850 -0.0750 -0.0800,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urtoybear {
+			offset = 0.1450 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urdawn {
+			offset = 0.1450 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urtoycar {
+			offset = 0.0950 -0.0750 -0.0800,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_uryoyo {
+			offset = 0.0950 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urcube {
+			offset = 0.1450 -0.0750 -0.0800,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urmask {
+			offset = 0.0750 -0.0750 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urmaskground {
+			offset = 0.0750 -0.0750 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urplushie {
+			offset = 0.1050 -0.0750 -0.1850,
+			rotate = 0.0000 -100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urpawsplushie {
+			offset = 0.1050 -0.0750 -0.1850,
+			rotate = 180.0000 100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urweapon {
+			offset = 0.1200 -0.0550 0.0600,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BagZIP_urweaponpan {
+			offset = 0.1200 -0.0550 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urweaponsaucepan {
+			offset = 0.1200 -0.0550 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_ursnightstick {
+			offset = 0.1200 -0.0250 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urwrench {
+			offset = 0.1200 -0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urbottle {
+			offset = 0.1200 -0.0550 -0.1000,
+			rotate = 90.0000 -20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_urwine {
+			offset = 0.1200 -0.0550 -0.0500,
+			rotate = 90.0000 -20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BagZIP_weapon {
+			offset = 0.1050 0.0000 0.0600,
+			rotate = 90.0000 0.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_rifle {
+			offset = 0.1100 0.0200 0.0600,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_weaponbig {
+			offset = 0.1100 0.0000 0.0600,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_weaponshovel {
+			offset = 0.1100 0.0000 0.1500,
+			rotate = 90.0000 90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BagZIP_weaponpan {
+			offset = 0.1200 0.0000 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_weaponsaucepan {
+			offset = 0.1200 0.0000 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_snightstick {
+			offset = 0.1100 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_wrench {
+			offset = 0.1100 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_flashlight {
+			offset = 0.0000 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment BagZIP_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagZIP_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagZIP_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagZIP_container {
+			offset = 0.0500 0.0000 -0.2600,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containerseed {
+			offset = 0.0500 0.0000 -0.2400,
+			rotate = -90.0000 70.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containertool {
+			offset = 0.0500 0.0000 -0.2800,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containercooler {
+			offset = 0.0500 0.0000 -0.3700,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containertote {
+			offset = 0.0400 0.0000 -0.3700,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containertrash {
+			offset = 0.1100 0.0000 -0.2800,
+			rotate = -90.0000 0.0000 -80.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagZIP_containersack {
+			offset = 0.1000 0.0000 -0.2800,
+			rotate = -90.0000 0.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}	
+
+		attachment BagZIP_containermk {
+			offset = 0.0600 0.0000 -0.2200,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}	
+
+	}
+
+}

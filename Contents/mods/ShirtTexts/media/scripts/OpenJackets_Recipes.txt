@@ -1,0 +1,51 @@
+module Base
+{
+    recipe Make Jacket BlackVest
+    {
+        Jacket_Black/Jacket_BlackOPEN,
+	   keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
+
+        Result:Jacket_BlackVest,
+        OnCreate:Recipe.OnCreate.UpdateClothingVisual,
+        Sound:ClothesRipping,
+        Time:50.0,
+		AnimNode:RipSheets,
+    }
+    recipe Make Jacket LeatherWildRacoonsVest
+    {
+        Jacket_LeatherWildRacoons/Jacket_LeatherWildRacoonsOPEN,
+	   keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
+
+        Result:Jacket_LeatherWildRacoonsVest,
+        OnCreate:Recipe.OnCreate.UpdateClothingVisual,
+        Sound:ClothesRipping,
+        Time:50.0,
+		AnimNode:RipSheets,
+    }
+    recipe Make Jacket LeatherIronRodentVest
+    {
+        Jacket_LeatherIronRodent/Jacket_LeatherIronRodentOPEN,
+	   keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
+
+        Result:Jacket_LeatherIronRodentVest,
+        OnCreate:Recipe.OnCreate.UpdateClothingVisual,
+        Sound:ClothesRipping,
+        Time:50.0,
+		AnimNode:RipSheets,
+    }
+    recipe Make Jacket LeatherBarrelDogsVest
+    {
+        Jacket_LeatherBarrelDogs/Jacket_LeatherBarrelDogsOPEN,
+	   keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
+
+        Result:Jacket_LeatherBarrelDogsVest,
+        OnCreate:Recipe.OnCreate.UpdateClothingVisual,
+        Sound:ClothesRipping,
+        Time:50.0,
+		AnimNode:RipSheets,
+    }
+	
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+Tooltip_RU = {
+    Tooltip_M17 = "Стандартный противогаз пехоты США.", 
+	Tooltip_M17Doff = "M17 с защитным капюшоном NBC.", 
+	Tooltip_DoffHood = "Защитный капюшон NBC, разработанный для M17.", 
+	Tooltip_PackageTop = "Содержит верх костюма NBC и защитные перчатки.", 
+	Tooltip_PackageBottom = "Содержит низ костюма NBC и защитные ботинки.", 
+	Tooltip_MilitaryWebbing = "Стандартная разгрузка пехоты США.", 
+	Tooltip_MilitaryWebbingBag = "Стандартная разгрузка пехоты США с подсумком.", 
+	Tooltip_MilitaryTacticalVest = "Мягкий бронежилет, предназначенный для спецподразделений.", 
+	Tooltip_ODGreen = "Старый армейский бронижелет, обычно выдаваемый резервистам.", 
+	Tooltip_NightVisionGoggles = "Должен быть прикреплен к креплению для использования.", 
+	Tooltip_NVGBroken = "В настоящее время не работает.", 
+	Tooltip_NVGMount = "Используется для крепления ПНВ на шлем.",
+}

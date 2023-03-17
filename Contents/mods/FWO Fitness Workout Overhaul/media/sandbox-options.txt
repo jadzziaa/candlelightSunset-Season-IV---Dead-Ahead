@@ -1,0 +1,52 @@
+VERSION = 1,
+
+option FWOFitness.InitialPerkBonus
+{
+	type = boolean, default = true,
+	page = FWOFitness, translation = FWOFitness_InitialPerkBonus,
+}
+option FWOFitness.currentExerciseRegularityBonus
+{
+	type = boolean, default = true,
+	page = FWOFitness, translation = FWOFitness_currentExerciseRegularityBonus,
+}
+option FWOFitness.currentExerciseOffset
+{
+	type = integer, min = 0, max = 100, default = 15,
+	page = FWOFitness, translation = FWOFitness_currentExerciseOffset ,
+}
+option FWOFitness.currentExerciseRate
+{
+	type = double, min = 0.01, max = 100.0, default = 12.0,
+	page = FWOFitness, translation = FWOFitness_currentExerciseRate,
+}
+option FWOFitness.AverageExerciseRegularityBonus
+{
+	type = double, min = 0.0, max = 100.0, default = 6.0,
+	page = FWOFitness, translation = FWOFitness_AverageExerciseRegularityBonus,
+}
+option FWOFitness.LevelBonus
+{
+	type = double, min = 0.0, max = 100.0, default = 0.30,
+	page = FWOFitness, translation = FWOFitness_LevelBonus,
+}
+option FWOFitness.SpaceOutExercise
+{
+	type = boolean, default = true,
+	page = FWOFitness, translation = FWOFitness_SpaceOutExercise ,
+}
+option FWOFitness.RestedBonus
+{
+	type = boolean, default = true,
+	page = FWOFitness, translation = FWOFitness_RestedBonus,
+}
+option FWOFitness.XPMultiplier
+{
+	type = double, min = 0.01, max = 100.0, default = 1.0,
+	page = FWOFitness, translation = FWOFitness_XPMultiplier,
+}
+option FWOFitness.KeepBagsOn
+{
+	type = boolean, default = false,
+	page = FWOFitness, translation = FWOFitness_KeepBagsOn,
+}

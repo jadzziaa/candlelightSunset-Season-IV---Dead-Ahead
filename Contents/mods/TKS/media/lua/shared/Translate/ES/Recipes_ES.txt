@@ -1,0 +1,11 @@
+Recipe_ES = {
+
+	Recipe_Make_Knife_Sheath = "Hacer funda de cuchillo",
+	Recipe_Make_Katana_Sheath = "Hacer katana funda de cuchillo",
+	Recipe_Paint_Katana_Sheath_Green = "Pintar la funda verde",
+	Recipe_Paint_Katana_Sheath_Red = "Pintar la funda rojo",	
+	Recipe_Paint_Katana_Sheath_Blue = "Pintar la funda azul",	
+	Recipe_Paint_Katana_Sheath_Black = "Pintar la funda negro",	
+	Recipe_Paint_Katana_Sheath_White = "Pintar la funda blanco",
+	Recipe_Wash_Off_the_Paint = "Lave la pintura",	
+}

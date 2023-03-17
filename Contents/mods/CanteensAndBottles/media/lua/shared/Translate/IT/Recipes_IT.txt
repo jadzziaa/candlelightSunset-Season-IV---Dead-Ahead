@@ -1,0 +1,8 @@
+Recipes_IT = 
+{
+	Recipe_Extract_Bladder_from_Soccer_Ball = "Estrai camera d'aria da palla",
+	Recipe_Extract_Bladder_from_Football = "Estrai camera d'aria da palla Football",
+	Recipe_Make_a_Small_Waterskin = "crea piccola borraccia artiganale",
+	Recipe_Make_a_Large_Waterskin = "crea grande borraccia artiganale",
+	Recipe_Make_a_Quality_Waterskin = "crea borraccia artiganale di qualita'",
+}

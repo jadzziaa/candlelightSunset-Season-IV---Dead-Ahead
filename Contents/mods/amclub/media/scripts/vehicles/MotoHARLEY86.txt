@@ -1,0 +1,647 @@
+module Base
+{
+    model AMC_harley_86
+    {
+        mesh = moto/AMC_harley86|frame,
+        shader = vehicle_norandom_multiuv,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    
+    model AMC_harley_86_gastank
+    {
+        mesh = moto/AMC_harley86|gastank,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_exhaust1
+    {
+        mesh = moto/AMC_harley86|exhaust1,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_front_brake
+    {
+        mesh = moto/AMC_harley86|front_brake,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_rear_brake
+    {
+        mesh = moto/AMC_harley86|rear_brake,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_front_suspension1
+    {
+        mesh = moto/AMC_harley86|front_suspension1,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_rear_suspension
+    {
+        mesh = moto/AMC_harley86|rear_suspension1,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_headlight
+    {
+        mesh = moto/AMC_harley86|headlight,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_seat1
+    {
+        mesh = moto/AMC_harley86|seat1,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_bag_left
+    {
+        mesh = moto/AMC_harley86|bag_left,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_bag_right
+    {
+        mesh = moto/AMC_harley86|bag_right,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_holster_left
+    {
+        mesh = moto/AMC_harley86|holster_left,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_holster_right
+    {
+        mesh = moto/AMC_harley86|holster_right,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1.00,
+    }
+    model AMC_harley_86_Wheel_front
+    {
+        mesh = moto/AMC_harley86_tires|front_w,
+        texture = AMC_harley_86_wheel,
+        shader = vehiclewheel,
+        scale = 1,
+    }
+    model AMC_harley_86_Wheel_rear
+    {
+        mesh = moto/AMC_harley86_tires|rear_w,
+        texture = AMC_harley_86_wheel,
+        shader = vehiclewheel,
+        scale = 1,
+    }
+    vehicle AMC_harley
+    {
+        part AMCConfig
+        {
+            category = nodisplay,
+
+            table AMCConfig
+            {
+                type = HARLEY,
+                fallDelta = 3,
+                speedDelta = 2,
+                hideWeapon = 1,
+                quickEnter = 1,
+            }
+        }
+
+        part TCLConfig
+        {
+            category = nodisplay,
+
+            table TCLConfig
+            {
+                disableDoorLocker = 1,
+                disableSleep = 1,
+                wreckerName = TrailerAMC,
+            }
+        }
+
+        mechanicType = 3,
+        engineRepairLevel = 4,
+        playerDamageProtection = 1.1,
+
+        model
+        {
+            file = AMC_harley_86,
+            scale = 0.8200,
+            offset = 0.0000 0.1341 -0.0854,
+        }
+
+        skin
+        {
+            texture = AMC_harley_86_texture,
+        }
+
+        skin
+        {
+            texture = AMC_harley_86_texture2,
+        }
+
+        skin
+        {
+            texture = AMC_harley_86_texture3,
+        }
+
+        textureRust = AMC_harley_86_rust,
+        textureMask = AMC_harley_86_mask,
+        textureLights = AMC_harley_86_lights,
+        textureDamage1Shell = AMC_harley_86_damage,
+        textureDamage2Shell = AMC_harley_86_damage,
+        textureDamage1Overlay = AMC_harley_86_blood,
+        textureDamage2Overlay = AMC_harley_86_blood,
+        textureShadow = AMC_harley_86_shadow,
+
+        sound
+        {
+            horn = VehicleHorn,
+        }
+
+        engineForce = 3000,
+        maxSpeed = 60f,
+        extents = 0.6829 0.9512 2.3415,
+        mass = 180,
+        physicsChassisShape = 0.6829 0.9512 2.3415,
+        centerOfMassOffset = 0.0000 0.8049 0.0000,
+        shadowExtents = 2.2869 2.2875,
+        shadowOffset = 0.0125 -0.0250,
+        engineLoudness = 80,
+        engineQuality = 70,
+        brakingForce = 10,
+        stoppingMovementForce = 0.0f,
+        rollInfluence = 0.4f,
+        steeringIncrement = 0.01,
+        steeringClamp = 0.08,
+        suspensionStiffness = 50,
+        suspensionCompression = 0,
+        suspensionDamping = 100,
+        maxSuspensionTravelCm = 16,
+        suspensionRestLength = 0.2f,
+        wheelFriction = 5.4f,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 2,
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.1829 0.3171 1.4634,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.1829 0.3171 1.4634,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = 0.0000 0.1951 -0.6585,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = 0.0000 0.3171 0.8171,
+            radius = 0.3f,
+            width = 0.5f,
+        }
+
+        area Engine
+        {
+            xywh = -0.7561 0.3293 0.8293 0.8293,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 0.7561 -0.3293 0.8293 0.8293,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -0.7561 -0.5488 0.8293 0.8293,
+        }
+
+        area GasTank
+        {
+            xywh = 0.7561 0.1707 0.8293 0.8293,
+        }
+
+        area TireRearLeft
+        {
+            xywh = 0.0732 -1.5854 0.8293 0.8293,
+        }
+
+        area TireFrontLeft
+        {
+            xywh = 0.0000 1.5854 0.8293 0.8293,
+        }
+
+        area TireRearRight
+        {
+            xywh = -0.0732 -1.5854 0.8293 0.8293,
+        }
+
+        template = GasTank,
+
+        part GasTank
+        {
+            category = bodywork,
+
+            model Gastank
+            {
+                file = AMC_harley_86_gastank,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            install
+            {
+                skills = Mechanics:6,
+            }
+
+            uninstall
+            {
+                skills = Mechanics:6,
+            }
+        }
+
+        template = Engine,
+
+        part Engine
+        {
+            category = bodywork,
+        }
+
+        template = Battery,
+
+        part Battery
+        {
+            category = bodywork,
+            area = GasTank,
+        }
+
+        template = Muffler,
+
+        part Muffler
+        {
+            specificItem = false,
+            itemType = Autotsar.ATAMotoHarleyMuffler,
+
+            model Muffler
+            {
+                file = AMC_harley_86_exhaust1,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            category = bodywork,
+            area = TireRearLeft,
+        }
+
+        template = Brake/part/BrakeFrontLeft,
+        template = Brake/part/BrakeRearLeft,
+
+        part BrakeFrontLeft
+        {
+            area = TireFrontLeft,
+
+            model brakeFront
+            {
+                file = AMC_harley_86_front_brake,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            table install
+            {
+                requireInstalled = SuspensionFrontLeft,
+                requireUninstalled = ATAMotoTireFrontWheel,
+            }
+
+            table uninstall
+            {
+                requireUninstalled = ATAMotoTireFrontWheel,
+            }
+        }
+
+        part BrakeRearLeft
+        {
+            area = TireRearLeft,
+
+            model brakeRear
+            {
+                file = AMC_harley_86_rear_brake,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            table install
+            {
+                requireInstalled = SuspensionRearLeft,
+                requireUninstalled = ATAMotoTireRearWheel,
+            }
+
+            table uninstall
+            {
+                requireUninstalled = ATAMotoTireRearWheel,
+            }
+        }
+
+        template = Suspension,
+
+        part SuspensionFrontLeft
+        {
+            area = TireFrontLeft,
+
+            model Default
+            {
+                file = AMC_harley_86_front_suspension1,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            table install
+            {
+                requireUninstalled = ATAMotoTireFrontWheel,
+            }
+
+            table uninstall
+            {
+                requireUninstalled = BrakeFrontLeft,
+            }
+        }
+
+        part SuspensionFrontRight
+        {
+            category = nodisplay,
+        }
+
+        part SuspensionRearLeft
+        {
+            area = TireRearLeft,
+
+            model Default
+            {
+                file = AMC_harley_86_rear_suspension,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            table install
+            {
+                requireUninstalled = ATAMotoTireRearWheel,
+            }
+
+            table uninstall
+            {
+                requireUninstalled = BrakeRearLeft,
+            }
+        }
+
+        part SuspensionRearRight
+        {
+            category = nodisplay,
+            area = TireRearLeft,
+        }
+
+        template = Headlight/part/HeadlightLeft,
+
+        part HeadlightLeft
+        {
+            model frontHeadlight
+            {
+                file = AMC_harley_86_headlight,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            area = TireFrontLeft,
+        }
+
+        template = Headlight/part/HeadlightRearLeft,
+        part HeadlightRearLeft
+		{
+			area = TireRearLeft,
+		}
+        template! = ATAMotoWheelsReady,
+
+        part ATAMotoTireFrontWheel
+        {
+            specificItem = false,
+            itemType = Autotsar.ATAMotoHarleyOldTire;Autotsar.ATAMotoHarleyNormalTire;Autotsar.ATAMotoHarleyModernTire,
+
+            model InflatedTirePlusWheel
+            {
+                file = AMC_harley_86_Wheel_front,
+            }
+
+            table install
+            {
+                requireInstalled = SuspensionFrontLeft,
+            }
+        }
+
+        part ATAMotoTireRearWheel
+        {
+            specificItem = false,
+            itemType = Autotsar.ATAMotoHarleyOldTire;Autotsar.ATAMotoHarleyNormalTire;Autotsar.ATAMotoHarleyModernTire,
+
+            model InflatedTirePlusWheel
+            {
+                file = AMC_harley_86_Wheel_rear,
+            }
+
+            table install
+            {
+                requireInstalled = SuspensionRearLeft,
+            }
+        }
+
+        passenger FrontLeft
+        {
+            door = DoorFrontLeft,
+            door2 = DoorFrontRight,
+            area = SeatFrontLeft,
+            showPassenger = true,
+            hasRoof = false,
+
+            position inside
+            {
+                offset = 0.0000 0.7561 -0.2805,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.0000 0.7561 -0.2805,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontLeft,
+            }
+
+            switchSeat FrontRight
+            {
+                sound =,
+            }
+        }
+
+        template! = PassengerCommon,
+        template = Seat/part/SeatFrontLeft,
+
+        part SeatFrontLeft
+        {
+            category = bodywork,
+            specificItem = false,
+            itemType = Autotsar.ATAMotoHarleySeat,
+
+            model Default
+            {
+                file = AMC_harley_86_seat1,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+        }
+
+        template = Door/part/DoorFrontLeft,
+        template = Door/part/DoorFrontRight,
+
+        part Door*
+        {
+            category = nodisplay,
+
+            anim Open
+            {
+                sound =,
+            }
+
+            anim Close
+            {
+                sound =,
+            }
+
+            anim Lock
+            {
+                sound =,
+            }
+
+            anim Unlock
+            {
+                sound =,
+            }
+
+            anim IsLocked
+            {
+                sound =,
+            }
+
+            lua
+            {
+                create = CommonTemplates.Create.setInventoryNil,
+                init = CommonTemplates.Init.setInventoryNil,
+                use = ATATuning.Use.Door,
+            }
+        }
+
+        template = ATABags/part/ATABagMotoLeft,
+
+        part ATABagMotoLeft
+        {
+            area = SeatFrontLeft,
+
+            model Default
+            {
+                file = AMC_harley_86_bag_left,
+            }
+        }
+
+        template = ATABags/part/ATABagMotoRight,
+
+        part ATABagMotoRight
+        {
+            area = SeatFrontRight,
+
+            model Default
+            {
+                file = AMC_harley_86_bag_right,
+            }
+        }
+
+        part ATABagMoto*
+        {
+            itemType = Autotsar.ATAMotoHarleyBag,
+
+            lua
+            {
+                create = ATATuning.Create.Chance15,
+                init = ATATuning.Init.DefaultModel,
+            }
+        }
+
+        template = ATABags/part/ATABagMotoHolsterLeft,
+
+        part ATABagMotoHolsterLeft
+        {
+            area = SeatFrontLeft,
+
+            model Default
+            {
+                file = AMC_harley_86_holster_left,
+            }
+        }
+
+        template = ATABags/part/ATABagMotoHolsterRight,
+
+        part ATABagMotoHolsterRight
+        {
+            area = SeatFrontRight,
+
+            model Default
+            {
+                file = AMC_harley_86_holster_right,
+            }
+        }
+
+        part ATABagMotoHolster*
+        {
+            itemType = Autotsar.ATAMotoHarleyHolster,
+
+            lua
+            {
+                create = ATATuning.Create.Chance5,
+                init = ATATuning.Init.DefaultModel,
+            }
+        }
+    }
+}

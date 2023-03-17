@@ -1,0 +1,63 @@
+module Base
+{
+    item HandTorch
+    {
+        DisplayCategory 	= 	LightSource,
+        LightDistance		=	20,
+        Weight				=	0.5,
+        DisappearOnUse		=	FALSE,
+        Type				=	Drainable,
+        TorchCone			=	TRUE,
+        UseDelta			=	0.0001,
+        LightStrength		=	1.3,
+        DisplayName			=	Hand Torch,
+        ActivatedItem		=	TRUE,
+		Tooltip 			= 	Tooltip_HandTorch_BetterFlashlights,
+        Icon				=	HandTorch_Icon,
+        MetalValue 			= 	10,
+        cantBeConsolided 	= 	TRUE,
+        StaticModel 		= 	HandTorch,
+        primaryAnimMask 	= 	HoldingTorchRight,
+        secondaryAnimMask 	= 	HoldingTorchLeft,
+        WorldStaticModel 	= 	HandTorchGround,
+		AttachmentType 		= 	Torch,
+    }
+	
+	model HandTorchGround
+    {
+        mesh = WorldItems/HandTorch,
+        texture = HandTorch,
+        scale = 0.4,
+    }
+	
+	item Torch
+	{
+	    DisplayCategory 	= 	LightSource,
+		LightDistance		=	25,
+		Weight				=	0.7,
+		DisappearOnUse		=	FALSE,
+		Type				=	Drainable,
+		TorchCone			=	TRUE,
+		UseDelta			=	0.0004,
+		LightStrength		=	2,
+		TorchDot 			= 	0.66,
+		DisplayName			=	Flashlight,
+		ActivatedItem		=	TRUE,
+		Tooltip 			= 	Tooltip_Torch_BetterFlashlights,
+		Icon				=	Flashlight_Icon,
+		MetalValue 			= 	10,
+		cantBeConsolided 	= 	TRUE,
+		StaticModel 		= 	FlashLight,
+		primaryAnimMask 	= 	HoldingTorchRight,
+        secondaryAnimMask 	= 	HoldingTorchLeft,
+        WorldStaticModel 	= 	FlashLightGround,
+		AttachmentType 		= 	Torch,
+	}
+	
+	model FlashLightGround
+    {
+        mesh = WorldItems/FlashLight,
+        texture = FlashLight,
+        scale = 0.4,
+    }
+}

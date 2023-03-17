@@ -1,0 +1,57 @@
+module BetterBatteries
+{
+   import {
+      Base
+   }
+
+   recipe Insert Battery into Hand Crank
+   {
+     destroy HandCrank,
+     destroy Battery,
+
+     Result:HandCrank,
+     Time:30,
+     OnTest:Recipe.OnTest.BBItemBatteryInsertInvert,
+     OnCreate:Recipe.OnCreate.BBItemBatteryInsert,
+     StopOnWalk:false,
+   }
+
+
+   recipe Insert Battery into Makeshift Hand Crank
+   {
+     destroy MakeshiftCrank,
+     destroy Battery,
+
+     Result:MakeshiftCrank,
+     Time:30,
+     OnTest:Recipe.OnTest.BBItemBatteryInsertInvert,
+     OnCreate:Recipe.OnCreate.BBItemBatteryInsert,
+     StopOnWalk:false,
+   }
+
+   recipe Remove Battery
+   {
+     keep HandCrank/MakeshiftCrank,
+     
+     Result:Battery,
+     OnTest:Recipe.OnTest.BBItemBatteryRemoval,
+     OnCreate:Recipe.OnCreate.BBItemBatteryRemoval,
+     StopOnWalk:false,
+   }
+   
+   recipe Make Makeshift Hand Crank
+   {
+     keep [Recipe.GetItemTypes.Screwdriver],
+     ElectronicsScrap=2,
+     DuctTape=1,
+
+     Result:MakeshiftCrank,
+     SkillRequired:Electricity=3,
+     Time:120,
+     OnCreate:Recipe.OnCreate.HandCrankCreation,
+     StopOnWalk:false,
+     Category:Electrical,
+     Prop1:Screwdriver,
+     Prop2:CDplayer,
+   }
+}

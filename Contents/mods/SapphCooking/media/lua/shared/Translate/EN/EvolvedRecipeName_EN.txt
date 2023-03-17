@@ -1,0 +1,31 @@
+EvolvedRecipeName_EN = {
+	EvolvedRecipeName_SapphCooking.SlicedBellPepper = "Bell Pepper",
+	EvolvedRecipeName_SapphCooking.SlicedCarrots = "Carrots",
+	EvolvedRecipeName_SapphCooking.SlicedBroccoli = "Broccoli",
+	EvolvedRecipeName_SapphCooking.SlicedTomato = "Tomato",
+	EvolvedRecipeName_SapphCooking.DicedBellPepper = "Bell Pepper",
+	EvolvedRecipeName_SapphCooking.DicedCarrots = "Carrots",
+	EvolvedRecipeName_SapphCooking.DicedBroccoli = "Broccoli",
+	EvolvedRecipeName_SapphCooking.DicedTomato = "Tomato",
+	EvolvedRecipeName_SapphCooking.CoffeePacket = "Coffee",
+	EvolvedRecipeName_SapphCooking.HotsaucePacket = "Hot",
+	EvolvedRecipeName_SapphCooking.SugarPacket = "Sweet",
+	EvolvedRecipeName_SapphCooking.SaltPacket = "Salted",
+	EvolvedRecipeName_SapphCooking.GranulatedSugar = "Sweet",
+	EvolvedRecipeName_SapphCooking.PopbottlewithMilk = "Milk",
+	EvolvedRecipeName_SapphCooking.BottlewithMilk = "Milk",
+	EvolvedRecipeName_SapphCooking.PeeledPotato = "Potato",
+	EvolvedRecipeName_SapphCooking.ColaBottlewithProteinShake = "Shake",
+	EvolvedRecipeName_SapphCooking.ColaBottlewithMilk = "Milk",
+	EvolvedRecipeName_SapphCooking.CurryPowder = "Curry",
+	EvolvedRecipeName_SapphCooking.SlicedChicken = "Chicken",
+	EvolvedRecipeName_SapphCooking.SlicedSteak = "Beef",
+	EvolvedRecipeName_SapphCooking.StrawberryMilk = "Strawberry Milk",
+	EvolvedRecipeName_SapphCooking.EnergyDrink = "Energy Drink",
+
+
+
+
+
+
+}

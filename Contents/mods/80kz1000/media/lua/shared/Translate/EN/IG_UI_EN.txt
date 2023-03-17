@@ -1,0 +1,10 @@
+IG_UI_EN = {
+	IGUI_VehicleName80kz1000 = "'80 Kawasaki KZ1000 Police",
+
+	IGUI_VehiclePartKZ1Ktrunk = "Trunk Storage",
+	IGUI_VehiclePartKZ1Kleftbox = "Left Storage Box",
+	IGUI_VehiclePartKZ1Krightbox = "Right Storage Box",
+	IGUI_VehiclePartTrunkDoorLeft = "Left Storage Box Lid",
+	IGUI_VehiclePartTrunkDoorRight = "Right Storage Box Lid",
+
+}

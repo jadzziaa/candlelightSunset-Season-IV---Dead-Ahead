@@ -1,0 +1,532 @@
+module Base {
+
+	recipe Add Weapon Slot
+    {
+        [NATTWeaponSlotBackpacks],
+        LeatherStrips=4,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_Weapon,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Weapon Slot
+    {
+        [NATTWeaponSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_Weapon,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_Weapon
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Weapon Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_Weapon
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=Weapon Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+    recipe Add Short Weapon Slot
+    {
+        [NATTShortWeaponSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_ShortWeapon,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Short Weapon Slot
+    {
+        [NATTShortWeaponSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_ShortWeapon,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_ShortWeapon
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Short Weapon Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_ShortWeapon
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=Short Weapon Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+	 recipe Add Flashlight Slot
+    {
+        [NATTFlashlightSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_Flashlight,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Flashlight Slot
+    {
+        [NATTFlashlightSlotBackpacks],
+        keep Scissors,
+
+
+        Result:NATT_Remove_Flashlight,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_Flashlight
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Flashlight Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_Flashlight
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=Flashlight Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+    recipe Add Left Slot
+    {
+        [NATTLeftSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_Left,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Left Slot
+    {
+        [NATTLeftSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_Left,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_Left
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Left Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_Left
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=Left Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+	 recipe Add Right Slot
+    {
+        [NATTRightSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_Right,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Right Slot
+    {
+        [NATTRightSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_Right,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_Right
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Right Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_Right
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=Right Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+     recipe Add Utility Left Slot
+    {
+        [NATTUtilityLeftSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_UtilityLeft,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Utility Left Slot
+    {
+        [NATTUtilityLeftSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_UtilityLeft,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_UtilityLeft
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Utility Left Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_UtilityLeft
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=Utility Left Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+	  recipe Add Utility Right Slot
+    {
+        [NATTUtilityRightSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_UtilityRight,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Utility Right Slot
+    {
+        [NATTUtilityRightSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_UtilityRight,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_UtilityRight
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Utility Right Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_UtilityRight
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Utility Right Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+	 recipe Add Container Slot
+    {
+        [NATTContainerSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_Container,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Container Slot
+    {
+        [NATTContainerSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_Container,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_Container
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Container Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_Container
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Container Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+	 recipe Add Small Container Left Slot
+    {
+        [NATTSmallContainerLeftSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_ContainerSmallLeft,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Small Container Left Slot
+    {
+        [NATTSmallContainerLeftSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_ContainerSmallLeft,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_ContainerSmallLeft
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Small Container Left Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_ContainerSmallLeft
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Small Container Left Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+	 recipe Add Small Container Right Slot
+    {
+        [NATTSmallContainerRightSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_ContainerSmallRight,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Small Container Right Slot
+    {
+        [NATTSmallContainerRightSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_ContainerSmallRight,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_ContainerSmallRight
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Small Container Right Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_ContainerSmallRight
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Small Container Right Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+    recipe Add Bedroll Slot
+    {
+        [NATTBedrollSlotBackpacks],
+        LeatherStrips=2,
+        Thread,
+        keep Scissors,
+        keep Needle,
+
+        Result:NATT_Bedroll,
+        Time:300.0,
+		OnCreate:NATTAddAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidAdd,
+        Category:Tailoring,
+		SkillRequired:Tailoring=2,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+	recipe Remove Bedroll Slot
+    {
+        [NATTBedrollSlotBackpacks],
+        keep Scissors,
+
+        Result:NATT_Remove_Bedroll,
+        Time:300.0,
+		OnCreate:NATTRemoveAttachmentSlot,
+		RemoveResultItem:true,
+		OnTest: NATTcheckIsValidRemove,
+        Category:Tailoring,
+		Tooltip: Tooltip_AddSlotUnequip,
+    }
+
+    item NATT_Bedroll
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Bedroll Slot,
+		Icon	=	NATTAttachmentSlot,
+	}
+
+    item NATT_Remove_Bedroll
+	{
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Bedroll Slot,
+		Icon	=	NATTAttachmentSlotRemove,
+	}
+
+}

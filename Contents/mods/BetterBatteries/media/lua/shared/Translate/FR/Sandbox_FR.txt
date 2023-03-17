@@ -1,0 +1,12 @@
+Sandbox_FR = {
+	Sandbox_BetterBatteries = "Meilleures piles",
+	Sandbox_BetterBatteries_CrankTime = "Temps de base pour tourner la manivelle",
+	Sandbox_BetterBatteries_CrankTime_tooltip = "Temps nécessaire en minutes en jeu pour recharger entièrement une pile vide sans pénalité ou bonus.",
+	Sandbox_BetterBatteries_StrengthBuff = "Bonus de force de la manivelle",
+	Sandbox_BetterBatteries_StrengthBuff_tooltip = "Déterminer si oui ou non un haut niveau de force appliquera un bonus sur le temps.",
+	Sandbox_BetterBatteries_EndurancePenalty = "Pénalité d'endurance sur la manivelle",
+	Sandbox_BetterBatteries_EndurancePenalty_tooltip = "Déterminer si oui ou non un bas niveau d'endurance appliquera une pénalité de temps. (Malgré cette option, vous ne pourrez pas utiliser la manivelle à un très bas niveau d'endurance.)",
+	Sandbox_BetterBatteries_UnhappinessPenalty = "Pénalité de tristesse sur la manivelle",
+	Sandbox_BetterBatteries_UnhappinessPenalty_tooltip = "Déterminer si oui ou non la tristesse appliquera une pénalité de temps.",
+	
+}

@@ -1,0 +1,534 @@
+module Base
+{
+	model Vehicles_GarbageTruck
+	{
+		mesh = vehicles/Vehicle_GarbageTruck,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.004519,
+	}
+	model Vehicles_GarbageWheelFronts
+	{
+		mesh = vehicles/GarbageFrontWheels,
+		texture = vehicles/gtruckwheelf,
+        	shader = vehiclewheel,
+		scale = 0.004519,
+	}
+	model Vehicles_GarbageWheelBacks
+	{
+		mesh = vehicles/GarbageBackWheels,
+		texture = vehicles/gtruckwheelr,
+        	shader = vehiclewheel,
+		scale = 0.004519,
+	}
+	vehicle GarbageTruck
+	{
+		mechanicType = 2,
+		offRoadEfficiency = 1.1,
+		engineRepairLevel = 5,
+		playerDamageProtection = 1.3,
+
+		model
+		{
+			file = Vehicles_GarbageTruck,
+			scale = 1.8500,
+			offset = 0.0000 0.3514 0.4865,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_GarbageShell,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_GarbageShell_green,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_GarbageShell_blue,
+		}
+
+		textureMask = Vehicles/vehicle_Garbage_mask,
+		textureLights = Vehicles/vehicle_Garbage_lights,
+		textureDamage1Overlay = Vehicles/fr_Veh_Blood_Mask,
+		textureDamage2Overlay = Vehicles/fr_Veh_Blood_Hvy,
+		textureDamage1Shell = Vehicles/fr_Veh_Damage1,
+		textureDamage2Shell = Vehicles/fr_Veh_Damage2,
+		textureRust = Vehicles/fr_Veh_Rust,
+
+		sound
+		{
+			backSignal = VehicleBackUpBeeper,
+			engine = VehicleEngineStepVan,
+			engineStart = VehicleEngineStepVan,
+			engineTurnOff = VehicleEngineStepVan,
+			horn = VehicleHornVan,
+			ignitionFail = VehiclegnitionFailStepVan,
+		}
+
+		extents = 0.9730 1.2757 3.8486,
+		mass = 1100,
+		physicsChassisShape = 0.9730 1.2757 3.8486,
+		centerOfMassOffset = 0.0000 0.6324 0.0000,
+		shadowExtents = 1.1298 3.8649,
+		shadowOffset = 0.0000 -0.0000,
+		engineForce = 4000,
+		engineQuality = 80,
+		engineLoudness = 110,
+		maxSpeed = 70f,
+		brakingForce = 70,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 40,
+		suspensionCompression = 3.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.55f,
+		wheelFriction = 1.0f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 4,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.3622 -0.3514 0.9297,
+			radius = 0.20f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.3622 -0.3514 0.9297,
+			radius = 0.20f,
+			width = 0.5f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.0000 -0.3514 -0.5838,
+			radius = 0.20f,
+			width = 20.0f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = 0.0000 -0.3514 -1.0811,
+			radius = 0.20f,
+			width = 20.0f,
+		}
+
+		template = PassengerSeat4,
+
+		passenger FrontLeft
+		{
+			position inside
+			{
+				offset = 0.2000 0.0270 0.9081,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.6811 -0.3514 0.8486,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			position inside
+			{
+				offset = -0.2000 0.0270 0.9081,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.5946 -0.0108 0.9459,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		passenger RearLeft
+		{
+			door = DoorRearLeft,
+			area = SeatRearLeft,
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.6270 -0.4486 -2.3027,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.6811 -0.3514 -2.2108,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearLeft,
+			}
+		}
+
+		passenger RearRight
+		{
+			door = DoorRearRight,
+			area = SeatRearRight,
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = -0.6000 -0.4486 -2.3027,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.7135 -0.0108 -2.2162,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 1.9784 1.0486 0.6703,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -2.1838 1.0378 0.8108,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.7243 1.5351 0.4757 0.5297,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.7243 1.5351 0.4757 0.5297,
+		}
+
+		area SeatRearLeft
+		{
+			xywh = 0.7243 -1.6216 0.4757 0.5297,
+		}
+
+		area SeatRearRight
+		{
+			xywh = -0.7243 -1.6216 0.4757 0.5297,
+		}
+
+		area GasTank
+		{
+			xywh = -0.7243 0.8324 0.4757 0.4757,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.7243 1.4216 0.4757 0.4757,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.7243 1.4216 0.4757 0.4757,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.7243 -0.0919 0.4757 0.4757,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.7243 -0.0919 0.4757 0.4757,
+		}
+
+		template = TrunkDoor,
+		template = Trunk/part/TruckBed,
+
+		part TruckBed
+		{
+			itemType = Base.BigTrunk,
+
+			container
+			{
+				capacity = 160,
+			}
+
+			lua
+			{
+				create = GarbageTruckTrunk.Create.GarbageTrunk,
+				init = GarbageTruckTrunk.Init.GarbageTrunk,
+				update = GarbageTruckTrunk.Update.GarbageTrunk,
+			}
+		}
+
+		part TruckBed
+		{
+			itemType = Base.BigTrunk,
+
+			container
+			{
+				capacity = 180,
+			}
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+		template = Seat/part/SeatRearLeft,
+		template = Seat/part/SeatRearRight,
+
+		part Seat*
+		{
+			table install
+			{
+				skills = Mechanics:2,
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+
+			container
+			{
+				capacity = 7,
+				test = Vehicles.ContainerAccess.GloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			install
+			{
+				skills = Mechanics:7,
+				recipes = Intermediate Mechanics,
+			}
+
+			uninstall
+			{
+				skills = Mechanics:7,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+
+		part Muffler
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = EngineDoor,
+
+		part EngineDoor
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		part Heater
+		{
+			category = engine,
+
+			lua
+			{
+				update = Vehicles.Update.Heater,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Windshield/part/Windshield,
+		template = Windshield/part/WindshieldRear,
+
+		part Windshield*
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+
+		part Window*
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+		template = Door/part/DoorRearLeft,
+		template = Door/part/DoorRearRight,
+		template = Door/part/DoorRear,
+
+		part Door*
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		part DoorRear
+		{
+			table uninstall
+			{
+				requireUninstalled = WindshieldRear,
+			}
+
+			hasLightsRear = false,
+		}
+
+		template = Tire,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = Vehicles_GarbageWheelFronts,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = Vehicles_GarbageWheelFronts,
+			}
+		}
+
+		part TireRearRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = Vehicles_GarbageWheelBacks,
+			}
+		}
+
+		part TireRearLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = Vehicles_GarbageWheelBacks,
+			}
+		}
+
+		template = Brake,
+
+		part Brake*
+		{
+			table install
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Suspension,
+
+		part Suspension*
+		{
+			table install
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Radio,
+		template = Headlight,
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.2216 1.4595,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

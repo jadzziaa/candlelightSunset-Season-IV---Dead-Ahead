@@ -1,0 +1,46 @@
+VERSION = 1,
+
+option UndeadSurvivor.StalkerChance = {
+	type = double,
+	default = 0.04,
+	min = 0.00,
+	max = 100,
+	page = UndeadSurvivor,
+	translation = UndeadSurvivor.StalkerChance,
+}
+
+option UndeadSurvivor.NomadChance = {
+	type = double,
+	default = 0.04,
+	min = 0.00,
+	max = 100,
+	page = UndeadSurvivor,
+	translation = UndeadSurvivor.NomadChance,
+}
+
+option UndeadSurvivor.PrepperChance = {
+	type = double,
+	default = 0.04,
+	min = 0.00,
+	max = 100,
+	page = UndeadSurvivor,
+	translation = UndeadSurvivor.PrepperChance,
+}
+
+option UndeadSurvivor.HeadhunterChance = {
+	type = double,
+	default = 0.04,
+	min = 0.00,
+	max = 100,
+	page = UndeadSurvivor,
+	translation = UndeadSurvivor.HeadhunterChance,
+}
+
+option UndeadSurvivor.AmazonaChance = {
+	type = double,
+	default = 0.08,
+	min = 0.00,
+	max = 100,
+	page = UndeadSurvivor,
+	translation = UndeadSurvivor.AmazonaChance,
+}

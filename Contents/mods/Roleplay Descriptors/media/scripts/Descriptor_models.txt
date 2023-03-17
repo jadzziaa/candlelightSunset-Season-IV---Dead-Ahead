@@ -1,0 +1,163 @@
+module Base {
+
+	model ExclamationRed
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model ExclamationOrange
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationYellow
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationGreen
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationBlue
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationPink
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationPurple
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationWhite
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model ExclamationGrey
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    }	
+	
+	model ExclamationBlack
+    {
+        mesh = WorldItems/Exclaim,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+
+	model QuestionRed
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/RedDescriptor,
+        scale = 1,
+    }
+
+    model QuestionOrange
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/OrangeDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionYellow
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/YellowDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionGreen
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/GreenDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionBlue
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/BlueDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionPink
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/PinkDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionPurple
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/PurpleDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionWhite
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/WhiteDescriptor,
+        scale = 1,
+    }
+	
+	model QuestionGrey
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/GreyDescriptor,
+        scale = 1,
+    }	
+	
+	model QuestionBlack
+    {
+        mesh = WorldItems/Question,
+        texture = WorldItems/BlackDescriptor,
+        scale = 1,
+    }
+	
+	model PinnedPaper
+    {
+        mesh = WorldItems/PaperWall,
+        texture = WorldItems/SheetOfPaper,
+        scale = 1,
+    }
+	
+	model PinnedPaperKnife
+    {
+        mesh = WorldItems/KnifePaper,
+        texture = WorldItems/KnifePaper,
+        scale = scale = 1,
+    }
+	
+	model PinnedPaperScrewdriver
+    {
+        mesh = WorldItems/ScrewPaper,
+        texture = WorldItems/ScrewPaper,
+        scale = 1,
+    }
+}

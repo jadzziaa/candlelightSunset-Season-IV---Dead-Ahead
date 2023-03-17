@@ -1,0 +1,22 @@
+ContextMenu_PTBR = {
+
+	ContextMenu_TuckIn = "Guardar Calça",
+    ContextMenu_TuckOut = "Soltar Calça",
+	ContextMenu_Strap = "Prender Alça",
+    ContextMenu_Unstrap = "Soltar Alça",
+	ContextMenu_Fasten = "Apertar",
+    ContextMenu_Unfasten = "Afrouxar",
+    ContextMenu_VisorUp = "Levantar Visor",
+    ContextMenu_VisorDown = "Abaixar Visor",
+    ContextMenu_PullUp = "Levantar",
+    ContextMenu_PullDown = "Abaixar",
+    ContextMenu_LeftArm = "Braço Direito",
+    ContextMenu_RightArm = "Braço Esquerdo",
+    ContextMenu_Fold = "Dobrar",
+    ContextMenu_Unfold = "Desdobrar",
+	ContextMenu_FlipUp = "Subir NVG",
+	ContextMenu_FlipDown = "Descer NVG",
+	ContextMenu_RollUp = "Levantar Mangas",
+	ContextMenu_RollDown = "Abaixar Mangas",
+
+} 

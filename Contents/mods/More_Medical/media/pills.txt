@@ -1,0 +1,145 @@
+ else if (trim.trim().equalsIgnoreCase("BoredomChange")) { -- скукова
+else if (trim.trim().equalsIgnoreCase("StressChange")) { -- стресс 
+else if (trim.trim().equalsIgnoreCase("UnhappyChange")) { -- несчастье
+else if (trim.trim().equalsIgnoreCase("HungerChange")) { -- голод
+else if (trim.trim().equalsIgnoreCase("ThirstChange")) { -- жажда
+else if (trim.trim().equalsIgnoreCase("FatigueChange")) { - сонливость
+else if (trim.trim().equalsIgnoreCase("EnduranceChange")) { -- усталость (отдышка)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	item Antibiotics
+    {
+        DisplayCategory = FirstAid,
+        Weight	=	0.1,
+        Type	=	Food,
+        DisplayName	=	Antibiotics,
+        Icon	=	Antibiotics,
+        ReduceInfectionPower     =   50,
+        CustomContextMenu   =   Take,
+        CantBeFrozen = TRUE,
+        Tooltip = Tooltip_Antibiotics,
+        Medical = TRUE,
+        WorldStaticModel = Antibiotics,
+    }
+    
+    item Cigarettes
+	{
+	    DisplayCategory = Junk,
+		Count	=	20,
+		HungerChange	=	0,
+		Weight	=	0.005,
+		RequireInHandOrInventory	=	Matches/Lighter,
+		Type	=	Food,
+		DisplayName	=	Cigarettes,
+		StressChange	=	-5,
+		Icon	=	IckySticks,
+		CustomContextMenu = Smoke,
+		CantBeFrozen = TRUE,
+		OnEat = OnEat_Cigarettes,
+		StaticModel = Cigarette,
+		EatType = Cigarettes,
+		WorldStaticModel = CigarettePack_Ground,
+		CustomEatSound = ,
+	}
+    
+    
+    item MushroomGeneric5
+	{
+		DisplayName = Mushrooms,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.2,
+		Icon = MushroomGeneric5,
+		EvolvedRecipe = Pizza:15;Burger:15;Omelette:15;Stir fry Griddle Pan:15;Stir fry:15;Stew:15;Pie:15;Soup:15;Sandwich:15;Sandwich Baguette:15;Salad:15;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15;HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
+		FoodType = Mushroom,
+		HerbalistType = Mushroom,
+		OnEat = OnEat_WildFoodGeneric,
+		DaysFresh = 3,
+		DaysTotallyRotten = 4,
+		HungerChange = -15,
+		ThirstChange = -1,
+		Calories = 32,
+		Carbohydrates = 2.56,
+		Lipids = 0.32,
+		Proteins = 2.36,
+		WorldStaticModel = MushroomGeneric1,
+		EvolvedRecipeName = Mushroom,
+	}
+    
+    
+    item Pills
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.2,
+		Type	=	Drainable,
+        UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Painkillers,
+		Icon	=	PillsPainkiller,
+		Tooltip = Tooltip_Painkillers,
+		StaticModel = PillBottle,
+		WorldStaticModel = PainKillers_Ground,
+		Medical = TRUE,
+	}
+
+	item PillsAntiDep
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.2,
+		Type	=	Drainable,
+        UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Antidepressants,
+		Icon	=	PillsAntidepressant,
+		Tooltip = Tooltip_PillsAntidepressant,
+		StaticModel = PillBottle,
+		WorldStaticModel = PillBottleGround,
+		Medical = TRUE,
+	}
+
+	item PillsBeta
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.2,
+		Type	=	Drainable,
+        UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Beta Blockers,
+		Icon	=	PillsBetablocker,
+		Tooltip = Tooltip_PillsBetablocker,
+		StaticModel = PillBottle,
+		WorldStaticModel = PillBottleGround,
+		Medical = TRUE,
+	}
+
+	item PillsSleepingTablets
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.2,
+		Type	=	Drainable,
+        UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Sleeping Tablets,
+		Icon	=	PillsSleeping,
+		Tooltip = Tooltip_PillsSleeping,
+		StaticModel = PillBottle,
+		WorldStaticModel = SleepingTablets_Ground,
+		Medical = TRUE,
+	}

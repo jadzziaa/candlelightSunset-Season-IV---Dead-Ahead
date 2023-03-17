@@ -1,0 +1,11 @@
+IGUI_EN = {
+	IGUI_VehicleNameAMC_bmw_classic = "BWM R80/7 Classic",
+	IGUI_VehicleNameAMC_bmw_custom = "BWM R80/7 Custom",
+	IGUI_VehicleNameAMC_harley = "Xarley-Davitsan Sportstep '86",
+	IGUI_VehicleNameAMC_quad = "Suvzuki Quadruiner",
+	IGUI_VehicleNameAMC_Waverunner = "Yamama Waveruiner 650TL",
+	IGUI_VehicleNameAMC_Waverunner_Ground = "Yamama Waveruiner 650TL",
+	IGUI_VehicleNameTrailerAMC = "Autotsar Mototrailer-2M",
+	IGUI_VehicleNameTrailerAMCWaverunner = "Autotsar Watertrailer-3M",
+	IGUI_VehicleNameTrailerAMCWaverunnerWithBody = "Yamama Waveruiner 650TL",
+}

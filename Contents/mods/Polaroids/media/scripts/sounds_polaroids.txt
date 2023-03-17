@@ -1,0 +1,22 @@
+module Polaroids {
+    imports {
+        Base
+    }
+
+    sound TakePhoto
+    {
+        category = Item,
+        clip
+        {
+            file = media/sound/Polaroids/TakePhoto.wav,
+        }
+    }
+    sound PrintPhoto
+    {
+        category = Item,
+        clip
+        {
+            file = media/sound/Polaroids/PrintPhoto.wav,
+        }
+    }
+}

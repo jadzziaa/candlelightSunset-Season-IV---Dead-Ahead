@@ -1,0 +1,6 @@
+UI_EN = {
+	UI_P4AddictedToWeight_Options_ShowHumanIcon_Name = "Show Human Icon",
+	UI_P4AddictedToWeight_Options_ShowHumanIcon_Tooltip = "Select the check box if you want to show human icon.",
+	UI_P4AddictedToWeight_Options_WeightChangeNotification_Name = "Weight Change Notification",
+	UI_P4AddictedToWeight_Options_WeightChangeNotification_Tooltip = "Select the check box if you want to be notified by alert when weight changes.",
+}

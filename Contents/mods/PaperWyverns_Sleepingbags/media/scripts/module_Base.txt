@@ -1,0 +1,255 @@
+module Base
+{
+		item Sleepingbag
+	{
+		Weight 		= 1.3,
+		Type 		= Moveable,
+		WorldObjectSprite 		= sleepingbags_0,
+		DisplayName 		= Sleeping Bag,
+		Icon 		= SleepingbagOpen,
+	}
+		item SleepingbagG
+	{
+		Weight 		= 1.3,
+		Type 		= Moveable,
+		WorldObjectSprite 		= sleepingbags_8,
+		DisplayName 		= Sleeping Bag,
+		Icon 		= SleepingbagGOpen,
+	}
+		item SleepingbagR
+	{
+		Weight 		= 1.3,
+		Type 		= Moveable,
+		WorldObjectSprite 		= sleepingbags_16,
+		DisplayName 		= Sleeping Bag,
+		Icon 		= SleepingbagROpen,
+	}
+		item SleepingbagO
+	{
+		Weight 		= 1.3,
+		Type 		= Moveable,
+		WorldObjectSprite 		= sleepingbags_24,
+		DisplayName 		= Sleeping Bag,
+		Icon 		= SleepingbagOOpen,
+	}
+		item SleepingbagBK
+	{
+		Weight 		= 1.3,
+		Type 		= Moveable,
+		WorldObjectSprite 		= sleepingbags_32,
+		DisplayName 		= Sleeping Bag,
+		Icon 		= SleepingbagBKOpen,
+	}
+		item SleepingbagLB
+	{
+		Weight 		= 1.3,
+		Type 		= Moveable,
+		WorldObjectSprite 		= sleepingbags_40,
+		DisplayName 		= Sleeping Bag,
+		Icon 		= SleepingbagLBOpen,
+	}
+		item SleepingbagP
+	{
+		Weight 		= 1.3,
+		Type 		= Moveable,
+		WorldObjectSprite 		= sleepingbags_48,
+		DisplayName 		= Sleeping Bag,
+		Icon 		= SleepingbagPOpen,
+	}
+
+
+
+			item SleepingbagRolled
+	{
+		Weight 		= 1,
+		Type 		= Normal,
+		WorldStaticModel 		= sleepingbag,
+		DisplayName 		= Rolled Sleeping Bag,
+		Icon 		= Sleepingbag,
+	}
+
+			item SleepingbagGRolled
+	{
+		Weight 		= 1,
+		Type 		= Normal,
+		WorldStaticModel 		= sleepingbagG,
+		DisplayName 		= Rolled Sleeping Bag,
+		Icon 		= SleepingbagG,
+	}
+
+			item SleepingbagRRolled
+	{
+		Weight 		= 1,
+		Type 		= Normal,
+		WorldStaticModel 		= sleepingbagR,
+		DisplayName 		= Rolled Sleeping Bag,
+		Icon 		= SleepingbagR,
+	}
+
+			item SleepingbagORolled
+	{
+		Weight 		= 1,
+		Type 		= Normal,
+		WorldStaticModel 		= sleepingbagO,
+		DisplayName 		= Rolled Sleeping Bag,
+		Icon 		= SleepingbagO,
+	}
+
+			item SleepingbagBKRolled
+	{
+		Weight 		= 1,
+		Type 		= Normal,
+		WorldStaticModel 		= sleepingbagBK,
+		DisplayName 		= Rolled Sleeping Bag,
+		Icon 		= SleepingbagBK,
+	}
+
+			item SleepingbagLBRolled
+	{
+		Weight 		= 1,
+		Type 		= Normal,
+		WorldStaticModel 		= sleepingbagLB,
+		DisplayName 		= Rolled Sleeping Bag,
+		Icon 		= SleepingbagLB,
+	}
+
+			item SleepingbagPRolled
+	{
+		Weight 		= 1,
+		Type 		= Normal,
+		WorldStaticModel 		= sleepingbagP,
+		DisplayName 		= Rolled Sleeping Bag,
+		Icon 		= SleepingbagP,
+	}
+
+	    
+		recipe Roll Sleeping Bag
+    {
+        Sleepingbag,
+
+        Result:SleepingbagRolled,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe Roll Sleeping Bag
+    {
+        SleepingbagBK,
+
+        Result:SleepingbagBKRolled,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe Roll Sleeping Bag
+    {
+        SleepingbagG,
+
+        Result:SleepingbagGRolled,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe Roll Sleeping Bag
+    {
+        SleepingbagLB,
+
+        Result:SleepingbagLBRolled,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe Roll Sleeping Bag
+    {
+        SleepingbagO,
+
+        Result:SleepingbagORolled,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe Roll Sleeping Bag
+    {
+        SleepingbagP,
+
+        Result:SleepingbagPRolled,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe Roll Sleeping Bag
+    {
+        SleepingbagR,
+
+        Result:SleepingbagRRolled,
+        Time:50.0,
+        Category:Misc,
+    }
+
+
+	recipe UnRoll Sleeping Bag
+    {
+        SleepingbagRolled,
+
+        Result:Sleepingbag,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe UnRoll Sleeping Bag
+    {
+        SleepingbagBKRolled,
+
+        Result:SleepingbagBK,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe UnRoll Sleeping Bag
+    {
+        SleepingbagGRolled,
+
+        Result:SleepingbagG,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe UnRoll Sleeping Bag
+    {
+        SleepingbagLBRolled,
+
+        Result:SleepingbagLB,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe UnRoll Sleeping Bag
+    {
+        SleepingbagORolled,
+
+        Result:SleepingbagO,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe UnRoll Sleeping Bag
+    {
+        SleepingbagPRolled,
+
+        Result:SleepingbagP,
+        Time:50.0,
+        Category:Misc,
+    }
+
+			recipe UnRoll Sleeping Bag
+    {
+        SleepingbagRRolled,
+
+        Result:SleepingbagR,
+        Time:50.0,
+        Category:Misc,
+    }
+
+
+
+}

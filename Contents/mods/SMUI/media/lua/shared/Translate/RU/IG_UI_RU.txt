@@ -1,0 +1,7 @@
+IGUI_RU = {
+	IGUI_HotbarAttachment_SMUIWebbingLeft = "Закрепить на разгрузке слева", 
+	IGUI_HotbarAttachment_SMUIWebbingRight = "Закрепить на разгрузке справа", 
+	IGUI_ItemCat_Helmet = "Шлем", 
+	IGUI_ItemCat_Webbing = "Разгрузка", 
+	IGUI_ItemCat_GasMask = "Противогаз",
+}

@@ -1,0 +1,37 @@
+module Base
+{
+	item Makeshift_Arms_LeatherProtectionsRIGHT
+	{
+	Type = Clothing,
+	DisplayName = Leather Arms Protections Right,
+	ClothingItem = Makeshift_Arms_LeatherProtectionsRIGHT,
+	BodyLocation = HandPlateRight,
+	Icon = LeatherProtections,
+	BloodLocation = Hands,
+	ScratchDefense = 30,
+        BiteDefense = 25,
+	DisplayCategory = Armor,
+        Weight = 0.5,
+        Insulation = 0.65,
+        WindResistance = 0.65,
+        FabricType = Leather,
+        WorldStaticModel = LeatherProtections_Ground,
+	}
+	item Makeshift_Arms_LeatherProtectionsLEFT
+	{
+	Type = Clothing,
+	DisplayName = Leather Arms Protections Left,
+	ClothingItem = Makeshift_Arms_LeatherProtectionsLEFT,
+	BodyLocation = HandPlateLeft,
+	Icon = LeatherProtections,
+	BloodLocation = Hands,
+	ScratchDefense = 30,
+        BiteDefense = 25,
+	DisplayCategory = Armor,
+        Weight = 0.5,
+        Insulation = 0.65,
+        WindResistance = 0.65,
+        FabricType = Leather,
+        WorldStaticModel = LeatherProtections_Ground,
+	}
+}

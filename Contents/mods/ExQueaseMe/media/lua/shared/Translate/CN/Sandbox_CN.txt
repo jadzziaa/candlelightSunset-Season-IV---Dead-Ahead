@@ -1,0 +1,7 @@
+Sandbox_CN = {
+    Sandbox_ExQueaseMe = "对不起?",
+    Sandbox_ExQueaseMe_ReduceQuease = "减少疾病量",
+    Sandbox_ExQueaseMe_ReduceQuease_tooltip = "当佩戴防毒面具远离尸体时，每十分钟消除一次的疾病量.<LINE>这是对原本游戏机制的补充. 设置为0以禁用.",
+    Sandbox_ExQueaseMe_ReduceQueaseGain = "减少疾病增加量",
+    Sandbox_ExQueaseMe_ReduceQueaseGain_tooltip = "戴着防毒面具的尸体周围每 10 分钟要清除的疾病量.<LINE>平均每 10 分钟您就会患上 0.7 次疾病。设置为 0 表示禁用.",
+}

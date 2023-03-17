@@ -1,0 +1,104 @@
+module Base
+{
+
+    model ECTO1rearwindshield
+    {
+        mesh = vehicles/Vehicles_ECTO1_Body|ECTO1_rear_windshield,
+        shader = vehicle,
+        static = FALSE,
+        scale = 0.1,
+        boneWeight = trunk_bone 1.0,
+    }
+
+	template vehicle ECTO1RearWindshield
+	{
+
+        part WindshieldRear
+        {
+            model windshieldRear
+            {
+            file = ECTO1rearwindshield,
+            }
+            parent = TrunkDoor,
+            anim Close
+            {
+                anim = Trunk_closing,
+                rate = 1.5,
+            }
+
+            anim Open
+            {
+                anim = Trunk_closing,
+                reverse = TRUE,
+                rate = 2.0,
+            }
+
+            anim Closed
+            {
+                anim = Trunk_closing,
+                reverse = TRUE,
+                animate = FALSE,
+            }
+
+            anim Opened
+            {
+                anim = Trunk_closing,
+                animate = FALSE,
+            }
+            
+            window
+            {
+            openable = false,
+            }
+            table uninstall
+                {
+                    requireUninstalled = ECTO1RearWindshieldArmor,
+                }
+                
+            itemType = Base.ECTO1RearWindshield,
+            area = Engine,
+            category = bodywork,
+            mechanicRequireKey = false,
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+			equip = primary,
+                    }
+                }
+                time = 700,
+                skills = Mechanics:5,
+                recipes = Intermediate Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Window,
+            }
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+						equip = primary,
+                    }
+                }
+                time = 700,
+                  skills = Mechanics:5,
+                  recipes = Intermediate Mechanics,
+                test = Vehicles.UninstallTest.Default,
+            }
+            lua
+            {
+                create = Vehicles.Create.Default,
+            }
+        }
+
+        }
+}

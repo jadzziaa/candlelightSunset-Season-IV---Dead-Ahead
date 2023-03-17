@@ -1,0 +1,3 @@
+ContextMenu_FR = {
+    ContextMenu_VehicleHotwireSkillEH = "Il vous faut les cl�s ou<br>�lectricit� niveau ? et<br>M�canique niveau ?<br>pour d�marrer avec les fils",
+}

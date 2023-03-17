@@ -1,0 +1,401 @@
+module Base
+{
+	model 80kz1000_trunklid
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_box_rear_lid,
+        shader = vehicle,
+        static = FALSE,
+        scale = 0.10,
+    }
+
+    model 80kz1000_leftlid
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_box_left_lid,
+        shader = vehicle,
+        static = FALSE,
+        scale = 0.10,
+    }
+
+    model 80kz1000_rightlid
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_box_right_lid,
+        shader = vehicle,
+        static = FALSE,
+        scale = 0.10,
+    }
+
+    template vehicle KZ1KtrunkLids
+    {
+        part TrunkDoor
+        {
+
+            model trunk8946541368
+            {
+                file = 80kz1000_trunklid,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            anim Close
+            {
+                anim = trunkbox_closing,
+                rate = 1.5,
+            }
+
+            anim Open
+            {
+                anim = trunkbox_closing,
+                reverse = TRUE,
+                rate = 2.0,
+            }
+
+            anim Closed
+            {
+                anim = trunkbox_closing,
+                reverse = TRUE,
+                animate = FALSE,
+            }
+
+            anim Opened
+            {
+                anim = trunkbox_closing,
+                animate = FALSE,
+            }
+
+            category = bodywork,
+            area = TruckBed,
+            door
+            {
+            }
+            anim Open
+            {
+                sound = VehicleDoorIsLockedStandard,
+            }
+            anim Close
+            {
+                sound = VehicleDoorIsLockedStandard,
+            }
+            anim Lock
+            {
+                sound = LockVehicleDoorStandard,
+            }
+            anim Unlock
+            {
+                sound = UnlockVehicleDoorStandard,
+            }
+            anim IsLocked
+            {
+                sound = VehicleDoorIsLockedStandard,
+            }
+            anim ActorOpen
+            {
+                anim = WindowOpenSuccess,
+                rate = 0.15,
+                angle = 0.0 0.0 0.0,
+            }
+            anim ActorClose
+            {
+                anim = Attack_Shove,
+                rate = 0.3,
+                angle = 0.0 0.0 0.0,
+            }
+            specificItem = false,
+            itemType = Base.KZ1KstorageLid,
+            mechanicRequireKey = true,
+            repairMechanic = true,
+            table install
+            {
+                items
+                {
+                    item
+                    {
+                        type = Base.Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:2,
+                recipes = Advanced Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Door,
+                requireInstalled = ,
+            }
+            table uninstall
+            {
+                items
+                {
+                    item
+                    {
+                        type = Base.Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:2,
+                recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Door,
+
+            }
+            lua
+            {
+                create = Vehicles.Create.TrunkDoor,
+                init = Vehicles.Init.Door,
+                use = Vehicles.Use.TrunkDoor,
+            }
+        }
+
+        part TrunkDoorLeft
+        {
+
+            model trunk8746541368
+            {
+                file = 80kz1000_leftlid,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            anim Close
+            {
+                anim = leftbox_closing,
+                rate = 1.5,
+            }
+
+            anim Open
+            {
+                anim = leftbox_closing,
+                reverse = TRUE,
+                rate = 2.0,
+            }
+
+            anim Closed
+            {
+                anim = leftbox_closing,
+                reverse = TRUE,
+                animate = FALSE,
+            }
+
+            anim Opened
+            {
+                anim = leftbox_closing,
+                animate = FALSE,
+            }
+
+            category = bodywork,
+            area = TruckBedLeft,
+            door
+            {
+            }
+            anim Open
+            {
+                sound = VehicleDoorIsLockedStandard,
+            }
+            anim Close
+            {
+                sound = VehicleDoorIsLockedStandard,
+            }
+            anim Lock
+            {
+                sound = LockVehicleDoorStandard,
+            }
+            anim Unlock
+            {
+                sound = UnlockVehicleDoorStandard,
+            }
+            anim IsLocked
+            {
+                sound = VehicleDoorIsLockedStandard,
+            }
+            anim ActorOpen
+            {
+                anim = WindowOpenSuccess,
+                rate = 0.15,
+                angle = 0.0 270.0 0.0,
+            }
+            anim ActorClose
+            {
+                anim = Attack_Shove,
+                rate = 0.3,
+                angle = 0.0 270.0 0.0,
+            }
+            specificItem = false,
+            itemType = Base.KZ1KsidestorageLid,
+            mechanicRequireKey = true,
+            repairMechanic = true,
+            table install
+            {
+                items
+                {
+                    item
+                    {
+                        type = Base.Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:2,
+                recipes = Advanced Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Door,
+                requireInstalled = ,
+            }
+            table uninstall
+            {
+                items
+                {
+                    item
+                    {
+                        type = Base.Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:2,
+                recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Door,
+
+            }
+            lua
+            {
+                create = Vehicles.Create.TrunkDoor,
+                init = Vehicles.Init.Door,
+                use = Vehicles.Use.TrunkDoor,
+            }
+        }
+
+        part TrunkDoorRight
+        {
+
+            model trunk8746581368
+            {
+                file = 80kz1000_rightlid,
+                offset = 0 0 0,
+                rotate = 0 0 0,
+                scale = 1.0,
+            }
+
+            anim Close
+            {
+                anim = rightbox_closing,
+                rate = 1.5,
+            }
+
+            anim Open
+            {
+                anim = rightbox_closing,
+                reverse = TRUE,
+                rate = 2.0,
+            }
+
+            anim Closed
+            {
+                anim = rightbox_closing,
+                reverse = TRUE,
+                animate = FALSE,
+            }
+
+            anim Opened
+            {
+                anim = rightbox_closing,
+                animate = FALSE,
+            }
+
+            category = bodywork,
+            area = TruckBedRight,
+            door
+            {
+            }
+            anim Open
+            {
+                sound = VehicleDoorIsLockedStandard,
+            }
+            anim Close
+            {
+                sound = VehicleDoorIsLockedStandard,
+            }
+            anim Lock
+            {
+                sound = LockVehicleDoorStandard,
+            }
+            anim Unlock
+            {
+                sound = UnlockVehicleDoorStandard,
+            }
+            anim IsLocked
+            {
+                sound = VehicleDoorIsLockedStandard,
+            }
+            anim ActorOpen
+            {
+                anim = WindowOpenSuccess,
+                rate = 0.15,
+                angle = 0.0 90.0 0.0,
+            }
+            anim ActorClose
+            {
+                anim = Attack_Shove,
+                rate = 0.3,
+                angle = 0.0 90.0 0.0,
+            }
+            specificItem = false,
+            itemType = Base.KZ1KsidestorageLid,
+            mechanicRequireKey = true,
+            repairMechanic = true,
+            table install
+            {
+                items
+                {
+                    item
+                    {
+                        type = Base.Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:2,
+                recipes = Advanced Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Door,
+                requireInstalled = ,
+            }
+            table uninstall
+            {
+                items
+                {
+                    item
+                    {
+                        type = Base.Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:2,
+                recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Door,
+
+            }
+            lua
+            {
+                create = Vehicles.Create.TrunkDoor,
+                init = Vehicles.Init.Door,
+                use = Vehicles.Use.TrunkDoor,
+            }
+        }
+    }
+}

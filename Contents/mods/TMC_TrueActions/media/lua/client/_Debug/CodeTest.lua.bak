@@ -1,0 +1,10 @@
+local function test ()
+
+    print(getSquare(11895, 6725, 0):getProperties():Is(IsoFlagType.transparentW))
+    print(getSquare(11896, 6725, 0):getProperties():Is(IsoFlagType.transparentW))
+    print(getSquare(11896, 6725, 0):getProperties():Is(IsoFlagType.transparentN))
+    print(getSquare(11895, 6726, 0):getProperties():Is(IsoFlagType.transparentW))
+    print(getSquare(11895, 6726, 0):getProperties():Is(IsoFlagType.transparentN))
+    a = getSquare(11895, 6726, 0):getProperties()
+    
+end

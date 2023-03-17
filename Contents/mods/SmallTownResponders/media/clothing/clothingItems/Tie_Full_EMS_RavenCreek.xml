@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_tie</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_tie</m_FemaleModel>
+	<m_GUID>c06b0f53-5b72-4e66-b9d0-a9e236899c77</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Tie\Tie_EMS_RavenCreek</textureChoices>
+</clothingItem>

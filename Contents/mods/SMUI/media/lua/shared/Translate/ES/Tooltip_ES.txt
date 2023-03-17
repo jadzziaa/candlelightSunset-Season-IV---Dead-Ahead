@@ -1,0 +1,13 @@
+Tooltip_ES = {
+	Tooltip_M17Doff = "M17 equipada con una capucha protectora NBC",
+    Tooltip_DoffHood = "Capucha protectora NBC diseñada para la M17",
+	Tooltip_PackageTop = "Contiene una parte superior de traje NBC y guantes protectores",
+    Tooltip_PackageBottom = "Contiene una parte inferior del traje NBC y botas protectoras.",
+    Tooltip_MilitaryWebbing = "Arnés militar estándar de los US",
+	Tooltip_MilitaryWebbingBag = "Arnés militar estándar de los US con bolsa",
+    Tooltip_MilitaryTacticalVest = "Armadura ligera diseñada para unidades especiales",
+	Tooltip_ODGreen = "Chaleco militar antiguo usualmente entregado a los reservistas",
+	Tooltip_NightVisionGoggles = "Debe estar conectado a un soporte para su uso",
+    Tooltip_NVGBroken = "Actualmente inoperable. Culpa a los otros modders",
+    Tooltip_NVGMount = "Se utiliza para montar la visión nocturna en cascos",
+}

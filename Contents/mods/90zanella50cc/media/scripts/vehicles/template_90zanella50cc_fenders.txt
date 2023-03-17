@@ -1,0 +1,97 @@
+module Base
+{
+
+	model 90zanella50ccfenderF
+	{
+		mesh = vehicles/Bikes_90zanella50cc_Body|zan_fender_front,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model 90zanella50ccfenderR
+	{
+		mesh = vehicles/Bikes_90zanella50cc_Body|zan_fender_rear,
+		shader = vehicle,
+		scale = 0.1,
+	}
+	
+	template vehicle ZNL50Fenders
+	{
+		part ZNL50FenderFront
+		{
+			
+			model fenderF
+			{
+				file = 90zanella50ccfenderF,
+			}
+			
+			area = TireFrontLeft,
+			itemType = Base.ZNL50fenderFront,
+
+		}
+
+		part ZNL50FenderRear
+		{
+
+			model fenderR
+			{
+				file = 90zanella50ccfenderR,
+			}
+
+			area = TireRearLeft,
+			itemType = Base.ZNL50fenderRear,
+
+		}
+
+		part ZNL50Fender*
+		{
+			category = bodywork,
+			specificItem = false,
+			mechanicRequireKey = true,
+
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = KI5.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = KI5.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+	}
+}
+

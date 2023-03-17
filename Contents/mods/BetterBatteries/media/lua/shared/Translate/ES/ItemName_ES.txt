@@ -1,0 +1,4 @@
+ItemName_ES = {
+	ItemName_Base.HandCrank = "Cargador manual",
+	ItemName_Base.MakeshiftCrank = "Cargador manual improvisado",
+}

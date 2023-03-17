@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\pdLootBag_Rhand</m_MaleModel>
+	<m_FemaleModel>Skinned\pdLootBag_Rhand</m_FemaleModel>
+	<m_GUID>d078e261-d45c-47f3-a934-0089854d87d5</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone/>
+	<textureChoices>Vehicles\Objects_86fordE150_pd1</textureChoices>
+</clothingItem>

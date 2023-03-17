@@ -1,0 +1,8 @@
+Recipes_EN = 
+{
+	Recipe_Extract_Bladder_from_Soccer_Ball = "Extract Bladder from Soccer Ball",
+	Recipe_Extract_Bladder_from_Football = "Extract Bladder from Football",
+	Recipe_Make_a_Small_Waterskin = "Make a Small Waterskin",
+	Recipe_Make_a_Large_Waterskin = "Make a Large Waterskin",
+	Recipe_Make_a_Quality_Waterskin = "Make a Quality Waterskin",
+}

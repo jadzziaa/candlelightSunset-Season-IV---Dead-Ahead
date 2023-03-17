@@ -1,0 +1,5 @@
+name=Darkvision
+poster=poster.png
+id=Darkvision
+description=See at night like you were born to do it! <LINE>  <LINE> This mod adds a new trait, Darkvision, which allows you to see much, much better in the dark by adding a light that follows you everywhere (but which is invisible to other players).  <LINE>  <LINE> The light will brighten rooms that already have lighting, so having darkvision may make a bright room a bit brighter than you want it to be. In order to accommodate this, I have added options for adjusting the indoor and outdoor brightness of your vision separately in an effort to help players avoid excess brightness while indoors in an automated way. <LINE>  <LINE> This mod requires  <RGB:1.0,0.6,0.0> Mod Options  <RGB:0.7,0.7,0.7> in order to adjust the indoor and outdoor brightness of your darkvision. Mod Options is another mod on the Steam Workshop. <LINE>  <LINE> Mod Options also offers players a way to toggle Darkvision for characters who do not have the trait. Server admins must first enable this ability in sandbox options!
+require=modoptions

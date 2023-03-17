@@ -1,0 +1,4 @@
+ContextMenu_NL = {
+	ContextMenu_ThrowCorpseOutTheWindow = "Gooi Lijk Uit Het Raam"
+	ContextMenu_ThrowCorpseOverFence = "Gooi Lijk Over Het Hek"
+}

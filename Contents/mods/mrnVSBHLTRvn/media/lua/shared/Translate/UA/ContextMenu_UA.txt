@@ -1,0 +1,8 @@
+ContextMenu_UA = {
+    ContextMenu_Holster_visibleStyle = "Одягнути зверху куртки",
+    ContextMenu_Holster_visibleStyle1 = "Одягнути без куртки",
+    ContextMenu_Holster_visibleStyle2 = "Одягнути без ременю",
+    ContextMenu_HolsterDouble_visibleStyle = "Одягнути зверху куртки",
+    ContextMenu_HolsterDouble_visibleStyle1 = "Одягнути без куртки",
+    ContextMenu_HolsterDouble_visibleStyle2 = "Одягти без ременю",
+} 

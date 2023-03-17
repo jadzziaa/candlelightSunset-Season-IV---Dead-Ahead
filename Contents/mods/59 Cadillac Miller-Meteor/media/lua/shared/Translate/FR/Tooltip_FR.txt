@@ -1,0 +1,13 @@
+Tooltip_FR = {
+Tooltip_item_ECTO1Tire = "Pneu standard Cadillac qui peut être renforcé pour plus de durabilité",
+Tooltip_item_ECTO1runflattire = "Pneu Cadillac renforcé qui ne crèvera jamais mais perdra de l'adhérence quand son état sera bas.",
+Tooltip_item_ECTO1FrontDoorArmor1 = "A attacher aux portes avant d'une Cadillac pour protéger les portes et fenêtres avant",
+Tooltip_item_ECTO1RearDoorArmor1 = "A attacher aux portes arrières d'une Cadillac pour protéger les portes et fenêtre arrières",
+Tooltip_item_ECTO1SideWindow2 = "Vous pouvez utiliser un scalpel pour tailler des vitres résistantes classiques pour remplacer celles d'une Cadillac",
+Tooltip_item_KI5windows = "Vous pouvez utiliser un scalpel pour tailler des vitres résistantes classiques pour remplacer celles d'une Cadillac",
+Tooltip_item_ECTO1Bullbar1 = "A attacher sur l'avant d'une Cadillac pour protéger le capot et le moteur",
+Tooltip_item_ECTO1WindshieldArmor1 = "A attacher à l'avant d'une Cadillac pour protéger le parebrise",
+Tooltip_item_ECTO1WindshieldRearArmor1 = "A attacher à la porte du coffre d'une Cadillac pour protéger le parebrise arrière et la porte de coffre",
+Tooltip_item_ECTO1Roofrack1 = "Espace de stockage additionnel sur toit, accessible de tous les côtés d'une Cadillac",
+Tooltip_item_ECTO1Equipment1 = "Equipement ECTO-1 sur le toit et à l'intérieur d'une Cadillac",
+}

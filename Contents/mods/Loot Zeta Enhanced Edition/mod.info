@@ -1,0 +1,14 @@
+name=Snake's ModPack - Loot Zeta 41 Enhanced Edition V0.1
+poster=LZEEPoster.png
+id=LootZetaEnhancedEditionSE
+description= Loot Zeta Enhanced Edition permite obtener diversos items de los zombies asesinados segun su profesión.
+description=
+description= *Permite setear chances desde 0.00001 hasta 100%.
+description=
+description= *Sistema de lectura de SandboxVars que maneja chances según la dificultad de la partida en el valor Other Loot.
+description=
+description= *Sistema de randomizado de Condición(Para el spawn de armas), de Usos (Para el spawn de Drainables) y de estado(crudo, cocido, quemado y podrido) para la comida.
+description=
+description= *Lectura de Items que en scripts poseen la propiedad Count para poder elegir si spawnear una sola unidad o los que figuran en el script.
+description=
+description= *Sistema que detecta si el zombie tiene equipado un contenedor en la espalda(Mochila o similares) aplicando un multiplicador y dirigiendo los items hacia ese contenedor en caso de no estar lleno.

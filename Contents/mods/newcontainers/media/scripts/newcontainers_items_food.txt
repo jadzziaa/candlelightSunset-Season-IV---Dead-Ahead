@@ -1,0 +1,31 @@
+module newcontainers 
+
+{
+	imports
+	{
+	Base
+	}
+	
+	item jugfull
+	{
+		DisplayCategory = Water,
+		Type = Drainable,
+		DisplayName = Water Jug,
+		Icon = NCwaterjug,
+		CustomContextMenu = Drink,
+		Weight = 20,
+		UseDelta = 0.004,
+		UseWhileEquipped = FALSE,
+		CanStoreWater = TRUE,
+		IsWaterSource = TRUE,
+		FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound = GetWaterFromTapPlasticMedium,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		ReplaceOnUseOn = WaterSource-jugfull,
+		ReplaceOnDeplete = jugempty,
+        ReplaceInSecondHand = bag_NCwaterjug_lhand holdingbagleft,
+        ReplaceInPrimaryHand = bag_NCwaterjug_rhand holdingbagright,
+		StaticModel = NCwaterjug,
+		WorldStaticModel = NCwaterjug_ground,
+	}
+}

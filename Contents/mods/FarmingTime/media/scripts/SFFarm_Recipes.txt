@@ -1,0 +1,262 @@
+module filcher
+{
+	imports
+	{
+		Base
+	}
+
+    recipe Open Packet of Beet Seeds
+	{
+        BeetBagSeed,
+
+        Result:BeetSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Beet Seeds in Packet
+    {
+        BeetSeed=50,
+
+        Result:BeetBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Corn Seeds
+	{
+        CornBagSeed,
+
+        Result:CornSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Corn Seeds in Packet
+    {
+        CornSeed=50,
+
+        Result:CornBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Cauliflower Seeds
+	{
+        CauliflowerBagSeed,
+
+        Result:CauliflowerSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Cauliflower Seeds in Packet
+    {
+        CauliflowerSeed=50,
+
+        Result:CauliflowerBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Lemon Grass Seeds
+	{
+        SFLemonGrassBagSeed,
+
+        Result:SFLemonGrassSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Lemon Grass Seeds in Packet
+    {
+        SFLemonGrassSeed=50,
+
+        Result:SFLemonGrassBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Lettuce Seeds
+	{
+        LettuceBagSeed,
+
+        Result:LettuceSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Lettuce Seeds in Packet
+    {
+        LettuceSeed=50,
+
+        Result:LettuceBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Tea Seeds
+	{
+        TeaBagSeed,
+
+        Result:TeaSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Tea Seeds in Packet
+    {
+        TeaSeed=50,
+
+        Result:TeaBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Wheat Seeds
+	{
+        SFWheatBagSeed,
+
+        Result:SFWheatSeed=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Wheat Seeds in Packet
+    {
+        SFWheatSeed=50,
+
+        Result:SFWheatBagSeed,
+        Time:10.0,
+        Category:Farming,
+    }
+
+	recipe Thresh Corn
+	{
+	   Corn,
+
+	   Result:filcher.CornSeed=5,
+	   Time:40.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Thresh Wheat
+	{
+	   filcher.SFWheat,
+
+	   Result:filcher.SFWheatSeed=5,
+	   Time:40.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make Cornflour
+	{
+	   keep filcher.SFGrainGrinder,
+	   filcher.CornSeed=100,
+
+	   Result:Cornflour,
+	   Time:200.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make Cornflour
+	{
+	   keep MortarPestle,
+	   filcher.CornSeed=100,
+
+	   Result:Cornflour,
+	   Time:600.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make Flour
+	{
+	   keep filcher.SFGrainGrinder,
+	   filcher.SFWheatSeed=200,
+
+	   Result:Flour,
+	   Time:200.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make Flour
+	{
+	   keep MortarPestle,
+	   filcher.SFWheatSeed=200,
+
+	   Result:Flour,
+	   Time:600.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+    recipe Place Beets in Cooking Pot
+	{
+	   filcher.Beetroot;18,
+	   filcher.Beetroot;18,
+	   filcher.Beetroot;18,
+	   filcher.Beetroot;18,
+	   filcher.Beetroot;18,
+	   keep KitchenKnife/ButterKnife/HuntingKnife,
+	   destroy WaterPot,
+
+	   Result:SFBeetPot,
+           Sound:PZ_FoodSwoosh,
+	   Time:50.0,
+	   Category:Cooking,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+    recipe Make Beet Syrup
+	{
+	   destroy RippedSheets/AlcoholRippedSheets,
+	   destroy filcher.SFBeetPot,
+
+	   Result:SFBeetSyrupPot,
+	   Time:50.0,
+	   Category:Cooking,
+	   OnTest:OnlyIfCooked_TestIsValid,
+	   OnCreate:Recipe.OnCreate.AddDirtyRag,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make 12 Teabags
+	{
+        	RippedSheets,
+	   filcher.TeaExtract=12,
+
+	   Result:Teabag2=12,
+	   Time:80.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Make Tea Extract
+	{
+        	keep [Recipe.GetItemTypes.MortarPestle],
+	   filcher.TeaLeaves;5,
+
+	   Result:TeaExtract,
+	   Time:50.0,
+	   Category:Farming,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+    recipe Remove Sugar From Pot
+	{
+	   filcher.SFBeetSyrupPot,
+
+	   Result:Sugar,
+	   Time:50.0,
+	   Category:Cooking,
+	   OnTest:OnlyIfCooked_TestIsValid,
+	   OnCreate:SFMakeSugar_OnCreate,
+	   OnGiveXP:NoXP_OnGiveXP,
+	}
+
+}

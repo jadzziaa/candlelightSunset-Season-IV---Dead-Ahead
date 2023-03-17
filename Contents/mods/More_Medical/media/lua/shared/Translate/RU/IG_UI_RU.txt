@@ -1,0 +1,7 @@
+IGUI_RU = {
+    IGUI_JobType_ApplyBurnTreatment = "Применяю Мазь от ожогов",
+    IGUI_JobType_ApplyPowderPackHemostatic = "Применяю Гемостатический порошок",
+    IGUI_JobType_ApplyTourniquet = "Накладываю Жгут",
+    IGUI_JobType_ApplyTourniquetOnNeck = "Душу себя Жгутом",
+    IGUI_PlayerText_MMPleaseStop = "ПОЖАЛУЙСТА ОСТАНОВИСЬ! Я НЕ ЗАСЛУЖИЛ ЭТОГО!! ДАЙ МНЕ ЕЩЕ ОДИН ШАНС!! ЖМИ 'ESC' СЕЙЧАС!!! СНАЧАЛА ПРОЧИТАЙ ИНСТРУКЦИЮ К ЖГУТУ!!!",
+}

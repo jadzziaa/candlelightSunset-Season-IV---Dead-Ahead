@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>sleep_loop_reverso</m_Name>
+	<m_AnimName>Bob_Asleep_reverso_E</m_AnimName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_SpeedScale>0.50</m_SpeedScale>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Conditions>
+		<m_Name>SitGroundAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>Idle</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>SitWOAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>SleepReversoE</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>SitWOAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>SleepReversoE</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>SitWOAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>SleepReversoE</m_StringValue>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>lie_loop_wo_reverso</m_Target>
+		<m_AnimName>Bob_AsleepToAwake_reverso_E</m_AnimName>
+		<m_blendInTime>0.0</m_blendInTime>
+		<m_blendOutTime>0.0</m_blendOutTime>
+		<m_speedScale>1</m_speedScale>
+	</m_Transitions>
+</animNode>

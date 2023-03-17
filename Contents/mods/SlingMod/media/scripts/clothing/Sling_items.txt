@@ -1,0 +1,84 @@
+module Base
+{
+	item SlingA
+    {
+        Weight	=	0.01,
+        Type	=	Clothing,
+        DisplayName	= Rifle Sling,
+        BodyLocation = Sling,
+        ClothingItem = SlingA,
+        AttachmentsProvided = Sling,
+        Icon = slingAky,
+	    Cosmetic = TRUE,
+        ChanceToFall = 0,
+        ClothingItemExtra = SlingAalt;SlingAalt2;SlingAalt3,
+        ClothingItemExtraOption = SlingStyle2;SlingStyle3;SlingStyle4,
+        ClothingExtraSubmenu = SlingStyle1,
+        WorldStaticModel = SlingFlat,
+    } 
+
+	item SlingAalt
+    {
+        Weight	=	0.01,
+        Type	=	Clothing,
+        DisplayName	= Rifle Sling,
+        BodyLocation = Sling,
+        ClothingItem = SlingAalt,
+        AttachmentsProvided = SlingAlt,
+        Icon = slingAky,
+	    Cosmetic = TRUE,
+        ChanceToFall = 0,
+        ClothingItemExtra = SlingA;SlingAalt2;SlingAalt3,
+        ClothingItemExtraOption = SlingStyle1;SlingStyle3;SlingStyle4,
+        ClothingExtraSubmenu = SlingStyle2,
+        WorldStaticModel = SlingFlat,
+    } 
+
+	item SlingAalt2
+    {
+        Weight	=	0.01,
+        Type	=	Clothing,
+        DisplayName	= Rifle Sling,
+        BodyLocation = Sling,
+        ClothingItem = SlingAalt2,
+        AttachmentsProvided = SlingAlt2,
+        Icon = slingAky,
+	    Cosmetic = TRUE,
+        ChanceToFall = 0,
+        ClothingItemExtra = SlingA;SlingAalt;SlingAalt3,
+        ClothingItemExtraOption = SlingStyle1;SlingStyle2;SlingStyle4,
+        ClothingExtraSubmenu = SlingStyle3,
+        WorldStaticModel = SlingFlat,
+    } 
+
+    item SlingAalt3
+    {
+        Weight	=	0.01,
+        Type	=	Clothing,
+        DisplayName	= Rifle Sling,
+        BodyLocation = Sling,
+        ClothingItem = SlingAalt3,
+        AttachmentsProvided = SlingAlt3,
+        Icon = slingAky,
+	    Cosmetic = TRUE,
+        ChanceToFall = 0,
+        ClothingItemExtra = SlingA;SlingAalt;SlingAalt2,
+        ClothingItemExtraOption = SlingStyle1;SlingStyle2;SlingStyle3,
+        ClothingExtraSubmenu = SlingStyle4,
+        WorldStaticModel = SlingFlat,
+    } 
+
+	recipe Make Rifle Sling
+    {
+        Belt2=1,
+        LeatherStrips=4,
+        Thread=1, 
+        keep Scissors,
+        keep Needle,
+        Result:SlingA,
+        Time:800.0,
+        AnimNode:RipSheets,
+        Category:Tailoring,
+      	SkillRequired:Tailoring=2,
+    }
+}

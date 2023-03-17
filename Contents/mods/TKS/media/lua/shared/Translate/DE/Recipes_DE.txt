@@ -1,0 +1,11 @@
+Recipe_DE = {
+
+	Recipe_Make_Knife_Sheath = "Messerholster (Improvisiert) herstellen",
+	Recipe_Make_Katana_Sheath = "Katana Messerholster (Improvisiert) herstellen",
+	Recipe_Paint_Katana_Sheath_Green = "Farbe Katana Messerholster Grün",
+	Recipe_Paint_Katana_Sheath_Red = "Farbe Katana Messerholster Rot",	
+	Recipe_Paint_Katana_Sheath_Blue = "Farbe Katana Messerholster Blau",	
+	Recipe_Paint_Katana_Sheath_Black = "Farbe Katana Messerholster Schwarz",	
+	Recipe_Paint_Katana_Sheath_White = "Farbe Katana Messerholster Weiß",
+	Recipe_Wash_Off_the_Paint = "Die Farbe abwaschen",	
+}

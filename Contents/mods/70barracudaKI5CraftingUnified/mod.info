@@ -1,0 +1,6 @@
+name='70 Plymouth Barracuda - Unified KI5 Crafting Category
+authors=Panopticon
+poster=preview.png
+id=70barracudaKI5CraftingUnified
+require=70barracuda
+description=Overwrites the crafting recipes to be under "KI5" instead of "CUDA".

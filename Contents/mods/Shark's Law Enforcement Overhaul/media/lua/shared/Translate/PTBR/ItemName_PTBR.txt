@@ -1,0 +1,87 @@
+ItemName_PTBR = {
+
+	/* Bags */
+	ItemName_SLEOClothing.Bag_DuffelPolice = "Bolsa Policial",
+	ItemName_SLEOClothing.Bag_DuffelSheriff = "Bolsa Sheriff",
+	ItemName_SLEOClothing.Bag_PoliceUtilityBag = "Mochila Utilitária Preta",
+	ItemName_SLEOClothing.Bag_PoliceUtilityBagGreen = "Mochila Utilitária Verde",
+	ItemName_SLEOClothing.BlackLegPouch_RLeg = "Pochete de Perna Tática Preta",
+	ItemName_SLEOClothing.BlackLegPouch_LLeg = "Pochete de Perna Tática Preta",
+	ItemName_SLEOClothing.GreenLegPouch_RLeg = "Pochete de Perna Tática Verde",
+	ItemName_SLEOClothing.GreenLegPouch_LLeg = "Pochete de Perna Tática Verde",
+	
+	/* Hats and Helmets */
+	ItemName_SLEOClothing.Hat_PatrolCapPolice = "Boné Policial Azul",
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceReversed = "Boné Policial Azul",
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceRolled = "Boné Policial Azul",
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceRolledReversed = "Boné Policial Azul",
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceBlack = "Boné Policial Preto",
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceBlackReversed = "Boné Policial Preto",
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceBlackRolled = "Boné Policial Preto",
+	ItemName_SLEOClothing.Hat_PatrolCapPoliceBlackRolledReversed = "Boné Policial Preto",
+	ItemName_SLEOClothing.Hat_PatrolCapSheriff = "Boné Policial Verde",
+	ItemName_SLEOClothing.Hat_PatrolCapSheriffReversed = "Boné Policial Verde",
+	ItemName_SLEOClothing.Hat_PatrolCapSheriffRolled = "Boné Policial Verde",
+	ItemName_SLEOClothing.Hat_PatrolCapSheriffRolledReversed = "Boné Policial Verde",
+	ItemName_SLEOClothing.Hat_PoliceBaseballCap = "Boné Policial",
+	ItemName_SLEOClothing.Hat_PoliceBaseballCapReversed = "Boné Policial",
+	ItemName_SLEOClothing.Hat_SheriffBaseballCap = "Boné Sheriff",
+	ItemName_SLEOClothing.Hat_SheriffBaseballCapReversed = "Boné Sheriff",
+	ItemName_SLEOClothing.Hat_BlueUtilityCap = "Boné Utilitário Azul",
+	ItemName_SLEOClothing.Hat_BlueUtilityCapReversed = "Boné Utilitário Azul",
+	ItemName_SLEOClothing.Hat_GreenUtilityCap = "Boné Utilitário Verde",
+	ItemName_SLEOClothing.Hat_GreenUtilityCapReversed = "Boné Utilitário Verde",
+	ItemName_SLEOClothing.Hat_BlackUtilityCap = "Boné Utilitário Preto",
+	ItemName_SLEOClothing.Hat_BlackUtilityCapReversed = "Boné Utilitário Preto",
+	ItemName_SLEOClothing.Hat_PoliceWatchCap = "Touca de Patrulha",
+	ItemName_SLEOClothing.Hat_PoliceHelmet = "Capacete PASGT Preto",
+	ItemName_SLEOClothing.Hat_PoliceHelmetStrapless = "Capacete PASGT Preto",
+	ItemName_SLEOClothing.Hat_PoliceHelmetGoggles = "Capacete PASGT Preto",
+	ItemName_SLEOClothing.Hat_PoliceHelmetGogglesStrapless = "Capacete PASGT Preto",
+	ItemName_SLEOClothing.Hat_PoliceHelmetGreen = "Capacete PASGT Verde",
+	ItemName_SLEOClothing.Hat_PoliceHelmetGreenStrapless = "Capacete PASGT Verde",
+	ItemName_SLEOClothing.Hat_PoliceHelmetGreenGoggles = "Capacete PASGT Verde",
+	ItemName_SLEOClothing.Hat_PoliceHelmetGreenGogglesStrapless = "Capacete PASGT Verde",
+	ItemName_SLEOClothing.Hat_PoliceBalaclava = "Balaclava Policial",
+	ItemName_SLEOClothing.Hat_PoliceBalaclavaDown = "Balaclava Policial",
+
+	/* Jackets */
+	ItemName_SLEOClothing.Jacket_PoliceTactical = "Jaqueta Policial Tática Azul",
+	ItemName_SLEOClothing.Jacket_PoliceTacticalRolled = "Jaqueta Policial Tática Azul",
+	ItemName_SLEOClothing.Jacket_PoliceTacticalBlack = "Jaqueta Policial Tática Preta",
+	ItemName_SLEOClothing.Jacket_PoliceTacticalBlackRolled = "Jaqueta Policial Tática Preta",
+	ItemName_SLEOClothing.Jacket_SheriffTactical = "Jaqueta Policial Tática Verde",
+	ItemName_SLEOClothing.Jacket_SheriffTacticalRolled = "Jaqueta Policial Tática Verde",
+	
+	/* MISC */
+
+	ItemName_SLEOClothing.PoliceTacticalVest = "Colete Balístico Policial SWAT",
+	ItemName_SLEOClothing.TacticalVestUpperArm = "Proteção Balística Tática Ombros",
+	ItemName_SLEOClothing.ShoulderMic = "Microfone de Ombro para Rádio",
+	ItemName_SLEOClothing.KneePads = "Joelheira Tática",
+	ItemName_SLEOClothing.ElbowPads = "Cotoveleira Tática",
+	ItemName_SLEOClothing.Gloves_TacticalGloves = "Luvas Táticas",
+	ItemName_SLEOClothing.Shoes_TacticalBoots = "Botas Táticas",
+	ItemName_SLEOClothing.PoliceDutyBelt = "Cinturão Policial",
+	ItemName_SLEOClothing.LegHolster_Right = "Coldre de Perna",
+	
+	/* Mothballed */
+	ItemName_SLEOClothing.Hat_PoliceRiotHelmet = "Capacete Policial Anti-Tumulto",
+	ItemName_SLEOClothing.Hat_PoliceRiotHelmetUP = "Capacete Policial Anti-Tumulto",
+	ItemName_SLEOClothing.Hat_PoliceM17 = "Máscara de Gás M17 Policial",
+	ItemName_SLEOClothing.TacticalGoggles = "Óculos Tático",
+	
+	/* Overwrite */
+	ItemName_Base.Hat_CrashHelmet_Police = "Capacete Policial de Moto",
+	ItemName_Base.Hat_RiotHelmet = "Capacete Policial Anti-Tumulto",
+	ItemName_Base.Vest_BulletPolice = "Colete Balístico Policial",
+	
+	/* Pants */
+	ItemName_SLEOClothing.Trousers_PoliceTactical = "Calça Policial Tática Azul",
+	ItemName_SLEOClothing.Trousers_PoliceTacticalTucked = "Calça Policial Tática Azul",
+	ItemName_SLEOClothing.Trousers_PoliceTacticalBlack = "Calça Policial Tática Preta",
+	ItemName_SLEOClothing.Trousers_PoliceTacticalBlackTucked = "Calça Policial Tática Preta",
+	ItemName_SLEOClothing.Trousers_SheriffTactical = "Calça Policial Tática Verde",
+	ItemName_SLEOClothing.Trousers_SheriffTacticalTucked = "Calça Policial Tática Verde",
+	
+}

@@ -1,0 +1,6 @@
+name=buffy's admin logs
+poster=poster.png
+id=AdminLogs
+versionMin=41.70
+description=Logs admin actions into a text file named _admin.
+url=

@@ -1,0 +1,4 @@
+ContextMenu_CN = {
+	ContextMenu_ThrowCorpseOutTheWindow = "将尸体扔出窗外"
+	ContextMenu_ThrowCorpseOverFence = "将尸体扔过栅栏"
+}

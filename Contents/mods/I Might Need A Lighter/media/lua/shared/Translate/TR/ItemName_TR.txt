@@ -1,0 +1,3 @@
+DisplayName_TR = {
+    ItemName_Base.CarLighter = "Araba cakmagi",
+}

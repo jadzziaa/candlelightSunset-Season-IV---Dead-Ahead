@@ -1,0 +1,184 @@
+module Base
+
+{
+
+	recipe Make DG70 Front Side Window
+	{
+		keep Scalpel,
+		FrontWindow3=1,
+
+		Result:DG70FrontSideWindow3,
+		Time:200.0,
+		Category:DG70,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make DG70 Rear Side Window
+	{
+		keep Scalpel,
+		RearWindow3=1,
+
+		Result:DG70RearSideWindow3,
+		Time:200.0,
+		Category:DG70,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make DG70 Windshield
+	{
+		keep Scalpel,
+		Windshield3=1,
+
+		Result:DG70Windshield3,
+		Time:250.0,
+		Category:DG70,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make DG70 Rear Windshield
+	{
+		keep Scalpel,
+		RearWindshield3=1,
+
+		Result:DG70WindshieldRear3,
+		Time:250.0,
+		Category:DG70,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make DG70 Door Armor
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		SheetMetal=4,
+		MetalPipe=2,
+		Screws=2,
+
+		Result:DG70DoorArmor,
+		Time:700.0,
+		Category:DG70,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make DG70 Windshield Armor
+	{
+		BlowTorch=9,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=4,
+		MetalPipe=3,
+		Screws=2,
+
+		Result:DG70WindshieldArmor,
+		Time:850.0,
+		Category:DG70,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make DG70 Rear Windshield Armor
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:DG70WindshieldRearArmor,
+		Time:800.0,
+		Category:DG70,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make DG70 Front Bullbar Type 1
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		MetalPipe=8,
+		Screws=2,
+
+		Result:DG70FrontBumperA,
+		Time:600.0,
+		Category:DG70,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make DG70 Front Bullbar Type 2
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		MetalPipe=6,
+		Screws=2,
+
+		Result:DG70FrontBumperB,
+		Time:600.0,
+		Category:DG70,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make DG70 Front Bullbar Type 3
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+       	SheetMetal=4,
+		MetalPipe=2,
+		Screws=2,
+
+		Result:DG70FrontBumperC,
+		Time:600.0,
+		Category:DG70,
+		SkillRequired:MetalWelding=6,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make DG70 Rear Bullbar Type 1
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		MetalPipe=6,
+		Screws=2,
+
+		Result:DG70RearBumperA,
+		Time:600.0,
+		Category:DG70,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make DG70 Rear Bullbar Type 2
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		MetalPipe=5,
+		Screws=2,
+
+		Result:DG70RearBumperB,
+		Time:600.0,
+		Category:DG70,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make DG70 Rear Bullbar Type 3
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		MetalPipe=4,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:DG70RearBumperC,
+		Time:600.0,
+		Category:DG70,
+		SkillRequired:MetalWelding=6,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+}

@@ -1,0 +1,9 @@
+name=PaperWyverns Sleepingbags
+id=PwSleepingbags
+poster=poster.png
+description= Adds Working Sleepingbags to the game
+pack=packsleepingbags
+tiledef=sleepingbags 690
+authors=PaperWyvern
+icon=icon.png
+tags=Build 41;

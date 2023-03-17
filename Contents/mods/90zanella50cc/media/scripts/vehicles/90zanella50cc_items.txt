@@ -1,0 +1,179 @@
+module Base
+{
+    /******************* Storage ************************/
+
+    item ZNL50storageFront
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = Zanella Delivery Front Storage,
+        Icon    =    ZNL50_fronts,
+        MaxCapacity = 5,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        WorldStaticModel = ZNL50_storageFrontWI,
+    }
+
+    item ZNL50storageBox
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = Zanella Delivery Storage Box,
+        Icon    =    ZNL50_box,
+        MaxCapacity = 50,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        WorldStaticModel = ZNL50_storageBoxWI,
+    }
+
+
+    /******************* Muffler ************************/
+    
+    item ZNL50muffler
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	5.0,
+        Type	=	Normal,
+        DisplayName	=	Zanella Delivery Muffler,
+        Icon	=	ZNL50_muff,
+        EngineLoudness = 120,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.015,
+        ConditionLowerOffroad = 0.35,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ZNL50_mufflerWI,
+    }
+
+    /******************* GasTank ************************/
+    
+    item ZNL50gasTank
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   5.0,
+        Type    =   Normal,
+        DisplayName =   Zanella Delivery Gas Tank,
+        Icon    =   ZNL50_gastank,
+        MaxCapacity = 24,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 40,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ZNL50_gastankWI,
+    }
+
+    /******************* Tires ************************/
+
+    item ZNL50oldTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	13.0,
+        Type	=	Normal,
+        DisplayName	=	Zanella Delivery Valu-Tire,
+        Icon	=	ZNL50_tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.08,
+        ConditionLowerOffroad = 0.5,
+        WheelFriction = 1.4,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ZNL50_tireWI,
+    }
+
+    item ZNL50normalTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	14.0,
+        Type	=	Normal,
+        DisplayName	=	Zanella Delivery Regular Tire,
+        Icon	=	ZNL50_tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.4,
+        WheelFriction = 1.5,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ZNL50_tireWI,
+    }
+
+    item ZNL50modernTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Zanella Delivery Performance Tire,
+        Icon	=	ZNL50_tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.35,
+        WheelFriction = 1.6,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ZNL50_tireWI,
+    }
+
+    /******************* Seat ************************/
+    
+    item ZNL50seat
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	4.0,
+        Type	=	Normal,
+        DisplayName	=	Zanella Delivery Seat,
+        Icon	=	ZNL50_seat,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ZNL50_seatWI,
+    }
+
+    /******************* Fenders ************************/
+    
+    item ZNL50fenderFront
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   5.0,
+        Type    =   Normal,
+        DisplayName =   Zanella Delivery Front Fender,
+        Icon    =   ZNL50_fender_f,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ZNL50_fenderFrontWI,
+    }
+
+    item ZNL50fenderRear
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   5.0,
+        Type    =   Normal,
+        DisplayName =   Zanella Delivery Rear Fender,
+        Icon    =   ZNL50_fender_r,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ZNL50_fenderRearWI,
+    }
+
+      /******************* Lid ************************/
+    
+    item ZNL50boxLid
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   2.0,
+        Type    =   Normal,
+        DisplayName =   Zanella Delivery Box Lid,
+        Icon    =   ZNL50_boxlid,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = ZNL50_boxLidWI,
+    }
+
+}

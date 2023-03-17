@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models\Skinned\BackPacks\ChestCarrier_Male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models\Skinned\BackPacks\ChestCarrier_Female.fbx</m_FemaleModel>
+	<m_GUID>33fc5cb6-f806-49a6-af95-61f8b511bae1</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\bag\BeltCarrierMilitary</textureChoices>
+	<textureChoices>clothes\bag\BeltCarrierTan</textureChoices>
+</clothingItem>

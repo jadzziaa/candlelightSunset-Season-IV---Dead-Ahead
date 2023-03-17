@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>Skinned\Clothes\Spongie\M_JacketLeatherVest</m_MaleModel>
+    <m_FemaleModel>Skinned\Clothes\Spongie\F_JacketLeatherVest</m_FemaleModel>
+    <m_GUID>9e094ca7-VEST-4c7d-ae70-597fa4c8a330</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>12</m_Masks>
+	<m_Masks>13</m_Masks>
+    <m_AttachBone></m_AttachBone>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\jacket\jacket_leather_black</textureChoices>
+</clothingItem>

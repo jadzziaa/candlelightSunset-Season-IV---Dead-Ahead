@@ -1,0 +1,121 @@
+module Base
+{
+
+	template vehicle SS100trunkStoragesON
+	{
+
+		part SS100sideBoxl
+		{
+			model sidestuffl
+			{
+				file = 28ss100_sidebagl,
+			}
+
+			category = bodywork,
+			area = TruckBedLeft,
+			itemType = Base.SS100sidebag,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = SS100.ContainerAccess.TrunkBoxLeft,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part SS100sideBoxr
+		{
+			model sidestuffr
+			{
+				file = 28ss100_sidebagr,
+			}
+
+			category = bodywork,
+			area = TruckBedRight,
+			itemType = Base.SS100sidebag,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = SS100.ContainerAccess.TrunkBoxRight,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part SS100sideBox*
+		{
+			table install
+			{
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = KI5.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Default,
+			}
+			table uninstall
+			{
+				requireEmpty = true,
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = KI5.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+
+			}
+		}
+
+		part SS100topbox
+		{
+			model topstuff
+			{
+				file = 28ss100_topbox,
+			}
+
+			category = bodywork,
+			area = TruckBed,
+			itemType = Base.SS100topbag,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = SS100.ContainerAccess.TrunkBox,
+			}
+
+			table install
+			{
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = KI5.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Default,
+			}
+			table uninstall
+			{
+				requireEmpty = true,
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = KI5.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+				requireUninstalled = SS100Tent,
+
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+	}
+
+}

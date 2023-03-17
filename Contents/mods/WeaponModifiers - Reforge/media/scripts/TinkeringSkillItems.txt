@@ -1,0 +1,94 @@
+module WeaponModifiers
+{
+	imports
+	{
+		Base
+	}
+
+/************************Literature************************/
+
+    item BookTinkering1
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	220,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	BookTinkering1,
+        Icon	=	Book6,
+        SkillTrained = Tinkering,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookRedPink_Ground,
+    }
+	item BookTinkering2
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	260,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	BookTinkering2,
+        Icon	=	Book6,
+        SkillTrained = Tinkering,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookRedPink_Ground,
+    }
+	item BookTinkering3
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	300,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	BookTinkering3,
+        Icon	=	Book6,
+        SkillTrained = Tinkering,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookRedPink_Ground,
+    }
+	item BookTinkering4
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	340,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	BookTinkering4,
+        Icon	=	Book6,
+        SkillTrained = Tinkering,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+    }
+	item BookTinkering5
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	380,
+        Weight	=	0.8,
+        Type	=	Literature,
+        DisplayName	=	BookTinkering5,
+        Icon	=	Book6,
+        SkillTrained = Tinkering,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        StaticModel = Book,
+        WorldStaticModel = BookClosedRedPink_Ground,
+    }
+
+    
+	item TinkeringMag
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	TinkeringMag,
+        Icon	=	MagazineMechanics,
+        TeachedRecipes  =   Tinker,
+        ReplaceOnUse    =   TinkeringMag,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineRadio3Ground,
+    }
+}

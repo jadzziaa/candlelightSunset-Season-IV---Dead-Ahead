@@ -1,0 +1,93 @@
+module Base
+{
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_1.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_2.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_3.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_4.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_5.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_6.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_7.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_8.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_9.ogg,
+			volume = 0.14,
+		}
+	}
+	sound TIsnd_Literature	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Literature_10.ogg,
+			volume = 0.14,
+		}
+	}
+}

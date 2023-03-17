@@ -1,0 +1,13 @@
+Recipes_JP = {
+	Recipe_Make_Stone_Handaxe = "石の手斧を作成する",
+	Recipe_Create_Combat_Rod = "クォータースタッフを作成する",
+	Recipe_Sharpen_Stone = "石を研ぐ",
+	Recipe_Build_Handmade_Baseball_Bat = "野球バットを作成する",
+	Recipe_Add_Nails_to_Handmade_Baseball_Bat = "手作り野球バットに釘を打ち込む",
+	Recipe_Create_Wooden_Club = "木製棍棒を作成する",
+	Recipe_Add_Wire_to_Handmade_Baseball_Bat = "手作り野球バットに有刺鉄線を巻く",
+	Recipe_Add_Wire_to_Baseball_Bat = "野球バットに有刺鉄線を巻く",
+	Recipe_Build_Wooden_Sword = "木製剣を作成する",
+	Recipe_Add_Nails_to_Wooden_Club = "木製棍棒に有刺鉄線を巻く",
+	Recipe_Build_Wooden_Mallet = "木槌を作成する",
+}

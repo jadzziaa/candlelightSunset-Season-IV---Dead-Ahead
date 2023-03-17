@@ -1,0 +1,14 @@
+module Base
+{
+    recipe Make Bucket of Concrete
+        {
+            destroy BucketEmpty/BucketWaterFull,
+            Water=5,
+            ConcretePowder,
+
+            Result:BucketConcreteFull,
+            Time:150.0,
+            Category:Carpentry,
+            Sound:MakePlaster,
+        }
+}

@@ -1,0 +1,15 @@
+Items_DE = 
+	{
+
+	DisplayNameTactical_Knife = "Taktisches Messer",
+	DisplayNameKnife_Sheath_Back = "Messerholster improvisiert (Ruecken)",
+	DisplayNameKnife_Sheath_Leg = "Messerholster improvisiert (Bein)",
+	DisplayNameKnife_Sheath_Tactical_Back = "Messerholster taktisch (Ruecken)",
+	DisplayNameKnife_Sheath_Tactical_Leg = "Messerholster taktisch (Bein)",
+	DisplayNameKatana_Sheath = "Messerholster (Katana)",
+	DisplayNameKatana_Sheath_Red = "Rot Messerholster (Katana)",
+	DisplayNameKatana_Sheath_White = "Weiß Messerholster (Katana)",
+	DisplayNameKatana_Sheath_Black = "Schwarz Messerholster (Katana)",
+	DisplayNameKatana_Sheath_Blue = "Blau Messerholster (Katana)",
+	DisplayNameKatana_Sheath_Green = "Grün Messerholster (Katana)",
+	}

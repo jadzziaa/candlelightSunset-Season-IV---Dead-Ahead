@@ -1,0 +1,138 @@
+module Base
+{
+	model VacsDrinks_Can_5HourEnergyDrink
+	{
+		mesh = PopCanDiet,
+		texture = WorldItems/VACDrinks_Can_5HourEnergyDrink_ModelTex,
+	}
+	model VacsDrinks_Can_5HourEnergyDrink_Empty
+	{
+    	mesh = WorldItems/EmptyPopCan,
+    	texture = WorldItems/VACDrinks_Can_5HourEnergyDrink_ModelTex,
+    	scale = 0.011,
+	}
+	model VacsDrinks_Can_5HourEnergyDrink_Ground
+  	{
+     	mesh = PopCanRed,
+      	texture = WorldItems/VACDrinks_Can_5HourEnergyDrink_ModelTex,
+  	}
+
+	model VacsDrinks_Can_Burn
+	{
+		mesh = PopCanDiet,
+		texture = WorldItems/VACDrinks_Can_Burn_ModelTex,
+	}
+	model VacsDrinks_Can_Burn_Empty
+	{
+    	mesh = WorldItems/EmptyPopCan,
+    	texture = WorldItems/VACDrinks_Can_Burn_ModelTex,
+    	scale = 0.011,
+	}
+	model VacsDrinks_Can_Burn_Ground
+  	{
+     	mesh = PopCanRed,
+      	texture = WorldItems/VACDrinks_Can_Burn_ModelTex,
+  	}
+
+	model VacsDrinks_Can_Karhu
+	{
+		mesh = PopCanDiet,
+		texture = WorldItems/VACDrinks_Can_Karhu_ModelTex,
+	}
+	model VacsDrinks_Can_Karhu_Empty
+	{
+    	mesh = WorldItems/EmptyPopCan,
+    	texture = WorldItems/VACDrinks_Can_Karhu_ModelTex,
+    	scale = 0.011,
+	}
+	model VacsDrinks_Can_Karhu_Ground
+  	{
+     	mesh = PopCanRed,
+      	texture = WorldItems/VACDrinks_Can_Karhu_ModelTex,
+  	}
+
+	model VacsDrinks_Can_LongDrink
+	{
+		mesh = PopCanDiet,
+		texture = WorldItems/VACDrinks_Can_LongDrink_ModelTex,
+	}
+	model VacsDrinks_Can_LongDrink_Empty
+	{
+    	mesh = WorldItems/EmptyPopCan,
+    	texture = WorldItems/VACDrinks_Can_LongDrink_ModelTex,
+    	scale = 0.011,
+	}
+	model VacsDrinks_Can_LongDrink_Ground
+  	{
+     	mesh = PopCanRed,
+      	texture = WorldItems/VACDrinks_Can_LongDrink_ModelTex,
+  	}
+
+	model VacsDrinks_Can_Monster
+	{
+		mesh = PopCanDiet,
+		texture = WorldItems/VACDrinks_Can_Monster_ModelTex,
+	}
+	model VacsDrinks_Can_Monster_Empty
+	{
+    	mesh = WorldItems/EmptyPopCan,
+    	texture = WorldItems/VACDrinks_Can_Monster_ModelTex,
+    	scale = 0.011,
+	}
+	model VacsDrinks_Can_Monster_Ground
+  	{
+     	mesh = PopCanRed,
+      	texture = WorldItems/VACDrinks_Can_Monster_ModelTex,
+  	}
+
+	model VacsDrinks_Can_Nos
+	{
+		mesh = PopCanDiet,
+		texture = WorldItems/VACDrinks_Can_Nos_ModelTex,
+	}
+	model VacsDrinks_Can_Nos_Empty
+	{
+    	mesh = WorldItems/EmptyPopCan,
+    	texture = WorldItems/VACDrinks_Can_Nos_ModelTex,
+    	scale = 0.011,
+	}
+	model VacsDrinks_Can_Nos_Ground
+  	{
+     	mesh = PopCanRed,
+      	texture = WorldItems/VACDrinks_Can_Nos_ModelTex,
+  	}
+
+	model VacsDrinks_Can_Redbull
+	{
+		mesh = PopCanDiet,
+		texture = WorldItems/VACDrinks_Can_RedBull_ModelTex,
+	}
+	model VacsDrinks_Can_Redbull_Empty
+	{
+    	mesh = WorldItems/EmptyPopCan,
+    	texture = WorldItems/VACDrinks_Can_RedBull_ModelTex,
+    	scale = 0.011,
+	}
+	model VacsDrinks_Can_Redbull_Ground
+  	{
+     	mesh = PopCanRed,
+      	texture = WorldItems/VACDrinks_Can_RedBull_ModelTex,
+  	}
+
+	model VacsDrinks_Can_Rockstar
+	{
+		mesh = PopCanDiet,
+		texture = WorldItems/VACDrinks_Can_Rockstar_ModelTex,
+	}
+	model VacsDrinks_Can_Rockstar_Empty
+	{
+    	mesh = WorldItems/EmptyPopCan,
+    	texture = WorldItems/VACDrinks_Can_Rockstar_ModelTex,
+    	scale = 0.011,
+	}
+	model VacsDrinks_Can_Rockstar_Ground
+  	{
+     	mesh = PopCanRed,
+      	texture = WorldItems/VACDrinks_Can_Rockstar_ModelTex,
+  	}
+}

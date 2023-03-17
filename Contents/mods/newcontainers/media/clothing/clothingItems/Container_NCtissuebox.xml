@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>fab1e3c2-c3f4-4648-a35a-0ded0a52ed87</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>WorldItems/NCtissuebox_b</textureChoices>
+	<textureChoices>WorldItems/NCtissuebox_g</textureChoices>
+	<textureChoices>WorldItems/NCtissuebox_p</textureChoices>
+	<textureChoices>WorldItems/NCtissuebox_r</textureChoices>
+	<textureChoices>WorldItems/NCtissuebox_y</textureChoices>
+</clothingItem>

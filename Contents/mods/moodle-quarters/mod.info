@@ -1,0 +1,5 @@
+name=Moodle Quarters
+id=moodle_quarters
+description=Changes one additional quarter of the moodle background to a square for each moodle level.
+poster=poster.png
+pack=Quarters

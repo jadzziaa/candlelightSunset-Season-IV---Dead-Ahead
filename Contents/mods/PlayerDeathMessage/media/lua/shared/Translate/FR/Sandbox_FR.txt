@@ -1,0 +1,29 @@
+Sandbox_FR = {
+
+    Sandbox_PlayerDeathMessage = "Message de décès du joueur",
+
+    Sandbox_PlayerDeathMessage_disabled = "Désactivé",
+    Sandbox_PlayerDeathMessage_disabled_tooltip = "Désactiver le message de mort",
+
+    Sandbox_PlayerDeathMessage_useUsername = "Utiliser le nom d'utilisateur du joueur",
+    Sandbox_PlayerDeathMessage_useUsername_tooltip = "Utiliser le nom d'utilisateur du joueur",
+
+    Sandbox_PlayerDeathMessage_useCharacterName = "Utiliser le nom du personnage",
+    Sandbox_PlayerDeathMessage_useCharacterName_tooltip = "Utilisez le nom complet du personnage",
+
+    Sandbox_PlayerDeathMessage_showPlayerStats = "Afficher les statistiques du joueur mort",
+    Sandbox_PlayerDeathMessage_showPlayerStats_tooltip = "Afficher le temps de survie du joueur, le nombre de zombies tué et le nombre de survivants tué si le pvp est activé (nécessite le mod : FixSurvivorKillsMP pour fonctionner)",
+
+    Sandbox_PlayerDeathMessage_showPlayerFavWeapon = "Afficher l'arme préférée du joueur mort",
+    Sandbox_PlayerDeathMessage_showPlayerFavWeapon_tooltip = "Afficher l'arme préférée du joueur mort",
+
+    Sandbox_PlayerDeathMessage_messageColorRed = "Couleur RGB du message (Rouge)",
+    Sandbox_PlayerDeathMessage_messageColorRed_tooltip = "Réglez la valeur rouge du message de mort de 0.0 à 1.0",
+
+    Sandbox_PlayerDeathMessage_messageColorGreen = "Couleur RGB du message (Vert)",
+    Sandbox_PlayerDeathMessage_messageColorGreen_tooltip = "Réglez la valeur verte du message de décès de 0.0 à 1.0",
+
+    Sandbox_PlayerDeathMessage_messageColorBlue = "Couleur RGB du message (Bleu)",
+    Sandbox_PlayerDeathMessage_messageColorBlue_tooltip = "Réglez la valeur bleu du message de décès de 0.0 à 1.0",
+
+}

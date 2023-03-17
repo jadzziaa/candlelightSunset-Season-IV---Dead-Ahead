@@ -1,0 +1,6 @@
+name='86 Ford Econoline E150 - Unified KI5 Crafting Category
+authors=Panopticon
+poster=preview.png
+id=86fordE150KI5CraftingUnified
+require=86fordE150
+description=Overwrites the crafting recipes to be under "KI5" instead of "E150".

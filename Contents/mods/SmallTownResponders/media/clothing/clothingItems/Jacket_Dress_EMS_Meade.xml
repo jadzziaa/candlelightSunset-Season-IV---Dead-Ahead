@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>x:skinned\clothes\bob_coatarmy</m_MaleModel>
+	<m_FemaleModel>x:skinned\clothes\kate_coatarmy</m_FemaleModel>
+	<m_GUID>e45e8ce7-e3a1-471d-a289-8d90d6251da6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Jacket/Masks_CoatArmy</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks_CoatArmy</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\Jacket\Jacket_Dress_EMS_Meade</textureChoices>
+</clothingItem>

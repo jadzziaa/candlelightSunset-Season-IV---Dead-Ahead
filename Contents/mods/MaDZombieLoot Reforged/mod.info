@@ -1,0 +1,91 @@
+name=MaD's Awesome Zombie Loot
+id=MaDZombieLoot
+poster=poster.png
+description=
+Makes zombies drop awesome (basic) loot like other survival games.
+MOD is configured for insanely rare loot games and have user-friendly config via sandbox options.
+Adjust your loot drops as you like! Make your own apocalipse!
+
+============= WHAT THIS MOD OFFER =============
+
+-A more complete list of itens to find in zombie pockets, but controlling the rate of drops to maintain the game difficulty.
+
+-Special loot for specific zombie outfits/tipe (clothing). Better chance for axes/extinguishers in firefighters, health itens in medics/nurses, buiding materials in contruction workers, seeds in farmes and so on...
+
+-Fully adjustable settings via sandbox options (see pictures above), make specific itens drop more/less or not drop at all.
+
+-Capacity to add ANY vanilla item or modded item to the loot drop via the extra roll feature in sandbox option (see compatibility below for instructions).
+
+-Compatibility with Brita's and Firearms B41 (and any mod using extra rolls feature) for zombie loot drops (follow instructions in the end of the page).
+ 
+Just to make zombie loot worth your time again... Makes corpse loot a nice surprise once more...
+Ahhh the joy when you find something usefull in the pocket of a zombie you just smashed the head off...
+There's no price to that...
+
+============= LOOT CHANCE & EXAMPLES =============
+
+-Variety of snack/can foods (rarity lv1)
+ex. beef jerky/peanuts/chips/chocolate/beer/spices...
+
+-Variety of craft itens (rarity lv2)
+ex. duct tape/glue/adhesive tape/wooden glue/nails/screws...
+
+-Variety of seed bags/magazines (rarity lv3)
+ex. all seed bags/almost all mags (farming/hunting/fishing/cooking/generator/herbs/metalw.)
+
+-Variety of guns/ammo (rarity lv4)
+ex. revolver/sawoff shotty/loose bullets and boxes...
+
+-Some secret UBER MEGA ULTRA RARE itens (rarity lv5) If youre "winthelottery" lucky, you could discover some nice apocalipse treasures...
+ex. spiffo plushy... the rest is up to you to hunt and discover on your travels. Happy hunting!
+
+============= COMPATIBILITY =============
+
+BRITA's WEAPONS / GUNFIGHTER - When Brita's weapon mod is active, all weapons from the gun store distribution are added to zombie drops. The multiplier for zombie drops is controlled by the "other guns" multiplier in sandbox. The zombie loot distribution should take into account any weapon settings set in gunfighter options, so for example if post-1993 weapons are removed in those settings they should not appear on zombies. Same goes for disabled weapons or ammo types.
+My suggestion for Brita's, if you want to fine-tune non-police zombie gun drops, would be to disable the zombie weapon drops entirely within gunfighter settings and adjust drops with the "other guns" multiplier in this mod to fine-tune and make the drops as rare as you need.
+
+FIREARMS B41 - When Firearms b41 is active, all the new firearms and ammo are added to the table of items dropped from zombies, tuneable by the pistol/long gun sandbox modifiers.
+
+ANY MOD - Using the extra rolls feature in sandbox, you can insert any modded item to zombie loot, so compatibility is dependant to user.
+Example1: "ItemID1:chance;ItemID2:chance;ItemID3:chance"
+Example2: "Base.BaseballBat:1;Base.Crowbar:5;Base.Axe:5" 
+
+============= SPECIAL THANKS =============
+
+-Dylan Zombie Loot (for being my first step into modding) 
+-Airbobbelz (for the genius coding that solved super rare loot drops)
+-Loot Zeta Enhanced Edition (for some ideas on custom outfit zombie loot)
+-Advanced Alternative Zombie Loot (for some distribution tables for custom loot drops)
+
+============= UPDATES =============
+
+*** UPDATE v1.1 ***
+
+-Fine tunning of loot drops
+-Added Dummies Books, lv 1 book for every profession (rarer than magazines)
+
+*** UPDATE v1.2 ***
+
+-Fine tunning of loot drops (even lower drops)
+
+*** UPDATE v1.3 ***
+
+-Added itens to list (comic book/gas pop bottle)
+-Lower drops for some itens that were too frequent
+
+*** UPDATE v1.4 ***
+
+-Big MOD Code overhaul (big improvements how chance/loot works)
+-Added really rare chance of improvised survivor weapons (pipe bombs/molotovs/etc)
+-Item drop for the zombie tipe
+
+============= FUTURE UPDATES =============
+
+-Add all "PAWS" plushies already in game code
+-More fine tunning of loot chance
+-Add/Remove itens has necessary
+
+==========================================
+
+Workshop ID: 2892563252
+Mod ID: MaDZombieLoot (UPDATED 05/12/22 14:30)

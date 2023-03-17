@@ -1,0 +1,9 @@
+IGUI_EN = {
+
+    IGUI_Hair_Dixon = 	"Dixon",
+    IGUI_Hair_Shaved = 	"Close Shave",
+    IGUI_Beard_Stubble = "Stubble"
+    IGUI_Hair_DixonG1 = "zDoNotPickMe",
+    IGUI_Hair_DixonG2 = "zDoNotPickMe",
+    IGUI_Hair_DixonG4 = "zDoNotPickMe",
+}

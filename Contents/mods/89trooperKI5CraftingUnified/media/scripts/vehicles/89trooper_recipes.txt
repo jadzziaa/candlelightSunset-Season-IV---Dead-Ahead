@@ -1,0 +1,177 @@
+module Base
+
+{
+
+	recipe Make ISZ89 Side Window
+	{
+		keep Scalpel,
+		FrontWindow2=1,
+
+		Result:89trooperSideWindow2,
+		Time:200.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make ISZ89 Side Window 2
+	{
+		keep Scalpel,
+		RearWindow2=1,
+
+		Result:89trooperSideWindow2,
+		Time:200.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make ISZ89 Windshield
+	{
+		keep Scalpel,
+		Windshield2=1,
+
+		Result:89trooperWindshield2,
+		Time:350.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make ISZ89 Rear Windshield
+	{
+		keep Scalpel,
+		RearWindshield2=1,
+
+		Result:89trooperRearWindshield2,
+		Time:450.0,
+		Category:KI5,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make ISZ89 Front Door Armor
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		MetalPipe=1,
+		SheetMetal=3,
+		Screws=2,
+
+		Result:89trooperFrontDoorArmor,
+		Time:800.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make ISZ89 Rear Door Armor
+	{
+		BlowTorch=7,
+      	keep WeldingMask,
+		MetalPipe=1,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:89trooperRearDoorArmor,
+		Time:800.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make ISZ89 Rear Windows Armor
+	{
+		BlowTorch=6,
+      	keep WeldingMask,
+		MetalPipe=1,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:89trooperBackWindowArmor,
+		Time:800.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make ISZ89 Windshield Armor
+	{
+		BlowTorch=9,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=6,
+		Screws=2,
+		MetalPipe=4,
+
+		Result:89trooperWindshieldArmor,
+		Time:1000.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make ISZ89 Rear Windshield Armor
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=4,
+		Screws=2,
+		MetalPipe=3,
+
+		Result:89trooperWindshieldRearArmor,
+		Time:900.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make ISZ89 Bullbar Type 1
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		SheetMetal=2,
+		MetalPipe=3,
+		Screws=2,
+
+		Result:89trooperBullbarFrontA,
+		Time:900.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make ISZ89 Bullbar Type 2
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+       	89trooperBumperFront0=1,
+       	89trooperBullbarFrontA=1,
+		SheetMetal=2,
+		MetalPipe=2,
+		Screws=1,
+
+		Result:89trooperBullbarFrontB,
+		Time:900.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make ISZ89 Roofrack
+	{
+		BlowTorch=6,
+       	keep WeldingMask,
+		SheetMetal=8,
+		MetalPipe=2,
+		Screws=2,
+
+		Result:89trooperRoofrack2,
+		Time:1100.0,
+		Category:KI5,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+}

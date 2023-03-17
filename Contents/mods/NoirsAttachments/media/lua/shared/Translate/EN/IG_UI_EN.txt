@@ -1,0 +1,29 @@
+IGUI_EN = {
+
+    IGUI_NATT_BackpackWR = "Apply backpack weight reduction to attached items",
+    IGUI_NATT_BackpackWR_tooltip = "Requires re-attaching items to backpack (Doesn't work on food, water containers and clothing items)",
+
+    IGUI_NATT_AttachmentSlots = "Attachment Slots",
+    IGUI_NATT_Sort_Slots = "Sort Slots",
+    IGUI_NATT_MoveUp = "Move Up",
+    IGUI_NATT_MoveDown = "Move Down",
+    IGUI_NATT_Ok = "Ok",
+
+    IGUI_HotbarAttachment_NATTWeapon = "Weapon",
+    IGUI_HotbarAttachment_NATTShortWeapon = "Short Weapon",
+    IGUI_HotbarAttachment_NATTUtilityLeft = "Utility Left",
+    IGUI_HotbarAttachment_NATTUtilityRight = "Utility Right",
+    IGUI_HotbarAttachment_NATTLeft = "Left Side",
+    IGUI_HotbarAttachment_NATTRight = "Right Side",
+    IGUI_HotbarAttachment_NATTContainer = "Container",
+    IGUI_HotbarAttachment_NATTContainerSmallLeft = "Small Left Container",
+    IGUI_HotbarAttachment_NATTContainerSmallRight = "Small Right Container",
+    IGUI_HotbarAttachment_NATTBedroll = "Bedroll",
+    IGUI_HotbarAttachment_NATTFlashlight = "Flashlight",
+
+    IGUI_CraftCategory_Tailoring = "Tailoring",
+
+    IGUI_Set_Sleepingbag = "Set Sleeping bag",
+    IGUI_PickUp_Sleepingbag = "Pick Up Sleeping bag",
+
+}

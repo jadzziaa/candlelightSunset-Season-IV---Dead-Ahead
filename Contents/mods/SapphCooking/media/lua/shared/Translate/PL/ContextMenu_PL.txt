@@ -1,0 +1,56 @@
+ContextMenu_PL = {
+	
+
+	ContextMenu_EvolvedRecipe_SapphCooking.ArborioRiceBowl = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofFriedRice = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofOmurice = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRisotto = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BrownRiceBowl = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRavioli = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofTortellini = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBeefStew = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRefriedBeans = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguetti = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguettiandMeatballs = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofYakisoba = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofKungPaoChicken = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofShuiZhuYu = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofJapaneseCurry = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBorscht = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes_Meatballs = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceJapaneseCurry = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.FryingPan_BaconandEggs = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_BaconandEggs = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_BaconandEggs = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_BaconandEggs = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_BaconandEggs = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.RiceBeanBowl = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofChickenStroganoff = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceChickenStroganoff = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_HuevosRancheros = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_HuevosRancheros = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_HuevosRancheros = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_HuevosRancheros = "Dodaj",
+
+
+
+
+
+
+
+
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_1 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_2 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_3 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_4 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_5 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_6 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_7 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_8 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_9 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_10 = "Dodaj",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_11 = "Dodaj",
+  	ContextMenu_EvolvedRecipe_SapphCooking.MRE_12 = "Dodaj",
+  
+} 

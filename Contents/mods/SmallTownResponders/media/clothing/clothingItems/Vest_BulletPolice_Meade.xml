@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_bulletvest</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_bulletvest</m_FemaleModel>
+	<m_GUID>326abff1-77eb-4959-aea5-2e6d532d20fa</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>12</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/BulletVest/Masks_BulletVest</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/BulletVest/Masks_BulletVest</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\BulletVest\Vest_BulletPolice_Meade</textureChoices>
+</clothingItem>

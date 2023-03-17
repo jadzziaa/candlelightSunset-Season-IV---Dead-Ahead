@@ -1,0 +1,329 @@
+module vacsdrinksaddon
+{
+	imports
+	{
+		Base
+	}
+
+	item VacsDrinks_Can_Karhu
+	{
+		DisplayName = Karhu,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Karhu_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Karhu_Empty,
+		HungerChange = -6,
+		ThirstChange = -60,
+		UnhappyChange = -10,
+		Calories = 134,
+		Carbohydrates = 7,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Karhu,
+		WorldStaticModel = VacsDrinks_Can_Karhu_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_Karhu_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Karhu Can,
+		Icon = Can_Karhu_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Karhu_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_LongDrink
+	{
+		DisplayName = Long Drink,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_LongDrink_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_LongDrink_Empty,
+		HungerChange = -12,
+		ThirstChange = -15,
+		UnhappyChange = -20,
+		Calories = 187,
+		Carbohydrates = 21,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_LongDrink,
+		WorldStaticModel = VacsDrinks_Can_LongDrink_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_LongDrink_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Long Drink Can,
+		Icon = Can_LongDrink_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_LongDrink_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_5HourEnergyDrink
+	{
+		DisplayName = 5-hour Energy Drink,
+		DisplayCategory = Food,
+		FatigueChange = -25,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_5HourEnergyDrink_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_5HourEnergyDrink_Empty,
+		HungerChange = -1,
+		ThirstChange = -60,
+		UnhappyChange = -10,
+		Calories = 0,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_5HourEnergyDrink,
+		WorldStaticModel = VacsDrinks_Can_5HourEnergyDrink_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_5HourEnergyDrink_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty 5-hour Energy Drink Can,
+		Icon = Can_5HourEnergyDrink_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_5HourEnergyDrink_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Burn
+	{
+		DisplayName = Burn,
+		DisplayCategory = Food,
+		FatigueChange = -10,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Burn_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Burn_Empty,
+		HungerChange = -11,
+		ThirstChange = -60,
+		UnhappyChange = -16,
+		Calories = 198,
+		Carbohydrates = 47,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Burn,
+		WorldStaticModel = VacsDrinks_Can_Burn_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_Burn_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Burn Can,
+		Icon = Can_Burn_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Burn_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Monster
+	{
+		DisplayName = Monster,
+		DisplayCategory = Food,
+		FatigueChange = -12,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Monster_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Monster_Empty,
+		HungerChange = -8,
+		ThirstChange = -60,
+		UnhappyChange = -12,
+		Calories = 150,
+		Carbohydrates = 40,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Monster,
+		WorldStaticModel = VacsDrinks_Can_Monster_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_Monster_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Monster Can,
+		Icon = Can_Monster_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Monster_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Nos
+	{
+		DisplayName = Nos,
+		DisplayCategory = Food,
+		FatigueChange = -12,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Nos_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Nos_Empty,
+		HungerChange = -8,
+		ThirstChange = -60,
+		UnhappyChange = -12,
+		Calories = 150,
+		Carbohydrates = 40,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Nos,
+		WorldStaticModel = VacsDrinks_Can_Nos_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_Nos_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Nos Can,
+		Icon = Can_Nos_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Nos_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Redbull
+	{
+		DisplayName = Redbull,
+		DisplayCategory = Food,
+		FatigueChange = -11,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_RedBull_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Redbull_Empty,
+		HungerChange = -8,
+		ThirstChange = -60,
+		UnhappyChange = -12,
+		Calories = 160,
+		Carbohydrates = 40,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Redbull,
+		WorldStaticModel = VacsDrinks_Can_Redbull_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_Redbull_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Redbull Can,
+		Icon = Can_RedBull_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Redbull_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Rockstar
+	{
+		DisplayName = Rockstar,
+		DisplayCategory = Food,
+		FatigueChange = -12,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Rockstar_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Rockstar_Empty,
+		HungerChange = -12,
+		ThirstChange = -60,
+		UnhappyChange = -17,
+		Calories = 216,
+		Carbohydrates = 46,
+		Lipids = 1,
+		Proteins = 1,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Rockstar,
+		WorldStaticModel = VacsDrinks_Can_Rockstar_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_Rockstar_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Rockstar Can,
+		Icon = Can_Rockstar_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Rockstar_Empty,
+		Tags = VacsDrinksCan,
+	}
+}

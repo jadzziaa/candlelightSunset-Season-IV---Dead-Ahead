@@ -1,0 +1,81 @@
+module Base
+{
+	model W460SWBmudflaps1
+	{
+		mesh = vehicles/Vehicles_84mercLWB_Body|w460_lwb_mudflaps,
+		texture = Vehicles/Vehicles_84mercLWB4_Interior,
+		shader = vehiclewheel,
+		scale = 0.1,
+	}
+
+	template vehicle W460SWBMudflaps
+		{
+		part W460SWBMudflaps
+        	{
+
+			model SWBMudflaps1
+				{
+                		file = W460SWBmudflaps1,
+				}
+
+			category = bodywork,
+			area = TruckBed,
+			specificItem = false,
+			itemType = Base.W460Mudflaps1_Item,
+			mechanicRequireKey = false,
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+				equip = primary,
+                    		}
+                	}
+
+                	time = 800,
+                	skills = Mechanics:1,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+  				type = Base.Wrench,
+				count = 1,
+				keep = true,
+				equip = primary,
+                    		}
+                	}
+
+			time = 750,
+			skills = Mechanics:1,
+			recipes = Intermediate Mechanics,
+            test = Vehicles.UninstallTest.Default,
+			complete = W460SWB.UninstallComplete.Mudflaps,
+
+            		}
+
+            		lua
+            		{
+			create = W460SWB.Create.Mudflaps,
+			init = W460SWB.Init.Mudflaps,
+			}
+		}
+	}
+
+		
+}

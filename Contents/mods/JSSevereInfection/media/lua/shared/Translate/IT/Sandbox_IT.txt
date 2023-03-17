@@ -1,0 +1,55 @@
+Sandbox_IT = {
+	Sandbox_JSSevereInfection = "infezione non letale",
+	
+	Sandbox_JSSevereInfection_OnsetHours = "Ore iniziali dell' infezione",
+	Sandbox_JSSevereInfection_OnsetHours_tooltip = "Ore iniziali fino al suo picco.",
+	
+	Sandbox_JSSevereInfection_PeakHours = "Ore di picco",
+	Sandbox_JSSevereInfection_PeakHours_tooltip = "Numero di ore che trascorri al suo picco.",
+	
+	Sandbox_JSSevereInfection_RecoveryHours = "Ore di guarigione",
+	Sandbox_JSSevereInfection_RecoveryHours_tooltip = "Quantita' di ore che servono per guarire.",
+		
+	Sandbox_JSSevereInfection_BandageMulti = "Moltiplicatore infezione dovuta alle bende",
+	Sandbox_JSSevereInfection_BandageMulti_tooltip = "Aumenta la durata dell' infezione se non si usano bende pulite.",
+		
+	Sandbox_JSSevereInfection_InfectionMulti = "Gravita' ferita infetta",
+	Sandbox_JSSevereInfection_InfectionMulti_tooltip = "Aumenta la gravita' dell' infezione se la ferita non viene disinfettata(ferita infetta)"",
+			
+	Sandbox_JSSevereInfection_FatigueRate = "Fatica da infezione",
+	Sandbox_JSSevereInfection_FatigueRate_tooltip = "Quando sei infetto avverti maggiore fatica in base allo stadio dell' infezione/si aggiunge al valore base del gioco.",
+		
+	Sandbox_JSSevereInfection_ThirstRate = "Avverti piu' sete",
+	Sandbox_JSSevereInfection_ThirstRate_tooltip = "Quando sei infetto avverti piu' sete / si aggiunge al valore base del gioco.",
+
+	Sandbox_JSSevereInfection_HungerRate = "Avverti piu' fame",
+	Sandbox_JSSevereInfection_HungerRate_tooltip = "Quando sei infetto avverti piu' Fame / si aggiunge al valore base del gioco.",
+
+	Sandbox_JSSevereInfection_CalorieRate = "Perdita di Calorie",
+	Sandbox_JSSevereInfection_CalorieRate_tooltip = "Quando sei infetto perdi Calorie/si aggiunge al valore base del gioco.",
+	
+	Sandbox_JSSevereInfection_WeightLossRate = "Perdita di peso",
+	Sandbox_JSSevereInfection_WeightLossRate_tooltip = "Se sei affamato perdi peso piu' velocemente se sei infetto/si aggiunge al valore base del gioco.",
+	
+	Sandbox_JSSevereInfection_CriticalInfPercent = "Percentuale criticita' infezione",
+	Sandbox_JSSevereInfection_CriticalInfPercent_tooltip = "Quando sei al picco dell infezione c'e una parte critica dove perdi vita. \ perdi vita fino al valore "minimo".",
+	
+	Sandbox_JSSevereInfection_CriticalInfHealthMin = "Vita minima Infezione critica",
+	Sandbox_JSSevereInfection_CriticalInfHealthMin_tooltip = "La vita minima che raggiungi quando sei nella fase critica.",
+
+	Sandbox_JSSevereInfection_MaxWakeFatigue = "Allarme del corpo",
+	Sandbox_JSSevereInfection_MaxWakeFatigue_tooltip = "seleziona il massimo che il tuo corpo puo' sopportare prima di svegliarti se mentre dormi hai fame o sete/di base non ti svegli.",
+	
+	Sandbox_JSSevereInfection_SeverityRandom = "Casualita' gravita' dell infezione",
+	Sandbox_JSSevereInfection_SeverityRandom_tooltip = "determina la casualita' della forza o debolezza dell' infezione / in sostanza ogni infezione e' diversa e influenza quanto siano gravi i malus.",
+	
+	Sandbox_JSSevereInfection_InfTimeRandom = "Casualita' velocita' infezione",
+	Sandbox_JSSevereInfection_InfTimeRandom_tooltip = "l'infezione puo' essere piu' veloce o lenta.",
+
+	Sandbox_JSSevereInfection_BiteSeverity = "Moltiplicatore da Morso",
+	Sandbox_JSSevereInfection_BiteSeverity_tooltip = "Quanto l'infezione e' piu' dura se si viene morsi / scegli quanto il morso aggrava l'infezione-non letale.",
+	
+	Sandbox_JSSevereInfection_BitesLethal = "Morsi letali",
+	Sandbox_JSSevereInfection_BitesLethal_tooltip = "I morsi uccidono come di base(infezione classica che uccide).",
+
+}

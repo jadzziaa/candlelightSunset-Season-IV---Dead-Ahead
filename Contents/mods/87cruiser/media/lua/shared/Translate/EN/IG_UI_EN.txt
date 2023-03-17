@@ -1,0 +1,8 @@
+IG_UI_EN = {
+	IGUI_VehicleName87cruiser = "'87 TOYOTA Land Cruiser",
+	IGUI_VehicleName87cruiserLights = "'87 TOYOTA Land Cruiser variant 2",
+	IGUI_VehicleName87cruiserRoofrack = "'87 TOYOTA Land Cruiser with roofrack",
+	
+	IGUI_VehiclePartcruiserRoofrack = "Roof Rack",
+
+}

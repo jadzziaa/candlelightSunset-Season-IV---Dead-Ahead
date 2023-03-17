@@ -1,0 +1,5 @@
+Tooltip_EN = {
+	Tooltip_MGCan = "For holding unwanted items",
+	Tooltip_Cartbox = "For storing items",
+	Tooltip_Weapons_Crate = "For storing firearms and ammunition safely.",
+	}

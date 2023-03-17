@@ -1,0 +1,37 @@
+If you wanna create a Moodle * then
+
+1/
+Add Moodle *.png under media\ui
+should be 30 by 30 pixels png with alpha enabled
+
+2/
+add following text under media\lua\shared\Translate\EN
+Moodles_EN {
+    Moodles_*_Good_lvl1 = "text_1",
+    Moodles_*_Good_desc_lvl1 = "text_desc_1",
+    Moodles_*_Good_lvl2 = "text_2",
+    Moodles_*_Good_desc_lvl2 = "text_desc_2",
+    Moodles_*_Good_lvl3 = "text_3",
+    Moodles_*_Good_desc_lvl3 = "text_desc_3",
+    Moodles_*_Good_lvl4 = "text_4",
+    Moodles_*_Good_desc_lvl4 = "text_desc_4",
+    Moodles_*_Bad_lvl1 = "text_1",
+    Moodles_*_Bad_desc_lvl1 = "text_desc_1",
+    Moodles_*_Bad_lvl2 = "text_2",
+    Moodles_*_Bad_desc_lvl2 = "text_desc_2",
+    Moodles_*_Bad_lvl3 = "text_3",
+    Moodles_*_Bad_desc_lvl3 = "text_desc_3",
+    Moodles_*_Bad_lvl4 = "text_4",
+    Moodles_*_Bad_desc_lvl4 = "text_desc_4",
+}
+
+3/
+Add these lines in your mod, replacing * by your Moodle name:
+require "MF_ISMoodle"
+MF.createMoodle(*);
+
+4/ access your moodle from your code with
+MF.getMoodle(*):setValue(myNewMoodleValue)
+0.0 <= myNewMoodleValue <=1.0
+
+see mod description for further options

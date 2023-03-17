@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\jungleboots_male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\jungleboots_female.fbx</m_FemaleModel>
+	<m_GUID>3adb7d92-27be-4c05-a113-b6d67faa1b09</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/mediumboots</m_UnderlayMasksFolder>
+	<textureChoices>jungleboots</textureChoices>
+</clothingItem>	

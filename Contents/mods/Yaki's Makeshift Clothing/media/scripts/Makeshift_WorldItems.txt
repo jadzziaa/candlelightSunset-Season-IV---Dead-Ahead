@@ -1,0 +1,99 @@
+module Base
+{
+    model ShirtRogue_Ground
+    {
+        mesh = WorldItems/Clothing/ShirtRogue_Ground,
+        scale = 0.01,
+    }
+    model CorsetRogue_Ground
+    {
+        mesh = WorldItems/Clothing/CorsetRogue_Ground,
+        scale = 0.01,
+    }
+    model HoodRogue_Ground
+    {
+        mesh = WorldItems/Clothing/HoodRogue_Ground,
+        scale = 0.01,
+    }
+    model BootsRogue_Ground
+    {
+        mesh = WorldItems/Clothing/BootsRogue_Ground,
+        scale = 0.01,
+    }
+    model BeltPouchRogue_Ground
+    {
+        mesh = WorldItems/Clothing/BeltPouchRogue_Ground,
+        scale = 0.01,
+    }
+    model ChestPlateTire_Ground
+    {
+        mesh = WorldItems/Clothing/ChestPlateTire_Ground,
+        scale = 0.01,
+    }
+    model ShoulderPadsTire_Ground
+    {
+        mesh = WorldItems/Clothing/ShoulderPadsTire_Ground,
+        scale = 0.01,
+    }
+    model LegPadTireLEFT_Ground
+    {
+        mesh = WorldItems/Clothing/LegPadTireLEFT_Ground,
+        scale = 0.01,
+    }
+    model LegPadTireRIGHT_Ground
+    {
+        mesh = WorldItems/Clothing/LegPadTireRIGHT_Ground,
+        scale = 0.01,
+    }
+    model LeatherShoulderPads_Ground
+    {
+        mesh = WorldItems/Clothing/LeatherShoulderPads_Ground,
+        scale = 0.01,
+    }
+    model LeatherBoots_Ground
+    {
+        mesh = WorldItems/Clothing/LeatherBoots_Ground,
+        scale = 0.01,
+    }
+    model LeatherChestPlate_Ground
+    {
+        mesh = WorldItems/Clothing/LeatherChestPlate_Ground,
+        scale = 0.01,
+    }
+    model LeatherProtections_Ground
+    {
+        mesh = WorldItems/Clothing/LeatherProtections_Ground,
+        scale = 0.01,
+    }
+    model JunkerShoulderPadsNoSkull_Ground
+    {
+        mesh = WorldItems/Clothing/JunkerShoulderPadsNoSkull_Ground,
+        scale = 0.01,
+    }
+    model JunkerShoulderPads_Ground
+    {
+        mesh = WorldItems/Clothing/JunkerShoulderPads_Ground,
+        scale = 0.01,
+    }
+    model JunkerVest_Ground
+    {
+        mesh = WorldItems/Clothing/JunkerVest_Ground,
+        scale = 0.01,
+    }
+    model JunkerBoots_Ground
+    {
+        mesh = WorldItems/Clothing/JunkerBoots_Ground,
+        scale = 0.01,
+    }
+    model JunkerBelt_Ground
+    {
+        mesh = WorldItems/Clothing/JunkerBelt_Ground,
+        scale = 0.01,
+    }
+    model JunkerBeltNoSkull_Ground
+    {
+        mesh = WorldItems/Clothing/JunkerBeltNoSkull_Ground,
+        scale = 0.01,
+    }
+
+}

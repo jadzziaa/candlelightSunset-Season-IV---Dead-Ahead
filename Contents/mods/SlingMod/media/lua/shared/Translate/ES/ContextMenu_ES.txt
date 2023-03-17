@@ -1,0 +1,6 @@
+ContextMenu_ES = {
+	ContextMenu_SlingStyle1 = "Portafusíl: Posición 1",
+	ContextMenu_SlingStyle2 = "Portafusíl: Posición 2",
+	ContextMenu_SlingStyle3 = "Portafusíl: Posición 3",
+	ContextMenu_SlingStyle4 = "Portafusíl: Posición 4",
+}

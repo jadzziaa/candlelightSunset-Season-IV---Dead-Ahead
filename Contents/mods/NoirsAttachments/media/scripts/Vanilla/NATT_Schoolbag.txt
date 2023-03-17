@@ -1,0 +1,701 @@
+module Base {
+
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		attachment Schoolbag_right
+		{
+			offset = 0.0050 -0.0950 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_wineright
+		{
+			offset = 0.0200 -0.0950 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_left
+		{
+			offset = 0.0050 0.0950 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_wineleft
+		{
+			offset = 0.0200 0.0950 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_bedroll {
+			offset = -0.0350 0.0000 0.1100,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_uldoll {
+			offset = 0.0250 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_uldogchew {
+			offset = 0.0250 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulcattoy {
+			offset = 0.0250 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulballon {
+			offset = -0.0050 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulrubberducky {
+			offset = 0.0250 0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ultoybear {
+			offset = 0.0450 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_uldawn {
+			offset = 0.0450 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ultoycar {
+			offset = 0.0250 0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulyoyo {
+			offset = 0.0350 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulcube {
+			offset = 0.0850 0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulmask {
+			offset = 0.0350 0.0400 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulmaskground {
+			offset = 0.0350 0.0400 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulplushie {
+			offset = 0.0250 0.0650 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulpawsplushie {
+			offset = 0.0450 0.0850 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulweapon {
+			offset = 0.0450 0.0550 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulweaponpan {
+			offset = 0.0450 0.0850 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulweaponsaucepan {
+			offset = 0.0450 0.0850 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulsnightstick {
+			offset = 0.0450 0.0250 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulwrench {
+			offset = 0.0450 0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulbottle {
+			offset = 0.0550 0.0550 -0.1000,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulwine {
+			offset = 0.0550 0.0550 -0.0500,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urdoll {
+			offset = 0.0250 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urdogchew {
+			offset = 0.0250 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urcattoy {
+			offset = 0.0250 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urballon {
+			offset = -0.0050 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urrubberducky {
+			offset = 0.0250 -0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urtoybear {
+			offset = 0.0850 -0.0650 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urtoycar {
+			offset = 0.0250 -0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_uryoyo {
+			offset = 0.0350 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urcube {
+			offset = 0.0850 -0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urmask {
+			offset = 0.0350 -0.0400 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urmaskground {
+			offset = 0.0350 -0.0400 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urplushie {
+			offset = 0.0250 -0.0950 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urpawsplushie {
+			offset = 0.0450 -0.0850 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urdawn {
+			offset = 0.0450 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urweapon {
+			offset = 0.0450 -0.0550 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urweaponpan {
+			offset = 0.0450 -0.0850 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urweaponsaucepan {
+			offset = 0.0450 -0.0850 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ursnightstick {
+			offset = 0.0450 -0.0250 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urwrench {
+			offset = 0.0450 -0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urbottle {
+			offset = 0.0550 -0.0550 -0.1000,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urwine {
+			offset = 0.0550 -0.0550 -0.0500,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_weapon {
+			offset = 0.0600 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_weaponpan {
+			offset = 0.0600 0.0000 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_weaponsaucepan {
+			offset = 0.0600 0.0000 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_snightstick {
+			offset = 0.0550 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_wrench {
+			offset = 0.0550 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_flashlight {
+			offset = -0.0050 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment Schoolbag_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Schoolbag_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Schoolbag_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+	}
+
+    model MaleBody 
+    {
+        mesh = Skinned/MaleBody,
+
+		attachment Schoolbag_right
+		{
+			offset = 0.0400 -0.0950 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_wineright
+		{
+			offset = 0.0400 -0.0950 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_left
+		{
+			offset = 0.0400 0.0950 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_wineleft
+		{
+			offset = 0.0400 0.0950 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_bedroll {
+			offset = -0.0350 0.0000 0.1100,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_uldoll {
+			offset = 0.0450 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_uldogchew {
+			offset = 0.0450 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulcattoy {
+			offset = 0.0450 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulballon {
+			offset = 0.0150 0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulrubberducky {
+			offset = 0.0450 0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ultoybear {
+			offset = 0.1050 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_uldawn {
+			offset = 0.1050 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ultoycar {
+			offset = 0.0450 0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulyoyo {
+			offset = 0.0550 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulcube {
+			offset = 0.1050 0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulmask {
+			offset = 0.0550 0.0400 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulmaskground {
+			offset = 0.0550 0.0400 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulplushie {
+			offset = 0.0650 0.0650 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulpawsplushie {
+			offset = 0.0650 0.0850 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulweapon {
+			offset = 0.0900 0.0550 0.0700,
+			rotate = 90.0000 200.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulweaponpan {
+			offset = 0.0950 0.0850 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulweaponsaucepan {
+			offset = 0.0950 0.0850 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulsnightstick {
+			offset = 0.0900 0.0250 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulwrench {
+			offset = 0.0900 0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulbottle {
+			offset = 0.0900 0.0550 -0.1000,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ulwine {
+			offset = 0.0900 0.0550 -0.0500,
+			rotate = 90.0000 20.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urdoll {
+			offset = 0.0450 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urdogchew {
+			offset = 0.0450 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urcattoy {
+			offset = 0.0450 -0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urballon {
+			offset = 0.0150 -0.0750 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urrubberducky {
+			offset = 0.0450 -0.0750 -0.100,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urtoybear {
+			offset = 0.1050 -0.0650 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urdawn {
+			offset = 0.1050 -0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urtoycar {
+			offset = 0.0450 -0.0750 -0.1150,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_uryoyo {
+			offset = 0.0550 -0.0450 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urcube {
+			offset = 0.1050 -0.0750 -0.0950,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urmask {
+			offset = 0.0550 -0.0400 -0.1150,
+			rotate = 0.0000 90.0000 -170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urmaskground {
+			offset = 0.0550 -0.0400 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urplushie {
+			offset = 0.0650 -0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urpawsplushie {
+			offset = 0.0650 -0.0850 -0.1850,
+			rotate = 180.0000 90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urweapon {
+			offset = 0.0900 -0.0550 0.0700,
+			rotate = 90.0000 -20.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urweaponpan {
+			offset = 0.0950 -0.0850 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urweaponsaucepan {
+			offset = 0.0950 -0.0850 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_ursnightstick {
+			offset = 0.0900 -0.0250 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urwrench {
+			offset = 0.0900 -0.0550 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urbottle {
+			offset = 0.0900 -0.0550 -0.1000,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_urwine {
+			offset = 0.0900 -0.0550 -0.0500,
+			rotate = 90.0000 -30.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_weapon {
+			offset = 0.0900 0.0000 0.0700,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_weaponpan {
+			offset = 0.0950 0.0000 0.0600,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_weaponsaucepan {
+			offset = 0.0950 0.0000 0.0600,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_snightstick {
+			offset = 0.0900 0.0300 0.0600,
+			rotate = 0.0000 0.0000 -0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_wrench {
+			offset = 0.0900 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment Schoolbag_flashlight {
+			offset = -0.0050 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment Schoolbag_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Schoolbag_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Schoolbag_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+    }
+
+}

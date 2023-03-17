@@ -1,0 +1,4 @@
+name=Rip All Clothes
+poster=poster.png
+id=ripallclothes
+description=Adds a new option in the context menu to rip all surrounding clothing. 

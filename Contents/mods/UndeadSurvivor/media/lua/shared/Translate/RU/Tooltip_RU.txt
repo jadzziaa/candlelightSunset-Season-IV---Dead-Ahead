@@ -1,0 +1,5 @@
+Tooltip_RU = {
+
+	Tooltip_AmazonaHipBag = "--> Кликнуть дважды, чтобы надеть <--",
+
+}

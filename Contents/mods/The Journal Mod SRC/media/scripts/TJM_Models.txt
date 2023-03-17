@@ -1,0 +1,119 @@
+module Base
+{
+	model JournalRed
+	{
+		mesh	=	WorldItems/TJMJournal1,
+		texture	=	WorldItems/JournalModJournalRed,
+		scale	=	0.001,
+	}
+
+	model JournalOrange
+	{
+		mesh	=	WorldItems/TJMJournal1,
+		texture	=	WorldItems/JournalModJournalOrange,
+		scale	=	0.001,
+	}
+
+	model JournalYellow
+	{
+		mesh	=	WorldItems/TJMJournal1,
+		texture	=	WorldItems/JournalModJournalYellow,
+		scale	=	0.001,
+	}
+
+	model JournalGreen
+	{
+		mesh	=	WorldItems/TJMJournal1,
+		texture	=	WorldItems/JournalModJournalGreen,
+		scale	=	0.001,
+	}
+
+	model JournalBlue
+	{
+		mesh	=	WorldItems/TJMJournal1,
+		texture	=	WorldItems/JournalModJournalBlue,
+		scale	=	0.001,
+	}
+
+	model JournalPurple
+	{
+		mesh	=	WorldItems/TJMJournal1,
+		texture	=	WorldItems/JournalModJournalPurple,
+		scale	=	0.001,
+	}
+
+	model JournalBrown
+	{
+		mesh	=	WorldItems/TJMJournal1,
+		texture	=	WorldItems/JournalModJournalBrown,
+		scale	=	0.001,
+	}
+
+	model JournalBlack
+	{
+		mesh	=	WorldItems/TJMJournal1,
+		texture	=	WorldItems/JournalModJournalBlack,
+		scale	=	0.001,
+	}
+
+	model JournalWhite
+	{
+		mesh	=	WorldItems/TJMJournal1,
+		texture	=	WorldItems/JournalModJournalWhite,
+		scale	=	0.001,
+	}
+
+	model BookRed
+	{
+		mesh	=	Book,
+		texture	=	TJMBookStaticRed,
+	}
+
+	model BookOrange
+	{
+		mesh	=	Book,
+		texture	=	TJMBookStaticOrange,
+	}
+
+	model BookYellow
+	{
+		mesh	=	Book,
+		texture	=	TJMBookStaticYellow,
+	}
+
+	model BookGreen
+	{
+		mesh	=	Book,
+		texture	=	TJMBookStaticGreen,
+	}
+
+	model BookBlue
+	{
+		mesh	=	Book,
+		texture	=	TJMBookStaticBlue,
+	}
+
+	model BookPurple
+	{
+		mesh	=	Book,
+		texture	=	TJMBookStaticPurple,
+	}
+
+	model BookBrown
+	{
+		mesh	=	Book,
+		texture	=	TJMBookStaticBrown,
+	}
+
+	model BookBlack
+	{
+		mesh	=	Book,
+		texture	=	TJMBookStaticBlack,
+	}
+
+	model BookWhite
+	{
+		mesh	=	Book,
+		texture	=	TJMBookStaticWhite,
+	}
+}

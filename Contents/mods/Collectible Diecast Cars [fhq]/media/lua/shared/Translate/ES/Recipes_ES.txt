@@ -1,0 +1,5 @@
+Recipes_ES = {
+	Recipe_Open Diecast Car Box = "Abrir caja de autos Diecast",
+	Recipe_Open Diecast Car Box - Special Collection = "Abrir caja de autos Diecast - Colección Especial",
+	Recipe_Open Diecast Car Box - Motorious Zone Collection = "Abrir caja de autos Diecast - Colección Motorious Zone",
+}

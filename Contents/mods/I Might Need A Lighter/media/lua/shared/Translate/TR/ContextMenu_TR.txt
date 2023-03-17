@@ -1,0 +1,14 @@
+ContextMenu_TR = {
+	ContextMenu_Smoke = "Sigara ic"	
+	
+	ContextMenu_CarLighter = "Araba cakmagi"
+	ContextMenu_NoCarLighter = "No Car Lighter"
+	ContextMenu_InstallCarLighter = "Plug Car Lighter"
+	ContextMenu_UnInstallCarLighter = "Unplug Car Lighter"
+	ContextMenu_CarLighterRepairNoSkill = "<br> needs repair"
+	ContextMenu_CarLighterRepairWithSkill = "<br> can be repaired"
+	
+	ContextMenu_CarOutOfCigarette = " <br> Sigara icecek bir sey yok."
+	ContextMenu_CarNoBattery = "<br> Aku yok ya da bitmis. "
+	ContextMenu_CarNoKeyOrWire = "<br> Anahtar yok veya kisa devre yapilmamis."
+}

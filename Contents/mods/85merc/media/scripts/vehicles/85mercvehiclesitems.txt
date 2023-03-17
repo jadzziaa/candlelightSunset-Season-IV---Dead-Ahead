@@ -1,0 +1,48 @@
+module Base
+{
+
+/************************ Trunks ************************/
+
+    item mercroofrack1
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Roof Rack,
+        Icon	=	CarTrunk,
+        VehicleType =   1,
+        MaxCapacity = 40,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item mercroofrack2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Roof Rack,
+        Icon	=	CarTrunk,
+        VehicleType =   2,
+        MaxCapacity = 40,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item mercroofrack3
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Roof Rack,
+        Icon	=	CarTrunk,
+        VehicleType =   3,
+        MaxCapacity = 40,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+}

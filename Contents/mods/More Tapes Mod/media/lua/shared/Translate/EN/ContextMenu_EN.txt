@@ -1,0 +1,4 @@
+ContextMenu_EN = {
+ContextMenu_CleanBandage = "Clean Bandage ",
+ContextMenu_CleanRag = "Clean Rag ",
+}

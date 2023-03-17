@@ -1,0 +1,130 @@
+module Base
+{
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		attachment bounty_letter
+		{
+			offset = 0.0910 -0.0490 0.0590,
+			rotate = -31.0000 -17.0000 -69.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment Prepper_Vest_Mag1
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment Prepper_Vest_Mag2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment Prepper_Vest_Mag3
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment Prepper_Vest_Mag4
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment Prepper_Vest_Knife
+		{
+			offset = 0.0670 0.0580 0.0760,
+			rotate = -93.0000 -5.0000 85.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Prepper_Vest_Flashlight
+		{
+			offset = 0.0030 -0.0530 0.0730,
+			rotate = 25.0000 74.0000 64.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Prepper_Trousers_Pistol
+		{
+			offset = 0.0190 0.0520 -0.0450,
+			rotate = -180.0000 2.0000 -80.0000,
+			bone = Bip01_R_Thigh,
+		}
+	}
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+
+		attachment knife_in_back
+		{
+			offset = 0.1080 0.0020 -0.1830,
+			rotate = 180.0000 -71.0000 84.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment bounty_letter
+		{
+			offset = 0.1090 -0.0610 0.0430,
+			rotate = -18.0000 -20.0000 -45.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment Prepper_Vest_Mag1
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment Prepper_Vest_Mag2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment Prepper_Vest_Mag3
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment Prepper_Vest_Mag4
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_Spine,
+		}
+
+		attachment Prepper_Vest_Knife
+		{
+			offset = 0.1050 0.0560 0.0770,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Prepper_Vest_Flashlight
+		{
+			offset = 0.0260 -0.0550 0.0690,
+			rotate = 70.0000 82.0000 22.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment Prepper_Trousers_Pistol
+		{
+			offset = 0.0290 0.0470 -0.0320,
+			rotate = -180.0000 -7.0000 -76.0000,
+			bone = Bip01_R_Thigh,
+		}
+	}
+}

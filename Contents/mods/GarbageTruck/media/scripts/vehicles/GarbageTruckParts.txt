@@ -1,0 +1,14 @@
+module Base
+{
+    item GarbageTrunk
+    {
+        Weight	=	100.0,
+        Type	=	Normal,
+        DisplayName	=	Garbage Truck Rear,
+        Icon	=	CarTrunk,
+        VehicleType =   2,
+        MaxCapacity = 450,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+    }
+}

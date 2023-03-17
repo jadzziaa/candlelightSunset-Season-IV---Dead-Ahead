@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Spongie\M_BoilerSuitOpen</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Spongie\F_BoilerSuitOpen</m_FemaleModel>
+	<m_GUID>23970176-91df-4847-b7a8-70125ecd8bcc</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>Clothes\BoilerSuit\Boilersuit_Meade_Max_Prisoner</textureChoices>
+</clothingItem>

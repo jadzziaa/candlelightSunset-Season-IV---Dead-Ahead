@@ -1,0 +1,16 @@
+ItemName_UA = {
+
+	ItemName_BCGTools.HandHatchet = "Ручна сокира",
+	ItemName_BCGTools.SplittingAxe = "Сокира-колун",		
+	
+	ItemName_BCGTools.SurvivalKnife = "Мисливський ніж",
+	ItemName_BCGTools.CheapSurvivalKnife = "Похідний ніж",	
+	
+	ItemName_BCGTools.RancherMachete = "Сікач",	
+	ItemName_BCGTools.KukriMachete = "Кукрі",	
+
+	ItemName_BCGTools.SpearSurvivalKnife = "Спис з Мисливським ножем",	
+	ItemName_BCGTools.SpearCheapSurvivalKnife = "Спис з Похідним ножем",	
+	ItemName_BCGTools.SpearKukriMachete = "Спис з Кукрі",		
+	
+}

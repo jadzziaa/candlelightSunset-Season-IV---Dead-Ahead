@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_PantsTucked</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_PantsTucked</m_FemaleModel>
+	<m_GUID>e7dcc4d2-e1e3-4f70-952f-763c710a6808</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<textureChoices>clothes\trousers_mesh\FrogSkinBottom</textureChoices>
+</clothingItem>

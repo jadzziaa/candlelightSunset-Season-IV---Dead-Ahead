@@ -1,0 +1,97 @@
+module eris_nvg
+{
+	imports
+	{
+		Base
+	}
+
+	item nvgoggles41
+	{
+		DisplayName		=			Night Vision Goggles,
+		Icon			=			nvgoggles,
+		Type			=			Clothing,
+		Weight			=			0.7,
+		ClothingItem	=			Hat_BalaclavaFace,
+		BodyLocation	=			Mask,
+		BloodLocation	=			Head,
+		CanHaveHoles	=			false,
+		Insulation		=			0.8,
+		WindResistance	=			0.8,
+	}
+
+	item nvgoggles
+	{
+		Type			=			Clothing,
+		BodyLocation	=			Head,
+		DisplayName		=			Night Vision Goggles,
+		Icon			=			nvgoggles,
+		Weight			=			0.7,
+	}
+
+	recipe Wash Clothing
+	{
+		keep eris_nvg.nvgoggles41,
+		Soap2=1,
+		Water=3,
+
+		Result:eris_nvg.nvgoggles41,
+		OnTest:eris_nvg_WashClothing_TestIsValid,
+		Time:100.0,
+		OnCreate:eris_nvg_WashClothing_OnCreate,
+		RemoveResultItem:true,
+	}
+
+	recipe Wash Clothing
+	{
+		keep eris_nvg.nvgoggles41,
+		CleaningLiquid=1,
+		Water=3,
+
+		Result:eris_nvg.nvgoggles41,
+		OnTest:WashClothing_TestIsValid,
+		Time:100.0,
+		OnCreate:WashClothing_OnCreate,
+		RemoveResultItem:true,
+	}
+
+	recipe Wash Clothing
+	{
+		keep eris_nvg.nvgoggles,
+		Soap2=1,
+		Water=3,
+
+		Result:eris_nvg.nvgoggles,
+		OnTest:eris_nvg_WashClothing_TestIsValid,
+		Time:100.0,
+		OnCreate:eris_nvg_WashClothing_OnCreate,
+		RemoveResultItem:true,
+	}
+
+	recipe Wash Clothing
+	{
+		keep eris_nvg.nvgoggles,
+		CleaningLiquid=1,
+		Water=3,
+
+		Result:eris_nvg.nvgoggles,
+		OnTest:WashClothing_TestIsValid,
+		Time:100.0,
+		OnCreate:WashClothing_OnCreate,
+		RemoveResultItem:true,
+	}
+
+	item nvscope
+	{
+		Type = WeaponPart,
+		DisplayName = Night Vision Scope,
+		Icon = nvscope,
+		Weight = 0.6,
+		WeightModifier = 0.4,
+		MaxRangeModifier = 7,
+		MinRangeModifier = 6,
+		MountOn = Shotgun; HuntingRifle; VarmintRifle,
+		PartType = Scope,
+		MetalValue = 22,
+	}
+
+}

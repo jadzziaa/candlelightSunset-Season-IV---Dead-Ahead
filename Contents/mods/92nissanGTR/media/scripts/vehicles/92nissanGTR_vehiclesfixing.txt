@@ -1,0 +1,114 @@
+module Base
+{
+	fixing Fix R32Tire
+	{
+	   Require : R32Tire0;R32Tire1;R32Tire2;R32TireA,
+	   ConditionModifier : 0.35,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix R32Seat
+	{
+	   Require : R32FrontSeat3;R32RearSeat3,
+	   ConditionModifier : 0.4,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix R32Trunk Welding
+	{
+	   Require : R32Trunk3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix R32Hood Welding
+	{
+	   Require : R32EngineDoor0,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+   fixing Fix R32Hood
+	{
+	   Require : R32EngineDoor3,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.4,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix R32Trunk Lid Welding
+    {
+       Require : R32TrunkDoor3,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+   fixing Fix R32Trunk Lid
+	{
+       Require : R32TrunkDoor3,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.4,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix R32Door Welding
+	{
+	   Require : R32Door3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix R32FrontBumper
+	{
+	   Require : R32Bumper0;R32Bumper1;R32Bumper2;R32Bumper3,
+	   ConditionModifier : 0.25,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix R32RearBumper
+	{
+	   Require : R32BumperRear0;R32BumperRear1;R32BumperRear2;R32BumperRear3,
+	   ConditionModifier : 0.25,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix R32Sideskirts
+	{
+	   Require : R32Sideskirts1;R32Sideskirts2;R32Sideskirts3,
+	   ConditionModifier : 0.25,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix R32Spoiler
+	{
+	   Require : R32Spoiler0;R32Spoiler1;R32Spoiler2:R32Spoiler3,
+	   ConditionModifier : 0.25,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+}

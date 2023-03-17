@@ -1,0 +1,195 @@
+module UndeadSurvivor
+{	
+	imports {
+		Base
+		}
+
+	item MakeUp_Amazona01
+    {
+        DisplayCategory = Appearance,
+        Type = Clothing,
+        ClothingItem = MakeUp_Amazona01,
+        BodyLocation = MakeUp_FullFace,
+    }
+
+    item AmazonaFeather01
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 01,
+		ClothingItem = AmazonaFeather01,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather02,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather02
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 02,
+		ClothingItem = AmazonaFeather02,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather03,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather03
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 03,
+		ClothingItem = AmazonaFeather03,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather04,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather04
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 04,
+		ClothingItem = AmazonaFeather04,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather05,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather05
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 05,
+		ClothingItem = AmazonaFeather05,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather06,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather06
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 06,
+		ClothingItem = AmazonaFeather06,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather07,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather07
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 07,
+		ClothingItem = AmazonaFeather07,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather08,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather08
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 08,
+		ClothingItem = AmazonaFeather08,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather09,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather09
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 09,
+		ClothingItem = AmazonaFeather09,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather10,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather10
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 10,
+		ClothingItem = AmazonaFeather10,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather11,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather11
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 11,
+		ClothingItem = AmazonaFeather11,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather12,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+    item AmazonaFeather12
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Amazona Feather 12,
+		ClothingItem = AmazonaFeather12,
+		BodyLocation = EarTop,
+		Icon = AmazonaFeather,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ClothingItemExtra = UndeadSurvivor.AmazonaFeather01,
+        ClothingItemExtraOption = ChangeFeatherPosition,
+		WorldStaticModel = AmazonaFeather_ground,
+	}
+
+}

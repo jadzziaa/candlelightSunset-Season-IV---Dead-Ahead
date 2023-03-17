@@ -1,0 +1,12 @@
+name=ItemTweaker Extra Clothing Option Addon
+id=ItemTweakerAPIExtraClothingAddon
+
+description=Add a function to ItemTweakerAPI to add new extra clothing options without overriding them
+
+require=ItemTweakerAPI
+
+authors=Delran
+pzversion=41
+tags=Framework,Misc
+
+poster=Poster.png

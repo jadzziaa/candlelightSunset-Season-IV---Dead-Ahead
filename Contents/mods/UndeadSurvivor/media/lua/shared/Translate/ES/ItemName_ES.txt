@@ -1,0 +1,22 @@
+DisplayName_ES = {
+    ItemName_UndeadSurvivor.StalkerKnife = "Cuchillo de Stalker",
+    ItemName_UndeadSurvivor.StalkerCloak = "Capa de Stalker",
+    ItemName_UndeadSurvivor.StalkerCloakDOWN = "Capa de Stalker",
+    ItemName_UndeadSurvivor.StalkerMask = "Máscara de Stalker",
+    ItemName_UndeadSurvivor.StalkerJacket = "Chaqueta de Stalker",
+    ItemName_UndeadSurvivor.StalkerTrousers = "Pantalón de Stalker",
+    ItemName_UndeadSurvivor.StalkerTrousersTucked = "Pantalón de Stalker",
+    ItemName_UndeadSurvivor.StalkerBoots = "Botas de Stalker",
+    ItemName_UndeadSurvivor.StalkerGloves = "Guantes de Stalker",
+
+    ItemName_UndeadSurvivor.NomadMask = "Máscara de Nómada",
+    ItemName_UndeadSurvivor.NomadParka = "Capucha de Nómada",
+    ItemName_UndeadSurvivor.NomadParkaDown = "Capucha de Nómada (baja)",
+    ItemName_UndeadSurvivor.OminousNomadMask = "Máscara de Nómada siniestra",
+    ItemName_UndeadSurvivor.OminousNomadParka = "Capucha de Nómada siniestra",
+    ItemName_UndeadSurvivor.OminousNomadParkaDown = "Capucha de Nómada siniestra (baja)",
+    ItemName_UndeadSurvivor.NomadTrousers = "Pantalón de Nómada",
+    ItemName_UndeadSurvivor.NomadTrousersTucked = "Pantalón de Nómada (enrrollado)",
+    ItemName_UndeadSurvivor.NomadBoots = "Botas de Nómada",
+    ItemName_UndeadSurvivor.NomadBackpack = "Mochila de Nómada",
+}

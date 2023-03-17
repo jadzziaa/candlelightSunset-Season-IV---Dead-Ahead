@@ -1,0 +1,8 @@
+IG_UI_EN = {
+	IGUI_VehicleName85mercJunk = "'85 Mercedes-Benz W123 Junker"
+	IGUI_VehicleName85mercSedan = "'85 Mercedes-Benz W123 Sedan"
+	IGUI_VehicleName85mercWagon = "'85 Mercedes-Benz W123 Station Wagon"
+	IGUI_VehicleName85mercWagon2 = "'85 Mercedes-Benz W123 Survivor Station Wagon"
+
+	IGUI_VehiclePartmercroofrack = "Roof Rack",
+}

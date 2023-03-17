@@ -1,0 +1,365 @@
+module Base
+{
+	model TrailerAMCWaverunnerBase
+	{
+		mesh = moto/AMC_waverunner|yamaha_trailer,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.53,
+	}
+	model TrailerAMCWaverunnerWithBody
+	{
+		mesh = moto/AMC_waverunner|yamaha_trailer_with_body,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.53,
+	}
+	model TrailerAMCWaverunnerWheel
+	{
+		mesh = moto/AMC_waverunner_trailer_tire,
+		texture = AMC_waverunner_650TL_texture,
+		shader = vehiclewheel,
+		scale = 0.52,
+
+	}
+	vehicle TrailerAMCWaverunner
+	{
+		mechanicType = 3,
+
+		model
+		{
+			file = TrailerAMCWaverunnerBase,
+			scale = 1.8200,
+			offset = 0.0000 0.1593 0.0000,
+		}
+
+		skin
+		{
+			texture = AMC_waverunner_650TL_texture,
+			textureRust = AMC_waverunner_650TL_rust,
+			textureLights = AMC_waverunner_650TL_lights,
+			textureMask = AMC_waverunner_650TL_mask,
+			textureDamage1Shell = AMC_waverunner_650TL_damage,
+			textureDamage2Shell = AMC_waverunner_650TL_damage,
+			textureDamage1Overlay = AMC_waverunner_650TL_blood,
+			textureDamage2Overlay = AMC_waverunner_650TL_blood,
+			textureShadow = AMC_waverunner_650TL_shadow,
+		}
+
+		extents = 0.8242 0.1429 1.1319,
+		mass = 200,
+		physicsChassisShape = 0.8242 0.1429 1.1319,
+		centerOfMassOffset = 0.0000 0.0110 0.0275,
+		shadowExtents = 0.8252 1.7655,
+		shadowOffset = 0.0000 0.2607,
+		engineForce = 3600,
+		engineQuality = 60,
+		engineLoudness = 55,
+		maxSpeed = 70f,
+		brakingForce = 1,
+		stoppingMovementForce = 2.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.03,
+		steeringClamp = 0.3,
+		suspensionStiffness = 40,
+		suspensionCompression = 2.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.2,
+		wheelFriction = 4.0f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		physics box
+		{
+			offset = 0.0000 0.0330 0.6593,
+			extents = 0.0549 0.0549 0.4560,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.0330 0.4560,
+			extents = 0.2912 0.0549 0.2802,
+			rotate = 0.0000 -45.0000 0.0000,
+		}
+
+		physics sphere
+		{
+			offset = 0.0000 0.0330 0.8956,
+			radius = 0.0385,
+		}
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.3516 -0.3242 -0.1648,
+			radius = 0.12f,
+			width = 0.4f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.3516 -0.3242 -0.1648,
+			radius = 0.12f,
+			width = 0.4f,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.5330 -0.1703 0.4615 0.4945,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.5330 -0.1703 0.4615 0.4945,
+		}
+
+		template = Tire/part/TireFrontLeft,
+		template = Tire/part/TireFrontRight,
+
+		part TireFrontLeft
+		{
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+
+			model InflatedTirePlusWheel
+			{
+				file = TrailerAMCWaverunnerWheel,
+			}
+		}
+
+		part TireFrontRight
+		{
+			table install
+			{
+				requireInstalled = SuspensionFrontRight,
+			}
+
+			model InflatedTirePlusWheel
+			{
+				file = TrailerAMCWaverunnerWheel,
+			}
+		}
+
+		template = Suspension/part/SuspensionFrontLeft,
+		template = Suspension/part/SuspensionFrontRight,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.1484 0.9945,
+			rotate = 0.0000 0.0000 0.0000,
+			canAttach = trailer,
+			updateconstraint = false,
+		}
+	}
+	vehicle TrailerAMCWaverunnerWithBody
+	{
+		mechanicType = 3,
+		offRoadEfficiency = 0.8,
+		engineRepairLevel = 4,
+		playerDamageProtection = 0.8,
+
+		model
+		{
+			file = TrailerAMCWaverunnerWithBody,
+			scale = 1.8200,
+			offset = 0.0000 0.1593 0.0000,
+		}
+
+		skin
+		{
+			texture = AMC_waverunner_650TL_texture,
+			textureRust = AMC_waverunner_650TL_rust,
+			textureLights = AMC_waverunner_650TL_lights,
+			textureMask = AMC_waverunner_650TL_mask,
+			textureDamage1Shell = AMC_waverunner_650TL_damage,
+			textureDamage2Shell = AMC_waverunner_650TL_damage,
+			textureDamage1Overlay = AMC_waverunner_650TL_blood,
+			textureDamage2Overlay = AMC_waverunner_650TL_blood,
+			textureShadow = AMC_waverunner_650TL_shadow2,
+		}
+
+		extents = 0.8242 0.5604 1.3626,
+		mass = 200,
+		physicsChassisShape = 0.8242 0.5604 1.3626,
+		centerOfMassOffset = 0.0000 0.2802 -0.0879,
+		shadowExtents = 0.8252 1.9633,
+		shadowOffset = 0.0000 0.1178,
+		engineForce = 3600,
+		engineQuality = 60,
+		engineLoudness = 55,
+		maxSpeed = 70f,
+		brakingForce = 1,
+		stoppingMovementForce = 2.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.03,
+		steeringClamp = 0.3,
+		suspensionStiffness = 40,
+		suspensionCompression = 2.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.2,
+		wheelFriction = 4.0f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		physics box
+		{
+			offset = 0.0000 0.0330 0.6593,
+			extents = 0.0549 0.0549 0.4560,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.1484 0.4780,
+			extents = 0.2912 0.2967 0.2802,
+			rotate = 0.0000 -45.0000 0.0000,
+		}
+
+		physics sphere
+		{
+			offset = 0.0000 0.0330 0.8956,
+			radius = 0.0385,
+		}
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.3516 -0.3242 -0.1648,
+			radius = 0.12f,
+			width = 0.4f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.3516 -0.3242 -0.1648,
+			radius = 0.12f,
+			width = 0.4f,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.5330 -0.1703 0.4615 0.4945,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.5330 -0.1703 0.4615 0.4945,
+		}
+
+		area Engine
+		{
+			xywh = 0.3956 0.3846 0.4615 0.4945,
+		}
+
+		area GasTank
+		{
+			xywh = -0.5330 -0.1703 0.4615 0.4945,
+		}
+
+		area GasTank
+		{
+			xywh = -0.5330 -0.1703 0.4615 0.4945,
+		}
+
+		template = Tire/part/TireFrontLeft,
+		template = Tire/part/TireFrontRight,
+
+		part TireFrontLeft
+		{
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+
+			model InflatedTirePlusWheel
+			{
+				file = TrailerAMCWaverunnerWheel,
+			}
+		}
+
+		part TireFrontRight
+		{
+			table install
+			{
+				requireInstalled = SuspensionFrontRight,
+			}
+
+			model InflatedTirePlusWheel
+			{
+				file = TrailerAMCWaverunnerWheel,
+			}
+		}
+
+		template = Suspension/part/SuspensionFrontLeft,
+		template = Suspension/part/SuspensionFrontRight,
+		template = Seat/part/SeatFrontLeft,
+
+		part SeatFrontRight
+		{
+			mechanicRequireKey = false,
+		}
+
+		template = Seat/part/SeatFrontRight,
+
+		part SeatFrontRight
+		{
+			category = nodisplay,
+
+			lua
+			{
+				create = AMC_Moto.Create.SeatFrontRight,
+				init = AMC_Moto.Init.SeatFrontRight,
+				update = AMC_Moto.Update.SeatFrontRight,
+			}
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			area = Engine,
+
+			install
+			{
+				skills = Mechanics:6,
+			}
+
+			uninstall
+			{
+				skills = Mechanics:6,
+			}
+		}
+
+		template = Engine,
+		template = Battery,
+
+		part Battery
+		{
+			area = Engine,
+		}
+
+		template = Muffler,
+
+		part Muffler
+		{
+			area = Engine,
+		}
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.1484 0.9945,
+			rotate = 0.0000 0.0000 0.0000,
+			canAttach = trailer,
+			updateconstraint = false,
+		}
+	}
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapRotators.xml</path>
+		<guid>dd4a1185-9a64-4794-87ce-3ed2201aa7f0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapRotators_Reverse.xml</path>
+		<guid>9aea2e1d-6b4b-40db-9fae-ba2be185c269</guid>
+	</files>
+</fileGuidTable>

@@ -1,0 +1,8 @@
+IG_UI_EN = {
+	IGUI_VehicleName90zanella50cc = "'90 Zanella 50cc Delivery",
+
+	IGUI_VehiclePartZNL50FenderFront = "Front Fender",
+	IGUI_VehiclePartZNL50FenderRear = "Rear Fender",
+	IGUI_VehiclePartZNL50FrontStorage = "Front Storage",
+	IGUI_VehiclePartZNL50DeliveryBox = "Rear Storage",
+}

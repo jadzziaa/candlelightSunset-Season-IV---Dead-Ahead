@@ -1,0 +1,41 @@
+module Base {
+
+    item AnimeTshirt
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Anime T-Shirt,
+        ClothingItem = Anime_TShirt,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtAnime,
+        BloodLocation = Shirt,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+
+    item Bag_ALICEpack_Pink
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Pink Backpack,
+        ClothingItem = Bag_ALICEpack_Pink,
+        CanBeEquipped = Back,
+        WeightReduction	=	90,
+        Weight	=	2,
+        Capacity	=	30,
+        Icon	=	AliceBag_Camo_Pink,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_Pink_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_Pink_RHand holdingbagright,
+        WorldStaticModel = ALICE_Pack_Ground,
+    }
+
+}

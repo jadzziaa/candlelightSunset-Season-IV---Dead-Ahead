@@ -1,0 +1,6 @@
+ContextMenu_DE = {
+    ContextMenu_TuckIn = "In die Stiefel stecken",
+    ContextMenu_TuckOut = "Aus den Stiefeln entfernen",
+    ContextMenu_UpHoodie = "Kapuze hoch",
+    ContextMenu_DownHoodie = "Kapuze unten",
+}

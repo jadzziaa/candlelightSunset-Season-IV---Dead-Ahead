@@ -1,0 +1,6 @@
+name=Sprout's Farm and Garden: Meatless Edition
+id=SGarden
+description= Choice this one if you want some animal but not meat animal or meat cooking options.
+poster=poster.png
+pack=SGnewFarming_01
+tiledef=SGnewtiledefinitions_01 1122

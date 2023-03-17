@@ -1,0 +1,73 @@
+module Base {
+
+    recipe Add Frame SnakeAlice
+    {
+        AlicePack/UpgradedAlicePack3/UpgradedAlicePack3b,
+        AliceBP.SupportBackpack=1,
+        keep Screwdriver,
+
+        Result:NATT_AlicepackNonPouch,
+        Time:80.0,
+        OnCreate:NATTsnakeAddFrameBackpack,
+        OnTest: NATTcheckIsEquipped,
+        NeedToBeLearn:true,
+        RemoveResultItem:true,
+    }
+
+    recipe Remove Frame SnakeAlice
+    {
+        UpgradedAlicePack1/UpgradedAlicePack2/UpgradedAlicePack2b,
+        keep Screwdriver,
+
+        Result:NATT_AlicepackNonPouch,
+        Time:80.0,
+        OnCreate:NATTsnakeRemoveFrameBackpack,
+        OnTest: NATTcheckIsEquipped,
+        NeedToBeLearn:true,
+        RemoveResultItem:true,
+    }
+
+    recipe Add Pouch SnakeAlice
+    {
+        AlicePack/UpgradedAlicePack1,
+        destroy AliceBP.MilitiaPouch1/AliceBP.MilitiaPouch2,
+        keep Screwdriver,
+        
+        Result:NATT_AlicepackPouch,
+        Time:80.0,
+        OnTest: NATTcheckIsEquipped,
+        OnCreate:NATTsnakeAddPouchBackpack,
+        NeedToBeLearn:true,
+        RemoveResultItem:true,
+    }
+
+    recipe Remove Pouch SnakeAlice
+    {
+        UpgradedAlicePack3/UpgradedAlicePack3b/UpgradedAlicePack2/UpgradedAlicePack2b,
+        keep Screwdriver,
+
+        Result:NATT_AlicepackNonPouch,
+        Time:80.0,
+        OnTest: NATTcheckIsEquipped,
+        OnCreate:NATTsnakeRemovePounchBackpack,
+        NeedToBeLearn:true,
+        RemoveResultItem:true,
+    }
+
+    item NATT_AlicepackPouch
+    {
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	= Matching Alicepack,
+        Icon	=	Alice3,
+    }
+
+    item NATT_AlicepackNonPouch
+    {
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	= Matching Alicepack,
+        Icon	=	AlicePackMulticam,
+    }
+
+}

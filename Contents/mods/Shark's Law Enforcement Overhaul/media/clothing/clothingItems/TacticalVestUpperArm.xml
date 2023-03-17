@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\TacticalVestUpperArm</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\TacticalVestUpperArm</m_FemaleModel>
+	<m_GUID>f71253d0-a0e9-4706-9694-1f66114704dd</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\vest\TacticalVestUpperArm</textureChoices>
+</clothingItem>

@@ -1,0 +1,2494 @@
+module TCR
+{
+    recipe Pull 1 Card
+    {   
+        destroy TarotCardDeckFull,
+
+        Result              : TarotCardDeckinUse1,
+        Time                : 20.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        Prop2               : Source=1,
+        AnimNode            : Craft,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        OnCreate            : Recipe.OnCreate.Tarot1Card,
+        IsHidden            : True,
+    }
+
+    recipe Pull 3 Cards
+    {   
+        destroy TarotCardDeckFull,
+
+        Result              : TarotCardDeckinUse3,
+        Time                : 25.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        Prop2               : Source=1,
+        AnimNode            : Craft,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        OnCreate            : Recipe.OnCreate.Tarot3Card,
+        IsHidden            : True,
+    }
+
+    recipe Pull 5 Cards
+    {   
+        destroy TarotCardDeckFull,
+
+        Result              : TarotCardDeckinUse5,
+        Time                : 30.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        Prop2               : Source=1,
+        AnimNode            : Craft,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        OnCreate            : Recipe.OnCreate.Tarot5Card,
+        IsHidden            : True,
+    }
+
+    recipe Pull 7 Cards
+    {   
+        destroy TarotCardDeckFull,
+
+        Result              : TarotCardDeckinUse7,
+        Time                : 35.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        Prop2               : Source=1,
+        AnimNode            : Craft,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        OnCreate            : Recipe.OnCreate.Tarot7Card,
+        IsHidden            : True,
+    }
+
+    recipe Pull 10 Cards
+    {   
+        destroy TarotCardDeckFull,
+
+        Result              : TarotCardDeckinUse10,
+        Time                : 40.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        Prop2               : Source=1,
+        AnimNode            : Craft,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        OnCreate            : Recipe.OnCreate.Tarot10Card,
+        IsHidden            : True,
+    }
+
+    recipe Pull 12 Cards
+    {   
+        destroy TarotCardDeckFull,
+
+        Result              : TarotCardDeckinUse12,
+        Time                : 45.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        Prop1               : Source=1,
+        AnimNode            : Craft,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+        OnCreate            : Recipe.OnCreate.Tarot12Card,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy 0TheFoolFlipped,
+
+        Result              : 0TheFool,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy ITheMagicianFlipped,
+
+        Result              : ITheMagician,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy IITheHighPriestessFlipped,
+
+        Result              : IITheHighPriestess,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy IIITheEmpressFlipped,
+
+        Result              : IIITheEmpress,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy IVTheEmperorFlipped,
+
+        Result              : IVTheEmperor,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy VTheHierophantFlipped,
+
+        Result              : VTheHierophant,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy VITheLoversFlipped,
+
+        Result              : VITheLovers,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy VIITheChariotFlipped,
+
+        Result              : VIITheChariot,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy VIIIStrengthFlipped,
+
+        Result              : VIIIStrength,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy IXTheHermitFlipped,
+
+        Result              : IXTheHermit,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XWheelofFortuneFlipped,
+
+        Result              : XWheelofFortune,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XIJusticeFlipped,
+
+        Result              : XIJustice,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XIITheHangedManFlipped,
+
+        Result              : XIITheHangedMan,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XIIIDeathFlipped,
+
+        Result              : XIIIDeath,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XIVTemperanceFlipped,
+
+        Result              : XIVTemperance,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XVTheDevilFlipped,
+
+        Result              : XVTheDevil,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XVITheTowerFlipped,
+
+        Result              : XVITheTower,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XVIITheStarFlipped,
+
+        Result              : XVIITheStar,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XVIIITheMoonFlipped,
+
+        Result              : XVIIITheMoon,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XIXTheSunFlipped,
+
+        Result              : XIXTheSun,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XXJudgementFlipped,
+
+        Result              : XXJudgement,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy XXITheWorldFlipped,
+
+        Result              : XXITheWorld,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy AceofCupsFlipped,
+
+        Result              : AceofCups,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy KingofCupsFlipped,
+
+        Result              : KingofCups,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy QueenofCupsFlipped,
+
+        Result              : QueenofCups,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy KnightofCupsFlipped,
+
+        Result              : KnightofCups,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PageofCupsFlipped,
+
+        Result              : PageofCups,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy CupsIIFlipped,
+
+        Result              : CupsII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy CupsIIIFlipped,
+
+        Result              : CupsIII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy CupsIVFlipped,
+
+        Result              : CupsIV,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy CupsVFlipped,
+
+        Result              : CupsV,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy CupsVIFlipped,
+
+        Result              : CupsVI,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy CupsVIIFlipped,
+
+        Result              : CupsVII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy CupsVIIIFlipped,
+
+        Result              : CupsVIII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy CupsIXFlipped,
+
+        Result              : CupsIX,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy CupsXFlipped,
+
+        Result              : CupsX,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy AceofPentaclesFlipped,
+
+        Result              : AceofPentacles,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy KingofPentaclesFlipped,
+
+        Result              : KingofPentacles,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy QueenofPentaclesFlipped,
+
+        Result              : QueenofPentacles,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy KnightofPentaclesFlipped,
+
+        Result              : KnightofPentacles,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PageofPentaclesFlipped,
+
+        Result              : PageofPentacles,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PentaclesIIFlipped,
+
+        Result              : PentaclesII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PentaclesIIIFlipped,
+
+        Result              : PentaclesIII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PentaclesIVFlipped,
+
+        Result              : PentaclesIV,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PentaclesVFlipped,
+
+        Result              : PentaclesV,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PentaclesVIFlipped,
+
+        Result              : PentaclesVI,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PentaclesVIIFlipped,
+
+        Result              : PentaclesVII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PentaclesVIIIFlipped,
+
+        Result              : PentaclesVIII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PentaclesIXFlipped,
+
+        Result              : PentaclesIX,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PentaclesXFlipped,
+
+        Result              : PentaclesX,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy AceofSwordsFlipped,
+
+        Result              : AceofSwords,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy KingofSwordsFlipped,
+
+        Result              : KingofSwords,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy QueenofSwordsFlipped,
+
+        Result              : QueenofSwords,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy KnightofSwordsFlipped,
+
+        Result              : KnightofSwords,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PageofSwordsFlipped,
+
+        Result              : PageofSwords,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy SwordsIIFlipped,
+
+        Result              : SwordsII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy SwordsIIIFlipped,
+
+        Result              : SwordsIII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy SwordsIVFlipped,
+
+        Result              : SwordsIV,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy SwordsVFlipped,
+
+        Result              : SwordsV,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy SwordsVIFlipped,
+
+        Result              : SwordsVI,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy SwordsVIIFlipped,
+
+        Result              : SwordsVII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy SwordsVIIIFlipped,
+
+        Result              : SwordsVIII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy SwordsIXFlipped,
+
+        Result              : SwordsIX,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy SwordsXFlipped,
+
+        Result              : SwordsX,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+        recipe Flip Card Over
+    {
+        destroy AceofWandsFlipped,
+
+        Result              : AceofWands,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy KingofWandsFlipped,
+
+        Result              : KingofWands,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy QueenofWandsFlipped,
+
+        Result              : QueenofWands,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy KnightofWandsFlipped,
+
+        Result              : KnightofWands,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy PageofWandsFlipped,
+
+        Result              : PageofWands,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy WandsIIFlipped,
+
+        Result              : WandsII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy WandsIIIFlipped,
+
+        Result              : WandsIII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy WandsIVFlipped,
+
+        Result              : WandsIV,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy WandsVFlipped,
+
+        Result              : WandsV,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy WandsVIFlipped,
+
+        Result              : WandsVI,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy WandsVIIFlipped,
+
+        Result              : WandsVII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy WandsVIIIFlipped,
+
+        Result              : WandsVIII,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy WandsIXFlipped,
+
+        Result              : WandsIX,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Over
+    {
+        destroy WandsXFlipped,
+
+        Result              : WandsX,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        OnCreate            : Recipe.OnCreate.FlipTarotCard,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy 0TheFool,
+
+        Result              : 0TheFoolFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy ITheMagician,
+
+        Result              : ITheMagicianFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy IITheHighPriestess,
+
+        Result              : IITheHighPriestessFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy IIITheEmpress,
+
+        Result              : IIITheEmpressFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy IVTheEmperor,
+
+        Result              : IVTheEmperorFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy VTheHierophant,
+
+        Result              : VTheHierophantFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy VITheLovers,
+
+        Result              : VITheLoversFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy VIITheChariot,
+
+        Result              : VIITheChariotFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy VIIIStrength,
+
+        Result              : VIIIStrengthFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy IXTheHermit,
+
+        Result              : IXTheHermitFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XWheelofFortune,
+
+        Result              : XWheelofFortuneFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XIJustice,
+
+        Result              : XIJusticeFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XIITheHangedMan,
+
+        Result              : XIITheHangedManFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XIIIDeath,
+
+        Result              : XIIIDeathFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XIVTemperance,
+
+        Result              : XIVTemperanceFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XVTheDevil,
+
+        Result              : XVTheDevilFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XVITheTower,
+
+        Result              : XVITheTowerFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XVIITheStar,
+
+        Result              : XVIITheStarFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XVIIITheMoon,
+
+        Result              : XVIIITheMoonFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XIXTheSun,
+
+        Result              : XIXTheSunFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XXJudgement,
+
+        Result              : XXJudgementFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy XXITheWorld,
+
+        Result              : XXITheWorldFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy AceofCups,
+
+        Result              : AceofCupsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy KingofCups,
+
+        Result              : KingofCupsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy QueenofCups,
+
+        Result              : QueenofCupsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy KnightofCups,
+
+        Result              : KnightofCupsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PageofCups,
+
+        Result              : PageofCupsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy CupsII,
+
+        Result              : CupsIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy CupsIII,
+
+        Result              : CupsIIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy CupsIV,
+
+        Result              : CupsIVFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy CupsV,
+
+        Result              : CupsVFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy CupsVI,
+
+        Result              : CupsVIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy CupsVII,
+
+        Result              : CupsVIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy CupsVIII,
+
+        Result              : CupsVIIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy CupsIX,
+
+        Result              : CupsIXFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy CupsX,
+
+        Result              : CupsXFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy AceofPentacles,
+
+        Result              : AceofPentaclesFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy KingofPentacles,
+
+        Result              : KingofPentaclesFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy QueenofPentacles,
+
+        Result              : QueenofPentaclesFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy KnightofPentacles,
+
+        Result              : KnightofPentaclesFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PageofPentacles,
+
+        Result              : PageofPentaclesFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PentaclesII,
+
+        Result              : PentaclesIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PentaclesIII,
+
+        Result              : PentaclesIIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PentaclesIV,
+
+        Result              : PentaclesIVFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PentaclesV,
+
+        Result              : PentaclesVFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PentaclesVI,
+
+        Result              : PentaclesVIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PentaclesVII,
+
+        Result              : PentaclesVIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PentaclesVIII,
+
+        Result              : PentaclesVIIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PentaclesIX,
+
+        Result              : PentaclesIXFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PentaclesX,
+
+        Result              : PentaclesXFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy AceofSwords,
+
+        Result              : AceofSwordsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy KingofSwords,
+
+        Result              : KingofSwordsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy QueenofSwords,
+
+        Result              : QueenofSwordsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy KnightofSwords,
+
+        Result              : KnightofSwordsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PageofSwords,
+
+        Result              : PageofSwordsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy SwordsII,
+
+        Result              : SwordsIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy SwordsIII,
+
+        Result              : SwordsIIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy SwordsIV,
+
+        Result              : SwordsIVFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy SwordsV,
+
+        Result              : SwordsVFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy SwordsVI,
+
+        Result              : SwordsVIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy SwordsVII,
+
+        Result              : SwordsVIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy SwordsVIII,
+
+        Result              : SwordsVIIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy SwordsIX,
+
+        Result              : SwordsIXFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy SwordsX,
+
+        Result              : SwordsXFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+        recipe Flip Card Back Over
+    {
+        destroy AceofWands,
+
+        Result              : AceofWandsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy KingofWands,
+
+        Result              : KingofWandsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy QueenofWands,
+
+        Result              : QueenofWandsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy KnightofWands,
+
+        Result              : KnightofWandsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy PageofWands,
+
+        Result              : PageofWandsFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy WandsII,
+
+        Result              : WandsIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy WandsIII,
+
+        Result              : WandsIIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy WandsIV,
+
+        Result              : WandsIVFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy WandsV,
+
+        Result              : WandsVFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy WandsVI,
+
+        Result              : WandsVIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy WandsVII,
+
+        Result              : WandsVIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy WandsVIII,
+
+        Result              : WandsVIIIFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy WandsIX,
+
+        Result              : WandsIXFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Flip Card Back Over
+    {
+        destroy WandsX,
+
+        Result              : WandsXFlipped,
+        Time                : 20.0,
+        Sound               : OpenSeedPacket,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        Category            : Survivalist,
+        IsHidden            : True,
+    }
+
+    recipe Shuffle Cards Together
+    {
+        destroy TarotCardDeckinUse1,
+        [Recipe.GetItemTypes.TarotCards],
+
+        Result              : TarotCardDeckFull,
+        Time                : 60.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        IsHidden            : True,
+    }
+
+    recipe Shuffle Cards Together
+    {
+        destroy TarotCardDeckinUse3,
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+
+        Result              : TarotCardDeckFull,
+        Time                : 60.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        IsHidden            : False,
+    }
+
+    recipe Shuffle Cards Together
+    {
+        destroy TarotCardDeckinUse5,
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+
+        Result              : TarotCardDeckFull,
+        Time                : 60.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        IsHidden            : True,
+    }
+
+    recipe Shuffle Cards Together
+    {
+        destroy TarotCardDeckinUse7,
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+
+        Result              : TarotCardDeckFull,
+        Time                : 60.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        IsHidden            : True,
+    }
+
+    recipe Shuffle Cards Together
+    {
+        destroy TarotCardDeckinUse10,
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+
+        Result              : TarotCardDeckFull,
+        Time                : 60.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        IsHidden            : True,
+    }
+
+    recipe Shuffle Cards Together
+    {
+        destroy TarotCardDeckinUse12,
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+        [Recipe.GetItemTypes.TarotCards],
+
+        Result              : TarotCardDeckFull,
+        Time                : 60.0,
+        Category            : Survivalist,
+        Sound               : PutItemInBag,
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        IsHidden            : True,
+    }
+}

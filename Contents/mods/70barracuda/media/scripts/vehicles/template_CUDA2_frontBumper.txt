@@ -1,0 +1,84 @@
+module Base
+{
+
+	template vehicle CUDA2FrontBumpers
+		{
+		part CUDAFrontBumper
+        	{
+
+			model FrontBumper2
+				{
+                		file = 70barracudafrontBumper2,
+				}
+
+			model FrontBumper0
+				{
+                		file = 70barracudafrontBumper0,
+				}
+
+			model FrontBumper1
+				{
+                		file = 70barracudafrontBumper1,
+				}
+
+			model FrontBumperA
+				{
+                		file = 70barracudafrontBumpera,
+				}
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.CUDAFrontBumper2;Base.CUDAFrontBumper0;Base.CUDAFrontBumper1;Base.CUDAFrontBumperA,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = CUDA.InstallComplete.FrontBumper2,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = CUDA.UninstallComplete.FrontBumper2,
+            		}
+
+            		lua
+            		{
+					create = CUDA.Create.FrontBumper2,
+					init = CUDA.Init.FrontBumper2,
+					}
+		}
+	}
+
+		
+}

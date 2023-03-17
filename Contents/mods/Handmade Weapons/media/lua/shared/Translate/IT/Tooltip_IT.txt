@@ -1,0 +1,3 @@
+Tooltip_IT = {
+Tooltip_ChiselInfo = "Usato per la lavorazione del legno.",
+}

@@ -1,0 +1,12 @@
+Items_DE = {
+
+	DisplayName_Hand_Hatchet = "Handbeil",
+	DisplayName_Survival_Knife = "Überlebensmesser",
+	DisplayName_Cheap_Survival_Knife = "Günstiges Überlebensmesser",
+	DisplayName_Rancher_Machete = "Rancher Machete",
+	DisplayName_Kukri_Machete = "Kukri Machete",
+	DisplayName_Splitting_Axe = "Spaltaxt",
+	DisplayName_Spear_With_Survival_Knife = "Speer mit Überlebensmesser",
+	DisplayName_Spear_With_Cheap_Survival_Knife = "Speer mit günstigem Überlebensmesser",
+	DisplayName_Spear_With_Kukri_Machete = "Speer mit Kukri Machete",
+}

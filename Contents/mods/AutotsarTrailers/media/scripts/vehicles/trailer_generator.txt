@@ -1,0 +1,248 @@
+module Base
+{
+	model TrailerGeneratorBase
+    {
+        mesh = vehicles/Trailer_generator,
+        shader = vehicle_norandom_multiuv,
+        invertX = FALSE,
+        scale = 0.004,
+    }
+	vehicle TrailerGenerator
+	{
+		mechanicType = 1,
+		offRoadEfficiency = 0.8,
+		engineRepairLevel = 5,
+		playerDamageProtection = 0.8,
+
+		model
+		{
+			file = TrailerGeneratorBase,
+			scale = 1.8000,
+			offset = 0.0000 0.3444 0.3222,
+		}
+
+		spawnOffsetY = 0.19392952,
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/gen_base,
+		}
+
+		sound
+		{
+			engine = GeneratorLoop,
+			engineStart = GeneratorStarting,
+			engineTurnOff = GeneratorStopping,
+			ignitionFail = GeneratorFailedToStart,
+		}
+
+		textureShadow = Shadows/trailer_gen_shadow,
+		textureMask = Vehicles/gen_mask,
+		textureLights = Vehicles/gen_light,
+		textureRust = Vehicles/AragonTexture/gen_base_rust,
+		extents = 0.5889 0.7000 1.3444,
+		mass = 1000,
+		physicsChassisShape = 0.5889 0.7000 1.3444,
+		centerOfMassOffset = 0.0000 0.6222 0.0778,
+		shadowExtents = 0.9111 1.9666,
+		shadowOffset = 0.0000 0.3778,
+		engineForce = 3600,
+		engineQuality = 60,
+		engineLoudness = 55,
+		maxSpeed = 70f,
+		brakingForce = 1,
+		stoppingMovementForce = 10.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.03,
+		steeringClamp = 0.3,
+		suspensionStiffness = 40,
+		suspensionCompression = 2.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.2,
+		wheelFriction = 4.0f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.3778 -0.2389 -0.3222,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.3778 -0.2389 -0.3222,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.6667 -0.0222 0.4778 0.4778,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.6667 -0.0222 0.4778 0.4778,
+		}
+
+		template = Tire/part/TireFrontLeft,
+		template = Tire/part/TireFrontRight,
+
+		part TireFrontLeft
+		{
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+		}
+
+		template = Earthing/part/EarthingOn,
+		template = Suspension/part/SuspensionFrontLeft,
+		template = Suspension/part/SuspensionFrontRight,
+
+		area GasTank
+		{
+			xywh = 0.5389 0.3111 0.4444 0.4778,
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			category = Generator,
+			mechanicRequireKey = false,
+
+			container
+			{
+				capacity = 20,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.GasTank,
+				update = Trailers.Update.GeneratorGasTank,
+				checkEngine = Vehicles.CheckEngine.GasTank,
+			}
+
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = secondary,
+					}
+
+					2
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+
+				time = 500,
+				skills = Mechanics:5,
+				recipes = Basic Mechanics;Generator,
+				test = Vehicles.UninstallTest.Default,
+				requireEmpty = true,
+				complete = Trailers.UninstallComplete.GeneratorGasTank,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 -0.2500 1.5000 0.4778,
+			
+		}
+
+		template = Battery,
+
+		part Battery
+		{
+			specificItem = false,
+            itemType = Base.CarBattery1;Base.CarBattery2;Base.CarBattery3,
+            category = Generator,
+			mechanicRequireKey = false,
+		}
+
+		template = Engine,
+
+		part Engine
+		{
+			category = Generator,
+			mechanicRequireKey = false,
+			lua
+			{
+				create = Vehicles.Create.Engine,
+				update = Trailers.Update.GeneratorEngine,
+				checkEngine = Vehicles.CheckEngine.Engine,
+			}
+		}
+
+		template = BatteryCharger,
+		/* TEMP */
+		lua
+		{
+			create = CommonTemplates.Create.BatteryCharger,
+			update = CommonTemplates.Update.BatteryCharger,
+		}
+
+		template = Headlight/part/HeadlightLeft,
+		template = Headlight/part/HeadlightRight,
+
+		part HeadlightLeft
+		{
+			category = nodisplay,
+		}
+
+		part HeadlightRight
+		{
+			category = nodisplay,
+		}
+
+		physics box
+		{
+			offset = -0.1111 0.2500 0.7778,
+			extents = 0.0556 0.0556 0.6833,
+			rotate = 0.0000 14.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.1111 0.2500 0.7833,
+			extents = 0.0556 0.0556 0.6722,
+			rotate = 0.0000 -15.0000 0.0000,
+		}
+
+		physics sphere
+		{
+			offset = -0.0056 0.2500 1.0889,
+			radius = 0.0400,
+		}
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.0889 1.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

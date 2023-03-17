@@ -1,0 +1,4 @@
+name=tooltipUnbreaker
+poster=poster.png
+id=tooltipUnbreaker
+description=Fixes a common issue with tooltips caused by modders overriding BodyLocations.

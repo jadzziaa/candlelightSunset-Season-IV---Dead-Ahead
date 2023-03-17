@@ -1,0 +1,4 @@
+name=Faster Recipe Tooltip
+id=FasterRecipeTooltip
+description=Makes the recipe tooltip faster, at the cost of the list of ingredients no longer being listed alphabetically.  There is also a small chance you will see an item duplicted on the list of ingredients.
+poster=poster.png

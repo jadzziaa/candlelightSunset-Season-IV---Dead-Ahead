@@ -1,0 +1,59 @@
+VERSION = 1,
+
+option eggonsWorthwileCars2.CapacityChangeRate
+{
+	type = double,
+    min = 0,
+	max = 10,
+	default = 0,
+	page = eggonsWorthwileCars2,
+	translation = eggonsWorthwileCars2_CapacityChangeRate,
+}
+
+option eggonsWorthwileCars2.ApplyCapacityBalance
+{
+	type = boolean,
+	default = true,
+	page = eggonsWorthwileCars2,
+	translation = eggonsWorthwileCars2_ApplyCapacityBalance,
+}
+
+option eggonsWorthwileCars2.CapacityMultiplier
+{
+	type = double,
+    min = 0,
+	max = 10,
+	default = 1,
+	page = eggonsWorthwileCars2,
+	translation = eggonsWorthwileCars2_CapacityMultiplier,
+}
+option eggonsWorthwileCars2.ApplyCapacityMultiplierToSeats
+{
+	type = boolean,
+	default = false,
+	page = eggonsWorthwileCars2,
+	translation = eggonsWorthwileCars2_ApplyCapacityMultiplierToSeats,
+}
+option eggonsWorthwileCars2.ApplyCapacityMultiplierToGloveBoxes
+{
+	type = boolean,
+	default = false,
+	page = eggonsWorthwileCars2,
+	translation = eggonsWorthwileCars2_ApplyCapacityMultiplierToGloveBoxes,
+}
+
+option eggonsWorthwileCars2.ApplyLoudnessBalance
+{
+	type = boolean,
+	default = true,
+	page = eggonsWorthwileCars2,
+	translation = eggonsWorthwileCars2_ApplyLoudnessBalance,
+}
+
+option eggonsWorthwileCars2.ApplyPowerBalance
+{
+	type = boolean,
+	default = true,
+	page = eggonsWorthwileCars2,
+	translation = eggonsWorthwileCars2_ApplyPowerBalance,
+}

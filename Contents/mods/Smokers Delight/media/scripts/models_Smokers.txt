@@ -1,0 +1,66 @@
+module Base
+{
+
+	model MaduroCigarBox
+	{
+		mesh = Worlditems/SmallBoxOpened,
+		texture = Worlditems/MaduroBoxSmall,
+		scale = 0.007,
+	}
+
+	model ColoradoCigarBox
+	{
+		mesh = Worlditems/SmallBoxOpened,
+		texture = Worlditems/ColoradoBoxSmall,
+		scale = 0.007,
+	}
+
+	model ClaroCigarBox
+	{
+		mesh = Worlditems/SmallBoxOpened,
+		texture = Worlditems/ClaroBoxSmall,
+		scale = 0.007,
+	}
+
+	model MaduroCigarSingle
+	{
+		mesh = Worlditems/CigarSingle,
+		texture = Worlditems/MaduroCigar,
+		scale = 0.007,
+	}
+
+	model ColoradoCigarSingle
+	{
+		mesh = Worlditems/CigarSingle,
+		texture = Worlditems/ColoradoCigar,
+		scale = 0.007,
+	}
+
+	model ClaroCigarSingle
+	{
+		mesh = Worlditems/CigarSingle,
+		texture = Worlditems/ClaroCigar,
+		scale = 0.007,
+	}
+
+	model S_MaduroCigar
+	{
+		mesh = Worlditems/S_Cigar,
+		texture = Worlditems/MaduroCigarLit,
+		scale = 0.005,
+	}
+
+	model S_ColoradoCigar
+	{
+		mesh = Worlditems/S_Cigar,
+		texture = Worlditems/ColoradoCigarLit,
+		scale = 0.005,
+	}
+
+	model S_ClaroCigar
+	{
+		mesh = Worlditems/S_Cigar,
+		texture = Worlditems/ClaroCigarLit,
+		scale = 0.005,
+	}
+}

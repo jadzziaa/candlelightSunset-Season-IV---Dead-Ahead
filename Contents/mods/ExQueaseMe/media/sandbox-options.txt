@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option ExQueaseMe.ReduceQuease = {
+    type = double,
+    min = 0,
+    max = 100,
+    default = 8,
+    page = ExQueaseMe,
+    translation = ExQueaseMe_ReduceQuease,
+}
+
+option ExQueaseMe.ReduceQueaseGain = {
+    type = double,
+    min = 0,
+    max = 100,
+    default = 0.2,
+    page = ExQueaseMe,
+    translation = ExQueaseMe_ReduceQueaseGain,
+}

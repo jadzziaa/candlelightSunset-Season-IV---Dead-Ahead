@@ -1,0 +1,5 @@
+IG_UI_EN = 
+{
+IGUI_Halo_SafetyDisengaged = "You are no longer safe, be careful!",
+IGUI_Halo_YouAreSafeFor = "You are safe for %1 more second(s), less if you move.",
+}

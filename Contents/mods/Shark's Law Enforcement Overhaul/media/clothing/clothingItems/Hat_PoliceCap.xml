@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media/models_X/static/clothes/M_PoliceCap.FBX</m_MaleModel>
+	<m_FemaleModel>media/models_X/static/clothes/F_PoliceCap.FBX</m_FemaleModel>
+	<m_GUID>50d93e66-b201-425f-b751-a6c287b8a600</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group02</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes/hat/Hat_PoliceCap</textureChoices>
+</clothingItem>

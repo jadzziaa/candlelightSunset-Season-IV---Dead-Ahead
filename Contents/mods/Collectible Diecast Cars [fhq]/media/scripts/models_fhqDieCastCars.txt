@@ -1,0 +1,5408 @@
+module Base
+{
+	model fhqDCBox
+	{
+		mesh = WorldItems/fhqDCBox,
+		texture = WorldItems/fhqDCBox,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBoxMotorious
+	{
+		mesh = WorldItems/fhqDCBox,
+		texture = WorldItems/fhqDCBoxMotorious,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBoxRare
+	{
+		mesh = WorldItems/fhqDCBox,
+		texture = WorldItems/fhqDCBoxRare,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBoxOpen
+	{
+		mesh = WorldItems/fhqDCBoxOpen,
+		texture = WorldItems/fhqDCBox,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCGT40Gulf
+	{
+		mesh = WorldItems/fhqDiecast18GT40,
+		texture = WorldItems/fhqDiecastGT40Gulf,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCGT40Red
+	{
+		mesh = WorldItems/fhqDiecast18GT40,
+		texture = WorldItems/fhqDiecastGT40Red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCGT40Navy
+	{
+		mesh = WorldItems/fhqDiecast18GT40,
+		texture = WorldItems/fhqDiecastGT40Navy,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCGT40Black
+	{
+		mesh = WorldItems/fhqDiecast18GT40,
+		texture = WorldItems/fhqDiecastGT40Black,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCGT40White
+	{
+		mesh = WorldItems/fhqDiecast18GT40,
+		texture = WorldItems/fhqDiecastGT40White,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCGT40Yellow
+	{
+		mesh = WorldItems/fhqDiecast18GT40,
+		texture = WorldItems/fhqDiecastGT40Yellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCGT40GT4
+	{
+		mesh = WorldItems/fhqDiecast18GT40,
+		texture = WorldItems/fhqDiecastGT40GT4,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCNyalaPurple
+	{
+		mesh = WorldItems/fhqDiecast18Nyala,
+		texture = WorldItems/fhqDiecastNyalaPurple,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 -0.0890 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataBRGreen
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5_dc_britgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataBBlack
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5_dc_brilliantblack,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataClscRed
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5_dc_classicred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataCrstlWht
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5_dc_crystalwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataMrnrBlu
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5_dc_marinerblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataSStone
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5_dc_silverstone,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataSunYellow
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5_dc_sunburstyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataHrdtopBBlack
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5ht_dc_brilliantblack,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataHrdtopBRGreen
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5ht_dc_britgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataHrdtopClscRed
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5ht_dc_classicred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataHrdtopCrstlWht
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5ht_dc_crystalwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataHrdtopMrnrBlu
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5ht_dc_marinerblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataHrdtopSStone
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5ht_dc_silverstone,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataHrdtopSunYellow
+	{
+		mesh = WorldItems/fhqDiecast18Miata,
+		texture = WorldItems/fhqmx5ht_dc_sunburstyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkBRGreen
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5_dc_britgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkBBlack
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5_dc_brilliantblack,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkClscRed
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5_dc_classicred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkCrstlWht
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5_dc_crystalwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkMrnrBlu
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5_dc_marinerblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkSStone
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5_dc_silverstone,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkSunYellow
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5_dc_sunburstyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkHrdtopBBlack
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5ht_dc_brilliantblack,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkHrdtopBRGreen
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5ht_dc_britgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkHrdtopClscRed
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5ht_dc_classicred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkHrdtopCrstlWht
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5ht_dc_crystalwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkHrdtopMrnrBlu
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5ht_dc_marinerblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkHrdtopSStone
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5ht_dc_silverstone,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataWnkHrdtopSunYellow
+	{
+		mesh = WorldItems/fhqDiecast18MiataWink,
+		texture = WorldItems/fhqmx5ht_dc_sunburstyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataOffroadGrn
+	{
+		mesh = WorldItems/fhqDiecast18MiataOR,
+		texture = WorldItems/fhqmx5or_dc_grn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataOffroadTan
+	{
+		mesh = WorldItems/fhqDiecast18MiataOR,
+		texture = WorldItems/fhqmx5or_dc_tan,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataRallyBlu
+	{
+		mesh = WorldItems/fhqDiecast18MiataRally,
+		texture = WorldItems/fhqmx5rly_dc_blu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCMiataRallyOrng
+	{
+		mesh = WorldItems/fhqDiecast18MiataRally,
+		texture = WorldItems/fhqmx5rly_dc_orng,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCHQSandmanAtmnGld
+	{
+		mesh = WorldItems/fhqDiecast18HQSandman,
+		texture = WorldItems/fhqhqsndman_dc_autumngold,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCHQSandmanAzureBlu
+	{
+		mesh = WorldItems/fhqDiecast18HQSandman,
+		texture = WorldItems/fhqhqsndman_dc_azureblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCHQSandmanBrbGrn
+	{
+		mesh = WorldItems/fhqDiecast18HQSandman,
+		texture = WorldItems/fhqhqsndman_dc_barbadosgreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCHQSandmanChrmYlw
+	{
+		mesh = WorldItems/fhqDiecast18HQSandman,
+		texture = WorldItems/fhqhqsndman_dc_chromeyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCHQSandmanCovert
+	{
+		mesh = WorldItems/fhqDiecast18HQSandman,
+		texture = WorldItems/fhqhqsndman_dc_covert,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCHQSandmanMntryGrn
+	{
+		mesh = WorldItems/fhqDiecast18HQSandman,
+		texture = WorldItems/fhqhqsndman_dc_montereygreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCHQSandmanOrchid
+	{
+		mesh = WorldItems/fhqDiecast18HQSandman,
+		texture = WorldItems/fhqhqsndman_dc_orchid,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCHQSandmanSafron
+	{
+		mesh = WorldItems/fhqDiecast18HQSandman,
+		texture = WorldItems/fhqhqsndman_dc_safron,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCHQSandmanSalamanRed
+	{
+		mesh = WorldItems/fhqDiecast18HQSandman,
+		texture = WorldItems/fhqhqsndman_dc_salamancared,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32Pace
+	{
+		mesh = WorldItems/fhqDiecast18R32Pace,
+		texture = WorldItems/fhqr32_dc_pace,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32Touring
+	{
+		mesh = WorldItems/fhqDiecast18R32Touring,
+		texture = WorldItems/fhqr32_dc_touring,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32GTRBlk
+	{
+		mesh = WorldItems/fhqDiecast18R32GTR,
+		texture = WorldItems/fhqr32gtr_dc_blackpearl,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32GTRDkBlu
+	{
+		mesh = WorldItems/fhqDiecast18R32GTR,
+		texture = WorldItems/fhqr32gtr_dc_darkblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32GTRGnMtlGry
+	{
+		mesh = WorldItems/fhqDiecast18R32GTR,
+		texture = WorldItems/fhqr32gtr_dc_gunmetalgrey,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32GTRRedPrl
+	{
+		mesh = WorldItems/fhqDiecast18R32GTR,
+		texture = WorldItems/fhqr32gtr_dc_redpearl,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32GTRSprkSilv
+	{
+		mesh = WorldItems/fhqDiecast18R32GTR,
+		texture = WorldItems/fhqr32gtr_dc_sparksilver,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32RBlk
+	{
+		mesh = WorldItems/fhqDiecast18R32GTR,
+		texture = WorldItems/fhqr32r_dc_black,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32RRed
+	{
+		mesh = WorldItems/fhqDiecast18R32GTR,
+		texture = WorldItems/fhqr32r_dc_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32RWht
+	{
+		mesh = WorldItems/fhqDiecast18R32GTR,
+		texture = WorldItems/fhqr32r_dc_white,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32N1
+	{
+		mesh = WorldItems/fhqDiecast18R32GTR,
+		texture = WorldItems/fhqr32n1_dc,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32GTSBlkPrl
+	{
+		mesh = WorldItems/fhqDiecast18R32GTS,
+		texture = WorldItems/fhqr32gts_dc_blackpearl,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32GTSCrystlWht
+	{
+		mesh = WorldItems/fhqDiecast18R32GTS,
+		texture = WorldItems/fhqr32gts_dc_crystalwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32GTSDrkBlu
+	{
+		mesh = WorldItems/fhqDiecast18R32GTS,
+		texture = WorldItems/fhqr32gts_dc_darkbluepearl,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32GTSRedPrl
+	{
+		mesh = WorldItems/fhqDiecast18R32GTS,
+		texture = WorldItems/fhqr32gts_dc_redpearl,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32SedDrkBlu
+	{
+		mesh = WorldItems/fhqDiecast18R32Sed,
+		texture = WorldItems/fhqr32sed_dc_darkblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32SedDrkGrn
+	{
+		mesh = WorldItems/fhqDiecast18R32Sed,
+		texture = WorldItems/fhqr32sed_dc_darkgreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32SedGrayishBlu
+	{
+		mesh = WorldItems/fhqDiecast18R32Sed,
+		texture = WorldItems/fhqr32sed_dc_grayishblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCR32SedYlwshGrn
+	{
+		mesh = WorldItems/fhqDiecast18R32Sed,
+		texture = WorldItems/fhqr32sed_dc_yellowishgreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCZeroR
+	{
+		mesh = WorldItems/fhqDiecast18ZeroR,
+		texture = WorldItems/fhqzeror_dc,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLimeMobile
+	{
+		mesh = WorldItems/fhqDiecast18M3,
+		texture = WorldItems/fhqe36_dc_lime,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36M3AvsBlu
+	{
+		mesh = WorldItems/fhqDiecast18M3,
+		texture = WorldItems/fhqe36m3_dc_avusblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36M3BostnGrn
+	{
+		mesh = WorldItems/fhqDiecast18M3,
+		texture = WorldItems/fhqe36m3_dc_bostongreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36M3DkrYlw
+	{
+		mesh = WorldItems/fhqDiecast18M3,
+		texture = WorldItems/fhqe36m3_dc_dakaryellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36M3DytnaVlt
+	{
+		mesh = WorldItems/fhqDiecast18M3,
+		texture = WorldItems/fhqe36m3_dc_daytonaviolet,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36M3Hellrot
+	{
+		mesh = WorldItems/fhqDiecast18M3,
+		texture = WorldItems/fhqe36m3_dc_hellrot,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36M3GTR
+	{
+		mesh = WorldItems/fhqDiecast18M3GTR,
+		texture = WorldItems/fhqe36m3gtr_dc,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36M3GTRMW
+	{
+		mesh = WorldItems/fhqDiecast18M3GTR,
+		texture = WorldItems/fhqe36m3gtr_dc_mw,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36CoupAlpnWht
+	{
+		mesh = WorldItems/fhqDiecast18E36,
+		texture = WorldItems/fhqe36coup_dc_alpinewhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36CoupHellrot
+	{
+		mesh = WorldItems/fhqDiecast18E36,
+		texture = WorldItems/fhqe36coup_dc_hellrot,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36CoupMaldBlu
+	{
+		mesh = WorldItems/fhqDiecast18E36,
+		texture = WorldItems/fhqe36coup_dc_maledivenblau,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36BstnGrn
+	{
+		mesh = WorldItems/fhqDiecast18E36,
+		texture = WorldItems/fhqe36sed_dc_bostongreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36CalypsoRed
+	{
+		mesh = WorldItems/fhqDiecast18E36,
+		texture = WorldItems/fhqe36sed_dc_calypsored,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCE36Schwarz
+	{
+		mesh = WorldItems/fhqDiecast18E36,
+		texture = WorldItems/fhqe36sed_dc_schwarz,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCountachArancio
+	{
+		mesh = WorldItems/fhqDiecast18Countach,
+		texture = WorldItems/fhqlp400_dc_arancio,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCountachBlu
+	{
+		mesh = WorldItems/fhqDiecast18Countach,
+		texture = WorldItems/fhqlp400_dc_blu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCountachGiallo
+	{
+		mesh = WorldItems/fhqDiecast18Countach,
+		texture = WorldItems/fhqlp400_dc_giallo,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCountachOro
+	{
+		mesh = WorldItems/fhqDiecast18Countach,
+		texture = WorldItems/fhqlp400_dc_oro,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCountachRosso
+	{
+		mesh = WorldItems/fhqDiecast18Countach,
+		texture = WorldItems/fhqlp400_dc_rosso,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCountachVerdeMedio
+	{
+		mesh = WorldItems/fhqDiecast18Countach,
+		texture = WorldItems/fhqlp400_dc_verdemedio,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCF1BrilBlu
+	{
+		mesh = WorldItems/fhqDiecast18F1,
+		texture = WorldItems/fhqf1_dc_brilliantblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCF1CustomPurp
+	{
+		mesh = WorldItems/fhqDiecast18F1,
+		texture = WorldItems/fhqf1_dc_custompurple,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCF1GPRed
+	{
+		mesh = WorldItems/fhqDiecast18F1,
+		texture = WorldItems/fhqf1_dc_gpred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCF1JetBlack
+	{
+		mesh = WorldItems/fhqDiecast18F1,
+		texture = WorldItems/fhqf1_dc_jetblack,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCF1Silver
+	{
+		mesh = WorldItems/fhqDiecast18F1,
+		texture = WorldItems/fhqf1_dc_silver,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32AztcRed
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32,
+		texture = WorldItems/fhq300zxz32_dc_aztecred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32DmndBlk
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32,
+		texture = WorldItems/fhq300zxz32_dc_diamondblack,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32GlcrWht
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32,
+		texture = WorldItems/fhq300zxz32_dc_glacierwhitepearlglow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32GldPrl
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32,
+		texture = WorldItems/fhq300zxz32_dc_goldpearl,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32MdnghtBlu
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32,
+		texture = WorldItems/fhq300zxz32_dc_midnightblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32PltMst
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32,
+		texture = WorldItems/fhq300zxz32_dc_platmist,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32YlwPerl
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32,
+		texture = WorldItems/fhq300zxz32_dc_yellowpearlglow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32Forza
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32Forza,
+		texture = WorldItems/fhq300zxz32_dc_forza,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32MC2
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32MC2,
+		texture = WorldItems/fhq300zxz32_dc_mc2,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32Plus2AzurBlu
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32plus2,
+		texture = WorldItems/fhq300zxz3222_dc_azureblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32Plus2Chrcol
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32plus2,
+		texture = WorldItems/fhq300zxz3222_dc_charcoalpearl,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32Plus2ChryRed
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32plus2,
+		texture = WorldItems/fhq300zxz3222_dc_cherryred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32Plus2CocoBrnz
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32plus2,
+		texture = WorldItems/fhq300zxz3222_dc_cocoabronze,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32Plus2OxfrdGry
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32plus2,
+		texture = WorldItems/fhq300zxz3222_dc_oxfordgray,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32Plus2SaphireBlu
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32plus2,
+		texture = WorldItems/fhq300zxz3222_dc_sapphireblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC300ZXZ32Plus2SprWht
+	{
+		mesh = WorldItems/fhqDiecast18300ZXZ32plus2,
+		texture = WorldItems/fhq300zxz3222_dc_sprwht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeAspnWht
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_aspenwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeAztcRed
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_aztecred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeCharcoal
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_charcoal,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeCheryRed
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_cherryred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeJunprGrn
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_junipergreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeMstyBlu
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_mistyblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeSndstnBge
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_sandstonebeige,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeSaphrBlu
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_sapphireblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeSprBlk
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_superblack,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupeSprWht
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupe,
+		texture = WorldItems/fhq240sxcoupe_dc_superwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLChmpgn
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_champagne,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLChrcol
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_charcoal,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLChryRed
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_cherryred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLCrmYlw
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_creamyyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLHotRed
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_hotred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLIvryWht
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_ivorywhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLLvndrFrst
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_lavenderfrost,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLMdntBlu
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_midnightblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLPltBlu
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_platinumblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLPltBlu2Tone
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_platinumblue2tone,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLSlvrGrn
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_silvergreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLSlvrGrn2Tone
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_silvergreen2tone,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC240SXCoupePreFLSprBlk
+	{
+		mesh = WorldItems/fhqDiecast18240SXCoupePreFL,
+		texture = WorldItems/fhq240sxcoupeprefl_dc_superblack,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloAgateGray
+	{
+		mesh = WorldItems/fhqDiecast18Diablo,
+		texture = WorldItems/fhqdiablo_dc_agategray,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloBluAcapulco
+	{
+		mesh = WorldItems/fhqDiecast18Diablo,
+		texture = WorldItems/fhqdiablo_dc_bluacapulco,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloDeepBlk
+	{
+		mesh = WorldItems/fhqDiecast18Diablo,
+		texture = WorldItems/fhqdiablo_dc_deepblk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloRed
+	{
+		mesh = WorldItems/fhqDiecast18Diablo,
+		texture = WorldItems/fhqdiablo_dc_diablored,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloRossoGranata
+	{
+		mesh = WorldItems/fhqDiecast18Diablo,
+		texture = WorldItems/fhqdiablo_dc_rossogranata,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloSprflyYlw
+	{
+		mesh = WorldItems/fhqDiecast18Diablo,
+		texture = WorldItems/fhqdiablo_dc_superflyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloSE30Purp
+	{
+		mesh = WorldItems/fhqDiecast18DiabloSE30,
+		texture = WorldItems/fhqdiablose30_dc_purple,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloSE30Red
+	{
+		mesh = WorldItems/fhqDiecast18DiabloSE30,
+		texture = WorldItems/fhqdiablose30_dc_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloSE30Silver
+	{
+		mesh = WorldItems/fhqDiecast18DiabloSE30,
+		texture = WorldItems/fhqdiablose30_dc_silver,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloSE30VrdMed
+	{
+		mesh = WorldItems/fhqDiecast18DiabloSE30,
+		texture = WorldItems/fhqdiablose30_dc_verdemedio,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloStrosekBlu
+	{
+		mesh = WorldItems/fhqDiecast18DiabloStrosek,
+		texture = WorldItems/fhqdiablostrosek_dc,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloStrosekRed
+	{
+		mesh = WorldItems/fhqDiecast18DiabloStrosek,
+		texture = WorldItems/fhqdiablostrosek_dc_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloStrosekYellow
+	{
+		mesh = WorldItems/fhqDiecast18DiabloStrosek,
+		texture = WorldItems/fhqdiablostrosek_dc_yellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloInterceptor
+	{
+		mesh = WorldItems/fhqDiecast18DiabloInterceptor,
+		texture = WorldItems/fhqdiablo_dc_int,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDiabloPD
+	{
+		mesh = WorldItems/fhqDiecast18DiabloPD,
+		texture = WorldItems/fhqdiablo_dc_pd,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCAZ1ClassicRed
+	{
+		mesh = WorldItems/fhqDiecast18AZ1,
+		texture = WorldItems/fhqaz1_dc_classicred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCAZ1SiberiaBlu
+	{
+		mesh = WorldItems/fhqDiecast18AZ1,
+		texture = WorldItems/fhqaz1_dc_siberiablue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCaraClassicRed
+	{
+		mesh = WorldItems/fhqDiecast18AZ1,
+		texture = WorldItems/fhqcara_dc_classicred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCaraSiberiaBlu
+	{
+		mesh = WorldItems/fhqDiecast18AZ1,
+		texture = WorldItems/fhqcara_dc_siberiablue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatAztcGrn
+	{
+		mesh = WorldItems/fhqDiecast18Beat,
+		texture = WorldItems/fhqbeat_dc_aztecgreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatBldSlvr
+	{
+		mesh = WorldItems/fhqDiecast18Beat,
+		texture = WorldItems/fhqbeat_dc_bladesilver,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatCaptivaBlu
+	{
+		mesh = WorldItems/fhqDiecast18Beat,
+		texture = WorldItems/fhqbeat_dc_captivablue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatCrnvlYlw
+	{
+		mesh = WorldItems/fhqDiecast18Beat,
+		texture = WorldItems/fhqbeat_dc_carnivalyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatCrstaWht
+	{
+		mesh = WorldItems/fhqDiecast18Beat,
+		texture = WorldItems/fhqbeat_dc_crestawhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatEvrgldGrn
+	{
+		mesh = WorldItems/fhqDiecast18Beat,
+		texture = WorldItems/fhqbeat_dc_evergladegreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatFstvlRed
+	{
+		mesh = WorldItems/fhqDiecast18Beat,
+		texture = WorldItems/fhqbeat_dc_festivalred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatMugenBldSlvr
+	{
+		mesh = WorldItems/fhqDiecast18BeatMugen,
+		texture = WorldItems/fhqbeatmugen_dc_bladesilver,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatMugenCrnvlYlw
+	{
+		mesh = WorldItems/fhqDiecast18BeatMugen,
+		texture = WorldItems/fhqbeatmugen_dc_carnivalyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatMugenFstvlRed
+	{
+		mesh = WorldItems/fhqDiecast18BeatMugen,
+		texture = WorldItems/fhqbeatmugen_dc_festivalred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatRace1
+	{
+		mesh = WorldItems/fhqDiecast18BeatRace,
+		texture = WorldItems/fhqbeat_dc_race1,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatRace2
+	{
+		mesh = WorldItems/fhqDiecast18BeatRace,
+		texture = WorldItems/fhqbeat_dc_race2,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatRace3
+	{
+		mesh = WorldItems/fhqDiecast18BeatRace,
+		texture = WorldItems/fhqbeat_dc_race3,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatRace4
+	{
+		mesh = WorldItems/fhqDiecast18BeatRace,
+		texture = WorldItems/fhqbeat_dc_race4,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatRace5
+	{
+		mesh = WorldItems/fhqDiecast18BeatRace,
+		texture = WorldItems/fhqbeat_dc_race5,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBeatRace6
+	{
+		mesh = WorldItems/fhqDiecast18BeatRace,
+		texture = WorldItems/fhqbeat_dc_race6,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSuzCapAntesRed
+	{
+		mesh = WorldItems/fhqDiecast18SuzCap,
+		texture = WorldItems/fhqsuzcap_dc_antesred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSuzCapCorbodaRed
+	{
+		mesh = WorldItems/fhqDiecast18SuzCap,
+		texture = WorldItems/fhqsuzcap_dc_corbodared,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSuzCapDrkTrqse
+	{
+		mesh = WorldItems/fhqDiecast18SuzCap,
+		texture = WorldItems/fhqsuzcap_dc_darkturquoise,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSuzCapMercurySlvr
+	{
+		mesh = WorldItems/fhqDiecast18SuzCap,
+		texture = WorldItems/fhqsuzcap_dc_mercurysilver,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSuzCapSatSlvr
+	{
+		mesh = WorldItems/fhqDiecast18SuzCap,
+		texture = WorldItems/fhqsuzcap_dc_satellitesilver,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSuzCapScubaBlu
+	{
+		mesh = WorldItems/fhqDiecast18SuzCap,
+		texture = WorldItems/fhqsuzcap_dc_scubablue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirAdbeBge
+	{
+		mesh = WorldItems/fhqDiecast1857BelAir,
+		texture = WorldItems/fhqbelair_dc_adobebeige,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirDskPrl
+	{
+		mesh = WorldItems/fhqDiecast1857BelAir,
+		texture = WorldItems/fhqbelair_dc_duskpearl,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirHghlndGrn
+	{
+		mesh = WorldItems/fhqDiecast1857BelAir,
+		texture = WorldItems/fhqbelair_dc_highlandgreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirImpIvry
+	{
+		mesh = WorldItems/fhqDiecast1857BelAir,
+		texture = WorldItems/fhqbelair_dc_imperialivory,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirIncaSlvr
+	{
+		mesh = WorldItems/fhqDiecast1857BelAir,
+		texture = WorldItems/fhqbelair_dc_incasilver,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirLaurelGrn
+	{
+		mesh = WorldItems/fhqDiecast1857BelAir,
+		texture = WorldItems/fhqbelair_dc_laurelgreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirMatRed
+	{
+		mesh = WorldItems/fhqDiecast1857BelAir,
+		texture = WorldItems/fhqbelair_dc_matadorred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirTrpclTurq
+	{
+		mesh = WorldItems/fhqDiecast1857BelAir,
+		texture = WorldItems/fhqbelair_dc_tropicalturquoise,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirPD
+	{
+		mesh = WorldItems/fhqDiecast1857BelAirPD,
+		texture = WorldItems/fhqbelair_dc_pd,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC57BelAirKSP
+	{
+		mesh = WorldItems/fhqDiecast1857BelAirPD,
+		texture = WorldItems/fhqbelair_dc_ksp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCBomberBFS
+	{
+		mesh = WorldItems/fhqDiecast18BomberBFS,
+		texture = WorldItems/fhqbomberbfs_dc,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLM002Blk
+	{
+		mesh = WorldItems/fhqDiecast18LM002,
+		texture = WorldItems/fhqlm002_dc_black,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLM002DrkBlu
+	{
+		mesh = WorldItems/fhqDiecast18LM002,
+		texture = WorldItems/fhqlm002_dc_drkblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLM002IriPurp
+	{
+		mesh = WorldItems/fhqDiecast18LM002,
+		texture = WorldItems/fhqlm002_dc_iripurp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLM002Rosso
+	{
+		mesh = WorldItems/fhqDiecast18LM002,
+		texture = WorldItems/fhqlm002_dc_rosso,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLM002White
+	{
+		mesh = WorldItems/fhqDiecast18LM002,
+		texture = WorldItems/fhqlm002_dc_white,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLM002Yellow
+	{
+		mesh = WorldItems/fhqDiecast18LM002,
+		texture = WorldItems/fhqlm002_dc_yellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLM002Estate
+	{
+		mesh = WorldItems/fhqDiecast18LM002Estate,
+		texture = WorldItems/fhqlm002_dc_estate,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSC400BlkOnyx
+	{
+		mesh = WorldItems/fhqDiecast18SC400,
+		texture = WorldItems/fhqsc400_dc_blackonyx,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSC400Garnet
+	{
+		mesh = WorldItems/fhqDiecast18SC400,
+		texture = WorldItems/fhqsc400_dc_garnet,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSC400MdntIndigo
+	{
+		mesh = WorldItems/fhqDiecast18SC400,
+		texture = WorldItems/fhqsc400_dc_midnightindigo,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSC400RoylJade
+	{
+		mesh = WorldItems/fhqDiecast18SC400,
+		texture = WorldItems/fhqsc400_dc_royaljade,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSC300DmndWht
+	{
+		mesh = WorldItems/fhqDiecast18SC300,
+		texture = WorldItems/fhqsc300_dc_diamondwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSC300Grpht
+	{
+		mesh = WorldItems/fhqDiecast18SC300,
+		texture = WorldItems/fhqsc300_dc_graphite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSC300SndsntBge
+	{
+		mesh = WorldItems/fhqDiecast18SC300,
+		texture = WorldItems/fhqsc300_dc_sandstonebeige,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSC300SlvrSprce
+	{
+		mesh = WorldItems/fhqDiecast18SC300,
+		texture = WorldItems/fhqsc300_dc_silverspruce,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLS400BlackOnyx
+	{
+		mesh = WorldItems/fhqDiecast18LS400,
+		texture = WorldItems/fhqls400_dc_blackonyx,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLS400Brgndy
+	{
+		mesh = WorldItems/fhqDiecast18LS400,
+		texture = WorldItems/fhqls400_dc_burgundy,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLS400CbltBlu
+	{
+		mesh = WorldItems/fhqDiecast18LS400,
+		texture = WorldItems/fhqls400_dc_cobaltblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLS400DrkWlnut
+	{
+		mesh = WorldItems/fhqDiecast18LS400,
+		texture = WorldItems/fhqls400_dc_darkwalnut,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLS400DmndWht
+	{
+		mesh = WorldItems/fhqDiecast18LS400,
+		texture = WorldItems/fhqls400_dc_diamondwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLS400FlntGry
+	{
+		mesh = WorldItems/fhqDiecast18LS400,
+		texture = WorldItems/fhqls400_dc_flintgray,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLS400SndstnBge
+	{
+		mesh = WorldItems/fhqDiecast18LS400,
+		texture = WorldItems/fhqls400_dc_sandstonebeige,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCLS400SlvrMst
+	{
+		mesh = WorldItems/fhqDiecast18LS400,
+		texture = WorldItems/fhqls400_dc_silvermist,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSupraMkIVAlpnSlvr
+	{
+		mesh = WorldItems/fhqDiecast18Supra,
+		texture = WorldItems/fhqsupramk4_dc_alpinesilver,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSupraMkIVAnthracite
+	{
+		mesh = WorldItems/fhqDiecast18Supra,
+		texture = WorldItems/fhqsupramk4_dc_anthracitemetallic,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSupraMkIVBltcBlu
+	{
+		mesh = WorldItems/fhqDiecast18Supra,
+		texture = WorldItems/fhqsupramk4_dc_balticblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSupraMkIVBlk
+	{
+		mesh = WorldItems/fhqDiecast18Supra,
+		texture = WorldItems/fhqsupramk4_dc_black,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSupraMkIVRenRed
+	{
+		mesh = WorldItems/fhqDiecast18Supra,
+		texture = WorldItems/fhqsupramk4_dc_renaissancered,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSupraMkIVSprWht
+	{
+		mesh = WorldItems/fhqDiecast18Supra,
+		texture = WorldItems/fhqsupramk4_dc_superwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSupraMkIVOOTHST
+	{
+		mesh = WorldItems/fhqDiecast18Supra,
+		texture = WorldItems/fhqsupramk4_dc_oothst,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSupraMkIVOWR
+	{
+		mesh = WorldItems/fhqDiecast18Supra,
+		texture = WorldItems/fhqsupramk4_dc_owr,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalBurgundy
+	{
+		mesh = WorldItems/fhqDiecast1870Challenger,
+		texture = WorldItems/fhq70chal_dc_burgundypoly,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalCream
+	{
+		mesh = WorldItems/fhqDiecast1870Challenger,
+		texture = WorldItems/fhq70chal_dc_cream,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalDrkGrnPoly
+	{
+		mesh = WorldItems/fhqDiecast1870Challenger,
+		texture = WorldItems/fhq70chal_dc_darkgreenpoly,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalTanPoly
+	{
+		mesh = WorldItems/fhqDiecast1870Challenger,
+		texture = WorldItems/fhq70chal_dc_tanpoly,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalRTBanana
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerRT,
+		texture = WorldItems/fhq70chalrt_dc_banana,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalRTBrntOrng
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerRT,
+		texture = WorldItems/fhq70chalrt_dc_darkburntorange,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalRTLitBlu
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerRT,
+		texture = WorldItems/fhq70chalrt_dc_lightbluepoly,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalRTSlvrPly
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerRT,
+		texture = WorldItems/fhq70chalrt_dc_silverpoly,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalRTShkrDrkBlu
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerShkr,
+		texture = WorldItems/fhq70chalshkr_dc_darkblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalRTShkrGoMango
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerShkr,
+		texture = WorldItems/fhq70chalshkr_dc_gomango,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalRTShkrPlumCrazy
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerShkr,
+		texture = WorldItems/fhq70chalshkr_dc_plumcrazy,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalRTShkrSublime
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerShkr,
+		texture = WorldItems/fhq70chalshkr_dc_sublime,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalTABritBlu
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerTA,
+		texture = WorldItems/fhq70chalta_dc_brightbluepoly,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalTABritRed
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerTA,
+		texture = WorldItems/fhq70chalta_dc_brightred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalTALitGold
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerTA,
+		texture = WorldItems/fhq70chalta_dc_lightgoldpoly,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalTAPnthrPnk
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerTA,
+		texture = WorldItems/fhq70chalta_dc_pantherpink,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC71CudaCuriousYellow
+	{
+		mesh = WorldItems/fhqDiecast1871Cuda,
+		texture = WorldItems/fhq71cuda_dc_curiousyellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC71CudaInViolet
+	{
+		mesh = WorldItems/fhqDiecast1871Cuda,
+		texture = WorldItems/fhq71cuda_dc_inviolet,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC71CudaRllyRed
+	{
+		mesh = WorldItems/fhqDiecast1871Cuda,
+		texture = WorldItems/fhq71cuda_dc_rallyered,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model fhqDC71CudaSassGreen
+	{
+		mesh = WorldItems/fhqDiecast1871Cuda,
+		texture = WorldItems/fhq71cuda_dc_sassygrassgreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC71CudaSnoWhite
+	{
+		mesh = WorldItems/fhqDiecast1871Cuda,
+		texture = WorldItems/fhq71cuda_dc_snowwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC71CudaMouRouge
+	{
+		mesh = WorldItems/fhqDiecast1871Cuda,
+		texture = WorldItems/fhq71cuda_dc_mourouge,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalSF
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerShkr,
+		texture = WorldItems/fhq70chal_dc_sf,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDC70ChalRace
+	{
+		mesh = WorldItems/fhqDiecast1870ChallengerTARace,
+		texture = WorldItems/fhq70chal_dc_race,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaAegeanBlu
+	{
+		mesh = WorldItems/fhqDiecast18Impreza,
+		texture = WorldItems/fhqimpreza_dc_aegeanblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaAmethyst
+	{
+		mesh = WorldItems/fhqDiecast18Impreza,
+		texture = WorldItems/fhqimpreza_dc_amethyst,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaAquaFrst
+	{
+		mesh = WorldItems/fhqDiecast18Impreza,
+		texture = WorldItems/fhqimpreza_dc_aquafrst,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaCrimson
+	{
+		mesh = WorldItems/fhqDiecast18Impreza,
+		texture = WorldItems/fhqimpreza_dc_crimson,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaGlcrWht
+	{
+		mesh = WorldItems/fhqDiecast18Impreza,
+		texture = WorldItems/fhqimpreza_dc_glacierwht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaHntrGrn
+	{
+		mesh = WorldItems/fhqDiecast18Impreza,
+		texture = WorldItems/fhqimpreza_dc_huntrgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWagAegeanBlu
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWag,
+		texture = WorldItems/fhqimprezawag_dc_aegeanblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWagAmethyst
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWag,
+		texture = WorldItems/fhqimprezawag_dc_amethyst,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWagAquaFrst
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWag,
+		texture = WorldItems/fhqimprezawag_dc_aquafrst,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWagCrimson
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWag,
+		texture = WorldItems/fhqimprezawag_dc_crimson,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWagGlcrWht
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWag,
+		texture = WorldItems/fhqimprezawag_dc_glacierwht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWagHntrGrn
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWag,
+		texture = WorldItems/fhqimprezawag_dc_huntrgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXAegeanBlu
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRX,
+		texture = WorldItems/fhqimprezawrx_dc_aegeanblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXAmethyst
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRX,
+		texture = WorldItems/fhqimprezawrx_dc_amethyst,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXAquaFrst
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRX,
+		texture = WorldItems/fhqimprezawrx_dc_aquafrst,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXCrimson
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRX,
+		texture = WorldItems/fhqimprezawrx_dc_crimson,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXGlcrWht
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRX,
+		texture = WorldItems/fhqimprezawrx_dc_glacierwht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXHntrGrn
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRX,
+		texture = WorldItems/fhqimprezawrx_dc_huntrgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXRally
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRX,
+		texture = WorldItems/fhqimprezawrx_dc_rally,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXWagAegeanBlu
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRXWag,
+		texture = WorldItems/fhqimprezawrxwag_dc_aegeanblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXWagAmethyst
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRXWag,
+		texture = WorldItems/fhqimprezawrxwag_dc_amethyst,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXWagAquaFrst
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRXWag,
+		texture = WorldItems/fhqimprezawrxwag_dc_aquafrst,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXWagCrimson
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRXWag,
+		texture = WorldItems/fhqimprezawrxwag_dc_crimson,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXWagGlcrWht
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRXWag,
+		texture = WorldItems/fhqimprezawrxwag_dc_glacierwht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCImprezaWRXWagHntrGrn
+	{
+		mesh = WorldItems/fhqDiecast18ImprezaWRXWag,
+		texture = WorldItems/fhqimprezawrxwag_dc_huntrgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCM20bRed
+	{
+		mesh = WorldItems/fhqDiecast18M20b,
+		texture = WorldItems/fhqm20b_dc_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCM20bSilver
+	{
+		mesh = WorldItems/fhqDiecast18M20b,
+		texture = WorldItems/fhqm20b_dc_slvr,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCM20bBlack
+	{
+		mesh = WorldItems/fhqDiecast18M20b,
+		texture = WorldItems/fhqm20b_dc_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStratosBlu
+	{
+		mesh = WorldItems/fhqDiecast18Stratos,
+		texture = WorldItems/fhqstratos_dc_lightblue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStratosGrn
+	{
+		mesh = WorldItems/fhqDiecast18Stratos,
+		texture = WorldItems/fhqstratos_dc_lightgreen,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStratosRed
+	{
+		mesh = WorldItems/fhqDiecast18Stratos,
+		texture = WorldItems/fhqstratos_dc_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStratosYellow
+	{
+		mesh = WorldItems/fhqDiecast18Stratos,
+		texture = WorldItems/fhqstratos_dc_yellow,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStratosRally
+	{
+		mesh = WorldItems/fhqDiecast18StratosRally,
+		texture = WorldItems/fhqstratos_dc_rally,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDeltaDrbyGrn
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_drbygrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDeltaLrdBlu
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_lrdblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDeltaMnzaRd
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_mnzard,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDeltaWht
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDeltaWnrRd
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_wnrrd,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+		model fhqDCDeltaRally
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_rally,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCM715OD
+	{
+		mesh = WorldItems/fhqDiecast18M715,
+		texture = WorldItems/fhqm715_dc_od,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCelicaGT4Black
+	{
+		mesh = WorldItems/fhqDiecast18CelicaGT4,
+		texture = WorldItems/fhqcelicagt4_dc_black,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCelicaGT4BluishGry
+	{
+		mesh = WorldItems/fhqDiecast18CelicaGT4,
+		texture = WorldItems/fhqcelicagt4_dc_bluishgray,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCelicaGT4SprRed
+	{
+		mesh = WorldItems/fhqDiecast18CelicaGT4,
+		texture = WorldItems/fhqcelicagt4_dc_superred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCelicaGT4SprWht
+	{
+		mesh = WorldItems/fhqDiecast18CelicaGT4,
+		texture = WorldItems/fhqcelicagt4_dc_superwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCG4CirsWht
+	{
+		mesh = WorldItems/fhqDiecast18G4Coupe,
+		texture = WorldItems/fhqg4_dc_cirruswht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCG4LagonBlu
+	{
+		mesh = WorldItems/fhqDiecast18G4Coupe,
+		texture = WorldItems/fhqg4_dc_lagoonblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCG4LotsYlw
+	{
+		mesh = WorldItems/fhqDiecast18G4Coupe,
+		texture = WorldItems/fhqg4_dc_lotusylw,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCG4MrsRed
+	{
+		mesh = WorldItems/fhqDiecast18G4Coupe,
+		texture = WorldItems/fhqg4_dc_marsred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+/*===========================================VANILLA CARS===========================================*/
+	model fhqDCCarLuxuryBge
+	{
+		mesh = WorldItems/fhqDiecast18CarLuxury,
+		texture = WorldItems/luxurycar_diecast_bge,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarLuxuryBlk
+	{
+		mesh = WorldItems/fhqDiecast18CarLuxury,
+		texture = WorldItems/luxurycar_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarLuxuryBlu
+	{
+		mesh = WorldItems/fhqDiecast18CarLuxury,
+		texture = WorldItems/luxurycar_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarLuxuryGry
+	{
+		mesh = WorldItems/fhqDiecast18CarLuxury,
+		texture = WorldItems/luxurycar_diecast_gry,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarLuxuryPurp
+	{
+		mesh = WorldItems/fhqDiecast18CarLuxury,
+		texture = WorldItems/luxurycar_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarLuxuryRed
+	{
+		mesh = WorldItems/fhqDiecast18CarLuxury,
+		texture = WorldItems/luxurycar_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarLuxuryWht
+	{
+		mesh = WorldItems/fhqDiecast18CarLuxury,
+		texture = WorldItems/luxurycar_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModernBlk
+	{
+		mesh = WorldItems/fhqDiecast18CarModern,
+		texture = WorldItems/moderncar_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModernBlu
+	{
+		mesh = WorldItems/fhqDiecast18CarModern,
+		texture = WorldItems/moderncar_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModernPnk
+	{
+		mesh = WorldItems/fhqDiecast18CarModern,
+		texture = WorldItems/moderncar_diecast_pnk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModernPurp
+	{
+		mesh = WorldItems/fhqDiecast18CarModern,
+		texture = WorldItems/moderncar_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModernRed
+	{
+		mesh = WorldItems/fhqDiecast18CarModern,
+		texture = WorldItems/moderncar_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModernWht
+	{
+		mesh = WorldItems/fhqDiecast18CarModern,
+		texture = WorldItems/moderncar_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModern2Bge
+	{
+		mesh = WorldItems/fhqDiecast18CarModern2,
+		texture = WorldItems/moderncar2_diecast_bge,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModern2Blk
+	{
+		mesh = WorldItems/fhqDiecast18CarModern2,
+		texture = WorldItems/moderncar2_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModern2Blu
+	{
+		mesh = WorldItems/fhqDiecast18CarModern2,
+		texture = WorldItems/moderncar2_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModern2Gry
+	{
+		mesh = WorldItems/fhqDiecast18CarModern2,
+		texture = WorldItems/moderncar2_diecast_gry,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModern2Purp
+	{
+		mesh = WorldItems/fhqDiecast18CarModern2,
+		texture = WorldItems/moderncar2_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModern2Red
+	{
+		mesh = WorldItems/fhqDiecast18CarModern2,
+		texture = WorldItems/moderncar2_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarModern2Wht
+	{
+		mesh = WorldItems/fhqDiecast18CarModern2,
+		texture = WorldItems/moderncar2_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarNormalBlk
+	{
+		mesh = WorldItems/fhqDiecast18CarNormal,
+		texture = WorldItems/carnormal_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarNormalBlu
+	{
+		mesh = WorldItems/fhqDiecast18CarNormal,
+		texture = WorldItems/carnormal_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarNormalPurp
+	{
+		mesh = WorldItems/fhqDiecast18CarNormal,
+		texture = WorldItems/carnormal_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarNormalRed
+	{
+		mesh = WorldItems/fhqDiecast18CarNormal,
+		texture = WorldItems/carnormal_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarNormalTeal
+	{
+		mesh = WorldItems/fhqDiecast18CarNormal,
+		texture = WorldItems/carnormal_diecast_teal,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarNormalWht
+	{
+		mesh = WorldItems/fhqDiecast18CarNormal,
+		texture = WorldItems/carnormal_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarLightsPolice
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalLights,
+		texture = WorldItems/carnormal_diecast_pol,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarLightsRanger
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalLights,
+		texture = WorldItems/carnormal_diecast_rng,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagonBlk
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagonBlu
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagonPurp
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagonRed
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagonTeal
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon_diecast_teal,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagonWht
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagon2Blk
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon2_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagon2Blu
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon2_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagon2Purp
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon2_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagon2Red
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon2_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagon2Teal
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon2_diecast_teal,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarStationWagon2Wht
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalStationwagon,
+		texture = WorldItems/carstationwagon2_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarNormalTaxi1
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalTaxi,
+		texture = WorldItems/carnormal_diecast_txi1,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCarNormalTaxi2
+	{
+		mesh = WorldItems/fhqDiecast18CarNormalTaxi,
+		texture = WorldItems/carnormal_diecast_txi2,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCOffroadBlk
+	{
+		mesh = WorldItems/fhqDiecast18Offroad,
+		texture = WorldItems/offroadcar_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCOffroadBlu
+	{
+		mesh = WorldItems/fhqDiecast18Offroad,
+		texture = WorldItems/offroadcar_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCOffroadOD
+	{
+		mesh = WorldItems/fhqDiecast18Offroad,
+		texture = WorldItems/offroadcar_diecast_od,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCOffroadPurp
+	{
+		mesh = WorldItems/fhqDiecast18Offroad,
+		texture = WorldItems/offroadcar_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCOffroadRed
+	{
+		mesh = WorldItems/fhqDiecast18Offroad,
+		texture = WorldItems/offroadcar_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCOffroadWht
+	{
+		mesh = WorldItems/fhqDiecast18Offroad,
+		texture = WorldItems/offroadcar_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupBlk
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruck,
+		texture = WorldItems/pickup_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupBlu
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruck,
+		texture = WorldItems/pickup_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupPurp
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruck,
+		texture = WorldItems/pickup_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupRed
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruck,
+		texture = WorldItems/pickup_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupWht
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruck,
+		texture = WorldItems/pickup_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupFire
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruckLights,
+		texture = WorldItems/pickup_diecast_fir,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupFos
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruckLights,
+		texture = WorldItems/pickup_diecast_fos,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupMccoy
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruckLights,
+		texture = WorldItems/pickup_diecast_mccoy,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupPol
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruckLights,
+		texture = WorldItems/pickup_diecast_pol,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupRanger
+	{
+		mesh = WorldItems/fhqDiecast18PickupTruckLights,
+		texture = WorldItems/pickup_diecast_rng,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanBlk
+	{
+		mesh = WorldItems/fhqDiecast18PickupVan,
+		texture = WorldItems/pickup_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanBlu
+	{
+		mesh = WorldItems/fhqDiecast18PickupVan,
+		texture = WorldItems/pickup_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanPurp
+	{
+		mesh = WorldItems/fhqDiecast18PickupVan,
+		texture = WorldItems/pickup_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanRed
+	{
+		mesh = WorldItems/fhqDiecast18PickupVan,
+		texture = WorldItems/pickup_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanWht
+	{
+		mesh = WorldItems/fhqDiecast18PickupVan,
+		texture = WorldItems/pickup_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanFire
+	{
+		mesh = WorldItems/fhqDiecast18PickupVanLights,
+		texture = WorldItems/pickup_diecast_fir,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanFos
+	{
+		mesh = WorldItems/fhqDiecast18PickupVanLights,
+		texture = WorldItems/pickup_diecast_fos,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanMccoy
+	{
+		mesh = WorldItems/fhqDiecast18PickupVanLights,
+		texture = WorldItems/pickup_diecast_mccoy,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanPol
+	{
+		mesh = WorldItems/fhqDiecast18PickupVanLights,
+		texture = WorldItems/pickup_diecast_pol,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCPickupVanRanger
+	{
+		mesh = WorldItems/fhqDiecast18PickupVanLights,
+		texture = WorldItems/pickup_diecast_rng,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCarBlk
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar,
+		texture = WorldItems/smallcar_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCarBlu
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar,
+		texture = WorldItems/smallcar_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCarOrng
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar,
+		texture = WorldItems/smallcar_diecast_orng,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCarPurp
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar,
+		texture = WorldItems/smallcar_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCarRed
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar,
+		texture = WorldItems/smallcar_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCarWht
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar,
+		texture = WorldItems/smallcar_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCar2Blk
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar02,
+		texture = WorldItems/smallcar2_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCar2Blu
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar02,
+		texture = WorldItems/smallcar2_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCar2Purp
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar02,
+		texture = WorldItems/smallcar2_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCar2Red
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar02,
+		texture = WorldItems/smallcar2_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSmallCar2Wht
+	{
+		mesh = WorldItems/fhqDiecast18SmallCar02,
+		texture = WorldItems/smallcar2_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSportscarAqua
+	{
+		mesh = WorldItems/fhqDiecast18Sportscar,
+		texture = WorldItems/sportscar_diecast_aqua,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSportscarBlk
+	{
+		mesh = WorldItems/fhqDiecast18Sportscar,
+		texture = WorldItems/sportscar_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSportscarBlu
+	{
+		mesh = WorldItems/fhqDiecast18Sportscar,
+		texture = WorldItems/sportscar_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSportscarGulf
+	{
+		mesh = WorldItems/fhqDiecast18Sportscar,
+		texture = WorldItems/sportscar_diecast_gulf,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSportscarPurp
+	{
+		mesh = WorldItems/fhqDiecast18Sportscar,
+		texture = WorldItems/sportscar_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSportscarRed
+	{
+		mesh = WorldItems/fhqDiecast18Sportscar,
+		texture = WorldItems/sportscar_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSportscarWht
+	{
+		mesh = WorldItems/fhqDiecast18Sportscar,
+		texture = WorldItems/sportscar_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStepvanBlk
+	{
+		mesh = WorldItems/fhqDiecast18StepVan,
+		texture = WorldItems/stepvan_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStepvanBlu
+	{
+		mesh = WorldItems/fhqDiecast18StepVan,
+		texture = WorldItems/stepvan_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStepvanHerald
+	{
+		mesh = WorldItems/fhqDiecast18StepVan,
+		texture = WorldItems/stepvan_diecast_her,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStepvanPost
+	{
+		mesh = WorldItems/fhqDiecast18StepVan,
+		texture = WorldItems/stepvan_diecast_post,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStepvanPurp
+	{
+		mesh = WorldItems/fhqDiecast18StepVan,
+		texture = WorldItems/stepvan_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStepvanRed
+	{
+		mesh = WorldItems/fhqDiecast18StepVan,
+		texture = WorldItems/stepvan_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStepvanScarlet
+	{
+		mesh = WorldItems/fhqDiecast18StepVan,
+		texture = WorldItems/stepvan_diecast_scar,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCStepvanWht
+	{
+		mesh = WorldItems/fhqDiecast18StepVan,
+		texture = WorldItems/stepvan_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSUVBlk
+	{
+		mesh = WorldItems/fhqDiecast18SUV,
+		texture = WorldItems/suv_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSUVBlu
+	{
+		mesh = WorldItems/fhqDiecast18SUV,
+		texture = WorldItems/suv_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSUVPurp
+	{
+		mesh = WorldItems/fhqDiecast18SUV,
+		texture = WorldItems/suv_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSUVRed
+	{
+		mesh = WorldItems/fhqDiecast18SUV,
+		texture = WorldItems/suv_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSUVWht
+	{
+		mesh = WorldItems/fhqDiecast18SUV,
+		texture = WorldItems/suv_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCSUVYlw
+	{
+		mesh = WorldItems/fhqDiecast18SUV,
+		texture = WorldItems/suv_diecast_ylw,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanBlk
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanBlu
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanDrkgrn
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_drkgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanDistillery
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_dstl,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanFossoil
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_fossoil,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanGenfac
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_genfac,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanKYTransit
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_kytrans,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanLectromax
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_lectro,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanMccoy
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_mccoy,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanPost
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_postal,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanPurp
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanRed
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanSpiffo
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_spfo,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanWht
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/van_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanSeatsBlk
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/vanseats_diecast_blk,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanSeatsBlu
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/vanseats_diecast_blue,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanSeatsDrkGrn
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/vanseats_diecast_drkgrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanSeatsPurp
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/vanseats_diecast_purp,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanSeatsRed
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/vanseats_diecast_red,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanSeatsWht
+	{
+		mesh = WorldItems/fhqDiecast18Van,
+		texture = WorldItems/vanseats_diecast_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanAmbulance
+	{
+		mesh = WorldItems/fhqDiecast18VanAmbulance,
+		texture = WorldItems/vanambulance_diecast,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanNews3N
+	{
+		mesh = WorldItems/fhqDiecast18VanRadio,
+		texture = WorldItems/vannews_diecast_3n,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCVanNewsLBMW
+	{
+		mesh = WorldItems/fhqDiecast18VanRadio,
+		texture = WorldItems/vannews_diecast_lbmw,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model fhqDCVanNewsJJ
+	{
+		mesh = WorldItems/fhqDiecast18VanRadio,
+		texture = WorldItems/vannews_diecast_lbmwjj,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

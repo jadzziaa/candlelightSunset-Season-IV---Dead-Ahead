@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\f_AmazonaDressTrimmed05</m_MaleModel>
+	<m_FemaleModel>skinned\f_AmazonaDressTrimmed05</m_FemaleModel>
+	<m_GUID>e7b841f7-378b-47fd-9b2e-f924c86a1a6b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_UnderlayMasksFolder>media/textures/Clothes/UMask_AmazonaDress</m_UnderlayMasksFolder>
+	<m_MasksFolder>media/textures/Clothes/Mask_AmazonaDress</m_MasksFolder>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<textureChoices>clothes\Amazonadress</textureChoices>
+</clothingItem>

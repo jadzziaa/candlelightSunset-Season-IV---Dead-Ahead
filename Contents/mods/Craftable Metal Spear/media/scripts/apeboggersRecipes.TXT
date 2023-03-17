@@ -1,0 +1,19 @@
+module Base{
+imports
+{
+	Base
+}
+
+recipe  metal spear
+{
+DuctTape=2,
+MetalPipe/LeadPipe=2,
+keep [Recipe.GetItemTypes.Saw],
+
+Result:SpearMetal,
+Time:150.0,
+CanBeDoneFromFloor: true,
+Category:Survivalist,
+
+	}
+}

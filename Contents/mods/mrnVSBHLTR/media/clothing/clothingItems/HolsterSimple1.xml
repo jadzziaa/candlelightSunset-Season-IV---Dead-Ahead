@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media/models_X/Skinned/Clothes/M_1Hostel1.fbx</m_MaleModel>
+	<m_FemaleModel>media/models_X/Skinned/Clothes/F_1Hostel1.fbx</m_FemaleModel>
+	<m_GUID>5752277b-f201-42c9-95f4-4bbaa492c793</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Masks</m_MasksFolder>
+	<textureChoices>clothes/Holster</textureChoices>
+	<textureChoices>clothes/Holster_Black</textureChoices>
+	<textureChoices>clothes/Holster_BlackLeather</textureChoices>
+	<textureChoices>clothes/Holster_CrazyHorse</textureChoices>
+	<textureChoices>clothes/Holster_Dark</textureChoices>
+	<textureChoices>clothes/Holster_Felt</textureChoices>
+</clothingItem>

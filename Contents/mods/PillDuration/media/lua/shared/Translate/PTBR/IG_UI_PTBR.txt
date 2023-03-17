@@ -1,0 +1,10 @@
+IGUI_PTBR = {
+ IGUI_PillInfoOpen = "Informações de Medicamentos",
+ IGUI_PillInfoTitle = "Medicamentos", 
+ IGUI_NoneActiveInfo = "Nenhum medicamento selecionado",
+ IGUI_PillBeta = "Acalmantes",
+ IGUI_PillPain = "Analgésicos",
+ IGUI_PillDepr = "Antidepressivos",
+ IGUI_PillSleep = "Pílulas Soníferas ",
+ IGUI_Antibiotics = "Antibióticos",
+}

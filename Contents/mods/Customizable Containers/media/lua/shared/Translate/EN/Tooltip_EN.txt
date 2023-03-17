@@ -1,0 +1,17 @@
+Tooltip_EN = {
+
+    
+	Tooltip_RespawnToken = "ONLY CRAFT THIS WHEN YOU HAVE AN ITEM WITH UNMODIFIED STATS"
+	Tooltip_RespawnBag = "THIS WILL REMOVE ALL ITEMS STILL INSIDE"
+	Tooltip_CContainer_Tier_1 = "A Container meant for Storage. Capacity = 100"
+	Tooltip_CContainer_Tier_2 = "A Container meant for Storage. Capacity = 250"
+	Tooltip_CContainer_Tier_3 = "A Container meant for Storage. Capacity = 500"
+	Tooltip_CContainer_Tier_4 = "A Container meant for Storage. Capacity = 750"
+	Tooltip_CContainer_Tier_5 = "A Container meant for Storage. Capacity = 1000"
+	Tooltip_CContainer_Tier_6 = "A Container meant for Storage. Capacity = 2000"
+	Tooltip_CContainer_Tier_7 = "A Container meant for Storage. Capacity = 5000"
+	Tooltip_CContainer_Tier_8 = "A Container meant for Storage. Capacity = 10000"
+
+
+}
+

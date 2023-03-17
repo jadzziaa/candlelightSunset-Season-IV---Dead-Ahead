@@ -1,0 +1,6 @@
+Recipes_RU = {
+    Recipe_Craft_Silencer = "Сделать глушитель"
+    Recipe_Craft_Metal_Pipe_Silencer = "Сделать глушитель из металлической трубы"
+    Recipe_Craft_Hand_Torch_Silencer = "Сделать глушитель из фонарика"
+    Recipe_Craft_Water_Bottle_Silencer = "Сделать глушитель из бутылки"
+}

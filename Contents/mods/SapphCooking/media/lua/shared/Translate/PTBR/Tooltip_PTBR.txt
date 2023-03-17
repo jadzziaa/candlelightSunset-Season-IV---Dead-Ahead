@@ -1,0 +1,9 @@
+Tooltip_PTBR = {
+--
+	Tooltip_OilPan 				= "Precisa de calor, para ser usavel.",
+	Tooltip_WaterPan			= "Precisa ser cozinhado.",
+	Tooltip_AsiaFoodMagazine = "Ensina Pratos Tipicos do Continente Asiático.",
+	Tooltip_EuropeFoodMagazine = "Ensina Pratos Tipicos do Continente Europeu.",
+	Tooltip_PastaDoughMagazine = "Ensina Receitas de Pasta.",
+	
+} 	

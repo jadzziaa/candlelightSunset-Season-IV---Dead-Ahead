@@ -1,0 +1,6 @@
+name='92 AM General M998 + M101A3 Trailer - Unified KI5 Crafting Category
+authors=Panopticon
+poster=preview.png
+id=92amgeneralM998KI5CraftingUnified
+require=92amgeneralM998
+description=Overwrites the crafting recipes to be under "KI5" instead of "M998" and "M101A3".

@@ -1,0 +1,43 @@
+me_PL = {
+
+ItemName_Base.Jacket_WhiteOPEN = "Kurtka",
+ItemName_Base.Jacket_PoliceOPEN = "Kurtka policyjna",
+ItemName_Base.Jacket_RangerOPEN = "Kurtka strażnika parku",
+ItemName_Base.Jacket_ArmyCamoDesertOPEN = "Kurtka wojskowa - pustynna",
+ItemName_Base.Jacket_ArmyCamoGreenOPEN = "Kurtka wojskowa - leśna",
+ItemName_Base.Jacket_ChefOPEN = "Kurtka kucharska",
+ItemName_Base.Jacket_FiremanOPEN = "Kurtka strażacka",
+ItemName_Base.Jacket_CoatArmyOPEN = "Kurtka wojskowa",
+
+ItemName_Base.Jacket_VarsityOPEN = "Kurtka Varsity",
+
+ItemName_Base.JacketLong_Random = "Skórzany płaszcz",
+ItemName_Base.JacketLong_RandomOPEN = "Skórzany płaszcz",
+ItemName_Base.JacketLong_DoctorOPEN = "Fartuch lekarski",
+ItemName_Base.JacketLong_SantaOPEN = "Kurtka św. Mikołaja",
+ItemName_Base.JacketLong_SantaGreenOPEN = "Kurtka św. Mikołaja - zielona",
+
+ItemName_Base.Jacket_BlackOPEN = "Kurtka skórzana",
+ItemName_Base.Jacket_LeatherWildRacoonsOPEN = "Kurtka skórzana - Wild Racoons",
+ItemName_Base.Jacket_LeatherIronRodentOPEN = "Kurtka skórzana - Iron Rodent",
+ItemName_Base.Jacket_LeatherBarrelDogsOPEN = "Kurtka skórzana - Barrel Dogs",
+
+ItemName_Base.WeddingJacketOPEN = "Frak",
+ItemName_Base.Suit_JacketOPEN = "Marynarka",
+ItemName_Base.Suit_JacketTINTOPEN = "Marynarka",
+
+ItemName_Base.Jacket_Shellsuit_BlackOPEN = "Kurtka ortalionowa - czarna",
+ItemName_Base.Jacket_Shellsuit_BlueOPEN = "Kurtka ortalionowa - niebieska",
+ItemName_Base.Jacket_Shellsuit_GreenOPEN = "Kurtka ortalionowa - zielona",
+ItemName_Base.Jacket_Shellsuit_PinkOPEN = "Kurtka ortalionowa - różowa",
+ItemName_Base.Jacket_Shellsuit_TealOPEN = "Kurtka ortalionowa - turkusowa",
+
+ItemName_Base.BoilersuitOPEN = "Kombinezon",
+ItemName_Base.Boilersuit_BlueRedOPEN = "Kombinezon - niebieski",
+ItemName_Base.Boilersuit_YellowOPEN = "Kombinezon - żółty",
+ItemName_Base.Boilersuit_FlyingOPEN = "Kombinezon lotniczy",
+ItemName_Base.Boilersuit_PrisonerOPEN = "Kombinezon więzienny",
+ItemName_Base.Boilersuit_PrisonerKhakiOPEN = "Kombinezon więzienny",
+
+
+}

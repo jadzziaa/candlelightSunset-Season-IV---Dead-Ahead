@@ -1,0 +1,303 @@
+module ToolsOfTheTrade {
+	imports {
+		Base
+	}
+	recipe Switch Stance
+	{
+        DefilerAxe,
+
+        Result:DefilerSledgehammer,
+        Time:10.0,
+		OnCreate:Recipe.OnCreate.SwitchToHead1,
+        AllowDestroyedItem:true,
+	}
+	recipe Switch Stance
+	{
+		DefilerSledgehammer,
+
+		Result:DefilerAxe,
+		Time:10.0,
+		OnCreate:Recipe.OnCreate.SwitchToHead2,
+        AllowDestroyedItem:true,
+	}
+	recipe Switch Stance
+	{
+		DespoilerAxe,
+
+		Result:DespoilerSledgehammer,
+		Time:10.0,
+		OnCreate:Recipe.OnCreate.SwitchToHead1,
+        AllowDestroyedItem:true,
+	}
+	recipe Switch Stance
+	{
+		DespoilerSledgehammer,
+
+		Result:DespoilerAxe,
+		Time:10.0,
+		OnCreate:Recipe.OnCreate.SwitchToHead2,
+        AllowDestroyedItem:true,
+	}
+	recipe Make A Defiler
+	{
+		Sledgehammer2,
+		Axe=2,
+		DuctTape=4,
+		Woodglue=5,
+		RippedSheets=5,
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.Hammer],
+		
+        Result:DefilerAxe,
+		SkillRequired:Axe=5,
+        Sound:Sawing,
+		Time:450.0,
+        Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.MakeTwoHeaded,
+	}
+	recipe Make A Defiler
+	{
+		Sledgehammer2,
+		Axe=2,
+		DuctTape=4,
+		Woodglue=5,
+		RippedSheets=5,
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.Hammer],
+		
+        Result:DefilerSledgehammer,
+		SkillRequired:Blunt=5,
+        Sound:Sawing,
+		Time:450.0,
+        Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.MakeTwoHeaded,
+	}
+	recipe Make A Despoiler
+	{
+		Sledgehammer,
+		WoodAxe=2,
+		DuctTape=4,
+		Woodglue=5,
+		RippedSheets=5,
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.Hammer],
+		
+        Result:DespoilerAxe,
+		SkillRequired:Axe=5,
+        Time:450.0,
+        Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.MakeTwoHeaded,
+	}
+	recipe Make A Despoiler
+	{
+		Sledgehammer,
+		WoodAxe=2,
+		DuctTape=4,
+		Woodglue=5,
+		RippedSheets=5,
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.Hammer],
+
+        Result:DespoilerSledgehammer,
+		SkillRequired:Blunt=5,
+        Time:450.0,
+        Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.MakeTwoHeaded,
+	}
+	recipe Make A Shillelagh
+	{
+		TreeBranch,
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+        Result:Shillelagh,
+		SkillRequired:Woodwork=3,
+        Time:300.0,
+        Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.None,
+	}
+	recipe Make A Heavy Shillelagh
+	{
+		Log,
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+        Result:HeavyShillelagh,
+		SkillRequired:Woodwork=6,
+        Time:450.0,
+        Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.None,
+	}
+	recipe Grind Corn Into Cornflour
+	{
+		Corn=10,
+		keep MortarPestle,
+		
+		Result: Cornflour,
+		Time: 1000,
+		Category: Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+	recipe Create Homemade Cornbread
+	{
+		keep Spatula/[Recipe.GetItemTypes.Spoon]/[Recipe.GetItemTypes.Fork],
+		keep RollingPin,
+		CastIronSkillet,
+		Water=1,
+		Cornflour=2,
+		Salt;1,
+		
+		Result: CastIronSkilletCornbread,
+		Time: 200,
+		Category: Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+	}
+	recipe Empty Cast Iron Skillet
+	{
+	   destroy CastIronSkilletCornbread,
+
+	   Result:CastIronSkillet,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	   Time:50.0,
+	   Category:Cooking,
+	   Sound:EmptyPan,
+	}
+	recipe Attach Eraser to Pencil
+	{
+		Pencil,
+		Eraser,
+		
+		Result:PencilEraser,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:50.0,
+		Category:General,
+	}
+	recipe Switch to Stabbing
+	{
+        GladiusSlash,
+
+        Result:GladiusStab,
+        Time:10.0,
+		OnCreate:Recipe.OnCreate.TransferCondition,
+        AllowDestroyedItem:true,
+	}
+	recipe Switch to Slashing
+	{
+		GladiusStab,
+
+		Result:GladiusSlash,
+		Time:10.0,
+		OnCreate:Recipe.OnCreate.TransferCondition,
+        AllowDestroyedItem:true,
+	}
+	recipe Replace Stun Gun Batteries
+	{
+		StunGun,
+		destroy Battery=2,
+
+		Result:StunGun,
+		Time:100.0,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		AllowDestroyedItem:true,
+	}
+	recipe Make a Rebar Club
+	{
+		destroy Rebar=3,
+		destroy LeatherStrips=5,
+		destroy BucketConcreteFull,
+
+		Result:RebarClub,
+		SkillRequired:MetalWelding=3,
+		Time:500.0,
+		Category:MetalWelding,
+		OnGiveXP:Recipe.OnGiveXP.None,
+	}
+	recipe Make a Rebar Spear
+	{	
+		keep Saw,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		BlowTorch=10,
+		WeldingRods=4,
+		destroy Rebar=1,
+		destroy LeatherStrips=5,
+		destroy SmallSheetMetal=2,
+		
+		Result:RebarSpear,
+		SkillRequired:MetalWelding=6,
+		Time:500.0,
+		Category:MetalWelding,
+		OnGiveXP:Recipe.OnGiveXP.None,
+	}
+	recipe Make a Rebar Hammer
+	{	
+		keep Saw,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.WeldingMask],
+		BlowTorch=10,
+		WeldingRods=10,
+		destroy Rebar=5,
+		destroy LeatherStrips=5,
+		destroy SmallSheetMetal=2,
+		destroy SheetMetal=1,
+		
+		Result:RebarHammer,
+		SkillRequired:MetalWelding=9,
+		Time:500.0,
+		Category:MetalWelding,
+		OnGiveXP:Recipe.OnGiveXP.None,
+	}
+	recipe Make a Trench Bat
+	{	
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		Screws=50,
+		destroy BaseballBat,
+		
+		Result:TrenchBat,
+		Sound:Hammering,
+		SkillRequired:Woodwork=3,
+		Time:500.0,
+		Category:Carpentry,
+		OnGiveXP:Recipe.OnGiveXP.None,
+	}
+	recipe Change to Halberd Spear
+	{
+        HalberdAxe,
+
+        Result:HalberdSpear,
+        Time:10.0,
+		OnCreate:Recipe.OnCreate.TransferCondition,
+        AllowDestroyedItem:true,
+	}
+	recipe Change to Halberd Axe
+	{
+		HalberdSpear,
+
+		Result:HalberdAxe,
+		Time:10.0,
+		OnCreate:Recipe.OnCreate.TransferCondition,
+        AllowDestroyedItem:true,
+	}
+	recipe Extend Baton
+	{
+        CollapsedBaton,
+
+        Result:TelescopicBaton,
+        Time:10.0,
+		OnCreate:Recipe.OnCreate.TransferCondition,
+        AllowDestroyedItem:true,
+	}
+	recipe Collapse Baton
+	{
+		TelescopicBaton,
+
+		Result:CollapsedBaton,
+		Time:10.0,
+		OnCreate:Recipe.OnCreate.TransferCondition,
+        AllowDestroyedItem:true,
+	}
+}

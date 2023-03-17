@@ -1,0 +1,69 @@
+module CanteensAndBottles {
+	imports {
+		Base
+	}
+	recipe Extract Bladder from Football
+	{
+        Football,
+		keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.SharpKnife],
+
+        Result:SmallBladder,
+        Time:250.0,
+		Sound:ClothesRipping,
+		Category:Survivalist,
+	}
+	recipe Extract Bladder from Soccer Ball
+	{
+        SoccerBall,
+		keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.SharpKnife],
+
+        Result:LargeBladder,
+        Time:250.0,
+		Sound:ClothesRipping,
+		Category:Survivalist,
+	}
+	recipe Make a Small Waterskin
+	{
+		keep [Recipe.GetItemTypes.Scissors],
+		keep Needle,
+		LeatherStrips=3,
+		Thread=5,
+		SmallBladder,
+		
+        Result:SmallWaterskinEmpty,
+		SkillRequired:Tailoring=2,
+        Time:333.0,
+		Sound:PZ_FoodSwoosh,
+		Category:Survivalist,
+	}
+	recipe Make a Large Waterskin
+	{
+		keep [Recipe.GetItemTypes.Scissors],
+		keep Needle,
+		RippedSheets=10,
+		LeatherStrips=6,
+		Thread=10,
+		LargeBladder,
+		
+        Result:LargeWaterskinEmpty,
+		SkillRequired:Tailoring=4,
+        Time:444.0,
+		Sound:PZ_FoodSwoosh,
+		Category:Survivalist,
+	}
+	recipe Make a Quality Waterskin
+	{
+		keep [Recipe.GetItemTypes.Scissors],
+		keep [Recipe.GetItemTypes.SharpKnife],
+		keep Needle,
+		LeatherStrips=3,
+		Thread=10,
+		DeadRabbit,
+		
+        Result:QualityWaterskinEmpty,
+		SkillRequired:Tailoring=6,
+        Time:555.0,
+		Sound:SliceMeat,
+		Category:Survivalist,
+	}
+}

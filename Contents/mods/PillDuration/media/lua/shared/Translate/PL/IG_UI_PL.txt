@@ -1,0 +1,10 @@
+IGUI_PL = {
+	IGUI_PillInfoOpen = "Informacje o leku",
+	IGUI_PillInfoTitle = "Okno informacyjne o leku",
+	IGUI_NoneActiveInfo = "Brak wybranych leków do wyświetlenia",
+	IGUI_PillBeta = "Beta-blokery",
+	IGUI_PillPain = "Leki przeciwbólowe",
+	IGUI_PillDepr = "Antydepresanty",
+	IGUI_PillSleep = "Tabletki nasenne",
+	IGUI_Antibiotics = "Antybiotyki",
+}

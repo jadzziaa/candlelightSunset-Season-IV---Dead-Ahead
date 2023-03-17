@@ -1,0 +1,3475 @@
+module MoreSmokes
+{
+    /******************** EMPTY TOBACCO VESSELS ********************/
+
+    recipe Unload Tobacco from Pipe
+    {
+        destroy SmokePipe1Tobacco,
+
+        Result              : SmokePipe1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadTobacco,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Tobacco from Pipe
+    {
+        destroy SmokePipe2Tobacco,
+
+        Result              : SmokePipe2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadTobacco,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Tobacco from Pipe
+    {
+        destroy SmokePipe3Tobacco,
+
+        Result              : SmokePipe3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadTobacco,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Tobacco from Pipe
+    {
+        destroy SmokePipeGlassBlueTobacco,
+
+        Result              : SmokePipeGlassBlue,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadTobacco,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Tobacco from Pipe
+    {
+        destroy SmokePipeGlassGreenTobacco,
+
+        Result              : SmokePipeGlassGreen,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadTobacco,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Tobacco from Pipe
+    {
+        destroy SmokePipeGlassYellowTobacco,
+
+        Result              : SmokePipeGlassYellow,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadTobacco,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Tobacco from Pipe
+    {
+        destroy SmokePipePinkTobacco,
+
+        Result              : SmokePipePink,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadTobacco,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Shisha Tobacco from Hookah
+    {
+        destroy Hookah1ShishaWatermelon,
+
+        Result              : Hookah1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadShishaWatermelon,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Shisha Tobacco from Hookah
+    {
+        destroy Hookah1ShishaOrange,
+
+        Result              : Hookah1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadShishaOrange,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Shisha Tobacco from Hookah
+    {
+        destroy Hookah1ShishaLemon,
+
+        Result              : Hookah1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadShishaLemon,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Shisha Tobacco from Hookah
+    {
+        destroy Hookah2ShishaWatermelon,
+
+        Result              : Hookah2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadShishaWatermelon,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Shisha Tobacco from Hookah
+    {
+        destroy Hookah2ShishaOrange,
+
+        Result              : Hookah2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadShishaOrange,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Shisha Tobacco from Hookah
+    {
+        destroy Hookah2ShishaLemon,
+
+        Result              : Hookah2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadShishaLemon,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+
+    recipe Unload Shisha Tobacco from Hookah
+    {
+        destroy Hookah3ShishaWatermelon,
+
+        Result              : Hookah3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadShishaWatermelon,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Shisha Tobacco from Hookah
+    {
+        destroy Hookah3ShishaOrange,
+
+        Result              : Hookah3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadShishaOrange,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Shisha Tobacco from Hookah
+    {
+        destroy Hookah3ShishaLemon,
+
+        Result              : Hookah3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadShishaLemon,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    /******************** Fill TOBACCO PIPES ********************/
+    
+    recipe Load Pipe with Tobacco
+    {
+        destroy SmokePipe1,
+        TobaccoLoose/TobaccoZipLockBag=3,
+
+        Result              : SmokePipe1Tobacco,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Tobacco
+    {
+        destroy SmokePipe2,
+        TobaccoLoose/TobaccoZipLockBag=3,
+
+        Result              : SmokePipe2Tobacco,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Tobacco
+    {
+        destroy SmokePipe3,
+        TobaccoLoose/TobaccoZipLockBag=3,
+
+        Result              : SmokePipe3Tobacco,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Tobacco
+    {
+        destroy SmokePipeGlassBlue,
+        TobaccoLoose/TobaccoZipLockBag=3,
+
+        Result              : SmokePipeGlassBlueTobacco,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Tobacco
+    {
+        destroy SmokePipeGlassGreen,
+        TobaccoLoose/TobaccoZipLockBag=3,
+
+        Result              : SmokePipeGlassGreenTobacco,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Tobacco
+    {
+        destroy SmokePipeGlassYellow,
+        TobaccoLoose/TobaccoZipLockBag=3,
+
+        Result              : SmokePipeGlassYellowTobacco,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Tobacco
+    {
+        destroy SmokePipePink,
+        TobaccoLoose/TobaccoZipLockBag=3,
+
+        Result              : SmokePipePinkTobacco,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    /******************** Fill SHISHA TOBACCO HOOKAHS ********************/
+
+    recipe Load Shisha Tobacco into Hookah
+    {
+        destroy Hookah1,
+        ShishaWatermelonCan;1,
+
+        Result              : Hookah1ShishaWatermelon,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Shisha Tobacco into Hookah
+    {
+        destroy Hookah1,
+        ShishaOrangeCan;1,
+
+        Result              : Hookah1ShishaOrange,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Shisha Tobacco into Hookah
+    {
+        destroy Hookah1,
+        ShishaLemonCan;1,
+
+        Result              : Hookah1ShishaLemon,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Shisha Tobacco into Hookah
+    {
+        destroy Hookah2,
+        ShishaWatermelonCan;1,
+
+        Result              : Hookah2ShishaWatermelon,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Shisha Tobacco into Hookah
+    {
+        destroy Hookah2,
+        ShishaOrangeCan;1,
+
+        Result              : Hookah2ShishaOrange,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble, 
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Shisha Tobacco into Hookah
+    {
+        destroy Hookah2,
+        ShishaLemonCan;1,
+
+        Result              : Hookah2ShishaLemon,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+
+    recipe Load Shisha Tobacco into Hookah
+    {
+        destroy Hookah3,
+        ShishaWatermelonCan;1,
+
+        Result              : Hookah3ShishaWatermelon,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Shisha Tobacco into Hookah
+    {
+        destroy Hookah3,
+        ShishaOrangeCan;1,
+
+        Result              : Hookah3ShishaOrange,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Shisha Tobacco into Hookah
+    {
+        destroy Hookah3,
+        ShishaLemonCan;1,
+
+        Result              : Hookah3ShishaLemon,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    /******************** EMPTY CANNABIS VESSELS ********************/
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipe1NorthernLights,
+
+        Result              : SmokePipe1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipe2NorthernLights,
+
+        Result              : SmokePipe2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipe3NorthernLights,
+
+        Result              : SmokePipe3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipeGlassBlueNorthernLights,
+
+        Result              : SmokePipeGlassBlue,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipeGlassGreenNorthernLights,
+
+        Result              : SmokePipeGlassGreen,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipeGlassYellowNorthernLights,
+
+        Result              : SmokePipeGlassYellow,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipePinkNorthernLights,
+
+        Result              : SmokePipePink,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipe1PurpleHaze,
+
+        Result              : SmokePipe1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipe2PurpleHaze,
+
+        Result              : SmokePipe2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipe3PurpleHaze,
+
+        Result              : SmokePipe3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipeGlassBluePurpleHaze,
+
+        Result              : SmokePipeGlassBlue,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipeGlassGreenPurpleHaze,
+
+        Result              : SmokePipeGlassGreen,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipeGlassYellowPurpleHaze,
+
+        Result              : SmokePipeGlassYellow,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipePinkPurpleHaze,
+
+        Result              : SmokePipePink,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipe1SourDiesel,
+
+        Result              : SmokePipe1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipe2SourDiesel,
+
+        Result              : SmokePipe2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipe3SourDiesel,
+
+        Result              : SmokePipe3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipeGlassBlueSourDiesel,
+
+        Result              : SmokePipeGlassBlue,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipeGlassGreenSourDiesel,
+
+        Result              : SmokePipeGlassGreen,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipeGlassYellowSourDiesel,
+
+        Result              : SmokePipeGlassYellow,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Pipe
+    {
+        destroy SmokePipePinkSourDiesel,
+
+        Result              : SmokePipePink,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Hookah
+    {
+        destroy Hookah1NorthernLights,
+
+        Result              : Hookah1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Hookah
+    {
+        destroy Hookah1PurpleHaze,
+
+        Result              : Hookah1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Hookah
+    {
+        destroy Hookah1SourDiesel,
+
+        Result              : Hookah1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+    
+    recipe Unload Cannabis from Hookah
+    {
+        destroy Hookah2NorthernLights,
+
+        Result              : Hookah2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Hookah
+    {
+        destroy Hookah2PurpleHaze,
+
+        Result              : Hookah2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Hookah
+    {
+        destroy Hookah2SourDiesel,
+
+        Result              : Hookah2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Hookah
+    {
+        destroy Hookah3NorthernLights,
+
+        Result              : Hookah3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Hookah
+    {
+        destroy Hookah3PurpleHaze,
+
+        Result              : Hookah3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Hookah
+    {
+        destroy Hookah3SourDiesel,
+
+        Result              : Hookah3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,	  
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+    
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v1NorthernLights,
+
+        Result              : Bong1v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v2NorthernLights,
+
+        Result              : Bong1v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v3NorthernLights,
+
+        Result              : Bong1v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v4NorthernLights,
+
+        Result              : Bong1v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v1NorthernLights,
+
+        Result              : Bong2v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v2NorthernLights,
+
+        Result              : Bong2v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v3NorthernLights,
+
+        Result              : Bong2v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v4NorthernLights,
+
+        Result              : Bong2v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v1NorthernLights,
+
+        Result              : Bong3v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v2NorthernLights,
+
+        Result              : Bong3v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v3NorthernLights,
+
+        Result              : Bong3v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v4NorthernLights,
+
+        Result              : Bong3v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v1NorthernLights,
+
+        Result              : Bong4v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v2NorthernLights,
+
+        Result              : Bong4v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v3NorthernLights,
+
+        Result              : Bong4v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v4NorthernLights,
+
+        Result              : Bong4v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong5NorthernLights,
+
+        Result              : Bong5,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadNorthernLights,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+   recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v1PurpleHaze,
+
+        Result              : Bong1v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v2PurpleHaze,
+
+        Result              : Bong1v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v3PurpleHaze,
+
+        Result              : Bong1v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v4PurpleHaze,
+
+        Result              : Bong1v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v1PurpleHaze,
+
+        Result              : Bong2v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v2PurpleHaze,
+
+        Result              : Bong2v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v3PurpleHaze,
+
+        Result              : Bong2v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v4PurpleHaze,
+
+        Result              : Bong2v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v1PurpleHaze,
+
+        Result              : Bong3v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v2PurpleHaze,
+
+        Result              : Bong3v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v3PurpleHaze,
+
+        Result              : Bong3v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v4PurpleHaze,
+
+        Result              : Bong3v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+   recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v1PurpleHaze,
+
+        Result              : Bong4v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v2PurpleHaze,
+
+        Result              : Bong4v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v3PurpleHaze,
+
+        Result              : Bong4v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v4PurpleHaze,
+
+        Result              : Bong4v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong5PurpleHaze,
+
+        Result              : Bong5,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadPurpleHaze,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+   recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v1SourDiesel,
+
+        Result              : Bong1v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v2SourDiesel,
+
+        Result              : Bong1v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v3SourDiesel,
+
+        Result              : Bong1v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong1v4SourDiesel,
+
+        Result              : Bong1v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v1SourDiesel,
+
+        Result              : Bong2v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v2SourDiesel,
+
+        Result              : Bong2v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v3SourDiesel,
+
+        Result              : Bong2v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong2v4SourDiesel,
+
+        Result              : Bong2v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v1SourDiesel,
+
+        Result              : Bong3v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v2SourDiesel,
+
+        Result              : Bong3v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v3SourDiesel,
+
+        Result              : Bong3v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong3v4SourDiesel,
+
+        Result              : Bong3v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v1SourDiesel,
+
+        Result              : Bong4v1,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v2SourDiesel,
+
+        Result              : Bong4v2,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v3SourDiesel,
+
+        Result              : Bong4v3,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong4v4SourDiesel,
+
+        Result              : Bong4v4,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Unload Cannabis from Bong
+    {
+        destroy Bong5SourDiesel,
+
+        Result              : Bong5,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	
+        OnCreate            : Recipe.OnCreate.UnloadSourDiesel,  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    /******************** FILL CANNABIS PIPES ********************/
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipe1,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : SmokePipe1NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipe2,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : SmokePipe2NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipe3,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : SmokePipe3NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipeGlassBlue,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : SmokePipeGlassBlueNorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipeGlassGreen,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : SmokePipeGlassGreenNorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipeGlassYellow,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : SmokePipeGlassYellowNorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipePink,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : SmokePipePinkNorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipe1,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : SmokePipe1PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipe2,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : SmokePipe2PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipe3,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : SmokePipe3PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipeGlassBlue,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : SmokePipeGlassBluePurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipeGlassGreen,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : SmokePipeGlassGreenPurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipeGlassYellow,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : SmokePipeGlassYellowPurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipePink,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : SmokePipePinkPurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipe1,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : SmokePipe1SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipe2,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : SmokePipe2SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipe3,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : SmokePipe3SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipeGlassBlue,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : SmokePipeGlassBlueSourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipeGlassGreen,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : SmokePipeGlassGreenSourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipeGlassYellow,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : SmokePipeGlassYellowSourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Pipe with Cannabis
+    {
+        destroy SmokePipePink,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : SmokePipePinkSourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop2               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : False,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    /******************** FILL CANNABIS HOOKAHS ********************/
+
+    recipe Load Cannabis into Hookah
+    {
+        destroy Hookah1,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Hookah1NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Cannabis into Hookah
+    {
+        destroy Hookah1,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Hookah1PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Cannabis into Hookah
+    {
+        destroy Hookah1,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Hookah1SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Cannabis into Hookah
+    {
+        destroy Hookah2,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Hookah2NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Cannabis into Hookah
+    {
+        destroy Hookah2,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Hookah2PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Cannabis into Hookah
+    {
+        destroy Hookah2,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Hookah2SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Cannabis into Hookah
+    {
+        destroy Hookah3,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Hookah3NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Cannabis into Hookah
+    {
+        destroy Hookah3,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Hookah3PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Cannabis into Hookah
+    {
+        destroy Hookah3,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Hookah3SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        AnimNode            : Disassemble,
+        StopOnWalk          : True,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    /******************** FILL CANNABIS BONGS ********************/
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v1,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong1v1NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v2,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong1v2NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v3,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong1v3NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v4,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong1v4NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v1,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong2v1NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v2,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong2v2NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v3,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong2v3NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v4,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong2v4NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v1,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong3v1NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v2,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong3v2NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v3,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong3v3NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v4,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong3v4NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+        recipe Load Bong with Cannabis
+    {
+        destroy Bong4v1,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong4v1NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v2,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong4v2NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v3,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong4v3NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v4,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong4v4NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong5,
+        NorthernLightsLoose/NorthernLightsZipLockBag=3,
+
+        Result              : Bong5NorthernLights,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v1,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong1v1PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v2,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong1v2PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v3,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong1v3PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v4,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong1v4PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v1,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong2v1PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v2,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong2v2PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v3,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong2v3PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v4,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong2v4PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v1,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong3v1PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v2,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong3v2PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v3,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong3v3PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v4,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong3v4PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v1,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong4v1PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v2,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong4v2PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v3,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong4v3PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v4,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong4v4PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong5,
+        PurpleHazeLoose/PurpleHazeZipLockBag=3,
+
+        Result              : Bong5PurpleHaze,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+     recipe Load Bong with Cannabis
+    {
+        destroy Bong1v1,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong1v1SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v2,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong1v2SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v3,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong1v3SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong1v4,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong1v4SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v1,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong2v1SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v2,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong2v2SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v3,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong2v3SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong2v4,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong2v4SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v1,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong3v1SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v2,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong3v2SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v3,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong3v3SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong3v4,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong3v4SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v1,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong4v1SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v2,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong4v2SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v3,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong4v3SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong4v4,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong4v4SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+
+    recipe Load Bong with Cannabis
+    {
+        destroy Bong5,
+        SourDieselLoose/SourDieselZipLockBag=3,
+
+        Result              : Bong5SourDiesel,
+        Time                : 110,
+        Category            : MoreSmokes,
+        Sound               : OpenSeedPacket,
+        Prop1               : Source=1,
+        AnimNode            : InsertBullets,	  
+        StopOnWalk          : False,
+        CanBeDoneFromFloor  : True,
+        NeedToBeLearn       : False,
+        OnGiveXP            : Recipe.OnGiveXP.None,
+		IsHidden            : True,
+    }
+}

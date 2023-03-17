@@ -1,0 +1,917 @@
+module UndeadSurvivor
+{	
+	imports {
+		Base
+		}
+
+    item AmazonaHipBag
+    {
+        DisplayCategory = Bag,
+        WeightReduction	=	80,
+        Weight	=	0.6,
+        Type	=	Container,
+        Capacity	=	6,
+        DisplayName	=	Amazona Hip Bag,
+        Icon	=	AmazonaHipBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = TorsoExtra,
+        ClothingItem = AmazonaHipBag,
+        CanBeEquipped = FannyPackBack,
+        RunSpeedModifier = 0.95,
+        WorldStaticModel = AmazonaHipBag_ground,
+        Tooltip = Tooltip_AmazonaHipBag,
+    }
+
+    item AmazonaCloakUP
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Amazona Cloak,
+        ClothingItem = AmazonaCloakUP,
+        BodyLocation = JacketHat,
+        Icon = AmazonaCloak,
+        Weight = 0.3,
+        BloodLocation = Neck;UpperBody;UpperArms;LowerArms;Head,
+		ScratchDefense = 60,
+        BiteDefense = 40,
+        Insulation = 0.5,
+        WindResistance = 0.7,
+        WaterResistance = 0.5,
+        CombatSpeedModifier = 0.9,
+        FabricType = Leather,
+	    ClothingItemExtra = UndeadSurvivor.AmazonaCloakDOWN,
+        ClothingItemExtraOption = DownHoodie,
+        WorldStaticModel = AmazonaCloak_ground,
+    }
+
+    item AmazonaCloakDOWN
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Amazona Cloak,
+        ClothingItem = AmazonaCloakDOWN,
+        BodyLocation = Jacket,
+        Icon = AmazonaCloak,
+        Weight = 0.3,
+        BloodLocation = Neck;UpperBody;UpperArms;LowerArms,
+		ScratchDefense = 60,
+        BiteDefense = 40,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        WaterResistance = 0.5,
+        CombatSpeedModifier = 0.9,
+        FabricType = Leather,
+	    ClothingItemExtra = UndeadSurvivor.AmazonaCloakUP,
+        ClothingItemExtraOption = UpHoodie,
+        WorldStaticModel = AmazonaCloak_ground,
+    }
+
+        item AmazonaBoots
+	{
+        Weight = 0.75,
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Amazona Boots,
+		ClothingItem = AmazonaBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = AmazonaBoots,
+		StompPower = 2,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        WaterResistance = 0.7,
+        WorldStaticModel = AmazonaBoots_ground,
+	}
+	
+	item AmazonaDress
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Amazona Dress,
+        ClothingItem = AmazonaDress,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;ShirtNoSleeves,
+        Icon = AmazonaDress,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        Weight = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = AmazonaDress_ground,
+    }
+
+    item AmazonaDressTrimmed01
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Amazona Dress but trimmed,
+        ClothingItem = AmazonaDressTrimmed01,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;ShirtNoSleeves,
+        Icon = AmazonaDressTrimmed01,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        unSpeedModifier = 0.95,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        Weight = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = AmazonaDress_ground,
+    }
+
+    item AmazonaDressTrimmed02
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Amazona Dress as shirt,
+        ClothingItem = AmazonaDressTrimmed02,
+        BodyLocation = Shirt,
+        BloodLocation = ShirtNoSleeves,
+        Icon = AmazonaDressTrimmed02,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.2,
+        WindResistance = 0.1,
+        Weight = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = AmazonaDress_ground,
+    }
+
+    item AmazonaDressTrimmed03
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Amazona Dress as tanktop,
+        ClothingItem = AmazonaDressTrimmed03,
+        BodyLocation = TankTop,
+        BloodLocation = ShirtNoSleeves,
+        Icon = AmazonaDressTrimmed03,
+        BiteDefense = 8,
+        ScratchDefense = 18,
+        Insulation = 0.1,
+        Weight = 0.20,
+        FabricType = Cotton,
+        WorldStaticModel = AmazonaDress_ground,
+    }
+
+    item AmazonaDressTrimmed04
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Amazona Dress as short tanktop,
+        ClothingItem = AmazonaDressTrimmed04,
+        BodyLocation = TankTop,
+        BloodLocation = ShirtNoSleeves,
+        Icon = AmazonaDressTrimmed04,
+        BiteDefense = 5,
+        ScratchDefense = 15,
+        Weight = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = AmazonaDressTrimmed04_Ground,
+    }
+
+    item AmazonaDressTrimmed05
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Amazona Dress as bikini,
+        ClothingItem = AmazonaDressTrimmed05,
+        BodyLocation = TankTop,
+        BloodLocation = UpperBody,
+        Icon = AmazonaDressTrimmed05,
+        BiteDefense = 5,
+        ScratchDefense = 15,
+        Weight = 0.10,
+        FabricType = Cotton,
+        WorldStaticModel = AmazonaDressTrimmed04_Ground,
+    }
+
+    item AmazonaDressTrimmed06
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Amazona Dress but too short,
+        ClothingItem = AmazonaDressTrimmed06,
+        BodyLocation = TankTop,
+        BloodLocation = UpperBody,
+        Icon = AmazonaDressTrimmed06,
+        Weight = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = AmazonaDressTrimmed06_Ground,
+    }
+	
+	item HeadhunterGasmask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Headhunter Gasmask,
+		ClothingItem = HeadhunterGasmask,
+		BodyLocation = MaskEyes,
+		Icon = HeadhunterGasmask,
+        BloodLocation = Head,
+		BiteDefense = 15,
+        ScratchDefense = 25,
+        ChanceToFall = 0,
+        Insulation = 0.75,
+        WindResistance = 0.60,
+        WaterResistance = 1.0,
+		WorldStaticModel = HeadhunterGasmask_Ground,
+        Tags=GasMask,
+	}
+
+	item HeadhunterMantle
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Headhunter Mantle,
+        ClothingItem = HeadhunterMantle,
+        BodyLocation = JacketHat,
+        IconsForTexture = HeadhunterMantle,
+        BloodLocation = LongJacket;Head,
+		RunSpeedModifier = 0.95,
+		CombatSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.3,
+        WindResistance = 0.9,
+        FabricType = Leather,
+        WaterResistance = 0.9,
+        Weight = 1,
+		ClothingItemExtra = UndeadSurvivor.HeadhunterMantleDOWN,
+        ClothingItemExtraOption = DownHoodie,
+        WorldStaticModel = HeadhunterMantle_ground,
+		
+	}
+	
+		item HeadhunterMantleDOWN
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Headhunter Mantle Down,
+        ClothingItem = HeadhunterMantleDOWN,
+        BodyLocation = Jacket,
+        IconsForTexture = HeadhunterMantle,
+        BloodLocation = LongJacket,
+		RunSpeedModifier = 0.95,
+		CombatSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.3,
+        WindResistance = 0.9,
+        FabricType = Leather,
+        WaterResistance = 0.9,
+        Weight = 1,
+		ClothingItemExtra = UndeadSurvivor.HeadhunterMantle,
+        ClothingItemExtraOption = UpHoodie,
+        WorldStaticModel = HeadhunterMantle_ground,
+		
+	}
+	
+	    item HeadhunterBackpack
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Headhunter Backpack,
+        ClothingItem = HeadhunterBackpack,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	1.2,
+        Capacity	=	21,
+        Icon	=	HeadhunterBackpack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        CanHaveHoles = false,
+        WorldStaticModel = HeadhunterBackpack_ground,
+		AttachmentReplacement = Bag,
+		ReplaceInSecondHand = HeadhunterBackpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = HeadhunterBackpack_RHand holdingbagright,
+    }
+	
+	item DeadlyHeadhunterGasmask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Deadly Headhunter Gasmask,
+		ClothingItem = DeadlyHeadhunterGasmask,
+		BodyLocation = MaskEyes,
+		Icon = DeadlyHeadhunterGasmask,
+        BloodLocation = Head,
+		BiteDefense = 15,
+        ScratchDefense = 25,
+        ChanceToFall = 0,
+        Insulation = 0.75,
+        WindResistance = 0.60,
+        WaterResistance = 1.0,
+		WorldStaticModel = DeadlyHeadhunterGasmask_Ground,
+        Tags = GasMask,
+	}
+
+	item DeadlyHeadhunterMantle
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Deadly Headhunter Mantle,
+        ClothingItem = DeadlyHeadhunterMantle,
+        BodyLocation = JacketHat,
+        IconsForTexture = DeadlyHeadhunterMantle,
+        BloodLocation = LongJacket;Head,
+		RunSpeedModifier = 0.95,
+		CombatSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.3,
+        WindResistance = 0.9,
+        FabricType = Leather,
+        WaterResistance = 0.9,
+        Weight = 1,
+		ClothingItemExtra = UndeadSurvivor.DeadlyHeadhunterMantleDOWN,
+        ClothingItemExtraOption = DownHoodie,
+		WorldStaticModel = DeadlyHeadhunterMantle_Ground,
+	}
+	
+	item DeadlyHeadhunterMantleDOWN
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Deadly Headhunter Mantle Down,
+        ClothingItem = DeadlyHeadhunterMantleDOWN,
+        BodyLocation = Jacket,
+        IconsForTexture = DeadlyHeadhunterMantle,
+        BloodLocation = LongJacket,
+		RunSpeedModifier = 0.95,
+		CombatSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.3,
+        WindResistance = 0.9,
+        FabricType = Leather,
+        WaterResistance = 0.9,
+        Weight = 1,
+		ClothingItemExtra = UndeadSurvivor.DeadlyHeadhunterMantle,
+        ClothingItemExtraOption = UpHoodie,
+        WorldStaticModel = DeadlyHeadhunterMantle_ground,
+	}
+	
+	    item DeadlyHeadhunterBackpack
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Deadly Headhunter Backpack,
+        ClothingItem = DeadlyHeadhunterBackpack,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	1.2,
+        Capacity	=	21,
+        Icon	=	DeadlyHeadhunterBackpack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        CanHaveHoles = false,
+        WorldStaticModel = DeadlyHeadhunterBackpack_ground,
+		AttachmentReplacement = Bag,
+		ReplaceInSecondHand = DeadlyHeadhunterBackpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = DeadlyHeadhunterBackpack_RHand holdingbagright,
+    }
+	
+	
+	item PrepperMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Prepper Gasmask,
+		ClothingItem = PrepperMask,
+		BodyLocation = MaskEyes,
+		Icon = PrepperMask,
+        BloodLocation = Head,
+		BiteDefense = 10,
+        ScratchDefense = 20,
+        ChanceToFall = 0,
+        Insulation = 0.75,
+        WindResistance = 0.60,
+        WaterResistance = 1.0,
+		WorldStaticModel = PrepperMask_Ground,
+        Tags = GasMask,
+	}
+
+	item PrepperHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Prepper Helmet,
+		ClothingItem = PrepperHelmet,
+		BodyLocation = Hat,
+		Icon = PrepperHelmet,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 1,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+		WorldStaticModel = PrepperHelmet_Ground,
+	}
+	
+	item PrepperVest
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prepper Vest,
+        ClothingItem = PrepperVest,
+        BodyLocation = TorsoExtra,
+        Icon = PrepperVest,
+		CanHaveHoles = false,
+        BloodLocation = Trousers;Jumper,
+        Weight	=	0.7,
+        WorldStaticModel = PrepperVest_Ground,
+		AttachmentsProvided = PrepperVestKnife;PrepperVestFlashlight;PrepperGunMagazine1;PrepperGunMagazine2;PrepperGunMagazine3;PrepperGunMagazine4,
+    }
+	
+	item PrepperVestPacked
+    {
+        WeightReduction	=	95,
+        Weight	=	1,
+        Capacity	=	12,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        CanBeEquipped = Back,
+        DisplayCategory = Clothing,
+        Type	=	Container,
+        DisplayName = Prepper Vest with bags,
+        ClothingItem = PrepperVestPacked,
+        BodyLocation = TorsoExtra,
+        Icon = PrepperVestPacked,
+		CanHaveHoles = false,
+        BloodLocation = Trousers;Jumper,
+        AttachmentReplacement = Bag,
+        WorldStaticModel = PrepperVestPacked_Ground,
+		AttachmentsProvided = PrepperVestKnife;PrepperVestFlashlight;PrepperGunMagazine1;PrepperGunMagazine2;PrepperGunMagazine3;PrepperGunMagazine4,
+		ReplaceInSecondHand = PrepperVestPacked_LHand holdingbagleft,
+        ReplaceInPrimaryHand = PrepperVestPacked_RHand holdingbagright,
+    }	
+	
+	item PrepperBags
+	{
+        DisplayCategory = Container,
+        WeightReduction	=	30,
+        Weight	=	0.3,
+        Type	=	Container,
+        Capacity	=	12,
+		DisplayName	=	Mountable Prepper Bags,
+		Icon	=	PrepperBags,
+		ReplaceInSecondHand = PrepperBags_LHand holdingbagleft,
+        ReplaceInPrimaryHand = PrepperBags_RHand holdingbagright,
+		WorldStaticModel = PrepperBags_Ground,
+	}
+	
+	item PrepperJacket
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prepper Jacket,
+        ClothingItem = PrepperJacket,
+        BodyLocation = Jacket,
+        Icon = PrepperJacket,
+        BloodLocation = Jacket,
+        BiteDefense = 25,
+        ScratchDefense = 45,
+        Insulation = 0.30,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WaterResistance = 0.60,
+        Weight = 1,
+        WorldStaticModel = PrepperJacket_Ground,
+    }
+	
+	item PrepperTrousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prepper Trousers,
+        ClothingItem = PrepperTrousers,
+        BodyLocation = Pants,
+        Icon = PrepperTrousers,
+        BloodLocation = Trousers,
+        BiteDefense = 15,
+        ScratchDefense = 25,
+        Insulation = 0.3,
+        WindResistance = 0.3,
+        WaterResistance = 0.60,
+        FabricType = Cotton,
+		AttachmentsProvided = PrepperHolster, 
+        WorldStaticModel = PrepperTrousers_Ground,
+		ClothingItemExtra = UndeadSurvivor.PrepperTrousersTucked,
+        ClothingItemExtraOption = TuckIn,
+    }
+	
+	item PrepperTrousersTucked
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prepper Trousers Tucked,
+        ClothingItem = PrepperTrousersTUCKED,
+        BodyLocation = Pants,
+        Icon = PrepperTrousers,
+        BloodLocation = Trousers,
+        BiteDefense = 15,
+        ScratchDefense = 25,
+        Insulation = 0.3,
+        WindResistance = 0.3,
+        WaterResistance = 0.60,
+        FabricType = Cotton,
+		AttachmentsProvided = PrepperHolster, 
+        WorldStaticModel = PrepperTrousers_Ground,
+		ClothingItemExtra = UndeadSurvivor.PrepperTrousers,
+        ClothingItemExtraOption = TuckOut,
+    }
+	
+	item StalkerCloak
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Cloak,
+        ClothingItem = StalkerCloak,
+        BodyLocation = Hat,
+        Icon = StalkerCloak,
+        Weight = 0.3,
+        BloodLocation = Neck;Head,
+		ScratchDefense = 35,
+        BiteDefense = 20,
+        Insulation = 0.3,
+        WindResistance = 0.5,
+        WaterResistance = 1.0,
+        FabricType = Leather,
+	    ClothingItemExtra = UndeadSurvivor.StalkerCloakDOWN,
+        ClothingItemExtraOption = DownHoodie,
+        WorldStaticModel = StalkerCloak_ground,
+    }
+	
+    item StalkerCloakDOWN
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Cloak,
+        ClothingItem = StalkerCloakDOWN,
+        BodyLocation = Hat,
+        Icon = StalkerCloak,
+        Weight = 0.3,
+        BloodLocation = Neck;Head,
+		ScratchDefense = 35,
+        BiteDefense = 20,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WaterResistance = 0.5,
+        FabricType = Leather,
+	    ClothingItemExtra = UndeadSurvivor.StalkerCloak,
+        ClothingItemExtraOption = UpHoodie,
+        WorldStaticModel = StalkerCloak_ground,
+    }
+		
+	item StalkerMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Stalker Gasmask,
+		ClothingItem = StalkerMask,
+		BodyLocation = MaskEyes,
+		Icon = StalkerMask,
+		CanHaveHoles = false,
+		BiteDefense = 10,
+        ScratchDefense = 20,
+        ChanceToFall = 0,
+        BloodLocation = Head,
+        Insulation = 0.75,
+        WindResistance = 0.60,
+        WaterResistance = 1.0,
+		WorldStaticModel = StalkerMask_ground,
+        Tags = GasMask,
+	}
+	
+    item StalkerJacket
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Jacket,
+        ClothingItem = StalkerJacket,
+        BodyLocation = Jacket,
+        IconsForTexture = StalkerJacket,
+        BloodLocation = Jacket,
+        BiteDefense = 40,
+        ScratchDefense = 60,
+        NeckProtectionModifier = 0.8,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Leather,
+        WaterResistance = 0.25,
+        Weight = 1,
+        WorldStaticModel = StalkerJacket_ground,
+    }
+	
+    item StalkerTrousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Trousers,
+        ClothingItem = StalkerTrousers,
+        BodyLocation = Pants,
+        Icon = StalkerTrousers,
+        BloodLocation = Trousers,
+        ScratchDefense = 35,
+        BiteDefense = 25,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Leather,
+        WorldStaticModel = StalkerTrousers_ground,
+        ClothingItemExtra = UndeadSurvivor.StalkerTrousersTucked,
+        ClothingItemExtraOption = TuckIn,
+    }
+	
+    item StalkerTrousersTucked
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Stalker Trousers (Tucked),
+        ClothingItem = StalkerTrousersTucked,
+        BodyLocation = Pants,
+        Icon = StalkerTrousers,
+        BloodLocation = Trousers,
+        ScratchDefense = 35,
+        BiteDefense = 25,
+        Insulation = 0.3,
+        WindResistance = 0.30,
+        FabricType = Leather,
+        WorldStaticModel = StalkerTrousers_ground,
+        ClothingItemExtra = UndeadSurvivor.StalkerTrousers,
+        ClothingItemExtraOption = TuckOut,
+    }
+	
+	item StalkerBoots
+	{
+        Weight = 0.5,
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Stalker Boots,
+		ClothingItem = StalkerBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = StalkerBoots,
+		StompPower = 2,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        WaterResistance = 0.5,
+        WorldStaticModel = StalkerBoots_ground,
+	}
+
+	item StalkerGloves
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Stalker Gloves,
+		ClothingItem = StalkerGloves,
+		BodyLocation = Hands,
+		Icon = StalkerGloves,
+		BloodLocation = Hands,
+		ScratchDefense = 35,
+        BiteDefense = 20,
+        Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.25,
+        FabricType = Leather,
+        WorldStaticModel = StalkerGloves_ground,
+	}
+	
+	item NomadParka
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Nomad Parka,
+        ClothingItem = NomadParka,
+        BodyLocation = JacketHat,
+        IconsForTexture = NomadParka,
+        BloodLocation = LongJacket;Head,
+		RunSpeedModifier = 0.90,
+		CombatSpeedModifier = 0.90,
+        BiteDefense = 25,
+        ScratchDefense = 35,
+        Insulation = 0.9,
+        WindResistance = 0.9,
+        FabricType = Cotton,
+        WaterResistance = 0.6,
+        Weight = 2,
+	    ClothingItemExtra = UndeadSurvivor.NomadParkaDOWN,
+        ClothingItemExtraOption = DownHoodie,
+        WorldStaticModel = NomadParka_ground,
+	}
+	
+	item NomadParkaDOWN
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Nomad Parka,
+        ClothingItem = NomadParkaDOWN,
+        BodyLocation = Jacket,
+        IconsForTexture = NomadParka,
+        BloodLocation = LongJacket,
+		RunSpeedModifier = 0.90,
+		CombatSpeedModifier = 0.90,
+        BiteDefense = 25,
+        ScratchDefense = 35,
+        Insulation = 0.8,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WaterResistance = 0.4,
+        Weight = 2,
+	    ClothingItemExtra = UndeadSurvivor.NomadParka,
+        ClothingItemExtraOption = UpHoodie,
+        WorldStaticModel = NomadParka_ground,
+	}
+	
+	item OminousNomadParka
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ominous Nomad Parka,
+        ClothingItem = OminousNomadParka,
+        BodyLocation = JacketHat,
+        IconsForTexture = OminousNomadParka,
+        BloodLocation = LongJacket;Head,
+		RunSpeedModifier = 0.90,
+		CombatSpeedModifier = 0.90,
+        BiteDefense = 25,
+        ScratchDefense = 35,
+        Insulation = 0.9,
+        WindResistance = 0.9,
+        FabricType = Cotton,
+        WaterResistance = 0.6,
+        Weight = 2,
+	    ClothingItemExtra = UndeadSurvivor.OminousNomadParkaDOWN,
+        ClothingItemExtraOption = DownHoodie,
+        WorldStaticModel = OminousNomadParka_ground,
+	}
+	
+	item OminousNomadParkaDOWN
+	{
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ominous Nomad Parka,
+        ClothingItem = OminousNomadParkaDOWN,
+        BodyLocation = Jacket,
+        IconsForTexture = OminousNomadParka,
+        BloodLocation = LongJacket,
+		RunSpeedModifier = 0.90,
+		CombatSpeedModifier = 0.90,
+        BiteDefense = 25,
+        ScratchDefense = 35,
+        Insulation = 0.8,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WaterResistance = 0.4,
+        Weight = 2,
+	    ClothingItemExtra = UndeadSurvivor.OminousNomadParka,
+        ClothingItemExtraOption = UpHoodie,
+        WorldStaticModel = OminousNomadParka_ground,
+	}
+	
+    item NomadBackpack
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Nomad Backpack,
+        ClothingItem = NomadBackpack,
+        CanBeEquipped = Back,
+        WeightReduction	=	89,
+        Weight	=	5,
+        Capacity	=	34,
+        Icon	=	NomadBackpack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.80,
+        CanHaveHoles = false,
+        WorldStaticModel = NomadBackpack_ground,
+		AttachmentReplacement = Bag,
+		ReplaceInSecondHand = NomadBackpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = NomadBackpack_RHand holdingbagright,
+    }
+
+    item NomadMask
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Nomad Mask,
+        ClothingItem = NomadMask,
+        BodyLocation = Scarf,
+        Icon = NomadMask,
+        Weight = 0.2,
+        BloodLocation = Neck;Head,
+        ScratchDefense = 25,
+        BiteDefense = 15,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WorldStaticModel = NomadMask_ground,
+    }
+	
+    item OminousNomadMask
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Ominous Nomad Mask,
+        ClothingItem = OminousNomadMask,
+        BodyLocation = Scarf,
+        Icon = OminousNomadMask,
+        Weight = 0.2,
+        BloodLocation = Neck;Head,
+        ScratchDefense = 25,
+        BiteDefense = 15,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WorldStaticModel = OminousNomadMask_ground,
+    }
+	
+	item NomadBoots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Nomad Boots,
+		ClothingItem = NomadBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = NomadBoots,
+		StompPower = 2.5,
+		ConditionLowerChanceOneIn = 20,
+        ConditionMax = 30,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+		Weight = 0.7,
+        WorldStaticModel = NomadBoots_ground,
+	}
+	
+    item NomadTrousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Nomad Trousers,
+        ClothingItem = NomadTrousers,
+        BodyLocation = Pants,
+        Icon = NomadTrousers,
+        BloodLocation = Trousers,
+        ScratchDefense = 30,
+        BiteDefense = 15,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        WaterResistance = 0.7,
+		RunSpeedModifier = 0.95,
+        FabricType = Leather,
+        WorldStaticModel = NomadTrousers_ground,
+        ClothingItemExtra = UndeadSurvivor.NomadTrousersTucked,
+        ClothingItemExtraOption = TuckIn,
+    }
+	
+    item NomadTrousersTucked
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Nomad Trousers,
+        ClothingItem = NomadTrousersTUCKED,
+        BodyLocation = Pants,
+        Icon = NomadTrousers,
+        BloodLocation = Trousers,
+        ScratchDefense = 30,
+        BiteDefense = 15,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        WaterResistance = 0.7,
+		RunSpeedModifier = 0.95,
+        FabricType = Leather,
+        WorldStaticModel = NomadTrousers_ground,
+        ClothingItemExtra = UndeadSurvivor.NomadTrousers,
+        ClothingItemExtraOption = TuckOut,
+    }
+	
+}
+	

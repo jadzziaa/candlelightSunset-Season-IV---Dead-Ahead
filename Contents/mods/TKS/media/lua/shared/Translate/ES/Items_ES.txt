@@ -1,0 +1,15 @@
+Items_ES = 
+	{
+
+	DisplayNameTactical_Knife = "Cuchillo táctico",
+	DisplayNameKnife_Sheath_Back = "Funda de cuchillo",
+	DisplayNameKnife_Sheath_Leg = "Funda de cuchillo",
+	DisplayNameKnife_Sheath_Tactical_Back = "Funda de cuchillo táctico",
+	DisplayNameKnife_Sheath_Tactical_Leg = "Funda de cuchillo táctico",
+	DisplayNameKatana_Sheath = "Funda (Katana)",
+	DisplayNameKatana_Sheath_Red = "Funda rojo (Katana)",
+	DisplayNameKatana_Sheath_White = "Funda blanco (Katana)",
+	DisplayNameKatana_Sheath_Black = "Funda negro (Katana)",
+	DisplayNameKatana_Sheath_Blue = "Funda azul (Katana)",
+	DisplayNameKatana_Sheath_Green = "Funda verde (Katana)",
+	}

@@ -1,0 +1,573 @@
+module SMUIClothing 
+{
+
+
+        item Jacket_ArmyCamoGreen   
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = WoodlandTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ArmyCamoGreen,
+        ClothingItemExtra =  SMUIClothing.Jacket_ArmyCamoGreenRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+        
+    }
+
+        item Jacket_ArmyCamoGreenRolled
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Woodland Pattern Jacket (Rolled),
+        ClothingItem = Jacket_ArmyCamoGreenRolled,
+        BodyLocation = Jacket,
+        Icon = WoodlandTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ArmyCamoGreenRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_ArmyCamoGreen,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+
+    }
+
+        item Jacket_ERDL   
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Lowland ERDL Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = WoodlandTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ERDL,
+        ClothingItemExtra =  SMUIClothing.Jacket_ERDLRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+        
+    }
+
+        item Jacket_ERDLRolled
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Lowland ERDL Pattern Jacket (Rolled),
+        ClothingItem = Jacket_ERDLRolled,
+        BodyLocation = Jacket,
+        Icon = ERDLTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ERDLRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_ERDL,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+
+    }
+
+        item Jacket_ERDLBrown   
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Highland ERDL Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = ERDLTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ERDLBrown,
+        ClothingItemExtra =  SMUIClothing.Jacket_ERDLBrownRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+        
+    }
+
+        item Jacket_ERDLBrownRolled
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Highland ERDL Pattern Jacket (Rolled),
+        ClothingItem = Jacket_ERDLRolled,
+        BodyLocation = Jacket,
+        Icon = ERDLTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ERDLBrownRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_ERDLBrown,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+
+    }
+
+        item Jacket_TigerStripe   
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Tiger Stripe Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = TigerstripeTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_TigerStripe,
+        ClothingItemExtra =  SMUIClothing.Jacket_TigerStripeRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Jacket_TigerStripeRolled
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Tiger Stripe Pattern Jacket (Rolled),
+        ClothingItem = Jacket_TigerStripeRolled,
+        BodyLocation = Jacket,
+        Icon = TigerstripeTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_TigerStripeRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_TigerStripe,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+
+    }
+
+       item Jacket_ArmyCamoDesert
+
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Battle Pattern Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = DBUTop,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ArmyCamoDesert,
+        ClothingItemExtra = SMUIClothing.Jacket_ArmyCamoDesertRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Jacket_ArmyCamoDesertRolled
+
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Battle Pattern Jacket (Rolled),
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = DBUTop,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ArmyCamoDesertRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_ArmyCamoDesert,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Jacket_DesertCombat
+
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Combat Pattern Jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = DCUTop,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_DesertCombat,
+        ClothingItemExtra = SMUIClothing.Jacket_DesertCombatRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Jacket_DesertCombatRolled
+
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Combat Pattern Jacket (Rolled),
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = DCUTop,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_DesertCombatRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_DesertCombat,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Jacket_ArmyCamoUrban
+        
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Urban Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = UrbanTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ArmyCamoUrban,
+        ClothingItemExtra = SMUIClothing.Jacket_ArmyCamoUrbanRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+        
+    }
+
+        item Jacket_ArmyCamoUrbanRolled
+
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Urban Pattern Jacket (Rolled),
+        BodyLocation = Jacket,
+        Icon = UrbanTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_ArmyCamoUrbanRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_ArmyCamoUrban,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+
+    }
+
+        item Jacket_TPattern
+        
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = T-Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = TpatternTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_TPattern,
+        ClothingItemExtra = SMUIClothing.Jacket_TPatternRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+        
+    }
+
+        item Jacket_TPatternRolled
+
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = T-Pattern Jacket (Rolled),
+        BodyLocation = Jacket,
+        Icon = TpatternTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_TPatternRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_TPattern,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        Tags = Military,
+        WorldStaticModel = JacketCoat_Ground,
+
+    }
+
+        item Jacket_ODGreen
+        
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = OG-107 Jacket,
+        BodyLocation = Jacket,
+        Icon = OG107top,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97, 
+        ClothingItem = Jacket_ODGreen,
+        ClothingItemExtra = SMUIClothing.Jacket_ODGreenRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+        
+    }
+
+        item Jacket_ODGreenRolled
+
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = OG-107 Jacket (Rolled),
+        BodyLocation = Jacket,
+        Icon = OG107top,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,   
+        ClothingItem = Jacket_ODGreenRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_ODGreen,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+
+    }
+
+        item Jacket_DuckHunter
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Duck Hunter Pattern Jacket,
+        BodyLocation = Jacket,
+        Icon = DuckhunterTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_DuckHunter,
+        ClothingItemExtra =  SMUIClothing.Jacket_DuckHunterRolled,
+        ClothingItemExtraOption = RollUp,
+        ClothingExtraSubmenu = RollDown,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+        
+    }
+
+        item Jacket_DuckHunterRolled
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Duck Hunter Pattern Jacket (Rolled),
+        ClothingItem = Jacket_DuckHunterRolled,
+        BodyLocation = Jacket,
+        Icon = DuckhunterTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_DuckHunterRolled,
+        ClothingItemExtra = SMUIClothing.Jacket_DuckHunter,
+        ClothingItemExtraOption = RollDown,
+        ClothingExtraSubmenu = RollUp,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Jacket_FrogSkin
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        BodyLocation = Jacket,
+        DisplayName = Frog Skin Pattern Jacket,
+        Icon = FrogskinTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        ClothingItem = Jacket_FrogSkin,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+        
+    }
+
+        item Jacket_FrogSkinRolled
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        ClothingItem = Jacket_FrogSkinRolled,
+        DisplayName = Frog Skin Pattern Jacket (Rolled),
+        BodyLocation = Jacket,
+        Icon = FrogskinTop,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WaterResistance = 0.4,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+  }

@@ -1,0 +1,4 @@
+Recipes_ES = {
+	Recipe_Attach_goggles_to_helmet = "Acoplar gafas antipolvo al casco",
+	Recipe_Remove_goggles = "Remover gafas antipolvo",
+}

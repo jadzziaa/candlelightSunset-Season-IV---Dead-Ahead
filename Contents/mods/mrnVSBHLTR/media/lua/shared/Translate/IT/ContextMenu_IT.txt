@@ -1,0 +1,8 @@
+ContextMenu_IT = {
+    ContextMenu_Holster_visibleStyle = "Sopra la Giacca",
+    ContextMenu_Holster_visibleStyle1 = "Sotto la Giacca",
+    ContextMenu_Holster_visibleStyle2 = "Sotto la cintura",
+    ContextMenu_HolsterDouble_visibleStyle = "Sopra la Giacca",
+    ContextMenu_HolsterDouble_visibleStyle1 = "Sotto la Giacca",
+    ContextMenu_HolsterDouble_visibleStyle2 = "Sotto la cintura",
+}

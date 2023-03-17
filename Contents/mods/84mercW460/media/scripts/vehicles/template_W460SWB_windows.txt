@@ -1,0 +1,174 @@
+module Base
+{
+
+	model W460SWBwindowfl
+	{
+		mesh = vehicles/Vehicles_84mercSWB_Body|w460_swb_window_fl,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = window_fl_bone 1.0,
+	}
+
+	model W460SWBwindowfr
+	{
+		mesh = vehicles/Vehicles_84mercSWB_Body|w460_swb_window_fr,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = window_fr_bone 1.0,
+	}
+
+	model W460SWBwindowrl
+	{
+		mesh = vehicles/Vehicles_84mercSWB_Body|w460_swb_window_rl,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model W460SWBwindowrr
+	{
+		mesh = vehicles/Vehicles_84mercSWB_Body|w460_swb_window_rr,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	template vehicle W460SWBWindows
+	{
+		part WindowFrontLeft
+		{
+			model windowFLswb
+			{
+				file = W460SWBwindowfl,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_fl_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontLeft,
+			area = SeatFrontLeft,
+			itemType = Base.W460SideWindow,
+			table install
+			{
+				requireInstalled = DoorFrontLeft,
+			}
+			table uninstall
+				{
+				requireUninstalled = W460SWBDoorFrontLeftArmor,
+				}
+		}
+
+		part WindowFrontRight
+		{
+			model windowFRSwb
+			{
+				file = W460SWBwindowfr,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_fr_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontRight,
+			area = SeatFrontRight,
+			itemType = Base.W460SideWindow,
+			table install
+			{
+				requireInstalled = DoorFrontRight,
+			}
+			table uninstall
+				{
+				requireUninstalled = W460SWBDoorFrontRightArmor,
+				}
+		}
+
+		part WindowRearLeft
+		{
+			model windowRLSwb2
+			{
+				file = W460SWBwindowrl,
+			}
+
+			parent = DoorRearLeft,
+			area = SeatFrontLeft,
+			itemType = Base.W460SideWindow,
+			table uninstall
+				{
+				requireUninstalled = W460SWBDoorRearLeftArmor,
+				}
+		}
+
+		part WindowRearRight
+		{
+			model windowRRSwb2
+			{
+				file = W460SWBwindowrr,
+			}
+
+			parent = DoorRearRight,
+			area = SeatFrontRight,
+			itemType = Base.W460SideWindow,
+			table uninstall
+				{
+				requireUninstalled = W460SWBDoorRearRightArmor,
+				}
+		}
+
+		part Window*
+		{
+			category = door,
+			mechanicRequireKey = true,
+			window
+			{
+				openable = true,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:3,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Window,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:3,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+			}
+			lua
+			{
+				create = Vehicles.Create.Window,
+				init = Vehicles.Init.Window,
+			}
+		}
+	}
+}
+

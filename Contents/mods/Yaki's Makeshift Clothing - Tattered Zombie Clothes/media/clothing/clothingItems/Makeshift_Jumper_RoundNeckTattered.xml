@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jumper</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jumper</m_FemaleModel>
+	<m_GUID>08595191-c05d-46c9-a5c4-960c4112d14a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Jumper/Roundneck</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jumper/Roundneck</m_UnderlayMasksFolder>
+	<textureChoices>clothes\jacket\Makeshift_Jumper_RoundNeckTattered</textureChoices>
+</clothingItem>

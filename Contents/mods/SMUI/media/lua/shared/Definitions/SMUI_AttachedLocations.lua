@@ -1,0 +1,45 @@
+--***********************************************************
+--**                    THE INDIE STONE                    **
+--***********************************************************
+
+local group = AttachedLocations.getGroup("Human")
+
+group:getOrCreateLocation("Webbing Rope Left"):setAttachmentName("Webbing_Rope_Left")
+group:getOrCreateLocation("Webbing SheetRope Left"):setAttachmentName("Webbing_SheetRope_Left")
+group:getOrCreateLocation("Webbing FlareGun Left"):setAttachmentName("Webbing_FlareGun_Left")
+group:getOrCreateLocation("Webbing Explosive Left"):setAttachmentName("Webbing_Explosive_Left")
+group:getOrCreateLocation("Webbing AuthenticExplosive Left"):setAttachmentName("Webbing_AuthenticExplosive_Left")
+group:getOrCreateLocation("Webbing GasMask Left"):setAttachmentName("Webbing_GasMask_Left")
+group:getOrCreateLocation("Webbing Walkie Left"):setAttachmentName("Webbing_Walkie_Left")
+group:getOrCreateLocation("Webbing Hammer Left"):setAttachmentName("Webbing_Hammer_Left")
+group:getOrCreateLocation("Webbing Screwdriver Left"):setAttachmentName("Webbing_Screwdriver_Left")
+group:getOrCreateLocation("Webbing Knife Left"):setAttachmentName("Webbing_Knife_Left")
+group:getOrCreateLocation("Webbing Saucepan Left"):setAttachmentName("Webbing_Saucepan_Left")
+group:getOrCreateLocation("Webbing Pan Left"):setAttachmentName("Webbing_Pan_Left")
+group:getOrCreateLocation("Webbing Wrench Left"):setAttachmentName("Webbing_Wrench_Left")
+group:getOrCreateLocation("Webbing MeatCleaver Left"):setAttachmentName("Webbing_MeatCleaver_Left")
+group:getOrCreateLocation("Webbing Waterbottle Left"):setAttachmentName("Webbing_Waterbottle_Left")
+group:getOrCreateLocation("Webbing Canteen Left"):setAttachmentName("Webbing_Canteen_Left")
+group:getOrCreateLocation("Webbing Military Flashlight Left"):setAttachmentName("Webbing_Flashlight_Left")
+group:getOrCreateLocation("Webbing Holster Left"):setAttachmentName("Webbing_Holster_Left")
+
+group:getOrCreateLocation("Webbing Rope Right"):setAttachmentName("Webbing_Rope_Right")
+group:getOrCreateLocation("Webbing SheetRope Right"):setAttachmentName("Webbing_SheetRope_Right")
+group:getOrCreateLocation("Webbing FlareGun Right"):setAttachmentName("Webbing_FlareGun_Right")
+group:getOrCreateLocation("Webbing Explosive Right"):setAttachmentName("Webbing_Explosive_Right")
+group:getOrCreateLocation("Webbing AuthenticExplosive Right"):setAttachmentName("Webbing_AuthenticExplosive_Right")
+group:getOrCreateLocation("Webbing GasMask Right"):setAttachmentName("Webbing_GasMask_Right")
+group:getOrCreateLocation("Webbing Walkie Right"):setAttachmentName("Webbing_Walkie_Right")
+group:getOrCreateLocation("Webbing Hammer Right"):setAttachmentName("Webbing_Hammer_Right")
+group:getOrCreateLocation("Webbing Screwdriver Right"):setAttachmentName("Webbing_Screwdriver_Right")
+group:getOrCreateLocation("Webbing Knife Right"):setAttachmentName("Webbing_Knife_Right")
+group:getOrCreateLocation("Webbing Saucepan Right"):setAttachmentName("Webbing_Saucepan_Right")
+group:getOrCreateLocation("Webbing Pan Right"):setAttachmentName("Webbing_Pan_Right")
+group:getOrCreateLocation("Webbing Wrench Right"):setAttachmentName("Webbing_Wrench_Right")
+group:getOrCreateLocation("Webbing MeatCleaver Right"):setAttachmentName("Webbing_MeatCleaver_Right")
+group:getOrCreateLocation("Webbing Waterbottle Right"):setAttachmentName("Webbing_Waterbottle_Right")
+group:getOrCreateLocation("Webbing Canteen Right"):setAttachmentName("Webbing_Canteen_Right")
+group:getOrCreateLocation("Webbing Military Flashlight Right"):setAttachmentName("Webbing_Flashlight_Right")
+group:getOrCreateLocation("Webbing Holster Right"):setAttachmentName("Webbing_Holster_Right")
+
+

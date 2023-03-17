@@ -1,0 +1,5 @@
+name=Multiplayer AEBS i8n Hack
+poster=poster.png
+id=FixRadioi18n
+description=Forces translation strings to be reloaded AFTER all mods have been enumerated, fixes AEBS for mods like Expanded Heli Events & Save Our Station.
+versionMin=41.56

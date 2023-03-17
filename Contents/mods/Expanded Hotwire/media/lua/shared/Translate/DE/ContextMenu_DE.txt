@@ -1,0 +1,3 @@
+ContextMenu_DE = {
+    ContextMenu_VehicleHotwireSkillEH = "Du ben�tigst die Fahrzeugschl�ssel. Zum Kurzschliessen wird <br>Elektrotechnik der Stufe ? und <br>Mechanik der Stufe ? ben�tigt.",
+}

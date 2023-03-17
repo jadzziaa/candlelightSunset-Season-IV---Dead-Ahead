@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+<m_MaleModel>media\models_X\Static\Clothes\fancyshoes_male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\fancyshoes_female.fbx</m_FemaleModel>
+	<m_GUID>b87c05cc-9a93-4572-99f8-005e350ee723</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Masks/shoes</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/shoes</m_UnderlayMasksFolder>
+	<textureChoices>blackboots0</textureChoices>
+	<textureChoices>blackboots1</textureChoices>
+	<textureChoices>shoesbrown</textureChoices>
+	<textureChoices>shoered</textureChoices>
+	<textureChoices>shoepale</textureChoices>
+	<textureChoices>shoepink</textureChoices>
+</clothingItem>

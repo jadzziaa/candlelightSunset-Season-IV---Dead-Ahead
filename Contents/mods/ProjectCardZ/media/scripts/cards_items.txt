@@ -1,0 +1,571 @@
+module CardsItems{
+    imports {
+        Base
+    }
+
+    item 2clubs
+    {
+		Type = Normal,
+		DisplayName	= 2 of Clubs,
+		Icon = 2clubs,
+		Weight = 0.01,
+        StaticModel = 2clubs,
+        WorldStaticModel = 2clubs,
+    }
+
+    item 2diamonds
+    {
+		Type = Normal,
+		DisplayName	= 2 of Diamonds,
+		Icon = 2diamonds,
+		Weight = 0.01,
+        StaticModel = 2diamonds,
+        WorldStaticModel = 2diamonds,
+    }
+
+    item 2spades
+    {
+		Type = Normal,
+		DisplayName	= 2 of Spades,
+		Icon = 2spades,
+		Weight = 0.01,
+        StaticModel = 2spades,
+        WorldStaticModel = 2spades,
+    }
+
+    item 2hearts
+    {
+		Type = Normal,
+		DisplayName	= 2 of Hearts,
+		Icon = 2hearts,
+		Weight = 0.01,
+        StaticModel = 2hearts,
+        WorldStaticModel = 2hearts,
+    }
+
+
+
+    item 3clubs
+    {
+		Type = Normal,
+		DisplayName	= 3 of Clubs,
+		Icon = 3clubs,
+		Weight = 0.01,
+        StaticModel = 3clubs,
+        WorldStaticModel = 3clubs,
+    }
+
+    item 3diamonds
+    {
+		Type = Normal,
+		DisplayName	= 3 of Diamonds,
+		Icon = 3diamonds,
+		Weight = 0.01,
+        StaticModel = 3diamonds,
+        WorldStaticModel = 3diamonds,
+    }
+
+    item 3spades
+    {
+		Type = Normal,
+		DisplayName	= 3 of Spades,
+		Icon = 3spades,
+		Weight = 0.01,
+        StaticModel = 3spades,
+        WorldStaticModel = 3spades,
+    }
+
+    item 3hearts
+    {
+		Type = Normal,
+		DisplayName	= 3 of Hearts,
+		Icon = 3hearts,
+		Weight = 0.01,
+        StaticModel = 3hearts,
+        WorldStaticModel = 3hearts,
+    }
+
+
+
+    item 4clubs
+    {
+		Type = Normal,
+		DisplayName	= 4 of Clubs,
+		Icon = 4clubs,
+		Weight = 0.01,
+        StaticModel = 4clubs,
+        WorldStaticModel = 4clubs,
+    }
+
+    item 4diamonds
+    {
+		Type = Normal,
+		DisplayName	= 4 of Diamonds,
+		Icon = 4diamonds,
+		Weight = 0.01,
+        StaticModel = 4diamonds,
+        WorldStaticModel = 4diamonds,
+    }
+
+    item 4spades
+    {
+		Type = Normal,
+		DisplayName	= 4 of Spades,
+		Icon = 4spades,
+		Weight = 0.01,
+        StaticModel = 4spades,
+        WorldStaticModel = 4spades,
+    }
+
+    item 4hearts
+    {
+		Type = Normal,
+		DisplayName	= 4 of Hearts,
+		Icon = 4hearts,
+		Weight = 0.01,
+        StaticModel = 4hearts,
+        WorldStaticModel = 4hearts,
+    }
+
+
+
+    item 5clubs
+    {
+		Type = Normal,
+		DisplayName	= 5 of Clubs,
+		Icon = 5clubs,
+		Weight = 0.01,
+        StaticModel = 5clubs,
+        WorldStaticModel = 5clubs,
+    }
+
+    item 5diamonds
+    {
+		Type = Normal,
+		DisplayName	= 5 of Diamonds,
+		Icon = 5diamonds,
+		Weight = 0.01,
+        StaticModel = 5diamonds,
+        WorldStaticModel = 5diamonds,
+    }
+
+    item 5spades
+    {
+		Type = Normal,
+		DisplayName	= 5 of Spades,
+		Icon = 5spades,
+		Weight = 0.01,
+        StaticModel = 5spades,
+        WorldStaticModel = 5spades,
+    }
+
+    item 5hearts
+    {
+		Type = Normal,
+		DisplayName	= 5 of Hearts,
+		Icon = 5hearts,
+		Weight = 0.01,
+        StaticModel = 5hearts,
+        WorldStaticModel = 5hearts,
+    }
+
+
+
+    item 6clubs
+    {
+		Type = Normal,
+		DisplayName	= 6 of Clubs,
+		Icon = 6clubs,
+		Weight = 0.01,
+        StaticModel = 6clubs,
+        WorldStaticModel = 6clubs,
+    }
+
+    item 6diamonds
+    {
+		Type = Normal,
+		DisplayName	= 6 of Diamonds,
+		Icon = 6diamonds,
+		Weight = 0.01,
+        StaticModel = 6diamonds,
+        WorldStaticModel = 6diamonds,
+    }
+
+    item 6spades
+    {
+		Type = Normal,
+		DisplayName	= 6 of Spades,
+		Icon = 6spades,
+		Weight = 0.01,
+        StaticModel = 6spades,
+        WorldStaticModel = 6spades,
+    }
+
+    item 6hearts
+    {
+		Type = Normal,
+		DisplayName	= 6 of Hearts,
+		Icon = 6hearts,
+		Weight = 0.01,
+        StaticModel = 6hearts,
+        WorldStaticModel = 6hearts,
+    }
+
+
+
+    item 7clubs
+    {
+		Type = Normal,
+		DisplayName	= 7 of Clubs,
+		Icon = 7clubs,
+		Weight = 0.01,
+        StaticModel = 7clubs,
+        WorldStaticModel = 7clubs,
+    }
+
+    item 7diamonds
+    {
+		Type = Normal,
+		DisplayName	= 7 of Diamonds,
+		Icon = 7diamonds,
+		Weight = 0.01,
+        StaticModel = 7diamonds,
+        WorldStaticModel = 7diamonds,
+    }
+
+    item 7spades
+    {
+		Type = Normal,
+		DisplayName	= 7 of Spades,
+		Icon = 7spades,
+		Weight = 0.01,
+        StaticModel = 7spades,
+        WorldStaticModel = 7spades,
+    }
+
+    item 7hearts
+    {
+		Type = Normal,
+		DisplayName	= 7 of Hearts,
+		Icon = 7hearts,
+		Weight = 0.01,
+        StaticModel = 7hearts,
+        WorldStaticModel = 7hearts,
+    }
+
+
+
+    item 8clubs
+    {
+		Type = Normal,
+		DisplayName	= 8 of Clubs,
+		Icon = 8clubs,
+		Weight = 0.01,
+        StaticModel = 8clubs,
+        WorldStaticModel = 8clubs,
+    }
+
+    item 8diamonds
+    {
+		Type = Normal,
+		DisplayName	= 8 of Diamonds,
+		Icon = 8diamonds,
+		Weight = 0.01,
+        StaticModel = 8diamonds,
+        WorldStaticModel = 8diamonds,
+    }
+
+    item 8spades
+    {
+		Type = Normal,
+		DisplayName	= 8 of Spades,
+		Icon = 8spades,
+		Weight = 0.01,
+        StaticModel = 8spades,
+        WorldStaticModel = 8spades,
+    }
+
+    item 8hearts
+    {
+		Type = Normal,
+		DisplayName	= 8 of Hearts,
+		Icon = 8hearts,
+		Weight = 0.01,
+        StaticModel = 8hearts,
+        WorldStaticModel = 8hearts,
+    }
+
+
+
+    item 9clubs
+    {
+		Type = Normal,
+		DisplayName	= 9 of Clubs,
+		Icon = 9clubs,
+		Weight = 0.01,
+        StaticModel = 9clubs,
+        WorldStaticModel = 9clubs,
+    }
+
+    item 9diamonds
+    {
+		Type = Normal,
+		DisplayName	= 9 of Diamonds,
+		Icon = 9diamonds,
+		Weight = 0.01,
+        StaticModel = 9diamonds,
+        WorldStaticModel = 9diamonds,
+    }
+
+    item 9spades
+    {
+		Type = Normal,
+		DisplayName	= 9 of Spades,
+		Icon = 9spades,
+		Weight = 0.01,
+        StaticModel = 9spades,
+        WorldStaticModel = 9spades,
+    }
+
+    item 9hearts
+    {
+		Type = Normal,
+		DisplayName	= 9 of Hearts,
+		Icon = 9hearts,
+		Weight = 0.01,
+        StaticModel = 9hearts,
+        WorldStaticModel = 9hearts,
+    }
+
+
+
+    item 10clubs
+    {
+		Type = Normal,
+		DisplayName	= 10 of Clubs,
+		Icon = 10clubs,
+		Weight = 0.01,
+        StaticModel = 10clubs,
+        WorldStaticModel = 10clubs,
+    }
+
+    item 10diamonds
+    {
+		Type = Normal,
+		DisplayName	= 10 of Diamonds,
+		Icon = 10diamonds,
+		Weight = 0.01,
+        StaticModel = 10diamonds,
+        WorldStaticModel = 10diamonds,
+    }
+
+    item 10spades
+    {
+		Type = Normal,
+		DisplayName	= 10 of Spades,
+		Icon = 10spades,
+		Weight = 0.01,
+        StaticModel = 10spades,
+        WorldStaticModel = 10spades,
+    }
+
+    item 10hearts
+    {
+		Type = Normal,
+		DisplayName	= 10 of Hearts,
+		Icon = 10hearts,
+		Weight = 0.01,
+        StaticModel = 10hearts,
+        WorldStaticModel = 10hearts,
+    }
+
+
+
+    item jackclubs
+    {
+		Type = Normal,
+		DisplayName	= Jack of Clubs,
+		Icon = jackclubs,
+		Weight = 0.01,
+        StaticModel = jackclubs,
+        WorldStaticModel = jackclubs,
+    }
+
+    item jackdiamonds
+    {
+		Type = Normal,
+		DisplayName	= Jack of Diamonds,
+		Icon = jackdiamonds,
+		Weight = 0.01,
+        StaticModel = jackdiamonds,
+        WorldStaticModel = jackdiamonds,
+    }
+
+    item jackspades
+    {
+		Type = Normal,
+		DisplayName	= Jack of Spades,
+		Icon = jackspades,
+		Weight = 0.01,
+        StaticModel = jackspades,
+        WorldStaticModel = jackspades,
+    }
+
+    item jackhearts
+    {
+		Type = Normal,
+		DisplayName	= Jack of Hearts,
+		Icon = jackhearts,
+		Weight = 0.01,
+        StaticModel = jackhearts,
+        WorldStaticModel = jackhearts,
+    }
+
+
+
+    item queenclubs
+    {
+		Type = Normal,
+		DisplayName	= Queen of Clubs,
+		Icon = queenclubs,
+		Weight = 0.01,
+        StaticModel = queenclubs,
+        WorldStaticModel = queenclubs,
+    }
+
+    item queendiamonds
+    {
+		Type = Normal,
+		DisplayName	= Queen of Diamonds,
+		Icon = queendiamonds,
+		Weight = 0.01,
+        StaticModel = queendiamonds,
+        WorldStaticModel = queendiamonds,
+    }
+
+    item queenspades
+    {
+		Type = Normal,
+		DisplayName	= Queen of Spades,
+		Icon = queenspades,
+		Weight = 0.01,
+        StaticModel = queenspades,
+        WorldStaticModel = queenspades,
+    }
+
+    item queenhearts
+    {
+		Type = Normal,
+		DisplayName	= Queen of Hearts,
+		Icon = queenhearts,
+		Weight = 0.01,
+        StaticModel = queenhearts,
+        WorldStaticModel = queenhearts,
+    }
+
+
+
+    item kingclubs
+    {
+		Type = Normal,
+		DisplayName	= King of Clubs,
+		Icon = kingclubs,
+		Weight = 0.01,
+        StaticModel = kingclubs,
+        WorldStaticModel = kingclubs,
+    }
+
+    item kingdiamonds
+    {
+		Type = Normal,
+		DisplayName	= King of Diamonds,
+		Icon = kingdiamonds,
+		Weight = 0.01,
+        StaticModel = kingdiamonds,
+        WorldStaticModel = kingdiamonds,
+    }
+
+    item kingspades
+    {
+		Type = Normal,
+		DisplayName	= King of Spades,
+		Icon = kingspades,
+		Weight = 0.01,
+        StaticModel = kingspades,
+        WorldStaticModel = kingspades,
+    }
+
+    item kinghearts
+    {
+		Type = Normal,
+		DisplayName	= King of Hearts,
+		Icon = kinghearts,
+		Weight = 0.01,
+        StaticModel = kinghearts,
+        WorldStaticModel = kinghearts,
+    }
+
+
+
+    item aceclubs
+    {
+		Type = Normal,
+		DisplayName	= Ace of Clubs,
+		Icon = aceclubs,
+		Weight = 0.01,
+        StaticModel = aceclubs,
+        WorldStaticModel = aceclubs,
+    }
+
+    item acediamonds
+    {
+		Type = Normal,
+		DisplayName	= Ace of Diamonds,
+		Icon = acediamonds,
+		Weight = 0.01,
+        StaticModel = acediamonds,
+        WorldStaticModel = acediamonds,
+    }
+
+    item acespades
+    {
+		Type = Normal,
+		DisplayName	= Ace of Spades,
+		Icon = acespades,
+		Weight = 0.01,
+        StaticModel = acespades,
+        WorldStaticModel = acespades,
+    }
+
+    item acehearts
+    {
+		Type = Normal,
+		DisplayName	= Ace of Hearts,
+		Icon = acehearts,
+		Weight = 0.01,
+        StaticModel = acehearts,
+        WorldStaticModel = acehearts,
+    }
+
+
+
+    item redjoker
+    {
+		Type = Normal,
+		DisplayName	= Red Joker,
+		Icon = redjoker,
+		Weight = 0.01,
+        StaticModel = redjoker,
+        WorldStaticModel = redjoker,
+    }
+
+    item blackjoker
+    {
+		Type = Normal,
+		DisplayName	= Black Joker,
+		Icon = blackjoker,
+		Weight = 0.01,
+        StaticModel = blackjoker,
+        WorldStaticModel = blackjoker,
+    }
+}

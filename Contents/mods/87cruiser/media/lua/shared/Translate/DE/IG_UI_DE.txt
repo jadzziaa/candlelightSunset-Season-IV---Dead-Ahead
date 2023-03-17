@@ -1,0 +1,6 @@
+IG_UI_DE = {
+	IGUI_VehicleName87cruiser = "'87 TOYOTA Land Cruiser",
+	IGUI_VehicleName87cruiserLights = "'87 TOYOTA Land Cruiser Variante 2",
+	IGUI_VehicleName87cruiserRoofrack = "'87 TOYOTA Land Cruiser mit Dachgepäckträger",	
+	IGUI_VehiclePartcruiserRoofrack = "Dachgepäckträger",
+}

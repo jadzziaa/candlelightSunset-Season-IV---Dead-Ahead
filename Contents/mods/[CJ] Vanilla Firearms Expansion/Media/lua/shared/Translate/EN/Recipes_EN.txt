@@ -1,0 +1,19 @@
+Recipes_EN = {
+Recipe_Open_Tool_Kit ="Open tools kit",
+Recipe_Close_Tool_Kit ="Close tools kit",
+
+Recipe_Open_Box_of_.357 ="Open box of .357",
+Recipe Place_.357_in_box ="Put .357 in box", 
+
+Recipe_Open_Box_of_7.62_NATO ="Open box of .357", 
+Recipe_Place_7.62_NATO_in_Box ="Put .357 in box", 
+
+Recipe_Open_Box_of_5.45_="Open box of 5.45x39", 
+Recipe_Place_5.45_in_box ="Put 5.45x39 in box", 
+
+Recipe_Open_Box_of_7.62x39="Open box of 7.62x39", 
+Recipe_Place_7.62x39_in_box ="Put 7.62x39 in box", 
+
+Recipe_Open_Box_of_22_lr.="Open box of 22 lr.", 
+Recipe_Place_22_lr._in_box ="Put 22 lr. in box", 
+}

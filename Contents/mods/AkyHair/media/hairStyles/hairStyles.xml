@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+	<male>
+		<name>Dixon</name>
+		<model>skinned\hair\M_Dixon</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="DixonG1" />
+		<alternate category="Group01" style="DixonG1" />
+		<alternate category="Group02" style="DixonG2" />
+		<alternate category="Group04" style="DixonG4" />
+		<alternate category="Group05" style="Dixon" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>true</growReference>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Donny</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+	</male>
+		<male>
+		<name>Shaved</name>
+		<model>skinned\hair\M_Shaved</model>
+		<texture>M_Shaved_Tex</texture>
+		<alternate category="default" style="Shaved" />
+		<alternate category="Group01" style="Shaved" />
+		<alternate category="Group02" style="Shaved" />
+		<alternate category="Group04" style="Shaved" />
+		<alternate category="Group05" style="Shaved" />
+		<level>0</level>
+	</male>
+	
+	<male><name>DixonG1</name>
+		<model>skinned\hair\M_DixonG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male><name>DixonG2</name>
+		<model>skinned\hair\M_DixonG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male><name>DixonG4</name>
+		<model>skinned\hair\M_DixonG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+		<female><name>DixonG1</name>
+		<model>skinned\hair\M_DixonG1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>DixonG2</name>
+		<model>skinned\hair\M_DixonG2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female><name>DixonG4</name>
+		<model>skinned\hair\M_DixonG4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+
+</hairStyles>

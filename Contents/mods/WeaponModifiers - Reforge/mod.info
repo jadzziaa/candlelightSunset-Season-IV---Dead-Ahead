@@ -1,0 +1,5 @@
+name=Weapon Modifiers - Tinkering Skill (Reforge)
+id=WeaponModifiersReforge
+poster=poster.png
+description=Adds a reforge feature to the Weapon Modifiers Framework, with a new Tinkering skill.
+require=WeaponModifiersFramework

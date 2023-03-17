@@ -1,0 +1,512 @@
+module STR {
+
+	imports {
+		Base
+	}
+	item Tie_Full_Police_RavenCreek
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = RavenCreek PD Tie,
+		ClothingItem = Tie_Full_Police_RavenCreek,
+		BodyLocation = Neck,
+		Icon = Tie_Police_RavenCreek,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Police_RavenCreek
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = RavenCreek PD Clip-on Tie,
+		ClothingItem = Tie_Worn_Police_RavenCreek,
+		BodyLocation = Neck,
+		Icon = Tie_Police_RavenCreek,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_KSP
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Kentucky State Police Tie,
+		ClothingItem = Tie_Full_KSP,
+		BodyLocation = Neck,
+		Icon = Tie_Police_KSP,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_KSP
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Kentucky State Police Clip-on Tie,
+		ClothingItem = Tie_Worn_KSP,
+		BodyLocation = Neck,
+		Icon = Tie_Police_KSP,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Police_Jefferson
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Jefferson County PD Tie,
+		ClothingItem = Tie_Full_Police_Jefferson,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Jefferson,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Police_Jefferson
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Jefferson County PD Clip-on Tie,
+		ClothingItem = Tie_Worn_Police_Jefferson,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Jefferson,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Police_Louisville
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Louisville DoP Tie,
+		ClothingItem = Tie_Full_Police_Louisville,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Louisville,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Police_Louisville
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Louisville DoP Clip-on Tie,
+		ClothingItem = Tie_Worn_Police_Louisville,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Louisville,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Police_Meade
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Meade County SO Tie,
+		ClothingItem = Tie_Full_Police_Meade,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Meade,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Police_Meade
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Meade County SO Clip-on Tie,
+		ClothingItem = Tie_Worn_Police_Meade,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Meade,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Police_Muldraugh
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Muldraugh PD Tie,
+		ClothingItem = Tie_Full_Police_Muldraugh,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Muldraugh,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Police_Muldraugh
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Muldraugh PD Clip-on Tie,
+		ClothingItem = Tie_Worn_Police_Muldraugh,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Muldraugh,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Police_Riverside
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Riverside PD Tie,
+		ClothingItem = Tie_Full_Police_Riverside,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Riverside,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Police_Riverside
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Riverside PD Clip-on Tie,
+		ClothingItem = Tie_Worn_Police_Riverside,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Riverside,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Police_Rosewood
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Rosewood SD Tie,
+		ClothingItem = Tie_Full_Police_Rosewood,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Rosewood,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Police_Rosewood
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Rosewood SD Clip-on Tie,
+		ClothingItem = Tie_Worn_Police_Rosewood,
+		BodyLocation = Neck,
+		Icon = Tie_Police_Rosewood,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Police_WestPoint
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = WestPoint PD Tie,
+		ClothingItem = Tie_Full_Police_WestPoint,
+		BodyLocation = Neck,
+		Icon = Tie_Police_WestPoint,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Police_WestPoint
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = WestPoint PD Clip-on Tie,
+		ClothingItem = Tie_Worn_Police_WestPoint,
+		BodyLocation = Neck,
+		Icon = Tie_Police_WestPoint,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Sheriff_Jefferson
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Jefferson County SD Tie,
+		ClothingItem = Tie_Full_Sheriff_Jefferson,
+		BodyLocation = Neck,
+		Icon = Tie_Sheriff_Jefferson,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Sheriff_Jefferson
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Jefferson County SD Clip-on Tie,
+		ClothingItem = Tie_Worn_Sheriff_Jefferson,
+		BodyLocation = Neck,
+		Icon = Tie_Sheriff_Jefferson,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_EMS_Jefferson
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Jefferson County EMS Tie,
+		ClothingItem = Tie_Full_EMS_Jefferson,
+		BodyLocation = Neck,
+		Icon = Tie_EMS_Jefferson,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_EMS_Jefferson
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Jefferson County EMS Clip-on Tie,
+		ClothingItem = Tie_Worn_EMS_Jefferson,
+		BodyLocation = Neck,
+		Icon = Tie_EMS_Jefferson,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_EMS_Louisville
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Louisville EMS Tie,
+		ClothingItem = Tie_Full_EMS_Louisville,
+		BodyLocation = Neck,
+		Icon = Tie_EMS_Louisville,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_EMS_Louisville
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Louisville EMS Clip-on Tie,
+		ClothingItem = Tie_Worn_EMS_Louisville,
+		BodyLocation = Neck,
+		Icon = Tie_EMS_Louisville,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_EMS_Meade
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Meade County EMS Tie,
+		ClothingItem = Tie_Full_EMS_Meade,
+		BodyLocation = Neck,
+		Icon = Tie_EMS_Meade,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_EMS_Meade
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Meade County EMS Clip-on Tie,
+		ClothingItem = Tie_Worn_EMS_Meade,
+		BodyLocation = Neck,
+		Icon = Tie_EMS_Meade,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_EMS_RavenCreek
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = FD RavenCreek EMS Tie,
+		ClothingItem = Tie_Full_EMS_RavenCreek,
+		BodyLocation = Neck,
+		Icon = Tie_EMS_RavenCreek,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_EMS_RavenCreek
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = FD RavenCreek EMS Clip-on Tie,
+		ClothingItem = Tie_Worn_EMS_RavenCreek,
+		BodyLocation = Neck,
+		Icon = Tie_EMS_RavenCreek,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Fire_RavenCreek
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = FD RavenCreek Tie,
+		ClothingItem = Tie_Full_Fire_RavenCreek,
+		BodyLocation = Neck,
+		Icon = Tie_Fire_RavenCreek,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Fire_RavenCreek
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = FD RavenCreek Clip-on Tie,
+		ClothingItem = Tie_Worn_Fire_RavenCreek,
+		BodyLocation = Neck,
+		Icon = Tie_Fire_RavenCreek,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Federal_Ranger
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Federal Ranger Tie,
+		ClothingItem = Tie_Full_Federal_Ranger,
+		BodyLocation = Neck,
+		Icon = Tie_Federal_Ranger,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Federal_Ranger
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Federal Ranger Clip-on Tie,
+		ClothingItem = Tie_Worn_Federal_Ranger,
+		BodyLocation = Neck,
+		Icon = Tie_Federal_Ranger,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_State_Ranger
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Kentucky Fish & Wildlife Ranger Tie,
+		ClothingItem = Tie_Full_State_Ranger,
+		BodyLocation = Neck,
+		Icon = Tie_State_Ranger,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_State_Ranger
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Kentucky Fish & Wildlife Ranger Clip-on Tie,
+		ClothingItem = Tie_Worn_State_Ranger,
+		BodyLocation = Neck,
+		Icon = Tie_State_Ranger,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_State_Law_Ranger
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Kentucky State Park Ranger Tie,
+		ClothingItem = Tie_Full_State_Law_Ranger,
+		BodyLocation = Neck,
+		Icon = Tie_State_Law_Ranger,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_State_Law_Ranger
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Kentucky State Park Ranger Clip-on Tie,
+		ClothingItem = Tie_Worn_State_Law_Ranger,
+		BodyLocation = Neck,
+		Icon = Tie_State_Law_Ranger,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Fire_Louisville
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Louisville FD Tie,
+		ClothingItem = Tie_Full_Fire_Louisville,
+		BodyLocation = Neck,
+		Icon = Tie_Fire_Louisville,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Fire_Louisville
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Louisville FD Clip-on Tie,
+		ClothingItem = Tie_Worn_Fire_Louisville,
+		BodyLocation = Neck,
+		Icon = Tie_Fire_Louisville,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Security_Bank
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bank Security Tie,
+		ClothingItem = Tie_Full_Security_Bank,
+		BodyLocation = Neck,
+		Icon = Tie_Security_Bank,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Security_Bank
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bank Security Clip-on Tie,
+		ClothingItem = Tie_Worn_Security_Bank,
+		BodyLocation = Neck,
+		Icon = Tie_Security_Bank,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Security_Hotel_Havisham
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Havisham Hotel Security Tie,
+		ClothingItem = Tie_Full_Security_Hotel_Havisham,
+		BodyLocation = Neck,
+		Icon = Tie_Security_Hotel_Havisham,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Security_Hotel_Havisham
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Havisham Hotel Security Clip-on Tie,
+		ClothingItem = Tie_Worn_Security_Hotel_Havisham,
+		BodyLocation = Neck,
+		Icon = Tie_Security_Hotel_Havisham,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Security_Hotel_Fancy
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Hotel Security Tie,
+		ClothingItem = Tie_Full_Security_Hotel_Fancy,
+		BodyLocation = Neck,
+		Icon = Tie_Security_Hotel_Fancy,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Security_Hotel_Fancy
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Hotel Security Clip-on Tie,
+		ClothingItem = Tie_Worn_Security_Hotel_Fancy,
+		BodyLocation = Neck,
+		Icon = Tie_Security_Hotel_Fancy,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Full_Security_Mall_Ohio
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Grand Ohio Mall Security Tie,
+		ClothingItem = Tie_Full_Security_Mall_Ohio,
+		BodyLocation = Neck,
+		Icon = Tie_Security_Mall_Ohio,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+	item Tie_Worn_Security_Mall_Ohio
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Grand Ohio Mall Security Clip-on Tie,
+		ClothingItem = Tie_Worn_Security_Mall_Ohio,
+		BodyLocation = Neck,
+		Icon = Tie_Security_Mall_Ohio,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+}

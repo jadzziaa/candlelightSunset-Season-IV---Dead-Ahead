@@ -1,0 +1,63 @@
+ContextMenu_CN = {
+	
+
+	ContextMenu_EvolvedRecipe_SapphCooking.ArborioRiceBowl = "一碗意大利饭",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofFriedRice = "一碗炒饭",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofOmurice = "一碗日式蛋包饭",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRisotto = "一碗意大利烩饭",
+	ContextMenu_EvolvedRecipe_SapphCooking.BrownRiceBowl = "一碗糙米",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRavioli = "一碗意式饺子",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofTortellini = "一碗意大利小方饺",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBeefStew = "一碗炖牛肉",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRefriedBeans = "一碗炸豆泥",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguetti = "一碗奶油腌肉意面",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguettiandMeatballs = "一碗肉丸奶油腌肉意面",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes = "一碗土豆泥",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofYakisoba = "一碗日式炒面",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofKungPaoChicken = "一碗宫保鸡丁",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofShuiZhuYu = "一碗水煮鱼",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofJapaneseCurry = "一碗日式咖喱鸡",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBorscht = "一碗罗宋汤",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes_Meatballs = "一碗土豆泥配肉丸",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceJapaneseCurry = "一碗日式咖喱鸡饭",
+	ContextMenu_EvolvedRecipe_SapphCooking.FryingPan_BaconandEggs = "煎锅（培根煎鸡蛋）",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_BaconandEggs = "一盘培根煎鸡蛋",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_BaconandEggs = "一盘培根煎鸡蛋",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_BaconandEggs = "一盘培根煎鸡蛋",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_BaconandEggs = "一盘培根煎鸡蛋",
+	ContextMenu_EvolvedRecipe_SapphCooking.RiceBeanBowl = "一碗饭豆",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofChickenStroganoff = "一碗奶汁鸡丝",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceChickenStroganoff = "一碗奶汁鸡丝盖饭",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_HuevosRancheros = "一盘墨西哥煎蛋",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_HuevosRancheros = "一盘墨西哥煎蛋",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_HuevosRancheros = "一盘墨西哥煎蛋",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_HuevosRancheros = "一盘墨西哥煎蛋",
+
+
+
+
+
+
+
+
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_1 = "即食炖牛肉",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_2 = "即食猪肉饭",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_3 = "即食意大利面",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_4 = "即食火腿煎蛋卷",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_5 = "即食肉汁香肠",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_6 = "即食奶酪饺子",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_7 = "即食酱汁肉丸",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_8 = "即食千层面",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_9 = "即食辣味豆角",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_10 = "即食什锦牛肉套餐",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_11 = "即食鸡肉烩饭套餐",
+  	ContextMenu_EvolvedRecipe_SapphCooking.MRE_12 = "即食肉末米饭套餐",
+
+C	ontextMenu_EvolvedRecipe_SapphCooking.SkewersMeat = "Skewer",
+	ContextMenu_EvolvedRecipe_SapphCooking.SkewersVegetable = "Skewer",
+	ContextMenu_EvolvedRecipe_SapphCooking.SkewersInsect = "Skewer",
+	ContextMenu_EvolvedRecipe_SapphCooking.ThermosBeverage = "Thermos",
+	ContextMenu_EvolvedRecipe_SapphCooking.SapphCrackers = "咸饼干",
+  	ContextMenu_EvolvedRecipe_SapphCooking.SapphCrackers2 = "全麦饼干",
+  
+} 

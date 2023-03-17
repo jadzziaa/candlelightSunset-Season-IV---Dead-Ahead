@@ -1,0 +1,6 @@
+name=Fantasiado's street marks
+id=FantaStreetTiles_01
+description=Tile pack with a few useful street marks to liven up your world
+poster=poster.png
+pack=fantastreetmarks
+tiledef=fantastreetmarks_def 349

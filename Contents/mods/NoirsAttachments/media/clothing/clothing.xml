@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+	<m_FemaleOutfits>
+		<m_Name>PinkGirl</m_Name>
+		<m_Guid>f93d1438-6282-4c40-bc5e-eecd13137534</m_Guid>
+		
+		<m_items>
+			<itemGUID>e1e95db5-0740-4a94-95a4-98766c6242c9</itemGUID> <!-- Boku No Hero Tshirt -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID> <!-- Denims-->
+		</m_items>
+
+		<m_items>
+			<itemGUID>4c7aadbc-1387-4de2-b4d4-b573b2d14f8e</itemGUID> <!-- Friendship Bracelet -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID> <!-- Black Boots -->
+		</m_items>
+		
+		<m_items>
+			<itemGUID>947d556d-6fdc-4565-a310-3bc353811af6</itemGUID> <!-- Pink Backpack-->
+		</m_items>
+	</m_FemaleOutfits>	
+</outfitManager>

@@ -1,0 +1,9 @@
+module Base
+{
+	sound HeartBeat
+	{
+		category = Player,
+		clip
+		{}
+	}
+}

@@ -1,0 +1,4 @@
+UI_EN = {
+    ItemName_Polaroids.PolaroidCamera = "Polaroid Camera",
+    ItemName_Polaroids.Polaroid = "Polaroid"
+}

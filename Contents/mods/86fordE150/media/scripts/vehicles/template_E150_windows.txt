@@ -1,0 +1,127 @@
+module Base
+{
+	model 86fordE150windowfl
+	{
+		mesh = vehicles/Vehicles_86fordE150_Body|e150_window_fl,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = window_fl_bone 1.0,
+	}
+
+	model 86fordE150windowfr
+	{
+		mesh = vehicles/Vehicles_86fordE150_Body|e150_window_fr,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = window_fr_bone 1.0,
+	}
+
+	template vehicle E150Windows
+	{
+		part WindowFrontLeft
+		{
+			model windowFLl45164
+			{
+				file = 86fordE150windowfl,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_fl_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontLeft,
+			area = SeatFrontLeft,
+			itemType = Base.E150SideWindow,
+			table install
+			{
+				requireInstalled = DoorFrontLeft,
+			}
+			table uninstall
+				{
+				requireUninstalled = E150LeftDoorArmor,
+				}
+		}
+
+		part WindowFrontRight
+		{
+			model windowFR15647
+			{
+				file = 86fordE150windowfr,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = window_fr_opening,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontRight,
+			area = SeatFrontRight,
+			itemType = Base.E150SideWindow,
+			table install
+			{
+				requireInstalled = DoorFrontRight,
+			}
+			table uninstall
+				{
+				requireUninstalled = E150RightDoorArmor,
+				}
+		}
+
+		part Window*
+		{
+			category = door,
+			mechanicRequireKey = true,
+			window
+			{
+				openable = true,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:3,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Window,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:3,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+			}
+			lua
+			{
+				create = Vehicles.Create.Window,
+				init = Vehicles.Init.Window,
+			}
+		}
+	}
+}
+

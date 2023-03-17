@@ -1,0 +1,134 @@
+module Base
+{
+
+    model 89fordBroncospareRear
+    {
+        mesh = vehicles/Vehicles_89fordBronco_Body|89bronco_spare1,
+        texture = Vehicles/Vehicles_89fordBronco_Interior_Wheel,
+        shader = vehiclewheel,
+        scale = 0.1,
+    }
+
+    model 89fordBroncospareTop
+    {
+        mesh = vehicles/Vehicles_89fordBronco_Body|89bronco_spare2,
+        texture = Vehicles/Vehicles_89fordBronco_Interior_Wheel,
+        shader = vehiclewheel,
+        scale = 0.1,
+    }
+
+	template vehicle BR89SpareTires
+	{
+
+        part BR89SpareTireRear
+        {
+            model spare12468
+            {
+            file = 89fordBroncospareRear,
+            }
+                
+            specificItem = false,
+            itemType = Base.80sOffroadTireA,
+            area = TruckBed,
+            category = bodywork,
+            mechanicRequireKey = false,
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+			             equip = primary,
+                    }
+                }
+                time = 700,
+                skills = Mechanics:5,
+                recipes = Advanced Mechanics,
+                door = TrunkDoor,
+                test = Vehicles.InstallTest.Default,
+                complete = BR89.InstallComplete.SpareTire,
+            }
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+						equip = primary,
+                    }
+                }
+                time = 700,
+                  skills = Mechanics:5,
+                  recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = BR89.UninstallComplete.SpareTire,
+            }
+            lua
+            {
+                create = BR89.Create.SpareTire,
+            }
+        }
+
+        part BR89SpareTireRoof
+        {
+            model spare4654
+            {
+            file = 89fordBroncospareTop,
+            }
+        
+            specificItem = false,
+            itemType = Base.80sOffroadTireA,
+            area = TruckBed,
+            category = bodywork,
+            mechanicRequireKey = false,
+            table install
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+            equip = primary,
+                    }
+                }
+                time = 700,
+                skills = Mechanics:5,
+                recipes = Advanced Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = KI5.InstallComplete.Default,
+                requireInstalled = BR89Roofrack,
+            }
+            table uninstall
+            {
+                items
+                {
+                    1
+                    {
+                        type = Base.Screwdriver,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 700,
+                  skills = Mechanics:5,
+                  recipes = Advanced Mechanics,
+                test = KI5.UninstallTest.Default,
+            }
+            lua
+            {
+                create = KI5.Create.Blank,
+            }
+        }
+
+    }
+
+}

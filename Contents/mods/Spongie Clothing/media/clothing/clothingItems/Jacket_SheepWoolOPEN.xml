@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>Skinned\Clothes\Spongie\M_SheepWoolJacketOpen</m_MaleModel>
+    <m_FemaleModel>Skinned\Clothes\Spongie\F_SheepWoolJacketOpen</m_FemaleModel>
+    <m_GUID>spongiec-OPEN-46fb-94a4-7d85da7f457d</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_Masks>3</m_Masks>
+    <m_Masks>5</m_Masks>
+    <m_UnderlayMasksFolder>media/textures/clothes/Spongie/Jacket/Masks/LongSleeves/OpenMasks</m_UnderlayMasksFolder>
+    <textureChoices>clothes/Spongie/Jacket/SheepWoolJacket</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/SheepWoolJacket_Black</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/SheepWoolJacket_Green</textureChoices>
+</clothingItem>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+	<files>
+	<path>media/clothing/clothingItems/SlingA.xml</path>
+	<guid>5c145e33-9671-4fe9-a376-dea84711a5b0</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/SlingAalt.xml</path>
+	<guid>266b4fb3-c7b8-493d-9f3e-703d55d92f67</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/SlingAalt2.xml</path>
+	<guid>cd035108-6925-469b-ace2-d1cae6c2c021</guid>
+	</files>
+	<files>
+	<path>media/clothing/clothingItems/SlingAalt3.xml</path>
+	<guid>f3eac468-122b-46e6-b670-a5f773661bf5</guid>
+	</files>
+
+</fileGuidTable>

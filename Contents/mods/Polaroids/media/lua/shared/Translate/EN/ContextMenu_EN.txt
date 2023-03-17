@@ -1,0 +1,9 @@
+ContextMenu_EN = {
+    ContextMenu_Polaroids_TakePhoto = "Take Photo",
+    ContextMenu_Polaroids_PrintPolaroid = "Print Polaroid",
+    ContextMenu_Polaroids_ViewPhoto = "View Photo",
+    ContextMenu_Polaroids_RenamePhoto = "Rename Photo",
+    ContextMenu_Polaroids_NameThisPhoto = "Name this Photo",
+    ContextMenu_Polaroids_EnterPhotoUrl = "Enter Image URL",
+    ContextMenu_Polaroids_EnterPhotoUrl_Invalid = "You must supply an image URL. Upload the image somewhere if you haven't already. URLs must begin with either http:// or https://"
+}

@@ -1,0 +1,6 @@
+Sandbox_EN = {
+
+	Sandbox_JSStableWeights_RateChange = "Weight Change Multiplier",
+	Sandbox_JSStableWeights_RateChange_tooltip = "Mutliplies each player's change in weight to increase or decrease weight change.\nDoes not affect calories or weight loss thresholds.",
+	
+}

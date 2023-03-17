@@ -1,0 +1,3 @@
+ContextMenu_CH = {
+    ContextMenu_RepairWallCrack = "修復牆壁裂縫",
+}

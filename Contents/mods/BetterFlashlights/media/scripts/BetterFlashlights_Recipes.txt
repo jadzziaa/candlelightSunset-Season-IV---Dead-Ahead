@@ -1,0 +1,247 @@
+module Base
+{
+	recipe Remove Battery
+	{
+		keep BF_HeadLight/HandTorch_Army1/HandTorch_Army2/HandTorch_ManLite/HandTorch_CK_LED/Torch1/Torch2/Torch3/Torch4/Torch5/Torch6/Torch7/TorchArmy1/TorchArmy2/BF_SpiffoLite/BF_EgenerexLite/BF_OldFlashlight,
+
+		Result:Battery,
+		Time:30,
+		OnTest:Recipe.OnTest.TorchBatteryRemoval,
+		OnCreate:Recipe.OnCreate.BF_TorchBatteryRemoval,
+		StopOnWalk:false,
+	}
+
+	recipe Insert Battery into HeadLight
+	{
+		destroy BF_HeadLight,
+		destroy Battery,
+
+		Result:BF_HeadLight,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy BF_OldFlashlight,
+		destroy Battery,
+
+		Result:BF_OldFlashlight,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy BF_EgenerexLite,
+		destroy Battery,
+
+		Result:BF_EgenerexLite,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy BF_SpiffoLite,
+		destroy Battery,
+
+		Result:BF_SpiffoLite,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy HandTorch_Army1,
+		destroy Battery,
+
+		Result:HandTorch_Army1,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.BF_TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+
+	recipe Insert Battery into Flashlight
+	{
+		destroy HandTorch_Army2,
+		destroy Battery,
+
+		Result:HandTorch_Army2,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.BF_TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy HandTorch_ManLite,
+		destroy Battery,
+
+		Result:HandTorch_ManLite,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.BF_TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into LED Flashlight
+	{
+		destroy HandTorch_CK_LED,
+		destroy Battery,
+
+		Result:HandTorch_CK_LED,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.BF_TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy Torch1,
+		destroy Battery,
+
+		Result:Torch1,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy Torch2,
+		destroy Battery,
+
+		Result:Torch2,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy Torch3,
+		destroy Battery,
+
+		Result:Torch3,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy Torch4,
+		destroy Battery,
+
+		Result:Torch4,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy Torch5,
+		destroy Battery,
+
+		Result:Torch5,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy Torch6,
+		destroy Battery,
+
+		Result:Torch6,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy Torch7,
+		destroy Battery,
+
+		Result:Torch7,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy TorchArmy1,
+		destroy Battery,
+
+		Result:TorchArmy1,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+	
+	recipe Insert Battery into Flashlight
+	{
+		destroy TorchArmy2,
+		destroy Battery,
+
+		Result:TorchArmy2,
+		Time:30,
+		OnTest:Recipe.OnTest.BF_TorchBatteryInsert,
+		OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+		StopOnWalk:false,
+	}
+
+	recipe Dismantle Flashlight
+	{
+		destroy BF_OldFlashlight/HandTorch_Army1/HandTorch_Army2/HandTorch_ManLite/HandTorch_CK_LED/Torch1/Torch2/Torch3/Torch4/Torch5/Torch6/Torch7/TorchArmy1/TorchArmy2/BF_EgenerexLite/BF_SpiffoLite,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		Result:ElectronicsScrap,
+		Time:30.0,
+		OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+		OnCreate:Recipe.OnCreate.BF_DismantleFlashlight,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Source=1,
+	}
+	
+	recipe Dismantle Headlight
+	{
+		destroy BF_HeadLight,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		Result:ElectronicsScrap,
+		Time:30.0,
+		OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+		OnCreate:Recipe.OnCreate.BF_DismantleFlashlight,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Source=1,
+	}
+}

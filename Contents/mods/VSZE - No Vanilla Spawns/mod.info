@@ -1,0 +1,9 @@
+name=Vehicle Spawn Zones Expanded - No Vanilla Vehicle Spawns
+poster=preview.png
+versionMin=41.60
+id=fhqExpVehSpawnNoVanilla
+authors=fhqwhgads
+tags=Vehicles, Map
+modVersion=1.0.0
+description=Disables spawns of vanilla vehicles in the new spawn lists. For use with other mods that disable vanilla vehicle spawning, or if you only want to see mod vehicles in the new spawn lists.
+require=fhqExpVehSpawn

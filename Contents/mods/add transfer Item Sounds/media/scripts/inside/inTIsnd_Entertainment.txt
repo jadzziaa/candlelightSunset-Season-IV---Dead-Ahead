@@ -1,0 +1,48 @@
+module Base
+{
+	sound inTIsnd_Entertainment	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Entertainment_1.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Entertainment	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Entertainment_2.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Entertainment	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Entertainment_3.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Entertainment	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Entertainment_4.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Entertainment	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Entertainment_5.ogg,
+			volume = 0.8,
+		}
+	}
+}

@@ -1,0 +1,8 @@
+ ContextMenu_PTBR = {
+
+    ContextMenu_TuckIn = "Guardar Calça",
+    ContextMenu_TuckOut = "Soltar Calça",
+    ContextMenu_UpHoodie = "Capuz Levantado",
+    ContextMenu_DownHoodie = "Capuz Abaixado",
+
+}  

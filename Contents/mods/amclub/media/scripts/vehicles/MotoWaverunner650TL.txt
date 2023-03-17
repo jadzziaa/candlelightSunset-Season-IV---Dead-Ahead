@@ -1,0 +1,396 @@
+module Base
+{
+    model AMC_WaverunnerModel
+    {
+        mesh = moto/AMC_waverunner|yamaha_body,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.14,
+    }
+    vehicle AMC_Waverunner
+    {
+        part AMCConfig
+        {
+            category = nodisplay,
+
+            table AMCConfig
+            {
+                type = WAVE,
+                speedDelta = 10,
+                hideWeapon = 1,
+            }
+        }
+
+        part TCLConfig
+        {
+            category = nodisplay,
+
+            table TCLConfig
+            {
+                disableDoorLocker = 1,
+                disableSleep = 1,
+            }
+        }
+
+        model
+        {
+            file = AMC_WaverunnerModel,
+            scale = 7.0000,
+            offset = 0.0000 -0.2929 0.0529,
+        }
+
+        skin
+        {
+            texture = AMC_waverunner_650TL_texture,
+        }
+
+        texture = AMC_waverunner_650TL_texture,
+        textureRust = AMC_waverunner_650TL_rust,
+        textureLights = AMC_waverunner_650TL_lights,
+        textureMask = AMC_waverunner_650TL_mask,
+        textureDamage1Shell = AMC_waverunner_650TL_damage,
+        textureDamage2Shell = AMC_waverunner_650TL_damage,
+        textureDamage1Overlay = AMC_waverunner_650TL_blood,
+        textureDamage2Overlay = AMC_waverunner_650TL_blood,
+        textureShadow = AMC_waverunner_650TL_shadow3,
+        mechanicType = 3,
+        offRoadEfficiency = 3,
+        engineRepairLevel = 5,
+        playerDamageProtection = 1.3,
+        extents = 0.3571 0.1629 0.7286,
+        mass = 300,
+        physicsChassisShape = 0.1143 0.1657 0.3543,
+        centerOfMassOffset = 0.0000 0.1729 0.0000,
+        shadowExtents = 0.1621 0.3876,
+        shadowOffset = 0.0000 0.0407,
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.0843 0.3957 0.1329,
+            radius = 0.15f,
+            width = 0.5f,
+        }
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.0843 0.3957 0.1329,
+            radius = 0.15f,
+            width = 0.5f,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = 0.0843 0.3957 -0.2543,
+            radius = 0.15f,
+            width = 0.5f,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = -0.0843 0.3957 -0.2543,
+            radius = 0.15f,
+            width = 0.5f,
+        }
+
+        engineForce = 4000,
+        maxSpeed = 60f,
+        engineLoudness = 90,
+        engineQuality = 50,
+        brakingForce = 01,
+        gearRatioCount = 1,
+        gearRatioR = 10,
+        gearRatio0 = 10,
+        stoppingMovementForce = 0.0f,
+        rollInfluence = 0.01f,
+        steeringIncrement = 0.02,
+        steeringClamp = 0.05,
+        suspensionStiffness = 70,
+        suspensionCompression = 1,
+        suspensionDamping = 100,
+        maxSuspensionTravelCm = 1,
+        suspensionRestLength = 1.0,
+        wheelFriction = 8.0f,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 2,
+        template = PassengerSeat2,
+
+        passenger FrontLeft
+        {
+            showPassenger = true,
+            hasRoof = false,
+
+            position inside
+            {
+                offset = 0.0000 0.0457 -0.0829,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.0000 0.0457 -0.0829,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontLeft,
+            }
+        }
+
+        passenger FrontRight
+        {
+            showPassenger = true,
+            hasRoof = false,
+
+            position inside
+            {
+                offset = 0.0000 0.0457 -0.1271,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.0000 0.0457 -0.1271,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontRight,
+            }
+        }
+
+        area Engine
+        {
+            xywh = 0.0043 0.1729 0.1714 0.1714,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 0.2643 -0.0329 0.1714 0.1714,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = 0.2643 -0.1414 0.1714 0.1657,
+        }
+
+        area GasTank
+        {
+            xywh = 0.2386 0.0757 0.1914 0.2086,
+        }
+
+        area TireRearLeft
+        {
+            xywh = 0.1600 -0.2600 0.1914 0.2086,
+        }
+
+        area TireRearRight
+        {
+            xywh = -0.1686 -0.2600 0.1914 0.2086,
+        }
+
+        template = Seat/part/SeatFrontLeft,
+
+        part SeatFrontRight
+        {
+            mechanicRequireKey = false,
+        }
+
+        template = Seat/part/SeatFrontRight,
+
+        part SeatFrontRight
+        {
+            category = nodisplay,
+
+            lua
+            {
+                create = AMC_Moto.Create.SeatFrontRight,
+                init = AMC_Moto.Init.SeatFrontRight,
+                update = AMC_Moto.Update.SeatFrontRight,
+            }
+        }
+
+        template = GasTank,
+
+        part GasTank
+        {
+            install
+            {
+                skills = Mechanics:6,
+            }
+
+            uninstall
+            {
+                skills = Mechanics:6,
+            }
+        }
+
+        template = Engine,
+        template = Battery,
+        template = Suspension,
+
+        part Suspension*
+        {
+            category = nodisplay,
+
+            lua
+            {
+                create = Vehicles.Create.Default,
+                init = CommonTemplates.Init.Repair,
+            }
+        }
+
+        part Battery
+        {
+            area = GasTank,
+        }
+
+        template = Muffler,
+
+        part Muffler
+        {
+            area = SeatFrontRight,
+        }
+
+        template = ApiBoatAirbag,
+
+        attachment trailer
+        {
+            offset = 0.0000 0.6125 -1.1475,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = -1.0000,
+        }
+
+        attachment trailerfront
+        {
+            offset = 0.0000 0.6125 1.1475,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = 1.0000,
+        }
+    }
+    vehicle AMC_Waverunner_Ground
+    {
+        model
+        {
+            file = AMC_WaverunnerModel,
+            scale = 7.0000,
+            offset = 0.0000 0.0286 0.0529,
+        }
+
+        skin
+        {
+            texture = AMC_waverunner_650TL_texture,
+        }
+
+        texture = AMC_waverunner_650TL_texture,
+        textureRust = AMC_waverunner_650TL_rust,
+        textureLights = AMC_waverunner_650TL_lights,
+        textureMask = AMC_waverunner_650TL_mask,
+        textureDamage1Shell = AMC_waverunner_650TL_damage,
+        textureDamage2Shell = AMC_waverunner_650TL_damage,
+        textureDamage1Overlay = AMC_waverunner_650TL_blood,
+        textureDamage2Overlay = AMC_waverunner_650TL_blood,
+        textureShadow = AMC_waverunner_650TL_shadow3,
+        mechanicType = 3,
+        offRoadEfficiency = 3,
+        engineRepairLevel = 5,
+        playerDamageProtection = 1.3,
+        extents = 0.1457 0.1229 0.3657,
+        mass = 300,
+        physicsChassisShape = 0.1143 0.1229 0.3657,
+        centerOfMassOffset = 0.0000 0.0686 0.0314,
+        shadowExtents = 0.1621 0.3876,
+        shadowOffset = 0.0000 0.0407,
+        engineForce = 4000,
+        maxSpeed = 60f,
+        engineLoudness = 90,
+        engineQuality = 50,
+        brakingForce = 01,
+        gearRatioCount = 1,
+        gearRatioR = 10,
+        gearRatio0 = 10,
+        stoppingMovementForce = 0.0f,
+        rollInfluence = 0.01f,
+        steeringIncrement = 0.02,
+        steeringClamp = 0.05,
+        suspensionStiffness = 70,
+        suspensionCompression = 1,
+        suspensionDamping = 100,
+        maxSuspensionTravelCm = 1,
+        suspensionRestLength = 1.0,
+        wheelFriction = 8.0f,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 2,
+        
+        area Engine
+        {
+            xywh = 0.0000 0.2729 0.1714 0.1714,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 0.1571 -0.0143 0.1714 0.1714,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -0.1571 -0.0171 0.1714 0.1657,
+        }
+
+        area GasTank
+        {
+            xywh = 0.1571 0.1571 0.1714 0.1714,
+        }
+
+        template = Seat/part/SeatFrontLeft,
+
+        part SeatFrontRight
+        {
+            mechanicRequireKey = false,
+        }
+
+        template = Seat/part/SeatFrontRight,
+
+        part SeatFrontRight
+        {
+            category = nodisplay,
+
+            lua
+            {
+                create = AMC_Moto.Create.SeatFrontRight,
+                init = AMC_Moto.Init.SeatFrontRight,
+                update = AMC_Moto.Update.SeatFrontRight,
+            }
+        }
+
+        template = GasTank,
+
+        part GasTank
+        {
+            install
+            {
+                skills = Mechanics:6,
+            }
+
+            uninstall
+            {
+                skills = Mechanics:6,
+            }
+        }
+
+        template = Suspension,
+        template = Engine,
+        template = Battery,
+
+        part Battery
+        {
+            area = GasTank,
+        }
+
+        template = Muffler,
+
+        part Muffler
+        {
+            area = SeatFrontRight,
+        }
+    }
+}

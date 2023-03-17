@@ -1,0 +1,93 @@
+module Base
+{
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_1.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_2.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_3.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_4.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_5.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_6.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_7.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_8.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_9.ogg,
+			volume = 0.8,
+		}
+	}
+	sound inTIsnd_Ammo	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Ammo_10.ogg,
+			volume = 0.8,
+		}
+	}
+}

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- define trimChoices so you will be able to trim your beard to those types (none is always available  -->
+<!-- note: all level udner your current beard will be available to trim (no need to define BeardOnly for "Full" or "Long" for example -->
+<!-- Level will determine the next step for your beard to grow -->
+<!-- when growing we take all the next level of beardStyles and check for the one with the growReference, setup only one! -->
+<beardStyles>
+	<style>
+		<name>Stubble</name>
+		<model>skinned/beards/beard1</model>
+		<texture>stubblescars1_tex</texture>
+		<growReference>true</growReference>
+		<level>1</level>	<!--What happens if I set this to 0? -->
+	</style>
+<style>
+		<name>Chops</name>
+		<model>skinned/beards/bob_beard_chops</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Stubble</trimChoices>
+	</style>
+	<style>
+		<name>Moustache</name>
+		<model>skinned/beards/bob_beard_moustache</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Stubble</trimChoices>
+	</style>
+	<style>
+		<name>Goatee</name>
+		<model>skinned/beards/bob_beard_goatee</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Moustache</trimChoices>
+		<trimChoices>Stubble</trimChoices>
+	</style>
+	<style>
+		<name>BeardOnly</name>
+		<model>skinned/beards/bob_beard_only</model>
+		<texture>F_Hair_White</texture>
+		<growReference>true</growReference>
+		<level>1</level>
+		<trimChoices>Chops</trimChoices>
+		<trimChoices>Chin</trimChoices>
+		<trimChoices>PointyChin</trimChoices>
+		<trimChoices>Stubble</trimChoices>
+	</style>
+	<style>
+		<name>Full</name>
+		<model>skinned/beards/bob_beard_full</model>
+		<texture>F_Hair_White</texture>
+		<growReference>true</growReference>
+		<level>2</level>
+	</style>
+	<style>
+		<name>Long</name>
+		<model>skinned/beards/bob_beard_long</model>
+		<texture>F_Hair_White</texture>
+		<level>3</level>
+	</style>
+	<style>
+		<name>LongScruffy</name>
+		<model>skinned/beards/bob_beard_longscruffy</model>
+		<texture>F_Hair_White</texture>
+		<growReference>true</growReference>
+		<level>3</level>
+	</style>
+	<style>
+		<name>Chin</name>
+		<model>skinned/beards/bob_beard_chin</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Stubble</trimChoices>
+	</style>
+	<style>
+		<name>PointyChin</name>
+		<model>skinned/beards/bob_beard_pointychin</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Stubble</trimChoices>
+	</style>
+</beardStyles>

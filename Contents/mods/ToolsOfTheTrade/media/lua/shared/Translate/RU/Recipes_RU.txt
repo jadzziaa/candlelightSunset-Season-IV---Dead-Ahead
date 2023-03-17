@@ -1,0 +1,23 @@
+Recipes_RU = 
+{
+	Recipe_Switch_Stance = "Повернуть",
+	Recipe_Switch_to_Stabbing = "Сделать колющим",
+	Recipe_Switch_to_Slashing = "Сделать рубящим",
+	Recipe_Make_A_Defiler= "Сделать Осквернитель",
+	Recipe_Make_A_Despoiler = "Сделать Опустошитель",
+	Recipe_Make_A_Shillelagh = "Сделать Шилейлу",
+	Recipe_Make_A_Heavy_Shillelagh = "Сделать Тяжёлый блэктарн",
+	Recipe_Make_a_Rebar_Club = "Сделать конструкцию из железобетона",
+	Recipe_Make_a_Rebar_Spear = "Прицепить копьё к арматуре",
+	Recipe_Make_a_Rebar_Hammer = "Сделать молот из арматуры",
+	Recipe_Make_a_Trench_Bat = "Сделать бейбольную биту с шипами",
+	Recipe_Grind_Corn_Into_Cornflour = "Перемолоть кукурузу в кукурузную муку",
+	Recipe_Create_Homemade_Cornbread = "Приготовить домашний кукурузный хлеб",
+	Recipe_Empty_Cast_Iron_Skillet = "Пустая чугунная сковорода",
+	Recipe_Attach_Eraser_to_Pencil = "Насадить стиралку на карандаш",
+	Recipe_Replace_Stun_Gun_Batteries = "Замененить батарейки в шокере",
+	Recipe_Change_to_Halberd_Spear = "Колоть копьём",
+	Recipe_Change_to_Halberd_Axe = "Бить топором",
+	Recipe_Extend_Baton = "Раскласть",
+	Recipe_Collapse_Baton = "Сложить"
+}

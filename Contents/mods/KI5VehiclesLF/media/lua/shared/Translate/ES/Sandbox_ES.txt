@@ -1,0 +1,5 @@
+Sandbox_ES = {
+	Sandbox_DAMN_Spawns = "KI5 - Engendros garantizados",
+
+	Sandbox_DAMN_AllowBushmasterSpawns = "Habilitar engendros preestablecidos ARF Brushwhacker",
+}

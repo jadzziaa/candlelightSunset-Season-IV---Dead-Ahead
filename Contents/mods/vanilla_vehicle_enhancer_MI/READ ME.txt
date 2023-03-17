@@ -1,0 +1,16 @@
+**** READ! READ! READ! ****
+THIS MOD REPLACES SOME STOCK FILES AND TEXTURES. I HIGHLY RECOMMEND STARTING A NEW GAME BEFORE USING THIS MOD. DO NOT BLAME ME IF YOU MESS UP YOUR SAVE FILE.
+
+
+Over 400 skins based on real world vehicles with realistic paint colors! Included are new wheels as well as textures for the wrecked and crispified versions also!
+
+This mod got started when I got tired of looking at all the weirdly pastel colored cars that spawn in the game by default so I decided to try and make things a bit more realistic. This basic goal got out of hand probably due to a case of OCD and this mod is the result.
+
+This mod replaces all textures for all vehicles in the vanilla game except for the step van and the trailer which I might do for a future update. The aim of this mod is to enhance the look of the default vehicles and to add some much needed variety to the vanilla motor pool.  
+
+There are now three different types of police cars; a standard police car, a sheriff's car, and a state trooper car. These skins are based on the mod "Proper Police Skins" by Söze with permission. You don't need both mods for this to work but you will have to pick one or the other as they do conflict with each other.
+
+This mod will likely have problems working alongside any mod that messes with the files for the vanilla cars. I have tested this mod with a few vehicle related mods and have encountered issues with two mods for sure: Eggon's Worthwhile Cars and the Crashed Cars mod. Eggon's Worthwhile Cars causes some vehicle's textures to not show up properly and the Crashed Cars Mod causes the textures for the wrecked cars to not show up properly. This issue persisted no matter what order I ran the mods in. If you are fine with these problems you can continue using those mods.
+
+Workshop ID: 2788428718
+Mod ID: VVehicleEnhancer

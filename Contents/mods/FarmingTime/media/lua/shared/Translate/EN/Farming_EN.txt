@@ -1,0 +1,11 @@
+Farming_EN = {
+  -- vegetables name (type of seed)
+  Farming_Beets = "Beets",
+  Farming_Coffee = "Coffee Plant",
+  Farming_Cauliflowers = "Cauliflowers",
+  Farming_Corn = "Corn",
+  Farming_Lemongrass = "Lemongrass",
+  Farming_Lettuce = "Lettuce",
+  Farming_Tea = "Tea Plant",
+  Farming_Wheat = "Wheat",
+}

@@ -1,0 +1,21 @@
+Recipe_ES = {
+	-- Translation by Alapma from Steam
+	Recipe_Open_Beet_Seed_Packet = "Abrir paquete de semillas de remolacha",
+	Recipe_Open_Cauliflower_Seed_Packet = "Abrir paquete de semillas de coliflor",
+	Recipe_Open_Corn_Seed_Packet = "Abrir paquete de semillas de maíz",
+	Recipe_Open_Packet_of_Lemon_Grass_Seeds = "Abrir paquete de semillas de citronela",
+	Recipe_Open_Packet_of_Wheat_Seeds = "Abrir paquete de semillas de trigo",
+	Recipe_Make_Cornflour = "Hacer harina de maíz",
+	Recipe_Make_Flour = "Hacer harina",
+	Recipe_Make_Beet_Syrup = "Hacer sirope de remolacha",
+	Recipe_Place_Beets_in_Cooking_Pot = "Poner remolachas en una olla",
+	Recipe_Put_Beet_Seeds_in_Packet = "Empaquetar semillas de remolacha",
+	Recipe_Put_Cauliflower_Seeds_in_Packet = "Empaquetar semillas de coliflor",
+	Recipe_Put_Lemon_Grass_Seeds_in_Packet = "Empaquetar semillas de citronela",
+	Recipe_Put_Corn_Seeds_in_Packet = "Empaquetar semillas de maíz",
+	Recipe_Remove_Sugar_From_Pot = "Quitar azúcar de la olla",
+	Recipe_Thresh_Corn = "Desgranar maíz",
+	Recipe_Thresh_Wheat = "Desgranar trigo",
+	Recipe_Put_Wheat_Seeds_in_Packet = "Empaquetar semillas de trigo",
+	Recipe_Get_Wheat_Seeds = "Obtener semillas de trigo",
+}

@@ -1,0 +1,2361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+	<male>
+		<name>GreasedBack</name>
+		<model>skinned\hair\bob_hair_greasedback</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="GreasedBackHat" />
+		<alternate category="Group01" style="GreasedBackHat" />
+		<alternate category="Group02" style="GreasedBackG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="GreasedBackHat" />
+		<alternate category="Group05" style="GreasedBack" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Recede</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>Short</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+		<trimChoices>FlatTop</trimChoices>
+		<trimChoices>Spike</trimChoices>
+	</male>
+	<male>
+		<name>Buffont</name>
+		<model>skinned\hair\bob_hair_buffont</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="BuffontHat" />
+		<alternate category="Group01" style="BuffontHat" />
+		<alternate category="Group02" style="BuffontG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="BuffontHat" />
+		<alternate category="Group05" style="Buffont" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+	</male>
+	<male>
+		<name>LongBraids</name>
+		<model>skinned\hair\bob_hair_longbraided</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="LongBraidedHat" />
+		<alternate category="Group01" style="LongBraidedHat" />
+		<alternate category="Group02" style="LongBraidedG2Hat" />
+		<alternate category="Group03" style="FabianBraidedG3Hat" />
+		<alternate category="Group04" style="LongBraidedHat" />
+		<alternate category="Group05" style="LongBraids" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>Metal</trimChoices>
+		<trimChoices>Fabian</trimChoices>
+		<trimChoices>Mullet</trimChoices>
+	</male>
+	<male>
+		<name>Braids</name>
+		<model>skinned\hair\bob_hair_braided01</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="BraidsHat" />
+		<alternate category="Group01" style="BraidsHat" />
+		<alternate category="Group02" style="BraidsG2Hat" />
+		<alternate category="Group03" style="BraidsG3Hat" />
+		<alternate category="Group04" style="BraidsHat" />
+		<alternate category="Group05" style="Braids" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+	</male>
+	<male>
+		<name>Grungey</name>
+		<model>skinned\hair\bob_hair_grungey</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="GrungeyHat" />
+		<alternate category="Group01" style="GrungeyHat" />
+		<alternate category="Group02" style="GrungeyG2Hat" />
+		<alternate category="Group03" style="GrungeyG3Hat" />
+		<alternate category="Group04" style="GrungeyHat" />
+		<alternate category="Group05" style="Grungey" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+	</male>
+	<male>
+		<name>GrungeyBehindEars</name>
+		<model>skinned\hair\bob_hair_grungeybehindear</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="GrungeyBehindEarsHat" />
+		<alternate category="Group01" style="GrungeyBehindEarsHat" />
+		<alternate category="Group02" style="GrungeyBehindEarsG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="GrungeyBehindEarsHat" />
+		<alternate category="Group05" style="GrungeyBehindEars" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>Braids</trimChoices>
+	</male>
+	<male>
+		<name>Bald</name>
+		<model></model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="Bald" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="Bald" />
+		<alternate category="Group06" style="Bald" />
+		<level>0</level>
+	</male>
+	<male>
+		<name>Picard</name>
+		<model>skinned/hair/m_hair_picard</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Picard" />
+		<alternate category="Group01" style="Picard" />
+		<alternate category="Group02" style="Picard" />
+		<alternate category="Group03" style="Picard" />
+		<alternate category="Group04" style="Picard" />
+		<alternate category="Group05" style="Picard" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+	</male>
+	<male>
+		<name>CrewCut</name>
+		<model>skinned/hair/m_hair_crewcut</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="CrewCut" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="CrewCut" />
+		<alternate category="Group06" style="Bald" />
+		<level>1</level>
+	</male>
+	<male>
+		<name>Baldspot</name>
+		<model>skinned/hair/m_hair_Baldspot</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Baldspot" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="Baldspot" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Picard</trimChoices>
+	</male>
+	<male>
+		<name>Recede</name>
+		<model>skinned/hair/m_hair_recede</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Recede" />
+		<alternate category="Group03" style="RecedeG3Hat" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="Recede" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Picard</trimChoices>
+	</male>
+	<male>
+		<name>Hat</name>
+		<model>skinned\hair\m_hair_shorthat</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="Hat" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Recede</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+	</male>
+	<male>
+		<name>Messy</name>
+		<model>skinned/hair/m_hair_messy</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Messy" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="Messy" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>true</growReference>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Recede</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+	</male>
+	<male>
+		<name>Short</name>
+		<model>skinned/hair/m_hair_short</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Short" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="Short" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Recede</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+	</male>
+	<male>
+		<name>Donny</name>
+		<model>skinned/hair/m_hair_donny</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Hat" />
+		<alternate category="Group03" style="DonnyG3Hat" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="Donny" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>true</growReference>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+	</male>
+	<male>
+		<name>Mullet</name>
+		<model>skinned/hair/m_hair_mullet</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Mullet" />
+		<alternate category="Group01" style="Mullet" />
+		<alternate category="Group02" style="Mullet" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Mullet" />
+		<alternate category="Group05" style="Mullet" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</male>
+	<male>
+		<name>Metal</name>
+		<model>skinned/hair/m_hair_metal</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="MetalHat" />
+		<alternate category="Group01" style="MetalHat" />
+		<alternate category="Group02" style="MetalG2Hat" />
+		<alternate category="Group03" style="FabianG3Hat" />
+		<alternate category="Group04" style="MetalG4Hat" />
+		<alternate category="Group05" style="Metal" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<trimChoices>Mullet</trimChoices>
+		<trimChoices>Fabian</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>
+	</male>
+	<male>
+		<name>Fabian</name>
+		<model>skinned/hair/m_hair_fabian</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="FabianHat" />
+		<alternate category="Group01" style="FabianHat" />
+		<alternate category="Group02" style="FabianG2Hat" />
+		<alternate category="Group03" style="FabianG3Hat" />
+		<alternate category="Group04" style="FabianG4Hat" />
+		<alternate category="Group05" style="Fabian" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>true</growReference>
+		<trimChoices>Mullet</trimChoices>
+		<trimChoices>Metal</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>
+	</male>
+	<male>
+		<name>PonyTail</name>
+		<model>skinned\hair\m_hair_ponytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="PonyTail" />
+		<alternate category="Group01" style="PonyTail" />
+		<alternate category="Group02" style="PonyTail" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="PonyTail" />
+		<alternate category="Group05" style="PonyTail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male>
+		<name>FabianCurly</name>
+		<model>skinned\hair\bob_hair_fabiancurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="FabianCurlyHat" />
+		<alternate category="Group01" style="FabianCurlyHat" />
+		<alternate category="Group02" style="FabianCurlyG2Hat" />
+		<alternate category="Group03" style="FabianCurlyG3Hat" />
+		<alternate category="Group04" style="FabianCurlyG4Hat" />
+		<alternate category="Group05" style="FabianCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>true</growReference>
+		<trimChoices>MulletCurly</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>
+	</male>
+	<male>
+		<name>MessyCurly</name>
+		<model>skinned\hair\bob_hair_messycurly</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="HatCurly" />
+		<alternate category="Group01" style="HatCurly" />
+		<alternate category="Group02" style="MessyCurly" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="HatCurly" />
+		<alternate category="Group05" style="MessyCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>true</growReference>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Recede</trimChoices>
+		<trimChoices>ShortHatCurly</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+	</male>
+	<male>
+		<name>MulletCurly</name>
+		<model>skinned\hair\bob_hair_mulletcurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="MulletCurly" />
+		<alternate category="Group01" style="MulletCurly" />
+		<alternate category="Group02" style="MulletCurly" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="MulletCurly" />
+		<alternate category="Group05" style="MulletCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<trimChoices>FabianCurly</trimChoices>
+	</male>
+	<male>
+		<name>ShortAfroCurly</name>
+		<model>skinned\hair\bob_hair_shortcurly</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="ShortHatCurly" />
+		<alternate category="Group01" style="ShortHatCurly" />
+		<alternate category="Group02" style="ShortAfroCurly" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="ShortHatCurly" />
+		<alternate category="Group05" style="ShortAfroCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>ShortHatCurly</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+	</male>
+	<male>
+		<name>ShortHatCurly</name>
+		<model>skinned\hair\bob_hair_shorthatcurly</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="ShortHatCurly" />
+		<alternate category="Group01" style="ShortHatCurly" />
+		<alternate category="Group02" style="ShortHatCurly" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="ShortHatCurly" />
+		<alternate category="Group05" style="ShortHatCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Recede</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+	</male>
+	<male>
+		<name>CentreParting</name>
+		<model>skinned\hair\bob_hair_partingcentre</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="CentrePartingG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="CentreParting" />
+		<alternate category="Group06" style="Bald" />
+		<level>1</level>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>Recede</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Short</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+	</male>
+	<male>
+		<name>LeftParting</name>
+		<model>skinned\hair\bob_hair_partingleft</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="PartingLeftG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="LeftParting" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>Short</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+	</male>
+	<male>
+		<name>RightParting</name>
+		<model>skinned\hair\bob_hair_partingright</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="PartingRightG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="RightParting" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>Short</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+	</male>
+	<male>
+		<name>CentrePartingLong</name>
+		<model>skinned\hair\bob_hair_partingcentrelong</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="CentrePartingLongHat" />
+		<alternate category="Group01" style="CentrePartingLongHat" />
+		<alternate category="Group02" style="CentrePartingLongG2Hat" />
+		<alternate category="Group03" style="CentrePartingLongG3Hat" />
+		<alternate category="Group04" style="CentrePartingLongG4Hat" />
+		<alternate category="Group05" style="CentrePartingLong" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>PonyTail</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+	</male>
+	<male>
+		<name>Cornrows</name>
+		<model>skinned\hair\bob_hair_cornrows</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="Cornrows" />
+		<alternate category="Group01" style="Cornrows" />
+		<alternate category="Group02" style="Cornrows" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Cornrows" />
+		<alternate category="Group05" style="Cornrows" />
+		<alternate category="Group06" style="Cornrows" />
+		<level>1</level>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>Short</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+	</male>
+	<male>
+		<name>Fresh</name>
+		<model>skinned\hair\bob_hair_fresh</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="Fresh" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="Fresh" />
+		<alternate category="Group06" style="Bald" />
+		<level>1</level>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>Short</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+	</male>
+	<male>
+		<name>LibertySpikes</name>
+		<model>skinned\hair\bob_hair_libertyspikes</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="LibertySpikesHat" />
+		<alternate category="Group02" style="LibertySpikesG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="LibertySpikes" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+	</male>
+	<male>
+		<name>MohawkFan</name>
+		<model>skinned\hair\bob_hair_mohawkfan</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="HatPunkHat" />
+		<alternate category="Group01" style="HatPunkHat" />
+		<alternate category="Group02" style="HatPunkHat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="HatPunkHat" />
+		<alternate category="Group05" style="MohawkFan" />
+		<alternate category="Group06" style="Bald" />
+		<level>2</level>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+	</male>
+	<male>
+		<name>MohawkShort</name>
+		<model>skinned\hair\bob_hair_mohawkshort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="MohawkShort" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="MohawkShort" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="MohawkShort" />
+		<alternate category="Group06" style="Bald" />
+		<level>1</level>
+	</male>
+	<male>
+		<name>MohawkSpike</name>
+		<model>skinned\hair\bob_hair_mohawkspike</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="HatPunkHat" />
+		<alternate category="Group01" style="HatPunkHat" />
+		<alternate category="Group02" style="HatPunkHat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="HatPunkHat" />
+		<alternate category="Group05" style="MohawkSpike" />
+		<alternate category="Group06" style="Bald" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+	</male>
+	<male>
+	<name>MohawkFlat</name>
+		<model>skinned\hair\bob_hair_mohawkflat</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="MohawkShort" />
+		<alternate category="Group02" style="MohawkFlat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="MohawkShort" />
+		<alternate category="Group05" style="MohawkFlat" />
+		<alternate category="Group06" style="Bald" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Braids</trimChoices>
+	</male>
+	<male>
+		<name>FlatTop</name>
+		<model>skinned\hair\bob_hair_flattop</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="FlatTop" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="FlatTop" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+	</male>
+	<male>
+		<name>LongBraids02</name>
+		<model>skinned\hair\bob_hair_fabianbraided</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="HatLongBraided" />
+		<alternate category="Group01" style="HatLongBraided" />
+		<alternate category="Group02" style="HatLongBraided" />
+		<alternate category="Group03" style="FabianBraidedG3Hat" />
+		<alternate category="Group04" style="HatLongBraided" />
+		<alternate category="Group05" style="LongBraided02" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>Metal</trimChoices>
+		<trimChoices>Fabian</trimChoices>
+		<trimChoices>Mullet</trimChoices>
+	</male>
+	<male>
+		<name>PonyTailBraids</name>
+		<model>skinned\hair\bob_hair_ponytailbraided</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="PonyTailBraids" />
+		<alternate category="Group01" style="PonyTailBraids" />
+		<alternate category="Group02" style="PonyTailBraids" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="PonyTailBraids" />
+		<alternate category="Group05" style="PonyTailBraids" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+	</male>
+	<male>
+		<name>Spike</name>
+		<model>skinned\hair\bob_hair_spike</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Spike" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="Spike" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>Bald</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+	</male>
+	<female>
+		<name>PonyTailBraids</name>
+		<model>skinned\hair\Kate_Hair_PonyTailBraided</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="PonyTailbraidedHat" />
+		<alternate category="Group01" style="PonyTailbraidedHat" />
+		<alternate category="Group02" style="PonyTailbraidedHat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="PonyTailbraidedHat" />
+		<alternate category="Group05" style="PonyTailBraids" />
+		<alternate category="Group06" style="Bald" />
+		<level>3</level>
+	</female>
+	<female>
+		<name>Buffont</name>
+		<model>skinned\hair\kate_hair_buffont</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="BuffontHat" />
+		<alternate category="Group01" style="BuffontHat" />
+		<alternate category="Group02" style="BuffontG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="BuffontHat" />
+		<alternate category="Group05" style="Buffont" />
+		<alternate category="Group06" style="Bald" />
+		<level>2</level>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyParted</trimChoices>
+	</female>
+	<female>
+		<name>GreasedBack</name>
+		<model>skinned\hair\kate_hair_greasedback</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="GreasedBackHat" />
+		<alternate category="Group01" style="GreasedBackHat" />
+		<alternate category="Group02" style="GreasedBackG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="GreasedBackHat" />
+		<alternate category="Group05" style="GreasedBack" />
+		<alternate category="Group06" style="Bald" />
+		<level>1</level>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>MohawkShort</trimChoices>
+		<trimChoices>FlatTop</trimChoices>
+	</female>
+	<female>
+		<name>LongBraids</name>
+		<model>skinned\hair\kate_hair_longbraid</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="LongBraidsHat" />
+		<alternate category="Group01" style="LongBraidsHat" />
+		<alternate category="Group02" style="LongBraidsG2Hat" />
+		<alternate category="Group03" style="LongBraids02G3Hat" />
+		<alternate category="Group04" style="LongBraidsHat" />
+		<alternate category="Group05" style="LongBraids" />
+		<alternate category="Group06" style="Bald" />
+		<level>3</level>
+		<trimChoices>Long2</trimChoices>
+		<trimChoices>Long</trimChoices>
+		<trimChoices>Kate</trimChoices>
+	</female>
+	<female>
+		<name>LongBraids02</name>
+		<model>skinned\hair\kate_hair_longbraid02</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="LongBraids02Hat" />
+		<alternate category="Group01" style="LongBraids02Hat" />
+		<alternate category="Group02" style="LongBraids02G2Hat" />
+		<alternate category="Group03" style="LongBraids02G3Hat" />
+		<alternate category="Group04" style="LongBraids02Hat" />
+		<alternate category="Group05" style="LongBraids02" />
+		<alternate category="Group06" style="Bald" />
+		<level>3</level>
+		<trimChoices>Long2</trimChoices>
+		<trimChoices>Long</trimChoices>
+		<trimChoices>Kate</trimChoices>
+	</female>
+	<female>
+		<name>Braids</name>
+		<model>skinned\hair\kate_hair_braided01</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="BraidedHat" />
+		<alternate category="Group01" style="BraidedHat" />
+		<alternate category="Group02" style="BraidedG2Hat" />
+		<alternate category="Group03" style="BraidedG3Hat" />
+		<alternate category="Group04" style="BraidedHat" />
+		<alternate category="Group05" style="Braids" />
+		<alternate category="Group06" style="Bald" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+	</female>
+	<female>
+		<name>Grungey02</name>
+		<model>skinned\hair\kate_hair_grungey02</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Grungey02Hat" />
+		<alternate category="Group01" style="Grungey02Hat" />
+		<alternate category="Group02" style="Grungey02G2Hat" />
+		<alternate category="Group03" style="Grungey02G3hat" />
+		<alternate category="Group04" style="Grungey02Hat" />
+		<alternate category="Group05" style="Grungey02" />
+		<alternate category="Group06" style="Bald" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyParted</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>OverLeftEye</trimChoices>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>Bob</trimChoices>
+	</female>
+	<female>
+		<name>GrungeyBehindEars</name>
+		<model>skinned\hair\kate_hair_grungeybehindear</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="GrungeyBehindEarsHat" />
+		<alternate category="Group01" style="GrungeyBehindEarsHat" />
+		<alternate category="Group02" style="GrungeyBehindEarsG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="GrungeyBehindEarsHat" />
+		<alternate category="Group05" style="GrungeyBehindEars" />
+		<alternate category="Group06" style="Bald" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyParted</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>Bob</trimChoices>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>OverLeftEye</trimChoices>
+	</female>
+	<female>
+		<name>Fresh</name>
+		<model>skinned\hair\kate_hair_fresh</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="Fresh" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="Fresh" />
+		<alternate category="Group06" style="Fresh" />
+		<level>1</level>
+		<trimChoices>TopCurls</trimChoices>
+		<trimChoices>HatCurly</trimChoices>
+		<trimChoices>MohawkShort</trimChoices>
+	</female>
+	<female>
+		<name>Bald</name>
+		<model></model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="Bald" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="Bald" />
+		<alternate category="Group06" style="Bald" />
+		<level>0</level>
+	</female>
+	<female>
+		<name>Demi</name>
+		<model>skinned/hair/f_hair_demi</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Demi" />
+		<alternate category="Group02" style="Demi" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Demi" />
+		<alternate category="Group05" style="Demi" />
+		<alternate category="Group06" style="Bald" />
+		<level>1</level>
+	</female>
+	<female>
+		<name>Spike</name>
+		<model>skinned/hair/f_hair_spike</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="SpikeHat" />
+		<alternate category="Group01" style="SpikeHat" />
+		<alternate category="Group02" style="SpikeHat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="SpikeHat" />
+		<alternate category="Group05" style="Spike" />
+		<alternate category="Group06" style="SpikeHat" />
+		<level>1</level>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Bald</trimChoices>
+	</female>
+	<female>
+		<name>Hat</name>
+		<model>skinned/hair/f_hair_hat</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="Hat" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>true</growReference>
+		<noChoose>true</noChoose>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>MohawkShort</trimChoices>
+		<trimChoices>FlatTop</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+	</female>
+	<female>
+		<name>OverEye</name>
+		<model>skinned/hair/f_hair_overeye</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="OverEyeHat" />
+		<alternate category="Group01" style="OverEyeHat" />
+		<alternate category="Group02" style="OverEyeG2Hat" />
+		<alternate category="Group03" style="OverEyeG3Hat" />
+		<alternate category="Group04" style="OverEyeHat" />
+		<alternate category="Group05" style="OverEye" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>Bob</trimChoices>
+		<trimChoices>OverLeftEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+	</female>
+	<female>
+		<name>Bob</name>
+		<model>skinned/hair/f_hair_bob</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="BobHat" />
+		<alternate category="Group01" style="BobHat" />
+		<alternate category="Group02" style="BobG2Hat" />
+		<alternate category="Group03" style="BobG3Hat" />
+		<alternate category="Group04" style="BobG4Hat" />
+		<alternate category="Group05" style="Bob" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>true</growReference>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Rachel</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+	</female>
+	<female>
+		<name>Bun</name>
+		<model>skinned/hair/f_hair_bun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bound" />
+		<alternate category="Group01" style="Bound" />
+		<alternate category="Group02" style="BunG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bound" />
+		<alternate category="Group05" style="Bun" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>OverLeftEye</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyParted</trimChoices>
+	</female>
+	<female>
+		<name>Back</name>
+		<model>skinned/hair/f_hair_back</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Ponytail" />
+		<alternate category="Group01" style="Ponytail" />
+		<alternate category="Group02" style="Ponytail" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Ponytail" />
+		<alternate category="Group05" style="Back" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Rachel</trimChoices>
+		<trimChoices>Bob</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>OverLeftEye</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyParted</trimChoices>
+	</female>
+	<female>
+		<name>Long</name>
+		<model>skinned\hair\kate_hair_long</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="LongHat" />
+		<alternate category="Group01" style="LongHat" />
+		<alternate category="Group02" style="LongG2Hat" />
+		<alternate category="Group03" style="Long2G3Hat" />
+		<alternate category="Group04" style="LongG4Hat" />
+		<alternate category="Group05" style="Long" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<trimChoices>Long2</trimChoices>
+		<trimChoices>Kate</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>
+	</female>
+	<female>
+		<name>Kate</name>
+		<model>skinned/hair/f_hair_kate</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="MulletHat" />
+		<alternate category="Group01" style="MulletHat" />
+		<alternate category="Group02" style="MulletG2Hat" />
+		<alternate category="Group03" style="Long2G3Hat" />
+		<alternate category="Group04" style="MulletHat" />
+		<alternate category="Group05" style="Kate" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<trimChoices>Long</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+	</female>
+	<female>
+		<name>Long2</name>
+		<model>skinned/hair/f_hair_long2</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Long2Hat" />
+		<alternate category="Group01" style="Long2Hat" />
+		<alternate category="Group02" style="Long2G2Hat" />
+		<alternate category="Group03" style="Long2G3Hat" />
+		<alternate category="Group04" style="Long2G4Hat" />
+		<alternate category="Group05" style="Long2" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>true</growReference>
+		<trimChoices>Long</trimChoices>
+		<trimChoices>Kate</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>
+	</female>
+	<female>
+		<name>PonyTail</name>
+		<model>skinned\hair\f_hair_ponytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="PonyTail" />
+		<alternate category="Group01" style="PonyTail" />
+		<alternate category="Group02" style="PonyTail" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="PonyTail" />
+		<alternate category="Group05" style="PonyTail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female>
+		<name>Longcurly</name>
+		<model>skinned\hair\kate_hair_longcurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="LongCurlyHat" />
+		<alternate category="Group01" style="LongCurlyHat" />
+		<alternate category="Group02" style="LongCurlyG2Hat" />
+		<alternate category="Group03" style="LongCurly2G3Hat" />
+		<alternate category="Group04" style="LongCurlyG4Hat" />
+		<alternate category="Group05" style="Longcurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<trimChoices>Long2curly</trimChoices>
+		<trimChoices>KateCurly</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>
+	</female>
+	<female>
+		<name>Long2curly</name>
+		<model>skinned\hair\kate_hair_long2curly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="LongCurly2Hat" />
+		<alternate category="Group01" style="LongCurly2Hat" />
+		<alternate category="Group02" style="LongCurly2G2Hat" />
+		<alternate category="Group03" style="LongCurly2G3Hat" />
+		<alternate category="Group04" style="LongCurly2G4Hat" />
+		<alternate category="Group05" style="Long2curly" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>true</growReference>
+		<trimChoices>Longcurly</trimChoices>
+		<trimChoices>KateCurly</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>
+	</female>
+	<female>
+		<name>BobCurly</name>
+		<model>skinned\hair\kate_hair_bobcurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="BobCurlyHat" />
+		<alternate category="Group01" style="BobCurlyHat" />
+		<alternate category="Group02" style="BobCurlyG2Hat" />
+		<alternate category="Group03" style="BobCurlyG3Hat" />
+		<alternate category="Group04" style="BobCurlyG4Hat" />
+		<alternate category="Group05" style="BobCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>true</growReference>
+		<trimChoices>OverEyeCurly</trimChoices>
+		<trimChoices>RachelCurly</trimChoices>
+		<trimChoices>Braids</trimChoices>
+	</female>
+	<female>
+		<name>BunCurly</name>
+		<model>skinned\hair\kate_hair_buncurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="HatCurly" />
+		<alternate category="Group01" style="HatCurly" />
+		<alternate category="Group02" style="BunCurlyG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="HatCurly" />
+		<alternate category="Group05" style="BunCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<attachedHair>true</attachedHair>
+		<trimChoices>OverEyeCurly</trimChoices>
+		<trimChoices>Braids</trimChoices>
+	</female>
+	<female>
+		<name>HatCurly</name>
+		<model>skinned\hair\kate_hair_hatcurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="HatCurly" />
+		<alternate category="Group01" style="HatCurly" />
+		<alternate category="Group02" style="HatCurly" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="HatCurly" />
+		<alternate category="Group05" style="HatCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>true</growReference>
+		<noChoose>true</noChoose>
+		<trimChoices>Fresh</trimChoices>
+	</female>
+	<female>
+		<name>KateCurly</name>
+		<model>skinned\hair\kate_hair_katecurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="MulletCurlyHat" />
+		<alternate category="Group01" style="MulletCurlyHat" />
+		<alternate category="Group02" style="MulletCurlyG2Hat" />
+		<alternate category="Group03" style="LongCurly2G3Hat" />
+		<alternate category="Group04" style="MulletCurlyHat" />
+		<alternate category="Group05" style="KateCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<trimChoices>Longcurly</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+	</female>
+	<female>
+		<name>OverEyeCurly</name>
+		<model>skinned\hair\kate_hair_overeyecurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="OverEyeCurlyHat" />
+		<alternate category="Group01" style="OverEyeCurlyHat" />
+		<alternate category="Group02" style="OverEyeCurlyG2Hat" />
+		<alternate category="Group03" style="OverEyeCurlyG3Hat" />
+		<alternate category="Group04" style="OverEyeCurlyHat" />
+		<alternate category="Group05" style="OverEyeCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>HatCurly</trimChoices>
+		<trimChoices>Braids</trimChoices>
+	</female>
+	<female>
+		<name>RachelCurly</name>
+		<model>skinned\hair\kate_hair_rachelcurly</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="RachelCurlyHat" />
+		<alternate category="Group01" style="RachelCurlyHat" />
+		<alternate category="Group02" style="RachelCurlyG2Hat" />
+		<alternate category="Group03" style="RachelCurlyG3Hat" />
+		<alternate category="Group04" style="RachelCurlyG4Hat" />
+		<alternate category="Group05" style="RachelCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>OverEyeCurly</trimChoices>
+		<trimChoices>Braids</trimChoices>
+	</female>
+	<female>
+		<name>ShortCurly</name>
+		<model>skinned\hair\kate_hair_shortcurly</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="HatCurly" />
+		<alternate category="Group01" style="HatCurly" />
+		<alternate category="Group02" style="ShortCurly" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="HatCurly" />
+		<alternate category="Group05" style="ShortCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>HatCurly</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+	</female>
+	<female>
+		<name>Rachel</name>
+		<model>skinned\hair\kate_hair_rachel</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="RachelHat" />
+		<alternate category="Group01" style="RachelHat" />
+		<alternate category="Group02" style="RachelG2Hat" />
+		<alternate category="Group03" style="RachelG3Hat" />
+		<alternate category="Group04" style="RachelG4Hat" />
+		<alternate category="Group05" style="Rachel" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyParted</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>OverLeftEye</trimChoices>
+	</female>
+	<female>
+		<name>CentreParting</name>
+		<model>skinned\hair\kate_hair_partingcentre</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="CentrePartingG2Hat" />
+		<alternate category="Group03" style="CentrePartingG3Hat" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="CentreParting" />
+		<alternate category="Group06" style="Bald" />
+		<level>1</level>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>FlatTop</trimChoices>
+	</female>
+	<female>
+		<name>CentrePartingLong</name>
+		<model>skinned\hair\kate_hair_partingcentrelong</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="CentrePartingLongHat" />
+		<alternate category="Group01" style="CentrePartingLongHat" />
+		<alternate category="Group02" style="CentrePartingLongG2Hat" />
+		<alternate category="Group03" style="CentrePartingLongG3Hat" />
+		<alternate category="Group04" style="CentrePartingLongG4Hat" />
+		<alternate category="Group05" style="CentrePartingLong" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>Bob</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyParted</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>OverLeftEye</trimChoices>
+	</female>
+	<female>
+		<name>LeftParting</name>
+		<model>skinned\hair\kate_hair_partingleft</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="PartingLeftG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="LeftParting" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>MohawkShort</trimChoices>
+		<trimChoices>FlatTop</trimChoices>
+	</female>
+	<female>
+		<name>RightParting</name>
+		<model>skinned\hair\kate_hair_partingright</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="PartingRightG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="RightParting" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>MohawkShort</trimChoices>
+		<trimChoices>FlatTop</trimChoices>
+	</female>
+	<female>
+		<name>TopCurls</name>
+		<model>skinned\hair\kate_hair_topmop</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="Bound" />
+		<alternate category="Group01" style="Bound" />
+		<alternate category="Group02" style="TopCurlsG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bound" />
+		<alternate category="Group05" style="TopCurls" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>HatCurly</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+		<trimChoices>MohawkShort</trimChoices>
+	</female>
+	<female>
+		<name>Grungey</name>
+		<model>skinned\hair\kate_hair_grungey</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="GrungeyHat" />
+		<alternate category="Group01" style="GrungeyHat" />
+		<alternate category="Group02" style="GrungeyG2Hat" />
+		<alternate category="Group03" style="GrungeyG3Hat" />
+		<alternate category="Group04" style="GrungeyG4Hat" />
+		<alternate category="Group05" style="Grungey" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>Bob</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>GrungeyParted</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>OverLeftEye</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+	</female>
+	<female>
+		<name>GrungeyParted</name>
+		<model>skinned\hair\kate_hair_grungeyparting</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="GrungeyPartedHat" />
+		<alternate category="Group01" style="GrungeyPartedHat" />
+		<alternate category="Group02" style="GrungeyPartedG2Hat" />
+		<alternate category="Group03" style="GrungeyPartedG3Hat" />
+		<alternate category="Group04" style="GrungeyPartedHat" />
+		<alternate category="Group05" style="GrungeyParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>Bob</trimChoices>
+		<trimChoices>Rachel</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Braids</trimChoices>
+	</female>
+	<female>
+		<name>Cornrows</name>
+		<model>skinned\hair\kate_hair_cornrows</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="Cornrows" />
+		<alternate category="Group01" style="Cornrows" />
+		<alternate category="Group02" style="Cornrows" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Cornrows" />
+		<alternate category="Group05" style="Cornrows" />
+		<alternate category="Group06" style="Cornrows" />
+		<level>1</level>
+		<trimChoices>Demi</trimChoices>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>TopCurls</trimChoices>
+		<trimChoices>MohawkShort</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+		<trimChoices>FlatTop</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+	</female>
+	<female>
+		<name>MohawkFan</name>
+		<model>skinned\hair\kate_hair_mohawkfan</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="HatPunkHat" />
+		<alternate category="Group01" style="HatPunkHat" />
+		<alternate category="Group02" style="HatPunkHat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="HatPunkHat" />
+		<alternate category="Group05" style="MohawkFan" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+	</female>
+	<female>
+		<name>MohawkShort</name>
+		<model>skinned\hair\kate_hair_mohawkshort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="MohawkShort" />
+		<alternate category="Group01" style="Bald" />
+		<alternate category="Group02" style="MohawkShort" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="MohawkShort" />
+		<alternate category="Group05" style="MohawkShort" />
+		<alternate category="Group06" style="Bald" />
+		<level>1</level>
+	</female>
+	<female>
+		<name>MohawkSpike</name>
+		<model>skinned\hair\kate_hair_mohawkspike</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="HatPunkHat" />
+		<alternate category="Group01" style="HatPunkHat" />
+		<alternate category="Group02" style="HatPunkHat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="HatPunkHat" />
+		<alternate category="Group05" style="MohawkSpike" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+	</female>
+	<female>
+		<name>LibertySpikes</name>
+		<model>skinned\hair\kate_hair_libertyspikes</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bound" />
+		<alternate category="Group01" style="LibertySpikesHat" />
+		<alternate category="Group02" style="LibertySpikesG2Hat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="LibertySpikes" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+	</female>
+	<female>
+		<name>FlatTop</name>
+		<model>skinned\hair\kate_hair_flattop</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="Demi" />
+		<alternate category="Group02" style="Demi" />
+		<alternate category="Group03" style="bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="FlatTop" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<trimChoices>Spike</trimChoices>
+		<trimChoices>Demi</trimChoices>
+	</female>
+	<female>
+		<name>OverLeftEye</name>
+		<model>skinned\hair\kate_hair_overeyeleft</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Hat" />
+		<alternate category="Group03" style="OverEyeLeftG3Hat" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="OverLeftEye" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>Bob</trimChoices>
+		<trimChoices>OverLeftEye</trimChoices>
+	</female>
+	<female>
+		<name>MohawkFlat</name>
+		<model>skinned\hair\kate_hair_mohawkflat</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Bald" />
+		<alternate category="Group01" style="MohawkShort" />
+		<alternate category="Group02" style="MohawkFlat" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="MohawkShort" />
+		<alternate category="Group05" style="MohawkFlat" />
+		<alternate category="Group06" style="Bald" />
+		<level>1</level>
+		<trimChoices>Bob</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>Rachel</trimChoices>
+	</female>
+	<female>
+		<name>OverEyeHat</name>
+		<model>skinned/hair/f_hair_overeyehat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>OverEyeG2Hat</name>
+		<model>skinned/hair/f_hair_overeyeg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>OverEyeCurlyHat</name>
+		<model>skinned\hair\f_hair_overeyecurlyhat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>OverEyeCurlyG2Hat</name>
+		<model>skinned/hair/f_hair_overeyecurlyg2hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BobHat</name>
+		<model>skinned/hair/f_hair_bobhat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongHat</name>
+		<model>skinned\hair\f_hair_longhat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongG2Hat</name>
+		<model>skinned\hair\f_hair_longg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongG4Hat</name>
+		<model>skinned\hair\f_hair_longg4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>Long2Hat</name>
+		<model>skinned/hair/f_hair_long2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongcurlyHat</name>
+		<model>skinned\hair\f_hair_longcurlyhat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>Longcurly2Hat</name>
+		<model>skinned\hair\f_hair_longcurly2hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BobCurlyHat</name>
+		<model>skinned\hair\f_hair_bobcurlyhat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>RachelCurlyHat</name>
+		<model>skinned\hair\f_hair_rachelcurlyhat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>RachelHat</name>
+		<model>skinned\hair\f_hair_rachelhat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>CentrePartingLongHat</name>
+		<model>skinned\hair\f_hair_centrepartinglonghat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GrungeyHat</name>
+		<model>skinned\hair\f_hair_grungeyhat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GrungeyG2Hat</name>
+		<model>skinned\hair\f_hair_grungeyg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GrungeyG4Hat</name>
+		<model>skinned\hair\f_hair_grungeyg4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GrungeyPartedHat</name>
+		<model>skinned\hair\f_hair_grungeypartinghat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GrungeyPartedG2Hat</name>
+		<model>skinned\hair\f_hair_grungeypartingg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongCurly2G4Hat</name>
+		<model>skinned\hair\f_hair_longcurly2g4hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>Long2G4Hat</name>
+		<model>skinned\hair\f_hair_long2g4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongCurlyG4Hat</name>
+		<model>skinned\hair\f_hair_longcurlyg4hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>CentrePartingLongG4Hat</name>
+		<model>skinned\hair\f_hair_centrepartinglongg4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BobCurlyG4Hat</name>
+		<model>skinned\hair\f_hair_bobcurlyg4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BobG4Hat</name>
+		<model>skinned\hair\f_hair_bobg4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>RachelG4Hat</name>
+		<model>skinned\hair\f_hair_rachelg4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>RachelCurlyG4Hat</name>
+		<model>skinned\hair\f_hair_rachelcurlyg4hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BackHat</name>
+		<model>skinned\hair\f_hair_backhat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>Bound</name>
+		<model>skinned/hair/f_hair_bound</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>Long2G2Hat</name>
+		<model>skinned/hair/f_hair_long2g2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongCurly2G2Hat</name>
+		<model>skinned/hair/f_hair_longcurly2g2hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongCurlyG2Hat</name>
+		<model>skinned/hair/f_hair_longcurlyg2hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongG2Hat</name>
+		<model>skinned/hair/f_hair_longg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>MulletCurlyG2Hat</name>
+		<model>skinned/hair/f_hair_mulletcurlyg2hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>MulletG2Hat</name>
+		<model>skinned/hair/f_hair_mulletg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>MulletCurlyHat</name>
+		<model>skinned/hair/f_hair_mulletcurlyhat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>MulletHat</name>
+		<model>skinned/hair/f_hair_mullethat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BobCurlyG2Hat</name>
+		<model>skinned/hair/f_hair_bobcurlyg2hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BobG2Hat</name>
+		<model>skinned/hair/f_hair_bobg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>CentrePartingLongG2Hat</name>
+		<model>skinned/hair/f_hair_centrepartinglongg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>RachelCurlyG2Hat</name>
+		<model>skinned/hair/f_hair_rachelcurlyg2hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>RachelG2Hat</name>
+		<model>skinned/hair/f_hair_rachelg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LibertySpikesHat</name>
+		<model>skinned/hair/f_hair_libertyspikeshat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LibertySpikesG2Hat</name>
+		<model>skinned/hair/f_hair_libertyspikesg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BunCurlyG2Hat</name>
+		<model>skinned/hair/f_hair_buncurlyg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BunG2Hat</name>
+		<model>skinned/hair/f_hair_bung2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>HatPunkHat</name>
+		<model>skinned/hair/f_hair_hatpunkhat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>SpikeHat</name>
+		<model>skinned/hair/f_hair_spikehat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>TopCurlsG2Hat</name>
+		<model>skinned/hair/f_hair_topCurlsg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>PartingRightG2Hat</name>
+		<model>skinned/hair/f_hair_partingrightg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>PartingLeftG2Hat</name>
+		<model>skinned/hair/f_hair_partingleftg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>CentrePartingG2Hat</name>
+		<model>skinned/hair/f_hair_centrepartingg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>CentrePartingG2Hat</name>
+		<model>skinned/hair/f_hair_centrepartingg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongBraids02Hat</name>
+		<model>skinned/hair/F_Hair_LongBraids02Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongBraids02G2Hat</name>
+		<model>skinned/hair/F_Hair_LongBraids02G2Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongBraids02G4Hat</name>
+		<model>skinned/hair/F_Hair_LongBraids02G4Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongBraidsG4Hat</name>
+		<model>skinned/hair/F_Hair_LongBraidsG4Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongBraidsHat</name>
+		<model>skinned/hair/F_Hair_LongBraidsHat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongBraidsG2Hat</name>
+		<model>skinned/hair/F_Hair_LongBraidsG2Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GreasedBackHat</name>
+		<model>skinned/hair/F_Hair_GreasedBackHat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GreasedBackG2Hat</name>
+		<model>skinned/hair/F_Hair_GreasedBackG2Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BuffontHat</name>
+		<model>skinned/hair/F_Hair_BuffontHat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BuffontG2Hat</name>
+		<model>skinned/hair/F_Hair_BuffontG2Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BraidedHat</name>
+		<model>skinned/hair/F_Hair_BraidedHat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BraidedG2Hat</name>
+		<model>skinned/hair/F_Hair_BraidedG2Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GrungeyBehindEarsHat</name>
+		<model>skinned/hair/F_Hair_GrungeyBehindEarsHat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GrungeyBehindEarsG2Hat</name>
+		<model>skinned/hair/F_Hair_GrungeyBehindEarsG2Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>Grungey02Hat</name>
+		<model>skinned/hair/F_Hair_Grungey02Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>Grungey02G2Hat</name>
+		<model>skinned/hair/F_Hair_Grungey02G2Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>PonyTailbraidedHat</name>
+		<model>skinned/hair/F_Hair_PonyTailBraidedHat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<male>
+		<name>MetalHat</name>
+		<model>skinned/hair/m_hair_metalhat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>MetalG2Hat</name>
+		<model>skinned/hair/m_hair_metalg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>MetalG4Hat</name>
+		<model>skinned/hair/m_hair_metalg4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>CentrePartingLongHat</name>
+		<model>skinned/hair/m_hair_centrepartinglonghat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>CentrePartingLongG2Hat</name>
+		<model>skinned/hair/m_hair_centrepartinglongg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>CentrePartingLongG4Hat</name>
+		<model>skinned/hair/m_hair_centrepartinglongg4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>FabianHat</name>
+		<model>skinned/hair/m_hair_fabianhat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>FabianG2Hat</name>
+		<model>skinned/hair/m_hair_fabiang2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>FabianG4Hat</name>
+		<model>skinned/hair/m_hair_fabiang4hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>FabianCurlyHat</name>
+		<model>skinned/hair/m_hair_fabiancurlyhat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>FabianCurlyG2Hat</name>
+		<model>skinned/hair/m_hair_fabiancurlyg2hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>FabianCurlyG4Hat</name>
+		<model>skinned/hair/m_hair_fabiancurlyg4hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>Bound</name>
+		<model>skinned/hair/m_hair_bound</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>LibertySpikesG2Hat</name>
+		<model>skinned/hair/m_hair_libertyspikesg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>LibertySpikesHat</name>
+		<model>skinned/hair/m_hair_libertyspikeshat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>PartingRightG2Hat</name>
+		<model>skinned/hair/m_hair_partingrightg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>PartingLeftG2Hat</name>
+		<model>skinned/hair/m_hair_partingleftg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>CentrePartingG2Hat</name>
+		<model>skinned/hair/m_hair_centrepartingg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>HatPunkHat</name>
+		<model>skinned/hair/m_hair_hatpunkhat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>GrungeyBehindEarsG2Hat</name>
+		<model>skinned/hair/m_hair_grungeybehindearsg2hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>GrungeyBehindEarsHat</name>
+		<model>skinned/hair/m_hair_grungeybehindearshat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>LongBraidedHat</name>
+		<model>skinned/hair/M_Hair_LongBraidedHat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>LongBraidedG2Hat</name>
+		<model>skinned/hair/M_Hair_LongBraidedG2Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>BraidsHat</name>
+		<model>skinned/hair/M_Hair_BraidsHat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>BraidsG2Hat</name>
+		<model>skinned/hair/M_Hair_BraidsG2Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>BuffontHat</name>
+		<model>skinned/hair/M_Hair_BuffontHat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>BuffontG2Hat</name>
+		<model>skinned/hair/M_Hair_BuffontG2Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>GrungeyHat</name>
+		<model>skinned/hair/M_Hair_GrungeyHat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>GrungeyG2Hat</name>
+		<model>skinned/hair/M_Hair_GrungeyG2Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>GreasedBackHat</name>
+		<model>skinned/hair/M_Hair_GreasedBackHat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>GreasedBackG2Hat</name>
+		<model>skinned/hair/M_Hair_GreasedBackG2Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+	----------HOODIE UPDATE--------------
+	
+	<female>
+		<name>BobCurlyG3Hat</name>
+		<model>skinned\hair\f_hair_bobcurlyg3hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BobG3Hat</name>
+		<model>skinned\hair\f_hair_bobg3hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>BraidedG3Hat</name>
+		<model>skinned\hair\f_hair_braidedg3hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>CentrePartingLongG3Hat</name>
+		<model>skinned\hair\f_hair_centrepartinglongg3hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>Grungey02G3Hat</name>
+		<model>skinned\hair\f_hair_grungey02g3hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GrungeyG3Hat</name>
+		<model>skinned\hair\f_hair_grungeyg3hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>GrungeyPartedG3Hat</name>
+		<model>skinned\hair\f_hair_grungeypartingg3hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>KateCurlyG3Hat</name>
+		<model>skinned\hair\f_hair_katecurlyg3hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>KateG3Hat</name>
+		<model>skinned\hair\f_hair_kateg3hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>Long2G3Hat</name>
+		<model>skinned\hair\f_hair_long2g3hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongBraids02G3Hat</name>
+		<model>skinned\hair\f_hair_longbraids02g3hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>LongCurly2G3Hat</name>
+		<model>skinned\hair\f_hair_longcurly2g3hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>OverEyeCurlyG3Hat</name>
+		<model>skinned\hair\f_hair_overeyecurlyg3hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>OverEyeG3Hat</name>
+		<model>skinned\hair\F_Hair_OverEyeG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>OverEyeLeftG3Hat</name>
+		<model>skinned\hair\f_hair_overeyeleftg3hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>CentrePartingG3Hat</name>
+		<model>skinned\hair\F_Hair_PartingCentreG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>RachelCurlyG3Hat</name>
+		<model>skinned\hair\f_hair_rachelcurlyg3hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>RachelG3Hat</name>
+		<model>skinned\hair\f_hair_rachelg3hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+	
+	
+	<male>
+		<name>BraidsG3Hat</name>
+		<model>skinned/hair/M_Hair_BraidsG3Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>DonnyG3Hat</name>
+		<model>skinned/hair/M_Hair_DonnyG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>FabianBraidedG3Hat</name>
+		<model>skinned/hair/M_Hair_FabianBraidedG3Hat</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>FabianCurlyG3Hat</name>
+		<model>skinned/hair/M_Hair_FabianCurlyG3Hat</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>FabianG3Hat</name>
+		<model>skinned/hair/M_Hair_FabianG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>GrungeyBehindEarsG3Hat</name>
+		<model>skinned/hair/M_Hair_GrungeyBehindEarG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>GrungeyG3Hat</name>
+		<model>skinned/hair/M_Hair_GrungeyG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>CentrePartingLongG3Hat</name>
+		<model>skinned/hair/M_Hair_CentrePartingLongG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>PartingLeftG3Hat</name>
+		<model>skinned/hair/M_Hair_PartingLeftG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>PartingRightG3Hat</name>
+		<model>skinned/hair/M_Hair_PartingRightG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>RecedeG3Hat</name>
+		<model>skinned/hair/M_Hair_RecedeG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>CentrePartingG3Hat</name>
+		<model>skinned/hair/M_Hair_CentrePartingG3Hat</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	
+
+</hairStyles>

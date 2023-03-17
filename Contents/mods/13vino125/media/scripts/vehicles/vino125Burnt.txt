@@ -1,0 +1,58 @@
+module Base
+{
+	model vino125Burnt
+	{
+		mesh = vehicles/Bikes_vino125_Burnt,
+		shader = vehicle,
+		static = TRUE,
+		scale = 0.1,
+	}
+	vehicle vino125Burnt
+	{
+		model
+		{
+			file = vino125Burnt,
+			scale = 1.0000,
+			offset = 0.0000 0.0200 0.0000,
+		}
+
+		spawnOffsetY = 0,
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Burnt,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Burnt2,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_vino125_Burnt3,
+		}
+
+		textureShadow = Vehicles/Bikes_vino125_shadow,
+		extents = 0.7000 0.9600 1.5400,
+		mass = 170,
+		physicsChassisShape = 0.7000 0.9600 1.5400,
+		centerOfMassOffset = 0.0000 0.5100 0.0000,
+		shadowExtents = 2.0569 1.9775,
+		shadowOffset = 0.0125 0.0150,
+
+		attachment trailer
+		{
+			offset = 0.0000 0.3300 -0.8100,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 0.2200 0.9300,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

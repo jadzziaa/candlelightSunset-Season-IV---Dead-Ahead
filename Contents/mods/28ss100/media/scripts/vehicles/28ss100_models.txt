@@ -1,0 +1,66 @@
+module Base
+{
+	model SS100TireWI
+	{
+		mesh    = vehicles/Bikes_28ss100_Objects|ss100tireWI,
+		texture = Vehicles/Objects_28ss100_Shell,
+		scale   = 0.6,
+	}
+
+	model SS100sidebagWI
+	{
+		mesh    = vehicles/Bikes_28ss100_Objects|ss100_side_bag_rWI,
+		texture = Vehicles/Objects_28ss100_Shell,
+		scale   = 0.6,
+	}
+
+	model SS100topbagWI
+	{
+		mesh    = vehicles/Bikes_28ss100_Objects|ss100_top_bagWI,
+		texture = Vehicles/Objects_28ss100_Shell,
+		scale   = 0.6,
+	}
+
+	model SS100mufflerWI
+	{
+		mesh    = vehicles/Bikes_28ss100_Objects|ss100_exhaustsWI,
+		texture = Vehicles/Objects_28ss100_Shell,
+		scale   = 0.6,
+	}
+
+	model SS100gasTankWI
+	{
+		mesh    = vehicles/Bikes_28ss100_Objects|ss100_gastankWI,
+		texture = Vehicles/Objects_28ss100_Shell,
+		scale   = 0.6,
+	}
+
+	model SS100seatWI
+	{
+		mesh    = vehicles/Bikes_28ss100_Objects|ss100_seatWI,
+		texture = Vehicles/Objects_28ss100_Shell,
+		scale   = 0.6,
+	}
+
+	model SS100windshieldWI
+	{
+		mesh    = vehicles/Bikes_28ss100_Objects|ss100_windshieldWI,
+		texture = Vehicles/Objects_28ss100_Shell,
+		scale   = 0.6,
+	}
+
+	model SS100fenderFrontWI
+	{
+		mesh    = vehicles/Bikes_28ss100_Objects|ss100_fender_frontWI,
+		texture = Vehicles/Objects_28ss100_Shell,
+		scale   = 0.6,
+	}
+
+	model SS100fenderRearWI
+	{
+		mesh    = vehicles/Bikes_28ss100_Objects|ss100_fender_rearWI,
+		texture = Vehicles/Objects_28ss100_Shell,
+		scale   = 0.6,
+	}
+
+}

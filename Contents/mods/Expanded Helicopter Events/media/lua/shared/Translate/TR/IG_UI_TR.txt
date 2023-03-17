@@ -1,0 +1,20 @@
+IG_UI_TR = {
+
+    IGUI_VehicleNameBell206LBMW = "Bell 206 Yayın Helikopteri",    
+    IGUI_VehicleNameBell206LBMWFuselage = "Bell 206 Yayın Helikopteri (Gövde)",
+    IGUI_VehicleNameBell206LBMWTail = "Bell 206 Yayın Helikopteri (Kuyruk)",
+
+    IGUI_VehicleNameBell206Police = "Bell 206 Polis Helikopteri",
+    IGUI_VehicleNameBell206PoliceFuselage = "Bell 206 Polis Helikopteri (Gövde)",
+    IGUI_VehicleNameBell206PoliceTail = "Bell 206 Polis Helikopteri (Kuyruk)",
+
+    IGUI_VehicleNameBell206Survivalist = "Bell 206 Survivalist",
+    
+    IGUI_VehicleNameBell206Black = "Bell 206 Helikopter",
+    IGUI_VehicleNameBell206BlackFuselage = "Bell 206 Helikopter(Gövde)",
+    IGUI_VehicleNameBell206BlackFuselage = "Bell 206 Helikopter(Kuyruk)",
+    
+    IGUI_VehicleNameFEMASupplyDrop = "Acil Yardım Paketi",
+    IGUI_VehicleNameSurvivorSupplyDrop = "Samaritan Yardım Paketi",
+
+}

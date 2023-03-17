@@ -1,0 +1,577 @@
+module Base
+{
+sound StationFuelStop2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/StationFuelStop2.ogg,
+		}
+	}
+	sound StationFuelDepart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/StationFuelDepart.ogg,
+		}
+	}
+	sound StationFuelStop
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/StationFuelStop.ogg,
+		}
+	}
+	sound StationFuelUpdate
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/StationFuelUpdate.ogg,
+		}
+	}
+	sound OpenWindowLoop
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindowLoop.ogg,
+		}
+	}
+	sound OpenWindowPerf1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindowPerf1.ogg,
+		}
+	}
+	sound OpenWindowPerf2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindowPerf2.ogg,
+		}
+	}
+	sound detachTrailerTRUE
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/detachTrailerTRUE.ogg,
+		}
+	}
+	sound detachTrailer
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/detachTrailer.ogg,
+		}
+	}
+	sound attachTrailerTRUE
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/attachTrailerTRUE.ogg,
+		}
+	}
+	sound attachTrailerStop
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/attachTrailerStop.ogg,
+		}
+	}
+	sound attachTrailer
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/attachTrailer.ogg,
+		}
+	}
+	sound HeaterVentilStop
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterVentilStop.ogg,
+		}
+	}
+	sound HeaterVentil
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterVentil.ogg,
+		}
+	}
+	sound HeaterOnOff1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterOnOff1.ogg,
+		}
+	}
+	sound HeaterOnOff2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterOnOff2.ogg,
+		}
+	}
+	sound HeaterOnOff3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterOnOff3.ogg,
+		}
+	}
+	sound HeaterOnOff4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeaterOnOff4.ogg,
+		}
+	}
+	sound buttonSwitch1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/buttonSwitch1.ogg,
+		}
+	}
+	sound buttonSwitch2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/buttonSwitch2.ogg,
+		}
+	}
+	sound buttonSwitch3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/buttonSwitch3.ogg,
+		}
+	}
+	sound buttonSwitch4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/buttonSwitch4.ogg,
+		}
+	}
+	sound HeatSelect1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeatSelect1.ogg,
+		}
+	}
+	sound HeatSelect2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeatSelect2.ogg,
+		}
+	}
+	sound HeatSelect3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeatSelect3.ogg,
+		}
+	}
+	sound HeatSelect4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/HeatSelect4.ogg,
+		}
+	}
+	sound LightButton1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightButton1.ogg,
+		}
+	}
+	sound LightButton2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightButton2.ogg,
+		}
+	}
+	sound LightButton3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightButton3.ogg,
+		}
+	}
+	sound LightButton4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightButton4.ogg,
+		}
+	}  
+	sound OpenWindow5
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow5.ogg,
+		}
+	}
+	sound OpenWindow6
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow6.ogg,
+		}
+	}
+	sound OpenWindow7
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow7.ogg,
+		}
+	}
+	sound OpenWindow8
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow8.ogg,
+		}
+	}
+	sound OpenWindow1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow1.ogg,
+		}
+	}
+	sound OpenWindow2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow2.ogg,
+		}
+	}
+	sound OpenWindow3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow3.ogg,
+		}
+	}
+	sound OpenWindow4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/OpenWindow4.ogg,
+		}
+	}
+	sound SwitchSeat1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/SwitchSeat1.ogg,
+		}
+	}
+	sound SwitchSeat2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/SwitchSeat2.ogg,
+		}
+	}
+	sound SwitchSeat3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/SwitchSeat3.ogg,
+		}
+	}
+	sound SwitchSeat4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/SwitchSeat4.ogg,
+		}
+	}
+	sound LightSwitch1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightSwitch1.ogg,
+		}
+	}
+	sound LightSwitch2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightSwitch2.ogg,
+		}
+	}
+	sound LightSwitch3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightSwitch3.ogg,
+		}
+	}
+	sound LightSwitch4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/LightSwitch4.ogg,
+		}
+	}
+	sound JerrycanCap
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/JerrycanCap.ogg,
+		}
+	}
+	sound uncap
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/uncap.ogg,
+		}
+	}
+	sound dismentleObjet
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/dismentleObjet.ogg,
+		}
+	}
+	sound DeflateTire1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/DeflateTire1.ogg,
+		}
+	}
+	sound AirPump1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/AirPump1.ogg,
+		}
+	}
+	sound JerryRefuel
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/JerryRefuel.ogg,
+		}
+	}	
+	
+
+
+
+	sound MecaSound_add1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add1.ogg,
+		}
+	}
+	sound MecaSound_add2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add2.ogg,
+		}
+	}
+	sound MecaSound_add3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add3.ogg,
+		}
+	}
+	sound MecaSound_add4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add4.ogg,
+		}
+	}
+	sound MecaSound_add5
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add5.ogg,
+		}
+	}
+	sound MecaSound_add6
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_add6.ogg,
+		}
+	}
+
+
+
+
+	sound MecaSound_rem1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem1.ogg,
+		}
+	}
+	sound MecaSound_rem2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem2.ogg,
+		}
+	}
+	sound MecaSound_rem3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem3.ogg,
+		}
+	}
+	sound MecaSound_rem4
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem4.ogg,
+		}
+	}
+	sound MecaSound_rem5
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem5.ogg,
+		}
+	}
+	sound MecaSound_rem6
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_rem6.ogg,
+		}
+	}
+
+
+
+	sound MecaSound_ok1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_ok1.ogg,
+		}
+	}
+	sound MecaSound_ok2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_ok2.ogg,
+		}
+	}
+	sound MecaSound_ok3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_ok3.ogg,
+		}
+	}
+
+
+
+	sound MecaSound_Stop1
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_Stop1.ogg,
+		}
+	}
+	sound MecaSound_Stop2
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_Stop2.ogg,
+		}
+	}
+	sound MecaSound_Stop3
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/MecaSound_Stop3.ogg,
+		}
+	}
+}

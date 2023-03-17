@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Clothes\M_Skirt_Loincloth.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Clothes\F_Skirt_Loincloth.fbx</m_FemaleModel>
+	<m_GUID>62c44f48-9376-45dc-b271-563e1d420d29</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\skirt\Skirt_LoinclothFur</textureChoices>
+	<textureChoices>clothes\skirt\Skirt_LoinclothLeopard</textureChoices>
+</clothingItem>

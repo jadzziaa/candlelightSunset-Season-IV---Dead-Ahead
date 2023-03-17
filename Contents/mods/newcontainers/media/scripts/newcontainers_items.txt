@@ -1,0 +1,425 @@
+module newcontainers 
+
+{
+	imports
+	{
+	Base
+	}
+	
+	item cardboard_large
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Cardboard Box Large,
+		Icon = NCcardboardbox,
+		Weight = 1,
+		Capacity = 20,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCcardboard_large_ground,
+	}
+	
+	item cardboard_medium
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Cardboard Box Medium,
+		Icon = NCcardboardbox,
+		Weight = 0.5,
+		Capacity = 15,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCcardboard_medium_ground,
+	}
+	
+	item cardboard_small
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Cardboard Box Small,
+		Icon = NCcardboardbox,
+		Weight = 0.1,
+		Capacity = 10,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCcardboard_small_ground,
+	}
+	
+	item coffeecan
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Coffee Can,
+        ClothingItem = container_NCcoffeecan,
+		IconsForTexture = NCcoffeecan_b;NCcoffeecan_g;NCcoffeecan_r;NCcoffeecan_w,
+		Weight = 0.5,
+		Capacity = 5,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCcoffeecan_ground,
+	}
+	
+	item coffeecan_open
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Coffee Can,
+        ClothingItem = container_NCcoffeecan,
+		IconsForTexture = NCcoffeecan_b;NCcoffeecan_g;NCcoffeecan_r;NCcoffeecan_w,
+		Weight = 0.5,
+		Capacity = 5,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCcoffeecan_open_ground,
+	}
+	
+	item cookiejar
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Cookie Jar,
+        ClothingItem = container_NCcookiejar,
+		IconsForTexture = NCcookiejar_blue;NCcookiejar_brown;NCcookiejar_white;NCcookiejar_yellow,
+		Weight = 1,
+		Capacity = 5,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCcookiejar_ground,
+	}
+	
+	item donutbox
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Doughnut Box,
+        ClothingItem = container_NCdonutbox,
+		IconsForTexture = NCdonutbox;NCdonutbox_w,
+		Weight = 0.1,
+		Capacity = 1,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCdonutbox_ground,
+	}
+	
+	item fakerock
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Fake Rock,
+        ClothingItem = container_NCfakerock,
+		Icon = Rock,
+		Weight = 0.1,
+		Capacity = 1,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCfakerock_ground,
+	}
+	
+	item jewelrybox
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Jewelry Box,
+        ClothingItem = container_NCjewelrybox,
+		IconsForTexture = NCjewelrybox_b;NCjewelrybox_g;NCjewelrybox_p,
+		Weight = 0.2,
+		Capacity = 1,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCjewelrybox_ground,
+	}
+	
+	item kindlingbox
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Kindling Box,
+		Icon = NCkindlingbox,
+		Weight = 2,
+		Capacity = 10,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCkindlingbox_ground,
+	}
+	
+	item lockbox
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Lock Box,
+        ClothingItem = container_NClockbox,
+		IconsForTexture = NClockbox_b;NClockbox_bl;NClockbox_g;NClockbox_s;NClockbox_t,
+		Weight = 1,
+		Capacity = 5,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NClockbox_ground,
+	}
+	
+	item piggybank
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Piggy Bank,
+        ClothingItem = container_NCpiggybank,
+		IconsForTexture = NCpiggybank_b;NCpiggybank_p;NCpiggybank_w;NCpiggybank_y,
+		Weight = 0.5,
+		Capacity = 1,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCpiggybank_ground,
+	}
+	
+	item pizzabox
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Pizza Box,
+        ClothingItem = container_NCpizzabox,
+		Icon = NCpizzabox,
+		Weight = 0.1,
+		Capacity = 1,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCpizzabox_ground,
+	}
+	
+	item pizzaboxpw
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Pizza Box,
+        ClothingItem = container_NCpizzabox,
+		Icon = NCpizzaboxpw,
+		Weight = 0.1,
+		Capacity = 1,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCpizzaboxpw_ground,
+	}
+	
+	item plastictote_large
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Plastic Tote Large,
+        ClothingItem = container_NCplastictote,
+		IconsForTexture = NCplastictote_b;NCplastictote_g;NCplastictote_t,
+		Weight = 5,
+		Capacity = 50,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCplastictote_large_ground,
+	}
+
+	item plastictote_medium
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Plastic Tote Medium,
+        ClothingItem = container_NCplastictote,
+		IconsForTexture = NCplastictote_b;NCplastictote_g;NCplastictote_t,
+		Weight = 3,
+		Capacity = 35,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCplastictote_medium_ground,
+	}
+
+	item plastictote_small
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Plastic Tote Small,
+        ClothingItem = container_NCplastictote,
+		IconsForTexture = NCplastictote_b;NCplastictote_g;NCplastictote_t,
+		Weight = 1,
+		Capacity = 20,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCplastictote_small_ground,
+	}
+
+	item shoebox
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Shoebox,
+        ClothingItem = container_NCshoebox,
+		IconsForTexture = NCshoebox;NCshoebox_b;NCshoebox_bl;NCshoebox_g;NCshoebox_o,
+		Weight = 0.1,
+		Capacity = 2,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCshoebox_ground,
+	}
+
+	item spicerack
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Spice Rack,
+		Icon = NCspicerack,
+		WeightReduction = 10,
+		Weight = 0.5,
+		Capacity = 2,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCspicerack_ground,
+	}
+	
+	item tissuebox
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Tissue Box,
+        ClothingItem = container_NCtissuebox,
+		IconsForTexture = NCtissuebox_b;NCtissuebox_g;NCtissuebox_p;NCtissuebox_r;NCtissuebox_y,
+		Weight = 0.01,
+		Capacity = 1,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCtissuebox_ground,
+	}
+
+	item travelkit
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Travel Kit,
+        ClothingItem = container_NCtravelkitTINT,
+		Icon = NCtravelkit,
+		WeightReduction = 30,
+		Weight = 0.1,
+		Capacity = 4,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCtravelkit_ground,
+	}
+	
+	item trunkorganizer
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = Trunk Organizer,
+        ClothingItem = container_NCtrunkorganizer,
+		IconsForTexture = NCtrunkorganizer;NCtrunkorganizer_b;NCtrunkorganizer_g;NCtrunkorganizer_i;NCtrunkorganizer_m;NCtrunkorganizer_o;NCtrunkorganizer_p;NCtrunkorganizer_r;NCtrunkorganizer_y,
+		Weight = 0.2,
+		Capacity = 20,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = NCtrunkorganizer_ground,
+	}
+	
+		item cardboardbox
+	{
+		DisplayCategory = Container,
+		Type = Container,
+		DisplayName = NULL Please delete,
+		Icon = cardboardbox,
+		WeightReduction = 30,
+		Weight = 0.5,
+		Capacity = 20,
+		OpenSound = OpenBag,
+		CloseSound = Closebag,
+		PutInSound = PutItemInBag,
+		WorldStaticModel = cardboardbox_ground,
+	}
+
+	item carcrateb
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	NULL Please delete,
+		Icon	=	carcrate_b,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcrateb_Ground,
+	}
+	
+	item carcrateg
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	NULL Please delete,
+		Icon	=	carcrate_g,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcrateg_Ground,
+	}
+
+	item carcrateo
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	NULL Please delete,
+		Icon	=	carcrate_o,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcrateo_Ground,
+	}
+	
+	item carcrater
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	NULL Please delete,
+		Icon	=	carcrate_r,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcrater_Ground,
+	}
+	
+	item carcratey
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	NULL Please delete,
+		Icon	=	carcrate_y,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcratey_Ground,
+	}	
+}

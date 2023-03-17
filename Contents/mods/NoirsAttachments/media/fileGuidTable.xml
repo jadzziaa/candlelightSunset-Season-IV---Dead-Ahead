@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+	<files>
+		<path>media/clothing/clothingItems/Anime_TShirt.xml</path>
+		<guid>e1e95db5-0740-4a94-95a4-98766c6242c9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Pink.xml</path>
+		<guid>947d556d-6fdc-4565-a310-3bc353811af6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Pink_LHand.xml</path>
+		<guid>5601df9b-1c1b-4944-b65e-d13ad200c549</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Pink_RHand.xml</path>
+		<guid>eb0db5e4-d4ea-4ffe-83b2-384e92abfb86</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bracelet_LeftFriendshipTINT.xml</path>
+		<guid>4c7aadbc-1387-4de2-b4d4-b573b2d14f8e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_BlackBoots.xml</path>
+		<guid>2717dfdb-49ef-401a-9715-c4487ce6abea</guid>
+	</files>	
+</fileGuidTable>

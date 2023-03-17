@@ -1,0 +1,68 @@
+IG_UI_DE = {
+	IGUI_VehicleName91range = "Royale Trekker Viertürer",
+	IGUI_VehicleName91range2 = "Royale Trekker Zweitürer",
+
+	IGUI_VehicleName90niva = "Vera Diva",
+
+	IGUI_VehicleName89def90 = "Royale Sentinel 35",
+	IGUI_VehicleName89def90op = "Royale Sentinel 35 mit Offroadausstattung",
+	IGUI_VehiclePartdef90Spare = "Reserveradfach",
+
+	IGUI_VehicleName89def110 = "Royale Sentinel 43",
+	IGUI_VehicleName89def110op = "Royale Sentinel 43 mit Offroadausstattung",
+	IGUI_VehiclePartdef110Spare = "Reserveradfach",
+
+	IGUI_VehicleName87cruiser = "Kiichiro Samurai 2F60",
+	IGUI_VehicleName87cruiserLights = "Kiichiro Samurai 2F60 Foglights",
+	IGUI_VehicleName87cruiserRoofrack = "Kiichiro Samurai 2F60 Dachgepäckträger",	
+	IGUI_VehiclePartcruiserRoofrack = "Dachgepäckträger",
+
+	IGUI_VehicleName85mercJunk = "Kallenius-Daum E115 Rostlaube",
+	IGUI_VehicleName85mercSedan = "Kallenius-Daum E115",
+	IGUI_VehicleName85mercWagon = "Kallenius-Daum E115 Kombi",
+	IGUI_VehicleName85mercWagon2 = "Kallenius-Daum E115 Kombi eines Überlebenden",
+	IGUI_VehiclePartmercroofrack = "Dachgepäckträger",
+
+	IGUI_VehicleName67commando = "Laumet Caliber Rambo",
+	IGUI_VehicleName67commandoPolice = "Laumet Caliber Rambo Polizia",
+	IGUI_VehicleName67commandoT50 = "Laumet Caliber Rambo T50",
+	IGUI_VehicleName67commandoBurnt = "Laumet Caliber Rambo (ausgebrannt)",
+	IGUI_CraftCategory_V100 = "Rambo",
+
+	IGUI_VehicleName88golf4doorMk2 = "Krichten Citi T2 Viertürer",
+	IGUI_VehicleName88golf2doorMk2 = "Krichten Citi T2 Zweitürer",
+
+	IGUI_VehicleName88jetta4doorMk2 = "Krichten Sagitar T2 Viertürer",
+	IGUI_VehicleName88jetta2doorMk2 = "Krichten Sagitar T2 Zweitürer",
+
+	IGUI_VehicleName86oshkoshUSMC = "Akwinemi R16F USMC",
+	IGUI_VehicleName86oshkoshKYFD = "Akwinemi R16F KYFD",
+	IGUI_VehicleName86oshkoshFRTR55 = "Akwinemi R16F FRTR55",
+	IGUI_VehicleName86oshkoshP19ABurnt = "Akwinemi R16F (ausgebrannt)",
+	IGUI_VehicleNameTrailerM1082 = "M128 Anhänger",
+	IGUI_VehicleNameTrailerM1082tarp = "M128 Anhänger mit Plane",
+	IGUI_VehicleNameTrailerM1095 = "M195 Anhänger",
+	IGUI_VehicleNameTrailerM1095tarp = "M195 Anhänger mit Plane",
+	IGUI_CraftCategory_P19A = "R16F",
+
+	IGUI_VehicleName92amgeneralM998 = "GE Defense M380 SLMMR",
+	IGUI_VehicleName92amgeneralM998Burnt = "GE Defense M380 SLMMR (ausgebrannt)",
+	IGUI_VehicleNameTrailerM101A3cargo = "M99A1 Anhänger",
+	IGUI_CraftCategory_M998 = "M380",
+	IGUI_CraftCategory_M101A3 = "M99A1",
+
+	IGUI_VehicleNameECTO1 = "Laumet Smith-Boise ECTO-1",
+	IGUI_VehicleName59meteor = "Laumet Smith-Boise",
+	IGUI_VehicleName59ambulance = "Laumet Smith-Boise Ambulance",
+	IGUI_VehicleNameECTO1Burnt = "Laumet Smith-Boise ECTO-1 (ausgebrannt)",
+	IGUI_CraftCategory_59Meteor = "Smith-Boise",
+
+	IGUI_VehicleName84mercLWB2 = "Kallenius-Daum W964 Zweitürer (langer Radabstand)",
+	IGUI_VehicleName84mercLWB4 = "Kallenius-Daum W964 Viertürer (langer Radabstand)",
+	IGUI_VehicleName84mercSWB = "Kallenius-Daum W964 Zweitürer (kurzer Radabstand)",
+	IGUI_CraftCategory_W460 = "W964",
+
+	IGUI_VehicleName83amgeneralM923 = "GE Defense M240",
+	IGUI_VehicleName83amgeneralM923Burnt = "GE Defense M240 (ausgebrannt)",
+	IGUI_CraftCategory_M923 = "M240",
+}

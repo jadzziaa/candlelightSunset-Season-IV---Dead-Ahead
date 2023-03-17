@@ -1,0 +1,8 @@
+name=Eggon's Worthwhile Cars 2.0
+id=eggonsWorthwileCars2
+description=Allows to:
+description=1) Change the rate of or completely block capacity loss of damaged trunks
+description=2) Apply more resonable trunks' capacity balance (trunks capacity increasing with car's size)
+description=3) Apply more resonable cars' loudness balance (increasing with car's size)
+require=eggonsModdingUtils,VehicleTweakerAPI
+poster=poster.png

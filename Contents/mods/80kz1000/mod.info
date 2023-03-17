@@ -1,0 +1,5 @@
+name='80 Kawasaki KZ1000 Police
+id=80kz1000
+description=This mod adds Kawasaki KZ1000, Police bike from 1980, featured in TV show CHiPs <LINE><LINE><RGB:0.0,1.0,0.0>You will need Tsar's Common Library and Autotsar Motorclub <LINE><RGB:1.0,0.0,0.0>You will NOT need Aquatsar Yacht Club or Cherbourg
+require=tsarslib,amclub
+poster=preview.png

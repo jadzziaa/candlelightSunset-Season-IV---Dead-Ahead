@@ -1,0 +1,8 @@
+UI_ES = {
+
+UI_optionscreen_binding_Hotbar 6 = "Barra de acceso rápido 6",
+UI_optionscreen_binding_Hotbar 7 = "Barra de acceso rápido 7",
+UI_optionscreen_binding_Hotbar 8 = "Barra de acceso rápido 8",
+UI_optionscreen_binding_Hotbar 9 = "Barra de acceso rápido 9",
+UI_optionscreen_binding_SlingBindings = "Teclas de acceso rápido adicionales para Portafusíl",
+}

@@ -1,0 +1,3 @@
+ContextMenu_DE = {
+    ContextMenu_RemoveDebris = "Trümmer entfernen",
+} 

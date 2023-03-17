@@ -1,0 +1,247 @@
+module Base
+
+{
+
+	recipe Make LIN93 Front Side Window
+	{
+		keep Scalpel,
+		FrontWindow1=1,
+
+		Result:93townCarFrontSideWindow1,
+		Time:200.0,
+		Category:LIN93,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make LIN93 Middle Side Window
+	{
+		keep Scalpel,
+		RearWindow1=1,
+
+		Result:93townCarMiddleSideWindow1,
+		Time:200.0,
+		Category:LIN93,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make LIN93 Rear Side Window
+	{
+		keep Scalpel,
+		RearWindow1=1,
+
+		Result:93townCarRearSideWindow1,
+		Time:200.0,
+		Category:LIN93,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make LIN93 Windshield
+	{
+		keep Scalpel,
+		Windshield1=1,
+
+		Result:93townCarWindshield1,
+		Time:350.0,
+		Category:LIN93,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make LIN93 Rear Windshield
+	{
+		keep Scalpel,
+		RearWindshield1=1,
+
+		Result:93townCarRearWindshield1,
+		Time:450.0,
+		Category:LIN93,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make LIN93 Sunroof Window
+	{
+		keep Scalpel,
+		FrontWindow1=1,
+
+		Result:93townCarSunRoof1,
+		Time:200.0,
+		Category:LIN93,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make LIN93 Front Door Armor
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		MetalPipe=2,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:93townCarFrontDoorArmor,
+		Time:800.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make LIN93 Middle Window Armor
+	{
+		BlowTorch=7,
+      	keep WeldingMask,
+		MetalPipe=2,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:93townCarMiddleWindowArmor,
+		Time:800.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make LIN93 Rear Door Armor
+	{
+		BlowTorch=7,
+      	keep WeldingMask,
+		MetalPipe=2,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:93townCarRearDoorArmor,
+		Time:800.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make LIN93 Windshield Armor
+	{
+		BlowTorch=9,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=6,
+		Screws=2,
+		MetalPipe=4,
+
+		Result:93townCarWindshieldArmorA,
+		Time:1000.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make LIN93 Windshield Armor with lights
+	{
+		BlowTorch=9,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=6,
+		Screws=2,
+		MetalPipe=4,
+		LightBulb=2,
+
+		Result:93townCarWindshieldArmorB,
+		Time:1000.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make LIN93 Rear Windshield Armor
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=4,
+		Screws=2,
+		MetalPipe=3,
+
+		Result:93townCarWindshieldRearArmor,
+		Time:900.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make LIN93 Reinforced Bumper
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		SheetMetal=4,
+		Screws=2,
+		93townCarBumperFront0=1,
+
+		Result:93townCarBumperFront1,
+		Time:900.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make LIN93 Bullbar Type 1
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+       	SmallSheetMetal=2,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:93townCarBullbarFrontA,
+		Time:900.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make LIN93 Bullbar Type 2
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+       	SmallSheetMetal=2,
+		SheetMetal=4,
+		Screws=2,
+		BigBullHorns=1,
+
+		Result:93townCarBullbarFrontB,
+		Time:1000.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make LIN93 Bullbar Type 3
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+       	93townCarBumperFront0=1,
+       	93townCarBullbarFrontB=1,
+		Screws=2,
+
+		Result:93townCarBullbarFrontC,
+		Time:1200.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=6,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make LIN93 Trunk Rack
+	{
+		BlowTorch=4,
+       	keep WeldingMask,
+       	SmallSheetMetal=2,
+		MetalPipe=4,
+		Screws=2,
+
+		Result:93townCarTrunkRack1,
+		Time:700.0,
+		Category:LIN93,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+}

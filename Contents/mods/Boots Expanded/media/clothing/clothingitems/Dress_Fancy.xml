@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_weddingdress</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_weddingdress</m_FemaleModel>
+	<m_GUID>fb461db8-c252-406e-9946-091f5bb3dc45</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\DressFancy1</textureChoices>
+	<textureChoices>Clothes\DressFancy2</textureChoices>
+	<textureChoices>Clothes\DressFancy3</textureChoices>
+	<textureChoices>Clothes\DressFancy4</textureChoices>
+	<textureChoices>Clothes\DressFancy5</textureChoices>
+	<textureChoices>Clothes\DressFancy6</textureChoices>
+	<textureChoices>Clothes\DressFancy7</textureChoices>
+	<textureChoices>Clothes\DressFancy8</textureChoices>
+	<textureChoices>Clothes\DressFancy9</textureChoices>
+	<textureChoices>Clothes\DressFancy10</textureChoices>
+	<textureChoices>Clothes\DressFancy11</textureChoices>
+	<textureChoices>Clothes\DressFancy12</textureChoices>
+</clothingItem>

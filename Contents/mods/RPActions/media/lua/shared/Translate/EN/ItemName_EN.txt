@@ -1,0 +1,4 @@
+ItemName_EN = {
+
+	ItemName_RPA.BobRPA_Pose_Mag = "Roleplay Pose Magazine",
+}

@@ -1,0 +1,11 @@
+IG_UI_FR = { --------------------------?
+
+    IGUI_Beard_Sparrow's = "Sparrow",
+	IGUI_Beard_VanDyke = "Van Dyke",
+	IGUI_Beard_Imperial = "Imperiale",
+	IGUI_Beard_Verdi = "Verdi",
+	IGUI_Beard_FrenchFork = "Fourchette",
+	IGUI_Beard_Ragnar = "Ragnar",
+	IGUI_Beard_DuckTail = "Queue de Canard",
+    
+}

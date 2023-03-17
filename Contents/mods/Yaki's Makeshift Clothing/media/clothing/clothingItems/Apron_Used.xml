@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Clothes\M_Apron_Used.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Clothes\F_Apron_Used.fbx</m_FemaleModel>
+	<m_GUID>9ad739a0-f3f9-4359-98d0-ec4b92c98605</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\apron\Apron_Used</textureChoices>
+</clothingItem>

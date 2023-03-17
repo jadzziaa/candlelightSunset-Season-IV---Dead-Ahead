@@ -1,0 +1,16 @@
+ItemName_ES = {
+ItemName_Spongie.Jacket_SheepWool = "Chaqueta de invierno",
+ItemName_Spongie.Jacket_SheepWoolOPEN = "Chaqueta de invierno (Abierta)",
+ItemName_Spongie.Jacket_Flight = "Chaqueta de aviación",
+ItemName_Spongie.Jacket_FlightOPEN = "Chaqueta de aviación (Abierta)",
+ItemName_Spongie.Jacket_FlightVest = "Chaleco de aviación",
+ItemName_Spongie.Jacket_FlightVestOPEN = "Chaleco de aviación (Abierto)",
+ItemName_Spongie.TShirt_Compression = "Camiseta de compresión de manga corta",
+ItemName_Spongie.Jumper_TurtleVest = "Jersey de lana sin mangas",
+ItemName_Spongie.Jacket_PoliceArmor = "Chaqueta con armadura de policía",
+ItemName_Spongie.Shorts_Spandex = "Calentadores",
+ItemName_Spongie.Jacket_Bomber = "Chaqueta bomber",
+ItemName_Spongie.Shorts_SpandexLong = "Calentadores largos",
+ItemName_Spongie.TShirt_CompressionLong = "Camiseta de compresión de manga larga",
+
+}

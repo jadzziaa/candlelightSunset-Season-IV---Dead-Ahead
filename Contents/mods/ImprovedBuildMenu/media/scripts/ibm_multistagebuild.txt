@@ -1,0 +1,22 @@
+module Base
+{
+    /************************ Metal Door Frame ************************/
+    multistagebuild UpgradeMetalDoorFrame_1To2
+    {
+        PreviousStage:DoorFrameMetalLvl1,
+        Name:DoorFrameMetalLvl2,
+        TimeNeeded:200,
+        BonusHealth:250,
+        SkillRequired:MetalWelding=5,
+        ItemsRequired:Base.SheetMetal=1;Base.BlowTorch=3,
+        WallType:doorframe,
+        Sprite:constructedobjects_01_58,
+        NorthSprite:constructedobjects_01_59,
+        KnownRecipe:Make Metal Walls,
+        ThumpSound:ZombieThumpMetal,
+        CraftingSound:BlowTorch,
+		CompletionSound:BuildMetalStructureMedium,
+        ID:Upgrade to Metal Door Frame Lvl 2,
+        XP:MetalWelding=15,
+    }
+}

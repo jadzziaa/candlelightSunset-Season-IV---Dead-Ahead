@@ -1,0 +1,14 @@
+ContextMenu_PTBR = {
+	ContextMenu_Smoke = "Fumar"
+	
+	ContextMenu_CarLighter = "Acendedor do carro"
+	ContextMenu_NoCarLighter = "No Car Lighter"
+	ContextMenu_InstallCarLighter = "Plug Car Lighter"
+	ContextMenu_UnInstallCarLighter = "Unplug Car Lighter"
+	ContextMenu_CarLighterRepairNoSkill = "<br> needs repair"
+	ContextMenu_CarLighterRepairWithSkill = "<br> can be repaired"
+	
+	ContextMenu_CarOutOfCigarette = " <br> Nada para fumar"
+	ContextMenu_CarNoBattery = "<br> A bateria deve estar descarregada ou ausente "
+	ContextMenu_CarNoKeyOrWire = "<br> Falta a chave ou fio"
+}

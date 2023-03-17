@@ -1,0 +1,4 @@
+name=Darker Map
+poster=poster.png
+id=darkerMap
+description=Makes the map darker to prevent flash banging zomboid stream viewers.

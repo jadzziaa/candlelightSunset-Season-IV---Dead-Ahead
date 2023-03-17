@@ -1,0 +1,621 @@
+module Base
+{
+	model TrailerHomeBase
+   {
+      mesh = vehicles/Vehicles_hometrailer|Body_mesh,
+      shader = vehicle_norandom_multiuv,
+      invertX = FALSE,
+      scale = 0.0045,
+   }
+	model TrailerHomeTrunk
+	{
+      mesh = vehicles/Vehicles_hometrailer|Trunk_mesh,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.00645,
+   }
+	model TrailerHomeHood
+	{
+      mesh = vehicles/Vehicles_hometrailer|Hood_mesh,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.00645,
+	}
+	model HartmanWheelL
+	{
+		mesh = vehicles/Vehicles_kbac_wheel,
+		texture = Vehicles/AragonTexture/vehicle_trailer_hartman_wheels,
+		shader = vehiclewheel,
+		scale = 0.0025,
+	}
+	model HartmanWheelR
+	{
+		mesh = vehicles/Vehicles_kbac_wheel,
+		texture = Vehicles/AragonTexture/vehicle_trailer_hartman_wheels,
+		shader = vehiclewheel,
+		invertX = TRUE,
+		scale = 0.0025,
+	}
+	vehicle TrailerHomeHartman
+	{
+		template! = TrailerHome,
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_hartman,
+		}
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = HartmanWheelL,
+			}
+
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = HartmanWheelR,
+			}
+
+			table install
+			{
+				requireInstalled = SuspensionFrontRight,
+			}
+		}
+	}
+	model ExplorerWheelL
+	{
+		mesh = vehicles/Vehicles_kbac_wheel,
+		texture = Vehicles/AragonTexture/vehicle_trailer_explorer_wheels,
+		shader = vehiclewheel,
+		scale = 0.0025,
+	}
+	model ExplorerWheelR
+	{
+		mesh = vehicles/Vehicles_kbac_wheel,
+		texture = Vehicles/AragonTexture/vehicle_trailer_explorer_wheels,
+		shader = vehiclewheel,
+		invertX = TRUE,
+		scale = 0.0025,
+	}
+	vehicle TrailerHomeExplorer
+	{
+		template! = TrailerHome,
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_explorer1,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_explorer2,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_explorer3,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_explorer4,
+		}
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = ExplorerWheelL,
+			}
+
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = ExplorerWheelR,
+			}
+
+			table install
+			{
+				requireInstalled = SuspensionFrontRight,
+			}
+		}
+
+	}
+	vehicle TrailerHome
+	{
+		template! = TrailerHome,
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_home1,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_home2,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_home3,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_home4,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_home5,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_home6,
+		}
+	}
+	template vehicle TrailerHome
+	{
+		mechanicType = 1,
+		offRoadEfficiency = 2,
+		engineRepairLevel = 5,
+		playerDamageProtection = 1.3,
+
+		model
+		{
+			file = TrailerHomeBase,
+			scale = 1.9000,
+			offset = 0.0000 0.4053 -0.2579,
+		}
+		
+		sound
+		{
+			engine = GeneratorLoop,
+			engineStart = GeneratorStarting,
+			engineTurnOff = GeneratorStopping,
+			ignitionFail = GeneratorFailedToStart,
+		}
+		
+		spawnOffsetY = 0.3565027,
+
+		textureShadow = Shadows/vehicle_trailer_home_shadow,
+		shadowExtents = 1.3894 2.6895,
+		shadowOffset = 0.0000 0.3000,
+		textureRust = Vehicles/vehicle_trailer_home_rust,
+		textureMask = Vehicles/vehicle_trailer_home_mask,
+		textureLights = Vehicles/vehicle_trailer_home_light,
+		textureDamage1Overlay = Vehicles/AragonTexture/vehicle_trailer_home_BloodMask,
+		textureDamage2Overlay = Vehicles/AragonTexture/vehicle_trailer_home_Blood,
+		textureDamage1Shell = Vehicles/AragonTexture/vehicle_trailer_home_damage1,
+		textureDamage2Shell = Vehicles/AragonTexture/vehicle_trailer_home_damage2,
+		extents = 1.0105 1.0842 2.1053,
+		mass = 500,
+		physicsChassisShape = 1.0105 1.1053 2.1053,
+		centerOfMassOffset = 0.0000 0.8000 0.0000,
+		engineForce = 4000,
+		engineQuality = 80,
+		engineLoudness = 110,
+		maxSpeed = 70f,
+		brakingForce = 1,
+		stoppingMovementForce = 10.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.03,
+		steeringClamp = 0.3,
+		suspensionStiffness = 40,
+		suspensionCompression = 3.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.2,
+		wheelFriction = 1.5f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 6,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.6105 -0.3000 0.2632,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.6053 -0.3000 0.2632,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.7684 0.0316 0.4737 0.4737,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.7632 0.0158 0.4737 0.4737,
+		}
+
+		template = Tire/part/TireFrontLeft,
+		template = Tire/part/TireFrontRight,
+
+		part TireFrontLeft
+		{
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			table install
+			{
+				requireInstalled = SuspensionFrontRight,
+			}
+		}
+
+		template = Suspension/part/SuspensionFrontLeft,
+		template = Suspension/part/SuspensionFrontRight,
+
+		part Suspension*
+		{
+			table install
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+		}
+		
+		area Common
+		{
+			xywh = -0.7632 -0.6895 0.4737 0.4737,
+		}
+
+		template = PassengerSeat6,
+		template = PassengerCompartment,
+
+		passenger FrontLeft
+		{
+			position inside
+			{
+				offset = -0.1895 0.1895 0.7474,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.6947 -0.1263 -0.4421,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+		}
+
+		passenger FrontRight
+		{
+			position inside
+			{
+				offset = -0.1895 0.2105 0.7474,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.6947 -0.1263 -0.4421,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+		}
+
+		passenger MiddleLeft
+		{
+			position inside
+			{
+				offset = 0.3053 0.1895 0.1263,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.6947 -0.1263 -0.4421,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+		}
+
+		passenger MiddleRight
+		{
+			position inside
+			{
+				offset = -0.2737 0.1895 0.1263,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.6947 -0.1263 -0.4421,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+		}
+
+		passenger RearLeft
+		{
+			position inside
+			{
+				offset = 0.2000 0.1895 -0.6526,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.6947 -0.1263 -0.4421,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+		}
+
+		passenger RearRight
+		{
+			position inside
+			{
+				offset = -0.2000 0.1895 -0.6526,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.6947 -0.1263 -0.4421,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+		}
+		
+		area SeatFrontRight
+		{
+			xywh = -0.7632 0.4737 0.4737 0.4737,
+		}
+
+		area SeatMiddleRight
+		{
+			xywh = -0.7632 -0.1000 0.4737 0.4737,
+		}
+
+		area SeatMiddleLeft
+		{
+			xywh = 0.7684 -0.1000 0.4737 0.4737,
+		}
+
+		area SeatRearLeft
+		{
+			xywh = 0.7684 -0.6895 0.4737 0.4737,
+		}
+
+		area SeatRearRight
+		{
+			xywh = -0.7632 -0.6895 0.4737 0.4737,
+		}
+		
+		area Engine
+		{
+			xywh = 0.0000 1.1368 0.8737 0.4737,
+		}
+
+		area GasTank
+		{
+			xywh = 0.0053 -1.2895 0.4737 0.4737,
+		}
+
+		template = Windshield/part/Windshield,
+		template = Windshield/part/WindshieldRear,
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+		template = Window/part/WindowRearLeft,
+		template = Window/part/WindowRearRight,
+
+		part Window*
+		{
+			mechanicRequireKey = false,
+			area = SeatRearRight,
+
+			windows
+			{
+				openable = true,
+			}
+
+			table install
+			{
+				requireInstalled =,
+			}
+
+			table uninstall
+			{
+				requireInstalled =,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+		template = Door/part/DoorRearLeft,
+
+		part Door*
+		{
+			category = nodisplay,
+		}
+
+		template = Door/part/DoorRearRight,
+
+		part DoorRearRight
+		{
+			table uninstall
+			{
+				requireUninstalled =,
+			}
+		}
+
+		template = Seat/part/SeatFrontRight,
+		template = Seat/part/SeatMiddleRight,
+		template = Seat/part/SeatMiddleLeft,
+		template = Seat/part/SeatRearLeft,
+		template = Seat/part/SeatRearRight,
+
+		part Seat*
+		{
+			area = SeatRearRight,
+		}
+
+		template = Engine,
+		template = EngineDoor,
+        part EngineDoor
+        {
+			model Default
+			{
+				file = TrailerHomeHood,
+				rotate = 90 0 0,
+				scale = 0.7,
+				offset = 0 0 0,
+			}
+
+			anim Close
+			{
+				anim = Hood_closing,
+				rate = 2.5,
+			}
+
+			anim Open
+			{
+				anim = Hood_closing,
+				reverse = TRUE,
+				rate = 1.5,
+			}
+
+			anim Closed
+			{
+				anim = Hood_closing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = Hood_closing,
+				animate = FALSE,
+			}
+      }
+		template = Muffler,
+		template = Battery,
+		template = GasTank,
+
+		part GasTank
+		{
+			install
+			{
+				skills = Mechanics:7,
+				recipes = Intermediate Mechanics,
+			}
+
+			uninstall
+			{
+				skills = Mechanics:7,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Heater,
+		template = Fridges/part/FridgeMiddleRight,
+		template = Ovens/part/OvenMiddleLeft,
+		template = Medicines/part/MedicineFrontRight,
+		template = Microwaves/part/MicrowaveMiddleLeft,
+		template = Mattresses/part/MattressRearLeft,
+		template = Mattresses/part/MattressRearRight,
+		template = Shelves/part/ShelveFrontRight,
+		template = TV,
+		template = Radio,
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.2789 1.0421 0.4737,
+		}
+
+		template = TrunkDoor,
+		template = Trunk/part/TruckBed,
+        part TrunkDoor
+        {
+            model Default
+            {
+                file = TrailerHomeTrunk,
+                rotate = 90 0 0,
+                scale = 0.7,
+                offset = 0 0 0,
+            }
+
+            anim Close
+            {
+                anim = Trunk_closing,
+                rate = 2.5,
+            }
+
+            anim Open
+            {
+                anim = Trunk_closing,
+                reverse = TRUE,
+                rate = 1.5,
+            }
+
+            anim Closed
+            {
+                anim = Trunk_closing,
+                reverse = TRUE,
+                animate = FALSE,
+            }
+
+            anim Opened
+            {
+                anim = Trunk_closing,
+                animate = FALSE,
+            }
+        }
+
+		physics box
+		{
+			offset = 0.0842 0.2421 1.1579,
+			extents = 0.0526 0.0526 0.6105,
+			rotate = 0.0000 -13.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = -0.0842 0.2421 1.1579,
+			extents = 0.0526 0.0526 0.6211,
+			rotate = 0.0000 14.0000 0.0000,
+		}
+
+		physics sphere
+		{
+			offset = 0.0000 0.2421 1.4211,
+			radius = 0.0400,
+		}
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.1789 1.8684,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

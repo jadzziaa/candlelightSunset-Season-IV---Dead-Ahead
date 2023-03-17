@@ -1,0 +1,3 @@
+ContextMenu_TR = {
+    ContextMenu_VehicleHotwireSkillEH = "D�z kontak yapmak i�in<br>anahtara veya<br>Elektrik�ilik Seviye ? ve<br>Tamircilik Seviye ?'ye<br>ihtiyac�n�z var.",
+}

@@ -1,0 +1,90 @@
+ItemName_EN = {
+    /*Weapons*/
+    ItemName_Base.AK47 = "AK47 Assault Rifle",	
+	ItemName_Base.AK47Folded = "AK47 Assault Rifle",
+	
+	ItemName_Base.SKS = "SKS Rifle",
+	
+	ItemName_Base.Mini14 = "MINI-14 Rifle",	
+	ItemName_Base.Mini14Folded = "MINI-14 Rifle",
+	
+	ItemName_Base.HuntingRifle = "R788 Rifle",	
+	ItemName_Base.VarmintRifle = "R700 Rifle",
+	
+	ItemName_Base.Spas12 = "SPAS-12 Shotgun",
+	ItemName_Base.Spas12Folded = "SPAS-12 Shotgun",
+	
+	ItemName_Base.Revolver_Short = "M10-5 Revolver",
+	
+	ItemName_Base.Revolver_Long = "M29 Magnum Revolver",
+	
+	ItemName_Base.Shotgun = "M500 Shotgun",
+	
+	ItemName_Base.ShotgunSawnoff = "Sawed-Off M500 Shotgun",
+	
+	ItemName_Base.Pistol3 = "DE Pistol",
+	
+	ItemName_Base.Tec9 = "TEC9 Pistol",
+	
+	ItemName_Base.LeverRifle = "W1866 Carbine",
+	
+	ItemName_Base.MP5 = "MP5 Submachinegun",
+	
+	ItemName_Base.1022 = "R1022 Rifle", /*NEW-NEW*/
+	
+	ItemName_Base.Glock = "G17 Pistol", /*NEW-NEW*/
+	
+	ItemName_Base.ShotgunSawnoffNoStock = "Sawed-Off M500 Shotgun", /*NEW-NEW*/
+	
+	ItemName_Base.MP5SD = "MP5SD Submachinegun", /*NEW-NEW*/
+	
+	ItemName_Base.CAR15 = "CAR-15 Assault Rifle", /*NEW-NEW*/
+	
+	ItemName_Base.CAR15D = "CAR-15 Delta Assault Rifle", /*NEW-NEW*/
+	
+	/*Ammo*/	
+	ItemName_Base.762Box = "Box of 7.62 Rounds",
+	ItemName_Base.762Bullets = "7.62 Rounds",
+	
+	ItemName_Base.22Box = "Box of .22 Rounds",
+	ItemName_Base.22Bullets = ".22 Rounds", /*EDITED*/
+	
+	/*Magazines*/
+	ItemName_Base.762Clip = "AK47 Magazine", /*EDITED*/
+	ItemName_Base.223Clip20 = "MINI-14 Magazine", /*EDITED*/
+	
+	ItemName_Base.9mmClip20 = "TEC9 Magazine", /*EDITED*/
+	ItemName_Base.9mmClip30 = "MP5 Magazine", /*EDITED*/
+	
+	ItemName_Base.22ClipRifle = "R1022 Magazine", /*EDITED*/
+	ItemName_Base.22ClipPistol = ".22 Magazine WIP",
+	
+	ItemName_Base.9mmClip = "M9 Magazine", /*NEW*/
+	ItemName_Base.44Clip = "DE Magazine", /*NEW*/
+	ItemName_Base.45Clip = "M1911 Magazine", /*NEW*/
+	ItemName_Base.308Clip = "MSR788 Magazine", /*NEW*/
+	ItemName_Base.556Clip = "M16 Magazine", /*NEW*/
+	ItemName_Base.M14Clip = "M14 Magazine", /*NEW*/
+	ItemName_Base.22ClipRifle = "R1022 Magazine", /*NEW-NEW*/
+	ItemName_Base.9mmClip17 = "G17 Magazine", /*NEW-NEW*/
+	
+	
+	/*Attachments*/
+	ItemName_Base.OilFilterSuppressor = "Oil Filter Suppressor WIP",		
+	ItemName_Base.OilFilterSuppressor2 = "Oil Filter Suppressor WIP",
+	
+	ItemName_Base.OilFilter = "Oil Filter WIP",
+	ItemName_Base.OilFilter2 = "Oil Filter WIP",
+	
+	ItemName_Base.Bipod = "Bipod",
+	
+	ItemName_Base.ShellHolder = "Shellholder",
+	
+	/*Items*/
+	ItemName_Base.CleaningKit = "Gun Cleaning Kit", /*NEW-NEW*/
+	ItemName_Base.FireKlean = "FireKlean Gun Lube", /*NEW-NEW*/
+	}
+
+	
+
+	

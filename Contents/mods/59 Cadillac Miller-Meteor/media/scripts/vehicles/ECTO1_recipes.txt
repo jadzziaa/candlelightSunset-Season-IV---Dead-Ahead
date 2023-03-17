@@ -1,0 +1,155 @@
+module Base
+
+{
+
+	recipe Reinforce 59 Meteor Tire
+	{
+		ECTO1tire2_Item=1,
+		Wire=5,
+		keep LugWrench,
+
+		Result:ECTO1tire1_Item,
+		Time:500.0,
+		Category:59Meteor,
+		SkillRequired:Mechanics=3,
+	}
+
+	recipe Make 59 Meteor Side Window
+	{
+		keep Scalpel,
+		FrontWindow2=1,
+
+		Result:ECTO1SideWindow2,
+		Time:200.0,
+		Category:59Meteor,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 59 Meteor Side Window 1
+	{
+		keep Scalpel,
+		RearWindow2=1,
+
+		Result:ECTO1SideWindow2,
+		Time:200.0,
+		Category:59Meteor,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 59 Meteor Windshield
+	{
+		keep Scalpel,
+		Windshield2=1,
+
+		Result:ECTO1Windshield2,
+		Time:200.0,
+		Category:59Meteor,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 59 Meteor Rear Windshield
+	{
+		keep Scalpel,
+		RearWindshield2=1,
+
+		Result:ECTO1RearWindshield2,
+		Time:200.0,
+		Category:59Meteor,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 59 Meteor Front Door Armor
+	{
+		BlowTorch=5,
+       	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:ECTO1CarFrontDoorArmor1_Item,
+		Time:1000.0,
+		Category:59Meteor,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make 59 Meteor Rear Door Armor
+	{
+		BlowTorch=5,
+      	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:ECTO1CarRearDoorArmor1_Item,
+		Time:1000.0,
+		Category:59Meteor,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make 59 Meteor Windshield Armor
+	{
+		BlowTorch=5,
+       	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:ECTO1WindshieldArmor1_Item,
+		Time:1000.0,
+		Category:59Meteor,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 59 Meteor Rear Windshield Armor
+	{
+		BlowTorch=5,
+       	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:ECTO1WindshieldRearArmor1_Item,
+		Time:1000.0,
+		Category:59Meteor,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 59 Meteor Bullbar
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		SmallSheetMetal=1,
+		MetalPipe=8,
+		Screws=2,
+
+		Result:ECTO1Bullbar1_Item,
+		Time:1100.0,
+		Category:59Meteor,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 59 Meteor Roofrack
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		SmallSheetMetal=3,
+		MetalPipe=10,
+		Screws=2,
+
+		Result:ECTO1Roofrack1_Item,
+		Time:1000.0,
+		Category:59Meteor,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+}

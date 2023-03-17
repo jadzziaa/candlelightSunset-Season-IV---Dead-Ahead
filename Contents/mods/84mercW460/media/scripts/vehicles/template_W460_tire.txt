@@ -1,0 +1,152 @@
+module Base
+{
+
+	model W460Wheel1
+	{
+		mesh = vehicles/Vehicles_84merc_Wheel|w460_tire1,
+		texture = vehicles/Vehicles_84merc_Wheels,
+		shader = vehiclewheel,
+		scale = 0.1,
+	}
+	model W460Wheel2
+	{
+		mesh = vehicles/Vehicles_84merc_Wheel|w460_tire2,
+		texture = vehicles/Vehicles_84merc_Wheels,
+		shader = vehiclewheel,
+		scale = 0.1,
+	}
+	model W460Wheel3
+	{
+		mesh = vehicles/Vehicles_84merc_Wheel|w460_tire3,
+		texture = vehicles/Vehicles_84merc_Wheels,
+		shader = vehiclewheel,
+		scale = 0.1,
+	}
+
+	template vehicle W460Tires
+	{
+		part TireFrontLeft
+		{
+			area = TireFrontLeft,
+			wheel = FrontLeft,
+			table install
+			{
+				requireInstalled = BrakeFrontLeft;SuspensionFrontLeft,
+			}
+
+		}
+
+		part TireFrontRight
+		{
+			area = TireFrontRight,
+			wheel = FrontRight,
+			table install
+			{
+				requireInstalled = BrakeFrontRight;SuspensionFrontRight,
+			}
+		}
+
+		part TireRearLeft
+		{
+			area = TireRearLeft,
+			wheel = RearLeft,
+			table install
+			{
+				requireInstalled = BrakeRearLeft;SuspensionRearLeft,
+			}
+		}
+
+		part TireRearRight
+		{
+			area = TireRearRight,
+			wheel = RearRight,
+			table install
+			{
+				requireInstalled = BrakeRearRight;SuspensionRearRight,
+			}
+		}
+
+		part Tire*
+		{
+			category = tire,
+			specificItem = false,
+			itemType = Base.W460NormalTire2;Base.W460WideTire2;Base.W460ModernTire2,
+			container
+			{
+				capacity = 35,
+				test = Vehicles.ContainerAccess.Tire,
+				contentType = Air,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Jack,
+						count = 1,
+						keep = true,
+					}
+					2
+					{
+						type = Base.LugWrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 400,
+				skills = Mechanics:1,
+				test = Vehicles.InstallTest.Default,
+				complete = W460LWB.InstallComplete.Tire,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Jack,
+						count = 1,
+						keep = true,
+					}
+					2
+					{
+						type = Base.LugWrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 400,
+				skills = Mechanics:1,
+				test = Vehicles.UninstallTest.Default,
+				complete = W460LWB.UninstallComplete.Tire,
+			}
+
+			model W460Tire1
+			{
+				file = W460Wheel1,
+			}
+
+			model W460Tire2
+			{
+				file = W460Wheel2,
+			}
+
+			model W460Tire3
+			{
+				file = W460Wheel3,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Tire,
+				init = W460LWB.Init.Tire,
+				checkOperate = Vehicles.CheckOperate.Tire,
+				update = Vehicles.Update.Tire,
+			}
+		}
+	}
+}
+

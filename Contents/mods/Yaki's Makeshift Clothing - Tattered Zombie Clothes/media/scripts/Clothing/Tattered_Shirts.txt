@@ -1,0 +1,64 @@
+module Base
+{
+	item Makeshift_Shirt_FormalTattered
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Formal Shirt Tattered,
+		ClothingItem = Makeshift_Shirt_FormalTattered,
+		BodyLocation = Shirt,
+		Icon = ShirtGeneric,
+		BloodLocation = ShirtLongSleeves,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+    item Makeshift_Shirt_Tattered
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = T-Shirt Tattered,
+        ClothingItem = Makeshift_Shirt_Tattered,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Makeshift_Shirt_PoloStripeTattered
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Striped T-Shirt Tattered,
+        ClothingItem = Makeshift_Shirt_PoloStripeTattered,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Makeshift_Shirt_DenimTattered
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Denim Shirt Tattered,
+		ClothingItem = Makeshift_Shirt_DenimTattered,
+		BodyLocation = Shirt,
+		Icon = ShirtDenimBlue,
+		BloodLocation = ShirtLongSleeves,
+        FabricType = Denim,
+        WorldStaticModel = Shirt_Ground,
+    }
+    item Makeshift_Shirt_CropTopTattered
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Crop Top Tattered,
+        ClothingItem = Makeshift_Shirt_CropTopTattered,
+        BodyLocation = Tshirt,
+        Icon	=	TubeTopSleevedGeneric,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = CropTop_Ground,
+    }
+  
+}

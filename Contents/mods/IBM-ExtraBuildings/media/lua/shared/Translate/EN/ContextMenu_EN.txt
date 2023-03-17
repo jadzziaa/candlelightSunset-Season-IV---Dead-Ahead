@@ -1,0 +1,22 @@
+ContextMenu_EN = {  
+  -- Barricades
+  ContextMenu_Barricades = "Barricades",
+  ContextMenu_Small_Barricades = "Small Barricades",
+  ContextMenu_Medium_Barricades = "Medium Barricades",
+  ContextMenu_Large_Barricades = "Large Barricades",
+  ContextMenu_Small_Barricade = "Small Barricade",
+  ContextMenu_Medium_Barricade = "Medium Barricade",
+  ContextMenu_Large_Barricade = "Large Barricade",
+  
+  -- Garages
+  ContextMenu_Garages = "Garage Doors",
+  ContextMenu_Garages_2_Door = "Garage 2 Door",
+  ContextMenu_Garages_3_Door = "Garage 3 Door",
+  ContextMenu_Garages_4_Door = "Garage 4 Door",
+  ContextMenu_Garage_Door1 = "White Garage",
+  ContextMenu_Garage_Door2 = "Green Garage",
+  ContextMenu_Garage_Door3 = "Light Grey Garage",
+  ContextMenu_Garage_Door4 = "Dark Grey Garage",
+  ContextMenu_Garage_Door5 = "Red Windowed Garage",	
+  ContextMenu_Garage_Door6 = "Dark Grey Windowed Garage",
+}

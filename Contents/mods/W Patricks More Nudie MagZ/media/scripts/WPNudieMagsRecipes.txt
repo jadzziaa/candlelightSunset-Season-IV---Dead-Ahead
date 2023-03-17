@@ -1,0 +1,120 @@
+module WyattTestRecipes
+{
+	imports
+	{
+		Base
+	}
+
+	recipe Relieve Some Stress
+	{	
+		Tissue/ToiletPaper/PaperNapkins,
+		HottieZ/WPHunkZ/WPJugZ/WPTailZ,
+		WPLotion/Toothpaste/Soap/Butter,
+
+		Result:WPOldMagazine,
+		Time:690.0,
+		Category:Survivalist,
+		OnCreate:Recipe.OnCreate.WPHaveAGoodTime,
+		AnimNode:BuildLow,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:PageFlipMagazine,
+		Prop1:Source=1,
+		Prop2:Source=2,
+	}
+
+	recipe Apply Lotion
+	{	
+		WPLotion,
+
+		Result:WPLotionResult,
+		Time:90.0,
+		Category:Health,
+		OnCreate:Recipe.OnCreate.WPNoItem,
+		AnimNode:Disassemble,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Prop1:Source=1,
+	}
+
+	recipe Fold Origami Duck
+	{	
+		SheetPaper2,
+
+		Result:WPOrigamiDuck,
+		Time:140.0,
+		Category:Health,
+		OnCreate:Recipe.OnCreate.WPFoldOrigami,
+		AnimNode:Disassemble,
+		NeedToBeLearn:true,
+		CanBeDoneFromFloor:true,
+		Sound:PageFlipMagazine,
+		Prop2:Source=1,
+	}
+
+	recipe Fold Origami Frog
+	{	
+		SheetPaper2,
+
+		Result:WPOrigamiFrog,
+		Time:140.0,
+		Category:Health,
+		OnCreate:Recipe.OnCreate.WPFoldOrigami,
+		AnimNode:Disassemble,
+		NeedToBeLearn:true,
+		CanBeDoneFromFloor:true,
+		Sound:PageFlipMagazine,
+		Prop2:Source=1,
+	}
+
+	recipe Fold Origami Mouse
+	{	
+		SheetPaper2,
+
+		Result:WPOrigamiMouse,
+		Time:140.0,
+		Category:Health,
+		OnCreate:Recipe.OnCreate.WPFoldOrigami,
+		AnimNode:Disassemble,
+		NeedToBeLearn:true,
+		CanBeDoneFromFloor:true,
+		Sound:PageFlipMagazine,
+		Prop2:Source=1,
+	}
+
+	recipe Rip Out Paper
+	{	
+		destroy Notebook,
+
+		Result:SheetPaper2=8,
+		Time:120.0,
+		OnCreate:Recipe.OnCreate.WPRipJournal,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:ClothesRipping,
+	}
+
+	recipe Rip Out Paper
+	{	
+		destroy Journal,
+
+		Result:SheetPaper2=17,
+		Time:180.0,
+		OnCreate:Recipe.OnCreate.WPRipJournal,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:ClothesRipping,
+	}
+
+	recipe Crumple Paper
+	{	
+		SheetPaper2/WPOrigamiDuck/WPOrigamiFrog/WPOrigamiMouse,
+
+		Result:WPCrumpledPaper,
+		Time:40.0,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+	}
+
+}
+

@@ -1,0 +1,11 @@
+Recipes_RU = {
+	Recipe_Tuck In = "Подвернуть",
+	Recipe_Roll Up = "Закатать",
+	Recipe_Attach NVG mount = "Прикрепить крепление ПНВ",
+	Recipe_Attach Night Vision = "Прикрепить ПНВ",
+	Recipe_Attach goggles to helmet = "Прикрепить очки к шлему",
+	Recipe_Attach doff hood = "Прикрепить противогаз к капюшону",
+	Recipe_Remove doff hood = "Открепить противогаз от капюшона",
+	Recipe_Remove goggles = "Убрать очки",
+	Recipe_Refit helmet = "Переоборудовать шлем",
+}

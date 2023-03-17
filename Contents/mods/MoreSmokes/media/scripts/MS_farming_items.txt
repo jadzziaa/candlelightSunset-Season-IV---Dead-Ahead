@@ -1,0 +1,407 @@
+module MoreSmokes
+{
+	/******************** SEEDS ********************/
+
+    item SeedTobacco
+	{
+	    DisplayCategory 	= MoreSmokes,
+		Weight				= 0.002,
+		Type				= Normal,
+		DisplayName			= Tobacco Seeds,
+		Icon				= TobaccoSeeds,
+		WorldStaticModel 	= Seeds_Ground,
+	}
+
+	item SeedNorthernLights
+	{
+	    DisplayCategory 	= MoreSmokes,
+		Weight				= 0.01,
+		Type				= Normal,
+		DisplayName			= Northern Lights Cannabis Seeds,
+		Icon				= SeedsNorthernLights,
+		WorldStaticModel 	= Seeds_Ground,
+	}
+
+	item SeedPurpleHaze
+	{
+	    DisplayCategory 	= MoreSmokes,
+		Weight				= 0.01,
+		Type				= Normal,
+		DisplayName			= Purple Haze Cannabis Seeds,
+		Icon				= SeedsPurpleHaze,
+		WorldStaticModel 	= Seeds_Ground,
+	}
+
+	item SeedSourDiesel
+	{
+	    DisplayCategory 	= MoreSmokes,
+		Weight				= 0.01,
+		Type				= Normal,
+		DisplayName			= Sour Diesel Cannabis Seeds,
+		Icon				= SeedsSourDiesel,
+		WorldStaticModel 	= Seeds_Ground,
+	}
+
+	/******************** SEED PACKAGES ********************/
+	
+	item SeedPackTobacco
+	{
+	    DisplayCategory 	= MoreSmokes,
+		Weight				= 0.12,
+		Type				= Normal,
+		DisplayName			= Tobacco Seeds Packet,
+		Icon				= SeedPackTobacco,
+		WorldStaticModel 	= SeedPackTobacco_Ground,
+	}
+
+	item SeedPackNorthernLights 
+	{
+	    DisplayCategory 	= MoreSmokes,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Northern Lights Cannabis Seeds Packet,
+		Icon				= SeedPackNorthernLights,
+		WorldStaticModel 	= SeedPackNorthernLights_Ground,
+	}
+
+	item SeedPackPurpleHaze 
+	{
+	    DisplayCategory 	= MoreSmokes,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Purple Haze Cannabis Seeds Packet,
+		Icon				= SeedPackPurpleHaze,
+		WorldStaticModel 	= SeedPackPurpleHaze_Ground,
+	}
+
+	item SeedPackSourDiesel 
+	{
+	    DisplayCategory 	= MoreSmokes,
+		Weight				= 0.1,
+		Type				= Normal,
+		DisplayName			= Sour Diesel Cannabis Seeds Packet,
+		Icon				= SeedPackSourDiesel,
+		WorldStaticModel 	= SeedPackSourDiesel_Ground,
+	}
+
+	/******************** TOBACCO PRODUCTS ********************/
+
+	item TobaccoLeaves
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Tobacco Leaves,
+		Icon				= TobaccoLeavesDrying,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= TobaccoLeaves_Ground,
+		Tooltip 			= Tooltip_Item_TobaccoLeaves,
+		DaysTotallyRotten 	= 21,
+        DaysFresh 			= 21,
+        ReplaceOnRotten 	= MoreSmokes.TobaccoLeavesDry,
+	}
+
+	item TobaccoLeavesDry
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Tobacco Leaves [Dry],
+		Icon				= TobaccoLeavesDry,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= TobaccoLeavesDry_Ground,
+		Tooltip 			= Tooltip_Item_TobaccoLeavesDry,
+	}
+
+	item TobaccoLoose
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Tobacco,
+		Icon				= Tobacco,
+		CantBeFrozen 		= TRUE,
+		Tags				= Tobacco,
+		WorldStaticModel 	= TobaccoLoose_Ground,
+		Tooltip 			= Tooltip_Item_Tobacco,
+	}
+
+	item TobaccoZipLockBag
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Drainable,
+		DisplayName			= Tobacco [Ziplock Bag],
+		Icon				= TobaccoZiplockBag,
+		UseDelta  	 	    = 0.1,
+		UseWhileEquipped	= FALSE,
+		ReplaceOnDeplete 	= Base.Garbagebag,
+		ConsolidateOption 	= ContextMenu_Merge,
+		Tags				= Tobacco,
+		WorldStaticModel 	= TobaccoZipLockBag_Ground,
+		Tooltip 			= Tooltip_Item_TobaccoZiplockBag,
+	}
+
+	item TobaccoWrap
+		{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Tobacco Wrap,
+		Icon				= TobaccoWrap,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= TobaccoLeaves_Ground,
+		Tooltip 			= Tooltip_Item_TobaccoWrap,
+	}
+
+	/******************** CANNABIS PRODUCTS ********************/
+
+	item BudNorthernLights
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Northern Lights Cannabis Buds,
+		Icon				= BudNorthernLightsDrying,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudNorthernLights_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBuds,
+		DaysTotallyRotten 	= 7,
+        DaysFresh 			= 7,
+        ReplaceOnRotten 	= MoreSmokes.BudNorthernLightsDry,
+	}
+
+	item BudPurpleHaze
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Purple Haze Cannabis Buds,
+		Icon				= BudPurpleHazeDrying,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudPurpleHaze_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBuds,
+		DaysTotallyRotten 	= 7,
+        DaysFresh 			= 7,
+        ReplaceOnRotten 	= MoreSmokes.BudPurpleHazeDry,
+	}
+
+	item BudSourDiesel
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Sour Diesel Cannabis Buds,
+		Icon				= BudSourDieselDrying,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudSourDiesel_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBuds,
+		DaysTotallyRotten 	= 7,
+        DaysFresh 			= 7,
+        ReplaceOnRotten 	= MoreSmokes.BudSourDieselDry,
+	}
+
+	item BudNorthernLightsDry
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Northern Lights Cannabis Buds [Dry],
+		Icon				= BudNorthernLightsDry,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudNorthernLights_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBudsDry,
+	}
+
+	item BudPurpleHazeDry
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Purple Haze Cannabis Buds [Dry],
+		Icon				= BudPurpleHazeDry,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudPurpleHaze_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBudsDry,
+	}
+
+	item BudSourDieselDry
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Sour Diesel Cannabis Buds [Dry],
+		Icon				= BudSourDieselDry,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudSourDiesel_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBudsDry,
+	}
+
+	item BudNorthernLightsCuring
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Food,
+		DisplayName			= Northern Lights Cannabis Buds [Curing],
+		Icon				= BudNorthernLightsCuring,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudNorthernLightsJar_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBudsCuring,
+		DaysTotallyRotten 	= 14,
+        DaysFresh 			= 14,
+        ReplaceOnRotten 	= MoreSmokes.BudNorthernLightsCured,
+	}
+
+	item BudPurpleHazeCuring
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Food,
+		DisplayName			= Purple Haze Cannabis Buds [Curing],
+		Icon				= BudPurpleHazeCuring,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudPurpleHazeJar_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBudsCuring,
+		DaysTotallyRotten 	= 14,
+        DaysFresh 			= 14,
+        ReplaceOnRotten 	= MoreSmokes.BudPurpleHazeCured,
+	}
+
+	item BudSourDieselCuring
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Food,
+		DisplayName			= Sour Diesel Cannabis Buds [Curing],
+		Icon				= BudSourDieselCuring,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudSourDieselJar_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBudsCuring,
+		DaysTotallyRotten 	= 14,
+        DaysFresh 			= 14,
+        ReplaceOnRotten 	= MoreSmokes.BudSourDieselCured,
+	}
+
+	item BudNorthernLightsCured
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Food,
+		DisplayName			= Northern Lights Cannabis Buds [Cured],
+		Icon				= BudNorthernLightsCured,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudNorthernLightsJarCured_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBudsCured,
+	}
+
+	item BudPurpleHazeCured
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Food,
+		DisplayName			= Purple Haze Cannabis Buds [Cured],
+		Icon				= BudPurpleHazeCured,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudPurpleHazeJarCured_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBudsCured,
+	}
+
+	item BudSourDieselCured
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Food,
+		DisplayName			= Sour Diesel Cannabis Buds [Cured],
+		Icon				= BudSourDieselCured,
+		CantBeFrozen 		= TRUE,
+		WorldStaticModel 	= BudSourDieselJarCured_Ground,
+		Tooltip 			= Tooltip_Item_CannabisBudsCured,
+	}
+
+	item NorthernLightsLoose
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Northern Lights Cannabis,
+		Icon				= NorthernLightsCannabis,
+		CantBeFrozen 		= TRUE,
+		Tags				= Cannabis,
+		WorldStaticModel 	= NorthernLightsLoose_Ground,
+		Tooltip 			= Tooltip_Item_Cannabis,
+	}
+
+	item PurpleHazeLoose
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Purple Haze Cannabis,
+		Icon				= PurpleHazeCannabis,
+		CantBeFrozen 		= TRUE,
+		Tags				= Cannabis,
+		WorldStaticModel 	= PurpleHazeLoose_Ground,
+		Tooltip 			= Tooltip_Item_Cannabis,
+	}
+
+	item SourDieselLoose
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.05,
+		Type				= Food,
+		DisplayName			= Sour Diesel Cannabis,
+		Icon				= SourDieselCannabis,
+		CantBeFrozen 		= TRUE,
+		Tags				= Cannabis,
+		WorldStaticModel 	= SourDieselLoose_Ground,
+		Tooltip 			= Tooltip_Item_Cannabis,
+	}
+
+	item NorthernLightsZipLockBag
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Drainable,
+		DisplayName			= Northern Lights Cannabis [Ziplock Bag],
+		Icon				= NorthernLightsZiplockBag,
+		UseDelta  	 	    = 0.1,
+		UseWhileEquipped	= FALSE,
+		ReplaceOnDeplete 	= Base.Garbagebag,
+		ConsolidateOption 	= ContextMenu_Merge,
+		Tags				= Cannabis,
+		WorldStaticModel 	= NorthernLightsZipLockBag_Ground,
+		Tooltip 			= Tooltip_Item_CannabisZiplockBag,
+	}
+
+	item PurpleHazeZipLockBag
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Drainable,
+		DisplayName			= Purple Haze Cannabis [Ziplock Bag],
+		Icon				= PurpleHazeZiplockBag,
+		UseDelta  	 	    = 0.1,
+		UseWhileEquipped	= FALSE,
+		ReplaceOnDeplete 	= Base.Garbagebag,
+		ConsolidateOption 	= ContextMenu_Merge,
+		Tags				= Cannabis,
+		WorldStaticModel 	= PurpleHazeZipLockBag_Ground,
+		Tooltip 			= Tooltip_Item_CannabisZiplockBag,
+	}
+
+	item SourDieselZipLockBag
+	{
+		DisplayCategory 	= MoreSmokes,
+		Weight				= 0.5,
+		Type				= Drainable,
+		DisplayName			= Sour Diesel Cannabis [Ziplock Bag],
+		Icon				= SourDieselZiplockBag,
+		UseDelta  	 	    = 0.1,
+		UseWhileEquipped	= FALSE,
+		ReplaceOnDeplete 	= Base.Garbagebag,
+		ConsolidateOption 	= ContextMenu_Merge,
+		Tags				= Cannabis,
+		WorldStaticModel 	= SourDieselZipLockBag_Ground,
+		Tooltip 			= Tooltip_Item_CannabisZiplockBag,
+	}
+}

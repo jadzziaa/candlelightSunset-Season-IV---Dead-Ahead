@@ -1,0 +1,3 @@
+ContextMenu_NL = {
+    ContextMenu_VehicleHotwireSkillEH = "Je hebt sleutels of<br>Elektronica level ? en<br>Autotechniek level ? nodig<br> voor een hotwire",
+}

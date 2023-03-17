@@ -1,0 +1,76 @@
+module Base
+{
+	model 92nissanGTRwindshielda
+    	{
+        mesh = vehicles/Vehicles_92nissanGTR_Body|gtr_windshield_a,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+    	}
+
+	template vehicle R32WindshieldArmors
+		{
+		part R32WindshieldArmor
+        	{
+
+			model WindshieldArmor
+				{
+                		file = 92nissanGTRwindshielda,
+				}
+
+			area = Engine,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.R32WindshieldArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	requireInstalled = Windshield,
+                	time = 1100,
+                	skills = Mechanics:4,
+                	recipes = Advanced Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = R32.InstallComplete.WindshieldArmor,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 1100,
+					skills = Mechanics:4,
+					recipes = Advanced Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = R32.UninstallComplete.WindshieldArmor,
+            		}
+
+            		lua
+            		{
+					create = R32.Create.WindshieldArmor,
+					init = R32.Init.WindshieldArmor,
+					}
+		}
+	}
+
+		
+}

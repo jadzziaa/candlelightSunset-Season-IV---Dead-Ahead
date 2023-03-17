@@ -1,0 +1,205 @@
+module SpiffoCards
+{
+imports
+{
+Base
+}
+
+item SpiffoCard0
+{
+DisplayName=Spiffo Trading Card #00 - Classic Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard0,
+}
+
+item SpiffoCard1
+{
+DisplayName=Spiffo Trading Card #01 - Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard1,
+}
+
+item SpiffoCard2
+{
+DisplayName=Spiffo Trading Card #02 - Happy Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard2,
+}
+
+item SpiffoCard3
+{
+DisplayName=Spiffo Trading Card #03 - Panicked Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard3,
+}
+
+item SpiffoCard4
+{
+DisplayName=Spiffo Trading Card #04 - Smart Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard4,
+}
+
+item SpiffoCard5
+{
+DisplayName=Spiffo Trading Card #05 - Dunce Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard5,
+}
+
+item SpiffoCard6
+{
+DisplayName=Spiffo Trading Card #06 - Farmer Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard6,
+}
+
+item SpiffoCard7
+{
+DisplayName=Spiffo Trading Card #07 - Crafty Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard7,
+}
+
+item SpiffoCard8
+{
+DisplayName=Spiffo Trading Card #08 - Waving Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard8,
+}
+
+item SpiffoCard9
+{
+DisplayName=Spiffo Trading Card #09 - Lost Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard9,
+}
+
+item SpiffoCard10
+{
+DisplayName=Spiffo Trading Card #10 - Spiffolicious!,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard10,
+}
+
+item SpiffoCard11
+{
+DisplayName=Spiffo Trading Card #11 - Queasy Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard11,
+}
+
+item SpiffoCard12
+{
+DisplayName=Spiffo Trading Card #12 - Peep Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard12,
+}
+
+item SpiffoCard13
+{
+DisplayName=Spiffo Trading Card #13 - Computer Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard13,
+}
+
+item SpiffoCard14
+{
+DisplayName=Spiffo Trading Card #14 - Hoarder Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard14,
+}
+
+item SpiffoCard15
+{
+DisplayName=Spiffo Trading Card #15 - Driver Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard15,
+}
+
+item SpiffoCard16
+{
+DisplayName=Spiffo Trading Card #16 - Thirsty Spiffo,
+Icon=SpiffoCard_back,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=SpiffoCard16,
+}
+
+item cardpack
+{
+DisplayName=Spiffo Trading Card Pack,
+Icon=cardpack,
+Weight=0.1,
+Type=Normal,
+WorldStaticModel=cardpack,
+}
+
+item cardpackgold
+{
+DisplayName=Spiffo Trading Card Pack Gold,
+Icon=cardpackgold,
+Weight=0.1,
+Type=Normal,
+WorldStaticModel=cardpackgold,
+}
+
+item cardpack_trash
+{
+DisplayName=Empty Card Pack Wrapper,
+Icon=cardpack_trash,
+Weight=0.03,
+Type=Normal,
+}
+
+recipe Open Card Pack
+{
+cardpack,
+Result:cardpack_trash,
+OnCreate:opencardpack,
+Time:15.0,
+Category:Cooking,
+}
+
+
+recipe Open Card Pack
+{
+cardpackgold,
+Result:cardpack_trash,
+OnCreate:opencardpackgold,
+Time:15.0,
+Category:Cooking,
+}
+}

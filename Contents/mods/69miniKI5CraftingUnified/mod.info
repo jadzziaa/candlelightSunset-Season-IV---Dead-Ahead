@@ -1,0 +1,6 @@
+name='69 Mini Mk2 - Unified KI5 Crafting Category
+authors=Panopticon
+poster=preview.png
+id=69miniKI5CraftingUnified
+require=69mini
+description=Overwrites the crafting recipes to be under "KI5" instead of "MINI69".

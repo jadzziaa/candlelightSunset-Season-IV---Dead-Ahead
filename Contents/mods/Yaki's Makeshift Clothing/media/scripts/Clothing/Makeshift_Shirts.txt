@@ -1,0 +1,112 @@
+module Base
+{
+    item Shirt_Sheet
+    {
+        Type = Clothing,
+        DisplayName = Sheet Shirt,
+        ClothingItem = Shirt_Sheet,
+        BodyLocation = Tshirt,
+        Icon	= SheetShirt,
+        BloodLocation = Shirt,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+    }
+	item Shirt_RippedSheet
+    {
+        Type = Clothing,
+        DisplayName = Ripped Sheet Shirt,
+        ClothingItem = Shirt_RippedSheet,
+        BodyLocation = Tshirt,
+        Icon	= RippedSheetShirt,
+        BloodLocation = Shirt,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.03,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+    }
+    item Shirt_TrashBag
+    {
+        Type = Clothing,
+        DisplayName = TrashBag Shirt,
+        ClothingItem = Shirt_TrashBag,
+        BodyLocation = Tshirt,
+        WindResistance = 1,
+        Icon	= TrashBagShirt,
+        BloodLocation = Shirt,
+        Insulation = 0.3,
+        WindResistance = 0.50,
+        WorldStaticModel = Shirt_Ground,
+    }
+    item Shirt_LacedCollar
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Laced Collar Shirt,
+        ClothingItem = Shirt_LacedCollar,
+        BodyLocation = Tshirt,
+        Icon	=	LacedShirt,
+        BloodLocation = ShirtLongSleeves,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Shirt_Leather
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Laced Leather Shirt,
+        ClothingItem = Shirt_Leather,
+        BodyLocation = Tshirt,
+        Icon	=	LacedShirt,
+        BloodLocation = ShirtLongSleeves,
+        Insulation = 0.9,
+        WindResistance = 0.5,
+        FabricType = Leather,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Shirt_Corset
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Corset Shirt,
+        ClothingItem = Shirt_Corset,
+        BodyLocation = Tshirt,
+        Icon	=	CorsetShirt,
+        BloodLocation = Shirt,
+        Insulation = 0.5,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Shirt_RippedSheetBandeau
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ripped Sheet Bandeau,
+        ClothingItem = Shirt_RippedSheetBandeau,
+        BodyLocation = Tshirt,
+        Icon	=	RippedSheetBandeau,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = CropTop_Ground,
+    }
+    item Makeshift_Shirt_Rogue
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Rogue Shirt,
+        ClothingItem = Makeshift_Shirt_Rogue,
+        BodyLocation = Tshirt,
+        Icon	=	RogueShirt,
+        BloodLocation = ShirtLongSleeves,
+        Insulation = 0.5,
+        WindResistance = 0.25,
+        WorldStaticModel = ShirtRogue_Ground,
+    }
+  
+}

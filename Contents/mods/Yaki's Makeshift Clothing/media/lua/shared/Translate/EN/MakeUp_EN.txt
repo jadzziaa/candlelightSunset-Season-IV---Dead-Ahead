@@ -1,0 +1,11 @@
+MakeUp_EN = {
+    MakeUpType_EyeScar = "Eye Scar",
+    MakeUpType_LipsScar = "Lips Scar",
+    MakeUpType_BrowScar = "Brow Scar",
+    MakeUpType_ChestScar = "Chest Scar",
+    MakeUpType_CheekBoneScar = "CheekBone Scar",
+    MakeUpType_NoseScar = "Nose Scar",
+    MakeUpType_BodyScars = "Body Scars",
+    MakeUpType_Bandages = "Bandages",
+}
+

@@ -1,0 +1,27 @@
+module Sprout
+{
+	imports
+	{
+		Base
+	}
+
+recipe Spin Thread
+	{
+      Cotton=10,
+
+	keep Spindle,
+
+        Result:Thread=5,
+        Time:200.0,
+	  Category:Farming,
+	}
+recipe Convert Cotton
+	{
+      Cotton=10,
+
+        Result:CottonBalls=7,
+        Time:20.0,
+	  Category:Farming,
+	}
+
+}

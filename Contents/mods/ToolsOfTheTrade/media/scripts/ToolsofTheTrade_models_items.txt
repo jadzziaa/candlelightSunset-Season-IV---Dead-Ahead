@@ -1,0 +1,838 @@
+module Base {
+
+	model FishKnocker
+	{
+		mesh = Weapons/1Handed/FishKnocker,
+		texture = Weapons/FishKnockerTexture,
+	}
+	model WorldItem_FishKnocker
+	{
+		mesh = WorldItems/WorldItem_FishKnocker,
+		texture = Weapons/FishKnockerTexture,
+	}
+	model UtilityBar
+	{
+		mesh = Weapons/1Handed/UtilityBar,
+		texture = Weapons/UtilityBarTexture,
+	}
+	model WorldItem_UtilityBar
+	{
+		mesh = WorldItems/WorldItem_UtilityBar,
+		texture = Weapons/UtilityBarTexture,
+	}
+	model StubbyHammer
+	{
+		mesh = Weapons/1Handed/StubbyHammer,
+		texture = Weapons/StubbyHammerTexture,
+	}
+	model WorldItem_StubbyHammer
+	{
+		mesh = WorldItems/WorldItem_StubbyHammer,
+		texture = Weapons/StubbyHammerTexture,
+	}
+	model BrickHammer
+	{
+		mesh = Weapons/1Handed/BrickHammer,
+		texture = Weapons/BrickHammerTexture,
+	}
+	model WorldItem_BrickHammer
+	{
+		mesh = WorldItems/WorldItem_BrickHammer,
+		texture = Weapons/BrickHammerTexture,
+	}
+	model WarHammer
+	{
+		mesh = Weapons/2Handed/WarHammer,
+		texture = Weapons/WarHammerTexture,
+	}
+	model WorldItem_WarHammer
+	{
+		mesh = WorldItems/WorldItem_WarHammer,
+		texture = Weapons/WarHammerTexture,
+	}
+	model SpiffoMace
+	{
+		mesh = Weapons/1Handed/SpiffoMace,
+		texture = Weapons/SpiffoMaceTexture,
+	}
+	model WorldItem_SpiffoMace
+	{
+		mesh = WorldItems/WorldItem_SpiffoMace,
+		texture = Weapons/SpiffoMaceTexture,
+	}
+	model Shillelagh
+	{
+		mesh = Weapons/1Handed/Shillelagh,
+		texture = Weapons/ShillelaghTexture,
+	}
+	model WorldItem_Shillelagh
+	{
+		mesh = WorldItems/WorldItem_Shillelagh,
+		texture = Weapons/ShillelaghTexture,
+	}
+	model HeavyShillelagh
+	{
+		mesh = Weapons/2Handed/HeavyShillelagh,
+		texture = Weapons/HeavyShillelaghTexture,
+	}
+	model WorldItem_HeavyShillelagh
+	{
+		mesh = WorldItems/WorldItem_HeavyShillelagh,
+		texture = Weapons/HeavyShillelaghTexture,
+	}
+	model DefilerAxe
+	{
+		mesh = Weapons/2Handed/DefilerAxe,
+		texture = Weapons/DefilerTexture,
+	}
+	model DefilerSledgehammer
+	{
+		mesh = Weapons/2Handed/DefilerSledgehammer,
+		texture = Weapons/DefilerTexture,
+	}
+	model WorldItem_Defiler
+	{
+		mesh = WorldItems/WorldItem_Defiler,
+		texture = Weapons/DefilerTexture,
+	}
+	model DespoilerAxe
+	{
+		mesh = Weapons/2Handed/DespoilerAxe,
+		texture = Weapons/DespoilerTexture,
+	}
+	model DespoilerSledgehammer
+	{
+		mesh = Weapons/2Handed/DespoilerSledgehammer,
+		texture = Weapons/DespoilerTexture,
+	}
+	model WorldItem_Despoiler
+	{
+		mesh = WorldItems/WorldItem_Despoiler,
+		texture = Weapons/DespoilerTexture,
+	}
+	model HalliganBar
+	{
+		mesh = Weapons/2Handed/HalliganBar,
+		texture = Weapons/HalliganBarTexture,
+	}
+	model WorldItem_HalliganBar
+	{
+		mesh = WorldItems/WorldItem_HalliganBar,
+		texture = Weapons/HalliganBarTexture,
+	}
+	model CoreHammer
+	{
+		mesh = Weapons/2Handed/CoreHammer,
+		texture = Weapons/CoreHammerTexture,
+	}
+	model WorldItem_CoreHammer
+	{
+		mesh = WorldItems/WorldItem_CoreHammer,
+		texture = Weapons/CoreHammerTexture,
+	}
+	model AluminumBaseballBat
+	{
+		mesh = Weapons/2Handed/AluminumBaseballBat,
+		texture = Weapons/AluminumBaseballBatTexture,
+	}
+	model WorldItem_AluminumBaseballBat
+	{
+		mesh = WorldItems/WorldItem_AluminumBaseballBat,
+		texture = Weapons/AluminumBaseballBatTexture,
+	}
+	model IndustrialWrench
+	{
+		mesh = Weapons/2Handed/IndustrialWrench,
+		texture = Weapons/IndustrialWrenchTexture,
+	}
+	model WorldItem_IndustrialWrench
+	{
+		mesh = WorldItems/WorldItem_IndustrialWrench,
+		texture = Weapons/IndustrialWrenchTexture,
+	}
+	model PostMaul
+	{
+		mesh = Weapons/2Handed/PostMaul,
+		texture = Weapons/PostMaulTexture,
+	}
+	model WorldItem_PostMaul
+	{
+		mesh = WorldItems/WorldItem_PostMaul,
+		texture = Weapons/PostMaulTexture,
+	}
+	model RailroadHammer
+	{
+		mesh = Weapons/2Handed/RailroadHammer,
+		texture = Weapons/RailroadHammerTexture,
+	}
+	model WorldItem_RailroadHammer
+	{
+		mesh = WorldItems/WorldItem_RailroadHammer,
+		texture = Weapons/RailroadHammerTexture,
+	}
+	model ArmyMattock
+	{
+		mesh = Weapons/2Handed/ArmyMattock,
+		texture = Weapons/ArmyMattockTexture,
+	}
+	model WorldItem_ArmyMattock
+	{
+		mesh = WorldItems/WorldItem_ArmyMattock,
+		texture = Weapons/ArmyMattockTexture,
+	}
+	model IndustrialBreachingHammer
+	{
+		mesh = Weapons/2Handed/IndustrialBreachingHammer,
+		texture = Weapons/IndustrialBreachingHammerTexture,
+	}
+	model WorldItem_IndustrialBreachingHammer
+	{
+		mesh = WorldItems/WorldItem_IndustrialBreachingHammer,
+		texture = Weapons/IndustrialBreachingHammerTexture,
+	}
+	model PoliceBreachingHammer
+	{
+		mesh = Weapons/2Handed/PoliceBreachingHammer,
+		texture = Weapons/PoliceBreachingHammerTexture,
+	}
+	model WorldItem_PoliceBreachingHammer
+	{
+		mesh = WorldItems/WorldItem_PoliceBreachingHammer,
+		texture = Weapons/PoliceBreachingHammerTexture,
+	}
+	model SpiritLevel
+	{
+		mesh = Weapons/1Handed/SpiritLevel,
+		texture = Weapons/SpiritLevelTexture,
+	}
+	model WorldItem_SpiritLevel
+	{
+		mesh = WorldItems/WorldItem_SpiritLevel,
+		texture = Weapons/SpiritLevelTexture,
+	}
+	model GrassScythe
+	{
+		mesh = Weapons/2Handed/GrassScythe,
+		texture = Weapons/GrassScytheTexture,
+	}
+	model WorldItem_GrassScythe
+	{
+		mesh = WorldItems/WorldItem_GrassScythe,
+		texture = Weapons/GrassScytheTexture,
+	}
+	model SpiffArmyKnife
+	{
+		mesh = Weapons/1Handed/SpiffArmyKnife,
+		texture = Weapons/SpiffArmyKnifeTexture,
+	}
+	model WorldItem_SpiffArmyKnife
+	{
+		mesh = WorldItems/WorldItem_SpiffArmyKnife,
+		texture = Weapons/SpiffArmyKnifeTexture,
+	}
+	model Crutch
+	{
+		mesh = Weapons/2Handed/Crutch,
+		texture = Weapons/CrutchTexture,
+	}
+	model WorldItem_Crutch
+	{
+		mesh = WorldItems/WorldItem_Crutch,
+		texture = Weapons/CrutchTexture,
+	}
+	model CastIronSkillet
+	{
+		mesh = Weapons/1Handed/CastIronSkillet,
+		texture = Weapons/CastIronSkilletTexture,
+	}
+	model WorldItem_CastIronSkillet
+	{
+		mesh = WorldItems/WorldItem_CastIronSkillet,
+		texture = Weapons/CastIronSkilletTexture,
+	}
+	model WorldItem_CastIronSkilletCornbread_Ground
+	{
+		mesh = WorldItems/WorldItem_CastIronSkilletCornbread,
+		texture = Items/CastIronSkilletCornbreadTexture,
+	}
+	model WorldItem_CastIronSkilletCornbread_GroundRotten
+	{
+		mesh = WorldItems/WorldItem_CastIronSkilletCornbread,
+		texture = Items/CastIronSkilletCornbreadRottenTexture,
+	}
+	model Backsaw
+	{
+		mesh = Items/Backsaw,
+		texture = Items/BacksawTexture,
+	}
+	model WorldItem_Backsaw
+	{
+		mesh = WorldItems/WorldItem_Backsaw,
+		texture = Items/BacksawTexture,
+	}
+	model ShaolinSpade
+	{
+		mesh = Weapons/2Handed/ShaolinSpade,
+		texture = Weapons/ShaolinSpadeTexture,
+	}
+	model WorldItem_ShaolinSpade
+	{
+		mesh = WorldItems/WorldItem_ShaolinSpade,
+		texture = Weapons/ShaolinSpadeTexture,
+	}
+	model SplittingMaul
+	{
+		mesh = Weapons/2Handed/SplittingMaul,
+		texture = Weapons/SplittingMaulTexture,
+	}
+	model WorldItem_SplittingMaul
+	{
+		mesh = WorldItems/WorldItem_SplittingMaul,
+		texture = Weapons/SplittingMaulTexture,
+	}
+	model CrashAxe
+	{
+		mesh = Weapons/1Handed/CrashAxe,
+		texture = Weapons/CrashAxeTexture,
+	}
+	model WorldItem_CrashAxe
+	{
+		mesh = WorldItems/WorldItem_CrashAxe,
+		texture = Weapons/CrashAxeTexture,
+	}
+	model CombatKnife
+	{
+		mesh = Weapons/1Handed/CombatKnife,
+		texture = Weapons/CombatKnifeTexture,
+	}
+	model WorldItem_CombatKnife
+	{
+		mesh = WorldItems/WorldItem_CombatKnife,
+		texture = Weapons/CombatKnifeTexture,
+	}
+	model BushMachete
+	{
+		mesh = Weapons/1Handed/BushMachete,
+		texture = Weapons/BushMacheteTexture,
+	}
+	model WorldItem_BushMachete
+	{
+		mesh = WorldItems/WorldItem_BushMachete,
+		texture = Weapons/BushMacheteTexture,
+	}
+	model Kukri
+	{
+		mesh = Weapons/1Handed/Kukri,
+		texture = Weapons/KukriTexture,
+	}
+	model WorldItem_Kukri
+	{
+		mesh = WorldItems/WorldItem_Kukri,
+		texture = Weapons/KukriTexture,
+	}
+	model Tomahawk
+	{
+		mesh = Weapons/1Handed/Tomahawk,
+		texture = Weapons/TomahawkTexture,
+	}
+	model WorldItem_Tomahawk
+	{
+		mesh = WorldItems/WorldItem_Tomahawk,
+		texture = Weapons/TomahawkTexture,
+	}
+	model FairbairnSykesKnife
+	{
+		mesh = Weapons/1Handed/FairbairnSykesKnife,
+		texture = Weapons/FairbairnSykesKnifeTexture,
+	}
+	model WorldItem_FairbairnSykesKnife
+	{
+		mesh = WorldItems/WorldItem_FairbairnSykesKnife,
+		texture = Weapons/FairbairnSykesKnifeTexture,
+	}
+	model CavalrySabre
+	{
+		mesh = Weapons/1Handed/CavalrySabre,
+		texture = Weapons/CavalrySabreTexture,
+	}
+	model WorldItem_CavalrySabre
+	{
+		mesh = WorldItems/WorldItem_CavalrySabre,
+		texture = Weapons/CavalrySabreTexture,
+	}
+	model BeardedAxe
+	{
+		mesh = Weapons/2Handed/BeardedAxe,
+		texture = Weapons/BeardedAxeTexture,
+	}
+	model WorldItem_BeardedAxe
+	{
+		mesh = WorldItems/WorldItem_BeardedAxe,
+		texture = Weapons/BeardedAxeTexture,
+	}
+	model MorningStar
+	{
+		mesh = Weapons/1Handed/MorningStar,
+		texture = Weapons/MorningStarTexture,
+	}
+	model WorldItem_MorningStar
+	{
+		mesh = WorldItems/WorldItem_MorningStar,
+		texture = Weapons/MorningStarTexture,
+	}
+	model Trident
+	{
+		mesh = Weapons/2Handed/Trident,
+		texture = Weapons/TridentTexture,
+	}
+	model WorldItem_Trident
+	{
+		mesh = WorldItems/WorldItem_Trident,
+		texture = Weapons/TridentTexture,
+	}
+	model Kanabo
+	{
+		mesh = Weapons/2Handed/Kanabo,
+		texture = Weapons/KanaboTexture,
+	}
+	model WorldItem_Kanabo
+	{
+		mesh = WorldItems/WorldItem_Kanabo,
+		texture = Weapons/KanaboTexture,
+	}
+	model PencilEraser
+	{
+		mesh = Weapons/1Handed/PencilEraser,
+		texture = Weapons/PencilEraserTexture,
+	}
+	model WorldItem_PencilEraser
+	{
+		mesh = WorldItems/WorldItem_PencilEraser,
+		texture = Weapons/PencilEraserTexture,
+	}
+	model BrownBessMusket
+	{
+		mesh = Weapons/2Handed/BrownBessMusket,
+		texture = Weapons/BrownBessMusketTexture,
+	}
+	model WorldItem_BrownBessMusket
+	{
+		mesh = WorldItems/WorldItem_BrownBessMusket,
+		texture = Weapons/BrownBessMusketTexture,
+	}
+	model MeatHook
+	{
+		mesh = Weapons/1Handed/MeatHook,
+		texture = Weapons/MeatHookTexture,
+	}
+	model WorldItem_MeatHook
+	{
+		mesh = WorldItems/WorldItem_MeatHook,
+		texture = Weapons/MeatHookTexture,
+	}
+	model ArmyScissors
+	{
+		mesh = Weapons/1Handed/ArmyScissors,
+		texture = Weapons/ArmyScissorsTexture,
+	}
+	model WorldItem_ArmyScissors
+	{
+		mesh = WorldItems/WorldItem_ArmyScissors,
+		texture = Weapons/ArmyScissorsTexture,
+	}
+	model BandageScissors
+	{
+		mesh = Items/BandageScissors,
+		texture = Items/BandageScissorsTexture,
+	}
+	model WorldItem_BandageScissors
+	{
+		mesh = WorldItems/WorldItem_BandageScissors,
+		texture = Items/BandageScissorsTexture,
+	}
+	model Seax
+	{
+		mesh = Weapons/1Handed/Seax,
+		texture = Weapons/SeaxTexture,
+	}
+	model WorldItem_Seax
+	{
+		mesh = WorldItems/WorldItem_Seax,
+		texture = Weapons/SeaxTexture,
+	}
+	model ArmyCanOpener
+	{
+		mesh = Items/ArmyCanOpener,
+		texture = Items/ArmyCanOpenerTexture,
+	}
+	model WorldItem_ArmyCanOpener
+	{
+		mesh = WorldItems/WorldItem_ArmyCanOpener,
+		texture = Items/ArmyCanOpenerTexture,
+	}
+	model Gladius
+	{
+		mesh = Weapons/1Handed/Gladius,
+		texture = Weapons/GladiusTexture,
+	}
+	model WorldItem_Gladius
+	{
+		mesh = WorldItems/WorldItem_Gladius,
+		texture = Weapons/GladiusTexture,
+	}
+	model TrenchShovel
+	{
+		mesh = Weapons/1Handed/TrenchShovel,
+		texture = Weapons/TrenchShovelTexture,
+	}
+	model WorldItem_TrenchShovel
+	{
+		mesh = WorldItems/WorldItem_TrenchShovel,
+		texture = Weapons/TrenchShovelTexture,
+	}
+	model Stielhandgranate
+	{
+		mesh = Weapons/1Handed/Stielhandgranate,
+		texture = Weapons/StielhandgranateTexture,
+	}
+	model WorldItem_Stielhandgranate
+	{
+		mesh = WorldItems/WorldItem_Stielhandgranate,
+		texture = Weapons/StielhandgranateTexture,
+	}
+	model PulaskiAxe
+	{
+		mesh = Weapons/2Handed/PulaskiAxe,
+		texture = Weapons/PulaskiAxeTexture,
+	}
+	model WorldItem_PulaskiAxe
+	{
+		mesh = WorldItems/WorldItem_PulaskiAxe,
+		texture = Weapons/PulaskiAxeTexture,
+	}
+	model Rebar
+	{
+		mesh = Weapons/2Handed/Rebar,
+		texture = Weapons/RebarTexture,
+	}
+	model WorldItem_Rebar
+	{
+		mesh = WorldItems/WorldItem_Rebar,
+		texture = Weapons/RebarTexture,
+	}
+	model StunGun
+	{
+		mesh = Weapons/1Handed/StunGun,
+		texture = Weapons/StunGunTexture,
+	}
+	model WorldItem_StunGun
+	{
+		mesh = WorldItems/WorldItem_StunGun,
+		texture = Weapons/StunGunTexture,
+	}
+	model HarpoonSpear
+	{
+		mesh = Weapons/2Handed/HarpoonSpear,
+		texture = Weapons/HarpoonSpearTexture,
+	}
+	model WorldItem_HarpoonSpear
+	{
+		mesh = WorldItems/WorldItem_HarpoonSpear,
+		texture = Weapons/HarpoonSpearTexture,
+	}
+	model Gavel
+	{
+		mesh = Weapons/1Handed/Gavel,
+		texture = Weapons/GavelTexture,
+	}
+	model WorldItem_Gavel
+	{
+		mesh = WorldItems/WorldItem_Gavel,
+		texture = Weapons/GavelTexture,
+	}
+	model CricketBat
+	{
+		mesh = Weapons/2Handed/CricketBat,
+		texture = Weapons/CricketBatTexture,
+	}
+	model WorldItem_CricketBat
+	{
+		mesh = WorldItems/WorldItem_CricketBat,
+		texture = Weapons/CricketBatTexture,
+	}
+	model Candlestick
+	{
+		mesh = Weapons/1Handed/Candlestick,
+		texture = Weapons/CandlestickTexture,
+	}
+	model WorldItem_Candlestick
+	{
+		mesh = WorldItems/WorldItem_Candlestick,
+		texture = Weapons/CandlestickTexture,
+	}
+	model IndustrialPipeWrench
+	{
+		mesh = Weapons/2Handed/IndustrialPipeWrench,
+		texture = Weapons/IndustrialPipeWrenchTexture,
+	}
+	model WorldItem_IndustrialPipeWrench
+	{
+		mesh = WorldItems/WorldItem_IndustrialPipeWrench,
+		texture = Weapons/IndustrialPipeWrenchTexture,
+	}
+	model EntryTool
+	{
+		mesh = Weapons/2Handed/EntryTool,
+		texture = Weapons/EntryToolTexture,
+	}
+	model WorldItem_EntryTool
+	{
+		mesh = WorldItems/WorldItem_EntryTool,
+		texture = Weapons/EntryToolTexture,
+	}
+	model BrandingIron
+	{
+		mesh = Weapons/1Handed/BrandingIron,
+		texture = Weapons/BrandingIronTexture,
+	}
+	model WorldItem_BrandingIron
+	{
+		mesh = WorldItems/WorldItem_BrandingIron,
+		texture = Weapons/BrandingIronTexture,
+	}
+	model KebabSkewer
+	{
+		mesh = Weapons/1Handed/KebabSkewer,
+		texture = Weapons/KebabSkewerTexture,
+	}
+	model WorldItem_KebabSkewer
+	{
+		mesh = WorldItems/WorldItem_KebabSkewer,
+		texture = Weapons/KebabSkewerTexture,
+	}
+	model MeatTenderiser
+	{
+		mesh = Weapons/1Handed/MeatTenderiser,
+		texture = Weapons/MeatTenderiserTexture,
+	}
+	model WorldItem_MeatTenderiser
+	{
+		mesh = WorldItems/WorldItem_MeatTenderiser,
+		texture = Weapons/MeatTenderiserTexture,
+	}
+	model RyobaSaw
+	{
+		mesh = Weapons/1Handed/RyobaSaw,
+		texture = Weapons/RyobaSawTexture,
+	}
+	model WorldItem_RyobaSaw
+	{
+		mesh = WorldItems/WorldItem_RyobaSaw,
+		texture = Weapons/RyobaSawTexture,
+	}
+	model CutthroatRazor
+	{
+		mesh = Weapons/1Handed/CutthroatRazor,
+		texture = Weapons/CutthroatRazorTexture,
+	}
+	model WorldItem_CutthroatRazor
+	{
+		mesh = WorldItems/WorldItem_CutthroatRazor,
+		texture = Weapons/CutthroatRazorTexture,
+	}
+	model UtensilTool
+	{
+		mesh = Weapons/1Handed/UtensilTool,
+		texture = Weapons/UtensilToolTexture,
+	}
+	model WorldItem_UtensilTool
+	{
+		mesh = WorldItems/WorldItem_UtensilTool,
+		texture = Weapons/UtensilToolTexture,
+	}
+	model RebarClub
+	{
+		mesh = Weapons/2Handed/RebarClub,
+		texture = Weapons/RebarClubTexture,
+	}
+	model WorldItem_RebarClub
+	{
+		mesh = WorldItems/WorldItem_RebarClub,
+		texture = Weapons/RebarClubTexture,
+	}
+	model RebarSpear
+	{
+		mesh = Weapons/2Handed/RebarSpear,
+		texture = Weapons/RebarSpearTexture,
+	}
+	model WorldItem_RebarSpear
+	{
+		mesh = WorldItems/WorldItem_RebarSpear,
+		texture = Weapons/RebarSpearTexture,
+	}
+	model RebarHammer
+	{
+		mesh = Weapons/2Handed/RebarHammer,
+		texture = Weapons/RebarHammerTexture,
+	}
+	model WorldItem_RebarHammer
+	{
+		mesh = WorldItems/WorldItem_RebarHammer,
+		texture = Weapons/RebarHammerTexture,
+	}
+	model TrenchClub
+	{
+		mesh = Weapons/1Handed/TrenchClub,
+		texture = Weapons/TrenchClubTexture,
+	}
+	model WorldItem_TrenchClub
+	{
+		mesh = WorldItems/WorldItem_TrenchClub,
+		texture = Weapons/TrenchClubTexture,
+	}
+	model TrenchBat
+	{
+		mesh = Weapons/2Handed/TrenchBat,
+		texture = Weapons/TrenchBatTexture,
+	}
+	model WorldItem_TrenchBat
+	{
+		mesh = WorldItems/WorldItem_TrenchBat,
+		texture = Weapons/TrenchBatTexture,
+	}
+	model ExecutionersSword
+	{
+		mesh = Weapons/2Handed/ExecutionersSword,
+		texture = Weapons/ExecutionersSwordTexture,
+	}
+	model WorldItem_ExecutionersSword
+	{
+		mesh = WorldItems/WorldItem_ExecutionersSword,
+		texture = Weapons/ExecutionersSwordTexture,
+	}
+	model Adze
+	{
+		mesh = Weapons/1Handed/Adze,
+		texture = Weapons/AdzeTexture,
+	}
+	model WorldItem_Adze
+	{
+		mesh = WorldItems/WorldItem_Adze,
+		texture = Weapons/AdzeTexture,
+	}
+	model HalberdAxe
+	{
+		mesh = Weapons/2Handed/HalberdAxe,
+		texture = Weapons/HalberdTexture,
+	}
+	model HalberdSpear
+	{
+		mesh = Weapons/2Handed/HalberdSpear,
+		texture = Weapons/HalberdTexture,
+	}
+	model WorldItem_Halberd
+	{
+		mesh = WorldItems/WorldItem_Halberd,
+		texture = Weapons/HalberdTexture,
+	}
+	model BarbecueFork
+	{
+		mesh = Weapons/1Handed/BarbecueFork,
+		texture = Weapons/BarbecueForkTexture,
+	}
+	model WorldItem_BarbecueFork
+	{
+		mesh = WorldItems/WorldItem_BarbecueFork,
+		texture = Weapons/BarbecueForkTexture,
+	}
+	model BrushHook
+	{
+		mesh = Weapons/2Handed/BrushHook,
+		texture = Weapons/BrushHookTexture,
+	}
+	model WorldItem_BrushHook
+	{
+		mesh = WorldItems/WorldItem_BrushHook,
+		texture = Weapons/BrushHookTexture,
+	}
+	model FellingAxe
+	{
+		mesh = Weapons/2Handed/FellingAxe,
+		texture = Weapons/FellingAxeTexture,
+	}
+	model WorldItem_FellingAxe
+	{
+		mesh = WorldItems/WorldItem_FellingAxe,
+		texture = Weapons/FellingAxeTexture,
+	}
+	model Hatchet
+	{
+		mesh = Weapons/1Handed/Hatchet,
+		texture = Weapons/HatchetTexture,
+	}
+	model WorldItem_Hatchet
+	{
+		mesh = WorldItems/WorldItem_Hatchet,
+		texture = Weapons/HatchetTexture,
+	}
+	model TelescopicBaton
+	{
+		mesh = Weapons/1Handed/TelescopicBaton,
+		texture = Weapons/TelescopicBatonTexture,
+	}
+	model WorldItem_TelescopicBaton
+	{
+		mesh = WorldItems/WorldItem_TelescopicBaton,
+		texture = Weapons/TelescopicBatonTexture,
+	}
+	model CollapsedBaton
+	{
+		mesh = Weapons/1Handed/CollapsedBaton,
+		texture = Weapons/TelescopicBatonTexture,
+	}
+	model WorldItem_CollapsedBaton
+	{
+		mesh = WorldItems/WorldItem_CollapsedBaton,
+		texture = Weapons/TelescopicBatonTexture,
+	}
+	model RailwaySpikeHammer
+	{
+		mesh = Weapons/2Handed/RailwaySpikeHammer,
+		texture = Weapons/RailwaySpikeHammerTexture,
+	}
+	model WorldItem_RailwaySpikeHammer
+	{
+		mesh = WorldItems/WorldItem_RailwaySpikeHammer,
+		texture = Weapons/RailwaySpikeHammerTexture,
+	}
+	model Multitool
+	{
+		mesh = Weapons/1Handed/Multitool,
+		texture = Weapons/MultitoolTexture,
+	}
+	model WorldItem_Multitool
+	{
+		mesh = WorldItems/WorldItem_Multitool,
+		texture = Weapons/MultitoolTexture,
+	}
+	model Jackknife
+	{
+		mesh = Weapons/1Handed/Jackknife,
+		texture = Weapons/JackknifeTexture,
+	}
+	model WorldItem_Jackknife
+	{
+		mesh = WorldItems/WorldItem_Jackknife,
+		texture = Weapons/JackknifeTexture,
+	}
+	model WalkingStick
+	{
+		mesh = Weapons/2Handed/WalkingStick,
+		texture = Weapons/WalkingStickTexture,
+	}
+	model WorldItem_WalkingStick
+	{
+		mesh = WorldItems/WorldItem_WalkingStick,
+		texture = Weapons/WalkingStickTexture,
+	}
+}

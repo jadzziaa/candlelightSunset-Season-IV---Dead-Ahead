@@ -1,0 +1,7 @@
+ItemName_RU = {
+    ItemName_ImprovisedSilencers.Silencer = "Глушитель для винтовки"
+	ItemName_ImprovisedSilencers.SilencerPistol = "Глушитель для пистолета"
+    ItemName_ImprovisedSilencers.MetalPipeSilencer = "Глушитель из металлической трубы"
+    ItemName_ImprovisedSilencers.TorchSilencer = "Глушитель из фонарика"
+    ItemName_ImprovisedSilencers.WaterBottleSilencer = "Глушитель из бутылки"
+}

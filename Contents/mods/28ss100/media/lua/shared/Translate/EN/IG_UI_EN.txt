@@ -1,0 +1,12 @@
+IG_UI_EN = {
+	IGUI_VehicleName28ss100 = "'28 Brough Superior SS100",
+	IGUI_VehicleName28ss100hermes = "'28 Brough Superior SS100 Hermes",
+
+	IGUI_VehiclePartSS100topbox = "Top Storage Box",
+	IGUI_VehiclePartSS100sideBoxl = "Left Storage Box",
+	IGUI_VehiclePartSS100sideBoxr = "Right Storage Box",
+	IGUI_VehiclePartSS100Tent = "Tent Storage",
+
+	IGUI_VehiclePartFenderFront = "Front Fender",
+	IGUI_VehiclePartFenderRear = "Rear Fender",
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Clothes\M_Makeshift_Vest_RogueCorset.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Clothes\F_Makeshift_Vest_RogueCorset.fbx</m_FemaleModel>
+	<m_GUID>e9a10536-a131-4e1c-ba63-bdd5add4d797</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\jacket\Makeshift_Vest_RogueCorset</textureChoices>
+</clothingItem>

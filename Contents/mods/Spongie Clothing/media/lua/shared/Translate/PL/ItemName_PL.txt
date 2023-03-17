@@ -1,0 +1,15 @@
+ItemName_PL = {
+ItemName_Spongie.Jacket_SheepWool = "Kurtka zimowa",
+ItemName_Spongie.Jacket_SheepWoolOPEN = "Kurtka zimowa (Rozpięta)",
+ItemName_Spongie.Jacket_Flight = "Kurtka lotnicza",
+ItemName_Spongie.Jacket_FlightOPEN = "Kurtka lotnicza (Rozpięta)",
+ItemName_Spongie.Jacket_FlightVest = "Kamizelka lotnicza",
+ItemName_Spongie.Jacket_FlightVestOPEN = "Kamizelka lotnicza (Rozpięta)",
+ItemName_Spongie.TShirt_Compression = "Koszula kompresyjna",
+ItemName_Spongie.TShirt_CompressionLong = "Koszula kompresyjna z długimi rękawami",
+ItemName_Spongie.Jumper_TurtleVest = "Kamizelka z golfem",
+ItemName_Spongie.Jacket_PoliceArmor = "Kurtka policyjna - opancerzona",
+ItemName_Spongie.Shorts_Spandex = "Szorty kompresyjne",
+ItemName_Spongie.Shorts_SpandexLong = "Legginsy kompresyjne",
+ItemName_Spongie.Gloves_StripedLong = "Rękawiczki w paski - długie",
+}

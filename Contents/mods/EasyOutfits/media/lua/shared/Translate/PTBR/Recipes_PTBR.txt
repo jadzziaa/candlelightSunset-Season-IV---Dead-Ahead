@@ -1,0 +1,3 @@
+Recipes_PTBR = {
+	Recipe_Make_Outfit_Tag = "Marcar roupa com uma etiqueta",
+}

@@ -1,0 +1,78 @@
+module Base
+{
+	template vehicle KZ1KtrunkStorages
+	{
+	    part KZ1Ktrunk
+		{
+			category = bodywork,
+			area = TruckBed,
+			itemType = Base.KZ1Kstorage,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = KZ1K.ContainerAccess.TrunkBox,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part KZ1Kleftbox
+		{
+			category = bodywork,
+			area = TruckBedLeft,
+			itemType = Base.KZ1Ksidestorage,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = KZ1K.ContainerAccess.TrunkBoxLeft,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part KZ1Krightbox
+		{
+			category = bodywork,
+			area = TruckBedRight,
+			itemType = Base.KZ1Ksidestorage,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = KZ1K.ContainerAccess.TrunkBoxRight,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part TruckBed
+		{
+			category = nodisplay,
+			area = TruckBed,
+			itemType = nil,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = KZ1K.ContainerAccess.TrunkBox,
+			}
+			lua
+			{
+			}
+		}
+
+	}
+
+}

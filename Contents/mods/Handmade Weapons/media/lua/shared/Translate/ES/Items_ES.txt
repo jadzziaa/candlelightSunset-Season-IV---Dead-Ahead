@@ -1,0 +1,12 @@
+Items_ES = {
+	DisplayNameStone_Handaxe = "Hacha corta de piedra",
+	DisplayNameQuarter_Staff = "Vara de combate",
+	DisplayNameHandmade_Baseball_Bat = "Bate de béisbol casero",
+	DisplayNameHandmade_Bat_with_Nails = "Bate casero con clavos",
+	DisplayNameBaseball_Magazine = "Revista de béisbol",
+	DisplayNameBarbed_Wire_Handmade_Bat = "Bate casero con alambre",
+	DisplayNameBarbed_Wire_Baseball_Bat = "Bate de béisbol con alambre",
+	DisplayNameChisel = "Cincel",
+	DisplayNameWooden_Sword = "Espada de madera",
+	DisplayNameImproved_Stone_Axe = "Hacha de piedra mejorada",
+}

@@ -1,0 +1,175 @@
+module Base
+{
+
+
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_1.ogg,
+			volume = 0.9,
+		}
+	}
+
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_2.ogg,
+			volume = 0.9,
+		}
+	}
+
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_3.ogg,
+			volume = 0.9,
+		}
+	}
+
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_4.ogg,
+			volume = 0.9,
+		}
+	}
+
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_5.ogg,
+			volume = 0.9,
+		}
+	}
+
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_6.ogg,
+			volume = 0.9,
+		}
+	}
+
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_7.ogg,
+			volume = 0.9,
+		}
+	}
+
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_8.ogg,
+			volume = 0.9,
+		}
+	}
+
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_9.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_10.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_11.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_12.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_13.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_14.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_15.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_16.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_17.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Furniture	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Furniture_18.ogg,
+			volume = 0.9,
+		}
+	}
+}

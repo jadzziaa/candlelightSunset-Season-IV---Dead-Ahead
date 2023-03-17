@@ -1,0 +1,195 @@
+module Base
+{
+    /******************* Storage ************************/
+
+    item KZ1Kstorage3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = KZ1000 TrUnK,
+        Icon    =    none,
+        MaxCapacity = 10,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+    }
+
+    item KZ1Ksidestorage3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = KZ1000 TrUnKs,
+        Icon    =    none,
+        MaxCapacity = 20,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+    }
+
+    item KZ1KstorageLid
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   2.0,
+        Type    =   Normal,
+        DisplayName =   KZ1000 Storage Lid,
+        Icon    =   KZ1K_lid,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = KZ1K_storageLidWI,
+    }
+
+    item KZ1KsidestorageLid
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   2.0,
+        Type    =   Normal,
+        DisplayName =   KZ1000 Side Storage Lid,
+        Icon    =   KZ1K_lidside,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = KZ1K_storageLidsideWI,
+    }
+
+    /******************* Muffler ************************/
+    
+    item KZ1Kmuffler
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	5.0,
+        Type	=	Normal,
+        DisplayName	=	KZ1000 Muffler,
+        Icon	=	KZ1K_muffler,
+        EngineLoudness = 120,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.015,
+        ConditionLowerOffroad = 0.35,
+        MechanicsItem = TRUE,
+        WorldStaticModel = KZ1K_mufflerWI,
+    }
+
+    /******************* Tires ************************/
+
+    item KZ1KoldTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	13.0,
+        Type	=	Normal,
+        DisplayName	=	KZ1000 Valu-Tire,
+        Icon	=	KZ1K_tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.08,
+        ConditionLowerOffroad = 0.5,
+        WheelFriction = 1.4,
+        MechanicsItem = TRUE,
+        WorldStaticModel = KZ1K_tireWI,
+    }
+
+    item KZ1KnormalTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	14.0,
+        Type	=	Normal,
+        DisplayName	=	KZ1000 Regular Tire,
+        Icon	=	KZ1K_tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.4,
+        WheelFriction = 1.5,
+        MechanicsItem = TRUE,
+        WorldStaticModel = KZ1K_tireWI,
+    }
+
+    item KZ1KmodernTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	KZ1000 Performance Tire,
+        Icon	=	KZ1K_tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.35,
+        WheelFriction = 1.6,
+        MechanicsItem = TRUE,
+        WorldStaticModel = KZ1K_tireWI,
+    }
+
+    /******************* GasTank ************************/
+    
+    item KZ1KgasTank
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	KZ1000 Gas Tank,
+        Icon	=	KZ1K_gasTank,
+        MaxCapacity = 43,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        MechanicsItem = TRUE,
+        WorldStaticModel = KZ1K_gastankWI,
+    }
+
+    /******************* Seat ************************/
+    
+    item KZ1Kseat
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	4.0,
+        Type	=	Normal,
+        DisplayName	=	KZ1000 Seat,
+        Icon	=	KZ1K_seat,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = KZ1K_seatWI,
+    }
+
+    /******************* Windshield ************************/
+    
+    item KZ1Kwindshield3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   3.0,
+        Type    =   Normal,
+        DisplayName =   KZ1000 Windshield,
+        Icon    =   KZ1K_windshield,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = KZ1K_windshieldWI,
+    }
+
+    /******************* CHiPs helmet ************************/
+
+    item Hat_CHiPsHelmet
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = CHiPs Police Helmet,
+        ClothingItem = Hat_CHiPsHelmet,
+        BodyLocation = Hat,
+        Icon = chipshelmet,
+        CanHaveHoles = false,
+        CombatSpeedModifier = 0.95,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 1.0,
+        BloodLocation = FullHelmet,
+        WorldStaticModel = CHiPshelmetWI,
+    }
+}

@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+	<m_MaleOutfits>
+		<m_Name>Stalker</m_Name>
+		<m_Guid>0340737f-c394-4de2-b117-e4de8eac8b97</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>f73097f3-030b-4d36-a9c9-683c636402be</itemGUID> <!-- Stalker Cloak Up and down -->
+			<subItems>
+				<itemGUID>94ae0c8d-68c9-416d-ac17-a383d633312e</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>e246dffe-9768-4a31-baf3-5b97c726a68a</itemGUID> <!-- Stalker Jacket -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>57f58f5c-295a-4c92-ae20-cddeb94be2ed</itemGUID> <!-- Stalker Trousers -->
+			<subItems>
+				<itemGUID>35cf1f97-8569-4728-ba3f-61f5ff0f2cec</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>eb943430-4ee0-4613-8f45-c55b3c69dd91</itemGUID> <!-- Stalker Boots -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3c0f4519-8721-41fc-b129-13942271d823</itemGUID> <!-- Stalker Mask -->
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8d869dbf-39ab-4437-b804-d8c9daf0b0f4</itemGUID> <!-- Stalker Gloves -->
+		</m_items>
+
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>Stalker</m_Name>
+		<m_Guid>40f4c3af-b4a4-4a4e-a7e1-38fc63dbeae5</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>f73097f3-030b-4d36-a9c9-683c636402be</itemGUID> <!-- Stalker Cloak Up and down -->
+			<subItems>
+				<itemGUID>94ae0c8d-68c9-416d-ac17-a383d633312e</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>e246dffe-9768-4a31-baf3-5b97c726a68a</itemGUID> <!-- Stalker Jacket -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>57f58f5c-295a-4c92-ae20-cddeb94be2ed</itemGUID> <!-- Stalker Trousers -->
+			<subItems>
+				<itemGUID>35cf1f97-8569-4728-ba3f-61f5ff0f2cec</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>eb943430-4ee0-4613-8f45-c55b3c69dd91</itemGUID> <!-- Stalker Boots -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>3c0f4519-8721-41fc-b129-13942271d823</itemGUID> <!-- Stalker Mask -->
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>8d869dbf-39ab-4437-b804-d8c9daf0b0f4</itemGUID> <!-- Stalker Gloves -->
+		</m_items>
+
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>Nomad</m_Name>
+		<m_Guid>3537701b-0f34-47ff-92a2-5c629acad362</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>a75d819a-15a3-4f91-b8b8-db46e300a5fb</itemGUID> <!-- Nomad Parka Up and Down -->
+			<subItems>
+				<itemGUID>ea2f7976-3d4b-4fc0-babc-fcf675e3d262</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>a2c38447-d3c1-4696-8276-af1604e54841</itemGUID> <!-- Nomad Mask -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>b0a71158-7e08-444a-a7de-7c58847e16f6</itemGUID> <!-- Nomad Trousers -->
+			<subItems>
+				<itemGUID>c0b00c7d-26b0-469d-80bd-d331e8593aed</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>c96b4f79-bb11-4625-bde5-b1c9f18d607a</itemGUID> <!-- Nomad Boots -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>77539380-d457-44d9-95cd-1bb4833f9216</itemGUID> <!-- Nomad Backpack -->
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</itemGUID> <!-- LeatherGloves -->
+		</m_items>
+
+		<m_items>
+			<probability>0.25</probability>
+			<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID> <!-- Crucifix -->
+		</m_items>
+
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>Nomad</m_Name>
+		<m_Guid>ed21a0db-41fe-455b-bae5-ddd4fba7807c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>a75d819a-15a3-4f91-b8b8-db46e300a5fb</itemGUID> <!-- Nomad Parka Up and Down -->
+			<subItems>
+				<itemGUID>ea2f7976-3d4b-4fc0-babc-fcf675e3d262</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>a2c38447-d3c1-4696-8276-af1604e54841</itemGUID> <!-- Nomad Mask -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>b0a71158-7e08-444a-a7de-7c58847e16f6</itemGUID> <!-- Nomad Trousers -->
+			<subItems>
+				<itemGUID>c0b00c7d-26b0-469d-80bd-d331e8593aed</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>c96b4f79-bb11-4625-bde5-b1c9f18d607a</itemGUID> <!-- Nomad Boots -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>77539380-d457-44d9-95cd-1bb4833f9216</itemGUID> <!-- Nomad Backpack -->
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</itemGUID> <!-- LeatherGloves -->
+		</m_items>
+
+		<m_items>
+			<probability>0.25</probability>
+			<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID> <!-- Crucifix -->
+		</m_items>
+
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>OminousNomad</m_Name>
+		<m_Guid>3537701b-0f34-47ff-92a2-5c629acad362</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>1f3d7637-c61e-4827-a5b1-09d2e3af6637</itemGUID> <!-- Nomad Parka Up and Down -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>b1e10452-02c0-48cc-bd88-a0bf0e8460d8</itemGUID> <!-- Nomad Mask -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>b0a71158-7e08-444a-a7de-7c58847e16f6</itemGUID> <!-- Nomad Trousers -->
+			<subItems>
+				<itemGUID>c0b00c7d-26b0-469d-80bd-d331e8593aed</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>c96b4f79-bb11-4625-bde5-b1c9f18d607a</itemGUID> <!-- Nomad Boots -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>77539380-d457-44d9-95cd-1bb4833f9216</itemGUID> <!-- Nomad Backpack -->
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</itemGUID> <!-- LeatherGloves -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>bd36d524-dc71-4ee0-80d7-3e5791f85f7d</itemGUID> <!-- GoldRuby -->
+		</m_items>
+
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>OminousNomad</m_Name>
+		<m_Guid>ed21a0db-41fe-455b-bae5-ddd4fba7807c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>1f3d7637-c61e-4827-a5b1-09d2e3af6637</itemGUID> <!-- Nomad Parka Up and Down -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>b1e10452-02c0-48cc-bd88-a0bf0e8460d8</itemGUID> <!-- Nomad Mask -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>b0a71158-7e08-444a-a7de-7c58847e16f6</itemGUID> <!-- Nomad Trousers -->
+			<subItems>
+				<itemGUID>c0b00c7d-26b0-469d-80bd-d331e8593aed</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>c96b4f79-bb11-4625-bde5-b1c9f18d607a</itemGUID> <!-- Nomad Boots -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>77539380-d457-44d9-95cd-1bb4833f9216</itemGUID> <!-- Nomad Backpack -->
+		</m_items>
+
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</itemGUID> <!-- LeatherGloves -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>bd36d524-dc71-4ee0-80d7-3e5791f85f7d</itemGUID> <!-- GoldRuby -->
+		</m_items>
+
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>Prepper</m_Name>
+		<m_Guid>e450d06d-298a-4a7a-9b1d-444b182f5957</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>2680b271-a68b-44ac-b251-e373cf631a81</itemGUID> <!-- Prepper Jacket -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>3c89d750-41a9-4594-8ad9-23b0891ef260</itemGUID> <!-- PrepperHelmet -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>20f05ce4-9187-48b5-b3a4-522d3a0611d6</itemGUID> <!-- Prepper Trousers -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>76d32672-3cea-45d0-9cb0-e09dbb8e4976</itemGUID> <!-- Prepper Vest -->
+			<subItems>
+				<itemGUID>1aa35689-86d0-4ea8-8355-1bc6f55dc60b</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID> <!-- Boots -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cd173fdc-8dc2-48f7-a1c1-09b5e5bce06e</itemGUID> <!-- Prepper Mask -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afb6a87b</itemGUID> <!-- Gloves -->
+		</m_items>
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+
+		<m_Name>Prepper</m_Name>
+		<m_Guid>9ea6bbe0-1e8d-4662-a5bc-365d9ea1c324</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>2680b271-a68b-44ac-b251-e373cf631a81</itemGUID> <!-- Prepper Jacket -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>3c89d750-41a9-4594-8ad9-23b0891ef260</itemGUID> <!-- PrepperHelmet -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>20f05ce4-9187-48b5-b3a4-522d3a0611d6</itemGUID> <!-- Prepper Trousers -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>76d32672-3cea-45d0-9cb0-e09dbb8e4976</itemGUID> <!-- Prepper Vest -->
+			<subItems>
+				<itemGUID>1aa35689-86d0-4ea8-8355-1bc6f55dc60b</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID> <!-- Boots -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cd173fdc-8dc2-48f7-a1c1-09b5e5bce06e</itemGUID> <!-- Prepper Mask -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afb6a87b</itemGUID> <!-- Gloves -->
+		</m_items>
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>Headhunter</m_Name>
+		<m_Guid>f53755c3-cd66-4da9-962e-b519604b1737</m_Guid>
+		<m_Top>true</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>c1645558-07d4-4f81-be7d-0c9bb4a0df06</itemGUID> <!-- Headhunter Mantle up and down -->
+			<subItems>
+				<itemGUID>ed0c2264-cbd5-4549-a5e4-a1d101ec09e3</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>2eb5fc6b-de4b-41c6-9953-ed9dce5c01b7</itemGUID> <!-- Headhunter Gasmask -->
+		</m_items>
+
+
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID> <!-- Boots -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afb6a87b</itemGUID> <!-- Gloves -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c39935fa-7025-4b2e-a7fc-3583dc596aee</itemGUID> <!-- Headhunter Backpack -->
+		</m_items>
+
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>Headhunter</m_Name>
+		<m_Guid>ff41982f-e7d9-41f4-b695-f09154ae8096</m_Guid>
+		<m_Top>true</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>ed0c2264-cbd5-4549-a5e4-a1d101ec09e3</itemGUID> <!-- Headhunter Mantle up and down -->
+			<subItems>
+				<itemGUID>c1645558-07d4-4f81-be7d-0c9bb4a0df06</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>2eb5fc6b-de4b-41c6-9953-ed9dce5c01b7</itemGUID> <!-- Headhunter Gasmask -->
+		</m_items>
+
+
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID> <!-- Boots -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afb6a87b</itemGUID> <!-- Gloves -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>c39935fa-7025-4b2e-a7fc-3583dc596aee</itemGUID> <!-- Headhunter Backpack -->
+		</m_items>
+
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>DeadlyHeadhunter</m_Name>
+		<m_Guid>f53755c3-cd66-4da9-962e-b519604b1737</m_Guid>
+		<m_Top>true</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>975602da-e27c-4911-bb39-8fdc3768c20d</itemGUID> <!-- Headhunter Mantle up and down -->
+			<subItems>
+				<itemGUID>6a7b4a6e-9b11-47d9-a5f8-d10cd23ee837</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>095cd89b-5862-4db2-933d-05c79ed712e3</itemGUID> <!-- Headhunter Gasmask -->
+		</m_items>
+
+
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID> <!-- Boots -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afb6a87b</itemGUID> <!-- Gloves -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cb27d019-78ea-45a1-837a-6626b4b36e43</itemGUID> <!-- Headhunter Backpack -->
+		</m_items>
+
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>DeadlyHeadhunter</m_Name>
+		<m_Guid>ff41982f-e7d9-41f4-b695-f09154ae8096</m_Guid>
+		<m_Top>true</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>975602da-e27c-4911-bb39-8fdc3768c20d</itemGUID> <!-- Headhunter Mantle up and down -->
+			<subItems>
+				<itemGUID>6a7b4a6e-9b11-47d9-a5f8-d10cd23ee837</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>095cd89b-5862-4db2-933d-05c79ed712e3</itemGUID> <!-- Headhunter Gasmask -->
+		</m_items>
+
+
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID> <!-- Boots -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afb6a87b</itemGUID> <!-- Gloves -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>cb27d019-78ea-45a1-837a-6626b4b36e43</itemGUID> <!-- Headhunter Backpack -->
+		</m_items>
+
+	</m_FemaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>Amazona</m_Name>
+		<m_Guid>ec19d407-be7c-4f57-8cd2-e35faee035c6</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+		<m_items>
+			<itemGUID>106386dc-1cd1-442f-9cbe-34ae57a942e3</itemGUID> <!-- Amazona Cloak up and down -->
+			<subItems>
+				<itemGUID>8a95566f-5951-49c9-b30a-946cfb678b85</itemGUID>
+			</subItems>
+		</m_items>
+
+		<m_items>
+			<itemGUID>1660b91f-1d5c-4700-8723-7a7b920f35a7</itemGUID> <!-- Amazona Dress -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>315e8386-f398-41b2-ac11-8df7f6d50cc8</itemGUID> <!-- Amazona Boots -->
+		</m_items>
+
+		<m_items>
+			<itemGUID>9ca0cb2b-e079-428e-9f2c-814101ba1972</itemGUID> <!-- Amazona MakeUp -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>ea5f6c1c-d852-4fc7-a204-101824eceba0</itemGUID> <!-- Amazona HipBag -->
+		</m_items>
+
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>778cc04b-761d-4268-9479-09829468775c</itemGUID> <!-- Necklace -->
+			<subItems>
+				<itemGUID>bd36d524-dc71-4ee0-80d7-3e5791f85f7d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0ef4bbd5-b1ba-412a-8d68-ad83a6abfda6</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0dc0ceda-9162-4abd-b263-7f32ff497e21</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>25c5a9a3-3fe8-4565-9a8e-af2208167902</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+
+	</m_FemaleOutfits>
+
+</outfitManager>

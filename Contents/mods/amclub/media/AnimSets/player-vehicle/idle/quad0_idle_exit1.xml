@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>quad0_idle_exit1</m_Name>
+	<m_SpeedScale>1</m_SpeedScale>
+	<m_AnimName>QUAD0_Idle_Exit1</m_AnimName>
+	<m_BlendTime>0.0</m_BlendTime>
+	<m_Conditions>
+		<m_Name>ATVehicleType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>QUAD0</m_StringValue>
+	</m_Conditions>
+    <m_Conditions>
+		<m_Name>ATPassengerStatus</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>exit</m_StringValue>
+	</m_Conditions>
+    <m_Conditions>
+		<m_Type>OR</m_Type>
+	</m_Conditions>
+    <m_Conditions>
+		<m_Name>ATVehicleType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>QUAD0</m_StringValue>
+	</m_Conditions>
+    <m_Conditions>
+		<m_Name>ATPassengerStatus</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>enter</m_StringValue>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>quad0_idle</m_Target>
+		<m_AnimName>QUAD0_Exit1_to_Idle</m_AnimName>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_speedScale>2</m_speedScale>
+	</m_Transitions>
+</animNode>

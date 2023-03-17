@@ -1,0 +1,75 @@
+module Base
+{
+	model ECTO1bullbar1
+	{
+		mesh = vehicles/Vehicles_ECTO1_Body|ECTO1_bullbar1,
+		shader = vehicle_noreflect,
+		scale = 0.1,
+	}
+
+	template vehicle ECTO1Bullbars
+		{
+		part ECTO1Bullbar
+        	{
+
+			model Bullbar1
+				{
+                		file = ECTO1bullbar1,
+				}
+
+			area = Engine,
+			category = Other,
+			specificItem = false,
+			itemType = Base.ECTO1Bullbar1_Item,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+				equip = primary,
+                    		}
+                	}
+
+                	time = 1500,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = ECTO1.InstallComplete.Bullbar,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+  				type = Base.Wrench,
+				count = 1,
+				keep = true,
+				equip = primary,
+                    		}
+                	}
+
+			time = 1500,
+			skills = Mechanics:4,
+			recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+			complete = ECTO1.UninstallComplete.Bullbar,
+            		}
+
+            		lua
+            		{
+			create = ECTO1.Create.Bullbar,
+			init = ECTO1.Init.Bullbar,
+			}
+		}
+	}
+
+		
+}

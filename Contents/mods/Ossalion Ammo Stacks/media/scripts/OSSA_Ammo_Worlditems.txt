@@ -1,0 +1,79 @@
+module Ossalion
+{
+    imports    
+    {
+		Base
+	}
+
+    model 22AmmoStack
+	{
+		mesh = WorldItems/SmallAmmoStack,
+		texture = WorldItems/BoxOfRounds22LR,
+		scale = 0.004,
+	}
+	
+	model 9AmmoStack
+	{
+		mesh = WorldItems/SmallAmmoStack,
+		texture = WorldItems/BoxOfRounds9MM,
+		scale = 0.004,
+	}
+	
+	model 38AmmoStack
+	{
+		mesh = WorldItems/SmallAmmoStack,
+		texture = WorldItems/BoxOfRounds38Special,
+		scale = 0.004,
+	}
+	
+	model 45AmmoStack
+	{
+		mesh = WorldItems/SmallAmmoStack,
+		texture = WorldItems/BoxOfRounds45Auto,
+		scale = 0.004,
+	}
+	
+	model 44AmmoStack
+	{
+		mesh = WorldItems/SmallAmmoStack,
+		texture = WorldItems/BoxOfRounds44Magnum,
+		scale = 0.004,
+	}
+	
+	model 223AmmoStack
+	{
+		mesh = WorldItems/LargeAmmoStack,
+		texture = weapons/ammo/223AmmoBox,
+		scale = 0.004,
+	}
+	
+	model 556AmmoStack
+	{
+		mesh = WorldItems/LargeAmmoStack,
+		texture = weapons/ammo/556AmmoBox,
+		scale = 0.004,
+	}
+	
+	model 762AmmoStack
+	{
+		mesh = WorldItems/LargeAmmoStack,
+		texture = weapons/ammo/762AmmoBox,
+		scale = 0.004,
+	}
+	
+	model 308AmmoStack
+	{
+		mesh = WorldItems/LargeAmmoStack,
+		texture = weapons/ammo/308AmmoBox,
+		scale = 0.004,
+	}
+	
+	model ShotgunShellsStack
+	{
+		mesh = WorldItems/ShotgunShellsStack,
+		texture = WorldItems/ShotgunBox_tex,
+		scale = 0.004,
+	}
+	
+}	
+	

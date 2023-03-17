@@ -1,0 +1,9 @@
+name=Vehicle Spawn Zones Expanded - Oshkosh P19A Disabled Farm Spawns
+poster=preview.png
+versionMin=41.60
+id=fhqExpVehSpawnP19AFarmDisable
+authors=fhqwhgads
+tags=Vehicles, Map
+modVersion=1.0.0
+description=Disables the Farm spawns for the Oshkosh P19A.
+require=fhqExpVehSpawn,86oshkoshP19A

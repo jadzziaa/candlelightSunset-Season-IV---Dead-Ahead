@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media/models_X/Skinned/BackPacks/NCbasketforage_lhand.fbx</m_MaleModel>
+	<m_FemaleModel>media/models_X/Skinned/BackPacks/NCbasketforage_lhand.fbx</m_FemaleModel>
+	<m_GUID>5f3a69fc-daf8-44e8-af0a-fd6c35109d7a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Bag/NCbasketforage</textureChoices>
+	<textureChoices>Clothes/Bag/NCbasketforage_1</textureChoices>
+	<textureChoices>Clothes/Bag/NCbasketforage_2</textureChoices>
+	<textureChoices>Clothes/Bag/NCbasketforage_3</textureChoices>
+	<textureChoices>Clothes/Bag/NCbasketforage_4</textureChoices>
+	<textureChoices>Clothes/Bag/NCbasketforage_5</textureChoices>
+</clothingItem>

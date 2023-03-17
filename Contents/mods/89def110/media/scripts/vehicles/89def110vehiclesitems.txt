@@ -1,0 +1,48 @@
+module Base
+{
+
+/************************ Trunks ************************/
+
+    item def110SpareCompartment1
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Spare Tire Compartment,
+        Icon	=	CarTrunk,
+        VehicleType =   1,
+        MaxCapacity = 16,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item def110SpareCompartment2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Spare Tire Compartment,
+        Icon	=	CarTrunk,
+        VehicleType =   2,
+        MaxCapacity = 16,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item def110SpareCompartment3
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Spare Tire Compartment,
+        Icon	=	CarTrunk,
+        VehicleType =   3,
+        MaxCapacity = 16,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+}

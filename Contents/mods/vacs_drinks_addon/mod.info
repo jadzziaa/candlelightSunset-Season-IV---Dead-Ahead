@@ -1,0 +1,5 @@
+name=Vac's Drinks Addon
+poster=poster.png
+id=vacsdrinksaddon
+description=Adds a couple more drinks to zomboid.
+require=vacsdrinks

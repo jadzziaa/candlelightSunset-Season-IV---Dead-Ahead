@@ -1,0 +1,23 @@
+Sandbox_EN = {
+    Sandbox_FWOFitness                                          = "FWO Fitness & Workout Overhaul",
+	Sandbox_FWOFitness_InitialPerkBonus                         = "InitialPerkBonus",
+	Sandbox_FWOFitness_InitialPerkBonus_tooltip                 = "Take the inital perk bonus into account (75% 100% 125%)",
+	Sandbox_FWOFitness_currentExerciseRegularityBonus           = "currentExerciseRegularityBonus",
+	Sandbox_FWOFitness_currentExerciseRegularityBonus_tooltip   = "Get a bonus for the current excercise depending on the regularity",
+	Sandbox_FWOFitness_currentExerciseOffset                    = "currentExerciseOffset",
+	Sandbox_FWOFitness_currentExerciseOffset_tooltip            = "The 0 point for the linear calculation",
+	Sandbox_FWOFitness_currentExerciseRate                      = "currentExerciseRate",
+	Sandbox_FWOFitness_currentExerciseRate_tooltip              = "The steepness of the linear angle (higher number = higher multilier)(and higher negatives with offset)",
+	Sandbox_FWOFitness_AverageExerciseRegularityBonus           = "AverageExerciseRegularityBonus",
+	Sandbox_FWOFitness_AverageExerciseRegularityBonus_tooltip   = "Get a bonus depending on the average of all your excercises regularity",
+	Sandbox_FWOFitness_LevelBonus                               = "LevelBonus",
+	Sandbox_FWOFitness_LevelBonus_tooltip                       = "How much multiplier you get per perk level",
+	Sandbox_FWOFitness_SpaceOutExercise                         = "SpaceOutExercise",
+	Sandbox_FWOFitness_SpaceOutExercise_tooltip                 = "Get an exp buff when you space out excercises (about 8hr or when muscle soreness sets in) independent for fitness and strength",
+	Sandbox_FWOFitness_RestedBonus                              = "Rested Bonus",
+	Sandbox_FWOFitness_RestedBonus_tooltip                      = "Get an exp debuff when you have muscle soreness, buff when 'rested' (no muscle soreness)",
+	Sandbox_FWOFitness_XPMultiplier                             = "Optional EXPMultiplier",
+	Sandbox_FWOFitness_XPMultiplier_tooltip                     = "Global exp multiplier (makes you earn experience faster or slower, small increments recommanded)"
+	Sandbox_FWOFitness_KeepBagsOn                    	        = "keep Bags equiped"
+}
+

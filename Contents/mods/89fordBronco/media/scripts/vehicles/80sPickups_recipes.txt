@@ -1,0 +1,136 @@
+module Base
+
+{
+
+	recipe Make 80sPickups Front Window Armor
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		SheetMetal=3,
+		MetalPipe=3,
+		Screws=2,
+
+		Result:80sPickupWindowFrontArmor,
+		Time:700.0,
+		Category:80sPickups,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 80sPickups Windshield Armor
+	{
+		BlowTorch=9,
+      	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=2,
+		MetalPipe=4,
+		Screws=2,
+
+		Result:80sPickupWindshieldArmor,
+		Time:850.0,
+		Category:80sPickups,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 80sPickups Rear Window Armor
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		SmallSheetMetal=3,
+		MetalPipe=3,
+		Screws=2,
+
+		Result:80sPickupWindowRearArmor,
+		Time:800.0,
+		Category:80sPickups,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 80sPickups Front Bullbar Type 1
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+       	SmallSheetMetal=1,
+		SheetMetal=1,
+		MetalPipe=7,
+		Screws=2,
+		CanBeDoneFromFloor:true,
+
+		Result:80sPickupBullbarFront,
+		Time:1000.0,
+		Category:80sPickups,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 80sPickups Rear Bullbar Type 1
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+       	SmallSheetMetal=2,
+		SheetMetal=2,
+		MetalPipe=6,
+		Screws=2,
+		CanBeDoneFromFloor:true,
+
+		Result:80sPickupBullbarRear,
+		Time:700.0,
+		Category:80sPickups,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 80sPickups Rollbar Type A
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+       	SmallSheetMetal=2,
+		MetalPipe=6,
+		LightBulb=3,
+		Screws=2,
+		CanBeDoneFromFloor:true,
+
+		Result:80sPickupRollbarA,
+		Time:1000.0,
+		Category:80sPickups,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 80sPickups Rollbar Type B
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+       	SmallSheetMetal=4,
+		MetalPipe=8,
+		LightBulb=3,
+		Screws=2,
+		CanBeDoneFromFloor:true,
+
+		Result:80sPickupRollbarB,
+		Time:1200.0,
+		Category:80sPickups,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 80sPickups Roofrack
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SheetMetal=4,
+		MetalPipe=10,
+		Tarp=1,
+		Screws=2,
+		CanBeDoneFromFloor:true,
+
+		Result:80sPickupRoofrackA,
+		Time:1050.0,
+		Category:80sPickups,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+}

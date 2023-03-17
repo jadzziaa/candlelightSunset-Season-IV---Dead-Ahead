@@ -1,0 +1,9 @@
+VERSION = 1,
+
+option ContextUtility.TrashEnable
+{
+	type = boolean, default = true,
+	page = BuffysMods, translation = TrashEnable,
+}
+
+

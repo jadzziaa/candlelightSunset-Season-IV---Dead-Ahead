@@ -1,0 +1,52 @@
+module Base
+{
+	model WPMagazineHunkZ_Ground
+	{
+		mesh = WorldItems/Magazine,
+		texture = WorldItems/WPMagazineHunkZ,
+		scale = 0.4,
+	}
+
+	model WPMagazineJugZ_Ground
+	{
+		mesh = WorldItems/Magazine,
+		texture = WorldItems/WPMagazineJugZ,
+		scale = 0.4,
+	}
+
+	model WPMagazineTailZ_Ground
+	{
+		mesh = WorldItems/Magazine,
+		texture = WorldItems/WPMagazineTailZ,
+		scale = 0.4,
+	}
+
+	model WPMagazineOrigami_Ground
+	{
+		mesh = WorldItems/Magazine,
+		texture = WorldItems/WPMagazineOrigami_Ground,
+		scale = 0.4,
+	}
+
+	model WPOrigamiDuck_Ground
+	{
+		mesh = WorldItems/Rubberducky,
+		texture = WorldItems/WPOrigamiDuck,
+		scale = 0.4,
+	}
+
+	model WPOrigamiFrog_Ground
+	{
+		mesh = WorldItems/Frog,
+		texture = WorldItems/WPOrigamiFrog,
+		scale = 0.4,
+	}
+
+	model WPOrigamiMouse_Ground
+	{
+		mesh = WorldItems/CatToy,
+		texture = WorldItems/WPOrigamiMouse,
+		scale = 0.4,
+	}
+
+}

@@ -1,0 +1,6 @@
+ContextMenu_EN = {
+	ContextMenu_Crank_LowStam = "Too exhausted to operate.",
+	ContextMenu_Crank_NeedBattery = "Insert a battery to charge.",
+	ContextMenu_Crank_FullBattery = "Cannot charge a full battery.",
+	ContextMenu_Crank_ChargeWith = "Charge Battery with",
+}

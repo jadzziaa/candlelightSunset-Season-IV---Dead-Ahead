@@ -1,0 +1,9 @@
+name=Tread's Paint Symbols [41.66+]
+id=TreadsPaintSymbols
+description=<RGB:1,0.6,0.2>Made for Build 41.66 <RGB:0.3,1,0.6> <LINE><LINE>This mod adds a planty of new symbols that can be painted on walls and signs. <LINE>Mod has vanilla requirements for painting (brush + paint bucket in inventory). <LINE><LINE>
+author=Tread (Steam: Trealak)
+icon=icon.png
+poster=poster.png
+pack=TreadPaintSymbols
+modversion=1.00
+

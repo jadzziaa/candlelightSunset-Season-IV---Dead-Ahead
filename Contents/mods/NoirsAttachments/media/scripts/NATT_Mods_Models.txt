@@ -1,0 +1,74 @@
+module Base {	
+    
+	model SwatGasMask
+    {
+        mesh = Static/Clothes/M_Hat_SwatGasMask,
+		texture = clothes/hat/Hat_SwatGasMask,
+    }
+
+	model M17GasMask
+    {
+        mesh = Static/Clothes/F_M17,
+		texture = clothes/hat/Hat_M17,
+    }
+
+	model M40GasMask
+    {
+        mesh = Static/Clothes/F_M40,
+		texture = clothes/hat/Hat_M40,
+    }
+
+    model M40GasMask
+    {
+        mesh = Static/Clothes/F_M40,
+		texture = clothes/hat/Hat_M40,
+    }
+
+    model MCUGasMask
+    {
+        mesh = Static/Clothes/f_MCU_GasMask,
+		texture = clothes/hat/Hat_MCU_GasMask,
+    }
+
+    model M45GasMask
+    {
+        mesh = Static/Clothes/f_M45_GasMask,
+		texture = clothes/hat/Hat_M45_GasMask,
+    }
+
+    model FM53GasMask
+    {
+        mesh = Static/Clothes/f_FM53,
+		texture = clothes/hat/Hat_FM53_1,
+    }
+
+     model M50GasMask
+    {
+        mesh = Static/Clothes/f_M50,
+		texture = clothes/hat/Hat_M50_1,
+    }
+
+     model MSAGasMask
+    {
+        mesh = Static/Clothes/f_MSA_Gas_Mask,
+        texture = clothes/hat/Hat_MSA_Gas_Mask,
+    }
+
+     model MSAGasMaskAMP
+    {
+        mesh = Static/Clothes/f_MSA_Gas_Mask_AMP,
+        texture = clothes/hat/Hat_MSA_Gas_Mask,
+    }
+
+    model WelderMaskScrap
+    {
+        mesh = Static/Clothes/Hat_WelderMask2,
+        texture = clothes/hat/Hat_WelderMask2,
+    }
+
+    model Rebreather
+    {
+        mesh = Static/Clothes/kate_Rebreather,
+        texture = clothes/hat/Hat_Rebreather,
+    }
+}

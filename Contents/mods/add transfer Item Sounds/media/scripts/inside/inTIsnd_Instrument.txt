@@ -1,0 +1,75 @@
+module Base
+{
+	sound inTIsnd_Instrument
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Instrument_1.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Instrument
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Instrument_2.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Instrument
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Instrument_3.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Instrument
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Instrument_4.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Instrument
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Instrument_5.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Instrument
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Instrument_6.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Instrument
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Instrument_7.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_Instrument
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_Instrument_8.ogg,
+			volume = 0.9,
+		}
+	}
+}

@@ -1,0 +1,172 @@
+module SLEOClothing{
+
+  imports {
+      Base
+  }
+
+
+recipe Roll patrol cap
+  	{
+   	   Hat_PatrolCapPolice,
+
+   	   Result:Hat_PatrolCapPoliceRolled,
+	   Time:20,
+  	}
+
+recipe Roll patrol cap
+  	{
+   	   Hat_PatrolCapPoliceReversed,
+
+   	   Result:Hat_PatrolCapPoliceRolled,
+	   Time:20,
+  	}
+
+recipe Unroll patrol cap
+  	{
+   	   Hat_PatrolCapPoliceRolledReversed,
+
+   	   Result:Hat_PatrolCapPolice,
+	   Time:20,
+  	}
+
+
+recipe Unroll patrol cap
+  	{
+   	   Hat_PatrolCapPoliceRolled,
+
+   	   Result:Hat_PatrolCapPolice,
+	   Time:20,
+  	}
+
+recipe Roll patrol cap
+  	{
+   	   Hat_PatrolCapPoliceBlack,
+
+   	   Result:Hat_PatrolCapPoliceBlackRolled,
+	   Time:20,
+  	}
+
+recipe Roll patrol cap
+  	{
+   	   Hat_PatrolCapPoliceBlackReversed,
+
+   	   Result:Hat_PatrolCapPoliceBlackRolled,
+	   Time:20,
+  	}
+
+recipe Roll patrol cap
+  	{
+   	   Hat_PatrolCapPoliceBlackRolled,
+
+   	   Result:Hat_PatrolCapPoliceBlack,
+	   Time:20,
+  	}
+
+recipe Unroll patrol cap
+  	{
+   	   Hat_PatrolCapPoliceBlackRolledReversed,
+
+   	   Result:Hat_PatrolCapPoliceBlack,
+	   Time:20,
+  	}
+
+recipe Roll patrol cap
+  	{
+   	   Hat_PatrolCapSheriff,
+
+   	   Result:Hat_PatrolCapSheriffRolled,
+	   Time:20,
+  	}
+
+recipe Roll patrol cap
+  	{
+   	   Hat_PatrolCapSheriffReversed,
+
+   	   Result:Hat_PatrolCapSheriffRolledReversed,
+	   Time:20,
+  	}
+
+recipe Unroll patrol cap
+  	{
+   	   Hat_PatrolCapSheriffRolled,
+
+   	   Result:Hat_PatrolCapSheriff,
+	   Time:20,
+  	}
+
+recipe Unroll patrol cap
+  	{
+   	   Hat_PatrolCapSheriffRolledReversed,
+
+   	   Result:Hat_PatrolCapSheriff,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+   	   Hat_PoliceHelmet,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_PoliceHelmetGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+   	   Hat_PoliceHelmetStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_PoliceHelmetGogglesStrapless,
+	   Time:20,
+  	}
+
+recipe Remove goggles
+  	{
+   	   Hat_PoliceHelmetGoggles,
+	   OnCreate: SLEO_Recipe.POLICEGOGGLES,
+   	   Result:Hat_PoliceHelmet,
+	   Time:20,
+  	}
+
+recipe Remove goggles
+  	{
+   	   Hat_PoliceHelmetGogglesStrapless,
+	   OnCreate: SLEO_Recipe.POLICEGOGGLES,
+   	   Result:Hat_PoliceHelmetStrapless,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+   	   Hat_PoliceHelmetGreen,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_PoliceHelmetGreenGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+   	   Hat_PoliceHelmetGreenStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_PoliceHelmetGreenGogglesStrapless,
+	   Time:20,
+  	}
+
+recipe Remove goggles
+  	{
+   	   Hat_PoliceHelmetGreenGoggles,
+	   OnCreate: SLEO_Recipe.POLICEGOGGLES,
+   	   Result:Hat_PoliceHelmetGreen,
+	   Time:20,
+  	}
+
+recipe Remove goggles
+  	{
+   	   Hat_PoliceHelmetGreenGogglesStrapless,
+	   OnCreate: SLEO_Recipe.POLICEGOGGLES,
+   	   Result:Hat_PoliceHelmetGreenStrapless,
+	   Time:20,
+  	}
+}		

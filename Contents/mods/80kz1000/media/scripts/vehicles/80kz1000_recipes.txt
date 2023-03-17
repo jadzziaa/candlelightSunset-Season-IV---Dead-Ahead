@@ -1,0 +1,88 @@
+module Base
+
+{
+
+	recipe Convert Old Muffler
+	{
+		keep Wrench,
+		OldCarMuffler3=2,
+		SmallSheetMetal=2,
+		Screws=1,
+
+		Result:KZ1Kmuffler,
+		Time:350.0,
+		Category:KZ1K,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Convert Normal Muffler
+	{
+		keep Wrench,
+		NormalCarMuffler3=2,
+		SmallSheetMetal=2,
+		Screws=1,,
+
+		Result:KZ1Kmuffler,
+		Time:350.0,
+		Category:KZ1K,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Convert Modern Muffler
+	{
+		keep Wrench,
+		ModernCarMuffler3=2,
+		SmallSheetMetal=2,
+		Screws=1,,
+
+		Result:KZ1Kmuffler,
+		Time:350.0,
+		Category:KZ1K,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make KZ1K Gastank
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:KZ1KgasTank,
+		Time:1000.0,
+		Category:KZ1K,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make KZ1K Seat
+	{
+		keep Wrench,
+		NormalCarSeat3=1,
+		SmallSheetMetal=1,
+		Screws=2,
+
+		Result:KZ1Kseat,
+		Time:1000.0,
+		Category:KZ1K,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make KZ1K Windshield
+	{
+		keep Scalpel,
+		Windshield3=1,
+
+		Result:KZ1Kwindshield3,
+		Time:200.0,
+		Category:KZ1K,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
+
+}

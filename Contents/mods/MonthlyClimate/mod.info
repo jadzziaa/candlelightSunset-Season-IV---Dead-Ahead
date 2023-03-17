@@ -1,0 +1,4 @@
+name=Monthly Climate Settings
+id=MonthlyClimate
+description=Rain & Temperature can be adjusted for each month via the sandbox.  You need to be reload on the 1st of each month for the change to take effect.
+poster=poster.png

@@ -1,0 +1,9 @@
+Recipes_PTBR = {
+	
+	Recipe_Roll_patrol_cap = "Dobrar Boné Militar",
+	Recipe_Unroll_patrol_cap = "Desdobrar Boné Militar",
+	Recipe_Attach_goggles_to_helmet = "Instalar Óculos de Proteção ao Capacete",
+	Recipe_Remove_goggles = "Remover Óculos de Proteção",
+	
+	
+}

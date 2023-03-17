@@ -1,0 +1,25 @@
+ItemName_EN = {
+
+ItemName_Base.Jacket_WhiteOPEN = "Jacket (Open)",
+ItemName_Base.Jacket_PoliceOPEN = "Police Deputy Jacket (Open)",
+ItemName_Base.Jacket_RangerOPEN = "Ranger Jacket (Open)",
+ItemName_Base.Jacket_ArmyCamoDesertOPEN = "Military Desert Camo Jacket (Open)",
+ItemName_Base.Jacket_ArmyCamoGreenOPEN = "Military Green Camo Jacket (Open)",
+ItemName_Base.Jacket_ChefOPEN = "Chef Jacket (Open)",
+ItemName_Base.Jacket_FiremanOPEN = "Firefighter Jacket (Open)",
+ItemName_Base.Jacket_CoatArmyOPEN = "Army Coat (Open)",
+
+ItemName_Base.Jacket_VarsityOPEN = "Varsity Jacket (Open)",
+
+ItemName_Base.JacketLong_Random = "Leather Coat",
+ItemName_Base.JacketLong_RandomOPEN = "Leather Coat (Open)",
+ItemName_Base.JacketLong_DoctorOPEN = "Medical Coat (Open)",
+ItemName_Base.JacketLong_SantaOPEN = "Santa Suit Jacket (Open)",
+ItemName_Base.JacketLong_SantaGreenOPEN = "Green Santa Suit Jacket (Open)",
+
+ItemName_Base.Jacket_BlackOPEN = "Leather Jacket (Open)",
+ItemName_Base.Jacket_LeatherWildRacoonsOPEN = "Wild Racoons Leather Jacket (Open)",
+ItemName_Base.Jacket_LeatherIronRodentOPEN = "Iron Rodent Leather Jacket (Open)",
+ItemName_Base.Jacket_LeatherBarrelDogsOPEN = "Barrel Dogs Leather Jacket (Open)",
+
+}

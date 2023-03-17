@@ -1,0 +1,1797 @@
+module Sprout
+{
+	imports
+	{
+		Base
+	}
+recipe Make Tofu
+	{
+       SoyBean=5,
+       keep MortarPestle,
+	keep BakingPan,
+	keep Fork/Spoon,
+
+       Result:Tofu,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Soysauce
+	{
+       SoyBean=10,
+       keep MortarPestle,
+
+       Result:Soysauce,
+       Time:200.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Flour
+	{
+       Wheat=10,
+      keep MortarPestle,
+
+       Result:Flour,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Corn Flour
+	{
+       Corn=10,
+      keep MortarPestle,
+
+       Result:Cornflour,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Olive Oil
+	{
+       Olive=10,
+      keep MortarPestle,
+	EmptyJar,
+	JarLid,
+
+       Result:OilOlive,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Sugar
+	{
+       SugarCane=2,
+      keep MortarPestle,
+
+       Result:Sugar,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+
+recipe Make Yeast
+	{
+	Apple/Cherry/Banana/Grape/Grapefruit/Orange/Peach/BerryBlue/BerryBlack=2,
+	Sugar=1,
+	Flour=1,
+
+       Result:Yeast,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+recipe Make Salt
+	{
+       RockSalt,
+      keep MortarPestle,
+
+       Result:Salt=2,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Pepper
+	{
+       PepperPlant,
+      keep MortarPestle,
+
+       Result:Pepper,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Cheese
+	{
+       Vinegar=1,
+	Milk=2,
+	Yeast,
+	Water=10,
+	Salt=3,
+
+	keep ButterKnife/KitchenKnife,
+	keep RippedSheets,
+	keep Bowl,
+
+       Result:Cheese,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+recipe Make Yoghurt
+	{
+      Vinegar=1,
+	Milk=5,
+	Water=10,
+
+	keep Sppon,
+	keep Bowl,
+	keep RippedSheets,
+
+       Result:Yoghurt=2,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+recipe Make Butter
+	{
+	Milk=2,
+	Water=5,
+	Salt=2,
+
+	keep EmptyJar,
+	keep JarLid,
+	keep Spoon,
+
+       Result:Butter,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+recipe Make Pasta
+	{
+	Flour=2,
+	Salt=2,
+	Egg/WildEggs=2,
+
+	keep BakingPan,
+	keep Fork,
+
+       Result:Pasta,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+recipe Make Vinegar
+	{
+	Vinegar=1,
+	Apple=2,
+	Water=10,
+       Sugar=2,
+
+	keep Pot,
+	keep Fork,
+       keep EmptyJar,
+       keep RippedSheets,
+       keep RubberBand,
+
+       Result:Vinegar=4,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Soap
+	{
+       Twigs=2,
+	Matches=1,
+	OliveOil=5,
+       Water=5,
+
+	keep Pot,
+	keep Spoon,
+       keep KitchenKnife,
+       keep BakingPan,
+
+       Result:Soap=2,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Cut Bacon from Ham
+	{
+       Ham,
+	
+       keep KitchenKnife,
+
+       Result:Bacon=4,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+recipe Cut Porkchop from Ham
+	{
+       Ham,
+	
+       keep KitchenKnife,
+
+       Result:PorkChop=2,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+recipe Cut Slice from Ham
+	{
+       Ham,
+	
+       keep KitchenKnife,
+
+       Result:HamSlice=4,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+/******************************************Drying********************************************/
+
+recipe Make Dried Apple
+	{
+       Apple=3,
+       keep DryingRack,
+       Result:DriedApple,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Banana
+	{
+              Banana=3,
+       keep DryingRack,
+       Result:DriedBanana,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Avocado
+	{
+              Avocado=3,
+       keep DryingRack,
+       Result:DriedAvocado,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Black Berry
+	{
+       BerryBlack=3,
+       keep DryingRack,
+       Result:DriedBlackBerry,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Blue Berry
+	{
+       BerryBlue=3,
+       keep DryingRack,
+       Result:DriedBlueBerry,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Grapefruit
+	{
+              Grapefruit=3,
+       keep DryingRack,
+       Result:DriedGrapefruit,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Grape
+	{
+              Grapes=3,
+       keep DryingRack,
+       Result:DriedGrape,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Lemon
+	{
+              Lemon=3,
+       keep DryingRack,
+       Result:DriedLemon,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Lime
+	{
+              Lime=3,
+       keep DryingRack,
+       Result:DriedLime,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Mango
+	{
+              Mango=3,
+       keep DryingRack,
+       Result:DriedMango,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Orange
+	{
+              Orange=3,
+       keep DryingRack,
+       Result:DriedOrange,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Peach
+	{
+              Peach=3,
+       keep DryingRack,
+       Result:DriedPeach,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Pineapple
+	{
+              Pineapple=1,
+       keep DryingRack,
+       Result:DriedPineapple,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+recipe Make Dried Watermelon
+	{
+              Watermelon=1,
+       keep DryingRack,
+       Result:DriedWatermelon,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+
+/******************************************Smoking********************************************/
+
+recipe Smoke Catfish
+	{
+       Catfish,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedCatfish,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+ recipe Smoke Bass
+	{
+              Bass,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedBass,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+ recipe Smoke Perch
+	{
+              Perch,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedPerch,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+recipe Smoke Sunfish
+	{
+              Panfish,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedPanfish,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+ recipe Smoke Pike
+	{
+              Pike,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedPike,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+recipe Smoke Trout
+	{
+              Trout,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedTrout,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+ recipe Smoke MuttonChop
+	{
+              MuttonChop,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedMuttonChop,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+recipe Smoke PorkChop
+	{
+              PorkChop,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedPorkChop,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+ recipe Smoke Rabbitmeat
+	{
+              Rabbitmeat,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedRabbitmeat,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+recipe Smoke Steak
+	{
+              Steak,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedSteak,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+ recipe Smoke Salmon
+	{
+              Salmon,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedSalmon,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+       
+recipe Smoke Chicken
+	{
+              Chicken,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedChicken,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+ recipe Smoke Ham
+	{
+              Ham,
+       Charcoal,
+	
+       keep PortaSmoker,
+
+       Result:SmokedHam,
+       Time:100.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+ /******************************************Canning********************************************/
+ recipe Make Jar of Preserved Apples
+ {
+     EmptyJar,
+     JarLid,
+     Apple=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedApple,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Apples
+ {
+       PreservedApple,
+
+     Result:Apple=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Avocados
+ {
+     EmptyJar,
+     JarLid,
+     Avocado=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedAvocado,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Avocados
+ {
+       PreservedAvocado,
+
+     Result:Avocado=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Banana
+ {
+     EmptyJar,
+     JarLid,
+     Banana=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedBanana,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Banana
+ {
+       PreservedBanana,
+
+     Result:Banana=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved BellPepper
+ {
+     EmptyJar,
+     JarLid,
+     BellPepper=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedBellPepper,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved BellPepper
+ {
+       PreservedBellPepper,
+
+     Result:BellPepper=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Blue Berry 
+ {
+     EmptyJar,
+     JarLid,
+     BerryBlue=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedBlueBerry,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Blue Berry 
+ {
+       PreservedBlueBerry,
+
+     Result:BerryBlue=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved BlackBerry
+ {
+     EmptyJar,
+     JarLid,
+     BerryBlack=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedBlackBerry,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved BlackBerry
+ {
+       PreservedBlackBerry,
+
+     Result:BerryBlack=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Cherries
+ {
+     EmptyJar,
+     JarLid,
+     Cherry=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedCherry,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Cherries
+ {
+       PreservedCherry,
+
+     Result:Cherry=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Corn
+ {
+     EmptyJar,
+     JarLid,
+     Corn=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedCorn,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Corn
+ {
+       PreservedCorn,
+
+     Result:Corn=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Eggplant
+ {
+     EmptyJar,
+     JarLid,
+     Eggplant=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedEggplant,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Eggplant
+ {
+       PreservedEggplant,
+
+     Result:Eggplant=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }     
+ recipe Make Jar of Preserved Ginger
+ {
+     EmptyJar,
+     JarLid,
+     GingerRoot=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedGinger,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Ginger
+ {
+       PreservedGinger,
+
+     Result:GingerRoot=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Ginseng
+ {
+     EmptyJar,
+     JarLid,
+     Ginseng=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedGinseng,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Ginseng
+ {
+       PreservedGinseng,
+
+     Result:Ginseng=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Grapefruit
+ {
+     EmptyJar,
+     JarLid,
+     Grapefruit=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedGrapefruit,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Grapefruit
+ {
+       PreservedGrapefruit,
+
+     Result:Grapefruit=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Grapes
+ {
+     EmptyJar,
+     JarLid,
+     Grapes=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedGrape,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Grapes
+ {
+       PreservedGrape,
+
+     Result:Grapes=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Lemongrass
+ {
+     EmptyJar,
+     JarLid,
+     LemonGrass=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedLemongrass,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Lemongrass
+ {
+       PreservedLemongrass,
+
+     Result:LemonGrass=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Lemon
+ {
+     EmptyJar,
+     JarLid,
+     Lemon=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedLemon,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Lemon
+ {
+       PreservedLemon,
+
+     Result:Lemon=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Lettuce
+ {
+     EmptyJar,
+     JarLid,
+     Lettuce=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedLettuce,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Lettuce
+ {
+       PreservedLettuce,
+
+     Result:Lettuce=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Leek
+ {
+     EmptyJar,
+     JarLid,
+     Leek=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedLeek,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Leek
+ {
+       PreservedLeek,
+
+     Result:Leek=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Limes
+ {
+     EmptyJar,
+     JarLid,
+     Lime=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedLime,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Limes
+ {
+       PreservedLime,
+
+     Result:Lime=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Mangos
+ {
+     EmptyJar,
+     JarLid,
+     Mango=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedMango,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Mangos
+ {
+       PreservedMango,
+
+     Result:Mango=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Mushrooms
+ {
+     EmptyJar,
+     JarLid,
+     MushroomGeneric1=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedMushroom,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Mushrooms
+ {
+       PreservedMushroom,
+
+     Result:MushroomGeneric1=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Olives
+ {
+     EmptyJar,
+     JarLid,
+     Olive=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedOlive,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Olive
+ {
+       PreservedOlive,
+
+     Result:Olive=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Onion
+ {
+     EmptyJar,
+     JarLid,
+     Onion=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedOnion,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Onion
+ {
+       PreservedOnion,
+
+     Result:Onion=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Oranges
+ {
+     EmptyJar,
+     JarLid,
+     Orange=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedOrange,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Oranges
+ {
+       PreservedOrange,
+
+     Result:Orange=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Pumpkin
+ {
+     EmptyJar,
+     JarLid,
+     Pumpkin=2,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedPumpkin,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Pumpkin
+ {
+       PreservedPumpkin,
+
+     Result:Pumpkin=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved SoyBeans
+ {
+     EmptyJar,
+     JarLid,
+     SoyBean=10,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedSoyBean,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved SoyBeans
+ {
+       PreservedSoyBean,
+
+     Result:SoyBean=10,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved SugarCane
+ {
+     EmptyJar,
+     JarLid,
+     SugarCane=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedSugarCane,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved SugarCane
+ {
+       PreservedSugarCane,
+
+     Result:SugarCane=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Watermelon
+ {
+     EmptyJar,
+     JarLid,
+     Watermelon=2,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedWatermelon,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Watermelon
+ {
+       PreservedWatermelon,
+
+     Result:Watermelon=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Wheat
+ {
+     EmptyJar,
+     JarLid,
+     Wheat=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedWheat,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Wheat
+ {
+       PreservedWheat,
+
+     Result:Wheat=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Zucchini
+ {
+     EmptyJar,
+     JarLid,
+     Zucchini=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedZucchini,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Zucchini
+ {
+       PreservedZucchini,
+
+     Result:Zucchini=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved Rice
+ {
+     EmptyJar,
+     JarLid,
+     Rice=2,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedRice,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved Rice
+ {
+       PreservedRice,
+
+     Result:Rice=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Jar of Preserved PepperPlant
+ {
+     EmptyJar,
+     JarLid,
+     PepperPlant=5,
+     Water=10,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:PreservedPepper,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+
+ recipe Open Jar of Preserved PepperPlant
+ {
+       PreservedPepper,
+
+     Result:PepperPlant=5,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+
+ /***************MEATS******************************/
+
+ recipe Make Canned Catfish
+ {
+     EmptyJar,
+     JarLid,
+     Catfish=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedCatfish,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Catfish
+ {
+       CannedCatfish,
+
+     Result:Catfish=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned Bass
+ {
+     EmptyJar,
+     JarLid,
+     Bass=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedBass,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Bass
+ {
+       CannedBass,
+
+     Result:Bass=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned Sunfish
+ {
+     EmptyJar,
+     JarLid,
+     Panfish=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedSunfish,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Sunfish
+ {
+       CannedSunfish,
+
+     Result:Panfish=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned Pike
+ {
+     EmptyJar,
+     JarLid,
+     Pike=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedPike,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Pike
+ {
+       CannedPike,
+
+     Result:Pike=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned Trout
+ {
+     EmptyJar,
+     JarLid,
+     Trout=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedTrout,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Trout
+ {
+       CannedTrout,
+
+     Result:Trout=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned MuttonChop
+ {
+     EmptyJar,
+     JarLid,
+     MuttonChop=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedMuttonChop,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned MuttonChop
+ {
+       CannedMuttonChop,
+
+     Result:MuttonChop=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned PorkChop
+ {
+     EmptyJar,
+     JarLid,
+     PorkChop=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedPorkChop,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned PorkChop
+ {
+       CannedPorkChop,
+
+     Result:PorkChop=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned Rabbitmeat
+ {
+     EmptyJar,
+     JarLid,
+     Rabbitmeat=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedRabbitmeat,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Rabbitmeat
+ {
+       CannedRabbitmeat,
+
+     Result:Rabbitmeat=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned Steak
+ {
+     EmptyJar,
+     JarLid,
+     Steak=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedSteak,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Steak
+ {
+       CannedSteak,
+
+     Result:Steak=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned Salmon
+ {
+     EmptyJar,
+     JarLid,
+     Salmon=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedSalmon,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Salmon
+ {
+       CannedSalmon,
+
+     Result:Salmon=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+ recipe Make Canned Chicken
+ {
+     EmptyJar,
+     JarLid,
+     Chicken=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedChicken,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Chicken
+ {
+       CannedChicken,
+
+     Result:Chicken=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+
+ recipe Make Canned Ham
+ {
+     EmptyJar,
+     JarLid,
+     Ham=2,
+     Water=4,
+     Vinegar=2,
+     Sugar=1,
+
+     Result:CannedHam,
+     Time:100.0,
+     Category:Cooking,
+     OnGiveXP:Recipe.OnGiveXP.Cooking15,
+ }
+ recipe Open Canned Ham
+ {
+       CannedHam,
+
+     Result:Ham=2,
+     Time:30.0,
+     OnCreate:Recipe.OnCreate.OpenFood,
+     Category:Cooking,
+ }
+
+/******************************************Alcohol********************************************/
+
+recipe Make Brewster Beer
+	{
+	Hops=10,
+	Water=5,
+       Sugar=2,
+	Yeast=1,
+
+	BeerEmpty,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Beer1,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Light Beer
+	{
+	Hops=10,
+	Water=5,
+       SugarCane=1,
+	Yeast=1,
+
+	BeerEmpty,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Beer2,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+ recipe Make Dark Beer
+	{
+	Hops=10,
+	Water=5,
+       Sugar=5,
+	Yeast=1,
+
+	BeerEmpty,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Beer3,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+recipe Make Craft Beer
+	{
+	Hops=10,
+       Wheat=5,
+	Water=5,
+       Sugar=2,
+	Yeast=1,
+
+	BeerEmpty,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Beer4,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Sweet Wine
+	{
+	Grapes=10,
+	Water=5,
+       Sugar=2,
+	Yeast=1,
+
+	WineEmpty,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Wine1,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Tart Wine
+	{
+	Grapes=10,
+	Water=5,
+       BerryBlue=5,
+       Sugar=2,
+	Yeast=1,
+
+	WineEmpty,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Wine2,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Full-Bodied Wine
+	{
+	Grapes=10,
+	Water=5,
+       Strewberrie=5,
+       Sugar=2,
+	Yeast=1,
+
+	WineEmpty,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Wine3,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Floral Wine
+	{
+	Grapes=10,
+	Water=5,
+       Rosehips=5,
+       Sugar=2,
+	Yeast=1,
+
+	WineEmpty,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Wine4,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Mead
+	{
+	Honey=10,
+	Water=5,
+	Yeast=1,
+
+	EmptyJar,
+       RippedSheets,
+       RubberBand,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Mead,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Berry Mead
+	{
+	Honey=10,
+       BerryBlack/BerryBlue/Cherry/Strewberrie=5,
+	Water=5,
+	Yeast=1,
+
+	EmptyJar,
+       RippedSheets,
+       RubberBand,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Mead2,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Dark Mead
+	{
+	Honey=10,
+       Wheat=5,
+	Water=5,
+	Yeast=1,
+
+	EmptyJar,
+       RippedSheets,
+       RubberBand,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Mead3,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Sweet Mead
+	{
+	Honey=10,
+       Hops=5,
+	Water=5,
+	Yeast=1,
+
+	EmptyJar,
+       RippedSheets,
+       RubberBand,
+       keep Pot,
+	keep Spoon,
+       keep Cask,
+
+       Result:Mead4,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+}

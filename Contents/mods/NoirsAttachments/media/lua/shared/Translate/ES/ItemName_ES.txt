@@ -1,0 +1,47 @@
+ItemName_ES = {
+
+    ItemName_Base.NATT_AlicepackPouch = "Mochila Alice",
+    ItemName_Base.NATT_AlicepackNonPouch = "Mochila Alice",
+
+    ItemName_Base.Sleepingbag = "Saco de dormir",
+    ItemName_Base.SleepingbagBK = "Saco de dormir",
+    ItemName_Base.SleepingbagP = "Saco de dormir",
+    ItemName_Base.SleepingbagO = "Saco de dormir",
+    ItemName_Base.SleepingbagLB = "Saco de dormir",
+    ItemName_Base.SleepingbagR = "Saco de dormir",
+    ItemName_Base.SleepingbagG = "Saco de dormir",
+
+    ItemName_Base.SleepingbagRolled = "Saco de dormir (Enrollado)",
+    ItemName_Base.SleepingbagBKRolled = "Saco de dormir (Enrollado)",
+    ItemName_Base.SleepingbagPRolled = "Saco de dormir (Enrollado)",
+    ItemName_Base.SleepingbagORolled = "Saco de dormir (Enrollado)",
+    ItemName_Base.SleepingbagLBRolled = "Saco de dormir (Enrollado)",
+    ItemName_Base.SleepingbagRRolled = "Saco de dormir (Enrollado)",
+    ItemName_Base.SleepingbagGRolled = "Saco de dormir (Enrollado)",
+
+    ItemName_Base.NATT_Weapon= "Ranura Arma",
+    ItemName_Base.NATT_ShortWeapon= "Ranura Arma Corta",
+    ItemName_Base.NATT_UtilityRight  = "Ranura Utilidad Derecha",
+    ItemName_Base.NATT_UtilityLeft  = "Ranura Utilidad Izquierda",
+    ItemName_Base.NATT_Left  = "Ranura Lateral Izquierdo",
+    ItemName_Base.NATT_Right  = "Ranura Lateral Derecho",
+    ItemName_Base.NATT_Flashlight = "Ranura Linterna",
+    ItemName_Base.NATT_Bedroll  = "Ranura Saco de dormir",
+    ItemName_Base.NATT_Container = "Ranura Contenedor",
+    ItemName_Base.NATT_ContainerSmallLeft = "Ranura Contenedor chico Izquierdo",
+    ItemName_Base.NATT_ContainerSmallRight = "Ranura Contenedor chico Derecho",
+
+    ItemName_Base.NATT_Remove_Weapon= "Ranura Arma",
+    ItemName_Base.NATT_Remove_ShortWeapon= "Ranura Arma Corta",
+    ItemName_Base.NATT_Remove_UtilityRight  = "Ranura Utilidad Derecha",
+    ItemName_Base.NATT_Remove_UtilityLeft  = "Ranura Utilidad Izquierda",
+    ItemName_Base.NATT_Remove_Left  = "Ranura Lateral Izquierdo",
+    ItemName_Base.NATT_Remove_Right  = "Ranura Lateral Derecho",
+    ItemName_Base.NATT_Remove_Flashlight = "Ranura Linterna",
+    ItemName_Base.NATT_Remove_Bedroll  = "Ranura Saco de dormir",
+    ItemName_Base.NATT_Remove_Container = "Ranura Contenedor",
+    ItemName_Base.NATT_Remove_ContainerSmallLeft = "Ranura Contenedor chico Izquierdo",
+    ItemName_Base.NATT_Remove_ContainerSmallRight = "Ranura Contenedor chico Derecho",
+
+    ItemName_Base.AnimeTshirt = "Camiseta de Anime",
+}

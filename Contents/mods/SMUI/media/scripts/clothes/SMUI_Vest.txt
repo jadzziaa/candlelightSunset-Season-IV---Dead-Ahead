@@ -1,0 +1,164 @@
+module SMUIClothing 
+{
+
+
+	item Vest_ODGreen
+	{   
+
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = M69 Flak Vest,
+        ClothingItem = Vest_ODGreen,
+        BodyLocation = TorsoExtra,
+        Icon = M69Vest,
+        BloodLocation = ShirtNoSleeves,
+		BiteDefense = 85,
+		ScratchDefense = 85,
+		BulletDefense = 70,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		RunSpeedModifier = 1,
+		Weight = 2.5,
+		Tags = Military,
+        WorldStaticModel = M69Vest_WorldItem,
+	}
+
+	    item Vest_RangerBodyArmorWoodland
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Woodland Ranger Body Armor,
+		ClothingItem = Vest_RangerBodyArmorWoodland,
+		BodyLocation = TorsoExtra,
+		BloodLocation = ShirtNoSleeves,
+		BiteDefense = 85,
+		ScratchDefense = 85,
+		BulletDefense = 70,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		Weight = 1.5,
+		Icon = RangerBodyArmorWoodland,
+		Tags = Military,
+		WorldStaticModel = RangerBodyArmor_WorldItem,
+	}
+
+	    item Vest_RangerBodyArmorDesert
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Desert Ranger Body Armor,
+		ClothingItem = Vest_RangerBodyArmorDesert,
+		BodyLocation = TorsoExtra,
+		BloodLocation = ShirtNoSleeves,
+		BiteDefense = 85,
+		ScratchDefense = 85,
+		BulletDefense = 70,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		Weight = 1.5,
+		Icon = RangerBodyArmorDesert,
+		Tags = Military,
+		WorldStaticModel = RangerBodyArmorDesert_WorldItem,
+	}
+
+    	item Vest_MilitaryTacticalVest
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = T.G. Faust Vest,
+		ClothingItem = Vest_MilitaryTacticalVest,
+		BodyLocation = TorsoExtra,
+		BloodLocation = ShirtNoSleeves,
+		BiteDefense = 85,
+		ScratchDefense = 85,
+		BulletDefense = 70,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		Weight = 1.5,
+		Icon = MilitaryTacticalVest,
+		Tags = Military,
+		WorldStaticModel = MilitaryTacticalVest_WorldItem,
+	}
+
+	    item Vest_MilitaryTankerVest
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Combat Vehicle Crewman Vest,
+		ClothingItem = Vest_MilitaryTankerVest,
+		BodyLocation = TorsoExtra,
+		BloodLocation = ShirtNoSleeves,
+		BiteDefense = 70,
+		ScratchDefense = 70,
+		BulletDefense = 70,
+		Insulation = 0.75,
+        WindResistance = 0.30,
+		Weight = 1.0,
+		Icon = MilitaryTankerVest,
+		Tags = Military,
+		WorldStaticModel = MilitaryTankerVest_WorldItem,
+	}
+
+		item Vest_PASGTDesert
+	{   
+
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Battle PASGT Vest,
+        ClothingItem = Vest_PASGTDesert,
+        BodyLocation = TorsoExtra,
+        Icon = PASGTDesert,
+        BloodLocation = ShirtNoSleeves,
+		BiteDefense = 85,
+		ScratchDefense = 85,
+		BulletDefense = 70,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		RunSpeedModifier = 1,
+		Weight = 2.5,
+		Tags = Military,
+        WorldStaticModel = PASGTDesert_WorldItem,
+	}
+
+		item Vest_PASGTDesertCombat
+	{   
+
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Desert Combat PASGT Vest,
+        ClothingItem = Vest_PASGTDesertCombat,
+        BodyLocation = TorsoExtra,
+        Icon = PASGTDesert,
+        BloodLocation = ShirtNoSleeves,
+		BiteDefense = 85,
+		ScratchDefense = 85,
+		BulletDefense = 70,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		RunSpeedModifier = 1,
+		Weight = 2.5,
+		Tags = Military,
+        WorldStaticModel = PASGTDesertCombat_WorldItem,
+	}
+
+		item Vest_PASGTOD
+	{   
+
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Green PASGT Vest,
+        ClothingItem = Vest_PASGTOD,
+        BodyLocation = TorsoExtra,
+        Icon = PASGTOD,
+        BloodLocation = ShirtNoSleeves,
+		BiteDefense = 85,
+		ScratchDefense = 85,
+		BulletDefense = 70,
+		Insulation = 0.75,
+        WindResistance = 0.45,
+		RunSpeedModifier = 1,
+		Weight = 2.5,
+		Tags = Military,
+        WorldStaticModel = PASGTOD_WorldItem,
+	}
+}

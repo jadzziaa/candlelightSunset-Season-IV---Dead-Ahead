@@ -1,0 +1,103 @@
+module Base
+{
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_1.ogg,
+			volume = 0.19,
+		}
+	}
+
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_2.ogg,
+			volume = 0.19,
+		}
+	}
+
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_3.ogg,
+			volume = 0.19,
+		}
+	}
+
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_4.ogg,
+			volume = 0.19,
+		}
+	}
+
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_5.ogg,
+			volume = 0.19,
+		}
+	}
+
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_6.ogg,
+			volume = 0.19,
+		}
+	}
+
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_7.ogg,
+			volume = 0.19,
+		}
+	}
+
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_8.ogg,
+			volume = 0.19,
+		}
+	}
+
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_9.ogg,
+			volume = 0.19,
+		}
+	}
+
+	sound TIsnd_Weapon	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Weapon_10.ogg,
+			volume = 0.19,
+		}
+	}
+
+}

@@ -1,0 +1,873 @@
+module SMUIClothing{
+
+  imports {
+      Base
+  }
+
+recipe Roll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapOG107,
+
+   	   Result:Hat_PatrolCapOG107Rolled,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapOG107Reversed,
+
+   	   Result:Hat_PatrolCapOG107Rolled,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapOG107Rolled,
+
+   	   Result:Hat_PatrolCapOG107,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapOG107RolledReversed,
+
+   	   Result:Hat_PatrolCapOG107,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCap,
+
+   	   Result:Hat_PatrolCapRolled,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapReversed,
+
+   	   Result:Hat_PatrolCapRolled,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapRolled,
+
+   	   Result:Hat_PatrolCap,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapRolledReversed,
+
+   	   Result:Hat_PatrolCap,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapERDL,
+
+   	   Result:Hat_PatrolCapERDLRolled,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{  
+	   Category:Military,
+   	   Hat_PatrolCapERDLReversed,
+
+   	   Result:Hat_PatrolCapERDLRolled,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapERDLRolled,
+
+   	   Result:Hat_PatrolCapERDL,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapRolledERDLReversed,
+
+   	   Result:Hat_PatrolCapERDL,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapERDLBrown,
+
+   	   Result:Hat_PatrolCapERDLBrownRolled,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapERDLBrownReversed,
+
+   	   Result:Hat_PatrolCapERDLBrownRolled,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapERDLBrownRolled,
+
+   	   Result:Hat_PatrolCapERDLBrown,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapRolledERDLBrownReversed,
+
+   	   Result:Hat_PatrolCapERDLBrown,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{   
+	   Category:Military,
+   	   Hat_PatrolCapDesert,
+
+   	   Result:Hat_PatrolCapDesertRolled,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapDesertReversed,
+
+   	   Result:Hat_PatrolCapDesertRolledReversed,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapDesertRolled,
+
+   	   Result:Hat_PatrolCapDesert,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapDesertRolledReversed,
+
+   	   Result:Hat_PatrolCapDesert,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapDesertCombat,
+
+   	   Result:Hat_PatrolCapDesertCombatRolled,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapDesertCombatReversed,
+
+   	   Result:Hat_PatrolCapDesertCombatRolledReversed,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapDesertCombatRolled,
+
+   	   Result:Hat_PatrolCapDesertCombat,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapDesertCombatRolledReversed,
+
+   	   Result:Hat_PatrolCapDesertCombat,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapUrban,
+
+   	   Result:Hat_PatrolCapUrbanRolled,
+	   Time:60,
+  	}
+
+recipe Roll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapUrbanReversed,
+
+   	   Result:Hat_PatrolCapUrbanRolledReversed,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapUrbanRolled,
+
+   	   Result:Hat_PatrolCapUrban,
+	   Time:60,
+  	}
+
+recipe Unroll patrol cap
+  	{
+	   Category:Military,
+   	   Hat_PatrolCapUrbanRolledReversed,
+
+   	   Result:Hat_PatrolCapUrban,
+	   Time:60,
+  	}
+
+recipe Attach NVG mount
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmet,
+	   NightVisionMount,
+
+   	   Result:Hat_MilitaryHelmetNVGMount,
+	   Time:60,
+  	}
+	  
+recipe Attach NVG mount
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesert,
+	   NightVisionMount,
+
+   	   Result:Hat_MilitaryHelmetDesertNVGMount,
+	   Time:60,
+  	}
+
+recipe Attach NVG mount
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertCombat,
+	   NightVisionMount,
+
+   	   Result:Hat_MilitaryHelmetDesertNVGMount,
+	   Time:60,
+  	}
+
+recipe Attach Night Vision
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetNVGMount,
+	   NightVisionGoggles,
+
+   	   Result:Hat_MilitaryHelmetNVGUP,
+	   Time:60,
+  	}
+
+recipe Attach NVG mount
+  	{
+	   Category:Military,
+   	   Hat_MilitaryTacticalHelmet,
+	   NightVisionMount,
+
+   	   Result:Hat_MilitaryTacticalHelmetNVGMount,
+	   Time:60,
+  	}
+	
+ recipe Attach Night Vision
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertNVGMount,
+	   NightVisionGoggles,
+
+   	   Result:Hat_MilitaryHelmetDesertNVGUP,
+	   Time:60,
+  	}
+
+ recipe Attach Night Vision
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertCombatNVGMount,
+	   NightVisionGoggles,
+
+   	   Result:Hat_MilitaryHelmetDesertCombatNVGUP,
+	   Time:60,
+  	}
+
+ recipe Attach Night Vision
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertCombatNVGMount,
+	   NightVisionGoggles,
+
+   	   Result:Hat_MilitaryHelmetDesertNVGUP,
+	   Time:60,
+  	}
+
+ recipe Attach Night Vision
+  	{
+	   Category:Military,
+   	   Hat_MilitaryTacticalHelmetNVGMount,
+	   NightVisionGoggles,
+
+   	   Result:Hat_MilitaryTacticalHelmetNVGUP,
+	   Time:60,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmet,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_MilitaryHelmetGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmet,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_MilitaryHelmetGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_MilitaryHelmetGogglesStrapless,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesert,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_MilitaryHelmetDesertGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertCombat,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_MilitaryHelmetDesertCombatGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_MilitaryHelmetDesertGogglesStrapless,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_DH132,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_DH132Goggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_DH132,
+	   Glasses_TacticalGoggles,
+
+   	   Result:Hat_DH132Goggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_MilitaryTacticalHelmet,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_MilitaryTacticalHelmetGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1Helmet,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetGogglesStrapless,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetWoodland,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetWoodlandGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetWoodlandStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetWoodlandGogglesStrapless,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetMitchell,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetMitchellGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetMitchellStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetMitchellGogglesStrapless,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetAutumnMitchell,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetAutumnMitchellGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetAutumnMitchellStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetAutumnMitchellGogglesStrapless,
+	   Time:20,
+  	}
+	  
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetThreeColor,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetThreeColorGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetThreeColorStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetThreeColorStrapless,
+	   Time:20,
+  	}
+
+ recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetMilitaryPolice,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetMilitaryPoliceGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetMilitaryPoliceStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1Helmet:Hat_M1HelmetERDLGogglesStrapless,
+	   Time:20,
+  	}
+
+ recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetERDL,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1HelmetMilitaryPoliceGoggles,
+	   Time:20,
+  	}
+
+recipe Attach goggles to helmet
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetERDLStrapless,
+	   Glasses_MilitaryGoggles,
+
+   	   Result:Hat_M1Helmet:Hat_M1HelmetERDLGogglesStrapless,
+	   Time:20,
+  	}
+
+recipe Attach doff hood
+  	{
+	   Category:Military,
+   	   Hat_M40,
+	   M40Hood,
+
+   	   Result:Hat_M40Doff,
+	   Time:60,
+  	}
+
+recipe Attach doff hood
+  	{
+	   Category:Military,
+   	   Hat_M17,
+	   M17Hood,
+
+   	   Result:Hat_M17Doff,
+	   Time:60,
+  	}
+
+recipe Remove doff hood
+  	{
+	   Category:Military,
+   	   Hat_M17Doff,
+	   OnCreate: SMUI_Recipe.M17HOOD,
+   	   Result:Hat_M17,
+	   Time:60,
+  	}
+
+recipe Remove doff hood
+  	{
+	   Category:Military,
+   	   Hat_M40Doff,
+	   OnCreate: SMUI_Recipe.M40HOOD,
+   	   Result:Hat_M40,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_MilitaryHelmet,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_MilitaryHelmetStrapless,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_MilitaryHelmetDesert,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_MilitaryHelmetDesertStrapless,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertCombatGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_MilitaryHelmetDesertCombat,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetDesertCombatGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_MilitaryHelmetDesertCombatStrapless,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_MilitaryTacticalHelmetGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_MilitaryTacticalHelmet,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_DH132Goggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_DH132,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1Helmet,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1Helmet,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetWoodlandGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetWoodland,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetWoodlandGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetWoodlandStrapless,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetMitchellGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetMitchell,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetMitchellGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetMitchellStrapless,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetAutumnMitchellGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetAutumnMitchell,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetAutumnMitchellGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetAutumnMitchellStrapless,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetThreeColorGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetThreeColor,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetThreeColorGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetThreeColorStrapless,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetMilitaryPoliceGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetMilitaryPolice,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetMilitaryPoliceGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetMilitaryPoliceStrapless,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,		
+   	   Hat_M1HelmetERDLGoggles,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetERDL,
+	   Time:60,
+  	}
+
+recipe Remove goggles
+  	{
+	   Category:Military,
+   	   Hat_M1HelmetERDLGogglesStrapless,
+	   OnCreate: SMUI_Recipe.GOGGLES,
+   	   Result:Hat_M1HelmetERDLStrapless,
+	   Time:60,
+  	}
+
+recipe Unseal package
+  	{
+	   Category:Military,
+   	   MOPPPackageGreen,
+	   OnCreate: SMUI_Recipe.MOPPGREEN,
+   	   Result:MOPPPackageWrapper,
+	   Time:60,
+  	}
+
+recipe Make helmet rags
+  	{
+	   Category:Military,
+   	   RippedSheets,
+	   PaintGreen,
+	   keep Paintbrush,
+   	   Result:HelmetRags,
+	   Time:60,
+  	}
+
+recipe Add helmet rags
+  	{
+	   Category:Military,		
+   	   Hat_M1Helmet,
+	   HelmetRags,
+	   Tooltip:Tooltip_Irreversible,
+   	   Result:Hat_M1HelmetRagtop,
+	   Time:60,
+  	}
+
+recipe Add helmet rags
+  	{
+	   Category:Military,	
+   	   Hat_M1HelmetStrapless,
+	   HelmetRags,
+	   Tooltip:Tooltip_Irreversible,
+   	   Result:Hat_M1HelmetRagtop,
+	   Time:60,
+  	}
+	
+recipe Add helmet rags
+  	{
+	   Category:Military,	
+   	   Hat_MilitaryHelmet,
+	   HelmetRags,
+	   Tooltip:Tooltip_Irreversible,
+   	   Result:Hat_MilitaryHelmetRagtop,
+	   Time:60,
+  	}
+
+recipe Add helmet rags
+  	{
+	   Category:Military,
+   	   Hat_MilitaryHelmetStrapless,
+	   HelmetRags,
+	   Tooltip:Tooltip_Irreversible,
+   	   Result:Hat_MilitaryHelmetRagtop,
+	   Time:60,
+  	}
+}		

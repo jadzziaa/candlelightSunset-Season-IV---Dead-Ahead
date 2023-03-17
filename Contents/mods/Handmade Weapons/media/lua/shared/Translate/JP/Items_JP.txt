@@ -1,0 +1,11 @@
+Items_JP = {
+	DisplayNameStone_Handaxe = "石の手斧",
+	DisplayNameCombat_Rod = "クォータースタッフ",
+	DisplayNameHandmade_Baseball_Bat = "手作り野球バット",
+	DisplayNameHandmade_Bat_with_Nails = "釘打ち手作りバット",
+	DisplayNameBaseball_Magazine = "ベースボールマガジン",
+	DisplayNameBarbed_Wire_Handmade_Bat = "有刺鉄線手作りバット",
+	DisplayNameBarbed_Wire_Baseball_Bat = "有刺鉄線野球バット",
+	DisplayNameChisel = "ノミ",
+	DisplayNameWooden_Sword = "木製剣",
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>bmw0_exit_passenger</m_Name>
+	<m_AnimName>BMW_Exit_Passenger</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_UpperOnly>false</m_UpperOnly>
+	<m_EarlyBlendOut>false</m_EarlyBlendOut>
+	<m_SpeedScale>3.50</m_SpeedScale>
+	<m_BlendTime>0.00</m_BlendTime>
+	<m_Scalar></m_Scalar>
+	<m_Scalar2></m_Scalar2>
+	<m_Conditions>
+		<m_Name>ATVehicleType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>BMW0</m_StringValue>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>ExitAnimationFinished=true</m_ParameterValue>
+	</m_Events>
+	<m_Transitions>
+		<m_Target>default</m_Target>
+		<m_AnimName>Bob_IdleTurn90L</m_AnimName>
+		<m_speedScale>1</m_speedScale>
+	</m_Transitions>
+</animNode>

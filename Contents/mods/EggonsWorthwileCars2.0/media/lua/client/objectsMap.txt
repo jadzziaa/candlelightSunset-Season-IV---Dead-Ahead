@@ -1,0 +1,11 @@
+local vehicle = container:getParent()
+local truckBed = vehicle:getPartById("TruckBed") or TruckBedOpen or ...
+truckBed:setContainerCapacity(400)
+truckBed:setContainerContentAmount ? what it does?
+local truckBedContainer = truckBed:getInventoryItem()
+truckBedContainer:getMaxCapacity()
+truckBedContainer:setItemCapacity()
+truckBedContainer:getCondition()
+na inventoryItem jest setItemCapacity
+na inventoryContainer jest setCapacity
+getCondition jest zarówno na vehiclePart (truckBedPart) jak i inventoryItem

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media/models_X/static/clothes/BoogieGoggles.FBX</m_MaleModel>
+	<m_FemaleModel>media/models_X/static/clothes/BoogieGoggles.FBX</m_FemaleModel>
+	<m_GUID>e8441963-a45b-4454-81d3-8fd69c0ec453</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group02</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes/hat/Hat_BoogieGoggles</textureChoices>
+</clothingItem>

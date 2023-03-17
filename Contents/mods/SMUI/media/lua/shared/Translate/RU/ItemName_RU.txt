@@ -1,0 +1,73 @@
+ItemName_RU = {
+    ItemName_SMUIClothing.Jacket_ArmyCamoGreen = "Армейская куртка «лесной камуфляж»",
+    ItemName_SMUIClothing.Jacket_ArmyCamoGreenRolled = "Армейская куртка «лесной камуфляж»",
+    ItemName_SMUIClothing.Jacket_ArmyCamoDesert = "Армейская куртка «пустынный камуфляж»",
+    ItemName_SMUIClothing.Jacket_ArmyCamoDesertRolled = "Армейская куртка «пустынный камуфляж»",
+    ItemName_SMUIClothing.Jacket_ArmyCamoUrban = "Армейская куртка «городской камуфляж»",
+    ItemName_SMUIClothing.Jacket_ArmyCamoUrbanRolled = "Армейская куртка «городской камуфляж»",
+
+	ItemName_SMUIClothing.Trousers_CamoGreen = "Армейские штаны «лесной камуфляж»",
+    ItemName_SMUIClothing.Trousers_CamoGreenTucked = "Армейские штаны «лесной камуфляж»",
+    ItemName_SMUIClothing.Trousers_CamoDesert = "Армейские штаны «пустынный камуфляж»",
+    ItemName_SMUIClothing.Trousers_CamoDesertTucked = "Армейские штаны «пустынный камуфляж»",
+    ItemName_SMUIClothing.Trousers_CamoUrban = "Армейские штаны «городской камуфляж»",
+    ItemName_SMUIClothing.Trousers_CamoUrbanTucked = "Армейские штаны «городской камуфляж»",
+	
+    ItemName_SMUIClothing.Hat_Army = "Армейские шлем «лесной камуфляж»",
+    ItemName_SMUIClothing.Hat_ArmyHelmetStrapless = "Армейские шлем «лесной камуфляж» со стропами",
+    ItemName_SMUIClothing.Hat_MilitaryHelmet = "Армейские шлем" «лесной камуфляж»,
+    ItemName_SMUIClothing.Hat_MilitaryHelmetStrapless = "Армейские шлем «лесной камуфляж» со стропами",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetGoggles = "Армейские шлем «лесной камуфляж» с очками",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetGogglesStrapless = "Армейские шлем «лесной камуфляж» со стропами и очками",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetNVGMount = "Армейские шлем «лесной камуфляж» с креплением для ПНВ",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetDesert = "Армейский шлем «пустынный камуфляж»",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetDesertStrapless = "Армейский шлем «пустынный камуфляж» со стропами",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetDesertGoggles = "Армейский шлем «пустынный камуфляж» с очками",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetDesertGogglesStrapless = "Армейский шлем «пустынный камуфляж» со стропами и очками",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetDesertNVGMount = "Армейский шлем «пустынный камуфляж» с креплением для ПНВ",
+
+    ItemName_SMUIClothing.Hat_M17 = "Противогаз M17",
+    ItemName_SMUIClothing.Hat_Shemagh = "Арафатка",
+    ItemName_SMUIClothing.Glasses_MilitaryGoggles = "Армейские очки",
+    ItemName_SMUIClothing.Hat_ShemaghWoodland = "Арафатка «лесной камуфляж»",
+    ItemName_SMUIClothing.Hat_ShemaghDesert = "Арафатка «пустынный камуфляж»",
+    ItemName_SMUIClothing.Hat_CavalryHat = "Шляпа кавалериста",
+    ItemName_SMUIClothing.Hat_BeretSpecial = "Красный армейский берет",
+
+    ItemName_SMUIClothing.NBCSuit = "Плащ NBC",
+    ItemName_SMUIClothing.NBCSuitHood = "Капюшон NBC",
+    ItemName_SMUIClothing.Trousers_NBCPants = "Штаны NBC",
+    ItemName_SMUIClothing.Hat_M17Doff = "Капюшон с противогазом M17",
+    ItemName_SMUIClothing.Gloves_HazmatGloves = "Перчатки NBC",
+    ItemName_SMUIClothing.Shoes_HazmatBoots = "Сапоги NBC",
+	
+    ItemName_SMUIClothing.Hat_MilitaryHelmetNVGUP = "Армейский шлем «лесной камуфляж» с ПНВ",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetNVGDOWN = "Армейский шлем «лесной камуфляж» с ПНВ",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetDesertNVGUP = "Армейский шлем «пустынный камуфляж» с ПНВ",
+    ItemName_SMUIClothing.Hat_MilitaryHelmetDesertNVGDOWN = "Армейский шлем «пустынный камуфляж» с ПНВ",
+	
+    ItemName_SMUIClothing.Hat_PatrolCap = "Армейская кепка «лесной камуфляж»",
+    ItemName_SMUIClothing.Hat_PatrolCapReversed = "Армейская кепка «лесной камуфляж»",
+    ItemName_SMUIClothing.Hat_PatrolCapDesert = "Армейская кепка «пустынный камуфляж»",
+    ItemName_SMUIClothing.Hat_PatrolCapDesertReversed = "Армейская кепка «пустынный камуфляж»",
+    ItemName_SMUIClothing.Hat_PatrolCapUrban = "Армейская кепка «городской камуфляж»",
+    ItemName_SMUIClothing.Hat_PatrolCapUrbanReversed = "Армейская кепка «городской камуфляж»",
+
+    ItemName_SMUIClothing.Vest_ODGreen = "Армейский оливковый бронижелет",
+    ItemName_SMUIClothing.Vest_MilitaryTacticalVest = "Армейский тактический бронижелет",
+
+    ItemName_SMUIClothing.MilitaryWebbing = "Армейская разгрузка",
+    ItemName_SMUIClothing.MilitaryWebbingTightened = "Армейская разгрузка",
+    ItemName_SMUIClothing.MilitaryWebbingBag = "Армейская разгрузка с подсумком",
+    ItemName_SMUIClothing.MilitaryWebbingBagTightened = "Армейская разгрузка с подсумком",
+
+    ItemName_SMUIClothing.NightVisionGoggles = "ПНВ",
+    ItemName_SMUIClothing.NightVisionMount = "Крепление для ПНВ",
+    ItemName_SMUIClothing.M17Hood = "Cъёмный капюшон",
+    ItemName_SMUIClothing.MOPPPackageTop = "Пакет с верхом MOPP",
+    ItemName_SMUIClothing.MOPPPackageBottom = "Пакет с низом MOPP",
+    ItemName_SMUIClothing.MOPPPackageWrapper = "Упаковка от MOPP",
+
+    ItemName_SMUIClothing.M67Grenade = "Граната M67",
+	}
+	

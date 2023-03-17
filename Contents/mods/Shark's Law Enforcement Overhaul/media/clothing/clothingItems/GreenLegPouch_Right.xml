@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\LegPouch_RLeg</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\LegPouch_RLeg</m_FemaleModel>
+	<m_GUID>0694502c-5f1b-47f2-8d13-d84eea8bb0de</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\GreenLegPouch</textureChoices>
+</clothingItem>

@@ -1,0 +1,39 @@
+module Base
+{
+		sound SuppressedShot
+		{
+			{
+				file = media/sound/suppressedshot.ogg,
+    			        distanceMax = 10,
+       			        volume = 0.6,
+			}
+		}
+
+		sound SuppressedShot2
+		{
+			{
+				file = media/sound/suppressedshot.ogg,
+    			        distanceMax = 10,
+       			        volume = 0.6,
+			}
+		}
+
+		sound MP5SDshot
+		{
+			{
+				file = media/sound/mp5sdshot.ogg,
+    			        distanceMax = 15,
+       			        volume = 0.2,
+			}
+		}
+
+
+		sound CAR15Dshot
+		{
+			{
+				file = media/sound/car15dshot.ogg,
+    			        distanceMax = 25,
+       			        volume = 0.5,
+			}
+		}
+}

@@ -1,0 +1,14 @@
+ItemName_ES = {
+
+    ItemName_Base.WPTailZ = "Revista TailZ",
+    ItemName_Base.WPHunkZ = "Revista HunkZ",
+	ItemName_Base.WPJugZ = "Revista JugZ",
+	ItemName_Base.WPLotion = "Loción WP",
+	ItemName_Base.WPOldMagazine = "Revista vieja",
+	ItemName_Base.WPOrigamiMag = "El arte del origami",
+	ItemName_Base.WPOrigamiDuck = "Origami de pato",
+	ItemName_Base.WPOrigamiFrog = "Origami de rana",
+	ItemName_Base.WPOrigamiMouse = "Origami de ratón",
+	ItemName_Base.WPCrumpledPaper = "Papel arrugado",
+
+}

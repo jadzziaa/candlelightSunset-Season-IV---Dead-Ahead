@@ -1,0 +1,41 @@
+VERSION = 1,
+
+option DayandNight.Daypoint
+{
+	type = integer,
+	min = 0,
+	max = 12,
+	default = 6,
+	page = TimeOptions,
+	translation = DayandNight_Daypoint,
+}
+
+option DayandNight.Nightpoint
+{
+	type = integer,
+	min = 13,
+	max = 23,
+	default = 20,
+	page = TimeOptions,
+	translation = DayandNight_Nightpoint,
+}
+
+option DayandNight.Day
+{
+	type = integer,
+	min = 1,
+	max = 1000000,
+	default = 35,
+	page = TimeOptions,
+	translation = DayandNight_Day,
+}
+
+option DayandNight.Night
+{
+	type = integer,
+	min = 1,
+	max = 1000000,
+	default = 6,
+	page = TimeOptions,
+	translation = DayandNight_Night,
+}

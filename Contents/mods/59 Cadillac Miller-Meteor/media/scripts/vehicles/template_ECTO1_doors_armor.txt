@@ -1,0 +1,340 @@
+module Base
+{
+
+	model ECTO1doorfla
+	{
+		mesh = vehicles/Vehicles_ECTO1_Body|ECTO1_door_fl_a,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = door_fl_bone 1.0,
+	}
+
+	model ECTO1doorfra
+	{
+		mesh = vehicles/Vehicles_ECTO1_Body|ECTO1_door_fr_a,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = door_fr_bone 1.0,
+	}
+
+	model ECTO1doorrla
+	{
+		mesh = vehicles/Vehicles_ECTO1_Body|ECTO1_door_rl_a,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = door_rl_bone 1.0,
+	}
+
+	model ECTO1doorrra
+	{
+		mesh = vehicles/Vehicles_ECTO1_Body|ECTO1_door_rr_a,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 0.1,
+		boneWeight = door_rr_bone 1.0,
+	}
+
+	template vehicle ECTO1DoorArmors
+	{
+
+		part ECTO1DoorFrontLeftArmor
+		{
+			model DoorFrontLeftArmor1
+				{
+				file = ECTO1doorfla,
+				}
+				parent = DoorFrontLeft,
+				itemType = Base.ECTO1CarFrontDoorArmor1_Item,
+				specificItem = false,
+				table install
+				{
+				requireInstalled = WindowFrontLeft,
+				}
+				area = SeatFrontLeft,
+				anim ActorOpen
+				{
+					angle = 0.0 270.0 0.0,
+				}
+				anim ActorClose
+				{
+					angle = 0.0 270.0 0.0,
+				}
+
+				anim Close
+				{
+					anim = Door_fl_closing,
+					rate = 1.5,
+				}
+
+				anim Open
+				{
+					anim = Door_fl_closing,
+					reverse = TRUE,
+					rate = 1.0,
+				}
+
+				anim Closed
+				{
+					anim = Door_fl_closing,
+					reverse = TRUE,
+					animate = FALSE,
+				}
+
+				anim Opened
+				{
+					anim = Door_fl_closing,
+					animate = FALSE,
+				}
+				lua
+				{
+					create = ECTO1.Create.DoorFrontLeftArmor,
+					init = ECTO1.Init.DoorFrontLeftArmor,
+				}
+		}
+
+		part ECTO1DoorFrontRightArmor
+		{
+			model DoorFrontRightArmor1
+				{
+				file = ECTO1doorfra,
+				}
+				parent = DoorFrontRight,
+				itemType = Base.ECTO1CarFrontDoorArmor1_Item,
+				specificItem = false,
+				table install
+				{
+				requireInstalled = WindowFrontRight,
+				}
+				area = SeatFrontRight,
+				anim ActorOpen
+				{
+					angle = 0.0 90.0 0.0,
+				}
+				anim ActorClose
+				{
+					angle = 0.0 90.0 0.0,
+				}
+
+				anim Close
+				{
+					anim = Door_fr_closing,
+					rate = 1.5,
+				}
+
+				anim Open
+				{
+					anim = Door_fr_closing,
+					reverse = TRUE,
+					rate = 1.0,
+				}
+
+				anim Closed
+				{
+					anim = Door_fr_closing,
+					reverse = TRUE,
+					animate = FALSE,
+				}
+
+				anim Opened
+				{
+					anim = Door_fr_closing,
+					animate = FALSE,
+				}
+				lua
+				{
+					create = ECTO1.Create.DoorFrontRightArmor,
+					init = ECTO1.Init.DoorFrontRightArmor,
+				}
+		}
+
+		part ECTO1DoorRearLeftArmor
+		{
+			model DoorRearLeftArmor1
+				{
+				file = ECTO1doorrla,
+				}
+				parent = DoorRearLeft,
+				itemType = Base.ECTO1CarRearDoorArmor1_Item,
+				specificItem = false,
+				table install
+				{
+				requireInstalled = WindowRearLeft,
+				}
+				area = SeatRearLeft,
+				anim ActorOpen
+				{
+					angle = 0.0 270.0 0.0,
+				}
+				anim ActorClose
+				{
+					angle = 0.0 270.0 0.0,
+				}
+
+				anim Close
+				{
+					anim = Door_rl_closing,
+					rate = 1.5,
+				}
+
+				anim Open
+				{
+					anim = Door_rl_closing,
+					reverse = TRUE,
+					rate = 1.0,
+				}
+
+				anim Closed
+				{
+					anim = Door_rl_closing,
+					reverse = TRUE,
+					animate = FALSE,
+				}
+
+				anim Opened
+				{
+					anim = Door_rl_closing,
+					animate = FALSE,
+				}
+				lua
+				{
+					create = ECTO1.Create.DoorRearLeftArmor,
+					init = ECTO1.Init.DoorRearLeftArmor,
+				}
+		}
+
+		part ECTO1DoorRearRightArmor
+		{
+			model DoorRearRightArmor1
+				{
+				file = ECTO1doorrra,
+				}
+				parent = DoorRearRight,
+				itemType = Base.ECTO1CarRearDoorArmor1_Item,
+				specificItem = false,
+				table install
+				{
+				requireInstalled = WindowRearRight,
+				}
+				area = SeatRearRight,
+				anim ActorOpen
+				{
+					angle = 0.0 90.0 0.0,
+				}
+				anim ActorClose
+				{
+					angle = 0.0 90.0 0.0,
+				}
+
+				anim Close
+				{
+					anim = Door_rr_closing,
+					rate = 1.5,
+				}
+
+				anim Open
+				{
+					anim = Door_rr_closing,
+					reverse = TRUE,
+					rate = 1.0,
+				}
+
+				anim Closed
+				{
+					anim = Door_rr_closing,
+					reverse = TRUE,
+					animate = FALSE,
+				}
+
+				anim Opened
+				{
+					anim = Door_rr_closing,
+					animate = FALSE,
+				}
+				lua
+				{
+					create = ECTO1.Create.DoorRearRightArmor,
+					init = ECTO1.Init.DoorRearRightArmor,
+				}
+		}
+
+		part ECTO1Door*
+		{
+			category = door,
+			door
+			{
+				}
+				anim Open
+				{
+					sound = VehicleDoorOpenStandard,
+				}
+				anim Close
+				{
+					sound = VehicleDoorCloseStandard,
+				}
+				anim Lock
+				{
+					sound = LockVehicleDoorStandard,
+				}
+				anim Unlock
+				{
+					sound = UnlockVehicleDoorStandard,
+				}
+				anim IsLocked
+				{
+					sound = VehicleDoorIsLockedStandard,
+				}
+				anim ActorOpen
+				{
+					anim = Attack_Shove,
+					rate = 0.3,
+				}
+				anim ActorClose
+				{
+					anim = Attack_Shove,
+					rate = 0.3,
+				}
+				mechanicRequireKey = true,
+				table install
+				{
+					items
+					{
+						item
+						{
+							type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+						}
+					}
+					time = 1200,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+					test = Vehicles.InstallTest.Default,
+					complete = Vehicles.InstallComplete.Door,
+				}
+				table uninstall
+				{
+					items
+					{
+						item
+						{
+							type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+						}
+					}
+					time = 1200,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+					test = Vehicles.UninstallTest.Default,
+					complete = Vehicles.UninstallComplete.Door,
+				}
+			}
+		}
+	}
+}
+

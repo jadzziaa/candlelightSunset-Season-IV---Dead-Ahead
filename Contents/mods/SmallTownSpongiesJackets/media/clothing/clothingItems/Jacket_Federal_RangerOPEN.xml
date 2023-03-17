@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>Skinned\Clothes\Spongie\M_JacketOpen</m_MaleModel>
+    <m_FemaleModel>Skinned\Clothes\Spongie\F_JacketOpen</m_FemaleModel>
+    <m_GUID>606c12a5-0b26-4a59-b336-ddc897b48c46</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_Masks>3</m_Masks>
+    <m_Masks>5</m_Masks>
+    <m_UnderlayMasksFolder>media/textures/clothes/Spongie/Jacket\Masks\LongSleeves\OpenMasks</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\Jacket\Jacket_Federal_Ranger</textureChoices>
+</clothingItem>

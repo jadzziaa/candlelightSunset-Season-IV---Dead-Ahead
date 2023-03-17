@@ -1,0 +1,33 @@
+ItemName_EN = {
+
+    ItemName_Base.NATT_AlicepackPouch = "Alice backpack",
+    ItemName_Base.NATT_AlicepackNonPouch = "Alice backpack",
+
+    ItemName_Base.NATT_Weapon= "Weapon Slot",
+    ItemName_Base.NATT_ShortWeapon= "Short Weapon Slot",
+    ItemName_Base.NATT_UtilityLeft  = "Utility Left Slot",
+    ItemName_Base.NATT_UtilityRight  = "Utility Right Slot",
+    ItemName_Base.NATT_Left  = "Left Side Slot",
+    ItemName_Base.NATT_Right  = "Right Side Slot",
+    ItemName_Base.NATT_Bag  = "Bag Left Slot",
+    ItemName_Base.NATT_Flashlight = "Flashlight Slot",
+    ItemName_Base.NATT_Bedroll  = "Bedroll Slot",
+    ItemName_Base.NATT_Container = "Container Slot",
+    ItemName_Base.NATT_ContainerSmallLeft = "Small Left Container Slot",
+    ItemName_Base.NATT_ContainerSmallRight = "Small Right Container Slot",
+
+    ItemName_Base.NATT_Remove_Weapon= "Weapon Slot",
+    ItemName_Base.NATT_Remove_ShortWeapon= "Short Weapon Slot",
+    ItemName_Base.NATT_Remove_UtilityLeft  = "Utility Left Slot",
+    ItemName_Base.NATT_Remove_UtilityRight  = "Utility Right Slot",
+    ItemName_Base.NATT_Remove_Left  = "Left Side Slot",
+    ItemName_Base.NATT_Remove_Right  = "Right Side Slot",
+    ItemName_Base.NATT_Remove_Bag  = "Bag Left Slot",
+    ItemName_Base.NATT_Remove_Flashlight = "Flashlight Slot",
+    ItemName_Base.NATT_Remove_Bedroll  = "Bedroll Slot",
+    ItemName_Base.NATT_Remove_Container = "Container Slot",
+    ItemName_Base.NATT_Remove_ContainerSmallLeft = "Small Left Container Slot",
+    ItemName_Base.NATT_Remove_ContainerSmallRight = "Small Right Container Slot",
+
+    ItemName_Base.AnimeTshirt = "Anime T-shirt",
+}

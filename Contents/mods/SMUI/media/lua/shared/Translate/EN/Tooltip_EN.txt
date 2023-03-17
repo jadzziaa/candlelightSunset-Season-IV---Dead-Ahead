@@ -1,0 +1,22 @@
+Tooltip_EN = {
+    Tooltip_Rolled = "The sleeves are rolled"
+    Tooltip_Tucked = "The trousers are tucked"
+    Tooltip_Left = "Left sided".
+    Tooltip_Right = "Right sided",
+    Tooltip_DoffHoodM17 = "Protective NBC hood designed for the M17",
+    Tooltip_DoffHoodM40 = "Protective NBC hood designed for the M40",
+    Tooltip_PackageTop = "Contains an NBC suit top and protective gloves",
+    Tooltip_PackageBottom = "Contains an NBC suit bottom and protective boots",
+    Tooltip_NBCGloves = "Can be worn over gloves",
+    Tooltip_NBCBoots = "Can be worn over shoes and boots",
+    Tooltip_NightVisionGoggles = "Must be attached to a mount for use",
+    Tooltip_NVGKey= "Press "F" to toggle on/off", 
+    Tooltip_NVGFlip= "Flip down for use", 
+    Tooltip_NVGMount = "Used to mount night vision onto helmets",
+    Tooltip_HelmetRags = "Can be added to plain M1 and Woodland PASGT helmets",
+    Tooltip_Irreversible = "This cannot be reversed",
+    Tooltip_BrokenRadio = "The radio is broken.<br>However, the pack is usable.",
+    Tooltip_NoRevolvers = "Can be used for the M1911 and M9 only.",
+    Tooltip_WebbingSuspenders = "Used in conjunction wth pistol belts for load bearing webbing",
+    Tooltip_CoolKids = "Only cool kids who use debug can use this", 
+}

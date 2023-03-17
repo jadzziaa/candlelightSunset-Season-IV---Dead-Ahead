@@ -1,0 +1,9 @@
+
+poster=joggers.png
+versionMin=41.65
+modversion=1.3
+
+description= (Optional, can be enabled in the same time with any version.) 10% slower player walking speed.
+
+name=Slower Sprinters \ (Optional) -10% Player walking speed \ v1.3
+id=V_SlowerSprinters_Option_SPWS

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>5fa060cc-4bc2-49e0-a60a-c5259279a8e3</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Bag/NCcanvastote_b</textureChoices>
+	<textureChoices>Clothes/Bag/NCcanvastote_g</textureChoices>
+	<textureChoices>Clothes/Bag/NCcanvastote_p</textureChoices>
+	<textureChoices>Clothes/Bag/NCcanvastote_r</textureChoices>
+</clothingItem>

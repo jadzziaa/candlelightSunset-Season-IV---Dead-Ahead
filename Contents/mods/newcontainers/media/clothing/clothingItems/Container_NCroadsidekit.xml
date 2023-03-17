@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>7020ffc4-b28e-4c01-9f00-23798fbb2d92</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Bag/NCroadsidekit_b</textureChoices>
+	<textureChoices>Clothes/Bag/NCroadsidekit_o</textureChoices>
+	<textureChoices>Clothes/Bag/NCroadsidekit_r</textureChoices>
+</clothingItem>

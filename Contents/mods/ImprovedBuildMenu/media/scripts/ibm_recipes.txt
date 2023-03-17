@@ -1,0 +1,33 @@
+module Base
+{
+
+  /************************Metalworking************************/
+
+  recipe Make Metal Pipe
+  {
+     TinCanEmpty/PopEmpty/Aluminum=5,
+     BlowTorch=5,
+     keep WeldingMask,
+
+     Result:MetalPipe,
+     Time:250.0,
+     Category:Welding,
+     OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+     NeedToBeLearn:true,
+  }
+
+  recipe Make Metal Bar
+  {
+      MetalPipe/LeadPipe,
+      ScrapMetal=1,
+      BlowTorch=6,
+      keep WeldingMask,
+
+      Result:MetalBar,
+      Time:250.0,
+      Category:Welding,
+      SkillRequired:MetalWelding=2,
+      OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+      NeedToBeLearn:true,
+  }
+}

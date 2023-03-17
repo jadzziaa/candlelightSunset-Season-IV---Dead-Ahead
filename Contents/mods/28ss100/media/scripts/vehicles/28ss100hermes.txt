@@ -1,0 +1,540 @@
+module Base
+{
+	vehicle 28ss100hermes
+	{
+		part AMCConfig
+		{
+			category = nodisplay,
+
+			table AMCConfig
+			{
+				type = BMW,
+				fallDelta = 2,
+				speedDelta = 1,
+				hideWeapon = 1,
+				quickEnter = 1,
+			}
+		}
+
+		part TCLConfig
+		{
+			category = nodisplay,
+
+			table TCLConfig
+			{
+				disableDoorLocker = 1,
+				disableSleep = 1,
+				wreckerName = TrailerAMC,
+			}
+		}
+
+		mechanicType = 3,
+		engineRepairLevel = 4,
+		playerDamageProtection = 1.1,
+
+		model
+		{
+			file = 28ss100Base,
+			scale = 0.8000,
+			offset = 0.0000 0.1250 -0.0750,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_28ss100_Shell_black_kino,
+		}
+
+		textureRust = Vehicles/Bikes_28ss100_rust,
+		textureMask = Vehicles/Bikes_28ss100_mask,
+		textureLights = Vehicles/Bikes_28ss100_lights,
+		textureDamage1Shell = Vehicles/Bikes_28ss100_damage1,
+		textureDamage2Shell = Vehicles/Bikes_28ss100_damage2,
+		textureDamage1Overlay = Vehicles/Bikes_28ss100_blood,
+		textureDamage2Overlay = Vehicles/Bikes_28ss100_blood,
+		textureShadow = Vehicles/Bikes_28ss100_shadow,
+
+		sound
+		{
+			horn = VehicleHorn,
+		}
+
+		engineForce = 1650,
+		maxSpeed = 57f,
+		extents = 0.7750 0.9750 2.3500,
+		mass = 200,
+		physicsChassisShape = 0.7750 0.9750 2.3500,
+		centerOfMassOffset = 0.0000 0.8000 0.0000,
+		shadowExtents = 2.3119 2.3125,
+		shadowOffset = 0.0125 -0.0250,
+		engineLoudness = 70,
+		engineQuality = 85,
+		brakingForce = 10,
+		stoppingMovementForce = 0.0f,
+		rollInfluence = 0.4f,
+		steeringIncrement = 0.01,
+		steeringClamp = 0.08,
+		suspensionStiffness = 50,
+		suspensionCompression = 0,
+		suspensionDamping = 100,
+		maxSuspensionTravelCm = 16,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 5.4f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 1,
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.2750 0.3125 1.6250,
+			radius = 0.3f,
+			width = 0.5f,
+		}
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.2750 0.3125 1.6250,
+			radius = 0.3f,
+			width = 0.5f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.0000 0.2000 -0.7250,
+			radius = 0.3f,
+			width = 0.5f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = 0.0000 0.2875 0.7500,
+			radius = 0.3f,
+			width = 0.5f,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.5875 0.8250 0.8250,
+		}
+
+		area TruckBedLeft
+		{
+			xywh = 0.8000 -1.0125 0.8250 0.8250,
+		}
+
+		area TruckBedRight
+		{
+			xywh = -0.8000 -1.0125 0.8250 0.8250,
+		}
+
+		area Engine
+		{
+			xywh = -0.8000 0.1625 0.4000 0.4000,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.8000 -0.1625 0.8250 0.8250,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.8000 -0.1625 0.8250 0.8250,
+		}
+
+		area GasTank
+		{
+			xywh = 0.8000 0.1625 0.4000 0.4000,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.0875 -1.5875 0.4000 0.4000,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.0000 1.5875 0.4000 0.4000,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.0875 -1.5875 0.4000 0.4000,
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			itemType = Base.SS100gasTank,
+			category = gastank,
+
+			model Gastank877897
+			{
+				file = 28ss100_gastank,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Engine,
+		template = SS100trunkStoragesON,
+		template = SS100Fenders,
+		template = SS100TentON,
+		template = Windshield/part/Windshield,
+
+		part Windshield
+		{
+			itemType = Base.SS100windshield,
+			area = TireFrontLeft,
+
+			model Windshield73652336
+			{
+				file = 28ss100_windshield,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		part Engine
+		{
+			category = engine,
+		}
+
+		template = Battery,
+
+		part Battery
+		{
+			category = engine,
+			area = GasTank,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Muffler,
+
+		part Muffler
+		{
+			itemType = Base.SS100muffler,
+
+			model Muffler7278987766
+			{
+				file = 28ss100_exhaust,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			category = engine,
+			area = TireRearLeft,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Brake/part/BrakeFrontLeft,
+		template = Brake/part/BrakeRearLeft,
+
+		part BrakeFrontLeft
+		{
+			area = TireFrontLeft,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionFrontLeft,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+		}
+
+		part BrakeRearLeft
+		{
+			area = TireRearLeft,
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionRearLeft,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+		}
+
+		template = Headlight/part/HeadlightLeft,
+
+		part HeadlightLeft
+		{
+			model frontHeadlight866678
+			{
+				file = 28ss100_headlight,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			area = TireFrontLeft,
+		}
+
+		template = Headlight/part/HeadlightRearLeft,
+		template = Suspension,
+
+		part SuspensionFrontLeft
+		{
+			area = TireFrontLeft,
+
+			model tire81466
+			{
+				file = 28ss100_front_suspension,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = BrakeFrontLeft,
+			}
+		}
+
+		part SuspensionFrontRight
+		{
+			category = nodisplay,
+		}
+
+		part SuspensionRearLeft
+		{
+			area = TireRearLeft,
+
+			model tire2484959
+			{
+				file = 28ss100_rear_suspension,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = BrakeRearLeft,
+			}
+		}
+
+		part SuspensionRearRight
+		{
+			category = nodisplay,
+			area = TireRearLeft,
+		}
+
+		template! = ATAMotoWheelsReady,
+
+		part ATAMotoTireFrontWheel
+		{
+			specificItem = false,
+			itemType = Base.SS100oldTire;Base.SS100normalTire;Base.SS100modernTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = 28ss100_Wheel,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionFrontLeft,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		part ATAMotoTireRearWheel
+		{
+			specificItem = false,
+			itemType = Base.SS100oldTire;Base.SS100normalTire;Base.SS100modernTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = 28ss100_Wheel,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionRearLeft,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		passenger FrontLeft
+		{
+			door = DoorFrontLeft,
+			door2 = DoorFrontRight,
+			area = SeatFrontLeft,
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.8750 -0.3375,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.3375 0.0250 -0.3375,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+
+			switchSeat FrontRight
+			{
+				sound =,
+			}
+		}
+
+		template! = PassengerCommon,
+		template = Seat/part/SeatFrontLeft,
+
+		part SeatFrontLeft
+		{
+			category = seat,
+			itemType = Base.SS100seat,
+
+			model seat4448777
+			{
+				file = 28ss100_seat,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+
+			anim Open
+			{
+				sound =,
+			}
+
+			anim Close
+			{
+				sound =,
+			}
+
+			anim Lock
+			{
+				sound =,
+			}
+
+			anim Unlock
+			{
+				sound =,
+			}
+
+			anim IsLocked
+			{
+				sound =,
+			}
+
+			lua
+			{
+				create = CommonTemplates.Create.setInventoryNil,
+				init = CommonTemplates.Init.setInventoryNil,
+				use = ATATuning.Use.Door,
+			}
+		}
+
+		template = Radio,
+
+		part Radio*
+		{
+			itemType = Radio.WalkieTalkie3,
+		}
+	}
+}

@@ -1,0 +1,2480 @@
+module MoreSmokes
+{
+	/******************** EMPTY SMOKING VESSELS ********************/
+
+	item SmokePipe1
+	{
+	    DisplayCategory 		= MoreSmokes,
+		Weight					= 0.2,
+        Type					= Normal,
+		DisplayName				= Smoking Pipe [Empty],
+		Icon					= SmokePipe1,
+		Tags					= Pipe,
+		StaticModel				= SmokePipe1TobaccoLit,
+        WorldStaticModel 		= SmokePipe1,
+	}
+
+	item SmokePipe2
+	{
+	    DisplayCategory 		= MoreSmokes,
+		Weight					= 0.2,
+        Type					= Normal,
+		DisplayName				= Smoking Pipe [Empty],
+		Icon					= SmokePipe2,
+		Tags					= Pipe,
+		StaticModel				= SmokePipe2TobaccoLit,
+        WorldStaticModel 		= SmokePipe2,
+	}
+
+	item SmokePipe3
+	{
+	    DisplayCategory 		= MoreSmokes,
+		Weight					= 0.2,
+        Type					= Normal,
+		DisplayName				= Smoking Pipe [Empty],
+		Icon					= SmokePipe3,
+		Tags					= Pipe,
+		StaticModel				= SmokePipe3TobaccoLit,
+        WorldStaticModel 		= SmokePipe3,
+	}
+
+	item SmokePipeGlassBlue
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.2,
+        Type					= Normal,
+		DisplayName				= Glass Smoking Pipe [Empty],
+		Icon					= SmokePipeGlassBlue,
+		Tags					= Pipe,
+		StaticModel				= SmokePipeGlassBlueTobaccoLit,
+        WorldStaticModel 		= SmokePipeGlassBlue,
+	}
+
+	item SmokePipeGlassGreen
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.2,
+        Type					= Normal,
+		DisplayName				= Glass Smoking Pipe [Empty],
+		Icon					= SmokePipeGlassGreen,
+		Tags					= Pipe,
+		StaticModel				= SmokePipeGlassGreenTobaccoLit,
+        WorldStaticModel 		= SmokePipeGlassGreen,
+	}
+
+	item SmokePipeGlassYellow
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.2,
+        Type					= Normal,
+		DisplayName				= Glass Smoking Pipe [Empty],
+		Icon					= SmokePipeGlassYellow,
+		Tags					= Pipe,
+		StaticModel				= SmokePipeGlassYellowTobaccoLit,
+        WorldStaticModel 		= SmokePipeGlassYellow,
+	}
+
+	item SmokePipePink
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.2,
+        Type					= Normal,
+		DisplayName				= Glass Smoking Pipe [Empty],
+		Icon					= SmokePipePink,
+		Tags					= Pipe,
+		StaticModel				= SmokePipePinkTobaccoLit,
+        WorldStaticModel 		= SmokePipePink,
+	}
+
+	item Hookah1
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.8,
+        Type					= Normal,
+		DisplayName				= Hookah [Empty],
+		Icon					= Hookah1,
+		Tags					= Hookah,
+        WorldStaticModel 		= Hookah1,
+	}
+
+	item Hookah2
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.8,
+        Type					= Normal,
+		DisplayName				= Hookah [Empty],
+		Icon					= Hookah2,
+		Tags					= Hookah,
+        WorldStaticModel 		= Hookah2,
+	}
+
+	item Hookah3
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.8,
+        Type					= Normal,
+		DisplayName				= Hookah [Empty],
+		Icon					= Hookah3,
+		Tags					= Hookah,
+        WorldStaticModel 		= Hookah3,
+	}
+
+	item Bong1v1
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong1v1,
+		Tags					= Bong,
+        StaticModel 			= Bong1v1CannabisLit,
+        WorldStaticModel 		= Bong1v1,
+	}
+
+	item Bong1v2
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong1v2,
+		Tags					= Bong,
+        StaticModel 			= Bong1v2CannabisLit,
+        WorldStaticModel 		= Bong1v2,
+	}
+
+	item Bong1v3
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong1v3,
+		Tags					= Bong,
+        StaticModel 			= Bong1v3CannabisLit,
+        WorldStaticModel 		= Bong1v3,
+	}
+
+	item Bong1v4
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong1v4,
+		Tags					= Bong,		
+        StaticModel 			= Bong1v4CannabisLit,
+        WorldStaticModel 		= Bong1v4,
+	}
+
+	item Bong2v1
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong2v1,
+		Tags					= Bong,
+        StaticModel 			= Bong2v1CannabisLit,
+        WorldStaticModel 		= Bong2v1,
+	}
+
+	item Bong2v2
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong2v2,
+		Tags					= Bong,
+        StaticModel 			= Bong2v2CannabisLit,
+        WorldStaticModel 		= Bong2v2,
+	}
+
+	item Bong2v3
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong2v3,
+		Tags					= Bong,
+        StaticModel 			= Bong2v3CannabisLit,
+        WorldStaticModel 		= Bong2v3,
+	}
+
+	item Bong2v4
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong2v4,
+		Tags					= Bong,
+        StaticModel 			= Bong2v4CannabisLit,
+        WorldStaticModel 		= Bong2v4,
+	}
+
+	item Bong3v1
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong3v1,
+		Tags					= Bong,
+        StaticModel 			= Bong3v1CannabisLit,
+        WorldStaticModel 		= Bong3v1,
+	}
+
+	item Bong3v2
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong3v2,
+		Tags					= Bong,
+        StaticModel 			= Bong3v2CannabisLit,
+        WorldStaticModel 		= Bong3v2,
+	}
+
+	item Bong3v3
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong3v3,
+		Tags					= Bong,
+        StaticModel 			= Bong3v3CannabisLit,
+        WorldStaticModel 		= Bong3v3,
+	}
+
+	item Bong3v4
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong3v4,
+		Tags					= Bong,
+        StaticModel 			= Bong3v4CannabisLit,
+        WorldStaticModel 		= Bong3v4,
+	}
+
+	item Bong4v1
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong4v1,
+		Tags					= Bong,
+        StaticModel 			= Bong4v1CannabisLit,
+        WorldStaticModel 		= Bong4v1,
+	}
+
+	item Bong4v2
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong4v2,
+		Tags					= Bong,
+        StaticModel 			= Bong4v2CannabisLit,
+        WorldStaticModel 		= Bong4v2,
+	}
+
+	item Bong4v3
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong4v3,
+		Tags					= Bong,
+        StaticModel 			= Bong4v3CannabisLit,
+        WorldStaticModel 		= Bong4v3,
+	}
+
+	item Bong4v4
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong4v4,
+		Tags					= Bong,
+        StaticModel 			= Bong4v4CannabisLit,
+        WorldStaticModel 		= Bong4v4,
+	}
+
+	item Bong5
+	{
+		DisplayCategory 		= MoreSmokes,
+		Weight					= 0.6,
+        Type					= Normal,
+		DisplayName				= Bong [Empty],
+		Icon					= Bong5,
+		Tags					= Bong,
+        StaticModel 			= Bong5CannabisLit,
+        WorldStaticModel 		= Bong5,
+	}
+
+	/******************** TOBACCO FILLED PIPES ********************/
+
+	item SmokePipe1Tobacco
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.21,
+		Type 						= Food,
+		DisplayName 				= Smoking Pipe [Tobacco],
+		Icon 						= SmokePipe1,
+		HungerChange 				= 0,
+		BoredomChange				= -5,
+		UnhappyChange				= -5,
+		StressChange 				= -10,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe1,
+		CustomEatSound 				= ,
+		OnEat 						= OnEat_Cigarettes,
+		EatType 					= Cigarettes,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe1TobaccoLit,
+		WorldStaticModel 			= SmokePipe1Tobacco,
+		Tooltip						= Tooltip_item_SmokePipeTobacco,
+	}
+
+	item SmokePipe2Tobacco
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.21,
+		Type 						= Food,
+		DisplayName 				= Smoking Pipe [Tobacco],
+		Icon 						= SmokePipe2,
+		HungerChange 				= 0,
+		BoredomChange				= -5,
+		UnhappyChange				= -5,
+		StressChange 				= -10,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe2,
+		CustomEatSound 				= ,
+		OnEat 						= OnEat_Cigarettes,
+		EatType 					= Cigarettes,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe2TobaccoLit,
+		WorldStaticModel 			= SmokePipe2Tobacco,
+		Tooltip						= Tooltip_item_SmokePipeTobacco,
+	}
+
+	item SmokePipe3Tobacco
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.21,
+		Type 						= Food,
+		DisplayName 				= Smoking Pipe [Tobacco],
+		Icon 						= SmokePipe3,
+		HungerChange 				= 0,
+		BoredomChange				= -5,
+		UnhappyChange				= -5,
+		StressChange 				= -10,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe3,
+		CustomEatSound 				= ,
+		OnEat 						= OnEat_Cigarettes,
+		EatType 					= Cigarettes,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe3TobaccoLit,
+		WorldStaticModel 			= SmokePipe3Tobacco,
+		Tooltip						= Tooltip_item_SmokePipeTobacco,
+	}
+
+	item SmokePipeGlassBlueTobacco
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.21,
+		Type 						= Food,
+		DisplayName 				= Glass Smoking Pipe [Tobacco],
+		Icon 						= SmokePipeGlassBlue,
+		HungerChange 				= 0,
+		BoredomChange				= -5,
+		UnhappyChange				= -5,
+		StressChange 				= -10,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassBlue,
+		CustomEatSound 				= ,
+		OnEat 						= OnEat_Cigarettes,
+		EatType 					= Cigarettes,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassBlueTobaccoLit,
+		WorldStaticModel 			= SmokePipeGlassBlueTobacco,
+		Tooltip						= Tooltip_item_SmokePipeTobacco,
+	}
+
+	item SmokePipeGlassGreenTobacco
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.21,
+		Type 						= Food,
+		DisplayName 				= Glass Smoking Pipe [Tobacco],
+		Icon 						= SmokePipeGlassGreen,
+		HungerChange 				= 0,
+		BoredomChange				= -5,
+		UnhappyChange				= -5,
+		StressChange 				= -10,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassGreen,
+		CustomEatSound 				= ,
+		OnEat 						= OnEat_Cigarettes,
+		EatType 					= Cigarettes,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassGreenTobaccoLit,
+		WorldStaticModel 			= SmokePipeGlassGreenTobacco,
+		Tooltip						= Tooltip_item_SmokePipeTobacco,
+	}
+
+	item SmokePipeGlassYellowTobacco
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.21,
+		Type 						= Food,
+		DisplayName 				= Glass Smoking Pipe [Tobacco],
+		Icon 						= SmokePipeGlassYellow,
+		HungerChange 				= 0,
+		BoredomChange				= -5,
+		UnhappyChange				= -5,
+		StressChange 				= -10,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassYellow,
+		CustomEatSound 				= ,
+		OnEat 						= OnEat_Cigarettes,
+		EatType 					= Cigarettes,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassYellowTobaccoLit,
+		WorldStaticModel 			= SmokePipeGlassYellowTobacco,
+		Tooltip						= Tooltip_item_SmokePipeTobacco,
+	}
+
+	item SmokePipePinkTobacco
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight 						= 0.21,
+		Type 						= Food,
+		DisplayName 				= Pink Smoking Pipe [Tobacco],
+		Icon 						= SmokePipePink,
+		HungerChange 				= 0,
+		BoredomChange				= -5,
+		UnhappyChange				= -5,
+		StressChange 				= -10,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipePink,
+		CustomEatSound 				= ,
+		OnEat 						= OnEat_Cigarettes,
+		EatType 					= Cigarettes,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipePinkTobaccoLit,
+		WorldStaticModel 			= SmokePipePinkTobacco,
+		Tooltip						= Tooltip_item_SmokePipeTobacco,
+	}
+
+	/******************** SHISHA TOBACCO FILLED HOOKAH ********************/
+
+	item Hookah1ShishaWatermelon
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah [Watermelon Shisha],
+		Icon 						= Hookah1,
+		HungerChange 				= 0,
+		BoredomChange				= -10,
+		UnhappyChange				= -5,
+		StressChange 				= -5,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah1,
+		OnEat 						= OnEat_Cigarettes,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah1Tobacco,
+		Tooltip						= Tooltip_item_HookahTobacco,
+	}
+
+	item Hookah1ShishaOrange
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah [Orange Shisha],
+		Icon 						= Hookah1,
+		HungerChange 				= 0,
+		BoredomChange				= -10,
+		UnhappyChange				= -5,
+		StressChange 				= -5,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah1,
+		OnEat 						= OnEat_Cigarettes,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah1Tobacco,
+		Tooltip						= Tooltip_item_HookahTobacco,
+	}	
+
+	item Hookah1ShishaLemon
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah [Lemon Shisha],
+		Icon 						= Hookah1,
+		HungerChange 				= 0,
+		BoredomChange				= -10,
+		UnhappyChange				= -5,
+		StressChange 				= -5,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah1,
+		OnEat 						= OnEat_Cigarettes,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah1Tobacco,
+		Tooltip						= Tooltip_item_HookahTobacco,
+	}
+
+	item Hookah2ShishaWatermelon
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah [Watermelon Shisha],
+		Icon 						= Hookah2,
+		HungerChange 				= 0,
+		BoredomChange				= -10,
+		UnhappyChange				= -5,
+		StressChange 				= -5,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah2,
+		OnEat 						= OnEat_Cigarettes,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah2Tobacco,
+		Tooltip						= Tooltip_item_HookahTobacco,
+	}
+
+	item Hookah2ShishaOrange
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah [Orange Shisha],
+		Icon 						= Hookah2,
+		HungerChange 				= 0,
+		BoredomChange				= -10,
+		UnhappyChange				= -5,
+		StressChange 				= -5,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah2,
+		OnEat 						= OnEat_Cigarettes,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah2Tobacco,
+		Tooltip						= Tooltip_item_HookahTobacco,
+	}
+
+	item Hookah2ShishaLemon
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah [Lemon Shisha],
+		Icon 						= Hookah2,
+		HungerChange 				= 0,
+		BoredomChange				= -10,
+		UnhappyChange				= -5,
+		StressChange 				= -5,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah2,
+		OnEat 						= OnEat_Cigarettes,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah2Tobacco,
+		Tooltip						= Tooltip_item_HookahTobacco,
+	}
+
+	item Hookah3ShishaWatermelon
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah [Watermelon Shisha],
+		Icon 						= Hookah3,
+		HungerChange 				= 0,
+		BoredomChange				= -10,
+		UnhappyChange				= -5,
+		StressChange 				= -5,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah3,
+		OnEat 						= OnEat_Cigarettes,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah3Tobacco,
+		Tooltip						= Tooltip_item_HookahTobacco,
+	}
+
+	item Hookah3ShishaOrange
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah [Orange Shisha],
+		Icon 						= Hookah3,
+		HungerChange 				= 0,
+		BoredomChange				= -10,
+		UnhappyChange				= -5,
+		StressChange 				= -5,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah3,
+		OnEat 						= OnEat_Cigarettes,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah3Tobacco,
+		Tooltip						= Tooltip_item_HookahTobacco,
+	}
+
+	item Hookah3ShishaLemon
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah [Lemon Shisha],
+		Icon 						= Hookah3,
+		HungerChange 				= 0,
+		BoredomChange				= -10,
+		UnhappyChange				= -5,
+		StressChange 				= -5,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah3,
+		OnEat 						= OnEat_Cigarettes,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah3Tobacco,
+		Tooltip						= Tooltip_item_HookahTobacco,
+	}
+
+	/******************** CANNABIS FILLED PIPES ********************/
+
+	item SmokePipe1NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Northern Lights"],
+		Icon						= SmokePipe1,
+		HungerChange				= 0,
+		StressChange				= -11,
+		UnhappyChange				= -11,
+		BoredomChange				= -13,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe1,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe1CannabisLit,
+		WorldStaticModel 			= SmokePipe1Cannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipe2NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Northern Lights"],
+		Icon						= SmokePipe2,
+		HungerChange				= 0,
+		StressChange				= -11,
+		UnhappyChange				= -11,
+		BoredomChange				= -13,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe2,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe2CannabisLit,
+		WorldStaticModel 			= SmokePipe2Cannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipe3NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Northern Lights"],
+		Icon						= SmokePipe3,
+		HungerChange				= 0,
+		StressChange				= -11,
+		UnhappyChange				= -11,
+		BoredomChange				= -13,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe3,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe3CannabisLit,
+		WorldStaticModel 			= SmokePipe3Cannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipeGlassBlueNorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Northern Lights"],
+		Icon						= SmokePipeGlassBlue,
+		HungerChange				= 0,
+		StressChange				= -11,
+		UnhappyChange				= -11,
+		BoredomChange				= -13,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassBlue,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassBlueCannabisLit,
+		WorldStaticModel 			= SmokePipeGlassBlueCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipeGlassGreenNorthernLights
+		{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Northern Lights"],
+		Icon						= SmokePipeGlassGreen,
+		HungerChange				= 0,
+		StressChange				= -11,
+		UnhappyChange				= -11,
+		BoredomChange				= -13,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassGreen,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassGreenCannabisLit,
+		WorldStaticModel 			= SmokePipeGlassGreenCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipeGlassYellowNorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Northern Lights"],
+		Icon						= SmokePipeGlassYellow,
+		HungerChange				= 0,
+		StressChange				= -11,
+		UnhappyChange				= -11,
+		BoredomChange				= -13,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassYellow,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassYellowCannabisLit,
+		WorldStaticModel 			= SmokePipeGlassYellowCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipePinkNorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Northern Lights"],
+		Icon						= SmokePipePink,
+		HungerChange				= 0,
+		StressChange				= -11,
+		UnhappyChange				= -11,
+		BoredomChange				= -13,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipePink,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipePinkCannabisLit,
+		WorldStaticModel 			= SmokePipePinkCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipe1PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Purple Haze"],
+		Icon						= SmokePipe1,
+		HungerChange				= 0,
+		StressChange				= -9,
+		UnhappyChange				= -13,
+		BoredomChange				= -11,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe1,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe1CannabisLit,
+		WorldStaticModel 			= SmokePipe1Cannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipe2PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Purple Haze"],
+		Icon						= SmokePipe2,
+		HungerChange				= 0,
+		StressChange				= -9,
+		UnhappyChange				= -13,
+		BoredomChange				= -11,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe2,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe2CannabisLit,
+		WorldStaticModel 			= SmokePipe2Cannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipe3PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Purple Haze"],
+		Icon						= SmokePipe3,
+		HungerChange				= 0,
+		StressChange				= -9,
+		UnhappyChange				= -13,
+		BoredomChange				= -11,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe3,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe3CannabisLit,
+		WorldStaticModel 			= SmokePipe3Cannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipeGlassBluePurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Purple Haze"],
+		Icon						= SmokePipeGlassBlue,
+		HungerChange				= 0,
+		StressChange				= -9,
+		UnhappyChange				= -13,
+		BoredomChange				= -11,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassBlue,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassBlueCannabisLit,
+		WorldStaticModel 			= SmokePipeGlassBlueCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipeGlassGreenPurpleHaze
+		{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Purple Haze"],
+		Icon						= SmokePipeGlassGreen,
+		HungerChange				= 0,
+		StressChange				= -9,
+		UnhappyChange				= -13,
+		BoredomChange				= -11,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassGreen,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassGreenCannabisLit,
+		WorldStaticModel 			= SmokePipeGlassGreenCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipeGlassYellowPurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Purple Haze"],
+		Icon						= SmokePipeGlassYellow,
+		HungerChange				= 0,
+		StressChange				= -9,
+		UnhappyChange				= -13,
+		BoredomChange				= -11,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassYellow,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassYellowCannabisLit,
+		WorldStaticModel 			= SmokePipeGlassYellowCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipePinkPurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Purple Haze"],
+		Icon						= SmokePipePink,
+		HungerChange				= 0,
+		StressChange				= -9,
+		UnhappyChange				= -13,
+		BoredomChange				= -11,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipePink,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipePinkCannabisLit,
+		WorldStaticModel 			= SmokePipePinkCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipe1SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Sour Diesel"],
+		Icon						= SmokePipe1,
+		HungerChange				= 0,
+		StressChange				= -13,
+		UnhappyChange				= -9,
+		BoredomChange				= -9,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe1,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe1CannabisLit,
+		WorldStaticModel 			= SmokePipe1Cannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipe2SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Sour Diesel"],
+		Icon						= SmokePipe2,
+		HungerChange				= 0,
+		StressChange				= -13,
+		UnhappyChange				= -9,
+		BoredomChange				= -9,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe2,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe2CannabisLit,
+		WorldStaticModel 			= SmokePipe2Cannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipe3SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Sour Diesel"],
+		Icon						= SmokePipe3,
+		HungerChange				= 0,
+		StressChange				= -13,
+		UnhappyChange				= -9,
+		BoredomChange				= -9,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipe3,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipe3CannabisLit,
+		WorldStaticModel 			= SmokePipe3Cannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipeGlassBlueSourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Sour Diesel"],
+		Icon						= SmokePipeGlassBlue,
+		HungerChange				= 0,
+		StressChange				= -13,
+		UnhappyChange				= -9,
+		BoredomChange				= -9,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassBlue,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassBlueCannabisLit,
+		WorldStaticModel 			= SmokePipeGlassBlueCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipeGlassGreenSourDiesel
+		{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Sour Diesel"],
+		Icon						= SmokePipeGlassGreen,
+		HungerChange				= 0,
+		StressChange				= -13,
+		UnhappyChange				= -9,
+		BoredomChange				= -9,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassGreen,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassGreenCannabisLit,
+		WorldStaticModel 			= SmokePipeGlassGreenCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipeGlassYellowSourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Sour Diesel"],
+		Icon						= SmokePipeGlassYellow,
+		HungerChange				= 0,
+		StressChange				= -13,
+		UnhappyChange				= -9,
+		BoredomChange				= -9,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipeGlassYellow,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipeGlassYellowCannabisLit,
+		WorldStaticModel 			= SmokePipeGlassYellowCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	item SmokePipePinkSourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.21,
+        Type						= Food,
+		DisplayName					= Smoking Pipe ["Sour Diesel"],
+		Icon						= SmokePipePink,
+		HungerChange				= 0,
+		StressChange				= -13,
+		UnhappyChange				= -9,
+		BoredomChange				= -9,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= SmokePipePink,
+		OnEat 						= MoreSmokes.onEatPipe,
+		EatType 					= Cigarettes,
+		CustomEatSound 				= ,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= SmokePipePinkCannabisLit,
+		WorldStaticModel 			= SmokePipePinkCannabis,
+		Tooltip						= Tooltip_item_SmokePipeCannabis,
+	}
+
+	/******************** CANNABIS FILLED HOOKAH ********************/
+
+	item Hookah1NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah ["Northern Lights"],
+		Icon 						= Hookah1,
+		HungerChange				= 0,
+		StressChange				= -8,
+		UnhappyChange				= -8,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah1,
+		OnEat 						= MoreSmokes.onEatHookah,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah1Cannabis,
+		Tooltip						= Tooltip_item_HookahCannabis,
+	}
+
+	item Hookah1PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah ["Purple Haze"],
+		Icon 						= Hookah1,
+		HungerChange				= 0,
+		StressChange				= -6,
+		UnhappyChange				= -10,
+		BoredomChange				= -8,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah1,
+		OnEat 						= MoreSmokes.onEatHookah,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah1Cannabis,
+		Tooltip						= Tooltip_item_HookahCannabis,
+	}	
+
+	item Hookah1SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah ["Sour Diesel"],
+		Icon 						= Hookah1,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -6,
+		BoredomChange				= -6,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah1,
+		OnEat 						= MoreSmokes.onEatHookah,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah1Cannabis,
+		Tooltip						= Tooltip_item_HookahCannabis,
+	}
+
+	item Hookah2NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah ["Northern Lights"],
+		Icon 						= Hookah2,
+		HungerChange				= 0,
+		StressChange				= -8,
+		UnhappyChange				= -8,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah2,
+		OnEat 						= MoreSmokes.onEatHookah,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah2Cannabis,
+		Tooltip						= Tooltip_item_HookahCannabis,
+	}
+
+	item Hookah2PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah ["Purple Haze"],
+		Icon 						= Hookah2,
+		HungerChange				= 0,
+		StressChange				= -6,
+		UnhappyChange				= -10,
+		BoredomChange				= -8,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah2,
+		OnEat 						= MoreSmokes.onEatHookah,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah2Cannabis,
+		Tooltip						= Tooltip_item_HookahCannabis,
+	}
+
+	item Hookah2SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah ["Sour Diesel"],
+		Icon 						= Hookah2,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -6,
+		BoredomChange				= -6,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah2,
+		OnEat 						= MoreSmokes.onEatHookah,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah2Cannabis,
+		Tooltip						= Tooltip_item_HookahCannabis,
+	}
+
+	item Hookah3NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah ["Northern Lights"],
+		Icon 						= Hookah3,
+		HungerChange				= 0,
+		StressChange				= -8,
+		UnhappyChange				= -8,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah3,
+		OnEat 						= MoreSmokes.onEatHookah,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah3Cannabis,
+		Tooltip						= Tooltip_item_HookahCannabis,
+	}
+
+	item Hookah3PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah ["Purple Haze"],
+		Icon 						= Hookah3,
+		HungerChange				= 0,
+		StressChange				= -6,
+		UnhappyChange				= -10,
+		BoredomChange				= -8,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah3,
+		OnEat 						= MoreSmokes.onEatHookah,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah3Cannabis,
+		Tooltip						= Tooltip_item_HookahCannabis,
+	}
+
+	item Hookah3SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.81,
+		Type 						= Food,
+		DisplayName 				= Hookah ["Sour Diesel"],
+		Icon 						= Hookah3,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -6,
+		BoredomChange				= -6,	
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Hookah3,
+		OnEat 						= MoreSmokes.onEatHookah,
+		CustomEatSound 				= MoreSmoking3,
+		CustomContextMenu 			= Smoke,
+		WorldStaticModel 			= Hookah3Cannabis,
+		Tooltip						= Tooltip_item_HookahCannabis,
+	}
+
+	/******************** CANNABIS FILLED BONGS ********************/
+
+	item Bong1v1NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong1v1,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v1CannabisLit,
+		WorldStaticModel 			= Bong1v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+
+	item Bong1v2NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong1v2,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v2CannabisLit,
+		WorldStaticModel 			= Bong1v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v3NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong1v3,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v3CannabisLit,
+		WorldStaticModel 			= Bong1v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v4NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong1v4,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v4CannabisLit,
+		WorldStaticModel 			= Bong1v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v1NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong2v1,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v1CannabisLit,
+		WorldStaticModel 			= Bong2v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v2NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong2v2,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v2CannabisLit,
+		WorldStaticModel 			= Bong2v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v3NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong2v3,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v3CannabisLit,
+		WorldStaticModel 			= Bong2v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v4NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong2v4,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v4CannabisLit,
+		WorldStaticModel 			= Bong2v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v1NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong3v1,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v1CannabisLit,
+		WorldStaticModel 			= Bong3v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v2NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong3v2,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v2CannabisLit,
+		WorldStaticModel 			= Bong3v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v3NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong3v3,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v3CannabisLit,
+		WorldStaticModel 			= Bong3v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v4NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong3v4,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v4CannabisLit,
+		WorldStaticModel 			= Bong3v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v1NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong4v1,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v1CannabisLit,
+		WorldStaticModel 			= Bong4v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v2NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong4v2,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v2CannabisLit,
+		WorldStaticModel 			= Bong4v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v3NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong4v3,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v3CannabisLit,
+		WorldStaticModel 			= Bong4v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v4NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong4v4,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v4CannabisLit,
+		WorldStaticModel 			= Bong4v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong5NorthernLights
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Northern Lights"],
+		Icon 						= Bong5,
+		HungerChange				= 0,
+		StressChange				= -12,
+		UnhappyChange				= -12,
+		BoredomChange				= -14,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong5,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong5CannabisLit,
+		WorldStaticModel 			= Bong5Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v1PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong1v1,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v1CannabisLit,
+		WorldStaticModel 			= Bong1v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v2PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong1v2,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v2CannabisLit,
+		WorldStaticModel 			= Bong1v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v3PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong1v3,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v3CannabisLit,
+		WorldStaticModel 			= Bong1v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v4PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong1v4,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v4CannabisLit,
+		WorldStaticModel 			= Bong1v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v1PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong2v1,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v1CannabisLit,
+		WorldStaticModel 			= Bong2v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v2PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong2v2,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v2CannabisLit,
+		WorldStaticModel 			= Bong2v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v3PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong2v3,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v3CannabisLit,
+		WorldStaticModel 			= Bong2v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v4PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong2v4,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v4CannabisLit,
+		WorldStaticModel 			= Bong2v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v1PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong3v1,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v1CannabisLit,
+		WorldStaticModel 			= Bong3v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v2PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong3v2,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v2CannabisLit,
+		WorldStaticModel 			= Bong3v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v3PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong3v3,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v3CannabisLit,
+		WorldStaticModel 			= Bong3v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v4PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong3v4,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v4CannabisLit,
+		WorldStaticModel 			= Bong3v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v1PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong4v1,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v1CannabisLit,
+		WorldStaticModel 			= Bong4v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v2PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong4v2,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v2CannabisLit,
+		WorldStaticModel 			= Bong4v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v3PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong4v3,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v3CannabisLit,
+		WorldStaticModel 			= Bong4v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v4PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong4v4,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v4CannabisLit,
+		WorldStaticModel 			= Bong4v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong5PurpleHaze
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Purple Haze"],
+		Icon 						= Bong5,
+		HungerChange				= 0,
+		StressChange				= -10,
+		UnhappyChange				= -14,
+		BoredomChange				= -12,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong5,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong5CannabisLit,
+		WorldStaticModel 			= Bong5Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v1SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong1v1,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v1CannabisLit,
+		WorldStaticModel 			= Bong1v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v2SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong1v2,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v2CannabisLit,
+		WorldStaticModel 			= Bong1v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v3SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong1v3,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v3CannabisLit,
+		WorldStaticModel 			= Bong1v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong1v4SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong1v4,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong1v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking4,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong1v4CannabisLit,
+		WorldStaticModel 			= Bong1v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v1SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong2v1,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v1CannabisLit,
+		WorldStaticModel 			= Bong2v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v2SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong2v2,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v2CannabisLit,
+		WorldStaticModel 			= Bong2v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v3SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong2v3,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v3CannabisLit,
+		WorldStaticModel 			= Bong2v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong2v4SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong2v4,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong2v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong2v4CannabisLit,
+		WorldStaticModel 			= Bong2v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v1SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong3v1,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v1CannabisLit,
+		WorldStaticModel 			= Bong3v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v2SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong3v2,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v2CannabisLit,
+		WorldStaticModel 			= Bong3v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v3SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong3v3,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v3CannabisLit,
+		WorldStaticModel 			= Bong3v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong3v4SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong3v4,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong3v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong3v4CannabisLit,
+		WorldStaticModel 			= Bong3v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v1SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong4v1,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v1,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v1CannabisLit,
+		WorldStaticModel 			= Bong4v1Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v2SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong4v2,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v2,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v2CannabisLit,
+		WorldStaticModel 			= Bong4v2Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v3SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong4v3,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v3,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v3CannabisLit,
+		WorldStaticModel 			= Bong4v3Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong4v4SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong4v4,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong4v4,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking5,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong4v4CannabisLit,
+		WorldStaticModel 			= Bong4v4Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+
+	item Bong5SourDiesel
+	{
+		DisplayCategory 			= MoreSmokes,
+		Weight						= 0.61,
+		Type						= Food,
+		DisplayName					= Bong ["Sour Diesel"],
+		Icon 						= Bong5,
+		HungerChange				= 0,
+		StressChange				= -14,
+		UnhappyChange				= -10,
+		BoredomChange				= -10,
+		RequireInHandOrInventory 	= Matches/Lighter,
+		CantBeFrozen 				= TRUE,
+		ReplaceOnUse 				= Bong5,
+		OnEat 						= MoreSmokes.onEatBong,
+		CustomEatSound 				= MoreSmoking6,
+		CustomContextMenu 			= Smoke,
+		StaticModel 				= Bong5CannabisLit,
+		WorldStaticModel 			= Bong5Cannabis,
+		Tooltip						= Tooltip_item_BongCannabis,
+	}
+}

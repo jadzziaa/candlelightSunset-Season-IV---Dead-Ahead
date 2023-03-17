@@ -1,0 +1,135 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+
+    item WPJugZ
+    {
+        DisplayCategory  = Literature,
+        Weight	         = 0.2,
+        Type	         = Literature,
+        DisplayName	     = JugZ,
+        Icon	         = WPJugZ,
+        StressChange	 = -50,
+        BoredomChange	 = -40,
+		UnhappyChange    = -15,
+        StaticModel      = Magazine,
+        WorldStaticModel = WPMagazineJugZ_Ground,
+    }
+
+    item WPHunkZ
+	{
+		DisplayCategory  = Literature,
+		Weight	         = 0.2,
+		Type	         = Literature,
+		DisplayName	     = HunkZ,
+		Icon	         = WPHunkZ,
+		StressChange	 = -50,
+		BoredomChange	 = -40,
+		UnhappyChange    = -20,
+		StaticModel      = Magazine,
+		WorldStaticModel = WPMagazineHunkZ_Ground,
+	}
+
+    item WPTailZ
+	{
+		DisplayCategory  = Literature,
+		Weight	         = 0.2,
+		Type	         = Literature,
+		DisplayName	     = TailZ,
+		Icon	         = WPTailZ,
+		StressChange	 = -40,
+		BoredomChange	 = -50,
+		UnhappyChange    = -25,
+		StaticModel      = Magazine,
+		WorldStaticModel = WPMagazineTailZ_Ground,
+	}
+
+	item WPLotion
+	{
+		DisplayCategory  = Junk,
+		Type             = Drainable,
+		DisplayName      = Lotion,
+		Icon             = WPLotion,
+		Weight           = 0.2,
+        UseDelta         = 0.1,
+        UseWhileEquipped = FALSE,
+        cantBeConsolided = FALSE,
+		WorldStaticModel = Toothpaste,
+	}
+
+	item WPLotionResult
+	{
+		DisplayCategory  = Junk,
+		Type             = Normal,
+		Weight           = 0,
+	}
+
+	item WPOldMagazine
+	{
+		DisplayCategory  = Junk,
+		Type             = Literature,
+		DisplayName      = Old Magazine,
+		Icon             = Magazine,
+		BoredomChange	 = 15,
+		Weight           = 0.2,
+		StaticModel      = Magazine,
+		WorldStaticModel = MagazineOpenGround,
+	}
+
+    item WPOrigamiMag
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	The Art of Origami,
+        Icon	=	WPOrigamiMag,
+        TeachedRecipes  =   Fold Origami Duck;Fold Origami Frog;Fold Origami Mouse,
+        ReplaceOnUse    =   WPOrigamiMag,
+        StaticModel = Magazine,
+        WorldStaticModel = WPMagazineOrigami_Ground,
+    }
+
+	item WPOrigamiDuck
+	{
+		DisplayName      = Origami Duck,
+		Type             = Normal,
+		DisplayCategory  = Junk,
+        Weight           = 0.05,
+        Icon             = WPOrigamiDuck,
+        WorldStaticModel = WPOrigamiDuck_Ground,
+	}
+
+	item WPOrigamiFrog
+	{
+		DisplayName      = Origami Frog,
+		Type             = Normal,
+		DisplayCategory  = Junk,
+        Weight           = 0.05,
+        Icon             = WPOrigamiFrog,
+        WorldStaticModel = WPOrigamiFrog_Ground,
+	}
+
+	item WPOrigamiMouse
+	{
+		DisplayName      = Origami Mouse,
+		Type             = Normal,
+		DisplayCategory  = Junk,
+        Weight           = 0.05,
+        Icon             = WPOrigamiMouse,
+        WorldStaticModel = WPOrigamiMouse_Ground,
+	}
+
+	item WPCrumpledPaper
+	{
+		DisplayName      = Crumpled Paper,
+		Type             = Literature,
+		DisplayCategory  = Junk,
+        Weight           = 0.05,
+        Icon             = WPCrumpledPaper,
+        WorldStaticModel = BunnyTail_Ground,
+	}
+
+}

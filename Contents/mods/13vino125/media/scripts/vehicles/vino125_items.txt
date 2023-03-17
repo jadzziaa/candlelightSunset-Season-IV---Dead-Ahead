@@ -1,0 +1,132 @@
+module Base
+{
+    /******************* Storage ************************/
+
+    item VN125storage1
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = Vino 125 Rear Top Bags,
+        Icon    =    VN125topbags,
+        MaxCapacity = 20,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        WorldStaticModel = VN125_storageWI,
+    }
+
+    item VN125sidestorage1
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = Vino 125 Rear Side Bags,
+        Icon    =    VN125sidebags,
+        MaxCapacity = 30,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        WorldStaticModel = VN125_sidestorageWI,
+    }
+
+    item VN125storagePizza1
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =    1.0,
+        Type    =    Normal,
+        DisplayName = Vino 125 Pizza Box,
+        Icon    =    na,
+        MaxCapacity = 24,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+    }
+
+
+    /******************* Muffler ************************/
+    
+    item VN125muffler
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	5.0,
+        Type	=	Normal,
+        DisplayName	=	Vino 125 Muffler,
+        Icon	=	VN125muff,
+        EngineLoudness = 120,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.015,
+        ConditionLowerOffroad = 0.35,
+        MechanicsItem = TRUE,
+        WorldStaticModel = VN125_mufflerWI,
+    }
+
+    /******************* Tires ************************/
+
+    item VN125oldTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	13.0,
+        Type	=	Normal,
+        DisplayName	=	Vino 125 Valu-Tire,
+        Icon	=	VN125tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.08,
+        ConditionLowerOffroad = 0.5,
+        WheelFriction = 1.4,
+        MechanicsItem = TRUE,
+        WorldStaticModel = VN125_tireWI,
+    }
+
+    item VN125normalTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	14.0,
+        Type	=	Normal,
+        DisplayName	=	Vino 125 Regular Tire,
+        Icon	=	VN125tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.4,
+        WheelFriction = 1.5,
+        MechanicsItem = TRUE,
+        WorldStaticModel = VN125_tireWI,
+    }
+
+    item VN125modernTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Vino 125 Performance Tire,
+        Icon	=	VN125tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.35,
+        WheelFriction = 1.6,
+        MechanicsItem = TRUE,
+        WorldStaticModel = VN125_tireWI,
+    }
+
+    /******************* Seat ************************/
+    
+    item VN125seat
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	4.0,
+        Type	=	Normal,
+        DisplayName	=	Vino 125 Seat,
+        Icon	=	VN125seat,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = VN125_seatWI,
+    }
+
+}

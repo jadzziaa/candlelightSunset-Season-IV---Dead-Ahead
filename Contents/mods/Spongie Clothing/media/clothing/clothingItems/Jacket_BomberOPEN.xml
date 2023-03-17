@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>Skinned\Clothes\Spongie\M_BomberJacketOPEN</m_MaleModel>
+    <m_FemaleModel>Skinned\Clothes\Spongie\F_BomberJacketOPEN</m_FemaleModel>
+	<m_GUID>spongiec-OPEN-422e-b0c8-d25e92d9d862</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+    <m_UnderlayMasksFolder>media/textures/clothes/Spongie/Jacket/Masks/LongSleeves/OpenMasks</m_UnderlayMasksFolder>
+    <textureChoices>clothes/Spongie/Jacket/Jacket_Bomber1</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/Jacket_Bomber2</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/Jacket_Bomber3</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/Jacket_Bomber4</textureChoices>
+</clothingItem>

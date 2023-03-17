@@ -1,0 +1,78 @@
+module Base
+{
+	template vehicle PWRFrontBumpersPA
+		{
+		part PWRFrontBumper
+        	{
+
+        	model FrontBullbar2
+				{
+                		file = 49powerWagonfrontBullbar2,
+				}
+
+			model FrontBumper0
+				{
+                		file = 49powerWagonfrontBumper0,
+				}
+
+			model FrontBullbar1
+				{
+                		file = 49powerWagonfrontBullbar1,
+				}
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.49powerWagonBullbar2;Base.49powerWagonBumper0;Base.49powerWagonBullbar1,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = PWR.InstallComplete.FrontBumperPA,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = PWR.UninstallComplete.FrontBumperPA,
+            		}
+
+            		lua
+            		{
+					create = PWR.Create.FrontBumperPA,
+					init = PWR.Init.FrontBumperPA,
+					}
+		}
+	}
+
+		
+}

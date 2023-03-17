@@ -1,0 +1,32 @@
+Recipes_EN = {
+
+    Recipe_Add_Frame_SnakeAlice = "Add frame to Alice backpack",
+    Recipe_Remove_Frame_SnakeAlice  = "Remove frame from Alice backpack",
+    Recipe_Add_Pouch_SnakeAlice = "Add dump pouch to Alice backpack",
+    Recipe_Remove_Pouch_SnakeAlice = "Remove dump pouch from Alice backpack",
+
+    Recipe_Add_Weapon_Slot = "Add Weapon Slot",
+    Recipe_Add_Short_Weapon_Slot = "Add Short Weapon Slot",
+    Recipe_Add_Utility_Right_Slot = "Add Utility Right Slot",
+    Recipe_Add_Utility_Left_Slot = "Add Utility Left Slot",
+    Recipe_Add_Right_Slot = "Add Right Side Slot",
+    Recipe_Add_Left_Slot = "Add Left Side Slot",
+    Recipe_Add_Bedroll_Slot = "Add Bedroll Slot",
+    Recipe_Add_Flashlight_Slot = "Add Flashlight Slot",
+    Recipe_Add_Container_Slot = "Add Container Slot",
+    Recipe_Add_Small_Container_Left_Slot = "Add Small Container Left Slot",
+    Recipe_Add_Small_Container_Right_Slot = "Add Small Container Right Slot",
+
+    Recipe_Remove_Weapon_Slot = "Remove Weapon Slot",
+    Recipe_Remove_Short_Weapon_Slot = "Remove Short Weapon Slot",
+    Recipe_Remove_Utility_Right_Slot = "Remove Utility Right Slot",
+    Recipe_Remove_Utility_Left_Slot = "Remove Utility Left Slot",
+    Recipe_Remove_Right_Slot = "Remove Right Side Slot",
+    Recipe_Remove_Left_Slot = "Remove Left Side Slot",
+    Recipe_Remove_Bedroll_Slot = "Remove Bedroll Slot",
+    Recipe_Remove_Flashlight_Slot = "Remove Flashlight Slot",
+    Recipe_Remove_Container_Slot = "Remove Container Slot",
+    Recipe_Remove_Small_Container_Left_Slot = "Remove Small Container Left Slot",
+    Recipe_Remove_Small_Container_Right_Slot = "Remove Small Container Right Slot",
+
+}

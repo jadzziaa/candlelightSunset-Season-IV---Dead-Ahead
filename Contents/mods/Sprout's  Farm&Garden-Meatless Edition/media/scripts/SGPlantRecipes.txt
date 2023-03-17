@@ -1,0 +1,990 @@
+module Sprout
+{
+	imports
+	{
+		Base
+	}
+recipe Open Packet of Apple Seeds
+	{
+		AppleBagSeed,
+  
+        Result:AppleSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Apple Seeds in Packet
+	{
+        AppleSeed=20,
+
+        Result:AppleBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Avocado Seeds
+	{
+		AvocadoBagSeed,
+  
+        Result:AvocadoSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Avocado Seeds in Packet
+	{
+        AvocadoSeed=20,
+
+        Result:AvocadoBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Banana Seeds
+	{
+		BananaBagSeed,
+  
+        Result:BananaSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Banana Seeds in Packet
+	{
+        BananaSeed=20,
+
+        Result:BananaBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of BellPepper Seeds
+	{
+		BellPepperBagSeed,
+  
+        Result:BellPepperSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put BellPepper Seeds in Packet
+	{
+        BellPepperSeed=50,
+
+        Result:BellPepperBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of BerryBlack Seeds
+	{
+		BerryBlackBagSeed,
+  
+        Result:BerryBlackSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put BerryBlack Seeds in Packet
+	{
+        BerryBlackSeed=50,
+
+        Result:BerryBlackBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of BerryBlue Seeds
+	{
+		BerryBlueBagSeed,
+  
+        Result:BerryBlueSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put BerryBlue Seeds in Packet
+	{
+        BerryBlueSeed=50,
+
+        Result:BerryBlueBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Cherry Seeds
+	{
+		CherryBagSeed,
+  
+        Result:CherrySeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Cherry Seeds in Packet
+	{
+        CherrySeed=20,
+
+        Result:CherryBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Corn Seeds
+	{
+		CornBagSeed,
+  
+        Result:CornSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Corn Seeds in Packet
+	{
+        CornSeed=50,
+
+        Result:CornBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Eggplant Seeds
+	{
+		EggplantBagSeed,
+  
+        Result:EggplantSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Eggplant Seeds in Packet
+	{
+        EggplantSeed=50,
+
+        Result:EggplantBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Ginger Seeds
+	{
+		GingerBagSeed,
+  
+        Result:GingerSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Ginger Seeds in Packet
+	{
+        GingerSeed=50,
+
+        Result:GingerBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Ginseng Seeds
+	{
+		GinsengBagSeed,
+  
+        Result:GinsengSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Ginseng Seeds in Packet
+	{
+        GinsengSeed=50,
+
+        Result:GinsengBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Grapefruit Seeds
+	{
+		GrapefruitBagSeed,
+  
+        Result:GrapefruitSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Grapefruit Seeds in Packet
+	{
+        GrapefruitSeed=20,
+
+        Result:GrapefruitBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Grape Seeds
+	{
+		GrapeBagSeed,
+  
+        Result:GrapeSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Grape Seeds in Packet
+	{
+        GrapeSeed=20,
+
+        Result:GrapeBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Leek Seeds
+	{
+		LeekBagSeed,
+  
+        Result:LeekSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Leek Seeds in Packet
+	{
+        LeekSeed=50,
+
+        Result:LeekBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Lemongrass Seeds
+	{
+		LemongrassBagSeed,
+  
+        Result:LemongrassSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Lemongrass Seeds in Packet
+	{
+        LemongrassSeed=50,
+
+        Result:LemongrassBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Lemon Seeds
+	{
+		LemonBagSeed,
+  
+        Result:LemonSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Lemon Seeds in Packet
+	{
+        LemonSeed=20,
+
+        Result:LemonBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Lettuce Seeds
+	{
+		LettuceBagSeed,
+  
+        Result:LettuceSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Lettuce Seeds in Packet
+	{
+        LettuceSeed=50,
+
+        Result:LettuceBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Lime Seeds
+	{
+		LimeBagSeed,
+  
+        Result:LimeSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Lime Seeds in Packet
+	{
+        LimeSeed=20,
+
+        Result:LimeBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Mango Seeds
+	{
+		MangoBagSeed,
+  
+        Result:MangoSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Mango Seeds in Packet
+	{
+        MangoSeed=20,
+
+       Result:MangoBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Mushroom spores
+	{
+		MushroomBagSeed,
+  
+        Result:MushroomSpores=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Mushroom spores in Packet
+	{
+        MushroomSpores=50,
+
+        Result:MushroomBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Olive Seeds
+	{
+		OliveBagSeed,
+  
+        Result:OliveSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Olive Seeds in Packet
+	{
+        OliveSeed=50,
+
+        Result:OliveBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Onion Seeds
+	{
+		OnionBagSeed,
+  
+        Result:OnionSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Onion Seeds in Packet
+	{
+        OnionSeed=50,
+
+        Result:OnionBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Orange Seeds
+	{
+		OrangeBagSeed,
+  
+        Result:OrangeSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Orange Seeds in Packet
+	{
+        OrangeSeed=20,
+
+        Result:OrangeBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Peach Seeds
+	{
+		PeachBagSeed,
+  
+        Result:PeachSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Peach Seeds in Packet
+	{
+        PeachSeed=20,
+
+        Result:PeachBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Pineapple Seeds
+	{
+		PineappleBagSeed,
+  
+        Result:PineappleSeed=20,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Pineapple Seeds in Packet
+	{
+        PineappleSeed=20,
+
+        Result:PineappleBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Open Packet of Pumpkin Seeds
+	{
+		PumpkinBagSeed,
+  
+        Result:PumpkinSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Pumpkin Seeds in Packet
+	{
+        PumpkinSeed=50,
+
+        Result:PumpkinBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Soybean Seeds
+	{
+		SoyBeanBagSeed,
+  
+        Result:SoyBeanSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Soybean Seeds in Packet
+	{
+        SoyBeanSeed=50,
+
+        Result:SoyBeanBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of SugarCane Seeds
+	{
+		SugarCaneBagSeed,
+  
+        Result:SugarCaneSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put SugarCane Seeds in Packet
+	{
+        SugarCaneSeed=50,
+
+        Result:SugarCaneBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Watermelon Seeds
+	{
+		WatermelonBagSeed,
+  
+        Result:WatermelonSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Watermelon Seeds in Packet
+	{
+        WatermelonSeed=50,
+
+        Result:WatermelonBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Wheat Seeds
+	{
+		WheatBagSeed,
+  
+        Result:WheatSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Wheat Seeds in Packet
+	{
+        WheatSeed=50,
+
+        Result:WheatBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Zucchini Seeds
+	{
+		ZucchiniBagSeed,
+  
+        Result:ZucchiniSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Zucchini Seeds in Packet
+	{
+        ZucchiniSeed=50,
+
+        Result:ZucchiniBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+/******************More Seeds *************/
+
+recipe Open Packet of Rice Seeds
+	{
+		RiceBagSeed,
+  
+        Result:RiceSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Rice Seeds in Packet
+	{
+        RiceSeed=50,
+
+        Result:RiceBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Pepper Plant Seeds
+	{
+		PepperPlantBagSeed,
+  
+        Result:PepperPlantSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put PepperPlant Seeds in Packet
+	{
+        PepperPlantSeed=50,
+
+        Result:PepperPlantBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Cotton Seeds
+	{
+		CottonBagSeed,
+  
+        Result:CottonSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Cotton Seeds in Packet
+	{
+        CottonSeed=50,
+
+        Result:CottonBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+recipe Open Packet of Hops Seeds
+	{
+		HopsBagSeed,
+  
+        Result:HopsSeed=50,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Put Hops Seeds in Packet
+	{
+        HopsSeed=50,
+
+        Result:HopsBagSeed,
+        Time:30.0,
+	  Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+/********* get seed ********/
+
+recipe Get Apple Seeds
+	{
+		Apple,
+  
+        Result:AppleSeed=1,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Avocado Seeds
+	{
+		Avocado,
+  
+        Result:AvocadoSeed=1,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Banana Seeds
+	{
+		Banana,
+  
+        Result:BananaSeed=2,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get BellPepper Seeds
+	{
+		BellPepper,
+  
+        Result:BellPepperSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get BerryBlack Seeds
+	{
+		BerryBlack,
+  
+        Result:BerryBlackSeed=2,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get BerryBlue Seeds
+	{
+		BerryBlue,
+  
+        Result:BerryBlueSeed=2,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Cherry Seeds
+	{
+		Cherry,
+  
+        Result:CherrySeed=2,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Corn Seeds
+	{
+		Corn,
+  
+        Result:CornSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Eggplant Seeds
+	{
+		Eggplant,
+  
+        Result:EggplantSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Ginger Seeds
+	{
+		GingerRoot,
+  
+        Result:GingerSeed=1,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Ginseng Seeds
+	{
+		Ginseng,
+  
+        Result:GinsengSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Grapefruit Seeds
+	{
+		Grapefruit,
+  
+        Result:GrapefruitSeed=2,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Grape Seeds
+	{
+		Grapes,
+  
+        Result:GrapeSeed=2,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Leek Seeds
+	{
+		Leek,
+  
+        Result:LeekSeed=1,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Lemongrass Seeds
+	{
+		LemonGrass,
+  
+        Result:LemongrassSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Lemon Seeds
+	{
+		Lemon,
+  
+        Result:LemonSeed=2,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Lettuce Seeds
+	{
+		Lettuce,
+  
+        Result:LettuceSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Mango Seeds
+	{
+		Mango,
+  
+        Result:MangoSeed=1,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Mushroom spores
+	{
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
+  
+        Result:MushroomSpores=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Get Olive Seeds
+	{
+		Olive,
+  
+        Result:OliveSeed=1,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Get Onion Seeds
+	{
+		Onion,
+  
+        Result:OnionSeed=1,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Get Orange Seeds
+	{
+		Orange,
+  
+        Result:OrangeSeed=2,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Get Peach Seeds
+	{
+		Peach,
+  
+        Result:PeachSeed=1,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Pineapple Seeds
+	{
+		Pineapple,
+  
+        Result:PineappleSeed=2,
+        Time:20.0,
+        Category:Farming,
+        Sound:OpenSeedPacket,
+	}
+
+recipe Get Pumpkin Seeds
+	{
+		Pumpkin,
+  
+        Result:PumpkinSeed=10,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Soybean Seeds
+	{
+		SoyBean,
+  
+        Result:SoyBeanSeed=1,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get SugarCane Seeds
+	{
+		SugarCane,
+  
+        Result:SugarCaneSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Watermelon Seeds
+	{
+		Watermelon,
+  
+        Result:WatermelonSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Wheat Seeds
+	{
+		Wheat,
+  
+        Result:WheatSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Zucchini Seeds
+	{
+		Zucchini,
+  
+        Result:ZucchiniSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Get Pepper Plant Seeds
+	{
+		PepperPlant,
+  
+        Result:PepperPlantSeed=5,
+        Time:20.0,
+        Category:Farming,
+	}
+recipe Get Cotton Seeds
+	{
+		Cotton,
+  
+        Result:CottonSeed=2,
+        Time:20.0,
+        Category:Farming,
+	}
+recipe Get Hops Seeds
+	{
+		Hops,
+  
+        Result:HopsSeed=1,
+        Time:20.0,
+        Category:Farming,
+	}
+
+}

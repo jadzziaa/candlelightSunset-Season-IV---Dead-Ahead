@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>stuff\PrepperBags_RHand</m_MaleModel>
+	<m_FemaleModel>stuff\PrepperBags_RHand</m_FemaleModel>
+	<m_GUID>131a5bde-02c8-41e7-a537-8f51e2de936a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\preppervest</textureChoices>
+</clothingItem>

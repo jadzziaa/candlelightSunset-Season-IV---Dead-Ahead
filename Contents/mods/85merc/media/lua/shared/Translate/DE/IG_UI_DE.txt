@@ -1,0 +1,7 @@
+IG_UI_DE = {
+	IGUI_VehicleName85mercJunk = "'85 Mercedes-Benz W123 Rostlaube",
+	IGUI_VehicleName85mercSedan = "'85 Mercedes-Benz W123 Limousine",
+	IGUI_VehicleName85mercWagon = "'85 Mercedes-Benz W123 Kombi",
+	IGUI_VehicleName85mercWagon2 = "'85 Mercedes-Benz W123 Kombi eines Überlebenden",
+	IGUI_VehiclePartmercroofrack = "Dachgepäckträger",
+}

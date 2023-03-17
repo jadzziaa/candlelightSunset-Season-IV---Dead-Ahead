@@ -1,0 +1,5 @@
+name=Night Vision Chucked
+poster=poster.png
+id=NightVisionChucked
+description=A patch to eris' Night Vision mod; adds a few new functions.
+require=eris_nightvision_goggles

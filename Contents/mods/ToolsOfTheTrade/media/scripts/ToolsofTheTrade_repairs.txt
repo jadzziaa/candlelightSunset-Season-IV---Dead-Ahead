@@ -1,0 +1,550 @@
+module ToolsOfTheTrade {
+	imports {
+		Base
+	}
+	fixing Fix Fishknocker
+	{
+	   Require : FishKnocker,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Reshape Utility Bar
+	{
+	   Require : UtilityBar,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Fix Stubby Hammer
+    {
+       Require : StubbyHammer,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	fixing Fix Brick Hammer
+    {
+       Require : BrickHammer,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	fixing Reshape War Hammer
+	{
+	   Require : WarHammer,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Replace Spiffo Mace Stuffing
+	{
+	   Require : SpiffoMace,
+	   
+       Fixer : CottonBalls=10; Tailoring=3,
+	}
+	fixing Fix Defiler
+	{
+	   Require : DefilerAxe,
+	   
+       Fixer : Woodglue=2; Woodwork=3,
+       Fixer : DuctTape=4; Woodwork=3,
+	}
+	fixing Fix Defiler
+	{
+	   Require : DefilerSledgehammer,
+	   
+       Fixer : Woodglue=2; Woodwork=3,
+       Fixer : DuctTape=4; Woodwork=3,
+	}
+	fixing Fix Despoiler
+	{
+	   Require : DespoilerAxe,
+	   
+       Fixer : Woodglue=2; Woodwork=3,
+       Fixer : DuctTape=4; Woodwork=3,
+	}
+	fixing Fix Despoiler
+	{
+	   Require : DespoilerSledgehammer,
+	   
+       Fixer : Woodglue=2; Woodwork=3,
+       Fixer : DuctTape=4; Woodwork=3,
+	}
+	fixing Reshape Halligan Bar
+	{
+	   Require : HalliganBar,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Reshape Aluminum Baseball Bat
+	{
+	   Require : AluminumBaseballBat,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Reshape Industrial Wrench
+	{
+	   Require : IndustrialWrench,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Fix Post Maul
+	{
+	   Require : PostMaul,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Fix Railroad Hammer
+	{
+	   Require : RailroadHammer,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Reshape Army Mattock
+	{
+	   Require : ArmyMattock,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Reshape Spirit Level
+	{
+	   Require : SpiritLevel,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Fix Grass Scythe
+	{
+	   Require : GrassScythe,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Fix Spiff Army Knife
+    {
+       Require : SpiffArmyKnife,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Reshape Crutch
+	{
+	   Require : Crutch,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Reshape Cast Iron Skillet
+	{
+	   Require : CastIronSkillet,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Reshape Shaolin Spade
+	{
+	   Require : ShaolinSpade,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Fix Splitting Maul
+	{
+	   Require : SplittingMaul,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Reshape Crash Axe
+	{
+	   Require : CrashAxe,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Fix Combat Knife
+    {
+       Require : CombatKnife,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Fix Bush Machete
+    {
+       Require : BushMachete,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Reshape Kukri
+	{
+	   Require : Kukri,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Fix Tomahawk
+	{
+	   Require : Tomahawk,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Fix Fairbairn Sykes Knife
+	{
+	   Require : FairbairnSykesKnife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Reshape Cavalry Sabre
+	{
+	   Require : CavalrySabre,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Fix Bearded Axe
+	{
+	   Require : BeardedAxe,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Reshape Morning Star
+	{
+	   Require : MorningStar,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Fix Trident
+	{
+	   Require : Trident,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Fix Kanabo
+	{
+	   Require : Kanabo,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Fix Bayonets!
+	{
+	   Require : BrownBessMusket,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Reshape Meat Hook
+	{
+	   Require : MeatHook,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Fix Army Scissors
+    {
+       Require : ArmyScissors,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Fix Seax
+    {
+       Require : Seax,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Reshape Gladius
+	{
+	   Require : GladiusSlash,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Reshape Gladius
+	{
+	   Require : GladiusStab,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Fix Trench Shovel
+    {
+       Require : TrenchShovel,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Fix Stielhandgranate
+    {
+       Require : Stielhandgranate,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Fix Pulaski Axe
+    {
+       Require : PulaskiAxe,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Reshape Rebar
+	{
+	   Require : Rebar,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Reshape Harpoon Tip
+	{
+	   Require : HarpoonSpear,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Fix Gavel
+    {
+       Require : Gavel,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Fix Cricket Bat
+    {
+       Require : CricketBat,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Reshape Candlestick
+	{
+	   Require : Candlestick,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Reshape Industrial Pipe Wrench
+	{
+	   Require : IndustrialPipeWrench,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Fix Entry Tool
+	{
+	   Require : EntryTool,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+	}
+	fixing Reshape Branding Iron
+	{
+	   Require : BrandingIron,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Reshape Kebab Skewer
+	{
+	   Require : KebabSkewer,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Fix Meat Tenderiser
+	{
+	   Require : MeatTenderiser,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+	}
+	fixing Reshape Ryoba Saw
+	{
+	   Require : RyobaSaw,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Fix Cutthroat Razor
+    {
+       Require : Cutthroat Razor,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Fix Utensil Tool
+    {
+       Require : UtensilTool,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Reshape Rebar Spear
+	{
+	   Require : RebarSpear,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Reshape Rebar Hammer
+	{
+	   Require : RebarHammer,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Fix Trench Club
+	{
+	   Require : TrenchClub,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+	}
+	fixing Replace Missing Screws
+	{
+	   Require : TrenchBat,
+	   
+       Fixer : Screws=25,
+	}
+	fixing Reshape Executioners Sword
+	{
+	   Require : ExecutionersSword,
+	   
+       Fixer : BlowTorch=10; MetalWelding=7,
+	}
+	fixing Fix Adze
+    {
+       Require : Adze,
+
+       Fixer : DuctTape,
+       Fixer : Glue,
+       Fixer : Scotchtape=2,
+    }
+	fixing Fix Halberd
+	{
+	   Require : HalberdAxe,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Fix Halberd
+	{
+	   Require : HalberdSpear,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Reshape Barbecue Fork
+	{
+	   Require : BarbecueFork,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Fix Brush Hook
+	{
+	   Require : BrushHook,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Fix Felling Axe
+	{
+	   Require : FellingAxe,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Fix Hatchet
+	{
+	   Require : Hatchet,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Reshape Telescopic Baton
+	{
+	   Require : TelescopicBaton,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Reshape Telescopic Baton
+	{
+	   Require : CollapsedBaton,
+	   
+       Fixer : BlowTorch=5; MetalWelding=5,
+	}
+	fixing Fix Railway Spike Hammer
+	{
+	   Require : RailwaySpikeHammer,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Reshape Multitool
+	{
+	   Require : Multitool,
+	   
+       Fixer : BlowTorch=3; MetalWelding=3,
+	}
+	fixing Fix Jackknife
+	{
+	   Require : Jackknife,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	fixing Fix Walking Stick
+	{
+	   Require : WalkingStick,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+}

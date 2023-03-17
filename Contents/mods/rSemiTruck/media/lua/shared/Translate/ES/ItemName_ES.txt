@@ -1,0 +1,17 @@
+ItemName_ES = {
+   ItemName_Rotators.DoubleOldTire2 = "Rueda gemela económica",
+   ItemName_Rotators.DoubleNormalTire2 = "Rueda gemela estándar",
+   ItemName_Rotators.DoubleModernTire2 = "Rueda gemela deportiva",
+   ItemName_Rotators.AxleOldTire2 = "Eje tándem económico",
+   ItemName_Rotators.AxleNormalTire2 = "Eje tándem estándar",
+   ItemName_Rotators.AxleModernTire2 = "Eje tándem deportiva",
+   
+   ItemName_Rotators.SemiTruckBullbar_Item2 = "W900: Parachoques",
+   ItemName_Rotators.SemiTruckArmorDoor_Item2 = "W900: Rejilla lateral",
+   ItemName_Rotators.SemiTruckArmorFront_Item2 = "W900: Rejilla delantera",
+   ItemName_Rotators.SemiTruckArmorRear_Item2 = "W900: Rejilla trasera",
+
+   ItemName_RotatorsClothing.Hat_BaseballCapRotators = "Gorra de béisbol Rotators",
+   ItemName_RotatorsClothing.Hat_BaseballCapRotators_Reverse = "Gorra de béisbol Rotators",
+
+}

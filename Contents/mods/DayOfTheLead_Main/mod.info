@@ -1,0 +1,4 @@
+name=DAY OF THE LEAD [1]: Stationary Aim Bonus
+id=DayOfTheLead_Main
+description= Changes how the aiming skill affects the accuracy of weapons. When aiming and standing still, a crosshair will fade in and become smaller, the longer you wait, increasing your chance to hit and score a crit. Aiming skill determines how long it takes for the crosshair to fully shrink and guarantee a hit.
+poster=poster.png

@@ -1,0 +1,10 @@
+IGUI_TR = {
+    IGUI_PillInfoOpen = "Hap Bilgileri",
+    IGUI_PillInfoTitle = "Hap Bilgileri Penceresi",
+    IGUI_NoneActiveInfo = "Sergilenecek hap seçilmedi",
+    IGUI_PillBeta = "Beta Bloker",
+    IGUI_PillPain = "A?r? Kesici",
+    IGUI_PillDepr = "Antidepresanlar",
+    IGUI_PillSleep = "Uyku ?lac?",
+    IGUI_Antibiotics = "Antibiyotik",
+}

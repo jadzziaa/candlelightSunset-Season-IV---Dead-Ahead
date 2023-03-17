@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\PoliceUtilityBag_Rhand</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_PoliceUtilityBag_Rhand</m_FemaleModel>
+	<m_GUID>7e662574-7664-43f8-8e04-3b2c0e14a96b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\PoliceUtilityBag</textureChoices>
+</clothingItem>

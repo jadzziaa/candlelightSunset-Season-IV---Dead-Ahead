@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Bob_JacketLeather.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Kate_JacketLeather.X</m_FemaleModel>
+	<m_GUID>60179bfa-07a8-4d58-97f5-bf7c4e294de3</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>12</m_Masks>
+	<m_Masks>13</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks_Leather</m_UnderlayMasksFolder>
+	<textureChoices>clothes\jacketlong\CanvasJacket1</textureChoices>
+	<textureChoices>clothes\jacketlong\CanvasJacket2</textureChoices>
+	<textureChoices>clothes\jacketlong\CanvasJacket3</textureChoices>
+	<textureChoices>clothes\jacketlong\CanvasJacket4</textureChoices>
+</clothingItem>

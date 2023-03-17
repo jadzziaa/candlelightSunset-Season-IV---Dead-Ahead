@@ -1,0 +1,13 @@
+Tooltip_ES = {
+Tooltip_item_ECTO1Tire = "neumático estándar de Cadillac que puede ser reforzado para mayor durabilidad",
+Tooltip_item_ECTO1runflattire = "Neumático Cadillac reforzado que nunca reventará pero que perderá tracción cuando la condición sea baja.",
+Tooltip_item_ECTO1FrontDoorArmor1 = "Colóquelo en las puertas delanteras del Cadillac para proteger las puertas y ventanas delanteras",
+Tooltip_item_ECTO1RearDoorArmor1 = "Colóquelo en las puertas traseras del Cadillac para proteger las puertas y ventanas traseras",
+Tooltip_item_ECTO1SideWindow2 = "Puede utilizar el escalpelo para cortar ventanas regulares de alta resistencia para hacer ventanas de recambio",
+Tooltip_item_KI5windows = "Puede utilizar el escalpelo para cortar vidrios regulares de alta resistencia para hacer ventanas de recambio",
+Tooltip_item_ECTO1Bullbar1 = "Colócalo en la parte delantera del Cadillac para proteger el capó y el motor",
+Tooltip_item_ECTO1WindshieldArmor1 = "Colócalo en la parte delantera del Cadillac para proteger el parabrisas",
+Tooltip_item_ECTO1WindshieldRearArmor1 = "Colóquelo en la puerta del maletero de Cadillac para proteger el parabrisas trasero y la tapa del maletero",
+Tooltip_item_ECTO1Roofrack1 = "Espacio de almacenamiento adicional en el techo, accesible desde todos los lados del Cadillac",
+Tooltip_item_ECTO1Equipment1 = "ECTO-1 Equipamiento en el techo y en el interior del Cadillac",
+}

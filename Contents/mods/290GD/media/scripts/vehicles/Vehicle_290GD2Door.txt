@@ -1,0 +1,711 @@
+module Base
+{
+	model 290GD2Door
+	{
+		mesh = vehicles/Vehicle_290GD2Door|body_mesh,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 1,
+	}
+	model 290GD2Doorfront
+	{
+		mesh = vehicles/Vehicle_290GD2Door|Windshield_obj,
+		shader = vehicle_noreflect,
+		scale = 1,
+	}
+	model 290GD2Doorrearwindshield
+	{
+		mesh = vehicles/Vehicle_290GD2Door|TrunkWindow_obj,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 1,
+		boneWeight = DoorTrunkBone 1.0,
+	}
+	model 290GD2Doorwindowfrontright
+	{
+		mesh = vehicles/Vehicle_290GD2Door|WindowFrontRight_obj,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 1,
+		boneWeight = WindowRightFrontBone 1.0,
+	}
+	model 290GD2Doorwindowfrontleft
+	{
+		mesh = vehicles/Vehicle_290GD2Door|WindowFrontLeft_obj,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 1,
+		boneWeight = WindowLeftFrontBone 1.0,
+	}
+	model 290GD2Door_door_left
+	{
+		mesh = vehicles/Vehicle_290GD2Door|DoorFrontLeft_obj,
+		shader = vehicle,
+		static = FALSE,
+		scale = 1,
+		boneWeight = DoorLeftFrontBone 1.0,
+	}
+	model 290GD2Door_door_right
+	{
+		mesh = vehicles/Vehicle_290GD2Door|DoorFrontRight_obj,
+		shader = vehicle,
+		static = FALSE,
+		scale = 1,
+		boneWeight = DoorRightFrontBone 1.0,
+	}
+	model 290GD2DoorTrunk
+	{
+		mesh = vehicles/Vehicle_290GD2Door|DoorTrunk_obj,
+		shader = vehicle,
+		scale = 1,
+		static = FALSE,
+		boneWeight = DoorTrunkBone 1.0,
+	}
+	model 290GD2Doorfrontwheelleft
+	{
+		mesh = vehicles/Vehicle_GWagen_LeftWheel,
+		texture = vehicles/Vehicle_GWagenWheel,
+		shader = vehiclewheel,
+	}
+	model 290GD2Doorfrontwheelright
+	{
+		mesh = vehicles/Vehicle_GWagen_RightWheel,
+		texture = vehicles/Vehicle_GWagenWheel,
+		shader = vehiclewheel,
+	}
+	model 290GD2Doorbackwheelleft
+	{
+		mesh = vehicles/Vehicle_GWagen_LeftWheel,
+		texture = vehicles/Vehicle_GWagenWheel,
+		shader = vehiclewheel,
+	}
+	model 290GD2Doorbackwheelright
+	{
+		mesh = vehicles/Vehicle_GWagen_RightWheel,
+		texture = vehicles/Vehicle_GWagenWheel,
+		shader = vehiclewheel,
+	}
+	vehicle 290GD2Door
+	{
+		mechanicType = 2,
+		offRoadEfficiency = 1.1,
+		engineRepairLevel = 4,
+		playerDamageProtection = 1.3,
+
+		model
+		{
+			file = 290GD2Door,
+			scale = 0.6300,
+			offset = 0.0000 0.1905 0.2063,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_290GD2Door_Blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_290GD2Door_Purple,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_290GD2Door_Red,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_290GD2Door_Puch,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_290GD2Door_Stool,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_290GD2Door_Silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_290GD2Door_Green,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_290GD2Door_White,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_290GD2Door_Black,
+		}
+
+		textureRust = Vehicles/Vehicle_GWagen_rust,
+		textureMask = Vehicles/Vehicle_290GD2Door_Mask,
+		textureLights = Vehicles/Vehicle_GWagen_lights,
+		textureDamage1Shell = Vehicles/Vehicle_GWagen_damage,
+		textureDamage2Shell= Vehicles/Vehicle_GWagen_damage2,
+		textureDamage1Overlay = Vehicles/Vehicle_GWagen_blood,
+		textureDamage2Overlay = Vehicles/Vehicle_GWagen_blood2,
+
+		sound
+		{
+			engine = VehicleEngineSUV,
+			engineStart = VehicleEngineSUV,
+			engineTurnOff = VehicleEngineSUV,
+			horn = MercedesHorn,
+			ignitionFail = VehicleIgnitionFailSUV,
+		}
+
+		extents = 2.5079 2.3492 6.3175,
+		mass = 1500,
+		physicsChassisShape = 2.5079 2.3175 6.3175,
+		centerOfMassOffset = 0.0000 1.4603 0.1905,
+		shadowExtents = 2.4997 6.2941,
+		shadowOffset = 0.0000 0.2127,
+		engineForce = 8500,
+		maxSpeed = 50f,
+		engineLoudness = 130,
+		engineQuality = 85,
+		gearRatioCount = 3,
+		gearRatioR = 3,
+		gearRatio1 = 11,
+		gearRatio2 = 8,
+		gearRatio3 = 4,
+		gearRatio4 = 2,
+		brakingForce = 60,
+		stoppingMovementForce = 4.0f,
+		rollInfluence = 0.50f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 45,
+		suspensionCompression = 3.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 12,
+		suspensionRestLength = 0.5,
+		wheelFriction = 1.6f,
+		frontEndHealth = 4500,
+		rearEndHealth = 3500,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = -1.0000 0.0794 2.0952,
+			radius = 0.50f,
+			width = 0.30f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = 1.0000 0.0794 2.0952,
+			radius = 0.50f,
+			width = 0.30f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = -1.0317 0.0794 -1.9683,
+			radius = 0.50f,
+			width = 0.30f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = 1.0317 0.0794 -1.9683,
+			radius = 0.50f,
+			width = 0.30f,
+		}
+
+		template = PassengerSeat2,
+
+		passenger FrontLeft
+		{
+			showPassenger = true,
+			hasRoof = true,
+
+			position inside
+			{
+				offset = 0.5714 0.9524 0.0317,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 2.0794 -0.6984 0.0159,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			showPassenger = true,
+			hasRoof = true,
+
+			position inside
+			{
+				offset = -0.6032 0.9524 0.0317,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -2.0476 -1.0000 0.1429,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 4.0794 2.5079 1.4603,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -3.8413 2.5079 1.7460,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 1.9048 0.6349 1.3016 1.2381,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -1.9048 0.6349 1.3016 1.2381,
+		}
+
+		area GasTank
+		{
+			xywh = -1.0000 -3.4127 0.5079 0.8889,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 1.2540 2.3016 0.0000 0.0000,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -1.2540 2.3016 0.0000 0.0000,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 1.2540 -1.7619 0.0000 0.0000,
+		}
+
+		area TireRearRight
+		{
+			xywh = -1.2540 -1.7619 0.0000 0.0000,
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+		template = GloveBox,
+		template = GasTank,
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+
+		part Muffler
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = EngineDoor,
+
+		part EngineDoor
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		part Heater
+		{
+			category = engine,
+
+			lua
+			{
+				update = Vehicles.Update.Heater,
+			}
+		}
+
+		template = Windshield/part/Windshield,
+
+		part Windshield
+		{
+			model windshieldFront
+			{
+				file = 290GD2Doorfront,
+			}
+
+			window
+			{
+				openable = false,
+			}
+
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part WindshieldRear
+		{
+			itemType = .RearWindshield,
+
+			model windshieldRear
+			{
+				file = 290GD2Doorrearwindshield,
+			}
+
+			parent = TrunkDoor,
+
+			anim Close
+			{
+				anim = DTClosing,
+				reverse = TRUE,
+				rate = 1.5,
+			}
+
+			anim Open
+			{
+				anim = DTClosing,
+				reverse = FALSE,
+				rate = 1.0,
+			}
+
+			anim Closed
+			{
+				anim = DTClosing,
+				reverse = FALSE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = DTClosing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+
+			window
+			{
+				openable = false,
+			}
+
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+
+		part WindowFrontRight
+		{
+			model windowFR
+			{
+				file = 290GD2Doorwindowfrontright,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = WindowFrontRightClosing,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontRight,
+			area = SeatFrontRight,
+		}
+
+		part WindowFrontLeft
+		{
+			model windowFL
+			{
+				file = 290GD2Doorwindowfrontleft,
+			}
+
+			anim ClosedToOpen
+			{
+				anim = WindowFrontLeftClosing,
+				animate = FALSE,
+			}
+
+			parent = DoorFrontLeft,
+			area = SeatFrontLeft,
+		}
+
+		part DoorFrontRight
+		{
+			model Default
+			{
+				file = 290GD2Door_door_right,
+			}
+
+			anim Close
+			{
+				anim = DRClosing,
+				reverse = TRUE,
+				rate = 2.0,
+			}
+
+			anim Open
+			{
+				anim = DRClosing,
+				reverse = FALSE,
+				rate = 1.0,
+			}
+
+			anim Closed
+			{
+				anim = DRClosing,
+				reverse = FALSE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = DRClosing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+		}
+
+		part DoorFrontLeft
+		{
+			model Default
+			{
+				file = 290GD2Door_door_left,
+			}
+
+			anim Close
+			{
+				anim = DoorLeftFrontClosing,
+				reverse = TRUE,
+				rate = 2.0,
+			}
+
+			anim Open
+			{
+				anim = DoorLeftFrontClosing,
+				reverse = FALSE,
+				rate = 1.0,
+			}
+
+			anim Closed
+			{
+				anim = DoorLeftFrontClosing,
+				reverse = FALSE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = DoorLeftFrontClosing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+		}
+
+		template = TrunkDoor,
+
+		part TrunkDoor
+		{
+			table install
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+			}
+
+			model Default
+			{
+				file = 290GD2DoorTrunk,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			anim Close
+			{
+				anim = DTClosing,
+				reverse = TRUE,
+				rate = 1.5,
+			}
+
+			anim Open
+			{
+				anim = DTClosing,
+				reverse = FALSE,
+				rate = 1.0,
+			}
+
+			anim Closed
+			{
+				anim = DTClosing,
+				reverse = FALSE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = DTClosing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+		}
+
+		template = Trunk/part/TruckBed,
+		template = Tire,
+		template = Axle,
+
+		part TruckBed
+		{
+			container
+			{
+				capacity = 120,
+			}
+		}
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = 290GD2Doorfrontwheelleft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = 290GD2Doorfrontwheelright,
+			}
+		}
+
+		part TireRearLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = 290GD2Doorbackwheelleft,
+			}
+		}
+
+		part TireRearRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = 290GD2Doorbackwheelright,
+			}
+		}
+
+		template = Brake,
+
+		part Brake*
+		{
+			table install
+			{
+				skills = Mechanics:4,
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:4,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Suspension,
+
+		part Suspension*
+		{
+			table install
+			{
+				skills = Mechanics:4,
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:4,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Radio,
+
+		part Radio*
+		{
+			itemType = Radio.HamRadio1,
+		}
+
+		template = Headlight,
+
+		physics box
+		{
+			offset = 0.0000 1.1587 0.2063,
+			extents = 2.4762 2.3016 6.3016,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 0.0000 3.1270,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

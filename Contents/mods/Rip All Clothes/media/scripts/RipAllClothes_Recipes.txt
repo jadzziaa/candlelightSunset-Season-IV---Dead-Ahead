@@ -1,0 +1,41 @@
+module RipAllClothes
+{	imports
+	{
+		Base
+	}
+	recipe Rip All Clothing
+	{
+		[Recipe.GetItemTypes.RipClothing_Cotton],
+		Result:RippedSheets,
+		RemoveResultItem:true,
+		InSameInventory:false,
+		Sound:ClothesRipping,
+		Time:100.0,
+		AnimNode:RipSheets,
+		OnCreate:Recipe.OnCreate.RipClothing,
+	}
+	recipe Rip All Clothing
+	{
+		[Recipe.GetItemTypes.RipClothing_Denim],
+		keep Scissors,
+		Result:DenimStrips,
+		RemoveResultItem:true,
+		InSameInventory:false,
+		Sound:ClothesRipping,
+		Time:100.0,
+		AnimNode:RipSheets,
+		OnCreate:Recipe.OnCreate.RipClothing,
+	}
+	recipe Rip All Clothing
+	{
+		[Recipe.GetItemTypes.RipClothing_Leather],
+		keep Scissors,
+		Result:LeatherStrips,
+		RemoveResultItem:true,
+		InSameInventory:false,
+		Sound:ClothesRipping,
+		Time:100.0,
+		AnimNode:RipSheets,
+		OnCreate:Recipe.OnCreate.RipClothing,
+       }
+}

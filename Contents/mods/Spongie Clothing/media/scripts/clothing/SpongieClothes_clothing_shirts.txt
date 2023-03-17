@@ -1,0 +1,120 @@
+module Spongie {
+	imports {
+		Base}
+		
+	
+    item TShirt_Compression
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Compression Shirt,
+        ClothingItem = TShirt_Spandex,
+        BodyLocation = TankTop,
+        Icon = TShirt_Compression,
+        BloodLocation = Shirt;Neck,
+        FabricType = Cotton,
+		
+        Insulation = 0.3,
+        WindResistance = 0.4,
+        WaterResistance = 0.1,
+		
+        WorldStaticModel = TShirt_Ground,
+    }
+	
+    item TShirt_CompressionLong
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Sleeve Compression Shirt,
+        ClothingItem = TShirt_SpandexLong,
+        BodyLocation = TankTop,
+        Icon = TShirt_CompressionLong,
+        BloodLocation = ShirtLongSleeves;Neck,
+        FabricType = Cotton,
+		
+        Insulation = 0.3,
+        WindResistance = 0.25,
+        WaterResistance = 0.1,
+		
+        WorldStaticModel = Shirt_Ground,
+    }
+	
+	item Jumper_TurtleVest
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Polo Neck Sweater Vest,
+        ClothingItem = Jumper_TurtleVest,
+        BodyLocation = Sweater,
+        Icon = Jumper_TurtleVest,
+        BloodLocation = JumperNoSleeves;Neck,
+		
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+		
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Jumper_Military
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Sweater,
+        ClothingItem = Jumper_Military,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+		
+        IconsForTexture = Jumper_Military1;Jumper_Military2;Jumper_Military3;Jumper_Military4,
+		
+        ClothingItemExtra = Spongie.Jumper_MilitaryTIED,
+        ClothingItemExtraOption = TieOnWaist,
+        clothingExtraSubmenu = Wear,
+		
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Jumper_Ground,
+    }
+    item Jumper_MilitaryTIED
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Sweater,
+        ClothingItem = Jumper_MilitaryTIED,
+        BodyLocation = TorsoExtra,
+        BloodLocation = ShortsShort,
+		
+        IconsForTexture = JumperTied_Military1;JumperTied_Military2;JumperTied_Military3;JumperTied_Military4,
+		
+        ClothingItemExtra = Spongie.Jumper_Military,
+        ClothingItemExtraOption = Wear,
+        clothingExtraSubmenu = TieOnWaist,
+		
+        ScratchDefense = 10,
+        Insulation = 0.2,
+        WindResistance = 0.175,
+        FabricType = Cotton,
+        WorldStaticModel = Jumper_Ground,
+    }
+    item Vest_Waterproof
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Windbreaker Vest,
+        ClothingItem = Vest_Waterproof,
+        BodyLocation = TorsoExtraVest,
+        Icon = Vest_Waterproof,
+        BloodLocation = ShirtNoSleeves,
+        FabricType = Leather,
+        Insulation = 0.4,
+        WindResistance = 0.8,
+        WaterResistance = 0.7,
+        BiteDefense = 15,
+        ScratchDefense = 20,
+        WorldStaticModel = BulletVest_Ground,
+    }
+	
+	
+}

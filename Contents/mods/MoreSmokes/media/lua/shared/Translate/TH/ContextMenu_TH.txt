@@ -1,0 +1,5 @@
+ContextMenu_TH = {
+	ContextMenu_Cultivation_Skill = "การเพาะปลูกกัญชา",
+	ContextMenu_Chew = "เคี้ยว",
+	ContextMenu_Seeds_into_a_Pack = "เมล็ดในถุง",
+}

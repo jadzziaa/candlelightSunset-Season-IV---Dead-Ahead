@@ -1,0 +1,48 @@
+module Base
+{
+	sound TIsnd_Water	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Water_1.ogg,
+			volume = 0.12,
+		}
+	}
+	sound TIsnd_Water	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Water_2.ogg,
+			volume = 0.12,
+		}
+	}
+	sound TIsnd_Water	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Water_3.ogg,
+			volume = 0.12,
+		}
+	}
+	sound TIsnd_Water	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Water_4.ogg,
+			volume = 0.12,
+		}
+	}
+	sound TIsnd_Water	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Water_5.ogg,
+			volume = 0.12,
+		}
+	}
+}

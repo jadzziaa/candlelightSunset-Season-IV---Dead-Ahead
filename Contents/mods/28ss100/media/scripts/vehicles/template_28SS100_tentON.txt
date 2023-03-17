@@ -1,0 +1,45 @@
+module Base
+{
+
+	template vehicle SS100TentON
+	{
+		part SS100Tent
+		{
+			
+			model tarpytarptarp
+			{
+				file = 28ss100tarp,
+			}
+			
+			area = TruckBed,
+			specificItem = false,
+			itemType = 	camping.CampingTentKit,
+			category = bodywork,
+			mechanicRequireKey = false,
+
+			table install
+			{
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Default,
+				requireInstalled = SS100topbox,
+			}
+			table uninstall
+			{
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+	}
+}
+

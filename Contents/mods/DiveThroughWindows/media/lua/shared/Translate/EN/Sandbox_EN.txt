@@ -1,0 +1,24 @@
+Sandbox_EN = {
+	Sandbox_DiveThruWindows = "Dive Thru Windows",
+	
+	Sandbox_DiveThruWindows_DiveClosedWindowInjuryChance = "Closed Window Dive Injury Chance",
+	Sandbox_DiveThruWindows_DiveClosedWindowInjuryChance_tooltip = "X out of (100 + player skill/trait factor) will cause a heavy injury. <br>Rolled once when smashing a window while sprinting. Higher chance of shard injury and cannot hit below the groin. Player skill/trait factor is 95 for Graceful, max Running, max Nimble characters.",
+	
+	Sandbox_DiveThruWindows_DiveBrokenWindowInjuryChance = "Broken Window Dive Injury Chance",
+	Sandbox_DiveThruWindows_DiveBrokenWindowInjuryChance_tooltip = "X out of (100 + player skill/trait factor) will cause an injury. <br>This is rolled twice when diving through a closed or already broken window. Cannot hit the neck. Player skill/trait factor is 140 for Graceful, max Nimble characters."
+	
+	Sandbox_DiveThruWindows_BaseDodge = "Base Denominator Value",
+	Sandbox_DiveThruWindows_BaseDodge_tooltip = "Instead of X out of (100 + player skill/trait factor), change the 100 to something smaller to emphasize player skill or vice-versa."
+	
+	Sandbox_DiveThruWindows_ArmorEffectiveness = "Armor Effectiveness Multiplier",
+	Sandbox_DiveThruWindows_ArmorEffectiveness_tooltip = "Multiplier for armor effectiveness against dive injuries."
+	
+	Sandbox_DiveThruWindows_BaseFailDiveChance = "Bonus Dive Fail Anim Chance %",
+	Sandbox_DiveThruWindows_BaseFailDiveChance_tooltip = "When smashing a window with a dive, this is the % chance that the animation will be converted to a failure. <br>Even when set to zero, the roll can happen as the vanilla roll for failure also takes place. Applies to dives even on open windows. Reduced by 40 for a max Nimble character. -20 from Graceful and +10 from Clumsy."
+	
+	Sandbox_DiveThruWindows_CanInjureLegs = "Closed Window Dive Can Injure Below Groin",
+	Sandbox_DiveThruWindows_CanInjureLegs_tooltip = "Whether the injury from smashing the window can scratch/wound the legs. (Note that the legs can always be scratched from diving thru the smashed window)"
+	
+	Sandbox_DiveThruWindows_ExtraInjuryRolls = "Bonus Closed Window Dive Injury Rolls",
+	Sandbox_DiveThruWindows_ExtraInjuryRolls_tooltip = "How many bonus injury rolls occur upon smashing a window with a dive?"
+	}

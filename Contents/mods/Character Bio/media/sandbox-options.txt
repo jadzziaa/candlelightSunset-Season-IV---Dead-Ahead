@@ -1,0 +1,14 @@
+VERSION = 1,
+
+option CharacterBio.portraitWhitelist
+{
+	type = string,
+	default = imgur.com,
+	page = BuffysMods,
+	translation = portraitWhitelist,
+}
+option CharacterBio.shortDescriptions
+{
+	type = boolean, default = false,
+	page = BuffysMods, translation = shortDescriptions,
+}

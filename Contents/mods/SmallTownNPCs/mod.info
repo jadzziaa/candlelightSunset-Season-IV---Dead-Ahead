@@ -1,0 +1,5 @@
+name=Small Town First Responders - Survivors
+id=STRNPC
+poster=poster.png
+description=Just "Superb Survivors!" support for STFR.
+require=STR,SuperbSurvivors

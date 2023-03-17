@@ -1,0 +1,29 @@
+Sandbox_EN = {
+
+    Sandbox_PlayerDeathMessage = "Player Death Message",
+
+    Sandbox_PlayerDeathMessage_disabled = "Disabled",
+    Sandbox_PlayerDeathMessage_disabled_tooltip = "Disable the death message",
+
+    Sandbox_PlayerDeathMessage_useUsername = "Use Player Username",
+    Sandbox_PlayerDeathMessage_useUsername_tooltip = "Use the player username",
+
+    Sandbox_PlayerDeathMessage_useCharacterName = "Use Character Name",
+    Sandbox_PlayerDeathMessage_useCharacterName_tooltip = "Use the character full name",
+
+    Sandbox_PlayerDeathMessage_showPlayerStats = "Show dead player stats",
+    Sandbox_PlayerDeathMessage_showPlayerStats_tooltip = "Show the player time survived, zombie kill count and survivor kill count if pvp is enabled (Require Mod ID: FixSurvivorKillsMP to work)",
+
+    Sandbox_PlayerDeathMessage_showPlayerFavWeapon = "Show dead player favorite weapon",
+    Sandbox_PlayerDeathMessage_showPlayerFavWeapon_tooltip = "Show the player favorite weapon",
+
+    Sandbox_PlayerDeathMessage_messageColorRed = "Message RGB Color (Red)",
+    Sandbox_PlayerDeathMessage_messageColorRed_tooltip = "Set the Red value of the death message from 0.0 to 1.0",
+
+    Sandbox_PlayerDeathMessage_messageColorGreen = "Message RGB Color (Green)",
+    Sandbox_PlayerDeathMessage_messageColorGreen_tooltip = "Set the Green value of the death message from 0.0 to 1.0",
+
+    Sandbox_PlayerDeathMessage_messageColorBlue = "Message RGB Color (Blue)",
+    Sandbox_PlayerDeathMessage_messageColorBlue_tooltip = "Set the Blue value of the death message from 0.0 to 1.0",
+
+}

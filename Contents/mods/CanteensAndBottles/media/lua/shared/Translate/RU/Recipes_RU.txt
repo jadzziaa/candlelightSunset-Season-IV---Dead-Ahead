@@ -1,0 +1,8 @@
+Recipes_RU = 
+{
+	Recipe_Extract_Bladder_from_Soccer_Ball = "ƒостать камеру из м€ча",
+	Recipe_Extract_Bladder_from_Football = "ƒостать камеру из м€ча",
+	Recipe_Make_a_Small_Waterskin = "—делать бурдюк из м€ча",
+	Recipe_Make_a_Large_Waterskin = "—делать бурдюк из м€ча",
+	Recipe_Make_a_Quality_Waterskin = "—делать бурдюк из кожи",
+}

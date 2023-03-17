@@ -1,0 +1,148 @@
+module SAPPHEATER
+{
+    imports
+    {
+        Base
+    }
+
+    item SmallHeater
+    {
+		Type			        =   Drainable,
+		DisappearOnUse			=	FALSE,
+		ActivatedItem			=	TRUE,
+		useDelta				=	0.0002,
+		cantBeConsolided 		= 	TRUE,
+		Weight			        =	2.5,
+		Icon			        =	SmallHeater,
+		DisplayName             =   Small Heater,
+		WorldStaticModel        =   SmallHeaterModel,
+		Tooltip					=	Tooltip_SmallHeater,
+    }
+
+    model SmallHeaterModel
+	{
+		mesh = WorldItems/SmallHeater,
+		texture = WorldItems/SmallHeaterTexture,
+	}
+
+	item OutdoorHeater
+	{
+		Type			        =   Drainable,
+		DisappearOnUse			=	FALSE,
+		ActivatedItem			=	TRUE,
+		useDelta				=	0.0001,
+		cantBeConsolided 		= 	TRUE,
+		Weight			        =	5.0,
+		Icon			        =	OutdoorHeater,
+		DisplayName             =   Portable Outdoor Heater,
+		WorldStaticModel        =   OutdoorHeaterModel,
+		Tooltip					=	Tooltip_OutdoorHeater,		
+	}
+
+    model OutdoorHeaterModel
+	{
+		mesh = WorldItems/OutdoorHeater,
+		texture = WorldItems/OutdoorHeaterTexture,
+	}
+
+	item ElectricHeater
+	{
+		Type			        =   Drainable,
+		DisappearOnUse			=	FALSE,
+		ActivatedItem			=	TRUE,
+		useDelta				=	0.0002,
+		cantBeConsolided 		= 	TRUE,
+		Weight			        =	7.5,
+		Icon			        =	ElectricHeater,
+		DisplayName             =   Electric Heater,
+		WorldStaticModel        =   ElectricHeaterModel,
+		Tooltip					=	Tooltip_ElectricHeater,		
+	}
+
+    model ElectricHeaterModel
+	{
+		mesh = WorldItems/ElectricHeater,
+		texture = WorldItems/ElectricHeaterTexture,
+	}
+
+	item HeaterCircuit
+	{
+        DisplayCategory      	=  	Electronics,
+        Weight	             	=	0.1,
+        Type	            	=	Normal,
+        DisplayName	     	 	=	Heater Circuit,
+        Icon	             	=	HeaterCircuit,
+        MetalValue           	=  	5,
+        WorldStaticModel     	=  	HeaterCircuitModel,
+		Tooltip					=	Tooltip_HeaterCircuit,
+	}
+
+	model HeaterCircuitModel
+	{
+		mesh = WorldItems/HeaterCircuit,
+		texture = WorldItems/HeaterCircuitTexture,		
+	}
+
+    item HeaterMag1
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Electricans Issue #001 - Small Heaters,
+        Icon	=	HeaterMag1,
+        TeachedRecipes  =   Craft Small Heater,
+        ReplaceOnUse    =   HeaterMag1,
+        Tooltip = Tooltip_ElectriciansIssue1,
+		StaticModel = Magazine,
+        WorldStaticModel = HeatersMag1ModelGround,
+    }
+
+	model HeatersMag1ModelGround
+	{
+		mesh = WorldItems/Magazine,
+		texture	= WorldItems/MagazineHeaterMag1,	
+		scale = 0.4,
+	}
+
+    item HeaterMag2
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Electricans Issue #002 - Outdoor Heaters,
+        Icon	=	HeaterMag2,
+        TeachedRecipes  =   Craft Portable Outdoor Heater,
+        ReplaceOnUse    =   HeaterMag2,
+        Tooltip = Tooltip_ElectriciansIssue2,
+		StaticModel = Magazine,
+        WorldStaticModel = HeatersMag2ModelGround,
+    }
+
+	model HeatersMag2ModelGround
+	{
+		mesh = WorldItems/Magazine,
+		texture	= WorldItems/MagazineHeaterMag2,	
+		scale = 0.4,
+	}
+
+    item HeaterMag3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Electricans Issue #003 - Electric Heaters,
+        Icon	=	HeaterMag3,
+        TeachedRecipes  =   Craft Electric Heater,
+        ReplaceOnUse    =   HeaterMag3,
+        Tooltip = Tooltip_ElectriciansIssue3,
+		StaticModel = Magazine,
+        WorldStaticModel = HeatersMag3ModelGround,
+    }
+
+	model HeatersMag3ModelGround
+	{
+		mesh = WorldItems/Magazine,
+		texture	= WorldItems/MagazineHeaterMag3,	
+		scale = 0.4,
+	}
+}

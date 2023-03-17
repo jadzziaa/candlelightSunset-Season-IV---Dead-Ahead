@@ -1,0 +1,61 @@
+Audio = nil
+PlayChime = false
+
+local function PlayChime(numberTicks)
+  if not PlayChime then
+    if Audio then Audio:stop() end
+    Audio = nil
+    return
+  end
+
+  if numberTicks % 200 == 0 then
+    if Audio then Audio:stop() end
+    Audio = getSoundManager():PlayWorldSound("oldsmobile_chime_unlooped", false, getPlayer():getSquare(), 0, 10, 1, true)
+  end
+end
+
+function ChimeCheck(module, command, player, args)
+  if not (module == "vehicle" and (command == "setHeadlightsOn" or command == "startEngine" or command == "shutOff" or command == "setDoorOpen")) then
+    return
+  end
+
+  local vehicle = player:getVehicle()
+
+  if not vehicle then -- we got out
+    PlayChime = false
+    return
+  end
+
+  -- dont do this script for boats
+  if string.find(string.lower(vehicle:getObjectName()), "boat") or string.find(string.lower(vehicle:getObjectName()), "yacht") then
+    return
+  end
+
+  if not vehicle:isDriver(player) then
+    return
+  end
+
+  if vehicle:getBatteryCharge() <= 0 or not vehicle:isEngineWorking() then
+    return
+  end
+
+  local headLightsOn = vehicle:getHeadlightsOn()
+  local engineOn = vehicle:isEngineRunning()
+
+  if command == "setHeadlightsOn" then
+    headLightsOn = args.on
+  elseif command == "shutOff" then
+    engineOn = false
+  end
+
+  if not engineOn and headLightsOn then
+    PlayChime = true
+  else
+    PlayChime = false
+  end
+end
+
+Events.OnClientCommand.Add(ChimeCheck)
+Events.OnTick.Add(PlayChime)
+
+print("[Daszh][VehicleChime][INFO] Loaded sucessfully")

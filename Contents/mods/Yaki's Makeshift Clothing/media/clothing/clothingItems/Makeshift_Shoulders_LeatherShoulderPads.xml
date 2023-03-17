@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\skinned\Clothes\M_Makeshift_Shoulders_LeatherShoulderPads.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\skinned\Clothes\F_Makeshift_Shoulders_LeatherShoulderPads.fbx</m_FemaleModel>
+	<m_GUID>364df36d-2b98-4c57-b023-d2a87da80533</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\shoulders\Makeshift_Shoulders_LeatherShoulderPads</textureChoices>
+</clothingItem>

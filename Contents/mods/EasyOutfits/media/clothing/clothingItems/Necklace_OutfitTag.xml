@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\M_Necklace_Dogtags.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\F_Necklace_Dogtags.X</m_FemaleModel>
+	<m_GUID>62d4ca88-44b5-404a-95ce-357f3225b346</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>necklace_dogtags</textureChoices>
+</clothingItem>

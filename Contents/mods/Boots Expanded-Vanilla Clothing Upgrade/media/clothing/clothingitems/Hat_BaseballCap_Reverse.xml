@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\m_baseballcapreverse</m_MaleModel>
+	<m_FemaleModel>static\clothes\f_baseballcapreverse</m_FemaleModel>
+	<m_GUID>d90d4976-d993-4fae-ad78-f5a4fcf05366</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group01</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\hat\baseballcapred</textureChoices>
+	<textureChoices>clothes\hat\baseballcapgreen</textureChoices>
+	<textureChoices>clothes\hat\baseballcapblue</textureChoices>
+	<textureChoices>clothes\hat\baseballcapblack</textureChoices>
+	<textureChoices>clothes\hat\baseballcapwhite</textureChoices>
+	<textureChoices>clothes\hat\bxcap01</textureChoices>
+	<textureChoices>clothes\hat\bxcap02</textureChoices>
+	<textureChoices>clothes\hat\bxcap03</textureChoices>
+	<textureChoices>clothes\hat\bxcap04</textureChoices>
+	<textureChoices>clothes\hat\bxcap05</textureChoices>
+	<textureChoices>clothes\hat\bxcap06</textureChoices>
+	<textureChoices>clothes\hat\bxcap07</textureChoices>
+	<textureChoices>clothes\hat\bxcap08</textureChoices>
+	<textureChoices>clothes\hat\bxcap09</textureChoices>
+	<textureChoices>clothes\hat\bxcap10</textureChoices>
+	<textureChoices>clothes\hat\bxcap11</textureChoices>
+	<textureChoices>clothes\hat\bxcap12</textureChoices>
+	<textureChoices>clothes\hat\bxcap13</textureChoices>
+	<textureChoices>clothes\hat\bxcap14</textureChoices>
+	<textureChoices>clothes\hat\bxcap15</textureChoices>
+	<textureChoices>clothes\hat\BaseballCapCamo</textureChoices>
+</clothingItem>

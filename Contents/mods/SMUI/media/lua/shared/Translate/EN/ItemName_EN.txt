@@ -1,0 +1,40 @@
+ItemName_EN = {
+
+    ItemName_Base.Hat_BonnieHat_CamoGreen = "Woodland Boonie Hat",
+    ItemName_Base.Hat_Army = "Woodland PASGT Helmet",
+    ItemName_Base.Vest_BulletArmy = "Woodland PASGT Vest",
+    
+    ItemName_Base.Shoes_ArmyBoots = "Black Combat Boots",
+    ItemName_Base.Shoes_ArmyBootsDesert = "Desert Combat Boots",
+
+    ItemName_Base.Tshirt_ArmyGreen = "GI T-Shirt",
+    ItemName_Base.Tshirt_CamoDesert = "Desert Combat Pattern Jacket",
+    ItemName_Base.Tshirt_CamoGreen = "Woodland Pattern Jacket",
+    ItemName_Base.Tshirt_CamoUrban = "Urban Pattern Jacket",
+
+    ItemName_Base.Shirt_ArmyGreen = "GI T-Shirt",
+    ItemName_Base.Shirt_CamoDesert = "Desert Combat Pattern Jacket",
+    ItemName_Base.Shirt_CamoGreen = "Woodland Pattern Jacket",
+    ItemName_Base.Shirt_CamoUrban = "Urban Pattern Jacket",
+
+    ItemName_Base.Jacket_ArmyCamoDesert = "Desert Combat Pattern Jacket",
+    ItemName_Base.Jacket_ArmyCamoGreen = "Woodland Pattern Jacket",
+    ItemName_Base.Jacket_CoatArmy = "Army Service Jacket",
+
+    ItemName_Base.Trousers_CamoDesert = "Desert Combat Pattern Pants",
+    ItemName_Base.Trousers_CamoGreen = "Woodland Pattern Pants",
+    ItemName_Base.Trousers_CamoUrban = "Urban Pattern Pants",
+    ItemName_Base.Trousers_ArmyService = "Army Service Pants",
+    
+    ItemName_Base.Shorts_CamoUrbanLong = "Urban Pattern Shorts",
+    ItemName_Base.Shorts_CamoGreenLong = "Woodland Pattern Shorts",
+    
+    ItemName_Base.Bag_Military = "GI Duffelbag",
+    ItemName_Base.Bag_SurvivorBag = "Medium ALICE Pack",
+    ItemName_Base.Bag_ALICEpack = "Medium ALICE Pack",
+    ItemName_Base.Bag_ALICEpack_Army = "Woodland Medium ALICE Pack",
+
+    ItemName_Base.Hat_NBCmask = "M17 w/ Doff Hood",
+    ItemName_Base.Boilersuit_Flying = "CWU-27/P Suit",
+
+}

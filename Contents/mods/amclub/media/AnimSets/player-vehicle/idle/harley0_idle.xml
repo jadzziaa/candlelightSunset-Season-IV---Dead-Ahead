@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>harley0_idle</m_Name>
+	<m_AnimName>HARLEY_IdleFoot</m_AnimName>
+	<m_SpeedScale>1</m_SpeedScale>
+	<m_BlendTime>0.0</m_BlendTime>
+	<m_Conditions>
+		<m_Name>ATVehicleType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>HARLEY0</m_StringValue>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>harley0_forward</m_Target>
+		<m_AnimName>HARLEY_IdleFoot_to_Idle</m_AnimName>
+		<m_speedScale>1</m_speedScale>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>harley0_reverso</m_Target>
+		<m_AnimName>HARLEY_IdleFoot_to_Reverso</m_AnimName>
+		<m_speedScale>1</m_speedScale>
+	</m_Transitions>
+</animNode>

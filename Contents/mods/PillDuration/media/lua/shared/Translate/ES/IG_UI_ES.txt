@@ -1,0 +1,10 @@
+IGUI_ES = {
+    IGUI_PillInfoOpen = "Medicamentos",
+    IGUI_PillInfoTitle = "Información de los Medicamentos",
+    IGUI_NoneActiveInfo = "No se ha seleccionado ninguna medicación",
+    IGUI_PillBeta = "Tranquilizantes",
+    IGUI_PillPain = "Analgésicos",
+    IGUI_PillDepr = "Antidepresivos",
+    IGUI_PillSleep = "Somníferos",
+    IGUI_Antibiotics = "Antibióticos",
+}

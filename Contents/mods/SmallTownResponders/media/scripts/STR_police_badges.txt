@@ -1,0 +1,204 @@
+module STR {
+
+	imports {
+		Base
+	}
+    item RavenCreekPoliceBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	RavenCreek PD Badge,
+        Icon	=	Badge_Police_Raven_Creek,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = RCRBadge_Ground,
+    }
+    item KSPPoliceBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Kentucky State Police Badge,
+        Icon	=	Badge_Police_KSP,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = KSPBadge_Ground,
+    }
+    item MeadeSheriffBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Meade County SO Badge,
+        Icon	=	Badge_Police_Meade,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = MeadeBadge_Ground,
+    }
+    item RosewoodSheriffBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Rosewood SD Badge,
+        Icon	=	Badge_Police_Rosewood,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = RWBadge_Ground,
+    }
+    item WestPointPoliceBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	WestPoint PD Badge,
+        Icon	=	Badge_Police_WestPoint,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = WPBadge_Ground,
+    }
+    item MuldraughPoliceBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Muldraugh PD Badge,
+        Icon	=	Badge_Police_Muldraugh,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = MDBadge_Ground,
+    }
+    item RiversidePoliceBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Riverside PD Badge,
+        Icon	=	Badge_Police_Riverside,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = RSBadge_Ground,
+    }
+    item LouisvillePoliceBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Louisville DoP Badge,
+        Icon	=	Badge_Police_Louisville,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = LVBadge_Ground,
+    }
+    item JeffersonPoliceBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Jefferson County PD Badge,
+        Icon	=	Badge_Police_JeffersonPD,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = JCPDBadge_Ground,
+    }
+    item JeffersonSheriffBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Jefferson County SD Badge,
+        Icon	=	Badge_Police_JeffersonSD,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = JCSDBadge_Ground,
+    }
+    item FederalRangerBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Federal Ranger Badge,
+        Icon	=	Badge_Federal_Ranger,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = NSPBadge_Ground,
+    }
+    item StateRangerBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Kentucky Fish & Wildlife Ranger Badge,
+        Icon	=	Badge_State_Ranger,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = SRBadge_Ground,
+    }
+    item StateLawRangerBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Kentucky State Park Ranger Badge,
+        Icon	=	Badge_State_Law_Ranger,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = SPBadge_Ground,
+    }
+    item SecurityBankBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Bank Security Badge,
+        Icon	=	Badge_Security_Bank,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = SBBadge_Ground,
+    }
+    item SecurityHotelHavishamBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Havisham Hotel Security Badge,
+        Icon	=	Badge_Security_Hotel_Havisham,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = SHHBadge_Ground,
+    }
+    item SecurityMallOhioBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Grand Ohio Mall Security Badge,
+        Icon	=	Badge_Security_Mall_Ohio,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = SMOBadge_Ground,
+    }
+    item SecurityMallValleyBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Valley Station Mall Security Badge,
+        Icon	=	Badge_Security_Mall_Valley,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = SMVBadge_Ground,
+    }
+    item SecurityMallLVBadge
+    {
+	    DisplayCategory = Literature,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Mall Security Badge,
+        Icon	=	Badge_Security_Mall_LV,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = SMLVBadge_Ground,
+    }
+}

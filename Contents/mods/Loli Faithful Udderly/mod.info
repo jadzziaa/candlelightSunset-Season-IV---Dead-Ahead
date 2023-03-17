@@ -1,0 +1,10 @@
+name=Loli's Alice Backpack Retexture - Faithful Holstein Pattern
+id=LoliUdderlyCow
+description=Alt version of UdderlyEvelyn's Cow backpack to be a little bit more faithful to the original texture
+
+pzversion=41
+authors=Loli
+poster=blanc.png
+
+require=LoliAlice
+

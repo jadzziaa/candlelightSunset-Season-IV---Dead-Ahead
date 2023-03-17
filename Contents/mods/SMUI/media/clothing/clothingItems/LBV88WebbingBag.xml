@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\M_LBV88Bag.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\F_LBV88Bag.FBX</m_FemaleModel>
+	<m_GUID>694ca4d4-13eb-45f9-b2e6-be9c64220fd1</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\LBV88</textureChoices>
+</clothingItem>

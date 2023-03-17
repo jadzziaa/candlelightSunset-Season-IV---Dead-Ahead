@@ -1,0 +1,4 @@
+name=Mod Config Menu
+id=ModConfigMenu
+description= Provides an interface to allow mods to be tweaked in the options menu.
+poster=poster.png

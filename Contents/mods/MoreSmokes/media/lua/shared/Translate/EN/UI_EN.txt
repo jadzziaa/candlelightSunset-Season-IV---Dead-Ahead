@@ -1,0 +1,6 @@
+UI_EN = {
+    UI_trait_stoner = "Stoner",
+    UI_trait_stonerinfo = "Gives +1 to Cultivation skills allowing you to roll joints immediately<br>Getting high has more pros and less cons",
+    UI_trait_paranoid_toker = "Paranoid Toker",
+    UI_trait_paranoid_tokerinfo = "You often panic and get stressed when really high",
+}

@@ -1,0 +1,10 @@
+IGUI_JP = {
+    IGUI_PillInfoOpen = "錠剤情報",
+    IGUI_PillInfoTitle = "錠剤情報ウィンドウ",
+    IGUI_NoneActiveInfo = "表示する薬が選択されていない",
+    IGUI_PillBeta = "ベータ遮断薬",
+    IGUI_PillPain = "鎮痛剤",
+    IGUI_PillDepr = "抗うつ剤",
+    IGUI_PillSleep = "睡眠薬",
+    IGUI_Antibiotics = "抗生物質",
+}

@@ -1,0 +1,28 @@
+module SMUIClothing
+{
+
+    item SMUI_MaleHeadStubble
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        ClothingItem = MaleHeadStubble_SMUI,
+        BodyLocation = SMUICosmeticOne,
+        Weight	=	0.1,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CanHaveHoles = false,
+    }
+
+    item SMUI_Facepaint
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        ClothingItem = Facepaint_SMUI,
+        BodyLocation = SMUICosmeticTwo,
+        Weight	=	0.1,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 1,
+        CanHaveHoles = false,
+    }
+	
+}

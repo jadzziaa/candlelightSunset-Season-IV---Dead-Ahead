@@ -1,0 +1,31 @@
+module Base
+{
+	item LongJohns
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Johns,
+        ClothingItem = LongJohns,
+        BodyLocation = Torso1Legs1,
+        BloodLocation = Trousers;ShirtLongSleeves,
+        IconsForTexture = Longjohns;Longjohns_tan;Longjohns_black,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item LongJohns_Bottoms
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Johns Bottoms,
+        ClothingItem = LongJohns_Bottoms,
+        BodyLocation = Legs1,
+        BloodLocation = Trousers,
+        IconsForTexture = TrousersLongjohns;LongJohns_Bottoms_Tan;LongJohns_Bottoms_Black,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+}

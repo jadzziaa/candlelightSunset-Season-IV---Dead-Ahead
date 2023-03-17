@@ -1,0 +1,175 @@
+local tickControl = 1000
+local tickStart = 0
+
+local function checkPlayerHotbar(weapon, result)
+	local Hotbar = getPlayerHotbar(0)
+	--	if Hotbar ~= nil and Hotbar:isVisible() then			-- GAME PAD NOT VISIBLE
+	if Hotbar ~= nil then -- APPLY FOR GAMEPAD TOO
+		local W_slot = weapon:getAttachedSlot()
+		local slot = Hotbar.availableSlot[W_slot]
+		if (slot) and (result) and (not Hotbar:isInHotbar(result)) and (Hotbar:canBeAttached(slot, result)) then
+			Hotbar:removeItem(weapon, false)
+			Hotbar:attachItem(result, slot.def.attachments[result:getAttachmentType()], W_slot, slot.def, false)
+		end
+	else DebugSay(3, "Hotbar - N/A")
+	end
+end
+
+--[[ local function setRange(weapon, mode)
+	local BaseSoundRadius = SandboxVars.WeaponSoundExpansions.BaseSoundRadius
+	local SuppressRadius = SandboxVars.WeaponSoundExpansions.SuppressRadius
+
+	 print('OriginSoundRadius: ' .. weapon:getScriptItem():getSoundRadius())
+
+	 -- print('OriginSoundVolume: ' .. weapon:getScriptItem():getSoundVolume())
+	-- print('OriginMaxRange: ' .. weapon:getScriptItem():getMaxRange())
+	
+	for i = 0, 1, 1 do
+	
+		-- print('setRange count:' .. i)
+		
+		if mode == "silence" then
+		
+			weapon:getScriptItem():setSoundRadius(SuppressRadius)
+		else
+			
+			weapon:getScriptItem():setSoundRadius(BaseSoundRadius)
+			
+		end
+	end
+	print('SoundRadius: ' .. weapon:getScriptItem():getSoundRadius())
+	
+	-- print('SoundVolume: ' .. weapon:getScriptItem():getSoundVolume())
+	-- print('MaxRange: ' .. weapon:getScriptItem():getMaxRange())
+
+end
+
+--]]
+
+local function gunSetSwingSound(weapon)
+	print('gunSetSwingSound')
+	if weapon ~= nil then
+		if gunSoundList[weapon:getType()] == nil then return end
+		local gunSound = gunSoundList[weapon:getType()]
+		if weapon:getCanon() ~= nil then
+			print('weapon canno: ' .. weapon:getCanon():getType())
+			if string.find(weapon:getCanon():getType(), "Suppressor") then
+				print('Suppressor')
+				weapon:setSwingSound(gunSound .. '_silence')
+				print('gunSound: ' .. gunSound .. '_silence')
+			--	setRange(weapon, 'silence')
+			else
+			--	setRange(weapon, 'default')
+				weapon:setSwingSound(gunSound)
+				print('gunSound: ' .. gunSound)
+			end
+		else
+			-- Preloaded with silenced guns
+			if string.find(gunSound, 'silence') then
+				weapon:setSwingSound(gunSound)
+				print('gunSound: ' .. gunSound)
+			--	setRange(weapon, 'silence')
+			else
+			--	setRange(weapon, 'default')
+				weapon:setSwingSound(gunSound)
+				print('gunSound: ' .. gunSound)
+			end
+		end
+	end
+end
+
+local function refereshWeapon(player, weapon)
+	if gunSoundList[weapon:getType()] == nil then return end
+	print('refreshWeapon')
+	local clone = weapon:getType()
+	local result = InventoryItemFactory.CreateItem(clone);
+	player:getInventory():AddItem(result);
+
+	--	======= TRANSFER CONDITION & MODE ======
+	result:setCondition(weapon:getCondition());
+	result:setFireMode(weapon:getFireMode());
+
+	--	====== TRANSFER AMMO MAG & CHAMBER =====
+	if weapon:isContainsClip() == true then
+		result:setContainsClip(true);
+	end
+
+	--	====== TRANSFER MAG-TYPE =====
+	if weapon:getMagazineType() == nil and weapon:getModData().ClipType ~= nil then
+		result:setMagazineType(weapon:getModData().ClipType);
+	elseif result:getMagazineType() == Fixed then -- FIXED MAG GUNS... SEEMS BACKWARDS ???
+		DebugSay(3, "...")
+	elseif weapon:getMagazineType() ~= Fixed then -- MAG FED GUNS
+		result:setMagazineType(weapon:getMagazineType());
+	end
+
+	result:setMaxAmmo(weapon:getMaxAmmo());
+
+	result:setCurrentAmmoCount(weapon:getCurrentAmmoCount());
+
+	if weapon:isRoundChambered() == true then
+		result:setRoundChambered(true);
+	end
+
+	--	====== TRANSFER WEAPON ATTACHMENTS SO THEY DO NOT AFFECT MELEE VERSION
+	if (result:isAimedFirearm() and weapon:isAimedFirearm()) then -- [GUN to GUN] LEAVE THIS ALONE
+		result:attachWeaponPart(weapon:getWeaponPart("Scope"))
+		result:attachWeaponPart(weapon:getWeaponPart("Canon"))
+		result:attachWeaponPart(weapon:getWeaponPart("Clip"))
+		result:attachWeaponPart(weapon:getWeaponPart("Stock"))
+		result:attachWeaponPart(weapon:getWeaponPart("Sling"))
+		result:attachWeaponPart(weapon:getWeaponPart("RecoilPad"))
+	end
+
+	-- 	[IF GUN HAS LAUNCHER FROM GUN TO MELEE MODE] SAVE ATTACHMENT TO ModData.TempXXX
+	local sling = weapon:getSling()
+	if ((sling) and (string.find(sling:getType(), "Launcher")) and (not isLauncher(weapon))) or
+		((Integral) and (Integral == "Launcher") and (not isLauncher(weapon))) then
+		result:getModData().TempFireMode         = (weapon:getModData().TempFireMode) -- M203 SET TEMP for M16 SwitchBack
+		result:getModData().TempContainsClip     = (weapon:getModData().TempContainsClip)
+		result:getModData().TempRoundChambered   = (weapon:getModData().TempRoundChambered)
+		result:getModData().TempCurrentAmmoCount = (weapon:getModData().TempCurrentAmmoCount)
+		result:getModData().TempAmmoType         = (weapon:getModData().TempAmmoType)
+	end
+	
+	gunSetSwingSound(result)
+	result:setFavorite(true)
+
+	if (instanceof(result, "HandWeapon")) then -- REMOVE isAimedFirearm() for BAYO (Mele)
+		player:setPrimaryHandItem(result)
+		if (result:isRequiresEquippedBothHands() or result:isTwoHandWeapon()) then
+			player:setSecondaryHandItem(result)
+		else player:setSecondaryHandItem(nil)
+		end
+		checkPlayerHotbar(weapon, result) -- CHECK HOTBAR
+		local inv = player:getInventory()
+		inv:DoRemoveItem(weapon);
+	end
+end
+
+
+
+local function gunSoundOnEquip(player, weapon)
+	print('gunSoundOnEquip')
+	if (weapon) and (instanceof(weapon, "HandWeapon")) and (weapon:isAimedFirearm()) then
+		print(weapon:getType())
+		gunSetSwingSound(weapon)
+	end
+end
+
+local function OnTick()
+	tickStart = tickStart + 1
+	if (tickStart % tickControl == 0) then
+		print('OnTick')
+		local player = getPlayer()
+		local weapon = player:getPrimaryHandItem()
+		if (weapon) and (instanceof(weapon, "HandWeapon")) and (weapon:isAimedFirearm()) then
+			print(weapon:getType())
+			refereshWeapon(player, weapon)
+		end
+		Events.OnTick.Remove(OnTick)
+	end
+end
+
+Events.OnTick.Add(OnTick)
+Events.OnEquipPrimary.Add(gunSoundOnEquip);

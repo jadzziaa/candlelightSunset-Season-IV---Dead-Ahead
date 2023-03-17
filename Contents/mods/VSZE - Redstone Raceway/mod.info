@@ -1,0 +1,9 @@
+name=Vehicle Spawn Zones Expanded - Redstone Raceway Addon
+poster=preview.png
+versionMin=41.60
+id=fhqExpVehSpawnRedRace
+authors=fhqwhgads
+tags=Vehicles, Map
+modVersion=1.0.0
+description=Adds VSZE spawn zones to Redstone Raceway.
+require=fhqExpVehSpawn,RedRacer

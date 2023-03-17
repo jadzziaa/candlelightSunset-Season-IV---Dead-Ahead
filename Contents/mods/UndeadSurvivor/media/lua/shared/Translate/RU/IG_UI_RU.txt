@@ -1,0 +1,11 @@
+IGUI_RU = {
+
+IGUI_HotbarAttachment_PrepperVestFlashlight = "Разгрузка (крепление для фонарика выживальщика)",
+IGUI_HotbarAttachment_PrepperVestKnife = "Разгрузка (крепление для ножа)",
+IGUI_HotbarAttachment_PrepperGunMagazine1 = "Разгрузка (магазин 1)",
+IGUI_HotbarAttachment_PrepperGunMagazine2 = "Разгрузка (магазин 2)",
+IGUI_HotbarAttachment_PrepperGunMagazine3 = "Разгрузка (магазин 3)",
+IGUI_HotbarAttachment_PrepperGunMagazine4 = "Разгрузка (магазин 4)",
+IGUI_HotbarAttachment_PrepperHolster = "Кобура (на штанах)",
+
+}

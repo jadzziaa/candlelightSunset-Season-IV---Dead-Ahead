@@ -1,0 +1,552 @@
+module Base
+{
+	model 87cruiserRoofrackBase
+	{
+		mesh = vehicles/Vehicles_87cruiser_Roofrack_Body,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 1,
+	}
+	model 87cruiserRoofrackfrontwheelleft
+	{
+		mesh = vehicles/Vehicles_87cruiser_Wheel,
+		texture = vehicles/Vehicles_87cruiser_Shell,
+		shader = vehiclewheel,
+	}
+	model 87cruiserRoofrackfrontwheelright
+	{
+		mesh = vehicles/Vehicles_87cruiser_Wheel,
+		texture = vehicles/Vehicles_87cruiser_Shell,
+		shader = vehiclewheel,
+	}
+	model 87cruiserRoofrackbackwheelleft
+	{
+		mesh = vehicles/Vehicles_87cruiser_Wheel,
+		texture = vehicles/Vehicles_87cruiser_Shell,
+		shader = vehiclewheel,
+	}
+	model 87cruiserRoofrackbackwheelright
+	{
+		mesh = vehicles/Vehicles_87cruiser_Wheel,
+		texture = vehicles/Vehicles_87cruiser_Shell,
+		shader = vehiclewheel,
+	}
+	vehicle 87cruiserRoofrack
+	{
+		mechanicType = 2,
+		offRoadEfficiency = 1.65,
+		engineRepairLevel = 4,
+		playerDamageProtection = 1.4,
+		engineRPMType = van,
+
+		model
+		{
+			file = 87cruiserRoofrackBase,
+			scale = 1.1700,
+			offset = 0.0000 0.4872 0.0000,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicles_87cruiserRoofrack_Shell,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicles_87cruiserRoofrack_Shell_ARMYgreen,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicles_87cruiserRoofrack_Shell_BlueMet,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicles_87cruiserRoofrack_Shell_Camo,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicles_87cruiserRoofrack_Shell_Champagne,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicles_87cruiserRoofrack_Shell_NATOgreen,
+		}
+
+		textureRust = Vehicles/Vehicles_87cruiser_Rust,
+		textureMask = Vehicles/Vehicles_87cruiser_Mask,
+		textureLights = Vehicles/Vehicles_87cruiser_Lights,
+		textureDamage1Overlay = Vehicles/Vehicles_87cruiser_Overlays_Damaged01,
+		textureDamage1Shell = Vehicles/Vehicles_87cruiser_Shell_Damaged01,
+		textureDamage2Overlay = Vehicles/Vehicles_87cruiser_Overlays_Damaged02,
+		textureDamage2Shell = Vehicles/Vehicles_87cruiser_Shell_Damaged02,
+
+		sound
+		{
+			engine = VehicleEngineSUV,
+			engineStart = VehicleEngineSUV,
+			engineTurnOff = VehicleEngineSUV,
+			horn = VehicleHornStandard,
+			ignitionFail = VehicleIgnitionFailSUV,
+		}
+
+		extents = 1.3846 1.0598 3.5897,
+		mass = 1080,
+		physicsChassisShape = 1.3846 1.0598 3.5897,
+		centerOfMassOffset = 0.0000 0.4872 0.0000,
+		shadowExtents = 1.5374 3.5781,
+		shadowOffset = 0.0060 -0.0026,
+		engineForce = 3850,
+		gearRatioCount = 5,
+		gearRatioR = 4.84,
+		gearRatio1 = 4.84,
+		gearRatio2 = 2.61,
+		gearRatio3 = 1.51,
+		gearRatio4 = 1.00,
+		gearRatio5 = 0.84,
+		maxSpeed = 80f,
+		engineLoudness = 86,
+		engineQuality = 87,
+		brakingForce = 55,
+		stoppingMovementForce = 4.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 27,
+		suspensionCompression = 4.83,
+		suspensionDamping = 3.88,
+		maxSuspensionTravelCm = 15,
+		suspensionRestLength = 0.20f,
+		wheelFriction = 1.4f,
+		frontEndHealth = 160,
+		rearEndHealth = 150,
+		seats = 4,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.5812 -0.6239 1.2051,
+			radius = 0.23f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.5812 -0.6239 1.2051,
+			radius = 0.23f,
+			width = 0.2f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.5812 -0.6496 -0.8205,
+			radius = 0.23f,
+			width = 0.2f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.5812 -0.6496 -0.8205,
+			radius = 0.23f,
+			width = 0.2f,
+		}
+
+		template = PassengerSeat4,
+
+		passenger FrontLeft
+		{
+			position inside
+			{
+				offset = 0.3077 -0.1538 -0.0256,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.9316 -0.5556 -0.0684,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			position inside
+			{
+				offset = -0.3162 -0.1368 -0.0085,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.9145 -0.5556 -0.0513,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		passenger RearLeft
+		{
+			position inside
+			{
+				offset = 0.2906 -0.1282 -0.6410,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.8889 -0.4786 -0.6838,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearLeft,
+			}
+		}
+
+		passenger RearRight
+		{
+			position inside
+			{
+				offset = -0.3419 -0.1709 -0.6239,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.9060 -0.4786 -0.6239,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 1.9915 1.1282 0.4103,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -2.0342 1.1282 0.4957,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 1.0769 0.2051 0.7863 0.7692,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -1.0769 0.1966 0.7863 0.7692,
+		}
+
+		area SeatRearRight
+		{
+			xywh = -1.0769 -0.4957 0.7863 0.6154,
+		}
+
+		area SeatRearLeft
+		{
+			xywh = 1.0769 -0.4872 0.7863 0.6154,
+		}
+
+		area GasTank
+		{
+			xywh = -0.8974 -1.4359 0.4103 0.4103,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.8974 1.2137 0.4103 0.4103,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.9060 1.2137 0.4103 0.4103,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.8974 -0.7863 0.4103 0.4103,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.9060 -0.7863 0.4103 0.4103,
+		}
+
+		template = Trunk/part/TruckBed,
+		template = cruiserRoofRack,
+
+		part TruckBed
+		{
+			container
+			{
+				capacity = 90,
+				ConditionAffectsCapacity = false,
+			}
+		}
+
+		template = TrunkDoor,
+
+		part TrunkDoor
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+		template = Seat/part/SeatRearLeft,
+		template = Seat/part/SeatRearRight,
+
+		part Seat*
+		{
+			table install
+			{
+				skills = Mechanics:2,
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+
+			container
+			{
+				capacity = 7,
+				test = Vehicles.ContainerAccess.GloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			install
+			{
+				skills = Mechanics:7,
+				recipes = Intermediate Mechanics,
+			}
+
+			uninstall
+			{
+				skills = Mechanics:7,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+
+		part Muffler
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = EngineDoor,
+
+		part EngineDoor
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		part Heater
+		{
+			category = engine,
+
+			lua
+			{
+				update = Vehicles.Update.Heater,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Windshield/part/Windshield,
+		template = Windshield/part/WindshieldRear,
+
+		part Windshield*
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+		template = Window/part/WindowRearRight,
+		template = Window/part/WindowRearLeft,
+
+		part Window*
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+		template = Door/part/DoorRearLeft,
+		template = Door/part/DoorRearRight,
+
+		part Door*
+		{
+			table install
+			{
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Tire,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = 87cruiserRoofrackfrontwheelleft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = 87cruiserRoofrackfrontwheelright,
+			}
+		}
+
+		part TireRearLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = 87cruiserRoofrackbackwheelleft,
+			}
+		}
+
+		part TireRearRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = 87cruiserRoofrackbackwheelright,
+			}
+		}
+
+		template = Brake,
+
+		part Brake*
+		{
+			table install
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Suspension,
+
+		part Suspension*
+		{
+			table install
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:6,
+				recipes = Intermediate Mechanics,
+			}
+		}
+
+		template = Radio,
+		template = Headlight,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.3906 -1.9453,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.3906 1.9531,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

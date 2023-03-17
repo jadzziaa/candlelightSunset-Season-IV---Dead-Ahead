@@ -1,0 +1,4 @@
+Tooltip_EN = {
+	-- Carpentry
+	Tooltip_craft_Barricade = "A barricade made of multiple wooden objects to keep the zombies at bay.",
+}

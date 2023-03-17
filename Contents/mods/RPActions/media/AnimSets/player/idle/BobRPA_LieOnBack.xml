@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_extends='looped.xml'>
+	<m_Name>BobRPA_LieOnBack</m_Name>
+	<m_AnimName>BobRPA_LieOnBack</m_AnimName>
+	<m_BlendTime>0</m_BlendTime>
+	<m_Conditions>
+		<m_StringValue>BobRPA_LieOnBack</m_StringValue>
+	</m_Conditions>
+	<m_SubStateBoneWeights>
+		<boneName>Dummy01</boneName>
+		<weight>1</weight>
+	</m_SubStateBoneWeights>
+</animNode>

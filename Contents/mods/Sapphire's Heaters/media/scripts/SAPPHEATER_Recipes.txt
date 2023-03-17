@@ -1,0 +1,105 @@
+module Base
+{
+    recipe Remove Battery
+    {
+	    keep SAPPHEATER.SmallHeater,
+
+        Result:CarBattery1,
+        time: 30,
+        OnTest:Recipe.OnTest.TorchBatteryRemoval,
+        OnCreate:Recipe.OnCreate.HeaterBatteryRemoval,   
+    }
+
+    recipe Insert Battery into Small Heater
+    {
+        destroy SAPPHEATER.SmallHeater,
+        destroy CarBattery1,
+
+        Result:SAPPHEATER.SmallHeater,
+        Time:30,
+        OnTest:Recipe.OnTest.HeaterBatteryInsert,
+        OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+    }     
+
+    recipe Craft Small Heater
+    {
+        SAPPHEATER.HeaterCircuit=1,
+        ElectronicsScrap=4,
+	    SheetMetal=2,
+	    MetalPipe=2,
+        destroy CarBattery1=1,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        noBrokenItems:true,
+        Result:SmallHeater,
+        SkillRequired:Electricity=3;MetalWelding=1,
+        Time:400.0,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+        Sound:Dismantle,
+        NeedToBeLearn: True,
+    }
+
+    recipe Remove Battery
+    {
+        keep SAPPHEATER.OutdoorHeater,
+
+        Result:CarBattery2,
+        time:60,
+        onTest:
+
+        OnTest:Recipe.OnTest.TorchBatteryRemoval,
+        OnCreate:Recipe.OnCreate.OutdoorHeaterBatteryRemoval, 
+    }
+
+    recipe Insert Battery into Portable Outdoor Heater
+    {
+        destroy SAPPHEATER.OutdoorHeater,
+        destroy CarBattery2,
+
+        Result:SAPPHEATER.OutdoorHeater,
+        Time:30,
+        OnTest:Recipe.OnTest.OutdoorHeaterBatteryInsert,
+        OnCreate:Recipe.OnCreate.TorchBatteryInsert,        
+    }
+
+    recipe Craft Portable Outdoor Heater
+    {
+        SAPPHEATER.HeaterCircuit=1,
+        ElectronicsScrap=4,
+	    SheetMetal=4,
+	    MetalPipe=4,
+        destroy CarBattery2=1,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        noBrokenItems:true,
+        Result:OutdoorHeater,
+        SkillRequired:Electricity=5;MetalWelding=3,
+        Time:800.0,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+        Sound:Dismantle,
+        NeedToBeLearn: True,
+    }
+
+    recipe Craft Electric Heater
+    {
+        SAPPHEATER.HeaterCircuit=2,
+        ElectronicsScrap=6,
+	    SheetMetal=4,
+	    MetalPipe=4,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        noBrokenItems:true,
+        Result:ElectricHeater,
+        SkillRequired:Electricity=7;MetalWelding=5,
+        Time:1600.0,
+        Category:Electrical,
+        AnimNode:Disassemble,
+        Prop1:Screwdriver,
+        Sound:Dismantle,
+        NeedToBeLearn: True,
+    }
+}

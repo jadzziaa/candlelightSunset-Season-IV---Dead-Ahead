@@ -1,0 +1,88 @@
+module Base
+{
+	fixing Fix ARRW Tire
+	{
+	   Require : 90pierceArrowTire2;90pierceArrowDoubleTires2,
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix ARRW Seat
+	{
+	   Require : 90pierceArrowSeat2,
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+	
+	fixing Fix ARRW Trunk Welding
+	{
+	   Require : 90pierceArrowTrunk2;90pierceArrowWaterTank2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix ARRW Hood Welding
+	{
+	   Require : 90pierceArrowEngineDoor2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    	fixing Fix ARRW Hood
+	{
+	   Require : 90pierceArrowEngineDoor2,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix ARRW Trunk Lid Welding
+    {
+       Require : 90pierceArrowTrunkDoor2;90pierceArrowTrunkDoorsLeft2;90pierceArrowTrunkDoorsRight2,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix ARRW Trunk Lid
+	{
+       Require : 90pierceArrowTrunkDoor2;90pierceArrowTrunkDoorsLeft2;90pierceArrowTrunkDoorsRight2,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix ARRW Door Welding
+	{
+	   Require : 90pierceArrowFrontDoor2;90pierceArrowRearDoor2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=3,
+	}
+
+	fixing Fix ARRW Bumper Welding
+    {
+       Require : 90pierceArrowBumper0,
+       GlobalItem : BlowTorch=7,
+       ConditionModifier : 1.0,
+
+       Fixer : SheetMetal; MetalWelding=4;Mechanics=4,
+       Fixer : SmallSheetMetal=2; MetalWelding=4;Mechanics=4,
+    }
+
+}

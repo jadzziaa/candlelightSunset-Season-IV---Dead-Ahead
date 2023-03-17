@@ -1,0 +1,20 @@
+module Base
+{
+	fixing Fix 80S Tire
+	{
+	   Require : 80sOffroadTireA,
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix 80S Seat
+	{
+	   Require : 80sPickupSeatFront2;80sPickupSeatRear2,
+	   ConditionModifier : 0.4,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+	
+}

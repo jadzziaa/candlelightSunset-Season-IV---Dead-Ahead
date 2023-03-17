@@ -1,0 +1,7 @@
+﻿Tooltip_EN = {
+	-- Item tooltip
+		Tooltip_Silencer = "Reduces sound radius considerably but slightly lowers range",
+		Tooltip_MetalPipeSilencer = "Reduces sound radius considerably but slightly lowers range",
+		Tooltip_TorchSilencer = "Reduces sound radius somewhat but lowers range",
+		Tooltip_WaterBottleSilencer = "Reduces sound radius somewhat but lowers range",
+}

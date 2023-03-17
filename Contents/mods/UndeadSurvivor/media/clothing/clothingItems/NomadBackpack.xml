@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_nomadbackpack</m_MaleModel>
+	<m_FemaleModel>skinned\m_nomadbackpack</m_FemaleModel>
+	<m_GUID>77539380-d457-44d9-95cd-1bb4833f9216</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\nomadbackpack</textureChoices>
+</clothingItem>

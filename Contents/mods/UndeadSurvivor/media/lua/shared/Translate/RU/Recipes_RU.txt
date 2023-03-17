@@ -1,0 +1,13 @@
+Recipes_RU = {	
+
+	Recipe_Knock_Prepper_Knife = "Сменить тип атаки на стук",
+	Recipe_Stab_Prepper_Knife = "Сменить тип атаки на укол",
+	Recipe_Swing_Prepper_Knife = "Сменить тип атаки на взмах",
+	Recipe_Make_Prepper_Vest_with_bags = "Закрепить сумки на разгрузке",
+	Recipe_Remove_Bags_from_Prepper_Vest = "Открепить сумки от разгрузки",
+	Recipe_Remove_Battery_from_Prepper_Flashlight = "Вынуть батарейку",
+	Recipe_Insert_Battery_into_Prepper_Flashlight = "Вставить батарейку",
+	Recipe_Dismantle_Prepper_Flashlight = "Разобрать фонарик",
+	Recipe_Trim_Amazona_Dress = "Обрезать платье",
+	
+}

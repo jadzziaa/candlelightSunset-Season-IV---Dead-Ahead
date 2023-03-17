@@ -1,0 +1,207 @@
+module Sprout
+{
+	imports
+	{
+		Base
+	}
+recipe Make Tofu
+	{
+       SoyBean=5,
+       keep MortarPestle,
+	keep BakingPan,
+	keep Fork/Spoon,
+
+       Result:Tofu,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Soysauce
+	{
+       SoyBean=10,
+       keep MortarPestle,
+
+       Result:Soysauce,
+       Time:200.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Flour
+	{
+       Wheat=10,
+      keep MortarPestle,
+
+       Result:Flour,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Corn Flour
+	{
+       Corn=10,
+      keep MortarPestle,
+
+       Result:Cornflour,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Olive Oil
+	{
+       Olive=10,
+      keep MortarPestle,
+	EmptyJar,
+	JarLid,
+
+       Result:OilOlive,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Sugar
+	{
+       SugarCane=2,
+      keep MortarPestle,
+
+       Result:Sugar,
+       Time:130.0,
+       Category:Cooking,
+	 Sound:Sawing,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+
+recipe Make Yeast
+	{
+	Apple/Cherry/Banana/Grape/Grapefruit/Orange/Peach/BerryBlue/BerryBlack=2,
+	Sugar=1,
+	Flour=1,
+
+       Result:Yeast,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+recipe Make Salt
+	{
+       RockSalt,
+      keep MortarPestle,
+
+       Result:Salt=2,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Pepper
+	{
+       PepperPlant,
+      keep MortarPestle,
+
+       Result:Pepper,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}
+recipe Make Cheese
+	{
+       Vinegar=1,
+	Milk=2,
+	Yeast,
+	Water=10,
+	Salt=3,
+
+	keep ButterKnife/KitchenKnife,
+	keep RippedSheets,
+	keep Bowl,
+
+       Result:Cheese,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+recipe Make Yoghurt
+	{
+      Vinegar=1,
+	Milk=5,
+	Water=10,
+
+	keep Sppon,
+	keep Bowl,
+	keep RippedSheets,
+
+       Result:Yoghurt=2,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+recipe Make Butter
+	{
+	Milk=2,
+	Water=5,
+	Salt=2,
+
+	keep EmptyJar,
+	keep JarLid,
+	keep Spoon,
+
+       Result:Butter,
+       Time:500.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+recipe Make Pasta
+	{
+	Flour=2,
+	Salt=2,
+	Egg/WildEggs=2,
+
+	keep BakingPan,
+	keep Fork,
+
+       Result:Pasta,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking5,
+	}
+
+recipe Make Vinegar
+	{
+	Vinegar=1,
+	Apple=2,
+	Water=10,
+       Sugar=2,
+
+	keep Pot,
+	keep Fork,
+       keep EmptyJar,
+       keep RippedSheets,
+       keep RubberBand,
+
+       Result:Vinegar=4,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+
+recipe Make Soap
+	{
+       Twigs=2,
+	Matches=1,
+	OliveOil=5,
+       Water=5,
+
+	keep Pot,
+	keep Spoon,
+       keep KitchenKnife,
+       keep BakingPan,
+
+       Result:Soap=2,
+       Time:200.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking15,
+	}
+}

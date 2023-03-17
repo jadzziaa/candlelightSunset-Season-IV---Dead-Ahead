@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>Skinned\Clothes\Spongie\M_PoloNeckSweaterTankTop</m_MaleModel>
+    <m_FemaleModel>Skinned\Clothes\Spongie\F_PoloNeckSweaterTankTop</m_FemaleModel>
+    <m_GUID>spongiec-0086-4c09-8cf5-c7d739a43d81</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<textureChoices>clothes/Spongie/Jumper/Jumper_PoloneckVest</textureChoices>
+</clothingItem>

@@ -1,0 +1,14 @@
+﻿ContextMenu_CH = {
+	ContextMenu_Smoke = "抽菸",
+	
+	ContextMenu_CarLighter = "點菸器",
+	ContextMenu_NoCarLighter = "No Car Lighter"
+	ContextMenu_InstallCarLighter = "Plug Car Lighter"
+	ContextMenu_UnInstallCarLighter = "Unplug Car Lighter"
+	ContextMenu_CarLighterRepairNoSkill = "<br> needs repair"
+	ContextMenu_CarLighterRepairWithSkill = "<br> can be repaired"
+	
+	ContextMenu_CarOutOfCigarette = "<br> 沒菸了",
+	ContextMenu_CarNoBattery = "<br> 電池遺失或沒電",
+	ContextMenu_CarNoKeyOrWire = "<br> 車輛沒有通電" 
+}

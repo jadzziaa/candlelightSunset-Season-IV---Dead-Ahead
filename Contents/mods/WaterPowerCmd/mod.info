@@ -1,0 +1,4 @@
+name=Water and power controls
+id=WaterPowerCmd
+description=Allows enabling and disabling water and power via chat commands or context menu entries
+poster=poster.png

@@ -1,0 +1,11 @@
+Tooltip_EN = {
+--
+	Tooltip_OilPan 				= "Needs heat, to be usable.",
+	Tooltip_WaterPan			= "Needs to be cooked.",
+	Tooltip_AsiaFoodMagazine = "Teaches cooking recipes from the Asian Region.",
+	Tooltip_EuropeFoodMagazine = "Teaches cooking recipes from the European Region.",
+	Tooltip_PastaDoughMagazine = "Teaches Pasta recipes.",
+	Tooltip_HotWater = "Combine with hot water.",
+	
+	
+} 	

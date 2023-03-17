@@ -1,0 +1,10 @@
+ ContextMenu_RU = {
+
+	ContextMenu_OpenJacket = "Расстегнуть",
+	ContextMenu_CloseJacket = "Застегнуть"
+	ContextMenu_TuckIn = "Подвернуть",
+	ContextMenu_TuckOut = "Вывернуть",
+	ContextMenu_RollUp = "Закатать",
+	ContextMenu_RollDown = "Раскатать",
+	
+} 

@@ -1,0 +1,111 @@
+module Base
+{
+	model 70barracudafrontBumper0
+	{
+		mesh = vehicles/Vehicles_70barracuda_Body|cuda_bumper_front0,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model 70barracudafrontBumper1
+	{
+		mesh = vehicles/Vehicles_70barracuda_Body|cuda_bumper_front1,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model 70barracudafrontBumper2
+	{
+		mesh = vehicles/Vehicles_70barracuda_Body|cuda_bumper_front2,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model 70barracudafrontBumpera
+	{
+		mesh = vehicles/Vehicles_70barracuda_Body|cuda_bumper_front_a,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	template vehicle CUDA0FrontBumpers
+		{
+		part CUDAFrontBumper
+        	{
+
+			model FrontBumper0
+				{
+                		file = 70barracudafrontBumper0,
+				}
+
+			model FrontBumper1
+				{
+                		file = 70barracudafrontBumper1,
+				}
+
+			model FrontBumper2
+				{
+                		file = 70barracudafrontBumper2,
+				}
+
+			model FrontBumperA
+				{
+                		file = 70barracudafrontBumpera,
+				}
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.CUDAFrontBumper0;Base.CUDAFrontBumper1;Base.CUDAFrontBumper2;Base.CUDAFrontBumperA,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = CUDA.InstallComplete.FrontBumper0,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = CUDA.UninstallComplete.FrontBumper0,
+            		}
+
+            		lua
+            		{
+					create = CUDA.Create.FrontBumper0,
+					init = CUDA.Init.FrontBumper0,
+					}
+		}
+	}
+
+		
+}

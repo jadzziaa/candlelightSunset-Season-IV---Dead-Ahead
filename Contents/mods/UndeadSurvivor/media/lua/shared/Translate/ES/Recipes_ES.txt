@@ -1,0 +1,4 @@
+Recipe_ES = {
+    Recipe_Use PVS15_Harness = "Usar PVS15 con arnés"
+    Recipe_Use PVS15_with_Mount "Usar PVS15 con montura"
+}

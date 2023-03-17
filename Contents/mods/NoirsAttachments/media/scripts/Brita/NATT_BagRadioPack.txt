@@ -1,0 +1,448 @@
+module Base {
+
+	model FemaleBody
+	{
+
+		attachment BagRadioPack_right
+		{
+			offset = 0.0300 -0.0850 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_wineright
+		{
+			offset = 0.0300 -0.0850 -0.0100,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BagRadioPack_left
+		{
+			offset = 0.0300 0.1250 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_wineleft
+		{
+			offset = 0.0300 0.1250 -0.0100,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_bedroll {
+			offset = -0.0500 0.0000 -0.1500,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_uldoll {
+			offset = 0.0650 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_uldogchew {
+			offset = 0.0650 0.0550 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulcattoy {
+			offset = 0.0650 0.0550 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulballon {
+			offset = 0.0350 0.0550 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulrubberducky {
+			offset = 0.0650 0.0550 -0.0800,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ultoybear {
+			offset = 0.1050 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_uldawn {
+			offset = 0.1050 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ultoycar {
+			offset = 0.0550 0.0550 -0.0800,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulyoyo {
+			offset = 0.0550 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulcube {
+			offset = 0.1050 0.0550 -0.0800,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulmask {
+			offset = 0.0450 0.0650 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulmaskground {
+			offset = 0.0450 0.0650 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulplushie {
+			offset = 0.0850 0.0850 -0.1850,
+			rotate = 0.0000 -100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulpawsplushie {
+			offset = 0.0850 0.0850 -0.1850,
+			rotate = 180.0000 100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulweapon {
+			offset = 0.0750 0.0850 0.0600,
+			rotate = 90.0000 180.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulweaponpan {
+			offset = 0.0750 0.0850 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulweaponsaucepan {
+			offset = 0.0750 0.0850 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulsnightstick {
+			offset = 0.0750 0.0550 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulwrench {
+			offset = 0.0750 0.0850 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulbottle {
+			offset = 0.0750 0.0850 -0.0600,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulwine {
+			offset = 0.0750 0.0850 -0.0200,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_weapon {
+			offset = 0.0650 0.0000 0.0600,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_weaponpan {
+			offset = 0.0650 0.0000 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_weaponsaucepan {
+			offset = 0.0650 0.0000 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_snightstick {
+			offset = 0.0650 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_wrench {
+			offset = 0.0650 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_flashlight {
+			offset = -0.0100 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment BagRadioPack_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagRadioPack_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagRadioPack_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+	}
+
+
+	model MaleBody
+	{
+		
+		attachment BagRadioPack_right
+		{
+			offset = 0.0300 -0.0850 -0.0500,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_wineright
+		{
+			offset = 0.0300 -0.0850 -0.0100,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment BagRadioPack_left
+		{
+			offset = 0.0300 0.1250 -0.0500,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_wineleft
+		{
+			offset = 0.0300 0.1250 -0.0100,
+			rotate = 90.0000 90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_bedroll {
+			offset = -0.0500 0.0000 -0.1500,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_uldoll {
+			offset = 0.0650 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_uldogchew {
+			offset = 0.0650 0.0550 -0.1350,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulcattoy {
+			offset = 0.0650 0.0550 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulballon {
+			offset = 0.0350 0.0550 -0.1350,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulrubberducky {
+			offset = 0.0650 0.0550 -0.0800,
+			rotate = 180.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ultoybear {
+			offset = 0.1050 0.0850 -0.1850,
+			rotate = 0.0000 -90.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_uldawn {
+			offset = 0.1050 0.0850 -0.1850,
+			rotate = 90.0000 -90.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ultoycar {
+			offset = 0.0550 0.0550 -0.0800,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulyoyo {
+			offset = 0.0550 0.0750 -0.1350,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulcube {
+			offset = 0.1050 0.0550 -0.0800,
+			rotate = 0.0000 0.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulmask {
+			offset = 0.0450 0.0650 -0.1150,
+			rotate = 0.0000 90.0000 170.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulmaskground {
+			offset = 0.0450 0.0650 -0.1150,
+			rotate = 0.0000 180.0000 -90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulplushie {
+			offset = 0.0850 0.0850 -0.1850,
+			rotate = 0.0000 -100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulpawsplushie {
+			offset = 0.0850 0.0850 -0.1850,
+			rotate = 180.0000 100.0000 90.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulweapon {
+			offset = 0.0750 0.0850 0.0600,
+			rotate = 90.0000 180.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulweaponpan {
+			offset = 0.0750 0.0850 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulweaponsaucepan {
+			offset = 0.0750 0.0850 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulsnightstick {
+			offset = 0.0750 0.0550 0.0600,
+			rotate = 0.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulwrench {
+			offset = 0.0750 0.0850 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulbottle {
+			offset = 0.0750 0.0850 -0.0600,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_ulwine {
+			offset = 0.0750 0.0850 -0.0200,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_weapon {
+			offset = 0.0650 0.0000 0.0600,
+			rotate = 90.0000 0.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_weaponpan {
+			offset = 0.0650 0.0000 -0.0300,
+			rotate = 90.0000 40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_weaponsaucepan {
+			offset = 0.0650 0.0000 -0.0300,
+			rotate = 90.0000 -40.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_snightstick {
+			offset = 0.0650 0.0300 0.0600,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_wrench {
+			offset = 0.0650 0.0000 0.0600,
+			rotate = 90.0000 -90.0000 -180.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment BagRadioPack_flashlight {
+			offset = 0.0000 0.0600 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+			bone = Bip01_Head,
+		}
+
+		attachment BagRadioPack_militaryflashlight
+		{
+			offset = 0.0800 0.0750 0.0700,
+			rotate = 180.0000 100.0000 0.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagRadioPack_prepperflashlight
+		{
+			offset = 0.0600 0.0750 0.0700,
+			rotate = 180.0000 100.0000 -90.0000,
+			bone = Bip01_Spine1,
+		}
+
+		attachment BagRadioPack_azmilitaryflashlight
+		{
+			offset = 0.0300 0.0750 0.0700,
+			rotate = 90.0000 0.0000 90.0000,
+			bone = Bip01_Spine1,
+		}
+
+	}
+
+}

@@ -1,0 +1,235 @@
+IGUI_EN = {
+    IGUI_InfoPanel_Tuning = "<CENTRE> <SIZE:medium> Vehicle modification panel <LINE> <LINE> <LEFT> <SIZE:small> or tuning panel. Here you see a list of available recipes for modifying your vehicle.<LINE> <LINE> Normally, all available recipes are always shown in this panel, but there are also recipes that do not appear here unless you fulfil some conditions. Conditions can be: you need a skill, a certain item, or a required character level. <LINE> <LINE> Resources in your inventory are used to create items. Also, the character takes resources from nearby containers - including the floor. <LINE> <LINE> At this point, parts installed through the tuning menu cannot be repaired without removal, and most modifications will be disassembled into base parts when removed.",
+    
+    IGUI_TuningCategory_ProtectionWindow = "Window Armor",
+    IGUI_TuningCategory_Protection = "Armor",
+
+    IGUI_ATA2_Bullbar_Handmade = "Makeshift Bullbar",
+    IGUI_ATA2_Bullbar_Lethal = "Spiked Bullbar",
+    IGUI_ATA2_Bullbar_Enhanced = "Improved Bullbar",
+    IGUI_ATA2_Bullbar_Spiked_Plough = "Spiked Plough",
+
+    IGUI_ATA2_Bumper_Lethal = "Spiked Bumper",
+
+    IGUI_ATA2_Spoiler_Middle = "Medium Spoiler",
+
+    IGUI_TuningUI_Title = "Vehicle Modifications",
+    
+    IGUI_TuningUI_ProtectionFor = "Armor:",
+
+	IGUI_VehicleNameAMC_bmw_classic = "Wittelsbach R797",
+	IGUI_VehicleNameAMC_bmw_custom = "Wittelsbach R797 Custom",
+	IGUI_VehicleNameAMC_harley = "Hammer-Dennis Sportsman",
+	IGUI_VehicleNameAMC_quad = "Pazuzu Quadtrekker",
+	IGUI_VehicleNameAMC_Waverunner = "Hamamatsu JetRusher",
+	IGUI_VehicleNameAMC_Waverunner_Ground = "Hamamatsu JetRusher",
+	IGUI_VehicleNameTrailerAMC = "Moto Trailer",
+	IGUI_VehicleNameTrailerAMCWaverunner = "Jetski Trailer",
+	IGUI_VehicleNameTrailerAMCWaverunnerWithBody = "Jetski Trailer",
+
+    IGUI_VehiclePartATABagOnProtectionWindowFrontLeft = "Left Bag On Armor",
+    IGUI_VehiclePartATABagOnProtectionWindowFrontRight = "Right Bag On Armor",
+    IGUI_VehiclePartATABagMotoLeft = "Left Moto Bag",
+    IGUI_VehiclePartATABagMotoRight = "Right Moto Bag",
+    IGUI_VehiclePartATABagMotoHolsterLeft = "Left Moto Holster",
+    IGUI_VehiclePartATABagMotoHolsterRight = "Right Moto Holster",
+
+    IGUI_VehiclePartATAHeadlightsPopUP = "Pop-Up Headlights",
+
+    IGUI_VehiclePartATARoofBase = "Roof Rails",
+    IGUI_VehiclePartATAInteractiveTrunkRoofRack = "Roof Rack",
+    IGUI_VehiclePartATAInteractiveTrunkWheelRack = "Spare Wheel Rack",
+    IGUI_VehiclePartATAInteractiveTrunkWindowRearRack = "Rear Window Rack",
+    IGUI_VehiclePartATAInteractiveTrunkFront = "Front Trunk",
+    IGUI_VehiclePartATAInteractiveTrunkRear = "Rear Trunk",
+
+    IGUI_VehiclePartATAProtectionWheels = "Wheel Armor",
+    IGUI_VehiclePartATAProtectionWheelsFront = "Front Wheel Armor",
+    IGUI_VehiclePartATAProtectionWheelsRear = "Rear Wheel Armor",
+    IGUI_VehiclePartATAProtectionFrontWheels = "Front Wheel Armor",
+    IGUI_VehiclePartATAProtectionRearWheels = "Rear Wheel Armor",
+
+    IGUI_VehiclePartATAProtectionWindowFront = "Windshield Armor",
+    IGUI_VehiclePartATAProtectionWindowRear = "Rear Windshield Armor",
+    IGUI_VehiclePartATAProtectionWindowFrontLeft = "Front Left Window Armor",
+    IGUI_VehiclePartATAProtectionWindowFrontRight = "Front Right Window Armor",
+    IGUI_VehiclePartATAProtectionWindowMiddleLeft = "Middle Left Window Armor",
+    IGUI_VehiclePartATAProtectionWindowMiddleRight = "Middle Right Window Armor",
+    IGUI_VehiclePartATAProtectionWindowRearLeft = "Rear Left Window Armor",
+    IGUI_VehiclePartATAProtectionWindowRearRight = "Rear Right Window Armor",
+
+    IGUI_VehiclePartATAProtectionSideLeft = "Left-side Armor",
+    IGUI_VehiclePartATAProtectionSideRight = "Right-side Armor",
+    IGUI_VehiclePartATAProtectionSideFront = "Front Armor",
+    IGUI_VehiclePartATAProtectionSideRoof = "Roof Armor",
+
+    IGUI_VehiclePartATAProtectionSleeper = "Sleeper Armor",
+    IGUI_VehiclePartATAProtectionGasTank = "Gas Tank Armor",
+    IGUI_VehiclePartATAProtectionHood = "Hood Armor",
+    IGUI_VehiclePartATAProtectionTrunk = "Trunk Armor",
+
+    IGUI_VehiclePartATARoofLightFront = "Front Roof Lights",
+    IGUI_VehiclePartATARoofLightLeft = "Left Roof Lights",
+    IGUI_VehiclePartATARoofLightRight = "Right Roof Lights",
+    IGUI_VehiclePartATARoofLightRear = "Rear Roof Lights",
+
+    IGUI_VehiclePartATARoofLampFront = "Front Roof Lightbulb",
+    IGUI_VehiclePartATARoofLampLeft = "Left Roof Lightbulb",
+    IGUI_VehiclePartATARoofLampRight = "Right Roof Lightbulb",
+    IGUI_VehiclePartATARoofLampRear = "Rear Roof Lightbulb",
+
+    IGUI_VehiclePartATARoofTent = "Roof Tent",
+
+    IGUI_VehiclePartFreeplace1FrontLeft = "Free Space (FL)",
+    IGUI_VehiclePartFreeplace2FrontLeft = "Free Space (FL)",
+    IGUI_VehiclePartFreeplace3FrontLeft = "Free Space (FL)",
+    IGUI_VehiclePartFreeplace1FrontRight = "Free Space (FR)",
+    IGUI_VehiclePartFreeplace2FrontRight = "Free Space (FR)",
+    IGUI_VehiclePartFreeplace3FrontRight = "Free Space (FR)",
+    IGUI_VehiclePartFreeplace1MiddleLeft = "Free Space (ML)",
+    IGUI_VehiclePartFreeplace2MiddleLeft = "Free Space (ML)",
+    IGUI_VehiclePartFreeplace3MiddleLeft = "Free Space (ML)",
+    IGUI_VehiclePartFreeplace1MiddleRight = "Free Space (MR)",
+    IGUI_VehiclePartFreeplace2MiddleRight = "Free Space (MR)",
+    IGUI_VehiclePartFreeplace3MiddleRight = "Free Space (MR)",
+    IGUI_VehiclePartFreeplace1RearLeft = "Free Space (RL)",
+    IGUI_VehiclePartFreeplace2RearLeft = "Free Space (RL)",
+    IGUI_VehiclePartFreeplace3RearLeft = "Free Space (RL)",
+    IGUI_VehiclePartFreeplace1RearRight = "Free Space (RR)",
+    IGUI_VehiclePartFreeplace2RearRight = "Free Space (RR)",
+    IGUI_VehiclePartFreeplace3RearRight = "Free Space (RR)",
+    IGUI_VehiclePartFreestorageFrontLeft = "Free Space (FL)",
+    IGUI_VehiclePartFreestorageFrontRight = "Free Space (FR)",
+    IGUI_VehiclePartFreestorageMiddleLeft = "Free Space (ML)",
+    IGUI_VehiclePartFreestorageMiddleRight = "Free Space (MR)",
+    IGUI_VehiclePartFreestorageRearLeft = "Free Space (RL)",
+    IGUI_VehiclePartFreestorageRearRight = "Free Space (RR)",
+    IGUI_VehiclePartfloor = "Free Space",
+
+    IGUI_CloseHeadlightsPopUP = "Close headlights",
+    IGUI_OpenHeadlightsPopUP = "Open headlights",
+	IGUI_PlayerText_TRUEA_cant_vehicle_smash_window = "I can't break a window as long as it's armored",
+
+    IGUI_VehiclePartATARoofRack = "Roof Rack",
+    IGUI_VehiclePartATARoofRackToolbox = "Roof Toolbox",
+    IGUI_VehiclePartDoorProtection = "Door Armor",
+    IGUI_VehiclePartDoorRearProtection = "Rear Door Armor",
+    IGUI_VehiclePartWheelsProtection = "Wheel Armor",
+    IGUI_VehiclePartWindowsFrontProtection = "Windshield Armor",
+    IGUI_VehiclePartWindowsLeftLiteProtection = "Left Window Armor",
+    IGUI_VehiclePartWindowsLeftFullProtection = "Left Window Armor",
+    IGUI_VehiclePartWindowsRightProtection = "Right Window Armor",
+
+	IGUI_VehiclePartCatprotection = "Armor",
+
+    IGUI_PlayerText_ATA_Engine = "I can't get to the engine<br>I need to remove the bullbar first",
+
+    IGUI_VehicleNameBoatSailingYacht = "Sailing Yacht",
+    IGUI_VehicleNameBoatSailingYacht_Ground = "Sailing Yacht",
+    IGUI_VehicleNameTrailerWithBoatSailingYacht = "Boat Trailer",
+    IGUI_VehicleNameTrailerWithBoatMotor = "Boat Trailer",
+    IGUI_VehicleNameTrailerForBoat = "Boat Trailer",
+
+    IGUI_VehiclePartPropeller = "Boat Propeller",
+    IGUI_VehiclePartLightFloodlightLeft = "Left Spotlights",
+    IGUI_VehiclePartLightFloodlightRight = "Right Spotlights",
+    IGUI_VehiclePartLightCabin = "Cockpit Light",
+    IGUI_VehiclePartManualStarter = "Manual Starter",
+    IGUI_VehiclePartBoatName = "Boat Name",
+
+    IGUI_PlayerText_PontoonNeeded = "A pontoon is needed here",
+
+    IGUI_BoatSeat_Person = "There is someone standing here",
+
+    IGUI_EAST = "East",
+    IGUI_SOUTH = "South",
+
+    IGUI_DropToWater = "Throw into water",
+
+    IGUI_SwimWord_Endurance1 = "I'm tired, I need a rest",
+    IGUI_SwimWord_Endurance2 = "Would be nice to take a break",
+    IGUI_SwimWord_Endurance3 = "Better swim towards the shore",
+    IGUI_SwimWord_Endurance4 = "I should save my strength by swimming more slowly",
+
+    IGUI_SwimWord_Damage1 = "I'm starting to drown, I need to rest",
+    IGUI_SwimWord_Damage2 = "My leg is cramped, I need to get to shore!",
+    IGUI_SwimWord_Damage3 = "My hand is cramped, I urgently need to get to shore!",
+    IGUI_SwimWord_Damage4 = "Give me a break!",
+    IGUI_SwimWord_Damage5 = "Help!!!",
+
+    IGUI_SwimWord_LostItems2 = "I had to lose some things",
+    IGUI_SwimWord_LostItems3 = "Some things sank to the bottom",
+
+    IGUI_needBeOutside_tosayWindInfo = "Wind cannot be detected indoors",
+    IGUI_Wind_direction = "direction",
+    IGUI_Wind_NoWind = "Absolutely calm",
+
+    IGUI_CantRepairSails = "Fabric, needle, thread and Tailoring level 4 required for repairing sails",
+
+    IGUI_VehiclePartseatboxwooden = "Seat Box",
+    IGUI_PlayerText_CanNotSleepInMovingCar_Mattress = "Stop the car first<br>to sleep in the mattress",
+    IGUI_Sleep_NotTiredEnough_Mattress = "Not tired enough to sleep<br>in the mattress yet",
+    IGUI_Turn_Oven_On = "Turn oven on", 
+    IGUI_Turn_Oven_Off = "Turn oven off",
+    IGUI_VehiclePartBatteryChargerA = "Place battery",
+    IGUI_VehiclePartBatteryChargerB = "Place battery",
+    IGUI_VehiclePartBatteryChargerC = "Place battery",
+
+    IGUI_VehicleNameATAArmyBus = "Soarer B700 Army",
+    IGUI_VehicleNameATASchoolBus = "Soarer B700 School",
+    IGUI_VehicleNameATAPrisonBus = "Soarer B700 Prison",
+
+    IGUI_VehicleNameATAJeepClassic = "Lark Rancher",
+    IGUI_VehicleNameATAJeepRubicon = "Lark Rancher Tiberis",
+    IGUI_VehicleNameATAJeepArcher = "Lark Rancher Archer",
+
+    IGUI_VehicleNameATADodge = "Dash Covert",
+	IGUI_VehicleNameATADodgePpg = "Dash Covert Pace Car",
+
+    IGUI_VehicleNameTrailerFirst = "GNV-250 Trailer",
+    IGUI_VehicleNameTrailerSecond = "GNV-500 Trailer",
+    IGUI_VehicleNameTrailerHome = "Home Trailer",
+    IGUI_VehicleNameTrailerHomeHartman = "Home Trailer Hartman",
+    IGUI_VehicleNameTrailerHomeExplorer = "Home Trailer Explorer",
+    IGUI_VehicleNameTrailerKbac = "KBAC Trailer",
+    IGUI_VehicleNameTrailerGenerator = "GEN-220 Trailer",
+
+    IGUI_VehiclePartEarthingOn = "Ground",
+    IGUI_VehiclePartEarthingOff = "Disconnected Power Cable",
+
+    IGUI_VehicleNameATAMustangClassic = "Franklin Caballo",
+    IGUI_VehicleNameATAMustangPolice = "Franklin Caballo Police",
+
+	IGUI_VehicleNameAgrotractor = "Joseph Moline 4060",
+	IGUI_VehicleNameTrailerAgroplough = "Plough Trailer",
+	IGUI_VehicleNameTrailerAgroseeder = "Seeder Trailer",
+
+	IGUI_VehiclePartAgroSeederTankLeft = "Left Seeder Tanks",
+	IGUI_VehiclePartAgroSeederTankRight = "Right Seeder Tanks",
+	IGUI_VehiclePartAgroSeederPlateLeft= "Left Seeder Plates",
+	IGUI_VehiclePartAgroSeederPlateRight = "Right Seeder Plates",
+	IGUI_VehiclePartAgroPlowshareLeft= "Left Plowshare",
+	IGUI_VehiclePartAgroPlowshareRight = "Right Plowshare",
+
+    IGUI_Agro_Plow_TurnOn = "Lower plow",
+    IGUI_Agro_Plow_TurnOff = "Lift plow",
+    IGUI_Agro_Seeder_TurnOn = "Seeder on",
+    IGUI_Agro_Seeder_TurnOff = "Seeder off",
+    IGUI_Agro_Trailer_RequireEngine = "Start the engine first",
+    IGUI_Agro_Trailer_Broken = "Missing required parts",
+
+	IGUI_VehicleNameATAPetyarbuilt = "Pierstough 793",
+	IGUI_VehicleNameATAPetyarbuiltSleeper = "Pierstough 793 Sleeper",
+	IGUI_VehicleNameATAPetyarbuiltSleeperLong = "Pierstough 793 Sleeper Long",
+	IGUI_VehicleNameTrailerTSMega = "Semi Trailer",
+
+	IGUI_VehicleNameATA_Luton= "Krichten Krafthansa",
+
+	IGUI_VehicleNameATA_VanDeRumba= "Franklin Valuline DeRumba",
+
+	IGUI_VehicleNameATASamaraClassic= "Chevalier Samara",
+	IGUI_VehicleNameATASamaraPolice= "Chevalier Samara Police",
+
+    IGUI_VehicleNameATABMWe36 = "Wittelsbach S50",
+    IGUI_VehicleNameATABMWe36M3 = "Wittelsbach S50 MR",
+}

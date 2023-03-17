@@ -1,0 +1,6 @@
+ContextMenu_RU = {
+	ContextMenu_SlingStyle1 = "Положение ремня 1",
+	ContextMenu_SlingStyle2 = "Положение ремня 2",
+	ContextMenu_SlingStyle3 = "Положение ремня 3",
+	ContextMenu_SlingStyle4 = "Положение ремня 4",
+}

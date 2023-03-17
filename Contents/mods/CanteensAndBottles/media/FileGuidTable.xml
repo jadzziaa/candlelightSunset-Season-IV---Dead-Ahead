@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/ClothingItems/JerryCanTankLeftHand.xml</path>
+		<guid>811f36d6-f23c-4649-97b0-2accce8d0659</guid>
+	</files>
+	<files>
+		<path>media/clothing/ClothingItems/JerryCanTankRightHand.xml</path>
+		<guid>b8b132b2-c9eb-4ba3-bf40-ef270c5fed12</guid>
+	</files>
+	<files>
+		<path>media/clothing/ClothingItems/JumboJerryCanTankLeftHand.xml</path>
+		<guid>7cdb78a2-4619-413d-8100-bbf27b355a14</guid>
+	</files>
+	<files>
+		<path>media/clothing/ClothingItems/JumboJerryCanTankRightHand.xml</path>
+		<guid>1b61c5ad-da24-4b79-aff4-179251fd5ebd</guid>
+	</files>
+</fileGuidTable>

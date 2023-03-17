@@ -1,0 +1,7 @@
+UI_RU = {
+UI_optionscreen_binding_Hotbar 6 = "Панель 6",
+UI_optionscreen_binding_Hotbar 7 = "Панель 7",
+UI_optionscreen_binding_Hotbar 8 = "Панель 8",
+UI_optionscreen_binding_Hotbar 9 = "Панель 9",
+UI_optionscreen_binding_SlingBindings = "Дополнительные клавиши для ремня, винтовки",
+}

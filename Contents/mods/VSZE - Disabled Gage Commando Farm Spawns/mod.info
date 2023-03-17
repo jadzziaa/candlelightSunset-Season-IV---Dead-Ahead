@@ -1,0 +1,9 @@
+name=Vehicle Spawn Zones Expanded - Cadillac Gage Commando Disabled Farm Spawns
+poster=preview.png
+versionMin=41.60
+id=fhqExpVehSpawnGageFarmDisable
+authors=fhqwhgads
+tags=Vehicles, Map
+modVersion=1.0.0
+description=Disables the Farm spawns for the Cadillac Gage Commando.
+require=fhqExpVehSpawn,67commando

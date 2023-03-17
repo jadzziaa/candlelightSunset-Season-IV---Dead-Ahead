@@ -1,0 +1,15 @@
+Recipes_EN = {
+
+/*Actions*/
+Recipe_Fold_Stock = "Fold Stock",
+Recipe_Unfold_Stock = "Unfold Stock",
+
+Recipe_Saw_Off_Shotgun_Stock = "Saw Off Shotgun Stock", /*NEW-NEW*/
+
+Recipe_Open_Box_of_7.62_Ammo = "Open Box of 7.62 Ammo",
+Recipe Place_7.62_Ammo_in_Box = "Place 7.62 Ammo in Box", /*NEW-NEW*/
+
+Recipe_Open _ox of_.22_Ammo = "Open Box of .22 Ammo", /*NEW-NEW*/
+Recipe_Place_.22_Ammo_in_Box = "Place .22 Ammo in Box", /*NEW-NEW*/
+
+}

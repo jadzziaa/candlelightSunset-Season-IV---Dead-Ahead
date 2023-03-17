@@ -1,0 +1,4 @@
+ItemName_IT = {
+ItemName_HMWeapons.HMWoodenClub = "Mazza di Legno",
+ItemName_HMWeapons.HMWoodenClubNails = "Mazza di legno Chiodata",
+}

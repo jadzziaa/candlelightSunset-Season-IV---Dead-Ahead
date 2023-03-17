@@ -1,0 +1,727 @@
+module vacsdrinks
+{
+	imports
+	{
+		Base
+	}
+
+	item VacsDrinks_Can_Budlight
+	{
+		DisplayName = Budlight,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Budlight_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Budlight_Empty,
+		HungerChange = -8,
+		ThirstChange = -13,
+		UnhappyChange = -15,
+		Calories = 110,
+		Carbohydrates = 7,
+		Lipids = 0,
+		Proteins = 1,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Budlight,
+		WorldStaticModel = VacsDrinks_Can_Budlight_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_Budlight_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Budlight Can,
+		Icon = Can_Budlight_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Budlight_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Budweiser
+	{
+		DisplayName = Budweiser,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Budweiser_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Budweiser_Empty,
+		HungerChange = -10,
+		ThirstChange = -13,
+		UnhappyChange = -17,
+		Calories = 145,
+		Carbohydrates = 11,
+		Lipids = 0,
+		Proteins = 1,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Budweiser,
+		WorldStaticModel = VacsDrinks_Can_Budweiser_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_Budweiser_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Budweiser Can,
+		Icon = Can_Budweiser_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Budweiser_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_CoorsLight
+	{
+		DisplayName = Coors Light,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_CoorsLight_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_CoorsLight_Empty,
+		HungerChange = -7,
+		ThirstChange = -13,
+		UnhappyChange = -15,
+		Calories = 104,
+		Carbohydrates = 5,
+		Lipids = 0,
+		Proteins = 1,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_CoorsLight,
+		WorldStaticModel = VacsDrinks_Can_CoorsLight_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_CoorsLight_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty CoorsLight Can,
+		Icon = Can_CoorsLight_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_CoorsLight_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_CoronaExtra
+	{
+		DisplayName = Corona Extra,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_CoronaExtra_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_CoronaExtra_Empty,
+		HungerChange = -10,
+		ThirstChange = -13,
+		UnhappyChange = -16,
+		Calories = 148,
+		Carbohydrates = 14,
+		Lipids = 0,
+		Proteins = 1,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_CoronaExtra,
+		WorldStaticModel = VacsDrinks_Can_CoronaExtra_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_CoronaExtra_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty CoronaExtra Can,
+		Icon = Can_CoronaExtra_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_CoronaExtra_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Heineken
+	{
+		DisplayName = Heineken,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Heineken_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Heineken_Empty,
+		HungerChange = -10,
+		ThirstChange = -13,
+		UnhappyChange = -17,
+		Calories = 149,
+		Carbohydrates = 11,
+		Lipids = 0,
+		Proteins = 2,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Heineken,
+		WorldStaticModel = VacsDrinks_Can_Heineken_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_Heineken_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Heineken Can,
+		Icon = Can_Heineken_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Heineken_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_MillerLite
+	{
+		DisplayName = Miller Lite,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_MillerLite_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_MillerLite_Empty,
+		HungerChange = -7,
+		ThirstChange = -13,
+		UnhappyChange = -15,
+		Calories = 96,
+		Carbohydrates = 3,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_MillerLite,
+		WorldStaticModel = VacsDrinks_Can_MillerLite_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_MillerLite_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Miller Lite Can,
+		Icon = Can_MillerLite_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_MillerLite_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Modelo
+	{
+		DisplayName = Modelo,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Modelo_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Modelo_Empty,
+		HungerChange = -10,
+		ThirstChange = -13,
+		UnhappyChange = -15,
+		Calories = 143,
+		Carbohydrates = 13,
+		Lipids = 0,
+		Proteins = 1,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Modelo,
+		WorldStaticModel = VacsDrinks_Can_Modelo_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_Modelo_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Modelo Can,
+		Icon = Can_Modelo_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Modelo_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_BlueRibbon
+	{
+		DisplayName = Blue Ribbon,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_BlueRibbon_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_BlueRibbon_Empty,
+		HungerChange = -10,
+		ThirstChange = -13,
+		UnhappyChange = -23,
+		Calories = 142,
+		Carbohydrates = 12,
+		Lipids = 0,
+		Proteins = 1,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_BlueRibbon,
+		WorldStaticModel = VacsDrinks_Can_BlueRibbon_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_BlueRibbon_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Blue Ribbon Can,
+		Icon = Can_BlueRibbon_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_BlueRibbon_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_BlueMoon
+	{
+		DisplayName = Blue Moon,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_BlueMoon_Icon,
+		EvolvedRecipe = Soup:8;Stew:8;Beer:9;Beer2:9,
+		FoodType = Beer,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_BlueMoon_Empty,
+		HungerChange = -12,
+		ThirstChange = -13,
+		UnhappyChange = -18,
+		Calories = 168,
+		Carbohydrates = 14,
+		Lipids = 0,
+		Proteins = 2,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_BlueMoon,
+		WorldStaticModel = VacsDrinks_Can_BlueMoon_Ground,
+		Tags = LowAlcohol;HasMetal,
+		EvolvedRecipeName = Beer,
+	}
+
+	item VacsDrinks_Can_BlueMoon_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Blue Moon Can,
+		Icon = Can_BlueMoon_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_BlueMoon_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_CocaCola
+	{
+		DisplayName = Coca-Cola,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_CocaCola_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_CocaCola_Empty,
+		HungerChange = -8,
+		ThirstChange = -60,
+		UnhappyChange = -10,
+		Calories = 140,
+		Carbohydrates = 39,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_CocaCola,
+		WorldStaticModel = VacsDrinks_Can_CocaCola_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_CocaCola_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Coca-Cola Can,
+		Icon = Can_CocaCola_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_CocaCola_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Pepsi
+	{
+		DisplayName = Pepsi,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Pepsi_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Pepsi_Empty,
+		HungerChange = -8,
+		ThirstChange = -60,
+		UnhappyChange = -10,
+		Calories = 150,
+		Carbohydrates = 41,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Pepsi,
+		WorldStaticModel = VacsDrinks_Can_Pepsi_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_Pepsi_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Pepsi Can,
+		Icon = Can_Pepsi_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Pepsi_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_DietCoke
+	{
+		DisplayName = Diet Coke,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_DietCoke_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_DietCoke_Empty,
+		HungerChange = -6,
+		ThirstChange = -60,
+		UnhappyChange = -8,
+		Calories = 0,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_DietCoke,
+		WorldStaticModel = VacsDrinks_Can_DietCoke_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_DietCoke_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty DietCoke Can,
+		Icon = Can_DietCoke_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_DietCoke_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_DrPepper
+	{
+		DisplayName = Dr. Pepper,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_DrPepper_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_DrPepper_Empty,
+		HungerChange = -8,
+		ThirstChange = -60,
+		UnhappyChange = -10,
+		Calories = 150,
+		Carbohydrates = 40,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_DrPepper,
+		WorldStaticModel = VacsDrinks_Can_DrPepper_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_DrPepper_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty DrPepper Can,
+		Icon = Can_DrPepper_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_DrPepper_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_MountainDew
+	{
+		DisplayName = Mountain Dew,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_MountainDew_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_MountainDew_Empty,
+		HungerChange = -9,
+		ThirstChange = -60,
+		UnhappyChange = -12,
+		Calories = 170,
+		Carbohydrates = 46,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_MountainDew,
+		WorldStaticModel = VacsDrinks_Can_MountainDew_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_MountainDew_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Mountain Dew Can,
+		Icon = Can_MountainDew_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_MountainDew_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Sprite
+	{
+		DisplayName = Sprite,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Sprite_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Sprite_Empty,
+		HungerChange = -8,
+		ThirstChange = -60,
+		UnhappyChange = -10,
+		Calories = 140,
+		Carbohydrates = 38,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Sprite,
+		WorldStaticModel = VacsDrinks_Can_Sprite_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_Sprite_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Sprite Can,
+		Icon = Can_Sprite_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Sprite_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_DietPepsi
+	{
+		DisplayName = Diet Pepsi,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_DietPepsi_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_DietPepsi_Empty,
+		HungerChange = -6,
+		ThirstChange = -60,
+		UnhappyChange = -8,
+		Calories = 0,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_DietPepsi,
+		WorldStaticModel = VacsDrinks_Can_DietPepsi_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_DietPepsi_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty DietPepsi Can,
+		Icon = Can_DietPepsi_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_DietPepsi_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_Fanta
+	{
+		DisplayName = Fanta,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_Fanta_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_Fanta_Empty,
+		HungerChange = -9,
+		ThirstChange = -60,
+		UnhappyChange = -11,
+		Calories = 160,
+		Carbohydrates = 44,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_Fanta,
+		WorldStaticModel = VacsDrinks_Can_Fanta_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_Fanta_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Fanta Can,
+		Icon = Can_Fanta_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_Fanta_Empty,
+		Tags = VacsDrinksCan,
+	}
+
+	item VacsDrinks_Can_MugRootBeer
+	{
+		DisplayName = Mug Root Beer,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Can_MugRootBeer_Icon,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = VacsDrinks_Can_MugRootBeer_Empty,
+		HungerChange = -7,
+		ThirstChange = -60,
+		UnhappyChange = -9,
+		Calories = 130,
+		Carbohydrates = 34,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = VacsDrinks_Can_MugRootBeer,
+		WorldStaticModel = VacsDrinks_Can_MugRootBeer_Ground,
+		Tags = HasMetal,
+	}
+
+	item VacsDrinks_Can_MugRootBeer_Empty
+	{
+		DisplayCategory = Junk,
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Empty Mug Root Beer Can,
+		Icon = Can_MugRootBeer_Icon,
+		MetalValue = 10,
+		WorldStaticModel = VacsDrinks_Can_MugRootBeer_Empty,
+		Tags = VacsDrinksCan,
+	}
+}

@@ -1,0 +1,898 @@
+module SLEOClothing
+{		
+	
+		item Hat_PoliceCap
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Peaked Cap,
+		ClothingItem = Hat_PoliceCap,
+		BodyLocation = Hat,
+		Icon = PoliceCap,
+		BloodLocation = FullHelmet,
+		ChanceToFall = 80,
+		Insulation = 0.3,
+		WaterResistance = 0.2,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PoliceCap_WorldItem,
+    }
+
+		item Hat_PatrolCapPolice
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Blue Patrol Cap,
+		ClothingItem = Hat_PatrolCapPolice,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapBlue,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapPoliceReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapBlue_WorldItem,
+    }
+
+		item Hat_PatrolCapPoliceReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Blue Patrol Cap (Reversed),
+		ClothingItem = Hat_PatrolCapPoliceReversed,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapBlue,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapPolice,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapBlue_WorldItem,
+    }
+
+		item Hat_PatrolCapPoliceRolled
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rolled Blue Patrol Cap,
+		ClothingItem = Hat_PatrolCapPoliceRolled,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapBlue,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapPoliceRolledReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapBlue_WorldItem,
+    }
+
+		item Hat_PatrolCapPoliceRolledReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rolled Blue Patrol Cap (Reversed),
+		ClothingItem = Hat_PatrolCapPoliceRolledReversed,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapBlue,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapPoliceRolled,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapBlue_WorldItem,
+    }
+
+		item Hat_PatrolCapPoliceBlack
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Black Patrol Cap,
+		ClothingItem = Hat_PatrolCapPoliceBlack,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapBlack,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapPoliceBlackReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapBlack_WorldItem,
+    }
+
+		item Hat_PatrolCapPoliceBlackReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Black Patrol Cap (Reversed),
+		ClothingItem = Hat_PatrolCapPoliceBlackReversed,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapBlack,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapPoliceBlack,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapBlack_WorldItem,
+    }
+	
+		item Hat_PatrolCapPoliceBlackRolled
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rolled Black Patrol Cap,
+		ClothingItem = Hat_PatrolCapPoliceBlackRolled,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapBlack,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapPoliceBlackRolledReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapBlack_WorldItem,
+    }
+
+		item Hat_PatrolCapPoliceBlackRolledReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rolled Black Patrol Cap (Reversed),
+		ClothingItem = Hat_PatrolCapPoliceBlackRolledReversed,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapBlack,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapPoliceBlackRolled,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapBlack_WorldItem,
+    }
+
+		item Hat_PatrolCapSheriff
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Green Patrol Cap,
+		ClothingItem = Hat_PatrolCapSheriff,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapGreen,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapSheriffReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapGreen_WorldItem,
+    }
+
+		item Hat_PatrolCapSheriffReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Green Sheriff Cap (Reversed),
+		ClothingItem = Hat_PatrolCapSheriffReversed,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapGreen,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapSheriff,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapGreen_WorldItem,
+    }
+
+		item Hat_PatrolCapSheriffRolled
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rolled Green Patrol Cap,
+		ClothingItem = Hat_PatrolCapSheriffRolled,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapGreen,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapSheriffRolledReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapGreen_WorldItem,
+    }
+
+		item Hat_PatrolCapSheriffRolledReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Rolled Green Patrol Cap (Reversed),
+		ClothingItem = Hat_PatrolCapSheriffRolledReversed,
+		BodyLocation = Hat,
+		Icon = PolicePatrolCapGreen,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PatrolCapSheriffRolled,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = PatrolCapGreen_WorldItem,
+    }
+
+
+		item Hat_PoliceBaseballCap
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Baseball Cap,
+		ClothingItem = Hat_PoliceBaseballCap,
+		BodyLocation = Hat,
+		Icon = PoliceBaseballCap,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PoliceBaseballCapReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+    }
+
+		item Hat_PoliceBaseballCapReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Baseball Cap (Reversed),
+		ClothingItem = Hat_PoliceBaseballCapReversed,
+		BodyLocation = Hat,
+		IconsForTexture = PoliceBaseballCap;PoliceBaseballCapBlack,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_PoliceBaseballCap,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+    }
+
+		item Hat_SheriffBaseballCap
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Sheriff Baseball Cap,
+		ClothingItem = Hat_SheriffBaseballCap,
+		BodyLocation = Hat,
+		IconsForTexture = SheriffBaseballCap;SheriffBaseballCapBlack,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_SheriffBaseballCapReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+    }
+
+		item Hat_SheriffBaseballCapReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Sheriff Baseball Cap (Reversed),
+		ClothingItem = Hat_SheriffBaseballCapReversed,
+		BodyLocation = Hat,
+		IconsForTexture = SheriffBaseballCap;SheriffBaseballCapBlack,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_SheriffBaseballCap,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+    }
+
+		item Hat_BlueTruckerCap
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Blue Trucker Cap,
+		ClothingItem = Hat_BlueTruckerCap,
+		BodyLocation = Hat,
+		Icon = BlueTruckerHat,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_BlueTruckerCapReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = BlueSWATTruckerCap_WorldItem,
+    }
+
+		item Hat_BlueTruckerCapReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Blue Trucker Cap (Reversed),
+		ClothingItem = Hat_BlueTruckerCapReversed,
+		BodyLocation = Hat,
+		Icon = BlueTruckerHat,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_BlueTruckerCap,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = BlueSWATTruckerCap_WorldItem,
+    }
+
+		item Hat_GreenTruckerCap
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Green Trucker Cap,
+		ClothingItem = Hat_GreenTruckerCap,
+		BodyLocation = Hat,
+		Icon = GreenTruckerHat,
+		BloodLocation = FullHelmet,
+		ChanceToFall = 80,
+		ClothingItemExtra = SLEOClothing.Hat_GreenTruckerCapReversed,
+		ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = GreenSWATTruckerCap_WorldItem,
+    }
+
+		item Hat_GreenTruckerCapReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Green Trucker Cap (Reversed),
+		ClothingItem = Hat_GreenTruckerCapReversed,
+		BodyLocation = Hat,
+		Icon = GreenTruckerHat,
+		BloodLocation = FullHelmet,
+		ChanceToFall = 80,
+		ClothingItemExtra = SLEOClothing.Hat_GreenTruckerCap,
+		ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = GreenSWATTruckerCap_WorldItem,
+    }
+	
+		item Hat_BlackTruckerCap
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Black Trucker Cap,
+		ClothingItem = Hat_BlackTruckerCap,
+		BodyLocation = Hat,
+		Icon = BlackTruckerHat,
+		BloodLocation = FullHelmet,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		ClothingItemExtra = SLEOClothing.Hat_BlackTruckerCapReversed,
+		ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = BlackSWATTruckerCap_WorldItem,
+    }
+
+		item Hat_BlackTruckerCapReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Black Trucker Cap (Reversed),
+		ClothingItem = Hat_BlackTruckerCapReversed,
+		BodyLocation = Hat,
+		Icon = BlackTruckerHat,
+		BloodLocation = FullHelmet,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		ClothingItemExtra = SLEOClothing.Hat_BlackTruckerCap,
+		ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = BlackSWATTruckerCap_WorldItem,
+    }
+
+		item Hat_BlueUtilityCap
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Blue Utility Cap,
+		ClothingItem = Hat_BlueUtilityCap,
+		BodyLocation = Hat,
+		Icon = PoliceUtilityCapBlue,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_BlueUtilityCapReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		WorldStaticModel = BlueUtilityCap_WorldItem,
+    }
+
+		item Hat_BlueUtilityCapReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Blue Utility Cap (Reversed),
+		ClothingItem = Hat_BlueUtilityCapReversed,
+		BodyLocation = Hat,
+		Icon = PoliceUtilityCapBlue,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_BlueUtilityCap,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = BlueUtilityCap_WorldItem,
+    }
+
+		item Hat_GreenUtilityCap
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Green Utility Cap,
+		ClothingItem = Hat_GreenUtilityCap,
+		BodyLocation = Hat,
+		Icon = PoliceUtilityCapGreen,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_GreenUtilityCapReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = GreenUtilityCap_WorldItem,
+    }
+
+		item Hat_GreenUtilityCapReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Green Utility Cap (Reversed),
+		ClothingItem = Hat_GreenUtilityCapReversed,
+		BodyLocation = Hat,
+		Icon = PoliceUtilityCapGreen,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_GreenUtilityCap,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = GreenUtilityCap_WorldItem,
+    }
+
+		item Hat_BlackUtilityCap
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Black Police Utility Cap,
+		ClothingItem = Hat_BlackUtilityCap,
+		BodyLocation = Hat,
+		Icon = PoliceUtilityCapBlack,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_BlackUtilityCapReversed,
+        ClothingItemExtraOption = ReverseCap,
+		ClothingExtraSubmenu = ForwardCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = BlackUtilityCap_WorldItem,
+    }
+
+		item Hat_BlackUtilityCapReversed
+
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Black Police Utility Cap (Reversed),
+		ClothingItem = Hat_BlackUtilityCapReversed,
+		BodyLocation = Hat,
+		Icon = PoliceUtilityCapBlack,
+		BloodLocation = FullHelmet,
+		ClothingItemExtra = SLEOClothing.Hat_BlackUtilityCap,
+        ClothingItemExtraOption = ForwardCap,
+		ClothingExtraSubmenu = ReverseCap,
+		ChanceToFall = 80,
+		Insulation = 0.10,
+		WaterResistance = 0,
+        Weight = 0.1,
+		Tags = Police,
+		WorldStaticModel = BlackUtilityCap_WorldItem,
+    }
+
+		item Hat_PoliceWatchCap
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Black Watch Cap,
+		ClothingItem = Hat_PoliceWatchCap,
+		BodyLocation = Hat,
+		Icon = BlackWatchCap,
+		BloodLocation = Head,
+		Weight = 0.1,
+		Insulation = 0.21,
+		WaterResistance = 0.1,
+		WorldStaticModel = BlackWatchCap_WorldItem,
+	}
+
+        item Hat_PoliceHelmet
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Black PASGT Helmet,
+		ClothingItem = Hat_PoliceHelmet,
+		BodyLocation = Hat,
+		Icon = PoliceHelmet,
+        ClothingItemExtra = SLEOClothing.Hat_PoliceHelmetStrapless,
+        ClothingItemExtraOption = Unstrap,
+		ClothingExtraSubmenu = Strap,
+		BloodLocation = Head,
+        BiteDefense = 70,
+		ScratchDefense = 70,
+        BulletDefense = 70,
+		Insulation = 0.21,
+		WaterResistance = 0.2,
+        Weight = 1.5,
+		Tags = Police,
+		WorldStaticModel = PoliceHelmet_WorldItem,
+	}
+
+	   item Hat_PoliceHelmetStrapless
+
+    {
+        DisplayCategory = Helmet,
+		Type = Clothing,
+        DisplayName = Black PASGT Helmet (Strapless),
+        ClothingItem = Hat_PoliceHelmetStrapless,
+        BodyLocation = Hat,
+		BloodLocation = Head,
+        Icon = PoliceHelmetStrapless,
+        ClothingItemExtra = SLEOClothing.Hat_PoliceHelmet,
+        ClothingItemExtraOption = Strap,
+		ClothingExtraSubmenu = Unstrap,
+        ChanceToFall = 80,
+        BiteDefense = 70,
+		ScratchDefense = 70,
+        BulletDefense = 70,
+		ScratchDefense = 100,
+        Insulation = 0.10,
+        Weight = 1.5,
+		Tags = Police,
+		WorldStaticModel = PoliceHelmet_WorldItem,
+    }
+
+	    item Hat_PoliceHelmetGoggles
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Black PASGT Helmet w/ Goggles,
+		ClothingItem = Hat_PoliceHelmetGoggles,
+		BodyLocation = Hat,
+		BloodLocation = Head,
+		Icon = PoliceHelmetGoggles,
+        ClothingItemExtra = SLEOClothing.Hat_PoliceHelmetGogglesStrapless,
+        ClothingItemExtraOption = Unstrap,
+		ClothingExtraSubmenu = Strap,
+        BiteDefense = 70,
+		ScratchDefense = 70,
+        BulletDefense = 70,
+		Insulation = 0.21,
+		WaterResistance = 0.2,
+        Weight = 1.5,
+		Tags = Police,
+		WorldStaticModel = PoliceHelmetGoggles_WorldItem,
+	}
+
+	   item Hat_PoliceHelmetGogglesStrapless
+
+    {
+        DisplayCategory = Helmet,
+		Type = Clothing,
+        DisplayName = Black PASGT Helmet /w Goggles (Strapless),
+        ClothingItem = Hat_PoliceHelmetGogglesStrapless,
+        BodyLocation = Hat,
+		BloodLocation = Head,
+        Icon = PoliceHelmetGogglesStrapless,
+        CanHaveHoles = false,
+        ClothingItemExtra = SLEOClothing.Hat_PoliceHelmetGoggles,
+        ClothingItemExtraOption = Strap,
+		ClothingExtraSubmenu = Unstrap,
+        BiteDefense = 70,
+		ScratchDefense = 70,
+        BulletDefense = 70,
+		Insulation = 0.21,
+		WaterResistance = 0.2,
+        Weight = 1.5,
+		Tags = Police,
+		WorldStaticModel = PoliceHelmetGreenGoggles_WorldItem,
+    }
+
+	
+        item Hat_PoliceHelmetGreen
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Green PASGT Helmet,
+		ClothingItem = Hat_PoliceHelmetGreen,
+		BodyLocation = Hat,
+		Icon = PoliceHelmetGreen,
+        ClothingItemExtra = SLEOClothing.Hat_PoliceHelmetGreenStrapless,
+        ClothingItemExtraOption = Unstrap,
+		ClothingExtraSubmenu = Strap,
+		BloodLocation = Head,
+        BiteDefense = 70,
+		ScratchDefense = 70,
+        BulletDefense = 70,
+		Insulation = 0.21,
+		WaterResistance = 0.2,
+        Weight = 1.5,
+		Tags = Police,
+		WorldStaticModel = PoliceHelmetGreen_WorldItem,
+	}
+
+	   item Hat_PoliceHelmetGreenStrapless
+
+    {
+        DisplayCategory = Helmet,
+		Type = Clothing,
+        DisplayName = Green PASGT Helmet (Strapless),
+        ClothingItem = Hat_PoliceHelmetGreenStrapless,
+        BodyLocation = Hat,
+		BloodLocation = Head,
+        Icon = PoliceHelmetGreenStrapless,
+        ClothingItemExtra = SLEOClothing.Hat_PoliceHelmetGreen,
+        ClothingItemExtraOption = Strap,
+		ClothingExtraSubmenu = Unstrap,
+        ChanceToFall = 80,
+        BiteDefense = 70,
+		ScratchDefense = 70,
+        BulletDefense = 70,
+		ScratchDefense = 100,
+        Insulation = 0.10,
+        Weight = 1.5,
+		Tags = Police,
+		WorldStaticModel = PoliceHelmetGreen_WorldItem,
+    }
+
+	    item Hat_PoliceHelmetGreenGoggles
+
+	{
+		DisplayCategory = Helmet,
+		Type = Clothing,
+		DisplayName = Green PASGT Helmet w/ Goggles,
+		ClothingItem = Hat_PoliceHelmetGreenGoggles,
+		BodyLocation = Hat,
+		Icon = PoliceHelmetGreenGoggles,
+        ClothingItemExtra = SLEOClothing.Hat_PoliceHelmetGreenGogglesStrapless,
+        ClothingItemExtraOption = Unstrap,
+		ClothingExtraSubmenu = Strap,
+		BloodLocation = Head,
+        BiteDefense = 70,
+		ScratchDefense = 70,
+        BulletDefense = 70,
+		Insulation = 0.21,
+		WaterResistance = 0.2,
+        Weight = 1.5,
+		Tags = Police,
+		WorldStaticModel = PoliceHelmetGreenGoggles_WorldItem,
+	}
+
+	   item Hat_PoliceHelmetGreenGogglesStrapless
+
+    {
+        DisplayCategory = Helmet,
+		Type = Clothing,
+        DisplayName = Green PASGT Helmet w/ Goggles (Strapless),
+        ClothingItem = Hat_PoliceHelmetGreenStrapless,
+        BodyLocation = Hat,
+		BloodLocation = Head,
+        Icon = PoliceHelmetGreenGogglesStrapless,
+        ClothingItemExtra = SLEOClothing.Hat_PoliceHelmetGreenGoggles,
+        ClothingItemExtraOption = Strap,
+		ClothingExtraSubmenu = Unstrap,
+        ChanceToFall = 80,
+        BiteDefense = 70,
+		ScratchDefense = 70,
+        BulletDefense = 70,
+		ScratchDefense = 100,
+        Insulation = 0.10,
+        Weight = 1.5,
+		Tags = Police,
+		WorldStaticModel = PoliceHelmetGreenGoggles_WorldItem,
+    }
+
+		item Hat_PoliceBalaclava
+		
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Balaclava,
+		ClothingItem = Hat_PoliceBalaclava,
+		BodyLocation = Mask,
+		BloodLocation = Head,
+		ScratchDefense = 10,
+		Icon = PoliceBalaclava,
+		ClothingItemExtra = SLEOClothing.Hat_PoliceBalaclavaDown,
+        ClothingItemExtraOption = PullUp,
+		ClothingExtraSubmenu = PullDown,
+        Insulation = 0.1,
+        WindResistance = 1.0,
+        WaterResistance = 0.2,
+        WorldStaticModel = PoliceBalaclava_WorldItem,
+	}
+
+		item Hat_PoliceBalaclavaDown
+		
+	{
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Balaclava (Down),
+		ClothingItem = Hat_PoliceBalaclavaDown,
+		BodyLocation = Mask,
+		BloodLocation = Head,
+		ScratchDefense = 10,
+		Icon = PoliceBalaclava,
+		ClothingItemExtra = SLEOClothing.Hat_PoliceBalaclava,
+        ClothingItemExtraOption = PullDown,
+		ClothingExtraSubmenu = PullUp,
+        Insulation = 0.1,
+        WindResistance = 1.0,
+        WaterResistance = 0.2,
+        WorldStaticModel = PoliceBalaclava_WorldItem,
+	}
+	
+        item Hat_M1HelmetPolice
+    {
+        DisplayCategory = Helmet,
+        Type = Clothing,
+        DisplayName = Blue M1 Steel Helmet,
+        ClothingItem = Hat_M1HelmetPolice,
+        BodyLocation = Hat,
+        Icon = M1HelmetPolice,
+		BloodLocation = Head,
+        BiteDefense = 100,
+		ScratchDefense = 100,
+        BulletDefense = 20,
+        CanHaveHoles = false,
+        ClothingItemExtra = SLEOClothing.Hat_M1HelmetPoliceStrapless,
+        ClothingItemExtraOption = Unstrap,
+        ClothingExtraSubmenu = Strap,
+        Insulation = 0.10,
+        WaterResistance = 0.2,
+        Weight = 0.5,
+        Tags = Police,	
+		WorldStaticModel = M1HelmetPolice_WorldItem,
+    }
+
+        item Hat_M1HelmetPoliceStrapless
+    {
+        DisplayCategory = Helmet,
+        Type = Clothing,
+        DisplayName = Strapless Blue M1 Steel Helmet,
+        ClothingItem = Hat_M1HelmetPoliceStrapless,
+        BodyLocation = Hat,
+        Icon = M1HelmetPoliceStrapless,
+		BloodLocation = Head,
+        BiteDefense = 70,
+		ScratchDefense = 70,
+        BulletDefense = 20,
+        CanHaveHoles = false,
+        ClothingItemExtra = SLEOClothing.Hat_M1HelmetPolice,
+        ClothingItemExtraOption = Strap,
+        ClothingExtraSubmenu = Unstrap,
+        ChanceToFall = 80,
+        Insulation = 0.10,
+        WaterResistance = 0.2,
+        Weight = 0.5,
+        Tags = Police,	
+		WorldStaticModel = M1HelmetPolice_WorldItem,
+    }
+
+
+}

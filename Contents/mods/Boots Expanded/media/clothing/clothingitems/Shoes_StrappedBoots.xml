@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\riddingboots_male.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\bootslong_female.fbx</m_FemaleModel>
+	<m_GUID>4995767e-b252-440b-a90a-48193045e7c1</m_GUID>
+	<m_Static>true</m_Static>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_MasksFolder></m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/moccasins</m_UnderlayMasksFolder>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>gothboots3</textureChoices>
+	<textureChoices>militaryboots</textureChoices>
+	<textureChoices>militarybootsshinny</textureChoices>
+	<textureChoices>drmartens4</textureChoices>
+	<textureChoices>brownboots2</textureChoices>
+	<textureChoices>brownboots2</textureChoices>
+	<textureChoices>bikerboots</textureChoices>
+	<textureChoices>shoesblack2</textureChoices>
+	<textureChoices>shoesblack3</textureChoices>
+</clothingItem>

@@ -1,0 +1,16 @@
+IGUI_FR = {
+    
+    IGUI_PlayerDeathMessage_PlayerDied = "%1 est mort!",
+    IGUI_PlayerDeathMessage_PlayerDied_Both = "%1 (%2) est mort!",
+    IGUI_PlayerDeathMessage_PlayerDied_Unknown = "Un survivant est mort!",
+    
+    IGUI_PlayerDeathMessage_PlayerDiedStatsMale = "Il a survécu %1 et a tué %2 zombie(s).",
+    IGUI_PlayerDeathMessage_PlayerDiedStatsPvpMale = "Il a survécu %1, a tué %2 zombie(s) et %3 survivant(s).",
+
+    IGUI_PlayerDeathMessage_PlayerDiedStatsFemale = "Elle a survécu %1 et a tué %2 zombie(s).",
+    IGUI_PlayerDeathMessage_PlayerDiedStatsPvpFemale = "Elle a survécu %1, a tué %2 zombie(s) et %3 survivant(s).",
+
+    IGUI_PlayerDeathMessage_PlayerFavWeaponMale = "Son arme préférée était un(e) %1.",
+    IGUI_PlayerDeathMessage_PlayerFavWeaponFemale = "Son arme préférée était un(e) %1.",
+
+}

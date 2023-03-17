@@ -1,0 +1,2053 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+	<m_MaleOutfits><m_Name>SharkArmyCamoDesertMale</m_Name>
+		<m_Guid>50ef789b-54a6-4021-b817-78e1e417bd91</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+			<m_items> <!-- Face Paint -->
+		<probability>0.8</probability>
+			<itemGUID>c1de3be1-2854-447f-afd0-5e2e45827329</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Battle PASGT Helmet -->
+			<itemGUID>b049fdda-ea87-444c-9a5b-c719b3776e81</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Patrol Cap -->
+		<probability>0.5</probability>
+			<itemGUID>72e14fde-e6f5-4927-bf1e-58f8ec19f85f7</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert PASGT Vest -->
+			<itemGUID>d646bba8-dee5-4d17-923b-a48f9280367b</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Plain) -->
+		<probability>0.1</probability>
+			<itemGUID>8b3f943c-e903-431b-bf8d-8f2eb86c9ef3</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Camo Pants (Tucked) -->
+			<itemGUID>afd79fed-34e7-4e5a-9dec-b8bc54424aea</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Camo Jacket -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa040f90</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Camo Jacket (Rolled) -->
+		<probability>0.6</probability>
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa040z75</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyCamoDesertMaleDCU</m_Name>
+		<m_Guid>405a5872-1b3f-43b0-95b7-f579cd37b009</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Helmet -->
+			<itemGUID>8b309824-c769-45e1-9e1f-25d349b72b4c</itemGUID>
+		</m_items>
+			<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Battle PASGT Helmet -->
+			<probability>0.3</probability>
+			<itemGUID>b049fdda-ea87-444c-9a5b-c719b3776e81</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Desert Army Boots -->
+			<itemGUID>1ed51bf2-67e5-41d9-b50d-92f42483868a</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert PASGT Vest -->
+			<itemGUID>d646bba8-dee5-4d17-923b-a48f9280367b</itemGUID>
+		</m_items>
+		<m_items> <!-- Ranger Body Armor -->
+		<probability>0.1</probability>
+			<itemGUID>5015651a-e3b2-4ef6-b41a-bf2aca34063b</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Plain) -->
+		<probability>0.1</probability>
+			<itemGUID>8b3f943c-e903-431b-bf8d-8f2eb86c9ef3</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Camo Pants (Tucked) -->
+			<itemGUID>e757d562-2d74-4fdc-b228-3bbf8347126a</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Combat Jacket -->
+			<itemGUID>3eae79b8-a52a-4398-987c-0a12a7b9b5cb</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Camo Jacket (Rolled) -->
+		<probability>0.6</probability>
+			<itemGUID>6739d152-91f3-4d3c-b21b-7c5aee7477ff</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits><m_Name>SharkArmyCamoDesertFemale</m_Name>
+		<m_Guid>7eeaeb0d-5d86-4ac1-8f2f-bd30604f143c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- PASGT Helmet -->
+			<itemGUID>dde2a198-d11d-4a19-9826-a58a8f92627e</itemGUID>
+		</m_items>
+			<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Patrol Cap -->
+		<probability>0.5</probability>
+			<itemGUID>cfb33432-ec8e-4752-b6a3-54b86ccc230a</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert PASGT Vest -->
+			<itemGUID>d646bba8-dee5-4d17-923b-a48f9280367b</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Plain) -->
+		<probability>0.1</probability>
+			<itemGUID>8b3f943c-e903-431b-bf8d-8f2eb86c9ef3</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Combat Pants (Tucked) -->
+			<itemGUID>e757d562-2d74-4fdc-b228-3bbf8347126a</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Combat Jacket -->
+			<itemGUID>3eae79b8-a52a-4398-987c-0a12a7b9b5cb</itemGUID>
+		</m_items>
+		<m_items> <!-- Desert Camo Jacket (Rolled) -->
+		<probability>0.6</probability>
+			<itemGUID>6739d152-91f3-4d3c-b21b-7c5aee7477ff</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>		
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyCamoGreenMale</m_Name>
+		<m_Guid>af2c54a5-570c-46c4-937c-cb6bc4dfa796</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Helmet -->
+			<itemGUID>e3b68146-8b14-4c4c-a59e-d0fb94901858</itemGUID>
+		</m_items>
+			<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- LBV-88 Webbing -->
+		<probability>0.2</probability>
+			<itemGUID>1d9a3259-050c-4393-aad7-af424f76858b</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- Ranger Body Armor -->
+		<probability>0.1</probability>
+			<itemGUID>5015651a-e3b2-4ef6-b41a-bf2aca34063b</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Woodland) -->
+		<probability>0.1</probability>
+			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits><m_Name>SharkArmyCamoGreenFemale</m_Name>
+		<m_Guid>efd07ac2-19a8-4ccb-ad3c-fca3de758d8d</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- PASGT Helmet -->
+			<itemGUID>e3b68146-8b14-4c4c-a59e-d0fb94901858</itemGUID>
+		</m_items>
+			<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+	    <m_items> <!-- Woodland Patrol Cap-->
+			<probability>0.5</probability>
+			<itemGUID>601bf44b-fe47-44b1-a327-3fd441250ca7</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Medical Bag -->
+		<probability>0.5</probability>
+			<itemGUID>fb14001e-2c6d-44a4-bcd3-4f23d57c0b69</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyCamoGreenNVGMale</m_Name>
+		<m_Guid>e36aac7d-537f-4ee7-9456-c11e341d2dcf</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Helmet -->
+			<itemGUID>e3b68146-8b14-4c4c-a59e-d0fb94901858</itemGUID>
+		</m_items>
+		<m_items> <!-- AN/PVS-5 -->
+		<probability>0.5</probability>
+			<itemGUID>a7815ca5-8df2-4754-871a-ca9324a504e8</itemGUID>
+		</m_items>
+		<m_items> <!-- LBV-88 Webbing-->
+			<itemGUID>d3546a87-b4f5-4b23-be53-25c0ec7ca00b</itemGUID>
+		</m_items>
+			<m_items> <!-- CFP-90 Assault Pack -->
+		<probability>0.7</probability>
+			<itemGUID>80c41e56-7aeb-48ee-a1a7-c75be8cd80cc</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- Ranger Body Armor -->
+		<probability>0.1</probability>
+			<itemGUID>5015651a-e3b2-4ef6-b41a-bf2aca34063b</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Woodland) -->
+		<probability>0.1</probability>
+			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits><m_Name>SharkArmyCamoGreenNVGFemale</m_Name>
+		<m_Guid>6b2f366e-4e7f-4332-bf42-c3a25a1927ba</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- PASGT Helmet  w/ NVG Mount-->
+			<itemGUID>bacbb049-f306-446f-b6a1-00172bb63590</itemGUID>
+		</m_items>
+		<m_items> <!-- AN/PVS-5 -->
+		<probability>0.5</probability>
+			<itemGUID>a7815ca5-8df2-4754-871a-ca9324a504e8</itemGUID>
+		</m_items>
+	    <m_items> <!-- Woodland Patrol Cap-->
+			<probability>0.5</probability>
+			<itemGUID>601bf44b-fe47-44b1-a327-3fd441250ca7</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+			<m_items> <!-- CFP-90 Assault Pack -->
+		<probability>0.7</probability>
+			<itemGUID>80c41e56-7aeb-48ee-a1a7-c75be8cd80cc</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Woodland) -->
+		<probability>0.1</probability>
+			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkMOPPSuitOD</m_Name>
+		<m_Guid>b20ad277-6914-4f5f-aef7-4512dc96f285</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!---Army Helmet (Strapless)-->
+			<itemGUID>9620aac8-3540-4699-b285-ed3257bc2ee5</itemGUID>
+		</m_items>
+		<m_items> <!-- M40 Gas Mask -->
+			<itemGUID>68597e1c-b333-4391-a87e-8fdfca7915ca</itemGUID>
+		</m_items>
+		<m_items> <!-- M17 Gas Mask -->
+			<probability>0.1</probability>
+			<itemGUID>2d32997a-b8e5-463d-b718-06fcf2a73437</itemGUID>
+		</m_items>
+		<m_items> <!-- Gas Mask Bag -->
+			<itemGUID>25a8cb1d-0a71-425b-b2ab-25953532e366</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- Glove Liner -->
+			<itemGUID>d79f41d8-bdfd-4498-acc5-bbbb86b73e5c</itemGUID>
+		</m_items>
+		<m_items> <!-- NBC Gloves -->
+			<itemGUID>27bbfaa3-bfec-4fdf-a7e0-8d1de17f1fa4</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- NBC Boots -->
+			<itemGUID>56b62e70-0f4b-4425-8cc6-0f9d723b1a19</itemGUID>
+		</m_items>
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Woodland) -->
+		<probability>0.1</probability>
+			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+		</m_items>
+		<m_items> <!-- MOPP Pants -->
+			<itemGUID>cf542079-55ed-4065-bf4b-9a121526ac73</itemGUID>
+		</m_items>
+		<m_items> <!-- MOPP Suit Top (Up) -->
+			<itemGUID>4e61b2ff-495d-440e-9bc3-217373c0b41f</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkMOPPSuitODMedical</m_Name>
+		<m_Guid>3ef4eb86-6e68-4cd8-b341-e6e48d4bf72e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- M40 Gas Mask -->
+			<itemGUID>68597e1c-b333-4391-a87e-8fdfca7915ca</itemGUID>
+		</m_items>
+		<m_items> <!-- Gas Mask Bag -->
+			<itemGUID>25a8cb1d-0a71-425b-b2ab-25953532e366</itemGUID>
+		</m_items>
+		<m_items> <!-- Glove Liner -->
+			<itemGUID>d79f41d8-bdfd-4498-acc5-bbbb86b73e5c</itemGUID>
+		</m_items>
+		<m_items> <!-- NBC Gloves -->
+			<itemGUID>27bbfaa3-bfec-4fdf-a7e0-8d1de17f1fa4</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- NBC Boots -->
+			<itemGUID>56b62e70-0f4b-4425-8cc6-0f9d723b1a19</itemGUID>
+		</m_items>
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- MOPP Pants -->
+			<itemGUID>cf542079-55ed-4065-bf4b-9a121526ac73</itemGUID>
+		</m_items>
+		<m_items> <!-- MOPP Suit Top (Up) -->
+			<itemGUID>4e61b2ff-495d-440e-9bc3-217373c0b41f</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyCamoGreenMaleGasMask</m_Name>
+		<m_Guid>b20ad277-6914-4f5f-aef7-4512dc96f285</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+        <m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!---Army Helmet (Strapless)-->
+			<itemGUID>9620aac8-3540-4699-b285-ed3257bc2ee5</itemGUID>
+		</m_items>
+		<m_items> <!-- M17 Gas Mask w/ Doff-->
+			<itemGUID>c8285da6-70cd-4794-9691-67d0b5b2c91b</itemGUID>
+		</m_items>
+		<m_items> <!-- M40 Gas Mask /w Doff-->
+			<probability>0.6</probability>
+			<itemGUID>d977ee6-e0e5-46ff-a537-538a42a8e63a</itemGUID>
+		</m_items>
+		<m_items> <!-- Gas Mask Bag -->
+			<itemGUID>25a8cb1d-0a71-425b-b2ab-25953532e366</itemGUID>
+		</m_items>
+		<m_items> <!-- LBV-88 Webbing-->
+			<itemGUID>d3546a87-b4f5-4b23-be53-25c0ec7ca00b</itemGUID>
+		</m_items>
+		<m_items> <!-- NBC Gloves -->
+			<itemGUID>27bbfaa3-bfec-4fdf-a7e0-8d1de17f1fa4</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Woodland) -->
+		<probability>0.1</probability>
+			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits><m_Name>SharkArmyCamoGreenFemaleGasMask</m_Name>
+		<m_Guid>6eb34103-4a5e-4d80-a568-402383dbe47c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!---Army Helmet (Strapless)-->
+			<itemGUID>9620aac8-3540-4699-b285-ed3257bc2ee5</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab124</itemGUID>
+		</m_items>
+		<m_items> <!-- M17 Gas Mask w/ Doff-->
+			<itemGUID>c8285da6-70cd-4794-9691-67d0b5b2c91b</itemGUID>
+		</m_items>
+	    <m_items> <!-- M40 Gas Mask /w Doff-->
+			<probability>0.6</probability>
+			<itemGUID>d977ee6-e0e5-46ff-a537-538a42a8e63a</itemGUID>
+		</m_items>
+		<m_items> <!-- Gas Mask Bag -->
+			<itemGUID>25a8cb1d-0a71-425b-b2ab-25953532e366</itemGUID>
+		</m_items>
+		<m_items> <!-- NBC Gloves -->
+			<itemGUID>27bbfaa3-bfec-4fdf-a7e0-8d1de17f1fa4</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Woodland) -->
+		<probability>0.1</probability>
+			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyCamoGreen</m_Name>
+		<m_Guid>82c517ea-2efd-4742-b465-f9abf4c214f1</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Patrol Cap-->
+			<itemGUID>601bf44b-fe47-44b1-a327-3fd441250ca7</itemGUID>
+		</m_items>
+		<m_items> <!-- Rolled Woodland Patrol Cap -->
+		<probability>0.3</probability>
+			<itemGUID>50a07bc6-c0e0-4aad-ab68-2c5ba76da526</itemGUID>
+		</m_items>
+			<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing (Fastened) -->
+		<probability>0.5</probability>
+			<itemGUID>20260ba2-716d-4e84-9a36-8000c3eb6c2a</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyMedicalMale</m_Name>
+		<m_Guid>c51457cc-d512-43fc-b39e-d59f9fe2698c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Patrol Cap-->
+			<itemGUID>601bf44b-fe47-44b1-a327-3fd441250ca7</itemGUID>
+		</m_items>
+		<m_items> <!-- Safety Goggles -->
+			<itemGUID>c05cf7a7-f704-43ce-a6bf-5eee59d96a5c</itemGUID>
+		</m_items>
+		<m_items> <!-- Medical Mask (Green) -->
+			<itemGUID>c617853e-dd00-443e-952a-7b910150c410</itemGUID>
+		</m_items>
+		<m_items> <!-- Medical Gloves -->
+			<itemGUID>2dd80ba3-4b0e-469a-98c4-7221891bd71a</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.2</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyCamoGreenReservist</m_Name>
+		<m_Guid>09eafd79-c81e-4b76-9691-f7603652d5c6</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Helmet /w Riot Visor (Up) -->
+			<itemGUID>744b22b2-9d94-49fc-872b-4cc695f86f67</itemGUID>
+		</m_items>
+		<m_items> <!-- M17 Gas Mask -->
+			<probability>0.5</probability>
+			<itemGUID>2d32997a-b8e5-463d-b718-06fcf2a73437</itemGUID>
+		</m_items>
+		<m_items> <!-- Gas Mask Bag -->
+			<itemGUID>25a8cb1d-0a71-425b-b2ab-25953532e366</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- MP Brassard -->
+			<probability>0.3</probability>
+			<itemGUID>480c1126-3a95-409d-9a48-27a0787aae4a</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Plain) -->
+		<probability>0.1</probability>
+			<itemGUID>8b3f943c-e903-431b-bf8d-8f2eb86c9ef3</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkMilitaryPolice</m_Name>
+		<m_Guid>32a6ac0f-ee36-441a-ab4b-cfbba54128af</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Helmet  /w Riot Visor (Up) -->
+			<itemGUID>744b22b2-9d94-49fc-872b-4cc695f86f67</itemGUID>
+		</m_items>
+	    <m_items> <!-- Woodland Patrol Cap-->
+			<probability>0.5</probability>
+			<itemGUID>601bf44b-fe47-44b1-a327-3fd441250ca7</itemGUID>
+		</m_items>
+		<m_items> <!-- Gas Mask Bag -->
+			<itemGUID>25a8cb1d-0a71-425b-b2ab-25953532e366</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- MP Brassard -->
+			<itemGUID>480c1126-3a95-409d-9a48-27a0787aae4a</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Plain) -->
+		<probability>0.1</probability>
+			<itemGUID>8b3f943c-e903-431b-bf8d-8f2eb86c9ef3</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+	
+	<m_MaleOutfits><m_Name>SharkMilitaryPoliceMarchRidge</m_Name>
+		<m_Guid>46173ee2-1490-4647-8abe-02da522cd898</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+	    <m_items> <!-- Woodland Patrol Cap-->
+			<itemGUID>601bf44b-fe47-44b1-a327-3fd441250ca7</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing (Tightened) -->
+			<itemGUID>20260ba2-716d-4e84-9a36-8000c3eb6c2a</itemGUID>
+		</m_items>
+		<m_items> <!-- MP Brassard -->
+			<itemGUID>480c1126-3a95-409d-9a48-27a0787aae4a</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkTankCrewman</m_Name>
+		<m_Guid>09eafd79-c81e-4b76-9691-f7603652d5c6</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- DH-132 Helmet -->
+			<itemGUID>d303ddaa-ed62-442a-8706-f7b8a577b748</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Tanker Vest -->
+			<itemGUID>e29129b7-5c6f-4a7c-b18c-20de3d46e06f</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+	
+	<m_MaleOutfits><m_Name>SharkArmyCavalry</m_Name>
+		<m_Guid>a3ec3ed3-481b-494b-82cb-6281b818b230</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Cavalry Hat-->
+			<itemGUID>44ba016a-1ec4-457a-b2a0-40c777173305</itemGUID>
+		</m_items>		
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>			
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+		<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+			<probability>0.3</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyRanger</m_Name>
+		<m_Guid>613295c7-7743-4b51-82be-56393848491b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Face Paint -->
+			<itemGUID>c1de3be1-2854-447f-afd0-5e2e45827329</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Helmet  w/ NVG (Down)-->
+		<probability>0.3</probability>
+			<itemGUID>3468f688-5da8-4398-943a-488f0e73d2b1</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Helmet  (NVG up)-->
+			<itemGUID>14b93a03-3b91-463a-b59d-4c83bf3c0574</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Ranger Body Armor -->
+			<itemGUID>5015651a-e3b2-4ef6-b41a-bf2aca34063b</itemGUID>
+		</m_items>
+		<m_items> <!-- LBV-88 Webbing-->
+			<itemGUID>1d9a3259-050c-4393-aad7-af424f76858b</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>			
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Watch (Right) -->
+			<itemGUID>807fade7-aa54-432d-b038-4bf584c79723</itemGUID>
+		</m_items>
+		<m_items> <!-- Flight Gloves -->
+			<itemGUID>376cd290-8fdb-4b2a-ab52-7a85b2412bd7</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkSpecialForces</m_Name>
+		<m_Guid>aeabd0c5-5bbc-4165-a5d7-5cbdef0e3b4e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Bump Helmet -->
+			<itemGUID>0f8e3cda-6558-4c51-9e43-c4a92882764e</itemGUID>
+		</m_items>
+		<m_items> <!-- Bump Helmet w/ NVG -->
+		<probability>0.5</probability>
+			<itemGUID>0cde2765-941d-46f9-b450-7de32fcc26a4</itemGUID>
+		</m_items>
+		<m_items> <!-- Boogie Goggles -->
+		<probability>0.7</probability>
+			<itemGUID>e8441963-a45b-4454-81d3-8fd69c0ec453</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Tactical Vest -->
+			<itemGUID>ea2e6901-f5e7-4021-87b4-c2c49f024b98</itemGUID>
+		</m_items>
+		<m_items> <!-- LBV-88 Webbing-->
+			<itemGUID>1d9a3259-050c-4393-aad7-af424f76858b</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>			
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Watch (Right) -->
+			<itemGUID>807fade7-aa54-432d-b038-4bf584c79723</itemGUID>
+		</m_items>
+		<m_items> <!-- Flight Gloves -->
+			<itemGUID>376cd290-8fdb-4b2a-ab52-7a85b2412bd7</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkCleanUpCrew</m_Name>
+		<m_Guid>a975fd61-fc49-47f0-9519-22a5eb62c8dd</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Bump Helmet -->
+			<itemGUID>0f8e3cda-6558-4c51-9e43-c4a92882764e</itemGUID>
+		</m_items>
+		<m_items> <!-- Bump Helmet w/ NVG -->
+		<probability>0.5</probability>
+			<itemGUID>0cde2765-941d-46f9-b450-7de32fcc26a4</itemGUID>
+		</m_items>
+		<m_items> <!-- Boogie Goggles -->
+		<probability>0.7</probability>
+			<itemGUID>e8441963-a45b-4454-81d3-8fd69c0ec453</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Tactical Vest -->
+			<itemGUID>ea2e6901-f5e7-4021-87b4-c2c49f024b98</itemGUID>
+		</m_items>
+		<m_items> <!-- LBV-88 Webbing-->
+			<itemGUID>1d9a3259-050c-4393-aad7-af424f76858b</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>			
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Watch (Right) -->
+			<itemGUID>807fade7-aa54-432d-b038-4bf584c79723</itemGUID>
+		</m_items>
+		<m_items> <!-- Flight Gloves -->
+			<itemGUID>376cd290-8fdb-4b2a-ab52-7a85b2412bd7</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyCamoUrbanMale</m_Name>
+		<m_Guid>a975fd61-fc49-47f0-9519-22a5eb62c8dd</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Red Military Beret -->
+			<probability>0.5</probability>
+			<itemGUID>408d4d09-81ae-4bf8-9b77-1f4bfccbb1c9</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Urban Camo Pants (Tucked) -->
+			<itemGUID>805791e5-3cae-44db-bdeb-1c937c96fa8a</itemGUID>
+		</m_items>
+		<m_items> <!-- Urban Camo Jacket -->
+			<itemGUID>323fc189-8e21-41b8-b0ca-a481904cbb82</itemGUID>
+		</m_items>
+		<m_items> <!-- Urban Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>7496991e-2e75-46cd-86d9-92d2d90175f8</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits><m_Name>SharkArmyCamoUrbanFemale</m_Name>
+		<m_Guid>c8e321d3-4ff6-4eb4-9fe6-46c1d5fa3cfe</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Red Military Beret -->
+			<probability>0.5</probability>
+			<itemGUID>408d4d09-81ae-4bf8-9b77-1f4bfccbb1c9</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Urban Camo Pants (Tucked) -->
+			<itemGUID>805791e5-3cae-44db-bdeb-1c937c96fa8a</itemGUID>
+		</m_items>
+		<m_items> <!-- Urban Camo Jacket -->
+			<itemGUID>323fc189-8e21-41b8-b0ca-a481904cbb82</itemGUID>
+		</m_items>
+		<m_items> <!-- Urban Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>7496991e-2e75-46cd-86d9-92d2d90175f8</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkArmyCamoUrbanGearedMale</m_Name>
+		<m_Guid>ef5c55c2-648d-4f4d-baed-2e533af4c845</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Helmet -->
+			<itemGUID>e3b68146-8b14-4c4c-a59e-d0fb94901858</itemGUID>
+		</m_items>
+		<m_items> <!-- M40 Gas Mask -->
+			<probability>0.3</probability>
+			<itemGUID>68597e1c-b333-4391-a87e-8fdfca7915ca</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- OD PASGT Vest -->
+			<itemGUID>bd491c9f-6fe3-48ca-bf05-04c8070cfb99</itemGUID>
+		</m_items>
+		<m_items> <!-- LBV-88 Webbing-->
+			<itemGUID>1d9a3259-050c-4393-aad7-af424f76858b</itemGUID>
+		</m_items>
+		<m_items> <!-- CFP-90 Assault Pack -->
+		<probability>0.7</probability>
+			<itemGUID>80c41e56-7aeb-48ee-a1a7-c75be8cd80cc</itemGUID>
+		</m_items>
+		<m_items> <!-- Urban Camo Pants (Tucked) -->
+			<itemGUID>805791e5-3cae-44db-bdeb-1c937c96fa8a</itemGUID>
+		</m_items>
+		<m_items> <!-- Urban Camo Jacket -->
+			<itemGUID>323fc189-8e21-41b8-b0ca-a481904cbb82</itemGUID>
+		</m_items>
+		<m_items> <!-- Urban Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>7496991e-2e75-46cd-86d9-92d2d90175f8</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Flight Gloves -->
+			<itemGUID>376cd290-8fdb-4b2a-ab52-7a85b2412bd7</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<!-- Survivors, Bandits, and Hunters -->
+	
+	<m_MaleOutfits><m_Name>SharkArmySurvivor</m_Name>
+		<m_Guid>004931b4-934a-4070-974d-67d20c51021b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Watch Cap -->
+			<itemGUID>e5cc2ab2-7ef5-446a-9089-017361485d88</itemGUID>
+		</m_items>
+		<m_items> <!-- Rolled Woodland Patrol Cap -->
+		<probability>0.3</probability>
+			<itemGUID>50a07bc6-c0e0-4aad-ab68-2c5ba76da526</itemGUID>
+		</m_items>
+			<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkVeteran</m_Name>
+		<m_Guid>6d857b63-2d22-4ca7-9c7f-b73bf61f1112</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- M65 Jacket -->
+			<itemGUID>58f60ce0-5fa6-4a4b-91de-5cc1af6bd3e3</itemGUID>
+		</m_items>
+		<m_items> <!-- Mitchell Pattern M65 Jacket -->
+		<probability>0.5</probability>
+			<itemGUID>1fd8b936-ab26-412a-905d-1e65ac11fee9</itemGUID>
+		</m_items>
+		<m_items> <!-- Dog-Tags -->
+		<probability>0.5</probability>
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Combat Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Boots -->
+		<probability>0.5</probability>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+		</m_items>
+		<m_items> <!-- T-Shirt -->
+			<itemGUID>19af00e4-ed4d-49bc-a893-a4a3376fe6da</itemGUID>
+		</m_items>
+		<m_items> <!-- Jeans -->
+			<itemGUID>06b8adc1-ef58-4545-a30a-6ca9920c1b82</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkHunter</m_Name>
+		<m_Guid>b6735673-456b-4d0f-b361-6a090705eab9</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+			<m_items> <!-- Face Paint -->
+		<probability>0.5</probability>
+			<itemGUID>c1de3be1-2854-447f-afd0-5e2e45827329</itemGUID>
+		</m_items>
+		<m_items> <!-- Watch Cap -->
+		<probability>0.3</probability>
+			<itemGUID>e5cc2ab2-7ef5-446a-9089-017361485d88</itemGUID>
+		</m_items>
+		<m_items> <!-- Hunting Vest -->
+			<itemGUID>b0d9f681-08f3-4e05-913e-75909a2203ce</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Riding Boots -->
+		<probability>0.5</probability>
+			<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+		</m_items>
+		<m_items> <!-- T-Shirt -->
+			<itemGUID>19af00e4-ed4d-49bc-a893-a4a3376fe6da</itemGUID>
+		</m_items>
+		<m_items> <!-- Duckhunter Pants -->
+			<itemGUID>426bd1a9-ff7b-42c2-a96b-67ff4c001b92</itemGUID>
+		</m_items>
+		<m_items> <!-- Duckhunter Jacket -->
+			<itemGUID>b637652c-0e59-4aad-b40e-03c160cf2e15</itemGUID>
+		</m_items>
+		<m_items> <!-- Frogskin Jacket -->
+		<probability>0.5</probability>
+			<itemGUID>bd04935d-05cb-4b68-a2fc-f4b8dfb2f0c3</itemGUID>
+		</m_items>
+		<m_items> <!-- Frogskin Trousers -->
+		<probability>0.5</probability>
+			<itemGUID>7ede982e-8982-4ffb-8433-9710f156eab3</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkPreparedSurvivor</m_Name>
+		<m_Guid>c0df1352-dce9-453d-99c5-6a8f22e46ffd</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+			<m_items> <!-- Face Paint -->
+		<probability>0.5</probability>
+			<itemGUID>c1de3be1-2854-447f-afd0-5e2e45827329</itemGUID>
+		</m_items>
+		<m_items> <!-- M1 Helmet (Strapless) -->
+		<probability>0.5</probability>
+			<itemGUID>63276add-e9c1-46fe-97be-dc7fd55bd315</itemGUID>
+		</m_items>
+		<m_items> <!-- M17 Gas Mask -->
+		<probability>0.5</probability>
+			<itemGUID>2d32997a-b8e5-463d-b718-06fcf2a73437</itemGUID>
+		</m_items>
+		<m_items> <!-- M-1956 Webbing -->
+			<itemGUID>5deec6a0-e624-40f5-a88c-b5970bd041f5</itemGUID>
+		</m_items>
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Riding Boots -->
+		<probability>0.5</probability>
+			<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+		</m_items>
+		<m_items> <!-- T-Shirt -->
+			<itemGUID>19af00e4-ed4d-49bc-a893-a4a3376fe6da</itemGUID>
+		</m_items>
+		<m_items> <!-- Highland ERDL Pants (Tucked) -->
+			<itemGUID>499513c5-8d3a-40ad-85a6-9adc64bffd78</itemGUID>
+		</m_items>
+		<m_items> <!-- Lowland ERDL Jacket -->
+			<itemGUID>ffed1370-8170-48c9-b48a-046436673492</itemGUID>
+		</m_items>
+		<m_items> <!-- Mitchell Pattern M65 Jacket -->
+		<probability>0.5</probability>
+			<itemGUID>1fd8b936-ab26-412a-905d-1e65ac11fee9</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Utility Pants (Tucked) -->
+		<probability>0.5</probability>
+			<itemGUID>d0365fa3-bf46-42f1-95ae-cef7144924d7</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkBandit</m_Name>
+		<m_Guid>c7c7db1f-a783-4c67-a904-7713f985631c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Face Paint -->
+			<itemGUID>c1de3be1-2854-447f-afd0-5e2e45827329</itemGUID>
+		</m_items>
+		<m_items> <!-- Tigerstripe Beret-->
+			<itemGUID>93563768-750f-4d77-99d9-9df0f575db6b</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Beret-->
+		<probability>0.5</probability>
+			<itemGUID>fe7f38b5-d967-43a7-ba7e-07fb1e4a194a</itemGUID>
+		</m_items>
+		<m_items> <!-- Aviators-->
+			<itemGUID>6b01e5b3-860d-4361-b43f-7b8ea152f1bf</itemGUID>
+		</m_items>
+		<m_items> <!-- M-1956 Webbing -->
+			<itemGUID>09c71cc7-b135-4308-bce0-2454b6d2da2e</itemGUID>
+		</m_items>
+		<m_items> <!-- Ammostrap Bullets -->
+			<itemGUID>15514b21-1567-4a0b-a171-9740ee9b7b3a</itemGUID>
+		</m_items>
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Gulf War Novelty T-Shirt -->
+			<itemGUID>3fb729e9-4ec9-4a7c-bb77-d5abdbff7699</itemGUID>
+		</m_items>
+		<m_items> <!-- Highland ERDL Pants (Tucked) -->
+			<itemGUID>499513c5-8d3a-40ad-85a6-9adc64bffd78</itemGUID>
+		</m_items>
+		<m_items> <!-- Tigerstripe Pants (Tucked) -->
+		<probability>0.5</probability>
+			<itemGUID>85e403e5-62c1-4249-b950-1ea7816498d3</itemGUID>
+		</m_items>
+	</m_MaleOutfits>	
+
+    <!-- Vintage Edition -->
+
+	<m_MaleOutfits><m_Name>SharkOG107</m_Name>
+		<m_Guid>4b1e05b7-7d7d-489b-b01b-f66b0004d8df</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Patrol Cap -->
+			<itemGUID>1b3b888f-99b0-48ac-b755-a994624a8fa6</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Pants (Tucked) -->
+			<itemGUID>caaf9d9c-be1b-46ef-9a39-0686bdf2f3ac</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Jacket -->
+			<itemGUID>d9baa406-1095-4706-a184-4104b646be23</itemGUID>
+		</m_items>
+		<m_items> <!-- M65 Jacket -->
+		<probability>0.3</probability>
+			<itemGUID>58f60ce0-5fa6-4a4b-91de-5cc1af6bd3e3</itemGUID>
+		</m_items>
+		<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkOG107Equipped</m_Name>
+		<m_Guid>2aeb3b3b-16da-4dca-ae8c-af203d9bbe03</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown M1 Helmet -->
+			<itemGUID>9844f947-0820-4dd1-9cab-15e9fb0df8fd</itemGUID>
+		</m_items>
+		<m_items> <!-- M1 Helmet -->
+		<probability>0.2</probability>
+			<itemGUID>4fd438f9-45cc-4b8d-a374-cfaf74856280</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Pants (Tucked) -->
+			<itemGUID>caaf9d9c-be1b-46ef-9a39-0686bdf2f3ac</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Jacket -->
+			<itemGUID>d9baa406-1095-4706-a184-4104b646be23</itemGUID>
+		</m_items>
+		<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkOG107USNG</m_Name>
+		<m_Guid>810954e0-047a-45e7-ac9e-7f269798ed60</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack -->
+			<probability>0.2</probability>
+			<itemGUID>8b3f943c-e903-431b-bf8d-8f2eb86c9ef3</itemGUID>
+		</m_items>
+		<m_items> <!-- Mitchell M1 Helmet -->
+		<probability>0.2</probability>
+			<itemGUID>4c08abca-b4aa-479e-b9c1-720c32b1d8e1</itemGUID>
+		</m_items>
+		<m_items> <!-- Brown ERDL M1 Helmet -->
+			<itemGUID>9844f947-0820-4dd1-9cab-15e9fb0df8fd</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing (Tightened) -->
+			<itemGUID>20260ba2-716d-4e84-9a36-8000c3eb6c2a</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Pants (Tucked) -->
+			<itemGUID>caaf9d9c-be1b-46ef-9a39-0686bdf2f3ac</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Jacket -->
+			<itemGUID>d9baa406-1095-4706-a184-4104b646be23</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Jacket (Rolled)-->
+		<probability>0.3</probability>
+			<itemGUID>43ea7734-f74d-4df3-ad09-a532369e5d6d</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkERDL</m_Name>
+		<m_Guid>85c24bcf-edaf-42bc-b1cc-7bf1ad88f29f</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown Patrol Cap -->
+			<itemGUID>0f6e1fb2-862e-468a-b8bf-8d0790cfe11c</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown Pants (Tucked) -->
+			<itemGUID>499513c5-8d3a-40ad-85a6-9adc64bffd78</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown Jacket -->
+			<itemGUID>1a3effb9-0471-483b-bb79-ed211e86a53b</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown Jacket (Rolled) -->
+		<probability>0.3</probability>
+			<itemGUID>18d75584-8d1a-4c6a-a294-dbc6051f9faf</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkERDLEquipped</m_Name>
+		<m_Guid>f49ab368-269b-460a-a4ce-3b528db80b4b</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown M1 Helmet -->
+			<itemGUID>9844f947-0820-4dd1-9cab-15e9fb0df8fd</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack -->
+			<probability>0.2</probability>
+			<itemGUID>8b3f943c-e903-431b-bf8d-8f2eb86c9ef3</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown Pants (Tucked) -->
+			<itemGUID>499513c5-8d3a-40ad-85a6-9adc64bffd78</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown Jacket -->
+			<itemGUID>1a3effb9-0471-483b-bb79-ed211e86a53b</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown Jacket (Rolled) -->
+		<probability>0.3</probability>
+			<itemGUID>18d75584-8d1a-4c6a-a294-dbc6051f9faf</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkOG107MP</m_Name>
+		<m_Guid>fda20e40-26bf-4325-9d47-8ce97b0066ad</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Police M1 Helmet -->
+			<itemGUID>59dda96b-1b31-4671-94c8-475be82aa139</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing (Tightened) -->
+			<itemGUID>20260ba2-716d-4e84-9a36-8000c3eb6c2a</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Police Brassard -->
+			<itemGUID>480c1126-3a95-409d-9a48-27a0787aae4a</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Pants (Tucked) -->
+			<itemGUID>caaf9d9c-be1b-46ef-9a39-0686bdf2f3ac</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Jacket -->
+			<itemGUID>d9baa406-1095-4706-a184-4104b646be23</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkERDLMP</m_Name>
+		<m_Guid>7a14d04c-55c8-4771-84fb-2951814e9a3c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Police M1 Helmet -->
+			<itemGUID>59dda96b-1b31-4671-94c8-475be82aa139</itemGUID>
+		</m_items>
+		<m_items> <!-- M17 Gas Mask -->
+		<probability>0.5</probability>
+			<itemGUID>8b3f943c-e903-431b-bf8d-8f2eb86c9ef3</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Police Brassard -->
+			<itemGUID>480c1126-3a95-409d-9a48-27a0787aae4a</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing (Tightened) -->
+			<itemGUID>20260ba2-716d-4e84-9a36-8000c3eb6c2a</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown Pants (Tucked) -->
+			<itemGUID>499513c5-8d3a-40ad-85a6-9adc64bffd78</itemGUID>
+		</m_items>
+		<m_items> <!-- ERDL Brown Jacket -->
+			<itemGUID>1a3effb9-0471-483b-bb79-ed211e86a53b</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkOG107Tanker</m_Name>
+		<m_Guid>f0c38e70-196e-40db-b361-4640ec498bbb</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- T-56 Crewman Helmet -->
+			<itemGUID>41111507-d278-4107-9a16-10d1481a36c9</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Glasses-->
+		<probability>0.2</probability>
+			<itemGUID>85217973-ff88-4680-8a5d-1c6c97692767</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Pants (Tucked) -->
+			<itemGUID>caaf9d9c-be1b-46ef-9a39-0686bdf2f3ac</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Jacket -->
+			<itemGUID>d9baa406-1095-4706-a184-4104b646be23</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Jacket (Rolled)-->
+		<probability>0.3</probability>
+			<itemGUID>43ea7734-f74d-4df3-ad09-a532369e5d6d</itemGUID>
+		</m_items>
+		<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+    <!-- Secret Lab -->
+
+	<m_MaleOutfits><m_Name>SharkSecretLabSoldier</m_Name>
+		<m_Guid>ea570754-a41e-4b4d-ac14-e2e98a7a0beb</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Patrol Cap -->
+			<itemGUID>1b3b888f-99b0-48ac-b755-a994624a8fa6</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing (Tightened) -->
+			<itemGUID>20260ba2-716d-4e84-9a36-8000c3eb6c2a</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Pants (Tucked) -->
+			<itemGUID>caaf9d9c-be1b-46ef-9a39-0686bdf2f3ac</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Jacket -->
+			<itemGUID>d9baa406-1095-4706-a184-4104b646be23</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_MaleOutfits><m_Name>SharkSecretLabMP</m_Name>
+		<m_Guid>22d96281-b72e-4662-ba18-4b34e595c079</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Hair Stubble-->
+			<itemGUID>68c936f2-2a30-49be-bbf2-81e5389850c4</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Police M1 Helmet -->
+			<itemGUID>59dda96b-1b31-4671-94c8-475be82aa139</itemGUID>
+		</m_items>
+		<m_items> <!-- M17 Mask -->
+		<probability>0.5</probability>
+			<itemGUID>2d32997a-b8e5-463d-b718-06fcf2a73437</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing (Tightened) -->
+			<itemGUID>20260ba2-716d-4e84-9a36-8000c3eb6c2a</itemGUID>
+		</m_items>
+		<m_items> <!-- Military Police Brassard -->
+			<itemGUID>480c1126-3a95-409d-9a48-27a0787aae4a</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Pants (Tucked) -->
+			<itemGUID>caaf9d9c-be1b-46ef-9a39-0686bdf2f3ac</itemGUID>
+		</m_items>
+		<m_items> <!-- OG-107 Jacket -->
+			<itemGUID>d9baa406-1095-4706-a184-4104b646be23</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+	
+	<!--Expanded Helicopter Events Integration-->
+
+	<m_MaleOutfits><m_Name>EHESoldier</m_Name>
+		<m_Guid>cc072be0-b9d0-43d4-894e-58f31bfe7c03</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- PASGT Helmet -->
+		<probability>0.6</probability>
+			<itemGUID>dde2a198-d11d-4a19-9826-a58a8f92627e</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Woodland) -->
+		<probability>0.1</probability>
+			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_MaleOutfits>
+
+	<m_FemaleOutfits><m_Name>EHESoldier</m_Name>
+		<m_Guid>cc072be0-b9d0-43d4-894e-58f31bfe7c03</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+	    <m_items> <!-- PASGT Helmet -->
+			<itemGUID>dde2a198-d11d-4a19-9826-a58a8f92627e</itemGUID>
+		</m_items>
+	    <m_items> <!-- Woodland Patrol Cap-->
+			<probability>0.5</probability>
+			<itemGUID>601bf44b-fe47-44b1-a327-3fd441250ca7</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Webbing -->
+			<itemGUID>01ee11ca-3de7-4495-85d6-078d33fcab12</itemGUID>
+		</m_items>
+		<m_items> <!-- GI Socks -->
+			<itemGUID>b496da29-e941-43f7-85dd-854b79c7b453</itemGUID>
+		</m_items>	
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Army T-Shirt -->
+			<itemGUID>0cc9f034-1d90-4f4c-9b17-e1dcf008b356</itemGUID>
+		</m_items>
+		<m_items> <!-- PASGT Vest -->
+			<itemGUID>1a437dbb-cee9-4013-8e8a-e158acf98b62</itemGUID>
+		</m_items>
+		<m_items> <!-- ALICE Pack (Woodland) -->
+		<probability>0.1</probability>
+			<itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Pants (Tucked) -->
+			<itemGUID>eb8d1f35-8d0b-4c9c-a308-aba2aa085r34</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket -->
+			<itemGUID>b0d642f6-eb11-456c-aeb0-1b190b29a364</itemGUID>
+		</m_items>
+		<m_items> <!-- Woodland Camo Jacket (Rolled) -->
+		<probability>0.5</probability>
+			<itemGUID>a51eee81-0e8a-45b1-9169-145d87041d99</itemGUID>
+		</m_items>
+			<m_items> <!-- Dog-Tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items> <!-- Holster -->
+		<probability>0.1</probability>
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+	</m_FemaleOutfits>
+
+</outfitManager>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_Heart.xml</path>
+		<guid>45776b4d-ff79-4c99-8fbe-fca0f1af983f</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_CrossSkulls.xml</path>
+		<guid>049d0d57-a7ad-47a6-9742-2cc48c2a5fdd</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_Moto.xml</path>
+		<guid>11bf72af-c3b0-43a1-b814-0f926d753416</guid>
+	</files>	
+		
+
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_Scorp.xml</path>
+		<guid>9c37295d-cdcd-4bd2-850c-2875940151d5</guid>
+	</files>	
+
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_Shuru.xml</path>
+		<guid>86f37aa8-4e2f-4462-b1f9-2487befe051d</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_Sakura.xml</path>
+		<guid>510bee0a-f35b-4f77-9f21-9729d1b5819f</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_Val.xml</path>
+		<guid>559f3118-7b00-4b5d-b562-34762aea4d49</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_Marines2.xml</path>
+		<guid>97a06064-5590-49a2-9814-55cbabc7bc0b</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_Ellie.xml</path>
+		<guid>2c7946b3-54d7-4cbf-ae06-4bc044a64539</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LowerBody_Tattoo_Heart.xml</path>
+		<guid>3758748c-e0ff-4d19-870f-514b5d1c1aa1</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LowerBody_Tattoo_SkullsBike.xml</path>
+		<guid>56f18231-beb3-4422-80ee-340bf1f1c478</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LowerBody_Tattoo_Mask.xml</path>
+		<guid>08878fbf-28cd-436d-a1d3-777be865b1a9</guid>
+	</files>	
+
+	<files>
+		<path>media/clothing/clothingItems/LowerBody_Tattoo_Tribal1.xml</path>
+		<guid>9a7c67b5-75b0-4953-9673-814a500055d5</guid>
+	</files>	
+
+	<files>
+		<path>media/clothing/clothingItems/LowerBody_Tattoo_Jap1.xml</path>
+	    <guid>4899db1e-5809-41d3-9330-f1f105f077e8</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LowerBody_Tattoo_Tank.xml</path>
+		<guid>ad018a97-08a1-47c0-8029-2ad59ae48522</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Face_Tattoo_Heart.xml</path>
+		<guid>83f09dfa-9459-4a90-a220-38976820e553</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftArm_Tattoo_Heart.xml</path>
+		<guid>2a0d9b1b-1e38-4298-9c58-68abb5f17246</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/LeftArm_Tattoo_MCEagle.xml</path>
+		<guid>38445e27-6d9b-4db5-8c60-222b6a6108e8</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftArm_Tattoo_Dragon.xml</path>
+		<guid>e76489a5-3563-4bd7-84d8-e0defcca7706</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftArm_Tattoo_Cat.xml</path>
+		<guid>72ccfa2a-136c-4ed0-9434-56daeb240a81</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftArm_Tattoo_Cavalry.xml</path>
+    	<guid>90b01aa8-0685-47e8-b23a-3d875780291c</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/LeftArm_Tattoo_Tribal2.xml</path>
+    	<guid>4fd08705-749c-4b90-b060-0a96f593b6fe</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightArm_Tattoo_Heart.xml</path>
+		<guid>572e9caf-a198-44cd-ad72-0be46cbbbe2d</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightArm_Tattoo_Harley.xml</path>
+		<guid>9c4c2f71-b688-45c9-9700-e83bcaedb7ed</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightArm_Tattoo_Marine.xml</path>
+		<guid>57b77fc8-be28-436f-bed5-24f5095af7ba</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightArm_Tattoo_OniDemon.xml</path>
+		<guid>6ee85b64-2b1f-4f26-bae8-247826678aa8</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightArm_Tattoo_OniFemale.xml</path>
+		<guid>d421fcc0-a2e0-4fe7-a987-77c565a11041</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightArm_Tattoo_OniMask.xml</path>
+		<guid>ed564a3e-6f82-42ad-b831-9031bbc4510b</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightArm_Tattoo_Tribal3.xml</path>
+		<guid>47f5e1a7-4aa5-434f-8ad4-645c90fb837f</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftLeg_Tattoo_Heart.xml</path>
+		<guid>1001193e-ae91-489c-8063-e56619d27347</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftLeg_Tattoo_Wheel.xml</path>
+		<guid>387c7076-be92-43ad-bd05-6e4f0a38f792</guid>
+	</files>	
+
+	<files>
+		<path>media/clothing/clothingItems/LeftLeg_Tattoo_Tribal5.xml</path>
+		<guid>25ebefdf-8af1-49ce-8b47-b21f16a956f2</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftLeg_Tattoo_Tribal6.xml</path>
+		<guid>d0004879-a4d7-4d1a-9b56-dc2a734cc735</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftLeg_Tattoo_Tiger.xml</path>
+		<guid>e31cbf93-6fa7-4bce-ab92-9e11566289da</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftLeg_Tattoo_Soldier.xml</path>
+    	<guid>dca15f9c-fce0-48f0-addb-3f69aca33553</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/LeftLeg_Tattoo_SexyRevolver.xml</path>
+    	<guid>f086629b-bf49-4a01-9876-1f39fdd8666f</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightLeg_Tattoo_Heart.xml</path>
+		<guid>092cbfa2-1b46-4ca9-a568-7af939230f2d</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightLeg_Tattoo_BikerHorse.xml</path>
+		<guid>4ad4e06b-74c1-4b12-92a4-7e663678be86</guid>
+	</files>	
+
+	<files>
+		<path>media/clothing/clothingItems/RightLeg_Tattoo_Fish.xml</path>
+		<guid>3782ebc5-83b9-4c22-a00d-853f35b6349a</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightLeg_Tattoo_Medic.xml</path>
+		<guid>fc834f9a-2111-4f5d-bc63-863d48c93c8f</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/RightLeg_Tattoo_Tribal4.xml</path>
+		<guid>dfdbc834-e512-476d-bf05-5d10648a11a9</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Back_Tattoo_Heart.xml</path>
+		<guid>5bd68419-5be5-4f81-83ac-82835008e83a</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Back_Tattoo_SkullAce.xml</path>
+		<guid>64894519-cfb6-413d-9912-f2a81746d2eb</guid>
+	</files>	
+
+	<files>
+		<path>media/clothing/clothingItems/Back_Tattoo_Veteran.xml</path>
+		<guid>080c7e45-0aff-47ea-8ede-1c74134ebd27</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Back_Tattoo_ILoveSpiffos.xml</path>
+		<guid>9c5a9556-f1e6-4d75-a109-b1ffc048b1e8</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Back_Tattoo_Snake.xml</path>
+		<guid>124e1b2f-ef3f-4508-8d83-86961e3153ef</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Back_Tattoo_Owl.xml</path>
+		<guid>ce0fcfcc-d8fd-4274-b12c-3bcf83d72f07</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Back_Tattoo_TribalHeart.xml</path>
+		<guid>97751af4-3094-4690-af1a-973b24d950ab</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Back_Tattoo_BikerGirl.xml</path>
+		<guid>c92f0a82-43e5-4aca-ace2-b6e34fbf9230</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Back_Tattoo_GrimRider.xml</path>
+		<guid>3709aba2-cb60-4624-be6a-d350aee7e435</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/UpperBody_Tattoo_Engine.xml</path>
+		<guid>bf051749-74a7-4345-adfb-f146e7d7befd</guid>
+	</files>
+
+</fileGuidTable>

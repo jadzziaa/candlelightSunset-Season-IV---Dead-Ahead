@@ -1,0 +1,78 @@
+module Base
+{
+
+	model 89trooperSpareFront
+	{
+		mesh = vehicles/Vehicles_89trooper_Body|trooper_spare_front,
+		texture = vehicles/Vehicles_89trooper_Wheel,
+		shader = vehiclewheel,
+		scale = 0.1,
+	}
+
+	
+	template vehicle ISZ89OPSpareTires
+	{
+		part ISZ89SpareTireFront
+        	{
+
+			model ISZ89SpareTireFront
+				{
+                		file = 89trooperSpareFront,
+				}
+
+			category = Other,
+			area = Engine,
+			itemType = Base.89trooperTire,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 750,
+                	skills = Mechanics:1,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = ISZ89.InstallComplete.SpareTireFront,
+                	requireInstalled = ISZ89BumperFront,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 800,
+					skills = Mechanics:1,
+					recipes = Intermediate Mechanics,
+	            	test = Vehicles.UninstallTest.Default,
+	            	complete = ISZ89.UninstallComplete.SpareTireFront,
+
+            		}
+
+	            lua
+	            {
+				create = ISZ89.Create.SpareTireFront,
+				init = ISZ89.Init.SpareTireFront,
+				}
+		}
+	}
+}
+

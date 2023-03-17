@@ -1,0 +1,28 @@
+module Autotsar
+{
+	item TrailerFirstTrunk 
+	{
+		Weight	=	50,
+        Type	=	Normal,
+        DisplayName	= Small Trailer Trunk,
+        Icon	=	media/ui/CarTrunk,
+        MaxCapacity = 250,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 80,
+        MechanicsItem = TRUE,
+	}
+	
+	item TrailerSecondTrunk 
+	{
+		Weight	=	50,
+        Type	=	Normal,
+        DisplayName	= Big Trailer Trunk,
+        Icon	=	media/ui/CarTrunk,
+        MaxCapacity = 500,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 80,
+        MechanicsItem = TRUE,
+	}
+}

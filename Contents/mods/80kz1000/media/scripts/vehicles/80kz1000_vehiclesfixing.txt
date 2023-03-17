@@ -1,0 +1,59 @@
+module Base
+{
+	fixing Fix KZ1K GasTank Welding
+		{
+		   Require : KZ1KgasTank,
+		   GlobalItem : BlowTorch=5,
+		   ConditionModifier : 1.2,
+
+	      Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+	      Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+		}
+
+	fixing Fix KZ1K Trunk Welding
+	{
+	   Require : KZ1Kstorage3;KZ1Ksidestorage3;KZ1Kextra3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+      Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+      Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix KZ1K TrunkLid Welding
+    {
+      Require : KZ1KstorageLid;KZ1KsidestorageLid,
+      GlobalItem : BlowTorch=5,
+      ConditionModifier : 1.2,
+
+      Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+      Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix KZ1K TrunkLid
+	{
+      Require : KZ1KstorageLid;KZ1KsidestorageLid,
+	   GlobalItem : Screws=4,
+	   ConditionModifier : 0.5,
+
+      Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix KZ1K Tire
+	{
+	   Require : KZ1KoldTire;KZ1KnormalTire;KZ1KmodernTire,
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix KZ1K Seat
+	{
+	   Require : KZ1Kseat,
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+}

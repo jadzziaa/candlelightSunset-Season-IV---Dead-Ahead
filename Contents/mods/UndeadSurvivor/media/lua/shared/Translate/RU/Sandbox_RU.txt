@@ -1,0 +1,18 @@
+Sandbox_RU = {
+	Sandbox_UndeadSurvivor.StalkerChance = "Шанс встретить Сталкера в процентах",
+	Sandbox_UndeadSurvivor.StalkerChance_tooltip = "Шанс процентный, но он разделяет свой шанс с другими нарядами. Даже на 100 вы не получите зомби только в этом наряде.",
+		
+	Sandbox_UndeadSurvivor.NomadChance = "Шанс встретить Кочевника в процентах",
+	Sandbox_UndeadSurvivor.NomadChance_tooltip = "Шанс процентный, но он разделяет свой шанс с другими нарядами. Даже на 100 вы не получите зомби только в этом наряде.",
+		
+	Sandbox_UndeadSurvivor.PrepperChance = "Шанс встретить Выживальщика в процентах",
+	Sandbox_UndeadSurvivor.PrepperChance = "Шанс процентный, но он разделяет свой шанс с другими нарядами. Даже на 100 вы не получите зомби только в этом наряде.",
+	
+	Sandbox_UndeadSurvivor.HeadhunterChance = "Шанс встретить Охотник за головами в процентах",
+	Sandbox_UndeadSurvivor.HeadhunterChance = "Шанс процентный, но он разделяет свой шанс с другими нарядами. Даже на 100 вы не получите зомби только в этом наряде.",
+
+	Sandbox_UndeadSurvivor.AmazonaChance = "Шанс встретить Амазонку в процентах",
+	Sandbox_UndeadSurvivor.AmazonaChance = "Шанс процентный, но он разделяет свой шанс с другими нарядами. Даже на 100 вы не получите зомби только в этом наряде. (Если вы хотите иметь одинаковый шанс появления среди всех нарядов, вы должны сделать процент в два раза больше, поскольку он появляется только на женщинах-зомби.)",
+	
+	Sandbox_UndeadSurvivor = "Undead Survivor"
+}

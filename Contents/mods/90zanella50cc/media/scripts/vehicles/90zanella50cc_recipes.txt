@@ -1,0 +1,61 @@
+module Base
+
+{
+
+	recipe Convert Old Muffler
+	{
+		keep Wrench,
+		OldCarMuffler1=1,
+		SmallSheetMetal=1,
+		Screws=1,
+
+		Result:ZNL50muffler,
+		Time:350.0,
+		Category:ZNL50,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Convert Normal Muffler
+	{
+		keep Wrench,
+		NormalCarMuffler1=1,
+		SmallSheetMetal=1,
+		Screws=1,
+
+		Result:ZNL50muffler,
+		Time:350.0,
+		Category:ZNL50,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Convert Modern Muffler
+	{
+		keep Wrench,
+		ModernCarMuffler1=1,
+		SmallSheetMetal=1,
+		Screws=1,
+
+		Result:ZNL50muffler,
+		Time:350.0,
+		Category:ZNL50,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+	recipe Make ZNL50 Seat
+	{
+		keep Wrench,
+		NormalCarSeat1=1,
+		SmallSheetMetal=1,
+		Screws=2,
+
+		Result:ZNL50seat,
+		Time:1000.0,
+		Category:ZNL50,
+		SkillRequired:Mechanics=2,
+		Prop1:Wrench,
+	}
+
+}

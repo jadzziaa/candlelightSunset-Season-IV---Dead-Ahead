@@ -1,0 +1,27 @@
+IG_UI_ES = {
+   IGUI_VehicleNameSemiTruck = "Tractocamión W900",
+   IGUI_VehicleNameSemiTruckLite = "Tractocamión semipesado W900",
+   IGUI_VehicleNameSemiTruckBox = "Camión rígido W900",
+   
+   IGUI_VehicleNameSemiTrailerVan = "Remolque contenedor",
+   IGUI_VehicleNameSemiTrailerCistern = "Remolque cisterna",
+   
+   IGUI_VehiclePartSpareTire = "Rueda de repuesto",
+   IGUI_VehiclePartTrunkToolbox = "Cajón de herramientas",
+   IGUI_VehiclePartToolboxDoor = "Tapa del cajón de herramientas",
+   IGUI_Vehicle_CondInfoToolboxDoor = "Una tapa dañada puede provocar la caída de objetos de su vehículo.",
+   IGUI_VehiclePartRefrigeratorUnit = "Refrigerador",
+   IGUI_VehiclePart750FuelTank = "Tanque",
+   IGUI_VehiclePartTrunkLeft = "Compartimento",
+   IGUI_Vehicle_CondInfoTrunkLeft = "Los compartimentos dañados y deformados tienen menos capacidad de almacenamiento.",
+   IGUI_VehiclePartTrunkDoorLeft = "Tapa del compartimento",
+   IGUI_Vehicle_CondInfoTrunkDoorLeft = "Una tapa dañada puede provocar la caída de objetos de su vehículo.",
+
+   IGUI_VehiclePartArmorFront = "Rejilla delantera",
+   IGUI_VehiclePartArmorRear = "Rejilla trasera",
+   IGUI_VehiclePartArmorDoorL = "Rejilla de la puerta izquierda",
+   IGUI_VehiclePartArmorDoorR = "Rejilla de la puerta derecha",
+   IGUI_VehiclePartArmorBullbar = "Parachoques",
+
+   IGUI_CraftCategory_Mechanical = "Mecánica",
+}

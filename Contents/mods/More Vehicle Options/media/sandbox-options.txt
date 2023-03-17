@@ -1,0 +1,49 @@
+VERSION = 1,
+
+option VehicleConditionExtremelyLow
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+	page = Vehicle,
+	translation = VehicleConditionExtremelyLow,
+	valueTranslation = VehicleConditionExtremelyLow,
+}
+
+option VehicleBatteryChance
+{
+    type = enum,
+	numValues = 6,
+    default = 1,
+    page = Vehicle,
+    translation = VehicleBatteryChance,
+	valueTranslation = VehicleBatteryChance,
+}
+
+option VehicleMayBeIncomplete
+{
+	type = boolean,
+	default = false,
+	page = Vehicle,
+	translation = VehicleMayBeIncomplete,
+}
+
+option VehicleIncompleteProb
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+	page = Vehicle,
+	translation = VehicleIncompleteProb,
+	valueTranslation = VehicleIncompleteProb,
+}
+
+option VehicleMissingPartsQuantity
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+	page = Vehicle,
+	translation = VehicleMissingPartsQuantity,
+	valueTranslation = VehicleMissingPartsQuantity,
+}

@@ -1,0 +1,21 @@
+Tooltip_PTBR = {
+
+	Tooltip_Rolled = "As mangas estão levantadas",
+    Tooltip_Tucked = "A calça está dentro do calçado",
+    Tooltip_Left = "Lado esquerdo",
+    Tooltip_Right = "Lado Direito",
+    Tooltip_DoffHoodM17 = "Capuz Protetor NBC feito para máscara M17",
+    Tooltip_DoffHoodM40 = "Capuz Protetor NBC feito para máscara M40",
+    Tooltip_PackageTop = "Contém a parte superior de uma roupa NBC e óculos protetores",
+    Tooltip_PackageBottom = "Contém a parte inferior de uma roupa NBC e botas protetores",
+    Tooltip_NBCGloves = "Pode ser calçada por cima de outras luvas",
+	
+    Tooltip_NBCBoots = "Pode ser calçada por cima de outros calçados",
+    Tooltip_NightVisionGoggles = "Precisa ser conectado a uma armação antes de usar",
+    Tooltip_NVGMount = "Usado para instalar visão noturna em capacetes",
+    Tooltip_HelmetRags = "Pode ser adicionado a capacetes M1 e PASGT",
+    Tooltip_Irreversible = "Essa ação não pode ser revertida",
+    Tooltip_WebbingSuspenders = "Usado com Cinto Militar para criação de Arnês Militar",
+    Tooltip_CoolKids = "Se você está lendo isso usou o modo Debug, cheater", 
+
+}

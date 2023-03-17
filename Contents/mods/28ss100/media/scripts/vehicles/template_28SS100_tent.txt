@@ -1,0 +1,52 @@
+module Base
+{
+
+	model 28ss100tarp
+	{
+		mesh = vehicles/Bikes_28ss100_Body|ss100_tarp,
+		shader = vehicle_noreflect,
+		scale = 0.1,
+	}
+	
+	template vehicle SS100Tent
+	{
+		part SS100Tent
+		{
+			
+			model tarpytarptarp
+			{
+				file = 28ss100tarp,
+			}
+			
+			area = TruckBed,
+			specificItem = false,
+			itemType = 	camping.CampingTentKit,
+			category = bodywork,
+			mechanicRequireKey = false,
+
+			table install
+			{
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Default,
+				requireInstalled = SS100topbox,
+			}
+			table uninstall
+			{
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+			}
+
+			lua
+			{
+				create = KI5.Create.Blank,
+			}
+		}
+	}
+}
+

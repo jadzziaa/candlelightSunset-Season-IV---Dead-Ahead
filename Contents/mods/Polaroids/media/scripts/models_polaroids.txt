@@ -1,0 +1,12 @@
+module Polaroids {
+    imports {
+        Base
+    }
+
+    model Polaroid
+	{
+		mesh = WorldItems/Polaroid,
+		texture = WorldItems/Polaroid,
+		scale = 0.3,
+	}
+}

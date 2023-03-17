@@ -1,0 +1,20 @@
+module Base
+{
+	item Hat_HardHat_Miner_With_Light
+	{
+	    DisplayCategory 	= Accessory,
+		Type 				= Clothing,
+		DisplayName 		= Mining Helmet with Mount,
+		ClothingItem 		= Hat_HardHat_Miner,
+		BodyLocation 		= Hat,
+		AttachmentsProvided = MiningHelmet,
+		Tooltip 			= Tooltip_MiningHelmet_BetterFlashlights,
+		Icon 				= HardHatMiner_Icon,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head,
+		BiteDefense 		= 100,
+        ScratchDefense 		= 100,
+        Insulation 			= 0.15,
+        WindResistance 		= 0.20,
+	}
+}

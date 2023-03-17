@@ -1,0 +1,34 @@
+module DiecastCarsfhq
+
+{
+	imports 
+	{
+		Base
+	}
+	recipe Open Diecast Car Box
+    {
+       fhqDCBox,
+
+	   Result:fhqDCBoxOpen,
+       Time:10.0,
+       OnCreate:Recipe.OnCreate.DiecastBoxOpenTiered,
+    }
+	
+	recipe Open Diecast Car Box - Special Collection
+    {
+       fhqDCBoxRare,
+
+	   Result:fhqDCBoxOpen,
+       Time:10.0,
+       OnCreate:Recipe.OnCreate.DiecastBoxOpenSpecial,
+    }
+	
+	recipe Open Diecast Car Box - Motorious Zone Collection
+    {
+       fhqDCBoxMotorious,
+
+	   Result:fhqDCBoxOpen,
+       Time:10.0,
+       OnCreate:Recipe.OnCreate.DiecastBoxOpenMotoriousTiered,
+    }
+}

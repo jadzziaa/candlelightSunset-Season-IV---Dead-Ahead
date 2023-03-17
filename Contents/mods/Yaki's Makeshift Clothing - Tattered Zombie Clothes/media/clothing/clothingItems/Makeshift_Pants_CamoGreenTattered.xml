@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_trousers</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_trousers</m_FemaleModel>
+	<m_GUID>5e052630-fddf-4a6f-80e4-0e8892ade808</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\pants\Makeshift_Pants_CamoGreenTattered</textureChoices>
+</clothingItem>

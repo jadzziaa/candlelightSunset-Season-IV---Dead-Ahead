@@ -1,0 +1,132 @@
+module Base
+{
+    imports    
+    {
+		Base
+	}
+	
+    item 1x_scope_ru
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Scope | 1P76 | X1 | RU,
+        Icon = 1x_scope_ru,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = CJ_AK74_Folded; CJ_AK74M; CJ_AK74; CJ_SVD,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        StaticModel = 1x_scope_ru, 
+        WorldStaticModel = 1x_scope_ru,
+    }
+    item 1x_scope_ru_2
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Scope | Kobra | X1 | RU,
+        Icon = 1x_scope_ru_2,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = CJ_AK74_Folded; CJ_AK74M; CJ_AK74; CJ_SVD,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        StaticModel = 1x_scope_ru_2, 
+        WorldStaticModel = 1x_scope_ru_2,
+    }
+    item 2x_scope_ru
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Scope | PK-A | X2 | RU,
+        Icon = 2x_scope_ru,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = CJ_AK74_Folded; CJ_AK74M; CJ_AK74; CJ_SVD,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        StaticModel = 2x_scope_ru, 
+        WorldStaticModel = 2x_scope_ru,
+    }
+    item 4x_scope_ru
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Scope | PO-P | X4 | RU,
+        Icon = 4x_scope_ru,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = CJ_AK74_Folded; CJ_AK74M; CJ_AK74; CJ_SVD,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        StaticModel = 4x_scope_ru, 
+        WorldStaticModel = 4x_scope_ru,8x_scope_ru
+    }
+    item 4x_scope_ru_2
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Scope | PO | X4 | RU,
+        Icon = 4x_scope_ru_2,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = CJ_AK74_Folded; CJ_AK74M; CJ_AK74; CJ_SVD,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        StaticModel = 4x_scope_ru_2, 
+        WorldStaticModel = 4x_scope_ru_2,
+    }
+    item 4x_scope_ru_3
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Scope | PSO-1 | X4 | RU,
+        Icon = 4x_scope_ru_3,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = CJ_AK74_Folded; CJ_AK74M; CJ_AK74; CJ_SVD,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        StaticModel = 4x_scope_ru_3, 
+        WorldStaticModel = 4x_scope_ru_3,
+    }
+    item suppressor_ru_5_45
+    {
+        Type = WeaponPart,
+        DisplayName = Suppressor | PBS-4 | RU,
+        Icon = suppressor_ru_5_45,
+        Weight = 0.6,
+        WeightModifier = 0.6,
+        DamageModifier = -0.3,
+        HitChanceModifier = -2,
+        AimingTimeModifier = -5,
+        MountOn = CJ_AK74; CJ_AK74_Folded; CJ_AK74M,
+        PartType = Canon,
+        WorldStaticModel = suppressor_ru_5_45,
+    }
+    item suppressor_7_62
+    {
+        Type = WeaponPart,
+        DisplayName = Suppressor | PBS-1 | RU,
+        Icon = supressor_ru_5_45,
+        Weight = 0.6,
+        WeightModifier = 0.6,
+        DamageModifier = -0.3,
+        HitChanceModifier = -2,
+        AimingTimeModifier = -5,
+        MountOn = CJ_SKS; CJ_SKS_Sawn,
+        PartType = Canon,
+        WorldStaticModel = suppressor_ru_7_62,
+    }
+}

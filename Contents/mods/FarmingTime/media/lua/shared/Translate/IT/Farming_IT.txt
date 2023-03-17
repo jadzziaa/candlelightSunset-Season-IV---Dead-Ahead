@@ -1,0 +1,9 @@
+Farming_IT = {
+  -- vegetables name (type of seed)
+Farming_Beets = "Barbabietola",
+Farming_Cauliflowers = "Cavolfiore",
+Farming_Corn = "Mais",
+Farming_Lemongrass = "Citronella",
+Farming_Lettuce = "Lattuga",
+Farming_Wheat = "Grano",
+}

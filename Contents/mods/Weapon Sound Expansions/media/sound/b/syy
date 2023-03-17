@@ -1,0 +1,491 @@
+function test(_player, item, inventoryItem, weapon)
+local player = _player;
+
+
+	
+		if item == nil then return end
+				if not item.getCanon then return end
+						if  item:getCanon() ~= nil then 
+						-- if item:getCanon() == nil then return end
+						-- if item:getCanon():getType() == "Suppressor_Rifle" then
+						 if item:getCanon():getType() == "Bayonet_M4" or item:getCanon():getType() == "Bayonet_AK" or item:getCanon():getType() == "Bayonet_M1917" or item:getCanon():getType() == "Bayonet_Type30" or item:getCanon():getType() == "Bayonnet" or item:getCanon():getType() == "AntiqueBayonet" then return end
+						-- if  (string.find(item:item:getCanon():getType(), "Suppressor")) then
+						
+							
+							
+						else return end
+						
+			
+				
+						
+									if player:getPrimaryHandItem() ~= null then
+						
+													if player:getPrimaryHandItem():getType() == "AAC_Honey" or player:getPrimaryHandItem():getType() == "AAC_Honey_Fold" or  player:getPrimaryHandItem():getType() == "AAC_HoneySD" or player:getPrimaryHandItem():getType() == "AAC_HoneySD_Fold" then	
+													local aac = player:getPrimaryHandItem();
+													aac:setSwingSound('Shot_aac');	
+
+													
+													elseif player:getPrimaryHandItem():getType() == "ADAR" then	
+													local asdr = player:getPrimaryHandItem();
+													asdr:setSwingSound('Shot_asdr');	
+
+
+													elseif player:getPrimaryHandItem():getType() == "LVOA_C" then	
+													local lvoa = player:getPrimaryHandItem();
+													lvoa:setSwingSound('Shot_lvoa');	
+													
+													
+													elseif player:getPrimaryHandItem():getType() == "MK47" then	
+													local mk = player:getPrimaryHandItem();
+													mk:setSwingSound('Shot_mk');	
+													
+													
+													elseif player:getPrimaryHandItem():getType() == "Bush_AR15_MOE" then	
+													local ar = player:getPrimaryHandItem();
+													ar:setSwingSound('Shot_ar15');	
+													
+													
+													elseif player:getPrimaryHandItem():getType() == "Bush_XM15" or player:getPrimaryHandItem():getType() == "Bush_XM15_Custom" then	
+													local xm = player:getPrimaryHandItem();
+													xm:setSwingSound('Shot_xm');	
+													
+													
+													elseif player:getPrimaryHandItem():getType() == "TR1_UltraLight" then	
+													local tr = player:getPrimaryHandItem();
+													tr:setSwingSound('Shot_tr1');	
+													
+													
+													elseif player:getPrimaryHandItem():getType() == "AKM_Custom" then	
+													local akm = player:getPrimaryHandItem();
+													akm:setSwingSound('Shot_akm');	
+										
+										
+													elseif player:getPrimaryHandItem():getType() == "AK74_Custom" then	
+													local ak74 = player:getPrimaryHandItem();
+													ak74:setSwingSound('Shot_ak74');							
+							
+							
+													elseif player:getPrimaryHandItem():getType() == "MCX_Spear" or player:getPrimaryHandItem():getType() == "MCX_Virtus" or player:getPrimaryHandItem():getType() == "MCX_VirtusPatrol"  then	
+													local mcxsp = player:getPrimaryHandItem();
+													mcxsp:setSwingSound('Shot_mcxsp');	
+													
+													elseif player:getPrimaryHandItem():getType() == "MCX_Socom" then	
+													local mcxsocom = player:getPrimaryHandItem();
+													mcxsocom:setSwingSound('Shot_mcxsocom');				
+													
+													elseif player:getPrimaryHandItem():getType() == "JW3_TTI_MPX" then	
+													local jw = player:getPrimaryHandItem();
+													jw:setSwingSound('Shot_jw');			
+													
+													elseif player:getPrimaryHandItem():getType() == "Judge_45LC" or player:getPrimaryHandItem():getType() == "Judge_410g" or player:getPrimaryHandItem():getType() == "Judge513_45LC"  or player:getPrimaryHandItem():getType() == "Judge513_410g"   or player:getPrimaryHandItem():getType() == "Judge513_Long_410g"   or player:getPrimaryHandItem():getType() == "Judge513_Long_45LC" then	
+													local jw = player:getPrimaryHandItem();
+													jw:setSwingSound('Shot_jud');		
+													
+													elseif player:getPrimaryHandItem():getType() == "VIPER_G2" then	
+													local vip = player:getPrimaryHandItem();
+													vip:setSwingSound('Shot_vip');		
+													
+													
+													elseif player:getPrimaryHandItem():getType() == "Ash" then	
+													local ash = player:getPrimaryHandItem();
+													ash:setSwingSound('Shot_ash');	
+													
+													elseif player:getPrimaryHandItem():getType() == "VSSK" then	
+													local vs = player:getPrimaryHandItem();
+													vs:setSwingSound('Shot_vssk');	
+													
+													elseif player:getPrimaryHandItem():getType() == "AK12_New" or player:getPrimaryHandItem():getType() == "AK47" or player:getPrimaryHandItem():getType() == "AK74" or player:getPrimaryHandItem():getType() == "AKS74" or player:getPrimaryHandItem():getType() == "AKS74_Fold" then	
+													local vs = player:getPrimaryHandItem();
+													vs:setSwingSound('Shot_ak12');	
+													
+													elseif player:getPrimaryHandItem():getType() == "RPK16" or player:getPrimaryHandItem():getType() == "AK74_Alpha" or player:getPrimaryHandItem():getType() == "AK74_Alpha_Fold" then	
+													local rp = player:getPrimaryHandItem();
+													rp:setSwingSound('Shot_rpk');	
+													
+													elseif player:getPrimaryHandItem():getType() == "AK308" or player:getPrimaryHandItem():getType() == "AKM" or player:getPrimaryHandItem():getType() == "AKS74U" or player:getPrimaryHandItem():getType() == "AKS74U_Fold" then	
+													local a30 = player:getPrimaryHandItem();
+													a30:setSwingSound('Shot_308');	
+							
+							
+													elseif player:getPrimaryHandItem():getType() == "AK5C" or player:getPrimaryHandItem():getType() == "AK5C_Fold" or player:getPrimaryHandItem():getType() == "AK103" or player:getPrimaryHandItem():getType() == "AKMS_Stock" or player:getPrimaryHandItem():getType() == "AKMS_Fold" or player:getPrimaryHandItem():getType() == "AK12" or player:getPrimaryHandItem():getType() == "AK12_Fold" then
+													local ak5 = player:getPrimaryHandItem();
+													ak5:setSwingSound('Shot_ak5');	
+													
+													elseif player:getPrimaryHandItem():getType() == "SKS_A26" or player:getPrimaryHandItem():getType() == "SKS30_A26" then
+													local s26 = player:getPrimaryHandItem();
+													s26:setSwingSound('Shot_sks26');	
+													
+													elseif player:getPrimaryHandItem():getType() == "DEagle_Long" then
+													local de = player:getPrimaryHandItem();
+													de:setSwingSound('Shot_de');	
+													
+													elseif player:getPrimaryHandItem():getType() == "K11" then
+													local k11 = player:getPrimaryHandItem();
+													k11:setSwingSound('Shot_k11');	
+													
+													elseif player:getPrimaryHandItem():getType() == "Moss500_20" then
+													local mos = player:getPrimaryHandItem();
+													mos:setSwingSound('Shot_mos');	
+													
+													elseif player:getPrimaryHandItem():getType() == "Colt1855" then
+													local colt18 = player:getPrimaryHandItem();
+													colt18:setSwingSound('Shot_colt18');	
+													
+													elseif player:getPrimaryHandItem():getType() == "ROYAL_SXS" then
+													local ro = player:getPrimaryHandItem();
+													ro:setSwingSound('Shot_ro');	
+													
+													elseif player:getPrimaryHandItem():getType() == "10855_Silver" then
+													local s10855 = player:getPrimaryHandItem();
+													s10855:setSwingSound('Shot_10855');	
+													
+													elseif player:getPrimaryHandItem():getType() == "KG9" then
+													local kg = player:getPrimaryHandItem();
+													kg:setSwingSound('Shot_kg9');	
+					
+					
+													elseif player:getPrimaryHandItem():getType() == "Thompson" or player:getPrimaryHandItem():getType() == "Thompson_1928" then
+													local kg1 = player:getPrimaryHandItem();
+													kg1:setSwingSound('Shot_tom');	
+													
+													elseif player:getPrimaryHandItem():getType() == "M2Hyde" then
+													local hyde = player:getPrimaryHandItem();
+													hyde:setSwingSound('Shot_hyde');	
+													
+													elseif player:getPrimaryHandItem():getType() == "Model50" or player:getPrimaryHandItem():getType() == "Model55_Stock" or player:getPrimaryHandItem():getType() == "Model55_Fold" then
+													local mod = player:getPrimaryHandItem();
+													mod:setSwingSound('Shot_mod50');	
+													
+													elseif player:getPrimaryHandItem():getType() == "Calico_M900_Stock" or player:getPrimaryHandItem():getType() == "Calico_M900_Fold" or player:getPrimaryHandItem():getType() == "Calico_22LR" then
+													local co = player:getPrimaryHandItem();
+													co:setSwingSound('Shot_co0');	
+													
+													elseif player:getPrimaryHandItem():getType() == "Calico_M950_Pistol" then
+													local cop = player:getPrimaryHandItem();
+													cop:setSwingSound('Shot_cop');	
+													
+													elseif player:getPrimaryHandItem():getType() == "MP7" or player:getPrimaryHandItem():getType() == "MP7_Stock" then
+													local cop1 = player:getPrimaryHandItem();
+													cop1:setSwingSound('Shot_mp7');
+
+													elseif player:getPrimaryHandItem():getType() == "Jatimatic" or player:getPrimaryHandItem():getType() == "Jatimatic_Stock" then
+													local cop11 = player:getPrimaryHandItem();
+													cop11:setSwingSound('Shot_jati');		
+
+													elseif player:getPrimaryHandItem():getType() == "Sten" or player:getPrimaryHandItem():getType() == "Sten_MK2" then
+													local cop12 = player:getPrimaryHandItem();
+													cop12:setSwingSound('Shot_sten');					
+
+													elseif player:getPrimaryHandItem():getType() == "Sten_MK2SD" then
+													local cop13 = player:getPrimaryHandItem();
+													cop13:setSwingSound('Shot_sten');						
+
+													elseif player:getPrimaryHandItem():getType() == "Ruger_1022" or player:getPrimaryHandItem():getType() == "Ruger_MK4"  then
+													local cop14 = player:getPrimaryHandItem();
+													cop14:setSwingSound('Shot_ger');					
+
+													elseif player:getPrimaryHandItem():getType() == "Marlin_M70" then
+													local cop15 = player:getPrimaryHandItem();
+													cop15:setSwingSound('Shot_lin');			
+
+													elseif player:getPrimaryHandItem():getType() == "Cricket_22" then
+													local cop16 = player:getPrimaryHandItem();
+													cop16:setSwingSound('Shot_ket');						
+
+													elseif player:getPrimaryHandItem():getType() == "AR7" or player:getPrimaryHandItem():getType() == "AR7_Fold" then
+													local cop17 = player:getPrimaryHandItem();
+													cop17:setSwingSound('Shot_ar7');		
+
+													elseif player:getPrimaryHandItem():getType() == "Buckmark" or player:getPrimaryHandItem():getType() == "Buckmark_Long"  or player:getPrimaryHandItem():getType() == "Buckmark_Carbine" then
+													local cop18 = player:getPrimaryHandItem();
+													cop18:setSwingSound('Shot_buc');		
+
+													elseif player:getPrimaryHandItem():getType() == "M29_44" or player:getPrimaryHandItem():getType() == "M29_44Carbine" then
+													local cop19 = player:getPrimaryHandItem();
+													cop19:setSwingSound('Shot_m29');									
+
+													elseif player:getPrimaryHandItem():getType() == "Automag" or player:getPrimaryHandItem():getType() == "DEagle" then
+													local cop20 = player:getPrimaryHandItem();
+													cop20:setSwingSound('Shot_automag');		
+
+													elseif player:getPrimaryHandItem():getType() == "BOAR" or player:getPrimaryHandItem():getType() == "EDM96" or player:getPrimaryHandItem():getType() == "EDM96_Fold" then
+													local cop21 = player:getPrimaryHandItem();
+													cop21:setSwingSound('Shot_boar');			
+
+													elseif player:getPrimaryHandItem():getType() == "M82" or player:getPrimaryHandItem():getType() == "BFG50" or player:getPrimaryHandItem():getType() == "TAC50" then
+													local cop22 = player:getPrimaryHandItem();
+													cop22:setSwingSound('Shot_m82');		
+
+													
+													elseif player:getPrimaryHandItem():getType() == "CheyTac50" or player:getPrimaryHandItem():getType() == "CheyTac50_Fold" then
+													local cop23 = player:getPrimaryHandItem();
+													cop23:setSwingSound('Shot_chey');				
+
+																										
+													elseif player:getPrimaryHandItem():getType() == "Gepard_M6" or player:getPrimaryHandItem():getType() == "OSV_96" then
+													local cop24 = player:getPrimaryHandItem();
+													cop24:setSwingSound('Shot_m6');			
+
+													elseif player:getPrimaryHandItem():getType() == "FN_57" or player:getPrimaryHandItem():getType() == "FN_57_MK2" then
+													local cop25 = player:getPrimaryHandItem();
+													cop25:setSwingSound('Shot_fn57');						
+
+													elseif player:getPrimaryHandItem():getType() == "FN_P90" or player:getPrimaryHandItem():getType() == "FN_PS90" then
+													local cop26 = player:getPrimaryHandItem();
+													cop26:setSwingSound('Shot_p90');			
+
+													elseif player:getPrimaryHandItem():getType() == "GP100_2" or player:getPrimaryHandItem():getType() == "GP100_2_357" or player:getPrimaryHandItem():getType() == "GP100_4" or player:getPrimaryHandItem():getType() == "GP100_4_357" or player:getPrimaryHandItem():getType() == "GP100_6" or player:getPrimaryHandItem():getType() == "GP100_6_357" then
+													local cop27 = player:getPrimaryHandItem();
+													cop27:setSwingSound('Shot_gp');						
+
+													elseif player:getPrimaryHandItem():getType() == "M723" or player:getPrimaryHandItem():getType() == "XM117" then
+													local cop28 = player:getPrimaryHandItem();
+													cop28:setSwingSound('Shot_416');							
+
+													elseif player:getPrimaryHandItem():getType() == "H416" or player:getPrimaryHandItem():getType() == "AR18" then
+													local cop29 = player:getPrimaryHandItem();
+													cop29:setSwingSound('Shot_h416');			
+
+																										
+													elseif player:getPrimaryHandItem():getType() == "Type38" or player:getPrimaryHandItem():getType() == "Type99" or player:getPrimaryHandItem():getType() == "Type20" or player:getPrimaryHandItem():getType() == "Type89" or player:getPrimaryHandItem():getType() == "Type89_Fold" or player:getPrimaryHandItem():getType() == "Type64" then
+													local cop30 = player:getPrimaryHandItem();
+													cop30:setSwingSound('Shot_type');				
+
+													elseif player:getPrimaryHandItem():getType() == "AUG9" or player:getPrimaryHandItem():getType() == "AUG" then
+													local cop31 = player:getPrimaryHandItem();
+													cop31:setSwingSound('Shot_aug');				
+
+													elseif player:getPrimaryHandItem():getType() == "BT380_Stock" or player:getPrimaryHandItem():getType() == "BT380_Fold" or player:getPrimaryHandItem():getType() == "BT9_Stock" or player:getPrimaryHandItem():getType() == "BT9_Fold" then
+													local cop32 = player:getPrimaryHandItem();
+													cop32:setSwingSound('Shot_bt');			
+
+													elseif player:getPrimaryHandItem():getType() == "BAR" or player:getPrimaryHandItem():getType() == "BAR_Monitor" then
+													local cop33 = player:getPrimaryHandItem();
+													cop33:setSwingSound('Shot_bar');		
+
+													elseif player:getPrimaryHandItem():getType() == "L96" then
+													local cop34 = player:getPrimaryHandItem();
+													cop34:setSwingSound('Shot_l96');	
+
+													elseif player:getPrimaryHandItem():getType() == "F2000" then
+													local cop35 = player:getPrimaryHandItem();
+													cop35:setSwingSound('Shot_f2000');				
+
+													elseif player:getPrimaryHandItem():getType() == "Tavor" then
+													local cop36 = player:getPrimaryHandItem();
+													cop36:setSwingSound('Shot_tarvo');		
+
+													elseif player:getPrimaryHandItem():getType() == "QBZ_95" or player:getPrimaryHandItem():getType() == "FAMAS" or player:getPrimaryHandItem():getType() == "FAMAS_G2" or player:getPrimaryHandItem():getType() == "FAMAS_Felin" then
+													local cop37 = player:getPrimaryHandItem();
+													cop37:setSwingSound('Shot_famas');
+
+													elseif player:getPrimaryHandItem():getType() == "CAR15SMG" or player:getPrimaryHandItem():getType() == "CAR15_Survival" then
+													local cop38 = player:getPrimaryHandItem();
+													cop38:setSwingSound('Shot_car');	
+
+													elseif player:getPrimaryHandItem():getType() == "M635" or player:getPrimaryHandItem():getType() == "M635S" then
+													local cop39 = player:getPrimaryHandItem();
+													cop39:setSwingSound('Shot_m635');					
+
+													elseif player:getPrimaryHandItem():getType() == "M635SD" then
+													local cop40 = player:getPrimaryHandItem();
+													cop40:setSwingSound('Shot_m635');		
+
+													elseif player:getPrimaryHandItem():getType() == "CZ75" or player:getPrimaryHandItem():getType() == "CZ97B" then
+													local cop41 = player:getPrimaryHandItem();
+													cop41:setSwingSound('Shot_cz75');				
+
+													elseif player:getPrimaryHandItem():getType() == "K5"then
+													local cop42 = player:getPrimaryHandItem();
+													cop42:setSwingSound('Shot_k5');		
+
+													elseif player:getPrimaryHandItem():getType() == "K7_Stock" or player:getPrimaryHandItem():getType() == "K7_Fold" then
+													local cop43 = player:getPrimaryHandItem();
+													cop43:setSwingSound('Shot_k7');					
+
+													elseif player:getPrimaryHandItem():getType() == "K14" then
+													local cop44 = player:getPrimaryHandItem();
+													cop44:setSwingSound('Shot_k14');			
+
+													elseif player:getPrimaryHandItem():getType() == "K2C1_PH" or player:getPrimaryHandItem():getType() == "K1DEV" or player:getPrimaryHandItem():getType() == "K2_C1" or player:getPrimaryHandItem():getType() == "K2_1" or player:getPrimaryHandItem():getType() == "K2_203" or player:getPrimaryHandItem():getType() == "K1_1" or player:getPrimaryHandItem():getType() == "DR_200" then
+													local cop45 = player:getPrimaryHandItem();
+													cop45:setSwingSound('Shot_kse');					
+
+													elseif player:getPrimaryHandItem():getType() == "EVO_Fold" or player:getPrimaryHandItem():getType() == "EVO_Stock" then
+													local cop46 = player:getPrimaryHandItem();
+													cop46:setSwingSound('Shot_sco');			
+
+													elseif player:getPrimaryHandItem():getType() == "FAL" or player:getPrimaryHandItem():getType() == "FAL_PARA_Stock" or player:getPrimaryHandItem():getType() == "FAL_PARA_Fold" or player:getPrimaryHandItem():getType() == "FN_FNC" or player:getPrimaryHandItem():getType() == "FN_FNC_Fold" then
+													local cop47 = player:getPrimaryHandItem();
+													cop47:setSwingSound('Shot_fal');		
+
+													elseif player:getPrimaryHandItem():getType() == "KS23" or player:getPrimaryHandItem():getType() == "KS23_S_Pistol" then
+													local cop48 = player:getPrimaryHandItem();
+													cop48:setSwingSound('Shot_ks');						
+
+													elseif player:getPrimaryHandItem():getType() == "M870_Wingmaster" or player:getPrimaryHandItem():getType() == "M870_Police" or player:getPrimaryHandItem():getType() == "M870" or player:getPrimaryHandItem():getType() == "M870_Express" or player:getPrimaryHandItem():getType() == "M870_MCS" or player:getPrimaryHandItem():getType() == "M870_CQB" or player:getPrimaryHandItem():getType() == "M870_CQB_Fold" or player:getPrimaryHandItem():getType() == "M870_Breaching_Pistol" then
+													local cop49 = player:getPrimaryHandItem();
+													cop49:setSwingSound('Shot_870');						
+
+													elseif player:getPrimaryHandItem():getType() == "DT11" or player:getPrimaryHandItem():getType() == "DT11_Sawed" or player:getPrimaryHandItem():getType() == "DT11_Pistol" or player:getPrimaryHandItem():getType() == "Coachgun" or player:getPrimaryHandItem():getType() == "Coachgun_Sawed" or player:getPrimaryHandItem():getType() == "Coachgun_Pistol" or player:getPrimaryHandItem():getType() == "Terminator" or player:getPrimaryHandItem():getType() == "Terminator_Fold" or player:getPrimaryHandItem():getType() == "Triple_Crown" or player:getPrimaryHandItem():getType() == "SPAS12_Fixed" or player:getPrimaryHandItem():getType() == "SPAS12_Fold" or player:getPrimaryHandItem():getType() == "SPAS12_Stock" then
+													local cop50 = player:getPrimaryHandItem();
+													cop50:setSwingSound('Shot_dt11');						
+
+													elseif player:getPrimaryHandItem():getType() == "KSG" or player:getPrimaryHandItem():getType() == "KSG25" then
+													local cop51 = player:getPrimaryHandItem();
+													cop51:setSwingSound('Shot_ksg');																	
+
+													elseif player:getPrimaryHandItem():getType() == "UTS15" then
+													local cop52 = player:getPrimaryHandItem();
+													cop52:setSwingSound('Shot_uts');			
+
+													elseif player:getPrimaryHandItem():getType() == "SIX12" then
+													local cop53 = player:getPrimaryHandItem();
+													cop53:setSwingSound('Shot_six');						
+
+													elseif player:getPrimaryHandItem():getType() == "SIX12SD" then
+													local cop54 = player:getPrimaryHandItem();
+													cop54:setSwingSound('Shot_six');				
+
+
+													elseif player:getPrimaryHandItem():getType() == "M1208" or player:getPrimaryHandItem():getType() == "M1212" or player:getPrimaryHandItem():getType() == "M1216"  then
+													local cop55 = player:getPrimaryHandItem();
+													cop55:setSwingSound('Shot_m1208');						
+
+													elseif player:getPrimaryHandItem():getType() == "Origin" then
+													local cop56 = player:getPrimaryHandItem();
+													cop56:setSwingSound('Shot_origin');		
+
+													elseif player:getPrimaryHandItem():getType() == "SPAS_15" or player:getPrimaryHandItem():getType() == "USAS_12" then
+													local cop57 = player:getPrimaryHandItem();
+													cop57:setSwingSound('Shot_spas');			
+
+													elseif player:getPrimaryHandItem():getType() == "Saiga12" or player:getPrimaryHandItem():getType() == "Saiga12_Long" or player:getPrimaryHandItem():getType() == "Saiga12_Tromix" then
+													local cop58 = player:getPrimaryHandItem();
+													cop58:setSwingSound('Shot_si');	
+
+													elseif player:getPrimaryHandItem():getType() == "AA12" or player:getPrimaryHandItem():getType() == "CAWS" then
+													local cop59 = player:getPrimaryHandItem();
+													cop59:setSwingSound('Shot_aa12');	
+
+													elseif player:getPrimaryHandItem():getType() == "R11_87" or player:getPrimaryHandItem():getType() == "A400" or player:getPrimaryHandItem():getType() == "M1014" or player:getPrimaryHandItem():getType() == "M1014_Fold" or player:getPrimaryHandItem():getType() == "M1014_Stock" or player:getPrimaryHandItem():getType() == "M1014_Wick" then
+													local cop60 = player:getPrimaryHandItem();
+													cop60:setSwingSound('Shot_m1014');				
+
+													elseif player:getPrimaryHandItem():getType() == "DAO12" or player:getPrimaryHandItem():getType() == "DAO12_Fold" or player:getPrimaryHandItem():getType() == "M1887" or player:getPrimaryHandItem():getType() == "M1887_Sawed" or player:getPrimaryHandItem():getType() == "AUTO_5" or player:getPrimaryHandItem():getType() == "TOZ106" or player:getPrimaryHandItem():getType() == "TOZ106_Fold" or player:getPrimaryHandItem():getType() == "TOZ194_Pistol" then
+													local cop61 = player:getPrimaryHandItem();
+													cop61:setSwingSound('Shot_dao12');						
+
+													elseif player:getPrimaryHandItem():getType() == "Galil" or player:getPrimaryHandItem():getType() == "Galil_Fold" or player:getPrimaryHandItem():getType() == "Galil_Sniper" or player:getPrimaryHandItem():getType() == "Galil_Sniper_Fold" then
+													local cop62 = player:getPrimaryHandItem();
+													cop62:setSwingSound('Shot_ril');				
+
+													elseif player:getPrimaryHandItem():getType() == "G17" or player:getPrimaryHandItem():getType() == "G18" or player:getPrimaryHandItem():getType() == "G21" or player:getPrimaryHandItem():getType() == "G34" or player:getPrimaryHandItem():getType() == "G42" then
+													local cop63 = player:getPrimaryHandItem();
+													cop63:setSwingSound('Shot_g17');			
+													
+													elseif player:getPrimaryHandItem():getType() == "G33" or player:getPrimaryHandItem():getType() == "G3" or player:getPrimaryHandItem():getType() == "G28" then
+													local cop64 = player:getPrimaryHandItem();
+													cop64:setSwingSound('Shot_g33');	
+													
+													elseif player:getPrimaryHandItem():getType() == "MK18" or player:getPrimaryHandItem():getType() == "G36" or player:getPrimaryHandItem():getType() == "G36_Fold" or player:getPrimaryHandItem():getType() == "G36C" or player:getPrimaryHandItem():getType() == "G36C_Fold" or player:getPrimaryHandItem():getType() == "G36KV" or player:getPrimaryHandItem():getType() == "G36KV_Fold" then
+													local cop65 = player:getPrimaryHandItem();
+													cop65:setSwingSound('Shot_g36');		
+
+													elseif player:getPrimaryHandItem():getType() == "G11K3" then
+													local cop66 = player:getPrimaryHandItem();
+													cop66:setSwingSound('Shot_g11');				
+
+													elseif player:getPrimaryHandItem():getType() == "PSG1" or player:getPrimaryHandItem():getType() == "MSG90" then
+													local cop67 = player:getPrimaryHandItem();
+													cop67:setSwingSound('Shot_psg');				
+
+													elseif player:getPrimaryHandItem():getType() == "FAL" or player:getPrimaryHandItem():getType() == "FAL_PARA_Stock" or player:getPrimaryHandItem():getType() == "FAL_PARA_Fold" or player:getPrimaryHandItem():getType() == "FN_FNC" or player:getPrimaryHandItem():getType() == "FN_FNC_Fold" then
+													local cop68 = player:getPrimaryHandItem();
+													cop68:setSwingSound('Shot_fnfal');		
+
+													elseif player:getPrimaryHandItem():getType() == "HK_MK23" or player:getPrimaryHandItem():getType() == "HK_USP" or player:getPrimaryHandItem():getType() == "HK_USP_Match" then
+													local cop69 = player:getPrimaryHandItem();
+													cop69:setSwingSound('Shot_evo');				
+
+													elseif player:getPrimaryHandItem():getType() == "KRISS_Stock" or player:getPrimaryHandItem():getType() == "KRISS_Fold" or player:getPrimaryHandItem():getType() == "KRISS9_Stock" or player:getPrimaryHandItem():getType() == "KRISS9_Fold" or player:getPrimaryHandItem():getType() == "KRISS9_MLOK_Stock" or player:getPrimaryHandItem():getType() == "KRISS9_MLOK_Fold" or player:getPrimaryHandItem():getType() == "KRISS22_MK11_Stock" or player:getPrimaryHandItem():getType() == "KRISS22_MK11_Fold" or player:getPrimaryHandItem():getType() == "KRISS22_CRB_Stock" or player:getPrimaryHandItem():getType() == "KRISS22_CRB_Fold" then
+													local cop70 = player:getPrimaryHandItem();
+													cop70:setSwingSound('Shot_kriss');					
+
+													elseif player:getPrimaryHandItem():getType() == "L85" or player:getPrimaryHandItem():getType() == "L85A2" or player:getPrimaryHandItem():getType() == "L86" or player:getPrimaryHandItem():getType() == "L22" then
+													local cop71 = player:getPrimaryHandItem();
+													cop71:setSwingSound('Shot_l85');			
+
+													elseif player:getPrimaryHandItem():getType() == "Win_1894" or player:getPrimaryHandItem():getType() == "Win_1895" or player:getPrimaryHandItem():getType() == "Viper" or player:getPrimaryHandItem():getType() == "Winchester1903" or player:getPrimaryHandItem():getType() == "Winchester1873" or player:getPrimaryHandItem():getType() == "Winchester1866" then
+													local cop72 = player:getPrimaryHandItem();
+													cop72:setSwingSound('Shot_che');						
+
+													elseif player:getPrimaryHandItem():getType() == "M60" then
+													local cop73 = player:getPrimaryHandItem();
+													cop73:setSwingSound('Shot_lmg');			
+
+													elseif player:getPrimaryHandItem():getType() == "M240" then
+													local cop74 = player:getPrimaryHandItem();
+													cop74:setSwingSound('Shot_m240');		
+
+													elseif player:getPrimaryHandItem():getType() == "PKM" or player:getPrimaryHandItem():getType() == "RPD" then
+													local cop75 = player:getPrimaryHandItem();
+													cop75:setSwingSound('Shot_lmgrpk');
+
+													elseif player:getPrimaryHandItem():getType() == "MG42" or player:getPrimaryHandItem():getType() == "MK43" or player:getPrimaryHandItem():getType() == "G21LMG" or player:getPrimaryHandItem():getType() == "K3LMG" then
+													local cop76 = player:getPrimaryHandItem();
+													cop76:setSwingSound('Shot_mg42');					
+
+													elseif player:getPrimaryHandItem():getType() == "M4" or player:getPrimaryHandItem():getType() == "M4A1" then
+													local cop77 = player:getPrimaryHandItem();
+													cop77:setSwingSound('Shot_m4a');				
+
+													elseif player:getPrimaryHandItem():getType() == "M14" or player:getPrimaryHandItem():getType() == "M14EBR" then
+													local cop78 = player:getPrimaryHandItem();
+													cop78:setSwingSound('Shot_m114');		
+
+													elseif player:getPrimaryHandItem():getType() == "M16A1" or player:getPrimaryHandItem():getType() == "M16A2" or player:getPrimaryHandItem():getType() == "M16A3" or player:getPrimaryHandItem():getType() == "ColtM16" or player:getPrimaryHandItem():getType() == "M16Wood" or player:getPrimaryHandItem():getType() == "M16Tape" then
+													local cop79 = player:getPrimaryHandItem();
+													cop79:setSwingSound('Shot_m116');					
+
+													elseif player:getPrimaryHandItem():getType() == "M40" or player:getPrimaryHandItem():getType() == "M40A1" or player:getPrimaryHandItem():getType() == "M40A2" or player:getPrimaryHandItem():getType() == "M40A3" then
+													local cop80 = player:getPrimaryHandItem();
+													cop80:setSwingSound('Shot_m');			
+
+													elseif player:getPrimaryHandItem():getType() == "MAC10_Fold" or player:getPrimaryHandItem():getType() == "MAC10_Stock" then
+													local cop81 = player:getPrimaryHandItem();
+													cop81:setSwingSound('Shot_mac');		
+
+													elseif player:getPrimaryHandItem():getType() == "MINI14" or player:getPrimaryHandItem():getType() == "MINI14_Stock" or player:getPrimaryHandItem():getType() == "MINI14_Fold" or player:getPrimaryHandItem():getType() == "MINI14_T" then
+													local cop82 = player:getPrimaryHandItem();
+													cop82:setSwingSound('Shot_mini');					
+
+													elseif player:getPrimaryHandItem():getType() == "MP5_Fixed" or player:getPrimaryHandItem():getType() == "MP5_Stock" or player:getPrimaryHandItem():getType() == "MP5_Fold" then
+													local cop83 = player:getPrimaryHandItem();
+													cop83:setSwingSound('Shot_mp5');			
+
+													elseif player:getPrimaryHandItem():getType() == "MP5SD6_Fixed" or player:getPrimaryHandItem():getType() == "MP5SD6_Stock" or player:getPrimaryHandItem():getType() == "MP5SD6_Fold" then
+													local cop84 = player:getPrimaryHandItem();
+													cop84:setSwingSound('Shot_mp5');		
+
+													elseif player:getPrimaryHandItem():getType() == "SCARL" or player:getPrimaryHandItem():getType() == "SCARH" or player:getPrimaryHandItem():getType() == "SCAR20" or player:getPrimaryHandItem():getType() == "SCARSC_Stock" or player:getPrimaryHandItem():getType() == "SCARSC_Fold"  then
+													local cop85 = player:getPrimaryHandItem();
+													cop85:setSwingSound('Shot_scar');													
+													
+					else return end
+	
+							
+	
+								
+										end		
+	
+
+													
+					
+				
+
+end		
+				
+
+Events.OnEquipPrimary.Add(test);
+

@@ -1,0 +1,3650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+<!--Male-->
+<male><name>M_VeryLongParted</name>
+		<model>skinned\hair\M_VeryLongParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_VeryLongParted" />
+		<alternate category="Group01" style="M_VeryLongParted_G1" />
+		<alternate category="Group02" style="M_VeryLongParted_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_VeryLongParted_G4" />
+		<alternate category="Group05" style="M_VeryLongParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+<male><name>M_HairBunNoFringe</name>
+		<model>skinned\hair\M_HairBunNoFringe</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_HairBunNoFringe" />
+		<alternate category="Group01" style="M_HairBunNoFringe_G1" />
+		<alternate category="Group02" style="M_HairBunNoFringe_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_HairBunNoFringe_G4" />
+		<alternate category="Group05" style="M_HairBunNoFringe" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_HairBunBangs</name>
+		<model>skinned\hair\M_HairBunBangs</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_HairBunBangs" />
+		<alternate category="Group01" style="M_HairBunBangs_G1" />
+		<alternate category="Group02" style="M_HairBunBangs_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_HairBunBangs_G4" />
+		<alternate category="Group05" style="M_HairBunBangs" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBunNoFringe</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_CroftHair</name>
+		<model>skinned\hair\M_CroftHair</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="M_CroftHair" />
+		<alternate category="Group01" style="M_CroftHair_G1" />
+		<alternate category="Group02" style="M_CroftHair_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_CroftHair_G4" />
+		<alternate category="Group05" style="M_CroftHair" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_YakiParted</name>
+		<model>skinned\hair\M_YakiParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_YakiParted" />
+		<alternate category="Group01" style="M_YakiParted_G1" />
+		<alternate category="Group02" style="M_YakiParted_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_YakiParted_G4" />
+		<alternate category="Group05" style="M_YakiParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_LowPonytailBangs</name>
+		<model>skinned\hair\M_LowPonytailBangs</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_LowPonytailBangs" />
+		<alternate category="Group01" style="M_LowPonytailBangs_G1" />
+		<alternate category="Group02" style="M_LowPonytailBangs_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_LowPonytailBangs_G4" />
+		<alternate category="Group05" style="M_LowPonytailBangs" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+	</male>
+	<male><name>M_LowPonytailNoFringe</name>
+		<model>skinned\hair\M_LowPonytailNoFringe</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_LowPonytailNoFringe" />
+		<alternate category="Group01" style="M_LowPonytailNoFringe_G1" />
+		<alternate category="Group02" style="M_LowPonytailNoFringe_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_LowPonytailNoFringe_G4" />
+		<alternate category="Group05" style="M_LowPonytailNoFringe" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_BraidedPonytail</name>
+		<model>skinned\hair\M_BraidedPonytail</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="M_BraidedPonytail" />
+		<alternate category="Group01" style="M_BraidedPonytail_G1" />
+		<alternate category="Group02" style="M_BraidedPonytail_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_BraidedPonytail_G4" />
+		<alternate category="Group05" style="M_BraidedPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_YakiBehindEars</name>
+		<model>skinned\hair\M_YakiBehindEars</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_YakiBehindEars" />
+		<alternate category="Group01" style="M_YakiBehindEars_G1" />
+		<alternate category="Group02" style="M_YakiBehindEars_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_YakiBehindEars_G4" />
+		<alternate category="Group05" style="M_YakiBehindEars" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_Yaki</name>
+		<model>skinned\hair\M_Yaki</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki" />
+		<alternate category="Group01" style="M_Yaki_G1" />
+		<alternate category="Group02" style="M_Yaki_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_G4" />
+		<alternate category="Group05" style="M_Yaki" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_YakiCurly</name>
+		<model>skinned\hair\M_Yaki</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="M_Yaki" />
+		<alternate category="Group01" style="M_YakiCurly_G1" />
+		<alternate category="Group02" style="M_YakiCurly_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_YakiCurly_G4" />
+		<alternate category="Group05" style="M_Yaki" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_Sherry</name>
+		<model>skinned\hair\M_Sherry</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Sherry" />
+		<alternate category="Group01" style="M_Sherry_G1" />
+		<alternate category="Group02" style="M_Sherry_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Sherry_G4" />
+		<alternate category="Group05" style="M_Sherry" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_Pigtails</name>
+		<model>skinned\hair\M_Pigtails</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Pigtails" />
+		<alternate category="Group01" style="M_Pigtails_G1" />
+		<alternate category="Group02" style="M_Pigtails_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Pigtails_G4" />
+		<alternate category="Group05" style="M_Pigtails" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_UndercutCurly</name>
+		<model>skinned\hair\M_UndercutCurly</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<alternate category="default" style="M_UndercutCurly" />
+		<alternate category="Group01" style="M_UndercutCurly_G1" />
+		<alternate category="Group02" style="M_UndercutCurly_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_UndercutCurly_G4" />
+		<alternate category="Group05" style="M_UndercutCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_Undercut</name>
+		<model>skinned\hair\M_Undercut</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="M_Undercut" />
+		<alternate category="Group01" style="M_Undercut_G1" />
+		<alternate category="Group02" style="M_Undercut_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Undercut_G4" />
+		<alternate category="Group05" style="M_Undercut" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_ClippedHair</name>
+		<model>skinned\hair\M_ClippedHair</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ClippedHair" />
+		<alternate category="Group01" style="M_ClippedHair_G1" />
+		<alternate category="Group02" style="M_ClippedHair_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_ClippedHair_G4" />
+		<alternate category="Group05" style="M_ClippedHair" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_HairBun</name>
+		<model>skinned\hair\M_HairBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_HairBun" />
+		<alternate category="Group01" style="M_HairBun_G1" />
+		<alternate category="Group02" style="M_HairBun_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_HairBun_G4" />
+		<alternate category="Group05" style="M_HairBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_DoubleBraids</name>
+		<model>skinned\hair\M_DoubleBraids</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="M_DoubleBraids" />
+		<alternate category="Group01" style="M_DoubleBraids_G1" />
+		<alternate category="Group02" style="M_DoubleBraids_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_DoubleBraids_G4" />
+		<alternate category="Group05" style="M_DoubleBraids" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+	</male>
+	<male><name>M_Jessica</name>
+		<model>skinned\hair\M_Jessica</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Jessica" />
+		<alternate category="Group01" style="M_Jessica_G1" />
+		<alternate category="Group02" style="M_Jessica_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Jessica_G4" />
+		<alternate category="Group05" style="M_Jessica" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_LowPonytail</name>
+		<model>skinned\hair\M_LowPonytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_LowPonytail" />
+		<alternate category="Group01" style="M_LowPonytail_G1" />
+		<alternate category="Group02" style="M_LowPonytail_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_LowPonytail_G4" />
+		<alternate category="Group05" style="M_LowPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_Rochefort</name>
+		<model>skinned\hair\M_Rochefort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Rochefort" />
+		<alternate category="Group01" style="M_Rochefort_G1" />
+		<alternate category="Group02" style="M_Rochefort_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Rochefort_G4" />
+		<alternate category="Group05" style="M_Rochefort" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_CheerLeader</name>
+		<model>skinned\hair\M_CheerLeader</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_CheerLeader" />
+		<alternate category="Group01" style="M_CheerLeader_G1" />
+		<alternate category="Group02" style="M_CheerLeader_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_CheerLeader_G4" />
+		<alternate category="Group05" style="M_CheerLeader" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_Classy</name>
+		<model>skinned\hair\M_Classy</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="M_Classy" />
+		<alternate category="Group01" style="M_Classy_G1" />
+		<alternate category="Group02" style="M_Classy_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Classy_G4" />
+		<alternate category="Group05" style="M_Classy" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+	</male>
+	<male><name>M_HalfUpShaved</name>
+		<model>skinned\hair\M_HalfUpShaved</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="M_HalfUpShaved" />
+		<alternate category="Group01" style="M_HalfUpShaved_G1" />
+		<alternate category="Group02" style="M_HalfUpShaved_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_HalfUpShaved_G4" />
+		<alternate category="Group05" style="M_HalfUpShaved" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_Afro</name>
+		<model>skinned\hair\M_Afro</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="M_Afro" />
+		<alternate category="Group01" style="M_Afro_G1" />
+		<alternate category="Group02" style="M_Afro_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="M_Afro" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_AfroBun</name>
+		<model>skinned\hair\M_AfroBun</model>
+		<texture>Salon_Afrobun</texture>
+		<alternate category="default" style="M_AfroBun" />
+		<alternate category="Group01" style="M_AfroBun_G1" />
+		<alternate category="Group02" style="M_AfroBun_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_AfroBun_G4" />
+		<alternate category="Group05" style="M_AfroBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_SideBraid</name>
+		<model>skinned\hair\M_SideBraid</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="M_SideBraid" />
+		<alternate category="Group01" style="M_SideBraid_G1" />
+		<alternate category="Group02" style="M_SideBraid_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_SideBraid_G4" />
+		<alternate category="Group05" style="M_SideBraid" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_TiedHalfDown</name>
+		<model>skinned\hair\M_TiedHalfDown</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_TiedHalfDown" />
+		<alternate category="Group01" style="M_TiedHalfDown_G1" />
+		<alternate category="Group02" style="M_TiedHalfDown_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_TiedHalfDown_G4" />
+		<alternate category="Group05" style="M_TiedHalfDown" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_Dreadlocks</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+	<male><name>M_Dreadlocks</name>
+		<model>skinned\hair\M_Dreadlocks</model>
+		<texture>Salon_Dreadlocks</texture>
+		<alternate category="default" style="M_Dreadlocks" />
+		<alternate category="Group01" style="M_Dreadlocks_G1" />
+		<alternate category="Group02" style="M_Dreadlocks_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Dreadlocks_G4" />
+		<alternate category="Group05" style="M_Dreadlocks" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>M_TiedHalfDown</trimChoices>
+		<trimChoices>M_BraidedPonytail</trimChoices>
+		<trimChoices>M_SideBraid</trimChoices>
+		<trimChoices>M_Afro</trimChoices>
+		<trimChoices>M_ClippedHair</trimChoices>
+		<trimChoices>M_LowPonytail</trimChoices>
+		<trimChoices>M_Sherry</trimChoices>
+		<trimChoices>M_AfroBun</trimChoices>
+		<trimChoices>M_SidePonytail</trimChoices>
+		<trimChoices>M_Rochefort</trimChoices>
+		<trimChoices>M_DoubleBraids</trimChoices>
+		<trimChoices>M_SideShave</trimChoices>
+		<trimChoices>M_Classy</trimChoices>
+		<trimChoices>M_HalfUpShaved</trimChoices>
+		<trimChoices>M_Jessica</trimChoices>
+		<trimChoices>M_HairBun</trimChoices>
+		<trimChoices>M_VeryLongParted</trimChoices>
+		<trimChoices>M_Undercut</trimChoices>
+		<trimChoices>M_UndercutCurly</trimChoices>
+		<trimChoices>M_CheerLeader</trimChoices>
+		<trimChoices>M_Pigtails</trimChoices>
+		<trimChoices>M_Yaki</trimChoices>
+		<trimChoices>M_YakiCurly</trimChoices>
+		<trimChoices>M_CroftHair</trimChoices>
+		<trimChoices>M_DutchBraids</trimChoices>
+		<trimChoices>M_YakiParted</trimChoices>
+		<trimChoices>M_YakiBehindEars</trimChoices>
+		<trimChoices>M_LowPonytailNoFringe</trimChoices>
+		<trimChoices>M_HairBunBangs</trimChoices>
+		<trimChoices>M_HairNoFringe</trimChoices>
+		<trimChoices>M_LowPonytailBangs</trimChoices>
+	</male>
+<!--Female-->
+	<female><name>F_TiedHalfDown</name>
+		<model>skinned\hair\F_TiedHalfDown</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_TiedHalDown" />
+		<alternate category="Group01" style="F_TiedHalfDown_G1" />
+		<alternate category="Group02" style="F_TiedHalfDown_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_TiedHalfDown_G4" />
+		<alternate category="Group05" style="F_TiedHalfDown" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_HalfUpShaved</name>
+		<model>skinned\hair\F_HalfUpShaved</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="F_HalfUpShaved" />
+		<alternate category="Group01" style="F_HalfUpShaved_G1" />
+		<alternate category="Group02" style="F_HalfUpShaved_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_HalfUpShaved_G4" />
+		<alternate category="Group05" style="F_HalfUpShaved" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+	</female>
+	<female><name>F_Classy</name>
+		<model>skinned\hair\F_Classy</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="F_Classy" />
+		<alternate category="Group01" style="F_Classy_G1" />
+		<alternate category="Group02" style="F_Classy_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Classy_G4" />
+		<alternate category="Group05" style="F_Classy" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+	</female>
+	<female><name>F_LowPonytail</name>
+		<model>skinned\hair\F_LowPonytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_LowPonytail" />
+		<alternate category="Group01" style="F_LowPonytail_G1" />
+		<alternate category="Group02" style="F_LowPonytail_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_LowPonytail_G4" />
+		<alternate category="Group05" style="F_LowPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+	</female>
+	<female><name>F_AfroBun</name>
+		<model>skinned\hair\F_AfroBun</model>
+		<texture>Salon_Afrobun</texture>
+		<alternate category="default" style="F_AfroBuns" />
+		<alternate category="Group01" style="F_AfroBuns_G1" />
+		<alternate category="Group02" style="F_AfroBuns_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_AfroBuns_G4" />
+		<alternate category="Group05" style="F_AfroBuns" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+	</female>
+	<female><name>F_Afro</name>
+		<model>skinned\hair\F_Afro</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="F_Afro" />
+		<alternate category="Group01" style="F_Afro_G1" />
+		<alternate category="Group02" style="F_Afro_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="F_Afro" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_Dreadlocks</name>
+		<model>skinned\hair\F_Dreadlocks</model>
+		<texture>Salon_Dreadlocks</texture>
+		<alternate category="default" style="F_Dreadlocks" />
+		<alternate category="Group01" style="F_Dreadlocks_G1" />
+		<alternate category="Group02" style="F_Dreadlocks_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Dreadlocks_G4" />
+		<alternate category="Group05" style="F_Dreadlocks" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_CroftHair</name>
+		<model>skinned\hair\F_CroftHair</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="F_CroftHair" />
+		<alternate category="Group01" style="F_CroftHair_G1" />
+		<alternate category="Group02" style="F_CroftHair_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_CroftHair_G4" />
+		<alternate category="Group05" style="F_CroftHair" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_Jessica</name>
+		<model>skinned\hair\F_Jessica</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Jessica" />
+		<alternate category="Group01" style="F_Jessica_G1" />
+		<alternate category="Group02" style="F_Jessica_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Jessica_G4" />
+		<alternate category="Group05" style="F_Jessica" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_Rochefort</name>
+		<model>skinned\hair\F_Rochefort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Rochefort" />
+		<alternate category="Group01" style="F_Rochefort_G1" />
+		<alternate category="Group02" style="F_Rochefort_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Rochefort_G4" />
+		<alternate category="Group05" style="F_Rochefort" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_CheerLeader</name>
+		<model>skinned\hair\F_CheerLeader</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_CheerLeader" />
+		<alternate category="Group01" style="F_CheerLeader_G1" />
+		<alternate category="Group02" style="F_CheerLeader_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_CheerLeader_G4" />
+		<alternate category="Group05" style="F_CheerLeader" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_SideBraid</name>
+		<model>skinned\hair\F_SideBraid</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="F_SideBraid" />
+		<alternate category="Group01" style="F_SideBraid_G1" />
+		<alternate category="Group02" style="F_SideBraid_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_SideBraid_G4" />
+		<alternate category="Group05" style="F_SideBraid" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_DoubleBraids</name>
+		<model>skinned\hair\F_DoubleBraids</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="F_DoubleBraids" />
+		<alternate category="Group01" style="F_DoubleBraids_G1" />
+		<alternate category="Group02" style="F_DoubleBraids_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_DoubleBraids_G4" />
+		<alternate category="Group05" style="F_DoubleBraids" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+	</female>
+	<female><name>F_HairBun</name>
+		<model>skinned\hair\F_HairBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_HairBun" />
+		<alternate category="Group01" style="F_HairBun_G1" />
+		<alternate category="Group02" style="F_HairBun_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_HairBun_G4" />
+		<alternate category="Group05" style="F_HairBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+	</female>
+	<female><name>F_ClippedHair</name>
+		<model>skinned\hair\F_ClippedHair</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_ClippedHair" />
+		<alternate category="Group01" style="F_ClippedHair_G1" />
+		<alternate category="Group02" style="F_ClippedHair_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_ClippedHair_G4" />
+		<alternate category="Group05" style="F_ClippedHair" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_SidePonytail</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+	</female>
+	<female><name>F_Undercut</name>
+		<model>skinned\hair\F_Undercut</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="F_Undercut" />
+		<alternate category="Group01" style="F_Undercut_G1" />
+		<alternate category="Group02" style="F_Undercut_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Undercut_G4" />
+		<alternate category="Group05" style="F_Undercut" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+	</female>
+	<female><name>F_UndercutCurly</name>
+		<model>skinned\hair\F_UndercutCurly</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<alternate category="default" style="F_UndercutCurly" />
+		<alternate category="Group01" style="F_UndercutCurly_G1" />
+		<alternate category="Group02" style="F_UndercutCurly_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_UndercutCurly_G4" />
+		<alternate category="Group05" style="F_UndercutCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_Sherry</name>
+		<model>skinned\hair\F_Sherry</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Sherry" />
+		<alternate category="Group01" style="F_Sherry_G1" />
+		<alternate category="Group02" style="F_Sherry_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Sherry_G4" />
+		<alternate category="Group05" style="F_Sherry" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>	
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+	</female>
+	<female><name>F_Pigtails</name>
+		<model>skinned\hair\F_Pigtails</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Pigtails" />
+		<alternate category="Group01" style="F_Pigtails_G1" />
+		<alternate category="Group02" style="F_Pigtails_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Pigtails_G4" />
+		<alternate category="Group05" style="F_Pigtails" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_Yaki</name>
+		<model>skinned\hair\F_Yaki</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki" />
+		<alternate category="Group01" style="F_Yaki_G1" />
+		<alternate category="Group02" style="F_Yaki_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_G4" />
+		<alternate category="Group05" style="F_Yaki" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_YakiCurly</name>
+		<model>skinned\hair\F_Yaki</model>
+		<texture>F_HairCurly_Long</texture>
+		<alternate category="default" style="F_Yaki" />
+		<alternate category="Group01" style="F_YakiCurly_G1" />
+		<alternate category="Group02" style="F_YakiCurly_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_YakiCurly_G4" />
+		<alternate category="Group05" style="F_Yaki" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_LowPonytailBangs</name>
+		<model>skinned\hair\F_LowPonytailBangs</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_LowPonytailBangs" />
+		<alternate category="Group01" style="F_LowPonytailBangs_G1" />
+		<alternate category="Group02" style="F_LowPonytailBangs_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_LowPonytailBangs_G4" />
+		<alternate category="Group05" style="F_LowPonytailBangs" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+	</female>
+	<female><name>F_LowPonytailNoFringe</name>
+		<model>skinned\hair\F_LowPonytailNoFringe</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_LowPonytailNoFringe" />
+		<alternate category="Group01" style="F_LowPonytailNoFringe_G1" />
+		<alternate category="Group02" style="F_LowPonytailNoFringe_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_LowPonytailNoFringe_G4" />
+		<alternate category="Group05" style="F_LowPonytailNoFringe" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+	</female>
+	<female><name>F_BraidedPonytail</name>
+		<model>skinned\hair\F_BraidedPonytail</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="F_BraidedPonytail" />
+		<alternate category="Group01" style="F_BraidedPonytail_G1" />
+		<alternate category="Group02" style="F_BraidedPonytail_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_BraidedPonytail_G4" />
+		<alternate category="Group05" style="F_BraidedPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_YakiCurly</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+	</female>
+	<female><name>F_YakiBehindEars</name>
+		<model>skinned\hair\F_YakiBehindEars</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_YakiBehindEars" />
+		<alternate category="Group01" style="F_YakiBehindEars_G1" />
+		<alternate category="Group02" style="F_YakiBehindEars_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_YakiBehindEars_G4" />
+		<alternate category="Group05" style="F_YakiBehindEars" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_YakiParted</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+	</female>
+	<female><name>F_YakiParted</name>
+		<model>skinned\hair\F_YakiParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_YakiParted" />
+		<alternate category="Group01" style="F_YakiParted_G1" />
+		<alternate category="Group02" style="F_YakiParted_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_YakiParted_G4" />
+		<alternate category="Group05" style="F_YakiParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+	</female>
+	<female><name>F_HairBunBangs</name>
+		<model>skinned\hair\F_HairBunBangs</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_HairBunBangs" />
+		<alternate category="Group01" style="F_HairBunBangs_G1" />
+		<alternate category="Group02" style="F_HairBunBangs_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_HairBunBangs_G4" />
+		<alternate category="Group05" style="F_HairBunBangs" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_HairNoFringe</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+	</female>
+	<female><name>F_HairBunNoFringe</name>
+		<model>skinned\hair\F_HairBunNoFringe</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_HairBunNoFringe" />
+		<alternate category="Group01" style="F_HairBunNoFringe_G1" />
+		<alternate category="Group02" style="F_HairBunNoFringe_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_HairBunNoFringe_G4" />
+		<alternate category="Group05" style="F_HairBunNoFringe" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_VeryLongParted</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+	</female>
+	<female><name>F_VeryLongParted</name>
+		<model>skinned\hair\F_VeryLongParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_VeryLongParted" />
+		<alternate category="Group01" style="F_VeryLongParted_G1" />
+		<alternate category="Group02" style="F_VeryLongParted_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_VeryLongParted_G4" />
+		<alternate category="Group05" style="F_VeryLongParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>F_CroftHair</trimChoices>
+		<trimChoices>F_Jessica</trimChoices>
+		<trimChoices>F_Afro</trimChoices>
+		<trimChoices>F_Classy</trimChoices>
+		<trimChoices>F_SideShave</trimChoices>
+		<trimChoices>F_Rochefort</trimChoices>
+		<trimChoices>F_HalfUpShaved</trimChoices>
+		<trimChoices>F_CheerLeader</trimChoices>
+		<trimChoices>F_ClippedHair</trimChoices>
+		<trimChoices>F_SideBraid</trimChoices>
+		<trimChoices>F_LowPonytail</trimChoices>
+		<trimChoices>F_Undercut</trimChoices>
+		<trimChoices>F_UndercutCurly</trimChoices>
+		<trimChoices>F_DoubleBraids</trimChoices>
+		<trimChoices>F_HairBun</trimChoices>
+		<trimChoices>F_TiedHalfDown</trimChoices>
+		<trimChoices>F_Dreadlocks</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_AfroBuns</trimChoices>
+		<trimChoices>F_Sherry</trimChoices>
+		<trimChoices>F_Pigtails</trimChoices>
+		<trimChoices>F_Yaki</trimChoices>
+		<trimChoices>F_YakiBehindEars</trimChoices>
+		<trimChoices>F_BraidedPonytail</trimChoices>
+		<trimChoices>F_LowPonytailBangs</trimChoices>
+		<trimChoices>F_LowPonytailNoFringe</trimChoices>
+		<trimChoices>F_HairBunBangs</trimChoices>
+		<trimChoices>F_DutchBraids</trimChoices>
+	</female>
+	<!--Hat-->
+	<male>
+		<name>M_VeryLongParted_G1</name>
+		<model>skinned/hair/M_VeryLongParted_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_VeryLongParted_G2</name>
+		<model>skinned/hair/M_VeryLongParted_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_VeryLongParted_G4</name>
+		<model>skinned/hair/M_VeryLongParted_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HairBunBangs_G1</name>
+		<model>skinned/hair/M_HairBunBangs_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HairBunBangs_G2</name>
+		<model>skinned/hair/M_HairBunBangs_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HairBunBangs_G4</name>
+		<model>skinned/hair/M_HairBunBangs_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HairBunNoFringe_G1</name>
+		<model>skinned/hair/M_HairBunNoFringe_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HairBunNoFringe_G2</name>
+		<model>skinned/hair/M_HairBunNoFringe_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HairBunNoFringe_G4</name>
+		<model>skinned/hair/M_HairBunNoFringe_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YakiParted_G1</name>
+		<model>skinned/hair/M_YakiParted_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YakiParted_G2</name>
+		<model>skinned/hair/M_YakiParted_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YakiParted_G4</name>
+		<model>skinned/hair/M_YakiParted_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_BraidedPonytail_G1</name>
+		<model>skinned/hair/M_BraidedPonytail_G1</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_BraidedPonytail_G2</name>
+		<model>skinned/hair/M_BraidedPonytail_G2</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_BraidedPonytail_G4</name>
+		<model>skinned/hair/M_BraidedPonytail_G4</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LowPonytailBangs_G1</name>
+		<model>skinned/hair/M_LowPonytailBangs_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LowPonytailBangs_G2</name>
+		<model>skinned/hair/M_LowPonytailBangs_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LowPonytailBangs_G4</name>
+		<model>skinned/hair/M_LowPonytailBangs_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LowPonytailNoFringe_G1</name>
+		<model>skinned/hair/M_LowPonytailNoFringe_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LowPonytailNoFringe_G2</name>
+		<model>skinned/hair/M_LowPonytailNoFringe_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LowPonytailNoFringe_G4</name>
+		<model>skinned/hair/M_LowPonytailNoFringe_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YakiBehindEars_G1</name>
+		<model>skinned/hair/M_YakiBehindEars_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YakiBehindEars_G2</name>
+		<model>skinned/hair/M_YakiBehindEars_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YakiBehindEars_G4</name>
+		<model>skinned/hair/M_YakiBehindEars_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YakiCurly_G1</name>
+		<model>skinned/hair/M_Yaki_G1</model>
+		<texture>F_Hair_Curly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YakiCurly_G2</name>
+		<model>skinned/hair/M_Yaki_G2</model>
+		<texture>F_Hair_Curly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_YakiCurly_G4</name>
+		<model>skinned/hair/M_Yaki_G4</model>
+		<texture>F_Hair_Curly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_G1</name>
+		<model>skinned/hair/M_Yaki_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_G2</name>
+		<model>skinned/hair/M_Yaki_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_G4</name>
+		<model>skinned/hair/M_Yaki_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Sherry_G1</name>
+		<model>skinned/hair/M_Sherry_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Sherry_G2</name>
+		<model>skinned/hair/M_Sherry_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Sherry_G4</name>
+		<model>skinned/hair/M_Sherry_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Pigtails_G1</name>
+		<model>skinned/hair/M_Pigtails_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Pigtails_G2</name>
+		<model>skinned/hair/M_Pigtails_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Pigtails_G4</name>
+		<model>skinned/hair/M_Pigtails_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_UndercutCurly_G1</name>
+		<model>skinned/hair/M_UndercutCurly_G1</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_UndercutCurly_G2</name>
+		<model>skinned/hair/M_UndercutCurly_G2</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_UndercutCurly_G4</name>
+		<model>skinned/hair/M_UndercutCurly_G4</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Undercut_G1</name>
+		<model>skinned/hair/M_Undercut_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Undercut_G2</name>
+		<model>skinned/hair/M_Undercut_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Undercut_G4</name>
+		<model>skinned/hair/M_Undercut_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_SidePonytail_G1</name>
+		<model>skinned/hair/M_SidePonytail_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_SidePonytail_G2</name>
+		<model>skinned/hair/M_SidePonytail_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_SidePonytail_G4</name>
+		<model>skinned/hair/M_SidePonytail_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_ClippedHair_G1</name>
+		<model>skinned/hair/M_ClippedHair_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_ClippedHair_G2</name>
+		<model>skinned/hair/M_ClippedHair_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_ClippedHair_G4</name>
+		<model>skinned/hair/M_ClippedHair_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HairBun_G1</name>
+		<model>skinned/hair/M_HairBun_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HairBun_G2</name>
+		<model>skinned/hair/M_HairBun_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HairBun_G4</name>
+		<model>skinned/hair/M_HairBun_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_DoubleBraids_G1</name>
+		<model>skinned/hair/M_DoubleBraids_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_DoubleBraids_G2</name>
+		<model>skinned/hair/M_DoubleBraids_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_DoubleBraids_G4</name>
+		<model>skinned/hair/M_DoubleBraids_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LowPonytail_G1</name>
+		<model>skinned/hair/M_LowPonytail_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LowPonytail_G2</name>
+		<model>skinned/hair/M_LowPonytail_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_LowPonytail_G4</name>
+		<model>skinned/hair/M_LowPonytail_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Rochefort_G1</name>
+		<model>skinned/hair/M_Rochefort_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Rochefort_G2</name>
+		<model>skinned/hair/M_Rochefort_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Rochefort_G4</name>
+		<model>skinned/hair/M_Rochefort_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Classy_G1</name>
+		<model>skinned/hair/M_Classy_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Classy_G2</name>
+		<model>skinned/hair/M_Classy_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Classy_G4</name>
+		<model>skinned/hair/M_Classy_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Jessica_G1</name>
+		<model>skinned/hair/M_Jessica_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Jessica_G2</name>
+		<model>skinned/hair/M_Jessica_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Jessica_G4</name>
+		<model>skinned/hair/M_Jessica_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_CheerLeader_G1</name>
+		<model>skinned/hair/M_CheerLeader_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_CheerLeader_G2</name>
+		<model>skinned/hair/M_CheerLeader_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_CheerLeader_G4</name>
+		<model>skinned/hair/M_CheerLeader_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HalfUpShaved_G1</name>
+		<model>skinned/hair/M_HalfUpShaved_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HalfUpShaved_G2</name>
+		<model>skinned/hair/M_HalfUpShaved_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_HalfUpShaved_G4</name>
+		<model>skinned/hair/M_HalfUpShaved_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_AfroBun_G1</name>
+		<model>skinned/hair/M_AfroBun_G1</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_AfroBun_G2</name>
+		<model>skinned/hair/M_AfroBun_G2</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_AfroBun_G4</name>
+		<model>skinned/hair/M_AfroBun_G4</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Afro_G1</name>
+		<model>skinned/hair/M_Afro_G1</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Afro_G2</name>
+		<model>skinned/hair/M_Afro_G2</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Afro_G4</name>
+		<model>skinned/hair/M_Afro_G4</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_YakiCurly_G1</name>
+		<model>skinned/hair/F_Yaki_G1</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YakiCurly_G2</name>
+		<model>skinned/hair/F_Yaki_G2</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YakiCurly_G4</name>
+		<model>skinned/hair/F_Yaki_G4</model>
+		<texture>F_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_G1</name>
+		<model>skinned/hair/F_Yaki_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_G2</name>
+		<model>skinned/hair/F_Yaki_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_G4</name>
+		<model>skinned/hair/F_Yaki_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Sherry_G1</name>
+		<model>skinned/hair/F_Sherry_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Sherry_G2</name>
+		<model>skinned/hair/F_Sherry_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Sherry_G4</name>
+		<model>skinned/hair/F_Sherry_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Pigtails_G1</name>
+		<model>skinned/hair/F_Pigtails_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Pigtails_G2</name>
+		<model>skinned/hair/F_Pigtails_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Pigtails_G4</name>
+		<model>skinned/hair/F_Pigtails_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HalfUpShaved_G1</name>
+		<model>skinned/hair/F_HalfUpShaved_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_UndercutCurly_G1</name>
+		<model>skinned/hair/F_UndercutCurly_G1</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_UndercutCurly_G2</name>
+		<model>skinned/hair/F_UndercutCurly_G2</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_UndercutCurly_G4</name>
+		<model>skinned/hair/F_UndercutCurly_G4</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Undercut_G1</name>
+		<model>skinned/hair/F_Undercut_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Undercut_G2</name>
+		<model>skinned/hair/F_Undercut_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Undercut_G4</name>
+		<model>skinned/hair/F_Undercut_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HalfUpShaved_G2</name>
+		<model>skinned/hair/F_HalfUpShaved_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HalfUpShaved_G4</name>
+		<model>skinned/hair/F_HalfUpShaved_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Classy_G1</name>
+		<model>skinned/hair/F_Classy_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Classy_G2</name>
+		<model>skinned/hair/F_Classy_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Classy_G4</name>
+		<model>skinned/hair/F_Classy_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Afro_G1</name>
+		<model>skinned/hair/F_Afro_G1</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Afro_G2</name>
+		<model>skinned/hair/F_Afro_G2</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Afro_G4</name>
+		<model>skinned/hair/F_Afro_G4</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_AfroBun_G1</name>
+		<model>skinned/hair/F_AfroBun_G1</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_AfroBun_G2</name>
+		<model>skinned/hair/F_AfroBun_G2</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_AfroBun_G4</name>
+		<model>skinned/hair/F_AfroBun_G4</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<male>
+		<name>M_CroftHair_G1</name>
+		<model>skinned/hair/M_CroftHair_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_CroftHair_G2</name>
+		<model>skinned/hair/M_CroftHair_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_CroftHair_G4</name>
+		<model>skinned/hair/M_CroftHair_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_SideBraid_G1</name>
+		<model>skinned/hair/M_SideBraid_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_SideBraid_G2</name>
+		<model>skinned/hair/M_SideBraid_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_SideBraid_G4</name>
+		<model>skinned/hair/M_SideBraid_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Dreadlocks_G1</name>
+		<model>skinned/hair/M_Dreadlocks_G1</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Dreadlocks_G2</name>
+		<model>skinned/hair/M_Dreadlocks_G2</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Dreadlocks_G4</name>
+		<model>skinned/hair/M_Dreadlocks_G4</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_TiedHalfDown_G1</name>
+		<model>skinned/hair/M_TiedHalfDown_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_TiedHalfDown_G2</name>
+		<model>skinned/hair/M_TiedHalfDown_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_TiedHalfDown_G4</name>
+		<model>skinned/hair/M_TiedHalfDown_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_Dreadlocks_G1</name>
+		<model>skinned/hair/F_Dreadlocks_G1</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Dreadlocks_G2</name>
+		<model>skinned/hair/F_Dreadlocks_G2</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Dreadlocks_G4</name>
+		<model>skinned/hair/F_Dreadlocks_G4</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_TiedHalfDown_G1</name>
+		<model>skinned/hair/F_TiedHalfdown_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_TiedHalfDown_G2</name>
+		<model>skinned/hair/F_TiedHalfdown_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_TiedHalfDown_G4</name>
+		<model>skinned/hair/F_TiedHalfdown_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HairBun_G1</name>
+		<model>skinned/hair/F_HairBun_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HairBun_G2</name>
+		<model>skinned/hair/F_HairBun_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HairBun_G4</name>
+		<model>skinned/hair/F_HairBun_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Cheerleader_G1</name>
+		<model>skinned/hair/F_CheerLeader_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Cheerleader_G2</name>
+		<model>skinned/hair/F_CheerLeader_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Cheerleader_G4</name>
+		<model>skinned/hair/F_CheerLeader_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_CroftHair_G1</name>
+		<model>skinned/hair/F_CroftHair_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_CroftHair_G2</name>
+		<model>skinned/hair/F_CroftHair_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_CroftHair_G4</name>
+		<model>skinned/hair/F_CroftHair_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Jessica_G1</name>
+		<model>skinned/hair/F_Jessica_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Jessica_G2</name>
+		<model>skinned/hair/F_Jessica_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Jessica_G4</name>
+		<model>skinned/hair/F_Jessica_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Rochefort_G1</name>
+		<model>skinned/hair/F_Rochefort_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Rochefort_G2</name>
+		<model>skinned/hair/F_Rochefort_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Rochefort_G4</name>
+		<model>skinned/hair/F_Rochefort_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_SideBraid_G1</name>
+		<model>skinned/hair/F_SideBraid_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_SideBraid_G2</name>
+		<model>skinned/hair/F_SideBraid_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_SideBraid_G4</name>
+		<model>skinned/hair/F_SideBraid_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_DoubleBraids_G1</name>
+		<model>skinned/hair/F_DoubleBraids_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_DoubleBraids_G2</name>
+		<model>skinned/hair/F_DoubleBraids_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_DoubleBraids_G4</name>
+		<model>skinned/hair/F_DoubleBraids_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_ClippedHair_G1</name>
+		<model>skinned/hair/F_ClippedHair_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_ClippedHair_G2</name>
+		<model>skinned/hair/F_ClippedHair_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_ClippedHair_G4</name>
+		<model>skinned/hair/F_ClippedHair_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LowPonytail_G1</name>
+		<model>skinned/hair/F_LowPonytail_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LowPonytail_G2</name>
+		<model>skinned/hair/F_LowPonytail_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LowPonytail_G4</name>
+		<model>skinned/hair/F_LowPonytail_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_BraidedPonytail_G1</name>
+		<model>skinned/hair/F_BraidedPonytail_G1</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_BraidedPonytail_G2</name>
+		<model>skinned/hair/F_BraidedPonytail_G2</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_BraidedPonytail_G4</name>
+		<model>skinned/hair/F_BraidedPonytail_G4</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LowPonytailBangs_G1</name>
+		<model>skinned/hair/F_LowPonytailBangs_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LowPonytailBangs_G2</name>
+		<model>skinned/hair/F_LowPonytailBangs_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LowPonytailBangs_G4</name>
+		<model>skinned/hair/F_LowPonytailBangs_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LowPonytailNoFringe_G1</name>
+		<model>skinned/hair/F_LowPonytailNoFringe_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LowPonytailNoFringe_G2</name>
+		<model>skinned/hair/F_LowPonytailNoFringe_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_LowPonytailNoFringe_G4</name>
+		<model>skinned/hair/F_LowPonytailNoFringe_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YakiBehindEars_G1</name>
+		<model>skinned/hair/F_YakiBehindEars_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YakiBehindEars_G2</name>
+		<model>skinned/hair/F_YakiBehindEars_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YakiBehindEars_G4</name>
+		<model>skinned/hair/F_YakiBehindEars_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YakiParted_G1</name>
+		<model>skinned/hair/F_YakiParted_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YakiParted_G2</name>
+		<model>skinned/hair/F_YakiParted_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_YakiParted_G4</name>
+		<model>skinned/hair/F_YakiParted_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HairBunBangs_G1</name>
+		<model>skinned/hair/F_HairBunBangs_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HairBunBangs_G2</name>
+		<model>skinned/hair/F_HairBunBangs_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HairBunBangs_G4</name>
+		<model>skinned/hair/F_HairBunBangs_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HairBunNoFringe_G4</name>
+		<model>skinned/hair/F_HairBunNoFringe_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HairBunNoFringe_G2</name>
+		<model>skinned/hair/F_HairBunNoFringe_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_HairBunNoFringe_G1</name>
+		<model>skinned/hair/F_HairBunNoFringe_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_VeryLongParted_G1</name>
+		<model>skinned/hair/F_VeryLongParted_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_VeryLongParted_G2</name>
+		<model>skinned/hair/F_VeryLongParted_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_VeryLongParted_G4</name>
+		<model>skinned/hair/F_VeryLongParted_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+</hairStyles>

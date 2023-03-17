@@ -1,0 +1,12 @@
+IG_UI_EN = {
+	IGUI_WPCmd_Water = "Water",
+	IGUI_WPCmd_Power = "Power",
+
+	IGUI_WPCmd_TurnedOn = "has been turned on",
+	IGUI_WPCmd_TurnedOff = "has been turned off",
+
+    IGUI_WPCmd_On = "on",
+    IGUI_WPCmd_Off = "off",
+    IGUI_WPCmd_ModName = "Water and power controls",
+    IGUI_WPCmd_Toggle = "Toggle water / power",
+}

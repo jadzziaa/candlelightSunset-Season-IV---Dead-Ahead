@@ -1,0 +1,3 @@
+ContextMenu_NL = {
+    ContextMenu_CleanDirt = "Maak het vuil schoon",
+}

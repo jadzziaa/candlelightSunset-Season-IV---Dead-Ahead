@@ -1,0 +1,6 @@
+name='90 Zanella 50cc Delivery Scooter
+id=90zanella50cc
+description=This mod adds Zanella 50cc, Delivery Scooter from 1990 
+<LINE><LINE><RGB:0.0,1.0,0.0>You will need Tsar's Common Library and Autotsar Motorclub <LINE><RGB:1.0,0.0,0.0>You will NOT need Aquatsar Yacht Club or Cherbourg
+require=tsarslib,amclub
+poster=preview.png

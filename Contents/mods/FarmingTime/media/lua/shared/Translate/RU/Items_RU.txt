@@ -1,0 +1,22 @@
+Items_RU = {
+	-- Credits to Heres from Steam
+	DisplayNameBeet_Seeds = "Семена свёклы",
+	DisplayNameBeet_Seeds_Packet = "Упаковка семян свёклы",
+	DisplayNameBeetroot = "Свёкла",
+	DisplayNameCauliflower = "Цветная капуста",
+	DisplayNameCauliflower_Seeds = "Семена цветной капусты",
+	DisplayNameCauliflower_Seeds_Packet = "Упаковка семян цветной капусты",
+	DisplayNameComplete_Farming_Guide = "Полное руководство по сельскому хозяйству",
+	DisplayNameCorn_Seeds = "Семена кукурузы",
+	DisplayNameCorn_Seeds_Packet = "Упаковка семян кукурузы",
+	DisplayNameLemon_Grass_Seeds = "Семена лемонграсса",
+	DisplayNameLemon_Grass_Seeds_Packet = "Упаковка семян лемонграсса",
+	DisplayNameThe_Farming_Magazine_2 = "Журнал Огородник 2",
+	DisplayNameThe_Farming_Magazine_3 = "Журнал Огородник 3",
+	DisplayNameGrain_Grinder = "Зерновой измельчитель",
+	DisplayNamePot_With_Beet_Syrup = "Кастрюля свекольного сиропа",
+	DisplayNamePot_With_Beets = "Кастрюля со свеклой",
+	DisplayNameWheat = "Пшеница",
+	DisplayNameWheat_Grain = "Зёрна пшеницы",
+	DisplayNameWheat_Grain_Packet = "Упаковка пшеничных зёрен",
+}

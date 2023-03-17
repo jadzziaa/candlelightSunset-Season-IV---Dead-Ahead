@@ -1,0 +1,250 @@
+module Base
+{
+	model TrailerKbacBase
+   {
+     mesh = vehicles/Vehicles_kbac|Body_mesh,
+     shader = vehicle_norandom_multiuv,
+     invertX = FALSE,
+     scale = 0.0025,
+   }
+	model KbacTrunk
+	{
+      mesh = vehicles/Vehicles_kbac|Trunk_mesh,
+		shader = vehicle,
+		static = FALSE,
+		scale = 0.0035,
+	}
+	model KbacWheelR
+	{
+		mesh = vehicles/Vehicles_kbac_wheel,
+		texture = vehicles/AragonTexture/vehicle_trailer_kbac_wheels,
+		scale = 0.0025,
+	}
+	model KbacWheelL
+	{
+		mesh = vehicles/Vehicles_kbac_wheel,
+		texture = vehicles/AragonTexture/vehicle_trailer_kbac_wheels,
+		invertX = TRUE,
+		scale = 0.0025,
+	}
+	vehicle TrailerKbac
+	{
+		mechanicType = 1,
+		offRoadEfficiency = 0.8,
+		engineRepairLevel = 4,
+		playerDamageProtection = 0.8,
+
+		model
+		{
+			file = TrailerKbacBase,
+			scale = 1.9000,
+			offset = 0.0000 0.3947 -0.6579,
+		}
+
+		spawnOffsetY = 0.19392952,
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_kbac,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_irwhisk,
+		}
+
+		skin
+		{
+			texture = Vehicles/AragonTexture/vehicle_trailer_jb,
+		}
+
+		textureShadow = Shadows/vehicle_trailer_kbac_shadow,
+		textureRust = Vehicles/vehicle_trailer_kbac_rust,
+		extents = 0.8737 0.6421 0.9368,
+		mass = 400,
+		physicsChassisShape = 0.6316 0.6421 0.9368,
+		centerOfMassOffset = 0.0000 0.7158 -0.0158,
+		shadowExtents = 0.9474 1.7736,
+		shadowOffset = 0.0000 0.2263,
+		engineForce = 3600,
+		engineQuality = 60,
+		engineLoudness = 55,
+		maxSpeed = 70f,
+		brakingForce = 1,
+		stoppingMovementForce = 10.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.03,
+		steeringClamp = 0.3,
+		suspensionStiffness = 40,
+		suspensionCompression = 2.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.2,
+		wheelFriction = 4.0f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.4211 -0.1842 0.6579,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.4263 -0.1842 0.6579,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -0.8421 0.5158 0.5474,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.6684 -0.0211 0.4737 0.4737,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.6684 -0.0211 0.4737 0.4737,
+		}
+
+		template = Tire/part/TireFrontLeft,
+		template = Tire/part/TireFrontRight,
+
+		template = Trunk/part/TruckBed,
+
+		part TruckBed
+		{
+			container
+			{
+				capacity = 25,
+				conditionAffectsCapacity = false,
+			}
+   
+		}
+        template = TrunkDoor,
+
+		part TrunkDoor
+		{
+			model Default
+			{
+				file = KbacTrunk,
+				rotate = 90 0 0,
+				scale = 0.7,
+				offset = 0 0 0,
+			}
+
+			anim Close
+			{
+				anim = Trunk_closing,
+				rate = 2.5,
+			}
+
+			anim Open
+			{
+				anim = Trunk_closing,
+				reverse = TRUE,
+				rate = 1.5,
+			}
+
+			anim Closed
+			{
+				anim = Trunk_closing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = Trunk_closing,
+				animate = FALSE,
+			}
+
+			mechanicRequireKey = false,
+
+			anim ActorOpen
+			{
+				anim = WindowOpenSuccess,
+				rate = 0.15,
+				angle = 0.0 0.0 0.0,
+			}
+
+			anim ActorClose
+			{
+				anim = Attack_Shove,
+				rate = 0.3,
+				angle = 0.0 0.0 0.0,
+			}
+		}
+
+		template = Suspension/part/SuspensionFrontLeft,
+		template = Suspension/part/SuspensionFrontRight,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = KbacWheelR,
+			}
+
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = KbacWheelL,
+			}
+
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+		}
+
+		area GasTank
+		{
+			xywh = 0.0000 -0.7105 1.4421 0.4842,
+		}
+
+		template = TruckTank/part/500FuelTank,
+
+		physics box
+		{
+			offset = -0.0947 0.3737 0.7158,
+			extents = 0.0526 0.0526 0.5368,
+			rotate = 0.0000 20.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0895 0.3737 0.7263,
+			extents = 0.0526 0.0526 0.5158,
+			rotate = 0.0000 -19.0000 0.0000,
+		}
+
+		physics sphere
+		{
+			offset = -0.0053 0.3737 0.9368,
+			radius = 0.0400,
+		}
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.0158 1.7421,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}

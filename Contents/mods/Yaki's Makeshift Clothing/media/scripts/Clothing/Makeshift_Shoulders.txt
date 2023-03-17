@@ -1,0 +1,78 @@
+module Base
+{
+    item Makeshift_Shoulders_JunkerShoulderPads
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Junker Shoulder Pads,
+        ClothingItem = Makeshift_Shoulders_JunkerShoulderPads,
+        BodyLocation = Pauldrons,
+	NeckProtectionModifier = 5,
+        Icon = JunkerShoulderPads,
+	CanHaveHoles = True,
+	BloodLocation = Neck,
+	BiteDefense = 40,
+	ScratchDefense = 40,
+	BulletDefense = 30,
+	DisplayCategory = Armor,
+	Weight = 2,
+	RemoveOnBroken = false,	
+        WorldStaticModel = JunkerShoulderPadsNoSkull_Ground,
+    }
+    item Makeshift_Shoulders_JunkerShoulderPadsSkull
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Junker Shoulder Pads with Skull,
+        ClothingItem = Makeshift_Shoulders_JunkerShoulderPadsSkull,
+        BodyLocation = Pauldrons,
+	NeckProtectionModifier = 5,
+        Icon = JunkerShoulderPads,
+	CanHaveHoles = True,
+	BloodLocation = Neck,
+	BiteDefense = 40,
+	ScratchDefense = 40,
+	BulletDefense = 30,
+	DisplayCategory = Armor,
+	Weight = 2,
+	RemoveOnBroken = false,	
+        WorldStaticModel = JunkerShoulderPads_Ground,
+    }
+    item Makeshift_Shoulders_LeatherShoulderPads
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Leather Shoulder Pads,
+        ClothingItem = Makeshift_Shoulders_LeatherShoulderPads,
+        BodyLocation = Pauldrons,
+        Icon = LeatherShoulderPads,
+	CanHaveHoles = True,
+        BloodLocation = Neck,
+	BiteDefense = 22,
+	ScratchDefense = 22,
+	BulletDefense = 3,
+	DisplayCategory = Armor,
+	Weight = 1,
+	RemoveOnBroken = false,	
+        WorldStaticModel = LeatherShoulderPads_Ground,
+    }
+    item Makeshift_Shoulders_TireShoulderPads
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Tire Shoulder Pads,
+        ClothingItem = Makeshift_Shoulders_TireShoulderPads,
+        BodyLocation = Pauldrons,
+        IconsForTexture = TireShoulderPadsRED;TireShoulderPadsGREEN;TireShoulderPadsBLUE;TireShoulderPadsYELLOW;TireShoulderPadsBLACK,
+	CanHaveHoles = True,
+        BloodLocation = Neck,
+	BiteDefense = 30,
+	ScratchDefense = 35,
+	BulletDefense = 3,
+	DisplayCategory = Armor,
+	Weight = 2,
+	RemoveOnBroken = false,
+        WorldStaticModel = ShoulderPadsTire_Ground,
+    }
+
+}

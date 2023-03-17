@@ -1,0 +1,59 @@
+module HMWeapons {
+
+	imports {
+		Base
+		}
+
+/** Fixing **/
+
+	fixing Fix Handmade Baseball Bat
+	{
+		Require : HandmadeBaseballBat,
+		
+		Fixer : Woodglue=2; Woodwork=2,
+		Fixer : DuctTape=2,
+		Fixer : Glue=2,
+		Fixer : Scotchtape=4,
+	}
+
+	fixing Fix Handmade Baseball Bat with Nails
+    {
+       Require : HandmadeBaseballBatNails,
+	   
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+       Fixer : Nails,
+    }
+	
+	fixing Fix Barbed Wire Baseball Bat
+	{
+	   Require : VBaseballBatWired,
+	   
+	   Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	
+	fixing Fix Barbed Wire Handmade Bat
+	{
+	   Require : HandmadeBaseballBatWired,
+	   
+	   Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	
+	fixing Fix Wooden Sword
+	{
+		Require : WoodenSword,
+		
+		Fixer : Woodglue=2; Woodwork=2,
+		Fixer : DuctTape=2,
+		Fixer : Glue=2,
+		Fixer : Scotchtape=4,
+	}
+}

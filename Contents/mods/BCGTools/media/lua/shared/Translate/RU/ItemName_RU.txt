@@ -1,0 +1,16 @@
+ItemName_RU = {
+
+	ItemName_BCGTools.HandHatchet = "Ручной топорик",
+	ItemName_BCGTools.SplittingAxe = "Топор-колун",		
+	
+	ItemName_BCGTools.SurvivalKnife = "Нож выживания",
+	ItemName_BCGTools.CheapSurvivalKnife = "Походный нож",	
+	
+	ItemName_BCGTools.RancherMachete = "Секач",	
+	ItemName_BCGTools.KukriMachete = "Кукри",	
+
+	ItemName_BCGTools.SpearSurvivalKnife = "Копьё с ножом выживания",	
+	ItemName_BCGTools.SpearCheapSurvivalKnife = "Копьё с походным ножом",	
+	ItemName_BCGTools.SpearKukriMachete = "Копьё с кукри",		
+	
+}

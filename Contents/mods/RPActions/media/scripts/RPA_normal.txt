@@ -1,0 +1,19 @@
+module RPA
+{
+	imports
+	{
+		Base
+	}
+
+	item BobRPA_Pose_Mag
+	{
+		Weight	=	0.1,
+		Type	=	Literature,
+		DisplayName	=	Roleplay Pose Magazine,
+		Icon	=	MagazineNudie1,
+		ReplaceOnUse	=	BobRPA_Pose_Mag,
+		TeachedRecipes	=	BobRPS Cancel Animation;BobRPA Arms Crossed;BobRPA At Ease; BobRPA Hand on Hip; BobRPA Hands in Pockets;BobRPA Injured;BobRPA Kneel;BobRPA Lean;BobRPA Lie on Back;BobRPA Lie on Floor;BobRPA Squat,
+		StaticModel	=	Magazine,
+		WorldStaticModel	=	MagazineGround,
+	}
+}

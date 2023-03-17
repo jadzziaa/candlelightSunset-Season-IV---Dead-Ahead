@@ -1,0 +1,60 @@
+module TAD
+{
+	imports
+	{
+		Base
+	}
+	
+	model Kosmotsars
+	{
+		mesh = WorldItems/Cereal,
+		texture = WorldItems/Kosmotsars,
+		scale = 0.4,
+	}
+	
+	item OpenKosmotsars
+	{
+		HungerChange	=	-30,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Cereal Kosmotsars,
+		Icon	=	OpenKosmotsars,
+        Carbohydrates = 653,
+        Proteins = 63,
+        Lipids = 24,
+        Calories = 1850,
+        Packaged = TRUE,
+        WorldStaticModel = TAD.Kosmotsars,
+	}
+
+	item CloseKosmotsars
+	{
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Cereal Kosmotsars,
+		Icon	=	CloseKosmotsars,
+		WorldStaticModel	=	TAD.Kosmotsars,
+	}
+	
+	recipe Open Kosmotsars Cereal
+    {
+       CloseKosmotsars,
+       Result:OpenKosmotsars,
+       Time:20.0,
+       Category:Cooking,
+	   OnCreate:Recipe.OnCreate.OpenKosmotsars,
+    }
+	
+	recipe Make Bowl of Cereal
+    {
+       Bowl,
+       OpenKosmotsars;5,
+       Milk;2,
+
+       Result:CerealBowl,
+       Time:20.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+}

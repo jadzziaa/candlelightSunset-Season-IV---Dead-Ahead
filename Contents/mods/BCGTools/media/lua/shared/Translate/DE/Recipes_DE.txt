@@ -1,0 +1,9 @@
+Recipes_DE = {
+
+	Recipe_Attach_Survival_Knife_to_Spear = "Überlebensmesser an Speer anbringen",
+	Recipe_Attach_Cheap_Survival_Knife_to_Spear = "Günstiges Überlebensmesser an Speer anbringen",
+	Recipe_Attach_Kukri_Machete_to_Spear = Kukri Machete an Speer anbringen",
+	Recipe_Reclaim_Survival_Knife_from_Spear = "Überlebensmesser vom Speer entfernen",
+	Recipe_Reclaim_Cheap_Survival_Knife_from_Spear = "Günstiges Überlebensmesser vom Speer entfernen",
+	Recipe_Reclaim_Kukri_Machete_from_Spear = "Kukri Machete vom Speer entfernen",
+}

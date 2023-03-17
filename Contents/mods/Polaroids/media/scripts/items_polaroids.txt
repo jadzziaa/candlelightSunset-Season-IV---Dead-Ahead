@@ -1,0 +1,39 @@
+module Polaroids {
+    imports {
+        Base
+    }
+
+	item PolaroidCamera {
+		Type = Normal,
+		DisplayName = Polaroid Camera,
+		Icon = Camera,
+		Weight = 0.2,
+		WorldStaticModel = Camera_Ground
+	}
+	
+	item Polaroid
+	{
+		Weight = 0.1,
+		Type = Normal,
+		DisplayName = Polaroid,
+		Icon = Polaroid,
+		Weight = 0.1,
+		WorldStaticModel = Polaroids.Polaroid,
+	}
+
+	item PhotoAlbum
+	{
+		DisplayCategory = Container,
+        WeightReduction = 5,
+        Weight = 1,
+        Type = Container,
+        Capacity = 5,
+        DisplayName = Photo Album,
+        Icon = Book,
+        OpenSound = OpenBook,
+        CloseSound = CloseBook,
+        PutInSound = PageFlipBook,
+		StaticModel = Book,
+        WorldStaticModel = BookClosedGround
+	}
+}

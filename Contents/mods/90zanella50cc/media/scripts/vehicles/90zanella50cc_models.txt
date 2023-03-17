@@ -1,0 +1,66 @@
+module Base
+{
+	model ZNL50_tireWI
+	{
+		mesh    = vehicles/Bikes_90zanella50cc_Objects|zan_tireWI,
+		texture = Vehicles/Objects_90zanella50cc_Shell,
+		scale   = 0.07,
+	}
+
+	model ZNL50_storageFrontWI
+	{
+		mesh    = vehicles/Bikes_90zanella50cc_Objects|zan_front_storageWI,
+		texture = Vehicles/Objects_90zanella50cc_Shell,
+		scale   = 0.07,
+	}
+
+	model ZNL50_storageBoxWI
+	{
+		mesh    = vehicles/Bikes_90zanella50cc_Objects|zan_boxWI,
+		texture = Vehicles/Objects_90zanella50cc_Shell,
+		scale   = 0.07,
+	}
+
+	model ZNL50_boxLidWI
+	{
+		mesh    = vehicles/Bikes_90zanella50cc_Objects|zan_box_lidWI,
+		texture = Vehicles/Objects_90zanella50cc_Shell,
+		scale   = 0.07,
+	}
+
+	model ZNL50_mufflerWI
+	{
+		mesh    = vehicles/Bikes_90zanella50cc_Objects|zan_exhaustWI,
+		texture = Vehicles/Objects_90zanella50cc_Shell,
+		scale   = 0.07,
+	}
+
+	model ZNL50_seatWI
+	{
+		mesh    = vehicles/Bikes_90zanella50cc_Objects|zan_seatWI,
+		texture = Vehicles/Objects_90zanella50cc_Shell,
+		scale   = 0.07,
+	}
+
+	model ZNL50_fenderFrontWI
+	{
+		mesh    = vehicles/Bikes_90zanella50cc_Objects|zan_fender_frontWI,
+		texture = Vehicles/Objects_90zanella50cc_Shell,
+		scale   = 0.07,
+	}
+
+	model ZNL50_fenderRearWI
+	{
+		mesh    = vehicles/Bikes_90zanella50cc_Objects|zan_fender_rearWI,
+		texture = Vehicles/Objects_90zanella50cc_Shell,
+		scale   = 0.07,
+	}
+
+	model ZNL50_gastankWI
+	{
+		mesh    = vehicles/Bikes_90zanella50cc_Objects|zan_gastankWI,
+		texture = Vehicles/Objects_90zanella50cc_Shell,
+		scale   = 0.07,
+	}
+
+}

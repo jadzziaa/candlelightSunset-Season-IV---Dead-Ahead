@@ -1,0 +1,81 @@
+module Base
+{
+
+	item TightsBlack
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tights,
+		ClothingItem = TightsBlack,
+		BodyLocation = Underwear,
+		Icon = PantyhoseOpaque,
+		Weight = 0.1,
+		WorldStaticModel = TightsBlack_Ground,
+	}
+	item TightsBlackTrans
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tights Transparent,
+		ClothingItem = TightsBlackTrans,
+		BodyLocation = Underwear,
+		Icon = PantyhoseSheer,
+		Weight = 0.1,
+		WorldStaticModel = TightsTrans_Ground,
+	}
+	item TightsBlackSemiTrans
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tights Semi Transparent,
+		ClothingItem = TightsBlackSemiTrans,
+		BodyLocation = Underwear,
+		Icon = PantyhoseSemiOpaque,
+		Weight = 0.1,
+		WorldStaticModel = TightsTrans_Ground,
+	}
+	item TightsFishnets
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Fishnets,
+		ClothingItem = TightsBlackFishnet,
+		BodyLocation = Underwear,
+		Icon = PantyhoseFishnet,
+		Weight = 0.1,
+		WorldStaticModel = TightsFishnet_Ground,
+	}
+	item BunnySuitBlack
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bunny Suit,
+		ClothingItem = BunnySuitBlack,
+		BodyLocation = UnderwearBottom,
+		Icon = GlassesBlack,
+		Weight = 0.1,
+		WorldStaticModel = BunnySuitBlack_Ground,
+	}
+	item BunnySuitPink
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bunny Suit,
+		ClothingItem = BunnySuitPink,
+		BodyLocation = UnderwearBottom,
+		Icon = GlassesRed,
+		Weight = 0.1,
+		WorldStaticModel = BunnySuitPink_Ground,
+	}
+	item Swimsuit_TINT
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swimsuit,
+		ClothingItem = Swimsuit_TINT,
+		BodyLocation = UnderwearBottom,
+		Icon = Swimsuit_White,
+		Weight = 0.1,
+		WorldStaticModel = SwimSuit_Ground,
+	}
+}

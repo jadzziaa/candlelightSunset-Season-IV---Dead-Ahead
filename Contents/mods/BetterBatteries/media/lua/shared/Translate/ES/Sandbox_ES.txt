@@ -1,0 +1,12 @@
+Sandbox_ES = {
+	Sandbox_BetterBatteries = "Mejores baterías",
+	Sandbox_BetterBatteries_CrankTime = "Tiempo base de arranque",
+	Sandbox_BetterBatteries_CrankTime_tooltip = "Cantidad de minutos en el juego que se tarda en cargar una batería de vacía a llena sin penalizaciones ni beneficios.",
+	Sandbox_BetterBatteries_StrengthBuff = "Mejora de la fuerza de la manivela",
+	Sandbox_BetterBatteries_StrengthBuff_tooltip = "Determina si los niveles más altos de fuerza aplicarán o no un beneficio de tiempo.",
+	Sandbox_BetterBatteries_EndurancePenalty = "Penalización de resistencia de manivela",
+	Sandbox_BetterBatteries_EndurancePenalty_tooltip = "Determina si la baja resistencia aplicará o no una penalización de tiempo. (Independientemente de esta configuración, no se le permitirá usar la manivela manual con una resistencia extremadamente baja).",
+	Sandbox_BetterBatteries_UnhappinessPenalty = "Penalización por infelicidad de manivela",
+	Sandbox_BetterBatteries_UnhappinessPenalty_tooltip = "Determina si la infelicidad aplicará o no una penalización de tiempo.",
+	
+}

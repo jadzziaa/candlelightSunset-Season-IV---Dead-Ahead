@@ -1,0 +1,197 @@
+module HMWeapons {
+
+	imports {
+		Base
+		}
+
+/** Recipes **/
+
+    recipe Make Stone Handaxe
+    {
+        TreeBranch,
+        SharpedStone,
+        RippedSheets/Twine/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
+
+        Result:StoneHandaxe,
+        Time:80.0,
+        Category:Survivalist,
+    }
+	
+	recipe Create Combat Rod
+    {
+        Plank/TreeBranch,
+        keep [Recipe.GetItemTypes.SharpKnife]/SharpedStone/MeatCleaver,
+
+        Result:CombatRod,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CreateCombatRod,
+        Category:Survivalist,
+        OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+    }
+	
+	recipe Sharpen Stone
+	{
+		Stone=2,
+		Water=4,
+		
+		Result:SharpedStone,
+		Time: 1000.0,
+		Sound:sharpeningstone,
+		Category:Survivalist,
+		OnCreate:Recipe.OnCreate.SharpenStone,
+		AnimNode:VehicleWorkOnTire,
+	}
+	
+	recipe Build Handmade Baseball Bat
+	{
+	   Log=2,
+	   keep Chisel,
+	   keep Saw/GardenSaw,
+	   
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:Woodwork=6,
+	   Result:HandmadeBaseballBat,
+	   Sound:Sawing,
+	   Time:700.0,
+	   Category:Carpentry,
+	   OnCreate:Recipe.OnCreate.CreateHMBaseballBat,
+	   OnGiveXP:Recipe.OnGiveXP.WoodWork10,
+	   AnimNode:SawLog,
+	   Prop1:Source=3,
+	   Prop2:Log,
+	}
+	
+	recipe Add Nails to Handmade Baseball Bat
+	{
+		HandmadeBaseballBat,
+		keep [Recipe.GetItemTypes.Hammer],
+		Nails=5,
+	
+		Result:HandmadeBaseballBatNails,
+		Sound:Hammering,
+		Time:250.0,
+		Category:Carpentry,
+		OnCreate:Recipe.OnCreate.SpikedHMBat,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+		AnimNode:BuildLow,
+		Prop1:Source=2,
+	}
+	
+	recipe Add Wire to Handmade Baseball Bat
+	{
+		HandmadeBaseballBat,
+		BarbedWire,
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result:HandmadeBaseballBatWired,
+		Sound:Hammering,
+		Time:250.0,
+		Category:Carpentry,
+		OnCreate:Recipe.OnCreate.SpikedHMBat,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+		AnimNode:BuildLow,
+		Prop1:Source=3,
+	}
+	
+	recipe Add Wire to Baseball Bat
+	{
+		BaseballBat,
+		BarbedWire,
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result:VBaseballBatWired,
+		Sound:Hammering,
+		Time:250.0,
+		Category:Carpentry,
+		OnCreate:Recipe.OnCreate.SpikedHMBat,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+		AnimNode:BuildLow,
+		Prop1:Source=3,
+	}
+	
+	recipe Create Wooden Club
+    {
+        Log,
+        keep Saw/GardenSaw/Axe/HandAxe/WoodAxe/AxeStone,
+
+        Result:HMWeapons.HMWoodenClub,
+        Time:300.0,
+		Sound:Sawing,
+        Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+		OnCreate:Recipe.OnCreate.CreateWoodenClub,
+		CanBeDoneFromFloor:true,
+		AnimNode:SawLog,
+		Prop1:Source=2,
+		Prop2:Log,
+    }
+	
+	recipe Build Wooden Sword
+	{
+		Log=2,
+		keep Chisel,
+		keep Saw/GardenSaw,
+		
+		Result:HMWeapons.WoodenSword,
+		Time: 1500.0,
+		Sound:Sawing,
+		Category:Carpentry,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork20,
+		OnCreate:Recipe.OnCreate.CreateWoodenSword,
+		CanBeDoneFromFloor:true,
+		SkillRequired:Woodwork=8,
+		AnimNode:SawLog,
+		Prop1:Source=3,
+		Prop2:Log,
+	}
+	
+	recipe Add Nails to Wooden Club
+	{
+		HMWeapons.HMWoodenClub,
+		Nails=5,
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result:HMWoodenClubNails,
+		Time:250,
+		Sound:Hammering,
+		Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+		OnCreate:Recipe.OnCreate.SpikedHMClub,
+		AnimNode:BuildLow,
+		Prop1:Source=3,
+	}
+	
+	recipe Build Wooden Mallet
+	{
+		Plank=2,
+		Nails=4,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.SharpKnife]/Chisel,
+		
+		Result:WoodenMallet,
+		Time: 450.0,
+		Sound:Hammering,
+		Category:Carpentry,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+		OnCreate:Recipe.OnCreate.CreateWoodenMallet,
+		CanBeDoneFromFloor:true,
+		SkillRequired:Woodwork=4,
+		AnimNode:BuildLow,
+		Prop1:Source=3,
+	}
+	
+	recipe Make Improved Stone Axe
+	{
+		Plank=1,
+		SharpedStone,
+		RippedSheets/Twine/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
+		keep [Recipe.GetItemTypes.SharpKnife],
+		
+		Result:ImprovedStoneAxe,
+		Time:180.0,
+		SkillRequired:Woodwork=2,
+		Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+		OnCreate:Recipe.OnCreate.CreateImprovedStoneAxe,
+	}
+}

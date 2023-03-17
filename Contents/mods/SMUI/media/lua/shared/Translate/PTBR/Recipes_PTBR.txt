@@ -1,0 +1,15 @@
+Recipes_PTBR = {
+
+	Recipe_Roll_patrol_cap = "Dobrar Chapéu de Patrulha",
+	Recipe_Unroll_patrol_cap = "Desdobrar Chapéu de Patrula",
+	Recipe_Attach_NVG_mount = "Instalar Armação para Visão Noturna",
+	Recipe_Attach_Night_Vision = "Instalar Visão Noturna", 
+	Recipe_Attach_goggles_to_helmet = "Instalar Óculos de Proteção ao Capacete",
+	Recipe_Attach_doff_hood = "Instalar Capuz Protetor", 
+	Recipe_Remove_doff_hood = "Remover Capuz Protetor", 
+	Recipe_Remove_goggles = "Remover Óculos de Proteção",
+	Recipe_Unseal_package = "Abrir Pacote",
+	Recipe_Make_helmet_rags = "Fazer Camuflagem para Capacete",
+	Recipe_Add_helmet_rags "Adicionar Camuflagem para Capacete",
+	
+}

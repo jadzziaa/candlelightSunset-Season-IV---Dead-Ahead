@@ -1,0 +1,15 @@
+Items_RU = 
+	{
+
+	DisplayNameTactical_Knife = "Тактический нож",
+	DisplayNameKnife_Sheath_Back = "Ножны (Спина)",
+	DisplayNameKnife_Sheath_Leg = "Ножны (Бедро)",
+	DisplayNameKnife_Sheath_Tactical_Back = "Тактические ножны (Спина)",
+	DisplayNameKnife_Sheath_Tactical_Leg = "Тактические ножны (Бедро)",
+	DisplayNameKatana_Sheath = "Ножны (Катана)",
+	DisplayNameKatana_Sheath_Red = "Ножны красные (Катана)",
+	DisplayNameKatana_Sheath_White = "Ножны белые (Катана)",
+	DisplayNameKatana_Sheath_Black = "Ножны чёрные (Катана)",
+	DisplayNameKatana_Sheath_Blue = "Ножны синие (Катана)",
+	DisplayNameKatana_Sheath_Green = "Ножны зелёные (Катана)",
+	}

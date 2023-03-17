@@ -1,0 +1,42 @@
+module Base
+{
+   import {
+      Base
+   }
+
+   item SmallFishingMagnet
+   {
+	   DisplayName = Small Magnet,
+	   DisplayCategory = Fishing,
+	   Type = Normal,
+	   Weight = 0.1,
+	   Icon = SmallMagnet,
+	   Tooltip = Tooltip_SmallMagnet,
+	   FishingLure = true,
+	   Tags = MagnetItem;
+   }
+
+   item MediumFishingMagnet
+   {
+	   DisplayName = Magnet,
+	   DisplayCategory = Fishing,
+	   Type = Normal,
+	   Weight = 0.5,
+	   Icon = MediumMagnet,
+	   Tooltip = Tooltip_MediumMagnet,
+	   FishingLure = true,
+	   Tags = MagnetItem;
+   }
+
+   item LargeFishingMagnet
+   {
+	   DisplayName = Fishing Magnet,
+	   DisplayCategory = Fishing,
+	   Type = Normal,
+	   Weight = 3,
+	   Icon = LargeMagnet,
+	   Tooltip = Tooltip_LargeMagnet,
+	   FishingLure = true,
+	   Tags = MagnetItem;
+   }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>skinned\accessory\M_AmazonaFeather01</m_MaleModel>
+    <m_FemaleModel>skinned\accessory\AmazonaFeather03</m_FemaleModel>
+    <m_GUID>a4fe516b-de9f-40a5-b2ad-8c45aceb941f</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_MasksFolder>none</m_MasksFolder>
+    <textureChoices>clothes\accessory\AmazonaFeather01</textureChoices>
+    <textureChoices>clothes\accessory\AmazonaFeather02</textureChoices>
+    <textureChoices>clothes\accessory\AmazonaFeather03</textureChoices>
+    <textureChoices>clothes\accessory\AmazonaFeather04</textureChoices>
+</clothingItem>

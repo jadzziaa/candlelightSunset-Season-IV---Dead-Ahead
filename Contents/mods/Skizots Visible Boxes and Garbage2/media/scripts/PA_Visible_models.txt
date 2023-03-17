@@ -1,0 +1,600 @@
+module Base
+{
+	model W_Fridge3_Silver
+	{
+		mesh = KYRP/W_Fridge3,
+		texture = KYRP/PA_Fridge3_Silver,
+		scale = 1,
+	}
+	
+	model PA_Fridge3_Silver
+	{
+		mesh = KYRP/PA_Fridge3,
+		texture = KYRP/PA_Fridge3_Silver,
+		scale = 1,
+	}
+	
+	model W_Fridge2_White
+	{
+		mesh = KYRP/W_Fridge2,
+		texture = KYRP/PA_Fridge2_White,
+		scale = 1,
+	}
+	
+	model PA_Fridge2_White
+	{
+		mesh = KYRP/PA_Fridge2,
+		texture = KYRP/PA_Fridge2_White,
+		scale = 1,
+	}
+	
+	model W_Fridge2_Teal
+	{
+		mesh = KYRP/W_Fridge2,
+		texture = KYRP/PA_Fridge2_Teal,
+		scale = 1,
+	}
+	
+	model PA_Fridge2_Teal
+	{
+		mesh = KYRP/PA_Fridge2,
+		texture = KYRP/PA_Fridge2_Teal,
+		scale = 1,
+	}
+	
+	model W_Fridge_Green
+	{
+		mesh = KYRP/W_Fridge1g,
+		texture = KYRP/PA_Fridge1_Green,
+		scale = 1,
+	}
+	
+	model PA_Fridge_Green
+	{
+		mesh = KYRP/PA_Fridge1g,
+		texture = KYRP/PA_Fridge1_Green,
+		scale = 1,
+	}
+	
+	model W_Fridge_White
+	{
+		mesh = KYRP/W_Fridge1w,
+		texture = KYRP/PA_Fridge1_White,
+		scale = 1,
+	}
+	
+	model PA_Fridge_White
+	{
+		mesh = KYRP/PA_Fridge1w,
+		texture = KYRP/PA_Fridge1_White,
+		scale = 1,
+	}
+
+	model W_Fridge_Red
+	{
+		mesh = KYRP/W_Fridge1r,
+		texture = KYRP/PA_Fridge1_Red,
+		scale = 1,
+	}
+	
+	model PA_Fridge_Red
+	{
+		mesh = KYRP/PA_Fridge1r,
+		texture = KYRP/PA_Fridge1_Red,
+		scale = 1,
+	}	
+
+	model W_Washer
+	{
+		mesh = KYRP/W_Washer,
+		texture = KYRP/Washers,
+		scale = 1,
+	}
+	
+	model PA_Washer
+	{
+		mesh = KYRP/PA_Washer,
+		texture = KYRP/PA_Washers,
+		scale = 1,
+	}
+	
+	model W_Dryer
+	{
+		mesh = KYRP/W_Dryer,
+		texture = KYRP/Washers,
+		scale = 1,
+	}
+	
+	model PA_Dryer
+	{
+		mesh = KYRP/PA_Dryer,
+		texture = KYRP/PA_Washers,
+		scale = 1,
+	}
+	model W_ComboWD
+	{
+		mesh = KYRP/W_ComboWD,
+		texture = KYRP/Washers,
+		scale = 1,
+	}
+	
+	model PA_ComboWD
+	{
+		mesh = KYRP/PA_ComboWD,
+		texture = KYRP/PA_Washers,
+		scale = 1,
+	}
+	
+	model W_Register
+	{
+		mesh = KYRP/W_Register,
+		texture = KYRP/Register,
+		scale = 0.5,
+	}
+	
+	model PA_Register
+	{
+		mesh = KYRP/PA_Register,
+		texture = KYRP/Register,
+		scale = 0.5,
+	}
+
+	model W_Register2
+	{
+		mesh = KYRP/W_Register,
+		texture = KYRP/Register2,
+		scale = 0.5,
+	}
+	
+	model PA_Register2
+	{
+		mesh = KYRP/PA_Register,
+		texture = KYRP/Register2,
+		scale = 0.5,
+	}
+	
+	model W_Cone
+	{
+		mesh = KYRP/W_Cone,
+		texture = KYRP/RCone,
+		scale = 0.5,
+	}
+	
+	model PA_Cone
+	{
+		mesh = KYRP/PA_Cone,
+		texture = KYRP/RCone,
+		scale = 0.5,
+	}
+
+	model W_Cone2
+	{
+		mesh = KYRP/W_Cone2,
+		texture = KYRP/Cone2,
+		scale = 0.5,
+	}
+	
+	model PA_Cone2
+	{
+		mesh = KYRP/PA_Cone2,
+		texture = KYRP/Cone2,
+		scale = 0.5,
+	}
+	
+	model W_Gnome
+	{
+		mesh = KYRP/W_Gnome,
+		texture = KYRP/Gnome,
+		scale = 0.5,
+	}
+	
+	model PA_Gnome
+	{
+		mesh = KYRP/PA_Gnome,
+		texture = KYRP/Gnome,
+		scale = 0.5,
+	}
+	
+	model PA_PropaneTank
+	{
+		mesh = KYRP/PA_PropaneTank,
+		texture = WorldItems/PropaneTank,
+		scale = 0.25,
+	}
+	
+	model W_Extinguisher
+	{
+		mesh = KYRP/W_Extinguisher,
+		texture = WorldItems/Extinguisher,
+		scale = 0.5,
+	}
+	
+	model PA_Extinguisher
+	{
+		mesh = KYRP/PA_Extinguisher,
+		texture = WorldItems/Extinguisher,
+		scale = 0.5,
+	}
+	
+	model PA_MiniFridge
+	{		
+		mesh = KYRP/PA_MiniFridge,
+        texture = KYRP/MiniFridge,
+		scale = 1,
+	}
+
+	model W_MiniFridge
+	{		
+		mesh = KYRP/W_MiniFridge,
+        texture = KYRP/MiniFridge,
+		scale = 1,
+	}
+	
+	model PA_Trunk
+	{		
+		mesh = KYRP/PA_Trunk,
+        texture = KYRP/Trunk,
+		scale = 1,
+	}
+
+	model W_Trunk
+	{		
+		mesh = KYRP/W_Trunk,
+        texture = KYRP/Trunk,
+		scale = 1,
+	}
+	
+	model PA_TrashBarrel
+	{		
+		mesh = KYRP/PA_TrashBarrel,
+        texture = KYRP/PA_Barrel_Trash,
+		scale = 1,
+	}
+	
+	model PA_Barrel_Orange
+	{		
+		mesh = KYRP/PA_Barrel,
+        texture = KYRP/PA_Barrel_Orange,
+		scale = 1,
+	}
+	
+	model PA_Barrel_Yellow
+	{		
+		mesh = KYRP/PA_Barrel,
+        texture = KYRP/PA_Barrel_Yellow,
+		scale = 1,
+	}
+
+	model PA_Barrel_Green
+	{		
+		mesh = KYRP/PA_Barrel,
+        texture = KYRP/PA_Barrel_Green,
+		scale = 1,
+	}
+
+	model PA_Barrel_Grey
+	{		
+		mesh = KYRP/PA_Barrel,
+        texture = KYRP/PA_Barrel_Grey,
+		scale = 1,
+	}	
+
+	model W_TrashBarrel
+	{		
+		mesh = KYRP/W_TrashBarrel,
+        texture = KYRP/Barrel_Trash,
+		scale = 1,
+	}
+	
+	model W_Barrel_Orange
+	{		
+		mesh = KYRP/W_Barrel,
+        texture = KYRP/Barrel_Orange,
+		scale = 1,
+	}
+	
+	model W_Barrel_Yellow
+	{		
+		mesh = KYRP/W_Barrel,
+        texture = KYRP/Barrel_Yellow,
+		scale = 1,
+	}
+
+	model W_Barrel_Green
+	{		
+		mesh = KYRP/W_Barrel,
+        texture = KYRP/Barrel_Green,
+		scale = 1,
+	}
+
+	model W_Barrel_Grey
+	{		
+		mesh = KYRP/W_Barrel,
+        texture = KYRP/Barrel_Grey,
+		scale = 1,
+	}
+	
+	model PA_Toilet
+	{		
+		mesh = KYRP/PA_Toilet,
+        texture = KYRP/PA_Toilet,
+		scale = 1,
+	}
+	
+	model W_Toilet
+	{		
+		mesh = KYRP/W_Toilet,
+        texture = KYRP/PA_Toilet,
+		scale = 1.0,
+	}
+	
+	model PA_SmallTrash
+	{		
+		mesh = KYRP/PA_SmallTrash,
+        texture = KYRP/SmallTrash,
+		scale = 1,
+	}
+	
+	model W_SmallTrash
+	{		
+		mesh = KYRP/W_SmallTrash,
+        texture = KYRP/SmallTrash,
+		scale = 1,
+	}
+	
+	model PA_Microwave1
+	{		
+		mesh = KYRP/PA_Microwave1,
+        texture = KYRP/Microwave1,
+		scale = 0.75,
+	}
+	
+	model PA_Microwave2
+	{		
+		mesh = KYRP/PA_Microwave2,
+        texture = KYRP/Microwave2,
+		scale = 0.75,
+	}
+	
+	model W_Microwave1
+	{		
+		mesh = KYRP/W_Microwave1,
+        texture = KYRP/Microwave1,
+		scale = 0.0275,
+	}
+	
+	model W_Microwave2
+	{		
+		mesh = KYRP/W_Microwave2,
+        texture = KYRP/Microwave2,
+		scale = 0.0275,
+	}
+	
+	model PA_Cardboard_Box
+	{		
+		mesh = KYRP/PA_CardBoard_Box,
+        texture = KYRP/PA_CardBoard_Box,
+		scale = 0.00275,
+	}
+
+	model PA_Cardboard_Box2
+	{		
+		mesh = KYRP/PA_CardBoard_Box2,
+        texture = KYRP/PA_CardBoard_Box2,
+		scale = 0.00275,
+	}
+	
+	model PA_TV
+	{		
+		mesh = KYRP/PA_TV,
+        texture = KYRP/PA_TV,
+		scale = 0.00275,
+	}
+
+	model PA_TV2
+	{		
+		mesh = KYRP/PA_TV2,
+        texture = KYRP/PA_TV2,
+		scale = 0.00275,
+	}
+
+	model PA_MGCan
+	{		
+		mesh = KYRP/PA_MGCan,
+        texture = KYRP/PA_MGCan,
+		scale = 0.00275,
+	}
+
+	model PA_OilBarrel
+	{		
+		mesh = KYRP/PA_OilBarrel,
+        texture = KYRP/PA_OilBarrel,
+		scale = 0.00275,
+	}
+
+	model PA_Weapons_Crate
+	{		
+		mesh = KYRP/PA_Weapons_Crate,
+        texture = KYRP/PA_Weapons_Crate,
+		scale = 0.00275,
+	}	
+
+	model W_Cardboard_Box
+	{		
+		mesh = KYRP/W_CardBoard_Box,
+        texture = KYRP/PA_CardBoard_Box,
+		scale = 1.0,
+	}
+
+	model W_Cardboard_Box2
+	{		
+		mesh = KYRP/W_CardBoard_Box2,
+        texture = KYRP/PA_CardBoard_Box2,
+		scale = 1.0,
+	}
+		
+	model W_TV
+	{		
+		mesh = KYRP/W_TV,
+        texture = KYRP/PA_TV,
+		scale = 1.0,
+	}
+
+	model W_TV2
+	{		
+		mesh = KYRP/W_TV2,
+        texture = KYRP/PA_TV2,
+		scale = 1.0,
+	}
+
+	model W_MGCan
+	{		
+		mesh = KYRP/W_MGCan,
+        texture = KYRP/PA_MGCan,
+		scale = 1.0,
+	}
+
+	model W_OilBarrel
+	{		
+		mesh = KYRP/W_OilBarrel,
+        texture = KYRP/PA_OilBarrel,
+		scale = 1.0,
+	}
+
+	model W_Weapons_Crate
+	{		
+		mesh = KYRP/W_Weapons_Crate,
+        texture = KYRP/PA_Weapons_Crate,
+		scale = 1.0,
+	}	
+
+	/*these are from the other carry mod or from overwrites. I couldn't leave them behind.
+"Corpse v02" (https://skfb.ly/69rHs) by Alexandr Zhilkin is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).*/
+	
+	model PA_Corpse
+	{
+		mesh = PA_Corpse,
+		texture = PA_Corpse,
+		scale = 0.005,
+	}
+	
+	
+	model PA_Generator
+	{		
+		mesh = PA_Generator2,
+        texture = WorldItems/Generator,
+		scale = 0.00275,
+	}
+
+	model PA_EmptyNotebook
+	{
+		mesh = KYRP/PA_EmptyNotebook,
+		texture = WorldItems/EmptyNotePad,
+		scale = 0.006,
+	}
+
+	model PA_CordlessPhone
+	{
+		mesh = KYRP/PA_CordlessPhone,
+		texture = WorldItems/CordlessPhone,
+		scale = 0.00275,
+	}	
+	
+	model PA_CookingPot
+	{
+		mesh = KYRP/PA_CookingPot,
+        texture = CookingPot,
+		scale = 0.6,
+	}	
+
+	model PA_CookingPotWater
+    {
+        mesh = KYRP/PA_CookingPotFull,
+        texture = WorldItems/CookingPotWater,
+        scale = 0.6,
+    }
+	
+	model PA_CookingPotRice
+    {
+        mesh = KYRP/PA_CookingPotFull,
+        texture = WorldItems/CookingPotRice,
+        scale = 0.6,
+    }	
+	
+	model PA_CookingPotSoup
+    {
+        mesh = KYRP/PA_CookingPotFull,
+        texture = WorldItems/CookingPotSoup,
+        scale = 0.6,
+    }
+
+	model PA_CookingPotPasta
+    {
+        mesh = KYRP/PA_CookingPotFull,
+        texture = WorldItems/CookingPotPasta,
+        scale = 0.6,
+    }	
+
+	model PA_BucketFullConcrete
+    {
+        mesh = KYRP/BucketFull,
+        texture = WorldItems/BucketFullConcrete_New,
+        scale = 0.4,
+    }
+	
+	model PA_BucketFullPlaster
+    {
+        mesh = KYRP/BucketFull,
+        texture = WorldItems/BucketFullPlaster_New,
+        scale = 0.4,
+    }
+	
+	model PA_BucketFullWater
+    {
+        mesh = KYRP/BucketFull,
+        texture = WorldItems/BucketFullWater_New,
+        scale = 0.4,
+    }	
+
+	model KYRPHanddolly
+	{
+		mesh = KYRP/PA_HandDolly,
+		texture = KYRP/minifridge,
+	}
+
+	model W_KYRPHanddolly
+	{
+		mesh = KYRP/W_HandDolly,
+		texture = KYRP/minifridge,
+	}
+	
+	model PA_Log
+	{
+		mesh = KYRP/PA_Log,
+		texture = WorldItems/Log,
+		scale = 0.4,
+	}
+	
+	model PA_TwoLogsStack
+	{
+		mesh = KYRP/PA_TwoLogsStack,
+		texture = WorldItems/Log,
+		scale = 0.4,
+	}
+	
+	model PA_ThreeLogsStack
+	{
+		mesh = KYRP/PA_ThreeLogsStack,
+		texture = WorldItems/Log,
+		scale = 0.4,
+	}
+	
+	model PA_FourLogsStack
+	{
+		mesh = KYRP/PA_FourLogsStack,
+		texture = WorldItems/Log,
+		scale = 0.4,
+	}	
+	
+}
+

@@ -1,0 +1,294 @@
+module RPDescriptors {
+    imports
+    {
+        Base
+    }
+
+  	item ExclamationRed
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationRed,
+		WorldStaticModel = ExclamationRed,
+    }
+	
+	item ExclamationOrange
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationOrange,
+		WorldStaticModel = ExclamationOrange,
+    }
+		
+	item ExclamationYellow
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationYellow,
+		WorldStaticModel = ExclamationYellow,
+    }
+		
+	item ExclamationGreen
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationGreen,
+		WorldStaticModel = ExclamationGreen,
+    }
+		
+	item ExclamationBlue
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationBlue,
+		WorldStaticModel = ExclamationBlue,
+    }
+		
+	item ExclamationPink
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationPink,
+		WorldStaticModel = ExclamationPink,
+    }
+		
+	item ExclamationPurple
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationPurple,
+		WorldStaticModel = ExclamationPurple,
+    }
+		
+	item ExclamationWhite
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationWhite,
+		WorldStaticModel = ExclamationWhite,
+    }
+		
+	item ExclamationGrey
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationGrey,
+		WorldStaticModel = ExclamationGrey,
+    }
+		
+	item ExclamationBlack
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Exclaim,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	ExclamationBlack,
+		WorldStaticModel = ExclamationBlack,
+    }
+
+	item QuestionRed
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionRed,
+		WorldStaticModel = QuestionRed,
+    }
+	
+	item QuestionOrange
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionOrange,
+		WorldStaticModel = QuestionOrange,
+    }
+		
+	item QuestionYellow
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionYellow,
+		WorldStaticModel = QuestionYellow,
+    }
+		
+	item QuestionGreen
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionGreen,
+		WorldStaticModel = QuestionGreen,
+    }
+		
+	item QuestionBlue
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionBlue,
+		WorldStaticModel = QuestionBlue,
+    }
+		
+	item QuestionPink
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionPink,
+		WorldStaticModel = QuestionPink,
+    }
+		
+	item QuestionPurple
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionPurple,
+		WorldStaticModel = QuestionPurple,
+    }
+		
+	item QuestionWhite
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionWhite,
+		WorldStaticModel = QuestionWhite,
+    }
+		
+	item QuestionGrey
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionGrey,
+		WorldStaticModel = QuestionGrey,
+    }
+		
+	item QuestionBlack
+    {
+        DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Question,
+        Weight = 0.01,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	QuestionBlack,
+		WorldStaticModel = QuestionBlack,
+    }
+	
+	item PinnedPaper
+	{
+		DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pinned Sheet of Paper,
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	Paper,
+		WorldStaticModel = PinnedPaper,
+	}
+
+	item PinnedPaperKnife
+	{
+		DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pinned Sheet of Paper (Hunting Knife),
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	PinnedPaperKnife,
+		WorldStaticModel = PinnedPaperKnife,
+	}
+	
+	item PinnedPaperKnife2
+	{
+		DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pinned Sheet of Paper (Kitchen Knife),
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	PinnedPaperKnife2,
+		WorldStaticModel = PinnedPaperKnife,
+	}
+
+	item PinnedPaperScrewdriver
+	{
+		DisplayCategory = RPDescriptors,
+		Type	=	Literature,
+        DisplayName = Pinned Sheet of Paper (Screwdriver),
+        Weight = 0.1,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        Icon	=	PinnedPaperScrewdriver,
+		WorldStaticModel = PinnedPaperScrewdriver,
+	}
+}

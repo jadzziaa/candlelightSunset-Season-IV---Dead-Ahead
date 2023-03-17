@@ -1,0 +1,23 @@
+Recipes_EN = 
+{
+	Recipe_Switch_Stance = "Switch Stance",
+	Recipe_Switch_to_Stabbing = "Switch to Stabbing",
+	Recipe_Switch_to_Slashing = "Switch to Slashing",
+	Recipe_Make_A_Defiler= "Make A Defiler",
+	Recipe_Make_A_Despoiler = "Make A Despoiler",
+	Recipe_Make_A_Shillelagh = "Make A Shillelagh",
+	Recipe_Make_A_Heavy_Shillelagh = "Make A Heavy Shillelagh",
+	Recipe_Make_a_Rebar_Club = "Make a Rebar Club",
+	Recipe_Make_a_Rebar_Spear = "Make a Rebar Spear",
+	Recipe_Make_a_Rebar_Hammer = "Make a Rebar Hammer",
+	Recipe_Make_a_Trench_Bat = "Make a Trench Bat",
+	Recipe_Grind_Corn_Into_Cornflour = "Grind Corn Into Cornflour",
+	Recipe_Create_Homemade_Cornbread = "Create Homemade Cornbread",
+	Recipe_Empty_Cast_Iron_Skillet = "Empty Cast Iron Skillet",
+	Recipe_Attach_Eraser_to_Pencil = "Attach Eraser to Pencil",
+	Recipe_Replace_Stun_Gun_Batteries = "Replace Stun Gun Batteries",
+	Recipe_Change_to_Halberd_Spear = "Change to Halberd Spear",
+	Recipe_Change_to_Halberd_Axe = "Change to Halberd Axe",
+	Recipe_Extend_Baton = "Extend Baton",
+	Recipe_Collapse_Baton = "Collapse Baton",
+}

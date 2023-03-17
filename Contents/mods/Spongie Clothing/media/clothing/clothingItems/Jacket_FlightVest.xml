@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>Skinned\Clothes\Spongie\M_FlightJacketVest</m_MaleModel>
+    <m_FemaleModel>Skinned\Clothes\Spongie\F_FlightJacketVest</m_FemaleModel>
+    <m_GUID>spongiec-vest-485e-8d3a-48edfa668ec7</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+	<m_Masks>12</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Spongie\Jacket\Masks\LongSleeves\ClosedMasks</m_UnderlayMasksFolder>
+    <textureChoices>clothes/Spongie/Jacket/FlightJacket1</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/FlightJacket2</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/FlightJacket3</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/FlightJacket4</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/FlightJacket5</textureChoices>
+    <textureChoices>clothes/Spongie/Jacket/FlightJacket6</textureChoices>
+</clothingItem>

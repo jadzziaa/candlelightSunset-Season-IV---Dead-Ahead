@@ -1,0 +1,5 @@
+ItemName_EN = {
+	DisplayName_Small_Magnet = "Small Magnet",
+	DisplayName_Medium_Magnet = "Magnet",
+	DisplayName_Large_Magnet = "Fishing Magnet",
+}

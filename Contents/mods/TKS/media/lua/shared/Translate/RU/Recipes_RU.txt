@@ -1,0 +1,11 @@
+Recipe_RU = {
+
+	Recipe_Make_Knife_Sheath = "Сшить ножны",
+	Recipe_Make_Katana_Sheath = "Сшить ножны для катаны",
+	Recipe_Paint_Katana_Sheath_Green = "Покрасить ножны в зелёный",
+	Recipe_Paint_Katana_Sheath_Red = "Покрасить ножны в красный",	
+	Recipe_Paint_Katana_Sheath_Blue = "Покрасить ножны в синий",	
+	Recipe_Paint_Katana_Sheath_Black = "Покрасить ножны в черный",	
+	Recipe_Paint_Katana_Sheath_White = "Покрасить ножны в белый",
+	Recipe_Wash_Off_the_Paint = "Смыть краску",	
+}

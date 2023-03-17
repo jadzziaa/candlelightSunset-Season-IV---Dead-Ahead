@@ -1,0 +1,3 @@
+ContextMenu_UA = {
+	ContextMenu_RepairRoad = "Ремонтувати дорогу",
+}

@@ -1,0 +1,655 @@
+module Base
+{
+	model 80kz1000Base
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_body,
+        shader = vehicle_norandom_multiuv,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_seat
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_seat,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_headlight
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_headlight,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+    model 80kz1000_windshield
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_windshield,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_gastank
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_gastank,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_exhaust
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_muffler,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_front_brake
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_front_brake,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_rear_brake
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_rear_brake,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_front_suspension
+    {
+        mesh =vehicles/Bikes_80kz1000_Body|kz1k_front_suspension,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_rear_suspension
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_rear_suspension,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_radio
+    {
+        mesh = vehicles/Bikes_80kz1000_Body|kz1k_radio,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 0.10,
+    }
+	model 80kz1000_wheel
+    {
+        mesh = vehicles/Bikes_80kz1000_Wheels|kz1k_wheel,
+        texture = Vehicles/Bikes_80kz1000_wheel,
+        shader = vehiclewheel,
+        scale = 0.10,
+    }
+	vehicle 80kz1000
+	{
+		part AMCConfig
+		{
+			category = nodisplay,
+
+			table AMCConfig
+			{
+				type = HARLEY,
+				fallDelta = 3,
+				speedDelta = 2,
+				hideWeapon = 1,
+				quickEnter = 1,
+			}
+		}
+
+		part TCLConfig
+		{
+			category = nodisplay,
+
+			table TCLConfig
+			{
+				disableDoorLocker = 1,
+				disableSleep = 1,
+				wreckerName = TrailerAMC,
+			}
+		}
+
+		mechanicType = 3,
+		engineRepairLevel = 4,
+		playerDamageProtection = 1.1,
+
+		model
+		{
+			file = 80kz1000Base,
+			scale = 0.8500,
+			offset = 0.0000 0.1294 -0.0941,
+		}
+
+		skin
+		{
+			texture = Vehicles/Bikes_80kz1000_Shell,
+		}
+
+		textureRust = Vehicles/Bikes_80kz1000_rust,
+		textureMask = Vehicles/Bikes_80kz1000_mask,
+		textureLights = Vehicles/Bikes_80kz1000_lights,
+		textureDamage1Shell = Vehicles/Bikes_80kz1000_damage1,
+		textureDamage2Shell = Vehicles/Bikes_80kz1000_damage2,
+		textureDamage1Overlay = Vehicles/Bikes_80kz1000_blood,
+		textureDamage2Overlay = Vehicles/Bikes_80kz1000_blood,
+		textureShadow = Vehicles/Bikes_80kz1000_shadow,
+
+		sound
+		{
+			horn = VehicleHorn,
+		}
+
+		lightbar
+		{
+			soundSiren = VehicleSiren,
+			leftCol = 1;0;0,
+			rightCol = 1;0;0,
+		}
+
+		engineForce = 1850,
+		maxSpeed = 57f,
+		extents = 0.7765 0.9647 2.3529,
+		mass = 200,
+		physicsChassisShape = 0.7765 0.9647 2.3529,
+		centerOfMassOffset = 0.0000 0.8000 0.0000,
+		shadowExtents = 2.2869 2.2875,
+		shadowOffset = 0.0125 -0.0250,
+		engineLoudness = 80,
+		engineQuality = 80,
+		brakingForce = 10,
+		stoppingMovementForce = 0.0f,
+		rollInfluence = 0.4f,
+		steeringIncrement = 0.01,
+		steeringClamp = 0.08,
+		suspensionStiffness = 50,
+		suspensionCompression = 0,
+		suspensionDamping = 100,
+		maxSuspensionTravelCm = 16,
+		suspensionRestLength = 0.2f,
+		wheelFriction = 5.4f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.2706 0.2588 1.4706,
+			radius = 0.3f,
+			width = 0.5f,
+		}
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.2706 0.2588 1.4706,
+			radius = 0.3f,
+			width = 0.5f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.0000 0.1765 -0.6235,
+			radius = 0.3f,
+			width = 0.5f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = 0.0000 0.2471 0.7176,
+			radius = 0.3f,
+			width = 0.5f,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.5882 0.8235 0.8235,
+		}
+
+		area TruckBedLeft
+		{
+			xywh = 0.8000 -1.0118 0.8235 0.8235,
+		}
+
+		area TruckBedRight
+		{
+			xywh = -0.8000 -1.0118 0.8235 0.8235,
+		}
+
+		area Engine
+		{
+			xywh = -0.8000 0.1647 0.4000 0.4000,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.8000 -0.1647 0.8235 0.8235,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.8000 -0.1647 0.8235 0.8235,
+		}
+
+		area GasTank
+		{
+			xywh = 0.8000 0.1647 0.4000 0.4000,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.0824 -1.5882 0.4000 0.4000,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.0000 1.5882 0.4000 0.4000,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.0824 -1.5882 0.4000 0.4000,
+		}
+
+		template = GasTank,
+
+		part GasTank
+		{
+			specificItem = false,
+			itemType = Base.KZ1KgasTank,
+			category = gastank,
+
+			model Gastank873786327
+			{
+				file = 80kz1000_gastank,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+			table install
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+			table uninstall
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+		}
+
+		template = Engine,
+		template = KZ1KtrunkStorages,
+		template = KZ1KtrunkLids,
+		template = Windshield/part/Windshield,
+
+		part Windshield
+		{
+			itemType = Base.KZ1Kwindshield,
+			area = TireFrontLeft,
+
+			model Windshield7278272336
+			{
+				file = 80kz1000_windshield,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+			table uninstall
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+		}
+
+		part Engine
+		{
+			category = engine,
+		}
+
+		template = Battery,
+
+		part Battery
+		{
+			category = engine,
+			area = GasTank,
+
+			table install
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+			table uninstall
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+		}
+
+		template = Muffler,
+
+		part Muffler
+		{
+			specificItem = false,
+			itemType = Base.KZ1Kmuffler,
+
+			model Muffler7278276766
+			{
+				file = 80kz1000_exhaust,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			category = engine,
+			area = TireRearLeft,
+
+			table install
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+			table uninstall
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+		}
+
+		template = Brake/part/BrakeFrontLeft,
+		template = Brake/part/BrakeRearLeft,
+
+		part BrakeFrontLeft
+		{
+			area = TireFrontLeft,
+
+			model brakeFront876378378378
+			{
+				file = 80kz1000_front_brake,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionFrontLeft,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+		}
+
+		part BrakeRearLeft
+		{
+			area = TireRearLeft,
+
+			model brakeRear783873783
+			{
+				file = 80kz1000_rear_brake,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionRearLeft,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+		}
+
+		template = Headlight/part/HeadlightLeft,
+
+		part HeadlightLeft
+		{
+			model frontHeadlight87378
+			{
+				file = 80kz1000_headlight,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			area = TireFrontLeft,
+
+		}
+
+		template = Headlight/part/HeadlightRearLeft,
+		template = Suspension,
+
+		part SuspensionFrontLeft
+		{
+			area = TireFrontLeft,
+
+			model tire876866
+			{
+				file = 80kz1000_front_suspension,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireFrontWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = BrakeFrontLeft,
+			}
+		}
+
+		part SuspensionFrontRight
+		{
+			category = nodisplay,
+		}
+
+		part SuspensionRearLeft
+		{
+			area = TireRearLeft,
+
+			model tire2457959
+			{
+				file = 80kz1000_rear_suspension,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = ATAMotoTireRearWheel,
+			}
+
+			table uninstall
+			{
+				recipes = Advanced Mechanics,
+				requireUninstalled = BrakeRearLeft,
+			}
+		}
+
+		part SuspensionRearRight
+		{
+			category = nodisplay,
+			area = TireRearLeft,
+		}
+
+		template! = ATAMotoWheelsReady,
+
+		part ATAMotoTireFrontWheel
+		{
+			specificItem = false,
+			itemType = Base.KZ1KoldTire;Base.KZ1KnormalTire;Base.KZ1KmodernTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = 80kz1000_Wheel,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionFrontLeft,
+			}
+
+			table uninstall
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+		}
+
+		part ATAMotoTireRearWheel
+		{
+			specificItem = false,
+			itemType = Base.KZ1KoldTire;Base.KZ1KnormalTire;Base.KZ1KmodernTire,
+
+			model InflatedTirePlusWheel
+			{
+				file = 80kz1000_Wheel,
+			}
+
+			table install
+			{
+				recipes = Advanced Mechanics,
+				requireInstalled = SuspensionRearLeft,
+			}
+
+			table uninstall
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+		}
+
+		passenger FrontLeft
+		{
+			door = DoorFrontLeft,
+			door2 = DoorFrontRight,
+			area = SeatFrontLeft,
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.7647 -0.2706,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.0000 0.7529 -0.2824,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+
+			switchSeat FrontRight
+			{
+				sound =,
+			}
+		}
+
+		template! = PassengerCommon,
+		template = Seat/part/SeatFrontLeft,
+
+		part SeatFrontLeft
+		{
+			category = seat,
+			specificItem = false,
+			itemType = Base.KZ1Kseat,
+
+			model seat45763248777
+			{
+				file = 80kz1000_seat,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+
+			table install
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+			table uninstall
+			    {
+			        recipes = Advanced Mechanics,
+			    }
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+
+			anim Open
+			{
+				sound =,
+			}
+
+			anim Close
+			{
+				sound =,
+			}
+
+			anim Lock
+			{
+				sound =,
+			}
+
+			anim Unlock
+			{
+				sound =,
+			}
+
+			anim IsLocked
+			{
+				sound =,
+			}
+
+			lua
+			{
+				create = CommonTemplates.Create.setInventoryNil,
+				init = CommonTemplates.Init.setInventoryNil,
+				use = ATATuning.Use.Door,
+			}
+		}
+
+		template = Radio,
+
+		part Radio*
+		{
+			itemType = Radio.WalkieTalkie4,
+		}
+
+		part Radio
+		{
+			model radio549846314
+			{
+				file = 80kz1000_radio,
+				offset = 0 0 0,
+				rotate = 0 0 0,
+				scale = 1.0,
+			}
+		}
+	}
+}

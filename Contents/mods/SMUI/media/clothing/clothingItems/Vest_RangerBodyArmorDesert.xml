@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_RangerBodyArmor</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_RangerBodyArmor</m_FemaleModel>
+	<m_GUID>a7d48a76-79cb-426f-a111-7eb480d0e9a8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\vest\Vest_RangerBodyArmorDesert</textureChoices>
+</clothingItem>

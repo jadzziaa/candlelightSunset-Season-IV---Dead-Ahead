@@ -1,0 +1,144 @@
+v.1.09
+2023-01-01
+
+Добавлена возможность сидеть и лежать на Викторианской мебели, добавленной в версии 41.73. Спасибо Orcicorn (https://steamcommunity.com/id/orcicorn/).
+Bugfix: двойная активация кнопки "Прилечь" могла активировать у игрока возможность проходить сквозь стены.
+
+Added ability to sit and lie on Victorian furniture added in version 41.73. Thanks to Orcicorn (https://steamcommunity.com/id/orcicorn/).
+Bugfix: Double activation of the "Lie down" button could have activated the player's ability to pass through walls.
+
+-------------------
+
+v.1.08
+2022-01-20
+
+Переводы перенесены в tsarslib.
+Исправлена ошибка, из-за которой сон, лежа на кровати, считался сном на полу.
+Добавлена обработка нескольких исключений приводящих к появлению ошибок у игроков.
+
+Translations moved to tsarslib.
+Fixed a bug that caused sleeping on the bed to be treated as sleeping on the floor.
+Added handling of several exceptions that lead to errors in players.
+
+-------------------
+
+v.1.07.1
+2021-12-19
+
+Отключена возможность активации лежания на второй половине кровати. 
+
+Disabled the ability to activate lying on the second half of the bed. 
+
+-------------------
+
+v.1.07dev7
+2021-12-19
+
+Исправлены ошибки анимации лежания при наличии рядом источника тепла.
+Исправлены мелкие баги.
+
+Fixed lying animation bugs when there is a heat source nearby.
+Fixed minor bugs.
+
+-------------------
+
+v.1.07dev6
+2021-12-19
+
+Выполнена оптимизация аватара.
+
+Optimized avatar.
+
+-------------------
+
+v.1.07dev5
+2021-12-19
+
+Изменена логика передачи информации о лежании по сети.
+
+Changed the logic of transmitting information about lying on the network.
+
+-------------------
+
+v.1.07dev4
+2021-12-19
+
+Изменена логика передачи информации о сидении по сети.
+
+Changed the logic of transmitting information about sitting on the network.
+
+-------------------
+
+v.1.07dev3
+2021-12-19
+
+Добавлена возможность сидеть на сиденьях в Молле.
+Добавлена проверка "занятости" стула и кровать.
+Уменьшено количество запросов в GlobalModData.
+
+Added the ability to sit on seats in the Mall.
+Added check for "occupied" chair and bed.
+Reduced the number of requests in GlobalModData.
+
+-------------------
+
+v.1.07dev2
+2021-12-19
+
+Синхронизировано лежание в мультиплеере.
+
+Synchronized lying in multiplayer.
+
+-------------------
+v.1.07dev1
+2021-12-18
+
+Синхронизировано сидение в мультиплеере.
+
+Synchronized seating in multiplayer.
+
+-------------------
+v.1.06
+Добавлен французкий перевод (спасибо Xianah).
+
+Added French translation (thanks Xianah).
+
+-------------------
+v.1.05
+Добавлен испанский перевод (спасибо Siowar)..
+
+Added Spanish translation (thanks Siowar).
+
+-------------------
+v.1.04.1
+Отключены логи.
+Disabled logs.
+
+-------------------
+v.1.04
+Удалены некорректные анимации появляющиеся при получении урона игроком.
+
+Removed incorrect animations that appear when a player is attacked.
+
+-------------------
+v.1.03
+Исправлены ошибки связанные с появление пустого контекстного меню.
+
+Fixed errors related to the appearance of an empty context menu.
+
+-------------------
+v.1.02
+Добавлена возможность лежать на кроватях и других подходящих предметах.
+Исправлены ошибки связанные с телепортацией персонажа сквозь стену.
+Добавлена поддержка Remote Play.
+
+Added the ability to lie on beds and other suitable items.
+Fixed errors related to character teleportation through the wall.
+Added support for Remote Play.
+
+-------------------
+v.1.01
+Added controller support. Fixed bugs.
+
+-------------------
+v.1.0

@@ -1,0 +1,5 @@
+Recipes_FR = {
+	Recipe_Make_Makeshift_Hand_Crank = "Faire une manivelle improvisée",
+    Recipe_Insert_Battery_into_Makeshift_Hand_Crank = "Insérer une pile dans la manivelle improvisée",
+	Recipe_Insert_Battery_into_Hand_Crank = "Insérer une pile dans la manivelle",
+}

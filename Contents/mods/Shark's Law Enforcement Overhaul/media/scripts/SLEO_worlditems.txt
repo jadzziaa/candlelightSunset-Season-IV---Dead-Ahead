@@ -1,0 +1,220 @@
+module Base
+{
+
+	    model BlackSWATTruckerCap_WorldItem
+	{
+		mesh = WorldItems/SWATTruckerCap_WorldItem,
+		texture = clothes/hat/blackSWATtruckercap,
+		scale = 0.5,
+	}
+
+	    model BlueSWATTruckerCap_WorldItem
+	{
+		mesh = WorldItems/SWATTruckerCap_WorldItem,
+		texture = clothes/hat/blueSWATtruckercap,
+		scale = 0.5,
+	}
+
+		model GreenSWATTruckerCap_WorldItem
+	{
+		mesh = WorldItems/SWATTruckerCap_WorldItem,
+		texture = clothes/hat/greenSWATtruckercap,
+		scale = 0.5,
+	}
+
+	    model PoliceCap_WorldItem
+	{
+		mesh = WorldItems/PoliceCap_WorldItem,
+		texture = clothes/hat/Hat_PoliceCap,
+		scale = 0.5,
+	}
+
+	    model PoliceHelmet_WorldItem
+	{
+		mesh = WorldItems/PoliceHelmet_WorldItem,
+		texture = clothes/hat/Hat_PoliceHelmet,
+		scale = 0.5,
+	}
+
+		model PoliceHelmetGoggles_WorldItem
+	{
+		mesh = WorldItems/PoliceHelmetGoggles_WorldItem,
+		texture = clothes/hat/Hat_PoliceHelmetGoggles,
+		scale = 0.5,
+	}
+
+		model PoliceHelmetGreen_WorldItem
+	{
+		mesh = WorldItems/PoliceHelmet_WorldItem,
+		texture = clothes/hat/Hat_PoliceHelmetGreen,
+		scale = 0.5,
+	}
+
+		model PoliceHelmetGreenGoggles_WorldItem
+	{
+		mesh = WorldItems/PoliceHelmetGoggles_WorldItem,
+		texture = clothes/hat/Hat_PoliceHelmetGreenGoggles,
+		scale = 0.5,
+	}
+
+		model PatrolCapBlue_WorldItem
+	{
+		mesh = WorldItems/PatrolCap_WorldItem,
+		texture = clothes/hat/greenSWATpatrolcap,
+		scale = 0.5,
+	}
+
+		model PatrolCapBlack_WorldItem
+	{
+		mesh = WorldItems/PatrolCap_WorldItem,
+		texture = clothes/hat/blackSWATpatrolcap,
+		scale = 0.5,
+	}
+
+		model PatrolCapGreen_WorldItem
+	{
+		mesh = WorldItems/PatrolCap_WorldItem,
+		texture = clothes/hat/greenSWATpatrolcap,
+		scale = 0.5,
+	}
+
+		model PoliceUtilityBag_WorldItem
+	{
+		mesh = WorldItems/PoliceUtilityBag_WorldItem,
+		texture = WorldItems/PoliceUtilityBag,
+		scale = 0.5,
+	}
+
+		model PoliceUtilityBagGreen_WorldItem
+	{
+		mesh = WorldItems/PoliceUtilityBag_WorldItem,
+		texture = clothes/misc/PoliceUtilityBagGreen,
+		scale = 0.5,
+	}
+
+	    model PoliceTacticalVest_WorldItem
+	{
+		mesh = WorldItems/PoliceTacticalVest_WorldItem,
+		texture = clothes/vest/PoliceTacticalVest,
+		scale = 0.5,
+	}
+
+		model PoliceBalaclava_WorldItem
+	{
+		mesh = WorldItems/BalaclavaFull_Ground,
+		texture = WorldItems/PoliceBalaclava,
+		scale = 0.5,
+	}
+
+		model PoliceDutyBelt_WorldItem
+	{
+		mesh = WorldItems/PoliceDutyBelt_WorldItem,
+		texture = WorldItems/PoliceDutyBelt,
+		scale = 0.5,
+	}
+
+		model Pads_WorldItem
+	{
+		mesh = WorldItems/Pads_WorldItem,
+		texture = WorldItems/Pads,
+		scale = 0.5,
+	}
+
+		model BlackLegPouch_WorldItem
+	{
+		mesh = WorldItems/LegPouch_WorldItem,
+		texture = clothes/misc/BlackLegPouch,
+		scale = 0.5,
+	}
+
+		model GreenLegPouch_WorldItem
+	{
+		mesh = WorldItems/LegPouch_WorldItem,
+		texture = clothes/misc/GreenLegPouch,
+		scale = 0.5,
+	}
+
+		model PoliceBodyArmor_WorldItem
+	{
+		mesh = WorldItems/PoliceBodyArmor_WorldItem,
+		texture = clothes/vest/PoliceBodyArmor,
+		scale = 0.5,
+	}
+
+		model PoliceRiotHelmet_WorldItem
+	{
+		mesh = WorldItems/PoliceRiotHelmet_WorldItem,
+		texture = clothes/hat/Hat_PoliceRiotHelmet,
+		scale = 0.5,
+	}
+
+		model AntiStabVest_WorldItem
+	{
+		mesh = WorldItems/PoliceBodyArmor_WorldItem,
+		texture = clothes/vest/AntiStabVest,
+		scale = 0.5,
+	}
+
+		model PoliceBalaclava_WorldItem
+	{
+		mesh = WorldItems/BalaclavaFull_Ground,
+		texture = WorldItems/PoliceBalaclava,
+		scale = 0.5,
+	}
+			
+		model BlackWatchCap_WorldItem
+	{
+		mesh = WorldItems/BlackWatchCap_WorldItem,
+		texture = clothes/hat/Hat_PoliceWatchCap,
+		scale = 0.5,
+	}
+
+		model GreenUtilityCap_WorldItem
+	{
+		mesh = WorldItems/UtilityCap_WorldItem,
+		texture = clothes/hat/greenSWATcap,
+		scale = 0.5,
+	}
+
+		model BlueUtilityCap_WorldItem
+	{
+		mesh = WorldItems/UtilityCap_WorldItem,
+		texture = clothes/hat/blueSWATcap,
+		scale = 0.5,
+	}
+
+		model BlackUtilityCap_WorldItem
+	{
+		mesh = WorldItems/UtilityCap_WorldItem,
+		texture = clothes/hat/blackSWATcap,
+		scale = 0.5,
+	}
+
+		model BlackUtilityCap_WorldItem
+	{
+		mesh = WorldItems/UtilityCap_WorldItem,
+		texture = clothes/hat/blackSWATcap,
+		scale = 0.5,
+	}
+
+        model PoliceWebbing_WorldItem
+	{
+		mesh = WorldItems/MilitaryWebbing_WorldItem,
+		texture = clothes/misc/PoliceWebbing,
+		scale = 0.5,
+	}
+
+		model M1HelmetBluePolice_WorldItem
+	{
+		mesh = WorldItems/M1Helmet_WorldItem,
+		texture = clothes/hat/Hat_M1HelmetBluePolice,
+		scale = 0.5,
+	}
+	
+		model M1HelmetBluePoliceStrapless_WorldItem
+	{
+		mesh = WorldItems/M1Helmet_WorldItem,
+		texture = clothes/hat/Hat_M1HelmetBluePolice,
+		scale = 0.5,
+	}
+}

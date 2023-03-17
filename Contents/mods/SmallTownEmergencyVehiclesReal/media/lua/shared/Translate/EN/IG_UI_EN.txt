@@ -1,0 +1,19 @@
+IG_UI_EN = {
+    IGUI_VehicleNameVan_ravencreekdoc = "Franklin Valuline",
+    IGUI_VehicleNameVan_jeffersondoc = "Franklin Valuline",
+    IGUI_VehicleNameVan_meadedoc = "Franklin Valuline",
+
+    IGUI_VehicleName86econoline_ravencreek = "Ford Econoline",
+    IGUI_VehicleName86econoline_jefferson = "Ford Econoline",
+    IGUI_VehicleName86econoline_meade = "Ford Econoline",
+
+	IGUI_VehicleNameprisonbus_ravencreek = "Ford B700 Prison Bus",
+	IGUI_VehicleNameprisonbus_jefferson = "Ford B700 Prison Bus",
+	IGUI_VehicleNameprisonbus_meade = "Ford B700 Prison Bus",
+
+    IGUI_VehicleName92wrangler_USPS = "Jeep Wrangler",
+
+    IGUI_VehicleName86econolineswat_louisvillepd = "Ford E350",
+    IGUI_VehicleName86econolineswat_jeffersonpd = "Ford E350",
+
+}

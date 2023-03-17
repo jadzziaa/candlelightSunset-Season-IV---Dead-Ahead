@@ -1,0 +1,9 @@
+ContextMenu_EN = {
+
+    ContextMenu_TuckIn = "Заправить",
+    ContextMenu_TuckOut = "Расправить",
+    ContextMenu_UpHoodie = "с капюшоном",
+    ContextMenu_DownHoodie = "без капюшона",
+    ContextMenu_ChangeFeatherPosition = "Изменить положение пера",
+	
+}

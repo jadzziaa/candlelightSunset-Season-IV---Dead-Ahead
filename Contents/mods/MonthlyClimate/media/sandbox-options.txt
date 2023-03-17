@@ -1,0 +1,221 @@
+VERSION = 1,
+
+option MonthlyClimate_Temperature.January
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_January,
+}
+
+option MonthlyClimate_Temperature.February
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_February,
+}
+
+option MonthlyClimate_Temperature.March
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_March,
+}
+
+option MonthlyClimate_Temperature.April
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_April,
+}
+
+option MonthlyClimate_Temperature.May
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_May,
+}
+
+option MonthlyClimate_Temperature.June
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_June,
+}
+
+option MonthlyClimate_Temperature.July
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_July,
+}
+
+option MonthlyClimate_Temperature.August
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_August,
+}
+
+option MonthlyClimate_Temperature.September
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_September,
+}
+
+option MonthlyClimate_Temperature.October
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_October,
+}
+
+option MonthlyClimate_Temperature.November
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_November,
+}
+
+option MonthlyClimate_Temperature.December
+{
+	type = enum,
+	numValues = 9,
+	default = 5,
+	page = MonthlyClimate_Temperature,
+	translation = MonthlyClimate_Temperature_December,
+}
+
+
+
+
+
+option MonthlyClimate_Rain.January
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_January,
+}
+
+option MonthlyClimate_Rain.February
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_February,
+}
+
+option MonthlyClimate_Rain.March
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_March,
+}
+
+option MonthlyClimate_Rain.April
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_April,
+}
+
+option MonthlyClimate_Rain.May
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_May,
+}
+
+option MonthlyClimate_Rain.June
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_June,
+}
+
+option MonthlyClimate_Rain.July
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_July,
+}
+
+option MonthlyClimate_Rain.August
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_August,
+}
+
+option MonthlyClimate_Rain.September
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_September,
+}
+
+option MonthlyClimate_Rain.October
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_October,
+}
+
+option MonthlyClimate_Rain.November
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_November,
+}
+
+option MonthlyClimate_Rain.December
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = MonthlyClimate_Rain,
+	translation = MonthlyClimate_Rain_December,
+}

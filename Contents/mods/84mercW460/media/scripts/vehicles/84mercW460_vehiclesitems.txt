@@ -1,0 +1,424 @@
+module Base
+
+{
+
+	/************************ Tires ************************/  
+
+	item W460NormalTire2
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Normal Tire,
+        Icon	=	tire1_W460,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.5,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.06,
+        ConditionLowerOffroad = 0.10,
+        MechanicsItem = TRUE,
+	    WorldStaticModel = W460Wheel1WI,
+	    Tooltip = Tooltip_item_W460NormalTires,
+    }
+
+    item W460WideTire2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   16.0,
+        Type    =   Normal,
+        DisplayName =   W460 Wide Tire,
+        Icon    =   tire2_W460,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.10,
+        ConditionLowerOffroad = 0.12,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460Wheel2WI,
+        Tooltip = Tooltip_item_W460WideTires,
+    }
+
+    item W460ModernTire2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   15.0,
+        Type    =   Normal,
+        DisplayName =   W460 Modern Tire,
+        Icon    =   tire3_W460,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.9,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.1,
+        ConditionLowerOffroad = 0.12,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460Wheel3WI,
+        Tooltip = Tooltip_item_W460ModernTires,
+    }
+
+	/************************ Trunks ************************/
+
+    item W460Trunk2
+    {
+    DisplayCategory = VehicleMaintenance,
+        Weight  =   25.0,
+        Type    =   Normal,
+        DisplayName =   Trunk,
+        Icon    =   na,
+        MaxCapacity = 110,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+	item W4602Trunk2
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	na,
+        MaxCapacity = 150,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item W4604Trunk2
+    {
+    DisplayCategory = VehicleMaintenance,
+        Weight  =   25.0,
+        Type    =   Normal,
+        DisplayName =   Trunk,
+        Icon    =   na,
+        MaxCapacity = 90,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+	item W460Extra2
+    {
+        Weight	=	0.01,
+        Type	=	Normal,
+        DisplayName	=	Extra,
+        Icon	=	na,
+        MaxCapacity = 5,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 0,
+        MechanicsItem = TRUE,
+    }
+
+	item W460Roofrack1_Item
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Roofrack,
+        Icon	=	roofrack_W460,
+        MaxCapacity = 85,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+	WorldStaticModel = W460RoofrackWI,
+	Tooltip = Tooltip_item_W460Roofrack1,
+    }
+
+     /************************ Bodykits ************************/
+
+	item W460Bodykit1_Item
+      {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Bodykit,
+        Icon	=	bodykit_W460,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460BodykitWI,
+	Tooltip = Tooltip_item_W460Bodykit1,
+      }
+
+	/************************* Doors ************************/
+
+    item W460CarFrontDoor2
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Front Door,
+        Icon	=	door_fl_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460FrontDoorWI,
+    }
+
+    item W460CarRearDoor2
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Rear Door,
+        Icon	=	door_rl_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460RearDoorWI,
+    }
+
+	/************************ Armor ************************/
+
+	item W460CarFrontDoorArmor1_Item
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Front Door Armor ,
+        Icon	=	arm_fl_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460FrontDoorArmorWI,
+	Tooltip = Tooltip_item_W460FrontDoorArmor1,
+    }
+
+	item W460CarRearDoorArmor1_Item
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Rear Door Armor,
+        Icon	=	arm_rl_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460RearDoorArmorWI,
+	Tooltip = Tooltip_item_W460RearDoorArmor1,
+    }
+
+	item W460WindshieldArmor1_Item
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	20.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Windshield Armor,
+        Icon	=	arm_f_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460WindArmorWI,
+	Tooltip = Tooltip_item_W460WindshieldArmor1,
+    }
+
+    item W460WindshieldRearArmor1_Item
+    {
+    DisplayCategory = VehicleMaintenance,
+        Weight  =   20.0,
+        Type    =   Normal,
+        DisplayName =   W460 Rear Windshield Armor,
+        Icon    =   arm_r_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460WindArmorRearWI,
+    Tooltip = Tooltip_item_W460WindshieldArmorRear1,
+    }
+
+    item W460WindowArmor1_Item
+    {
+    DisplayCategory = VehicleMaintenance,
+        Weight  =   25.0,
+        Type    =   Normal,
+        DisplayName =   W460 Rear Window Armor,
+        Icon    =   arm_rear_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460BackWindowArmorWI,
+    Tooltip = Tooltip_item_W460BackWindowArmor1,
+    }
+
+    /************************ Hood ************************/
+
+    item W460EngineDoor2
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Hood,
+        Icon	=	hood_W460,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460EngineDoorWI,
+    }
+
+    /************************ Trunk Lid ************************/
+
+    item W460TrunkDoor2
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Trunk Lid,
+        Icon	=	trunk_W460,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460TrunkDoorWI,
+    }
+
+    /************************ Seats ************************/
+
+     item W460CarSeatFront2
+     {
+	 DisplayCategory = VehicleMaintenance,
+         Weight	=	15.0,
+         Type	=	Normal,
+         DisplayName	=	W460 Front Seat,
+         Icon	=	seat_f_W460,
+         MaxCapacity = 25,
+         ChanceToSpawnDamaged = 20,
+         ConditionMax = 100,
+         MechanicsItem = TRUE,
+         WorldStaticModel = W460SeatWI,
+     }
+
+     item W460CarSeatRear2
+     {
+     DisplayCategory = VehicleMaintenance,
+         Weight =   15.0,
+         Type   =   Normal,
+         DisplayName    =   W460 Rear Seat,
+         Icon   =   seat_r_W460,
+         MaxCapacity = 25,
+         ChanceToSpawnDamaged = 20,
+         ConditionMax = 100,
+         MechanicsItem = TRUE,
+         WorldStaticModel = W460SeatRearWI,
+     }
+
+
+     /************************ Bullbar ************************/
+
+	item W460Bumper1_Item
+      {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Front Bumper,
+        Icon	=	bump1_W460,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460BumperWI,
+	Tooltip = Tooltip_item_W460Bumper1,
+      }
+
+	item W460Bullbar2_Item
+      {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Bullbar,
+        Icon	=	bull2_W460,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460BullbarWI,
+	Tooltip = Tooltip_item_W460Bumper1,
+      }
+
+      item W460Bullbar3_Item
+      {
+    DisplayCategory = VehicleMaintenance,
+        Weight  =   15.0,
+        Type    =   Normal,
+        DisplayName =   W460 Big Bullbar,
+        Icon    =   bull3_W460,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460BigBullbarWI,
+    Tooltip = Tooltip_item_W460Bumper1,
+      }
+
+      item W460BumperRear1_Item
+      {
+    DisplayCategory = VehicleMaintenance,
+        Weight  =   10.0,
+        Type    =   Normal,
+        DisplayName =   W460 Rear Bumper,
+        Icon    =   bumprrr_W460,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460BumperRearWI,
+    Tooltip = Tooltip_item_W460BumperRear1,
+      }
+
+     /************************ Windows ************************/
+
+	item W460Windshield2
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	9.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Windshield,
+        Icon	=	win_f_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460WindshieldWI,
+	Tooltip = Tooltip_item_W460Windshield2,
+    }
+
+	item W460SideWindow2
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Side Window,
+        Icon	=	win_side_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460WindowWI,
+	Tooltip = Tooltip_item_W460SideWindow2,
+    }
+
+    item W460RearWindshield2
+    {
+    DisplayCategory = VehicleMaintenance,
+        Weight  =   7.0,
+        Type    =   Normal,
+        DisplayName =   W460 Rear Windshield,
+        Icon    =   win_r_W460,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = W460WindshieldRearWI,
+    Tooltip = Tooltip_item_W460Windshield2,
+    }
+
+	/************************ Mudflaps ************************/
+
+    item W460Mudflaps1_Item
+    {
+	DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	W460 Mudflaps,
+        Icon	=	mudflaps_W460,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+	WorldStaticModel = W460MudflapsWI,
+	Tooltip = Tooltip_item_W460Mudflaps1,
+    }
+
+}

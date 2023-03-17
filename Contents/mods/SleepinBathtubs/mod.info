@@ -1,0 +1,5 @@
+name=Sleep In Bathtubs
+id=SIB3402
+description=Lets the player sleep in Bathtubs as if they were (bad quality) beds.
+poster=poster.png
+tiledef=sleepinbathtubs 3402

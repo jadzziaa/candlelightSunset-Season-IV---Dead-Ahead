@@ -1,0 +1,4 @@
+name=Fuel Side Indicator
+poster=poster.png
+id=fuelsideindicator
+description=Shows which side the fuel tank is in the vehicle dashboard

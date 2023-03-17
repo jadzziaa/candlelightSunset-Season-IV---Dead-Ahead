@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\clothes\Bob_KnifeSheathLeg</m_MaleModel>
+	<m_FemaleModel>Static\clothes\Kate_KnifeSheathLeg</m_FemaleModel>
+	<m_GUID>744e91e9-ead3-41c3-a7ee-9e216d98458c</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_R_Thigh</m_AttachBone>
+	<textureChoices>Clothes\Equipment\KnifeSheathTactical</textureChoices>
+</clothingItem>

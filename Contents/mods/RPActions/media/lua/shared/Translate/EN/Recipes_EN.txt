@@ -1,0 +1,28 @@
+Recipe_EN = {
+	Recipe_BobRPS_Cancel = "Cancel Animation",
+	Recipe_BobRPA_ArmsCrossed = "Arms Crossed",
+	Recipe_BobRPA_AtEase = "At Ease",
+	Recipe_BobRPA_HandOnHip = "Hand on Hip",
+	Recipe_BobRPA_HandsBehindBack = "Hands Behind Back",
+	Recipe_BobRPA_HandsInPockets = "Hands in Pockets",
+	Recipe_BobRPA_HoldArmFront = "Hold Arm Front",
+
+	Recipe_BobRPA_Injured = "Injured",
+
+	Recipe_BobRPA_LeanBack = "Lean Back",
+	Recipe_BobRPA_LeanForward = "Lean Forward",
+	Recipe_BobRPA_LeanSide = "Lean Side",
+
+	Recipe_BobRPA_Kneel = "Kneel",
+	Recipe_BobRPA_Squat = "Squat",
+
+	Recipe_BobRPA_SitChair1 = "Sit Chair 1",
+	Recipe_BobRPA_SitCrossedLegs = "Sit Crossed Legs",
+	Recipe_BobRPA_SitKneesUp = "Sit Knees Up",
+	Recipe_BobRPA_SitLounging = "Sit Lounging",
+	Recipe_BobRPA_SitSideways = "Sit Sideways",
+
+	Recipe_BobRPA_LieOnBack = "Lie on Back",
+	Recipe_BobRPA_LieOnFloor = "Lie on Floor",
+	Recipe_BobRPA_LieOnSide = "Lie on Side",
+}

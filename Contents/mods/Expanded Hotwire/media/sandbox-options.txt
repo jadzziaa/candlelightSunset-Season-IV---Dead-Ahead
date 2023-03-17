@@ -1,0 +1,224 @@
+VERSION = 1,
+
+option ExpandedHotwire.AllowHotwire
+{
+  type = boolean,
+  default = true,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_AllowHotwire
+}
+
+option ExpandedHotwire.AllowHotwireBurglar
+{
+  type = boolean,
+  default = true,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_AllowHotwireBurglar
+}
+
+option ExpandedHotwire.HotwireElectricity
+{
+  type = integer,
+  min = 0,
+  max = 10,
+  default = 1,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_HotwireElectricity
+}
+
+option ExpandedHotwire.HotwireMechanics
+{
+  type = integer,
+  min = 0,
+  max = 10,
+  default = 2,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_HotwireMechanics
+}
+
+option ExpandedHotwire.HotwireBaseDuration
+{
+  type = integer,
+  min = 0,
+  max = 2147483647,
+  default = 200,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_HotwireBaseDuration
+}
+
+option ExpandedHotwire.HotwireElectricityScalar
+{
+  type = integer,
+  min = -2147483647,
+  max = 2147483647,
+  default = 3,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_HotwireElectricityScalar
+}
+
+option ExpandedHotwire.HotwireMechanicsScalar
+{
+  type = integer,
+  min = -2147483647,
+  max = 2147483647,
+  default = 0,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_HotwireMechanicsScalar
+}
+
+option ExpandedHotwire.AllowUnHotwire
+{
+  type = boolean,
+  default = true,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_AllowUnHotwire
+}
+
+option ExpandedHotwire.UnHotwireElectricity
+{
+  type = integer,
+  min = 0,
+  max = 10,
+  default = 1,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_UnHotwireElectricity
+}
+
+option ExpandedHotwire.UnHotwireMechanics
+{
+  type = integer,
+  min = 0,
+  max = 10,
+  default = 2,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_UnHotwireMechanics
+}
+
+option ExpandedHotwire.UnHotwireBaseDuration
+{
+  type = integer,
+  min = 0,
+  max = 2147483647,
+  default = 200,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_UnHotwireBaseDuration
+}
+
+option ExpandedHotwire.UnHotwireElectricityScalar
+{
+  type = integer,
+  min = -2147483647,
+  max = 2147483647,
+  default = 3,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_UnHotwireElectricityScalar
+}
+
+option ExpandedHotwire.UnHotwireMechanicsScalar
+{
+  type = integer,
+  min = -2147483647,
+  max = 2147483647,
+  default = 0,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_UnHotwireMechanicsScalar
+}
+
+option ExpandedHotwire.AllowKeyCrafting
+{
+  type = boolean,
+  default = true,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_AllowKeyCrafting
+}
+
+option ExpandedHotwire.KeyCraftingElectricity
+{
+  type = integer,
+  min = 0,
+  max = 10,
+  default = 2,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_KeyCraftingElectricity
+}
+
+option ExpandedHotwire.KeyCraftingMechanics
+{
+  type = integer,
+  min = 0,
+  max = 10,
+  default = 4,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_KeyCraftingMechanics
+}
+
+option ExpandedHotwire.KeyCraftingMetalWelding
+{
+  type = integer,
+  min = 0,
+  max = 10,
+  default = 6,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_KeyCraftingMetalWelding
+}
+
+option ExpandedHotwire.KeyCraftingBaseDuration
+{
+  type = integer,
+  min = 0,
+  max = 2147483647,
+  default = 2000,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_KeyCraftingBaseDuration
+}
+
+option ExpandedHotwire.KeyCraftingElectricityScalar
+{
+  type = integer,
+  min = -2147483647,
+  max = 2147483647,
+  default = 1,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_KeyCraftingElectricityScalar
+}
+
+option ExpandedHotwire.KeyCraftingMechanicsScalar
+{
+  type = integer,
+  min = -2147483647,
+  max = 2147483647,
+  default = 2,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_KeyCraftingMechanicsScalar
+}
+
+option ExpandedHotwire.KeyCraftingMetalWeldingScalar
+{
+  type = integer,
+  min = -2147483647,
+  max = 2147483647,
+  default = 3,
+
+  page = Vehicle,
+  translation = ExpandedHotwire_KeyCraftingMetalWeldingScalar
+}

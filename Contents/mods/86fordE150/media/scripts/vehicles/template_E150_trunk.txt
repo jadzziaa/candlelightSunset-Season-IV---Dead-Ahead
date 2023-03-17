@@ -1,0 +1,43 @@
+module Base
+{
+	template vehicle E150TrunkSpace
+	{
+		part E150Trunk
+		{
+			category = bodywork,
+			area = TruckBed,
+			itemType = Base.E150dndTrunk,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = E150.ContainerAccess.Trunk,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part TruckBed
+		{
+			category = nodisplay,
+			area = TruckBed,
+			itemType = nil,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = E150.ContainerAccess.Trunk,
+			}
+			lua
+			{
+			}
+		}
+
+	}
+
+}
+

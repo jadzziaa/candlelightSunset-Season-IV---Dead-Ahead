@@ -1,0 +1,6 @@
+ContextMenu_EN = {
+    ContextMenu_Inject = "Inject",
+    ContextMenu_BurnTreatment = "Apply Cream to burn",
+    ContextMenu_PackHemostatic = "Apply Hemostatic powder",
+    ContextMenu_Tourniquet = "Apply Tourniquet",
+}

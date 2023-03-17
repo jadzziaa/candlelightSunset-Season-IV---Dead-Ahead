@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_headhuntermantledown</m_MaleModel>
+	<m_FemaleModel>skinned\f_headhuntermantledown</m_FemaleModel>
+	<m_GUID>c1645558-07d4-4f81-be7d-0c9bb4a0df06</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<textureChoices>clothes\headhuntermantle</textureChoices>
+	<m_Masks>1</m_Masks>
+	<m_Masks>2</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<m_Masks>11</m_Masks>
+</clothingItem>

@@ -1,0 +1,96 @@
+module Base
+{
+
+	model 28ss100fenderF
+	{
+		mesh = vehicles/Bikes_28ss100_Body|ss100_fender_front,
+		shader = vehicle,
+		scale = 0.1,
+	}
+
+	model 28ss100fenderR
+	{
+		mesh = vehicles/Bikes_28ss100_Body|ss100_fender_rear,
+		shader = vehicle,
+		scale = 0.1,
+	}
+	
+	template vehicle SS100Fenders
+	{
+		part FenderFront
+		{
+			
+			model fenderF
+			{
+				file = 28ss100fenderF,
+			}
+			
+			area = TireFrontLeft,
+			itemType = Base.SS100fenderFront,
+
+		}
+
+		part FenderRear
+		{
+
+			model fenderR
+			{
+				file = 28ss100fenderR,
+			}
+
+			area = TireRearLeft,
+			itemType = Base.SS100fenderRear,
+
+		}
+
+		part Fender*
+		{
+			category = bodywork,
+			mechanicRequireKey = true,
+
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = KI5.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Intermediate Mechanics,
+				test = KI5.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+	}
+}
+

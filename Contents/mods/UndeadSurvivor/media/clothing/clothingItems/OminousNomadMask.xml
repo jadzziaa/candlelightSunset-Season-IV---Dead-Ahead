@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_nomadmask</m_MaleModel>
+	<m_FemaleModel>skinned\f_nomadmask</m_FemaleModel>
+	<m_GUID>b1e10452-02c0-48cc-bd88-a0bf0e8460d8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>flase</m_AllowRandomTint>
+	<m_HatCategory>nobeard</m_HatCategory>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\OminousNomadMask</textureChoices>
+</clothingItem>

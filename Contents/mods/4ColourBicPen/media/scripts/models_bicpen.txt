@@ -1,0 +1,7 @@
+module BicPen {
+	model BicPen {
+		mesh = BicPen,
+		texture = BicPen,
+		scale = 0.0007,
+	}
+}

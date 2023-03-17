@@ -1,0 +1,32 @@
+ContextMenu_EN = {
+
+ContextMenu_RSSigns_Vanilla = "Vanilla",
+ContextMenu_RSSigns_Letters = "Letters and digits",
+
+	ContextMenu_RSSigns_Parts = "Parts",
+	ContextMenu_RSSigns_Metal = "Metal",
+	ContextMenu_RSSigns_Wood = "Wood",
+	ContextMenu_RSSigns_Clean = "Cleaning",
+	
+ContextMenu_RSSigns_Cars = "Cars",
+	ContextMenu_RSSigns_Fuel = "Fuel",
+	ContextMenu_RSSigns_RegularCar = "Regular",
+	ContextMenu_RSSigns_Truck = "Heavy-duty",
+	ContextMenu_RSSigns_SportsCar = "Sports",
+	
+	ContextMenu_RSSigns_FoodFresh = "Perishable",
+	ContextMenu_RSSigns_FoodCanned = "Non-perishable",
+	ContextMenu_RSSigns_IceCream = "Ice Cream",
+	ContextMenu_RSSigns_Fish = "Fish",
+	ContextMenu_RSSigns_Meat = "Meat",
+	ContextMenu_RSSigns_Drink = "Drinks",
+	
+	ContextMenu_RSSigns_Bash = "Bash",
+	ContextMenu_RSSigns_Cut = "Cut",
+	ContextMenu_RSSigns_Ranged = "Ranged",
+
+ContextMenu_RSSigns_OtherItems = "Other Items",
+	ContextMenu_RSSigns_Books = "Books",
+	ContextMenu_RSSigns_VHS = "VHS",
+	
+}

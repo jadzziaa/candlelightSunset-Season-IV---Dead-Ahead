@@ -1,0 +1,18 @@
+ Sandbox_PTBR = {
+
+	Sandbox_UndeadSurvivor.StalkerChance = "Porcentagem de Spawn de Stalker",
+	Sandbox_UndeadSurvivor.StalkerChance_tooltip = "É percentual, mas compartilha chances com outras roupas (exemplo: com 100, você nunca vai ter somente zombies com essa roupa)",
+		
+	Sandbox_UndeadSurvivor.NomadChance = "Porcentagem de Spawn de Nomad",
+	Sandbox_UndeadSurvivor.NomadChance_tooltip = "É percentual, mas compartilha chances com outras roupas (exemplo: com 100, você nunca vai ter somente zombies com essa roupa)",
+		
+	Sandbox_UndeadSurvivor.PrepperChance = "Porcentagem de Spawn de Prepper",
+	Sandbox_UndeadSurvivor.PrepperChance_tooltip = "É percentual, mas compartilha chances com outras roupas (exemplo: com 100, você nunca vai ter somente zombies com essa roupa)",
+	
+	Sandbox_UndeadSurvivor = "Undead Survivor"
+	
+/*UPTADE 06-07-22 */
+	Sandbox_UndeadSurvivor.HeadhunterChance = "Porcentagem de Spawn de Headhunter",
+	Sandbox_UndeadSurvivor.HeadhunterChance_tooltip = "É percentual, mas compartilha chances com outras roupas (exemplo: com 100, você nunca vai ter somente zombies com essa roupa)",
+	
+}

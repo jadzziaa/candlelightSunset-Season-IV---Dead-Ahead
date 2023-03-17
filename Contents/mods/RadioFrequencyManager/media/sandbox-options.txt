@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option RadioFrequencyManager.EnablePredefinedChannels
+{
+	type = boolean, default = false,
+	page = RadioFrequencyManager, translation = RadioFrequencyManager_EnablePredefinedChannels,
+}
+
+option RadioFrequencyManager.PredefinedChannels
+{
+	type = string, default = 89.4;Hitz FM|93.2;LBMW - Kentucky Radio|98;NNR Radio|101.2;KnoxTalk Radio,
+	page = RadioFrequencyManager, translation = RadioFrequencyManager_PredefinedChannels,
+}
+
+option RadioFrequencyManager.DefaultColor
+{
+	type = integer, min = 1, max = 4, default = 1,
+	page = RadioFrequencyManager, translation = RadioFrequencyManager_DefaultColor,
+}

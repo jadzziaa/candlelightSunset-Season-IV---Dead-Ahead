@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>wave0_reverso</m_Name>
+	<m_AnimName>WAVE_Reverso</m_AnimName>
+	<m_SpeedScale>2</m_SpeedScale>
+	<m_BlendTime>0.0</m_BlendTime>
+	<m_Conditions>
+		<m_Name>ATVehicleType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>WAVE0</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>ATVehicleStatus</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>backward</m_StringValue>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>wave0_idle</m_Target>
+		<m_AnimName>WAVE_Reverso_to_Idle</m_AnimName>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_speedScale>1</m_speedScale>
+	</m_Transitions>
+</animNode>

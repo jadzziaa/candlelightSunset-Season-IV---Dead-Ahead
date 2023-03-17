@@ -1,0 +1,12 @@
+ItemName_EN = {
+
+	ItemName_TJM.TJMJournalRed		= "Red Leather-Bound Journal",
+	ItemName_TJM.TJMJournalOrange	= "Orange Leather-Bound Journal",
+	ItemName_TJM.TJMJournalYellow	= "Yellow Leather-Bound Journal",
+	ItemName_TJM.TJMJournalGreen	= "Green Leather-Bound Journal",
+	ItemName_TJM.TJMJournalBlue		= "Blue Leather-Bound Journal",
+	ItemName_TJM.TJMJournalPurple	= "Purple Leather-Bound Journal",
+	ItemName_TJM.TJMJournalBrown	= "Brown Leather-Bound Journal",
+	ItemName_TJM.TJMJournalBlack	= "Black Leather-Bound Journal",
+	ItemName_TJM.TJMJournalWhite	= "White Leather-Bound Journal",
+}

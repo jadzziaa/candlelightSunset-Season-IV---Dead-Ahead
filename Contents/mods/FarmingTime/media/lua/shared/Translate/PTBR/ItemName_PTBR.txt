@@ -1,0 +1,7 @@
+ItemName_PTBR = {
+    ItemName_filcher.TeaExtract = "Extrato de Chá",
+    ItemName_filcher.TeaLeaves = "Folhas de Chá",
+
+    ItemName_filcher.TeaSeed = "Sementes de Chá",
+    ItemName_filcher.TeaBagSeed = "Pacote de Sementes de Chá",
+}

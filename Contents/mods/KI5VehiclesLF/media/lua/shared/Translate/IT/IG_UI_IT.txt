@@ -1,0 +1,7 @@
+IG_UI_IT = {
+	IGUI_VehicleName92amgeneralM998 = "GE Defense M380 SLMMR",
+	IGUI_VehicleName92amgeneralM998Burnt = "GE Defense M380 SLMMR bruciata",
+	IGUI_VehicleNameTrailerM101A3cargo = "Rimorchio da carico M99A1",
+	IGUI_CraftCategory_M998 = "M380",
+	IGUI_CraftCategory_M101A3 = "M99A1",
+}

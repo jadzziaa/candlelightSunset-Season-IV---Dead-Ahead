@@ -1,0 +1,6 @@
+ContextMenu_ES = {
+	ContextMenu_Crank_LowStam = "Demasiado agotado para operar",
+	ContextMenu_Crank_NeedBattery = "Inserte una batería para ser cargada",
+	ContextMenu_Crank_FullBattery = "No se puede cargar la batería cuando está completamente cargada",
+	ContextMenu_Crank_ChargeWith = "Cargar batería usando:",
+}

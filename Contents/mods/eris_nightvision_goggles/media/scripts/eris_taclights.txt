@@ -1,0 +1,36 @@
+module eris_taclights
+{
+	imports
+	{
+		Base
+	}
+
+	item taclight
+	{
+		Type = WeaponPart,
+		DisplayName = Tactical Flashlight,
+		Icon = taclight,
+		Weight = 0.5,
+		WeightModifier = 0.3,
+		MaxRangeModifier = 1,
+		MinRangeModifier = 1,
+		MountOn = HuntingRifle; VarmintRifle; Shotgun; Pistol,
+		PartType = Canon,
+		MetalValue = 22,
+	}
+
+	item taclight_small
+	{
+		Type = WeaponPart,
+		DisplayName = Small Flashlight,
+		Icon = taclight_small,
+		Weight = 0.1,
+		WeightModifier = 0.1,
+		MaxRangeModifier = 1,
+		MinRangeModifier = 1,
+		MountOn = Pistol,
+		PartType = Canon,
+		MetalValue = 22,
+	}
+
+}

@@ -1,0 +1,9 @@
+Farming_RU = {
+  -- vegetables name (type of seed)
+Farming_Beets = "Свёкла",
+Farming_Cauliflowers = "Цветная капуста",
+Farming_Corn = "Кукуруза",
+Farming_Lemongrass = "Лемонграсс",
+Farming_Lettuce = "‘алат-латук",
+Farming_Wheat = "Пшеница",
+}

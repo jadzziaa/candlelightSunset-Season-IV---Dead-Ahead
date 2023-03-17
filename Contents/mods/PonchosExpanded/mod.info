@@ -1,0 +1,5 @@
+name=Military Ponchos Expanded
+poster=preview.png
+id=MilitaryPonchosExpanded
+description=Adds new colors of military poncho, lets colors besides green spawn, and gets rid of crafting/painting recipes for balance/realism.
+require=MilPoncho

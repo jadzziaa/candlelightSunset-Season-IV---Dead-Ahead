@@ -1,0 +1,434 @@
+module Base
+{
+    model Vehicles_SUVSmashedRear
+	{
+		mesh = vehicles/Vehicles_SUVCRASH_Rear,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle SUVSmashedRear
+	{
+		template! = SUV,
+
+		model
+		{
+			file = Vehicles_SUVSmashedRear,
+			scale = 1.7600,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_suv_gold,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_black,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_green,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_red,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkgreen,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_tan,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_cran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkred,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_white2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_black2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkgreen2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkblue2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_cran2,
+		}
+	}
+
+    model Vehicles_SUVSmashedRight
+	{
+		mesh = vehicles/Vehicles_SUVCRASH_Right,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle SUVSmashedRight
+	{
+		template! = SUV,
+
+		model
+		{
+			file = Vehicles_SUVSmashedRight,
+			scale = 1.7600,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_suv_gold,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_black,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_green,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_red,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkgreen,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_tan,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_cran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkred,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_white2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_black2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkgreen2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkblue2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_cran2,
+		}
+	}
+
+	model Vehicles_SUVSmashedLeft
+	{
+		mesh = vehicles/Vehicles_SUVCRASH_Left,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle SUVSmashedLeft
+	{
+		template! = SUV,
+
+		model
+		{
+			file = Vehicles_SUVSmashedLeft,
+			scale = 1.7600,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_suv_gold,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_black,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_green,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_red,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkgreen,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_tan,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_cran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkred,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_white2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_black2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkgreen2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkblue2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_cran2,
+		}
+	}
+
+	model Vehicles_SUVSmashedFront
+	{
+		mesh = vehicles/Vehicles_SUVCRASH_Front,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.0087,
+	}
+	vehicle SUVSmashedFront
+	{
+		template! = SUV,
+
+		model
+		{
+			file = Vehicles_SUVSmashedFront,
+			scale = 1.7600,
+			offset = 0.0000 0.2692 0.0000,
+		}
+		skin
+		{
+			texture = Vehicles/vehicle_suv_gold,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_silver,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_black,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_green,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_red,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_white,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_gray,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkgreen,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_blue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_tan,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkblue,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_cran,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkred,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_white2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_black2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkgreen2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_dkblue2,
+		}
+
+		skin
+		{
+			texture = Vehicles/vehicle_suv_cran2,
+		}
+	}
+}

@@ -1,0 +1,6 @@
+Farming_TH = {
+    Farming_NorthernLights = "กัญชา "สายพันธุ์ Northern Lights"",
+    Farming_PurpleHaze = "กัญชา "สายพันธุ์ PurpleHaze"",
+    Farming_SourDiesel = "กัญชา "สายพันธุ์ Sour Diesel"",
+    Farming_Tobacco = "ยาเส้น",
+}

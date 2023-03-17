@@ -1,0 +1,13 @@
+IGUI_EN = {
+    IGUI_Beard_Maxwell218 = "Maxwell218",
+    IGUI_Hair_M_MegaMullet = "Mega Mullet",
+	IGUI_Hair_M_Aiteron = "Aiteron",
+	IGUI_Hair_M_Soulfilcher = "Soulfilcher",
+	IGUI_Hair_M_ObiWanCannoli = "Obi Wan Cannoli",
+	IGUI_Hair_F_Grunge01 = "Grunge01",
+	IGUI_Hair_F_PonytailLong = "Ponytail Long",
+	IGUI_Hair_F_Merigold = "Merigold",
+	IGUI_Hair_F_ThrottleKitty = "ThrottleKitty",
+	IGUI_Hair_F_PonytailMedium = "Ponytail Medium",
+	IGUI_Hair_F_BRITA = "BRITA",
+}

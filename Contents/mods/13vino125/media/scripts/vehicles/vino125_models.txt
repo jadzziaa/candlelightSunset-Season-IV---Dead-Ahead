@@ -1,0 +1,38 @@
+module Base
+{
+	model VN125_tireWI
+	{
+		mesh    = vehicles/Bikes_vino125_Objects|vino125_tireWI,
+		texture = Vehicles/Objects_vino125_Shell_CyanWhite,
+		scale   = 0.06,
+	}
+
+	model VN125_storageWI
+	{
+		mesh    = vehicles/Bikes_vino125_Objects|vino125_bags_topWI,
+		texture = Vehicles/Objects_vino125_Shell_CyanWhite,
+		scale   = 0.06,
+	}
+
+	model VN125_sidestorageWI
+	{
+		mesh    = vehicles/Bikes_vino125_Objects|vino125_bags_sideWI,
+		texture = Vehicles/Objects_vino125_Shell_CyanWhite,
+		scale   = 0.06,
+	}
+
+	model VN125_mufflerWI
+	{
+		mesh    = vehicles/Bikes_vino125_Objects|vino125_mufflerWI,
+		texture = Vehicles/Objects_vino125_Shell_CyanWhite,
+		scale   = 0.06,
+	}
+
+	model VN125_seatWI
+	{
+		mesh    = vehicles/Bikes_vino125_Objects|vino125_seatWI,
+		texture = Vehicles/Objects_vino125_Shell_CyanWhite,
+		scale   = 0.06,
+	}
+
+}

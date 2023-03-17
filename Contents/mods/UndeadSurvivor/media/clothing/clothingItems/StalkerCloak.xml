@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_stalkercloakUP</m_MaleModel>
+	<m_FemaleModel>skinned\f_stalkercloakUP</m_FemaleModel>
+	<m_GUID>f73097f3-030b-4d36-a9c9-683c636402be</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_HatCategory>Group03</m_HatCategory>
+	<textureChoices>clothes\StalkerCloak</textureChoices>
+</clothingItem>

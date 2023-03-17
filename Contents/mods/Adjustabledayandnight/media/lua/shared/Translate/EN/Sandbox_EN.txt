@@ -1,0 +1,7 @@
+Sandbox_EN = {
+
+  Sandbox_DayandNight_Daypoint = "Daytime start(h)",
+  Sandbox_DayandNight_Nightpoint = "Nighttime start(h)",
+  Sandbox_DayandNight_Day = "Day length(minute)",
+  Sandbox_DayandNight_Night = "Night length(minute)",
+}

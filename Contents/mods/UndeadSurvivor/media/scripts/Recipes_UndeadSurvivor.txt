@@ -1,0 +1,206 @@
+module Base
+{
+
+    fixing Fix Amazona Spear
+    {
+       Require : AmazonaSpear,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+
+    fixing Fix Stalker Knife
+    {
+       Require : StalkerKnife,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	
+    fixing Fix Prepper Knife Swing
+    {
+       Require : PrepperKnifeSwing,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+	
+    fixing Fix Prepper Knife Stab
+    {
+       Require : PrepperKnifeStab,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+
+	fixing Fix HeadhunterRifle
+    {
+		Require : HeadhunterRifle,
+
+		Fixer : HeadhunterRifle; Aiming=7,
+		Fixer : DeadlyHeadhunterRifle; Aiming=7,
+    }
+
+	fixing Fix DeadlyHeadhunterRifle
+    {
+		Require : DeadlyHeadhunterRifle,
+
+		Fixer : DeadlyHeadhunterRifle; Aiming=7,
+		Fixer : HeadhunterRifle; Aiming=7,
+    }
+
+    recipe Stab Prepper Knife
+    {
+        PrepperKnifeKnock,
+
+        Result:PrepperKnifeStab,
+        OnCreate:Recipe.OnCreate.PrepperKnifeStab,
+        Time:2.0,
+    }
+	
+    recipe Swing Prepper Knife
+    {
+        PrepperKnifeStab,
+
+        Result:PrepperKnifeSwing,
+        OnCreate:Recipe.OnCreate.PrepperKnifeSwing,
+        Time:2.0,
+    }
+	
+	recipe Knock Prepper Knife
+    {
+        PrepperKnifeSwing,
+
+        Result:PrepperKnifeKnock,
+        OnCreate:Recipe.OnCreate.PrepperKnifeKnock,
+        Time:2.0,
+    }
+	
+	recipe Make Prepper Vest with bags
+    {
+        PrepperVest,
+		PrepperBags,
+		OnCreate:AddBags,
+        Result:PrepperVestPacked,
+        Sound:PutItemInBag,
+        Time:50.0,
+		AnimNode:RipSheets,
+    }
+	
+	recipe Remove Bags from Prepper Vest
+    {
+        PrepperVestPacked,
+        Result:PrepperBags,
+		OnCreate:RemoveBags,
+        Sound:PutItemInBag,
+        Time:50.0,
+		AnimNode:RipSheets,
+    }
+	
+	recipe Remove Battery from Prepper Flashlight
+   {
+     keep PrepperFlashlight,
+
+     Result:Battery,
+     Time:30,
+     OnTest:TorchBatteryRemoval_TestIsValid,
+     OnCreate:UndeadSurvivorTorchBatteryRemoval_OnCreate,
+      Prop2:PrepperFlashlight,
+   }
+
+  	 recipe Insert Battery into Prepper Flashlight
+   {
+     destroy PrepperFlashlight,
+     destroy Battery,
+
+     Result:PrepperFlashlight,
+     Time:30,
+     OnTest:UndeadSurvivorTorchBatteryInsert_TestIsValid,
+     OnCreate:TorchBatteryInsert_OnCreate,
+      Prop2:PrepperFlashlight,
+   }
+   
+   	recipe Dismantle Prepper Flashlight
+   {
+      destroy PrepperFlashlight,
+      keep Screwdriver,
+
+      Result:ElectronicsScrap,
+      Time:30.0,
+      OnTest:TorchBatteryInsert_TestIsValid,
+      OnGiveXP:DismantleElectronics_OnGiveXP,
+      OnCreate:TorchDismantle_OnCreate,
+      Category:Electrical,
+      AnimNode:Disassemble,
+      Prop1:Screwdriver,
+      Prop2:PrepperFlashlight,
+   }
+
+
+    recipe Trim Amazona Dress
+    {
+        keep [Recipe.GetItemTypes.SharpKnife],
+        AmazonaDress,
+
+        Result:AmazonaDressTrimmed01,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+    }
+
+    recipe Trim Amazona Dress
+    {
+        keep [Recipe.GetItemTypes.SharpKnife],
+        AmazonaDressTrimmed01,
+
+        Result:AmazonaDressTrimmed02,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+    }
+
+    recipe Trim Amazona Dress
+    {
+        keep [Recipe.GetItemTypes.SharpKnife],
+        AmazonaDressTrimmed02,
+
+        Result:AmazonaDressTrimmed03,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+    }
+
+    recipe Trim Amazona Dress
+    {
+        keep [Recipe.GetItemTypes.SharpKnife],
+        AmazonaDressTrimmed03,
+
+        Result:AmazonaDressTrimmed04,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+    }
+
+    recipe Trim Amazona Dress
+    {
+        keep [Recipe.GetItemTypes.SharpKnife],
+        AmazonaDressTrimmed04,
+
+        Result:AmazonaDressTrimmed05,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+    }
+
+    recipe Trim Amazona Dress
+    {
+        keep [Recipe.GetItemTypes.SharpKnife],
+        AmazonaDressTrimmed05,
+
+        Result:AmazonaDressTrimmed06,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+    }
+	
+}

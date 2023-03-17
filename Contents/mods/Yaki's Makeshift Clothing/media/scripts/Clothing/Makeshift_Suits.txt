@@ -1,0 +1,195 @@
+module Base
+{
+    item Dress_Medieval
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Medieval Dress,
+        ClothingItem = Dress_Medieval,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = MedievalDress,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+    item Dress_LacedRed
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Laced Dress,
+        ClothingItem = Dress_LacedRed,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        IconsForTexture = LacedDressRed;LacedDressGreen;LacedDressBlue;LacedDressBrown;LacedDressGrey;LacedDressWhite,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+    item Dress_Corset
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Corset Dress,
+        ClothingItem = Dress_Corset,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = CorsetDress,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.4,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+    item Dress_LongBelt
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Belt Dress,
+        ClothingItem = Dress_LongBelt,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        IconsForTexture = LongBeltRed;LongBeltGreen;LongBeltBlue;LongBeltBrown;LongBeltGrey;LongBeltWhite,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+    item Dress_Peasant
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Peasant Dress,
+        ClothingItem = Dress_Peasant,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        IconsForTexture = PeasantRed;PeasantGreen;PeasantBlue;PeasantBrown;PeasantGrey;PeasantWhite,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.4,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+    item Dress_PeasantShirt
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Peasant Skirt,
+        ClothingItem = Dress_PeasantShirt,
+        BodyLocation = Dress,
+        BloodLocation = Trousers,
+        IconsForTexture = PeasantShirtRed;PeasantShirtGreen;PeasantShirtBlue;PeasantShirtBrown;PeasantShirtGrey;PeasantShirtWhite,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.4,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Skirt_Long_Ground,
+    }
+    item Dress_PotatoSack
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Potato Sack Dress,
+        ClothingItem = Dress_PotatoSack,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = PotatoSackDress,
+        RunSpeedModifier = 0.50,
+        Insulation = 0.4,
+        WindResistance = 0.5,
+        WorldStaticModel = JacketLong_Ground,
+    }
+    item Dress_Roman
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Roman Dress,
+        ClothingItem = Dress_Roman,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        IconsForTexture = RomanDressRed;RomanDressGreen;RomanDressBlue;RomanDressBrown;RomanDressGrey;RomanDressWhite,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.4,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+    item Dress_Toga
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Dress with Toga,
+        ClothingItem = Dress_Toga,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        IconsForTexture = TogaDressRed;TogaDressGreen;TogaDressBlue;TogaDressBrown;TogaDressGrey;TogaDressWhite,
+        RunSpeedModifier = 0.90,
+        Insulation = 0.4,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+	item Jumper_EmperorTunic
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Emperor Tunic,
+        ClothingItem = Jumper_EmperorTunic,
+        BodyLocation = Jacket,
+        IconsForTexture = EmperorTunicRed;EmperorTunicGreen;EmperorTunicBlue;EmperorTunicBrown;EmperorTunicGrey,
+        BloodLocation = LongJacket,
+       	RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,
+    }
+	item Jumper_RomanTunicNoScarf
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Roman Tunic,
+        ClothingItem = Jumper_RomanTunicNoScarf,
+        BodyLocation = Jacket,
+        Icon = RomanTunicNoScarf,
+        BloodLocation = LongJacket,
+       	RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,
+    }
+	item Shoes_LeatherSandals
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Leather Sandals,
+		ClothingItem = Shoes_LeatherSandals,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = LeatherSandals,
+		StompPower = 2.1,
+		ConditionLowerChanceOneIn = 12,
+        ConditionMax = 24,
+        RunSpeedModifier = 0.95,
+        RemoveOnBroken = false,
+        ScratchDefense = 20,
+        BiteDefense = 4,
+        Insulation = 0.25,
+        WindResistance = 0.25,
+        WaterResistance = 0.25,
+        WorldStaticModel = Shoes_Ground,
+	}
+
+}

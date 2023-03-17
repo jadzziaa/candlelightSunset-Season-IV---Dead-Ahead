@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\m_amazonaboots</m_MaleModel>
+	<m_FemaleModel>skinned\f_amazonaboots</m_FemaleModel>
+	<m_GUID>315e8386-f398-41b2-ac11-8df7f6d50cc8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>clothes\AmazonaBoots</textureChoices>
+</clothingItem>

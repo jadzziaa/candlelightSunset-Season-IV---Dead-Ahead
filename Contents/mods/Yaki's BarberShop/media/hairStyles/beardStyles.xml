@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- define trimChoices so you will be able to trim your beard to those types (none is always available  -->
+<!-- note: all level udner your current beard will be available to trim (no need to define BeardOnly for "Full" or "Long" for example -->
+<!-- Level will determine the next step for your beard to grow -->
+<!-- when growing we take all the next level of beardStyles and check for the one with the growReference, setup only one! -->
+<beardStyles>
+	<style>
+		<name>Sparrow's</name>
+		<model>skinned/beards/Sparrow's</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+	</style>
+	<style>
+		<name>VanDyke</name>
+		<model>skinned/beards/VanDyke</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+	</style>
+	<style>
+		<name>Imperial</name>
+		<model>skinned/beards/Imperial</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+	</style>
+	<style>
+		<name>Verdi</name>
+		<model>skinned/beards/Verdi</model>
+		<texture>F_Hair_White</texture>
+		<level>2</level>
+	</style>
+	<style>
+		<name>FrenchFork</name>
+		<model>skinned/beards/FrenchFork</model>
+		<texture>F_Hair_White</texture>
+		<level>2</level>
+	</style>
+	<style>
+		<name>Ragnar</name>
+		<model>skinned/beards/Ragnar</model>
+		<texture>F_Hair_White</texture>
+		<level>2</level>
+	</style>
+	<style>
+		<name>DuckTail</name>
+		<model>skinned/beards/DuckTail</model>
+		<texture>F_Hair_White</texture>
+		<level>2</level>
+	</style>
+</beardStyles>

@@ -1,0 +1,93 @@
+module Base
+{
+    item HolsterSimple
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Holster,
+        Icon	=	GunHolster,
+        BodyLocation = BeltExtra,
+        ClothingItem = Holster_visible,
+        AttachmentsProvided = HolsterRight,
+        ClothingItemExtra = HolsterSimple1;HolsterSimple2,
+        ClothingItemExtraOption = Holster_visibleStyle1;Holster_visibleStyle2,
+        clothingExtraSubmenu = Holster_visibleStyle,
+        WorldStaticModel = Holster_Ground,
+    }
+    item HolsterDouble
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Double Holster,
+        Icon	=	GunHolsterDouble,
+        BodyLocation = BeltExtra,
+        ClothingItem = HolsterDouble_visible,
+        AttachmentsProvided = HolsterLeft;HolsterRight,
+        ClothingItemExtra = HolsterDouble1;HolsterDouble2,
+        ClothingItemExtraOption = HolsterDouble_visibleStyle1;HolsterDouble_visibleStyle2,
+        clothingExtraSubmenu = HolsterDouble_visibleStyle,
+        WorldStaticModel = Holster_Ground,
+    }
+    item HolsterSimple1
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Holster,
+        Icon	=	GunHolster,
+        BodyLocation = BeltExtra,
+        ClothingItem = HolsterSimple1,
+        AttachmentsProvided = HolsterRight,
+        ClothingItemExtra = HolsterSimple;HolsterSimple2,
+        ClothingItemExtraOption = Holster_visibleStyle;Holster_visibleStyle2,
+        clothingExtraSubmenu = Holster_visibleStyle1,
+        WorldStaticModel = Holster_Ground,
+    }
+    item HolsterSimple2
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Holster,
+        Icon	=	GunHolster,
+        BodyLocation = BeltExtra,
+        ClothingItem = HolsterSimple2,
+        AttachmentsProvided = HolsterRight,
+        ClothingItemExtra = HolsterSimple;HolsterSimple1,
+        ClothingItemExtraOption = Holster_visibleStyle;Holster_visibleStyle1,
+        clothingExtraSubmenu = Holster_visibleStyle2,
+        WorldStaticModel = Holster_Ground,
+    }
+    item HolsterDouble1
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Double Holster,
+        Icon	=	GunHolsterDouble,
+        BodyLocation = BeltExtra,
+        ClothingItem = HolsterDouble1,
+        AttachmentsProvided = HolsterLeft;HolsterRight,
+        ClothingItemExtra = HolsterDouble;HolsterDouble2,
+        ClothingItemExtraOption = HolsterDouble_visibleStyle;HolsterDouble_visibleStyle2,
+        clothingExtraSubmenu = HolsterDouble_visibleStyle1,
+        WorldStaticModel = Holster_Ground,
+    }
+    item HolsterDouble2
+    {
+        DisplayCategory = Accessory,
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Double Holster,
+        Icon	=	GunHolsterDouble,
+        BodyLocation = BeltExtra,
+        ClothingItem = HolsterDouble2,
+        AttachmentsProvided = HolsterLeft;HolsterRight,
+        ClothingItemExtra = HolsterDouble;HolsterDouble1,
+        ClothingItemExtraOption = HolsterDouble_visibleStyle;HolsterDouble_visibleStyle1,
+        clothingExtraSubmenu = HolsterDouble_visibleStyle2,
+        WorldStaticModel = Holster_Ground,
+    }
+}

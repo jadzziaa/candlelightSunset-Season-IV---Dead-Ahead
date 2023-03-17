@@ -1,0 +1,13 @@
+IG_UI_FR = {
+    IGUI_VehicleNameBell206Black = "H�licopt�re Myst�rieux",
+    IGUI_VehicleNameBell206BlackFuselage = "H�licopt�re Myst�rieux (Tail)",
+    IGUI_VehicleNameBell206LBMW = "H�licopt�re des Infos",
+    IGUI_VehicleNameBell206LBMWFuselage = "H�licopt�re des Infos (Fuselage)",
+    IGUI_VehicleNameBell206LBMWTail = "H�licopt�re des Infos (Queue)",
+    IGUI_VehicleNameBell206Police = "H�licopt�re de Police",
+    IGUI_VehicleNameBell206PoliceFuselage = "H�licopt�re de Police (Fuselage)",
+    IGUI_VehicleNameBell206PoliceTail = "H�licopt�re de Police (Queue)",
+    IGUI_VehicleNameBell206Survivalist = "H�licopt�re de Civiles",
+    IGUI_VehicleNameFEMASupplyDrop = "Ravitaillement d'urgence",
+    IGUI_VehicleNameSurvivorSupplyDrop = "Ravitaillement des Samaritains",
+}

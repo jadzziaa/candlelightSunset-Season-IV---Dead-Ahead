@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\MediumALICE_RHand</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\MediumALICE_RHand</m_FemaleModel>
+	<m_GUID>d39a50d9-c3c4-48a4-b840-fb004823e731</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\WoodlandALICE</textureChoices>
+</clothingItem>

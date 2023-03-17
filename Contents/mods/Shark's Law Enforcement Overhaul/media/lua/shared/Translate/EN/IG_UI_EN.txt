@@ -1,0 +1,6 @@
+IGUI_EN = {
+
+    IGUI_ItemCat_Helmet = "Helmet",
+	IGUI_ItemCat_GasMask = "Gas Mask",
+
+}

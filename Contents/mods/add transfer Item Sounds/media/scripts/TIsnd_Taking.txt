@@ -1,0 +1,79 @@
+module Base
+{
+
+
+	sound TIsnd_Taking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_1.ogg,
+			volume = 0.1,
+		}
+	}
+
+	sound TIsnd_Taking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_2.ogg,
+			volume = 0.1,
+		}
+	}
+
+	sound TIsnd_Taking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_9.ogg,
+			volume = 0.1,
+		}
+	}
+	sound TIsnd_Taking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_10.ogg,
+			volume = 0.1,
+		}
+	}
+	sound TIsnd_Taking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_11.ogg,
+			volume = 0.1,
+		}
+	}
+	sound TIsnd_Taking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_17.ogg,
+			volume = 0.1,
+		}
+	}
+	sound TIsnd_Taking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_18.ogg,
+			volume = 0.1,
+		}
+	}
+	sound TIsnd_Taking	
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/TIsnd_Taking_19.ogg,
+			volume = 0.1,
+		}
+	}
+}

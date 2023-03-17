@@ -1,0 +1,505 @@
+module Base
+{
+	imports    
+    {
+		Base
+	}
+    item MagAA12
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	1.2,
+        Type	         =	Normal,
+        DisplayName	 =      AA-12 Drum,
+        Icon	         =	MagAA12,
+        MaxAmmo          = 32,
+        AmmoType         = Base.ShotgunShells,
+        GunType          = AA12,
+        WorldStaticModel = MagAA12,
+	}
+    item 357Magnum
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.045,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	.357 Ammo,
+        Icon	=	357Bullet,
+        MetalValue = 1,
+        WorldStaticModel = 357Magnum,
+    }
+
+    item 357MagnumBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	1.9,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of .357 Bullets,
+        Icon	=	357Box,
+        MetalValue = 40,
+        WorldStaticModel = 357MagnumBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+     recipe Open Box of .357
+	{
+		357MagnumBox,
+		Result:357Magnum=30,
+		Category:Firearm,		
+		Sound:PutItemInBag,
+		Time:2.0,
+	}
+	recipe Place .357 in box
+	{
+	      357Magnum=30,
+	      Result:357MagnumBox,
+		Category:Firearm,
+        	Sound:PutItemInBag,
+	      Time:2.0,
+	}
+     item 9mmClip
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.19,
+        Type	         =	Normal,
+        DisplayName	 =      Beretta M9 Mag,
+        Icon	         =	MAG_Default,
+        MaxAmmo          = 15,
+        AmmoType         = Base.Bullets9mm,
+        GunType          = Pistol,
+        WorldStaticModel = MagBerettaM9,
+	}
+     item MagGlock17
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.19,
+        Type	         =	Normal,
+        DisplayName	 =      G17 Mag,
+        Icon	         =	MAG_Default,
+        MaxAmmo          = 17,
+        AmmoType         = Base.Bullets9mm,
+        GunType          = Glock17,
+        WorldStaticModel = MagGlock17,
+	}
+     item 45Clip
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.19,
+        Type	         =	Normal,
+        DisplayName	 =      Pistol 1911 Mag,
+        Icon	         =	MAG_Default,
+        MaxAmmo          = 7,
+        AmmoType         = Base.Bullets45,
+        GunType          = Pistol2,
+        WorldStaticModel = MagColt1911,
+	}
+     item MagP226
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.2,
+        Type	         =	Normal,
+        DisplayName	 =      Pistol P226 Mag,
+        Icon	         =	MAG_Default,
+        MaxAmmo          = 15,
+        AmmoType         = Base.Bullets9mm,
+        GunType          = P226,
+        WorldStaticModel = MagP226,
+	}
+     item MagM1A
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.3,
+        Type	         =	Normal,
+        DisplayName	 =      M1A Mag,
+        Icon	         =	MagM1A,
+        MaxAmmo          = 10,
+        AmmoType         = Base.308Bullets,
+        GunType          = M1A,
+        WorldStaticModel = MagM1A,
+	}
+     item MagM60
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.8,
+        Type	         =	Normal,
+        DisplayName	 =      M60 Mag,
+        Icon	         =	MagM60,
+        MaxAmmo          = 100,
+        AmmoType         = 762NATO,
+        GunType          = M60,
+        WorldStaticModel = MagM60,
+	}
+    item 762NATO
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.025,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	7.62 NATO Bullet,
+        Icon	=	762NATO,
+        MetalValue = 1,
+        WorldStaticModel = 762NATO,
+    }
+
+    item 762NATOBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	1.5,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of 7.62 NATO bullets,
+        Icon	=	762NATOBox,
+        MetalValue = 40,
+        WorldStaticModel = 762NATOBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+     recipe Open Box of 7.62 NATO
+	{
+		762NATOBox,
+		Result:762NATO=30,
+		Category:Firearm,		
+		Sound:PutItemInBag,
+		Time:2.0,
+	}
+	recipe Place 7.62 NATO in box
+	{
+	      762NATO=30,
+	      Result:762NATOBox,
+		Category:Firearm,
+        	Sound:PutItemInBag,
+	      Time:2.0,
+	}
+     item MagM249
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.6,
+        Type	         =	Normal,
+        DisplayName	 =      M249 Mag,
+        Icon	         =	MagM249,
+        MaxAmmo          = 200,
+        AmmoType         = Base.556Bullets,
+        GunType          = M249,
+        WorldStaticModel = MagM249,
+	}
+     item MagAK74M
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.25,
+        Type	         =	Normal,
+        DisplayName	 =      AK-74M Mag,
+        Icon	         =	MagAK74M,
+        MaxAmmo          = 30,
+        AmmoType         = Base.CJ545,
+        GunType          = AK74M; AK74; CJ_AK74_Folded,
+        WorldStaticModel = MagAK74M,
+	}
+    item CJ545
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.003,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	5.45 Ammo,
+        Icon	=	CJ545,
+        MetalValue = 1,
+        WorldStaticModel = CJ545,
+    }
+
+    item CJ545Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.9,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of 5.45 bullets,
+        Icon	=	CJ545Box,
+        MetalValue = 40,
+        WorldStaticModel = CJ545Box,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+     recipe Open Box of 5.45
+	{
+		CJ545Box,
+		Result:CJ545=30,
+		Category:Firearm,		
+		Sound:PutItemInBag,
+		Time:2.0,
+	}
+	recipe Place 5.45 in box
+	{
+	      CJ545=30,
+	      Result:CJ545Box,
+		Category:Firearm,
+        	Sound:PutItemInBag,
+	      Time:2.0,
+	}
+     item MagAUG
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.22,
+        Type	         =	Normal,
+        DisplayName	 =      AUG Mag,
+        Icon	         =	MagAUG,
+        MaxAmmo          = 30,
+        AmmoType         = Base.556Bullets,
+        GunType          = CJ_AUG,
+        WorldStaticModel = MagAUG,
+	}
+     item MagTEC
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.2,
+        Type	         =	Normal,
+        DisplayName	 =      TEC Mag,
+        Icon	         =	MagTEC9,
+        MaxAmmo          = 20,
+        AmmoType         = Base.Bullets9mm,
+        GunType          = CJ_TEC9,
+        WorldStaticModel = MagTEC,
+	}
+     item MagMini14
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.15,
+        Type	         =	Normal,
+        DisplayName	 =      Mini-14 Mag,
+        Icon	         =	MagMini14,
+        MaxAmmo          = 10,
+        AmmoType         = Base.223Bullets,
+        GunType          = CJ_Mini14,
+        WorldStaticModel = MagMini14,
+	}
+    item CJ762
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.007,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	7.62x39 Ammo,
+        Icon	=	CJ762,
+        MetalValue = 1,
+        WorldStaticModel = CJ762,
+    }
+    item CJ762Box
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.2,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of 7.62x39 bullets,
+        Icon	=	CJ762Box,
+        MetalValue = 40,
+        WorldStaticModel = CJ762Box,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+     recipe Open Box of 7.62x39
+	{
+		CJ762Box,
+		Result:CJ762=30,
+		Category:Firearm,		
+		Sound:PutItemInBag,
+		Time:2.0,
+	}
+	recipe Place 7.62x39 in box
+	{
+	      CJ762=30,
+	      Result:CJ762Box,
+		Category:Firearm,
+        	Sound:PutItemInBag,
+	      Time:2.0,
+	}
+     item MagG3A3
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.2,
+        Type	         =	Normal,
+        DisplayName	 =      G3A3 Mag,
+        Icon	         =	MagG3A3,
+        MaxAmmo          = 20,
+        AmmoType         = 762NATO,
+        GunType          = CJ_G3A3,
+        WorldStaticModel = MagG3,
+	}
+     item MagMP5SD2
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.17,
+        Type	         =	Normal,
+        DisplayName	 =      MP5SD2 Mag,
+        Icon	         =	MagMP5,
+        MaxAmmo          = 30,
+        AmmoType         = Base.Bullets9mm,
+        GunType          = CJ_MP5SD2,
+        WorldStaticModel = MagMP5,
+	}
+     item MagWalther_PP
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.1,
+        Type	         =	Normal,
+        DisplayName	 =      Walther PP Mag,
+        Icon	         =	MAG_Default,
+        MaxAmmo          = 7,
+        AmmoType         = CJ22LR,
+        GunType          = CJ_Walther_PP,
+        WorldStaticModel = MagWalther_PP,
+	}
+    item CJ22LR
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.007,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	22 lr. Ammo,
+        Icon	=	CJ22LR,
+        MetalValue = 1,
+        WorldStaticModel = CJ22LR,
+    }
+    item CJ22LRBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.2,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of 22 lr. Ammo,
+        Icon	=	CJ22LRBox,
+        MetalValue = 40,
+        WorldStaticModel = CJ22LRBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+     recipe Open Box of 22 lr.
+	{
+		CJ22LRBox,
+		Result:CJ22LR=30,
+		Category:Firearm,		
+		Sound:PutItemInBag,
+		Time:2.0,
+	}
+	recipe Place 22 lr. in box
+	{
+	      CJ22LR=30,
+	      Result:CJ22LRBox,
+		Category:Firearm,
+        	Sound:PutItemInBag,
+	      Time:2.0,
+	}
+     item MagSR25
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.2,
+        Type	         =	Normal,
+        DisplayName	 =      SR-25 Mag,
+        Icon	         =	MagSR25,
+        MaxAmmo          = 10,
+        AmmoType         = 762NATO,
+        GunType          = CJ_SR25,
+        WorldStaticModel = MagSR25,
+	}
+     item MagSVD
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.2,
+        Type	         =	Normal,
+        DisplayName	 =      SVD Mag,
+        Icon	         =	MagSVD,
+        MaxAmmo          = 10,
+        AmmoType         = 762_54R,
+        GunType          = CJ_SVD,
+        WorldStaticModel = MagSVD,
+	}
+    item 762_54R
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.023,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	 7.62x54R Ammo,
+        Icon	=	762_54R,
+        MetalValue = 1,
+        WorldStaticModel = 762_54R,
+    }
+    item 762_54RBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	0.69,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of 7.62x54R. Ammo,
+        Icon	=	762_54RBox,
+        MetalValue = 40,
+        WorldStaticModel = 762_54RBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+     recipe Open Box of 7.62x54R
+	{
+		762_54RBox,
+		Result:762_54R=30,
+		Category:Firearm,		
+		Sound:PutItemInBag,
+		Time:2.0,
+	}
+	recipe Place 7.62x54R in box
+	{
+	      762_54R=30,
+	      Result:762_54RBox,
+		Category:Firearm,
+        	Sound:PutItemInBag,
+	      Time:2.0,
+	}
+     item MagWA2000
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.2,
+        Type	         =	Normal,
+        DisplayName	 =      WA2000 Mag,
+        Icon	         =	MagWA2000,
+        MaxAmmo          = 6,
+        AmmoType         = 762NATO,
+        GunType          = CJ_WA2000_1; CJ_WA2000_2,
+        WorldStaticModel = MagWA2000,
+	}
+     item MagPK
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.8,
+        Type	         =	Normal,
+        DisplayName	 =      PK Mag,
+        Icon	         =	MagPK,
+        MaxAmmo          = 200,
+        AmmoType         = 762_54R,
+        GunType          = CJ_PK,
+        WorldStaticModel = MagPK,
+	}
+}
+}
+

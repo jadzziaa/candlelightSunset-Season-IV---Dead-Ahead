@@ -1,0 +1,33 @@
+module Base
+{
+
+
+recipe RESPAWN USMC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Interceptor_Pouches,
+		Result:Interceptor_Pouches,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+	
+recipe RESPAWN USMC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Interceptor_Pouches_Straps,
+		Result:Interceptor_Pouches_Straps,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+
+}
+	

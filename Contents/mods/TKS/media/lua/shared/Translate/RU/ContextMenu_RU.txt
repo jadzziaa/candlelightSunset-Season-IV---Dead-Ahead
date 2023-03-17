@@ -1,0 +1,4 @@
+ContextMenu_RU = {
+	ContextMenu_KnifeSheath_WearBack = "Экипировать (Спина)",
+	ContextMenu_KnifeSheath_WearLeg = "Экипировать (Бедро)",
+}

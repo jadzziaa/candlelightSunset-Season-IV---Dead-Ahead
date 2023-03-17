@@ -1,0 +1,88 @@
+module Base
+{
+	fixing Fix LIN93 Tire
+	{
+	   Require : 93townCarTire1,
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix LIN93 Seat
+	{
+	   Require : 93townCarSeatFront1;93townCarSeatRear1,
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+	
+	fixing Fix LIN93 Trunk Welding
+	{
+	   Require : 93townCarTrunkFloor1;93townCarTrunk1;93townCarMiniBar1;93townCarTrunkRack1,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix LIN93 Hood Welding
+	{
+	   Require : 93townCarEngineDoor1,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    	fixing Fix LIN93 Hood
+	{
+	   Require : 93townCarEngineDoor1,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix LIN93 Trunk Lid Welding
+    {
+       Require : 93townCarTrunkFloor1;93townCarTrunk1;93townCarMiniBar1,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix LIN93 Trunk Lid
+	{
+       Require : 93townCarTrunkDoor1,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix LIN93 Door Welding
+	{
+	   Require : 93townCarFrontDoor1;93townCarRearDoor1,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=3,
+	}
+
+	fixing Fix LIN93 Bullbar Welding
+    {
+       Require : 93townCarBumperFront0;93townCarBumperFront1;93townCarBullbarFrontA;93townCarBullbarFrontB;93townCarBullbarFrontC;93townCarBumperRear0,
+       GlobalItem : BlowTorch=7,
+       ConditionModifier : 1.0,
+
+       Fixer : SheetMetal; MetalWelding=4;Mechanics=4,
+       Fixer : SmallSheetMetal=2; MetalWelding=4;Mechanics=4,
+    }
+
+}

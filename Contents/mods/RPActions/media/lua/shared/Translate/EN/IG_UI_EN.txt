@@ -1,0 +1,36 @@
+IG_UI_EN = {
+	IGUI_Pose_RPA = "Poses",
+	IGUI_Cancel = "Cancel Animation",
+	IGUI_Pose_BobRPA_ArmsCrossed = "Arms Crossed",
+	IGUI_Pose_BobRPA_AtEase = "At Ease",
+	IGUI_Pose_BobRPA_HandOnHip = "Hand on Hip",
+	IGUI_Pose_BobRPA_HandsBehindBack = "Hands Behind Back",
+	IGUI_Pose_BobRPA_HandsInPockets = "Hands in Pockets",
+	IGUI_Pose_BobRPA_HoldArmFront = "Hold Arm Front",
+
+	IGUI_Pose_BobRPA_Injured = "Injured",
+
+	IGUI_Pose_BobRPA_LeanBack = "Lean Back",
+	IGUI_Pose_BobRPA_LeanForward = "Lean Forward",
+	IGUI_Pose_BobRPA_LeanSide = "Lean Side",
+
+	IGUI_Pose_BobRPA_Kneel = "Kneel",
+	IGUI_Pose_BobRPA_Squat = "Squat",
+
+	IGUI_Pose_BobRPA_SitChair1 = "Sit Chair 1",
+	IGUI_Pose_BobRPA_SitCrossedLegs = "Sit Crossed Legs",
+	IGUI_Pose_BobRPA_SitKneesUp = "Sit Knees Up",
+	IGUI_Pose_BobRPA_SitLounging = "Sit Lounging",
+	IGUI_Pose_BobRPA_SitSideways = "Sit Sideways",
+
+	IGUI_Pose_BobRPA_LieOnBack = "Lie on Back",
+	IGUI_Pose_BobRPA_LieOnFloor = "Lie on Floor",
+	IGUI_Pose_BobRPA_LieOnSide = "Lie on Side",
+
+	IGUI_Pose_RPAspc = "Special poses",
+	IGUI_Pose_BobRPA_DadTwerk = "Dad Twerk",
+	IGUI_Pose_BobRPA_FamilyGuy = "Family Guy Death Pose",
+	IGUI_Pose_BobRPA_JackO = "Jack-O Pose",
+
+
+}

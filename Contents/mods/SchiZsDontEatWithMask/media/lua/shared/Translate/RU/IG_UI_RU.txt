@@ -1,0 +1,3 @@
+IGUI_RU = {
+	IGUI_PlayerText_NeedTakeOffMask = "Мне нужно снять маску перед этим."
+}

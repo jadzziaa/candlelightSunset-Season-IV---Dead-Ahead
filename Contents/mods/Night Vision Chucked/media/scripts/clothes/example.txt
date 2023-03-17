@@ -1,0 +1,12 @@
+/*
+module EXAMPLE_MODULE
+{
+	item EXAMPLE_TYPE
+	{
+		Type = Clothing, --REQUIRED--
+		Tags = NVGchucked, --REQUIRED--
+
+		-- Everything else can be what ever you want. --
+    }
+}
+*/

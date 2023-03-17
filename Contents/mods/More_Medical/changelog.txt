@@ -1,0 +1,37 @@
+-------------------
+v.1.02
+2023-01-29
+
+Улучшен эффект от адреналина, но ухудшены последствия от него.
+Жгут больше не исчезает после применения.
+Отключена возможность накладывать жгут на туловище, пах и шею. А, нет, на шею можно, но эффект будет другой.
+Добавлены подсказки и предупреждения для всех лекарств.
+Обновлены иконки для некоторых таблеток.
+
+The effect of adrenaline is improved.
+Tourniquet no longer disappears after application.
+Disabled the ability to apply a tourniquet to the torso, groin and neck. Ah, no, you can do it on the neck, but the effect will be different.
+Added hints and warnings for all medicines.
+Updated icons for some pills.
+
+-------------------
+v.1.01
+2023-01-22
+
+Исправлены ошибки в переводах.
+Улучшена эффективность мази от ожогов.
+Снижено отравление от первой дозы Морфина.
+Исправлены ошибки, связанные со Жгутом.
+
+Corrected errors in translations.
+The effectiveness of the burn ointment has been improved.
+Reduced poisoning from the first dose of Morphine.
+Corrected bugs related to the Tourniquet.
+-------------------
+
+v.1.0
+2023-03-13
+
+Релиз
+
+Release

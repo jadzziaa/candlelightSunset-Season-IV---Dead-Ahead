@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option ExpRecovery.ExpSaveMultiplier
+{
+	type = double,
+	min = 0,
+	max = 1,
+	default = 1,
+	page = ExpRecovery,
+	translation = ExpRecovery_ExpSaveMultiplier,
+}
+
+option ExpRecovery.DontSaveWhileReading
+{
+	type = boolean,
+	default = false,
+	page = ExpRecovery,
+	translation = ExpRecovery_DontSaveWhileReading,
+}

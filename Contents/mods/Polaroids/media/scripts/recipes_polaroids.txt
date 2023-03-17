@@ -1,0 +1,14 @@
+module Polaroids {
+    imports {
+        Base
+    }
+
+    recipe Make Photo Album
+    {
+        Book,
+        DuctTape,
+
+        Result:PhotoAlbum,
+        Time:20,
+    }
+}

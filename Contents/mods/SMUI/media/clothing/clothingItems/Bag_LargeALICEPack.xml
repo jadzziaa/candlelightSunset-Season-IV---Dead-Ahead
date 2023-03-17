@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_LargeALICE</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\M_LargeALICE</m_FemaleModel>
+	<m_GUID>3130f55c-892d-4729-9597-bd081acbef6e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\GreenALICE</textureChoices>
+</clothingItem>

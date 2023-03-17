@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\M_MilitaryWebbingTightened.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\F_MilitaryWebbingTightened.FBX</m_FemaleModel>
+	<m_GUID>20260ba2-716d-4e84-9a36-8000c3eb6c2a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\MilitaryWebbing</textureChoices>
+</clothingItem>

@@ -1,0 +1,218 @@
+module Rotators
+{
+   /* Double Tires */
+   /* Valu */
+	recipe Dismantle Valu Double Tires
+	{
+		keep LugWrench,
+		Rotators.DoubleOldTire2,
+		
+		Result:Base.OldTire2=2,
+		Sound:Hammering,
+		Time:150.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Valu Double Tires
+	{
+		keep LugWrench,
+		Base.OldTire2=2,
+
+		Result:Rotators.DoubleOldTire2,
+		Sound:Hammering,
+		Time:150.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+   
+   /* Regular */
+	recipe Dismantle Regular Valu Double Tires
+	{
+		keep LugWrench,
+		Rotators.DoubleNormalTire2,
+		
+		Result:Base.NormalTire2=2,
+		Sound:Hammering,
+		Time:150.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Regular Double Tires
+	{
+		keep LugWrench,
+		Base.NormalTire2=2,
+
+		Result:Rotators.DoubleNormalTire2,
+		Sound:Hammering,
+		Time:150.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+   
+   /* Performance */
+	recipe Dismantle Performance Valu Double Tires
+	{
+		keep LugWrench,
+		Rotators.DoubleModernTire2,
+		
+		Result:Base.ModernTire2=2,
+		Sound:Hammering,
+		Time:150.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Performance Double Tires
+	{
+		keep LugWrench,
+		Base.ModernTire2=2,
+
+		Result:Rotators.DoubleModernTire2,
+		Sound:Hammering,
+		Time:150.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+
+   /* 4 Tire Axle */
+   /* Valu */
+	recipe Dismantle Valu 4 Tire Axle
+	{
+		keep LugWrench,
+		Rotators.AxleOldTire2,
+		
+		Result:Base.OldTire2=4,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Valu 4 Tire Axle
+	{
+		keep LugWrench,
+		Base.OldTire2=4,
+
+		Result:Rotators.AxleOldTire2,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+   
+   /* Regular */
+	recipe Dismantle Regular Valu 4 Tire Axle
+	{
+		keep LugWrench,
+		Rotators.AxleNormalTire2,
+		
+		Result:Base.NormalTire2=4,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Regular 4 Tire Axle
+	{
+		keep LugWrench,
+		Base.NormalTire2=4,
+
+		Result:Rotators.AxleNormalTire2,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+   
+   /* Performance */
+	recipe Dismantle Performance Valu 4 Tire Axle
+	{
+		keep LugWrench,
+		Rotators.AxleModernTire2,
+		
+		Result:Base.ModernTire2=4,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Performance 4 Tire Axle
+	{
+		keep LugWrench,
+		Base.ModernTire2=4,
+
+		Result:Rotators.AxleModernTire2,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Mechanical,
+      CanBeDoneFromFloor:true,
+	}
+   
+   /* Armor */
+	recipe Make W900 Front Door Armor
+	{
+		BlowTorch=15,
+       	keep WeldingMask,
+		SmallSheetMetal=2,
+		MetalPipe=2,
+		Screws=2,
+
+		Result:SemiTruckArmorDoor_Item2,
+		Time:1000.0,
+		Category:W900,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+	recipe Make W900 Makeshift Windshield Armor
+	{
+		BlowTorch=10,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=1,
+		Screws=2,
+		MetalPipe=2,
+
+		Result:SemiTruckArmorFront_Item2,
+		Time:1000.0,
+		Category:W900,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+   
+	recipe Make W900 Makeshift Rear Windshield Armor
+	{
+		BlowTorch=10,
+      	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=1,
+		Screws=2,
+		MetalPipe=2,
+
+		Result:SemiTruckArmorRear_Item2,
+		Time:1000.0,
+		Category:W900,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+   
+	recipe Make W900 Bullbar
+	{
+		BlowTorch=20,
+      	keep WeldingMask,
+		SmallSheetMetal=4,
+		SheetMetal=2,
+		Screws=4,
+		MetalPipe=4,
+
+		Result:SemiTruckBullbar_Item2,
+		Time:1000.0,
+		Category:W900,
+		SkillRequired:MetalWelding=8,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+}

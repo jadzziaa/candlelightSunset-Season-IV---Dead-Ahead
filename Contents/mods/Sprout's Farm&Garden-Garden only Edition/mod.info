@@ -1,0 +1,6 @@
+name=Sprout's Farm and Garden: Garden Only Edition
+id=SGarden-GardenOnly
+description=Pick this if you only want more crops!
+poster=poster.png
+pack=SGnewFarming_01
+tiledef=SGnewtiledefinitions_01 1122

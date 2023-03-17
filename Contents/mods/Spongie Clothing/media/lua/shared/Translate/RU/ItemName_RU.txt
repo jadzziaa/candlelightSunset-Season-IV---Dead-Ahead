@@ -1,0 +1,14 @@
+ItemName_RU = {
+ItemName_Spongie.Jacket_SheepWool = "Зимняя куртка",
+ItemName_Spongie.Jacket_SheepWoolOPEN = "Зимняя куртка (Расстегнуто)",
+ItemName_Spongie.Jacket_Flight = "Бомбер",
+ItemName_Spongie.Jacket_FlightOPEN = "Бомбер (Расстегнуто)",
+ItemName_Spongie.Jacket_FlightVest = "Болоньевая жилетка",
+ItemName_Spongie.Jacket_FlightVestOPEN = "Болоньевая жилетка (Расстегнуто)",
+ItemName_Spongie.TShirt_Compression = "Компрессионная футболка",
+ItemName_Spongie.TShirt_CompressionLong = "Компрессионный свитер",
+ItemName_Spongie.Jumper_TurtleVest = "Жилетка с воротником",
+ItemName_Spongie.Jacket_PoliceArmor = "Защищённая полицейская футболка",
+ItemName_Spongie.Shorts_Spandex = "Шорты спандекс",
+ItemName_Spongie.Shorts_SpandexLong = "Леггинсы спандекс",
+}

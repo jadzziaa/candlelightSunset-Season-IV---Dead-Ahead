@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fileGuidTable>
+
+	<!--Regular Jacket model-->
+	<files>
+		<path>media/clothing/clothingItems/Jacket_WhiteOPEN.xml</path>
+		<guid>d9d60d23-OPEN-2a97-8e74-9e7b3c35d620</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_RangerOPEN.xml</path>
+		<guid>ccff1f69-OPEN-4f0d-a3d1-814d38d73bae</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_PoliceOPEN.xml</path>
+		<guid>c280861d-OPEN-4914-ac94-99de18700c68</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_ArmyCamoDesertOPEN.xml</path>
+		<guid>eb8d1f35-OPEN-4c9c-a308-aba2aa040f90</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_ArmyCamoGreenOPEN.xml</path>
+		<guid>b0d642f6-OPEN-456c-aeb0-1b190b29a364</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_BlackOPEN.xml</path>
+		<guid>9e094ca7-OPEN-4c7d-ae70-597fa4c8a330</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_ChefOPEN.xml</path>
+		<guid>7837ebe5-OPEN-46af-9e4d-723a0c2a5988</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_CoatArmyOPEN.xml</path>
+		<guid>b3c4c9cf-OPEN-4b4b-b13d-30efd77b3626</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_FiremanOPEN.xml</path>
+		<guid>56e0b193-OPEN-4061-9a73-167f6b253ec7</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Jacket_VarsityOPEN.xml</path>
+		<guid>f756aca5-OPEN-4ee5-bc34-d0327347a2d0</guid>
+	</files>
+	
+	<!--Long Jacket Model-->
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_DoctorOPEN.xml</path>
+		<guid>d66bd59d-OPEN-4cea-9474-a3b69c67f71d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_RandomOPEN.xml</path>
+		<guid>a8f1dbc6-OPEN-40d1-8a1a-adbcd33f5b41</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaOPEN.xml</path>
+		<guid>c423a3bb-OPEN-40cc-bb27-ba615a51941f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaGreenOPEN.xml</path>
+		<guid>1cb0dd48-OPEN-435e-8677-2b9fa6d8e3f3</guid>
+	</files>
+	
+	<!--Biker Jacket Model-->
+	<files>
+		<path>media/clothing/clothingItems/Jacket_LeatherBarrelDogsOPEN.xml</path>
+		<guid>32f1b190-OPEN-416a-bab4-22703c1580de</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_LeatherIronRodentOPEN.xml</path>
+		<guid>ee3467ff-OPEN-4038-b8db-0242b0672ab4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_LeatherWildRaccoonsOPEN.xml</path>
+		<guid>e2c3dc8a-OPEN-445d-9ea7-6b8f1f1fa69f</guid>
+	</files>
+	
+</fileGuidTable>

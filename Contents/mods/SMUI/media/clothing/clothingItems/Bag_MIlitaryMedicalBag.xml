@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_MilitaryMedicalBag</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_MilitaryMedicalBag</m_FemaleModel>
+	<m_GUID>fb14001e-2c6d-44a4-bcd3-4f23d57c0b69</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\MilitaryMedicalBag</textureChoices>
+</clothingItem>

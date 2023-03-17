@@ -1,0 +1,7 @@
+IGUI_ES = 
+	{
+
+	IGUI_HotbarAttachment_KnifeSheathLeg = "Funda (Muslo)",
+	IGUI_HotbarAttachment_KnifeSheathBack = "Funda (Detrás)",
+	IGUI_HotbarAttachment_KatanaSheath = "Funda (Katana)",
+	}

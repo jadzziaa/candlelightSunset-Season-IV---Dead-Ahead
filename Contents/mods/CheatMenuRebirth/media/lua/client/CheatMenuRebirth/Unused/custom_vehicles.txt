@@ -1,0 +1,6 @@
+{
+    {
+        ['name'] = "IGUI_VehicleNameSmallCar",
+        ['spawnname'] = "Base.SmallCar"
+    }
+}

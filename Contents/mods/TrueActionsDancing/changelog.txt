@@ -1,0 +1,54 @@
+v.1.06
+2022-01-20
+
+Добавлен исправленный французский перевод от Xianah.
+Изменена 3д модель журналов.
+
+Added a corrected French translation by Xianah.
+Changed the 3D model of the magazines.
+
+-------------------
+
+v.1.05
+
+Сделаны небольшие изменения перед выходом нового мода-расширения.
+
+Made minor changes before the release of the new expansion mod.
+
+-------------------
+
+v.1.04
+
+Исправлено название журналов № 9 и 45.
+Исправлен рецепт миски с хлопьями Kosmotsars.
+
+Corrected the name of magazines #9 and #45.
+Corrected Kosmotsars cereal bowl recipe.
+
+-------------------
+
+v.1.03
+
+Добавлен французкий перевод (спасибо Xianah).
+
+Added French translation (thanks Xianah).
+-------------------
+
+v.1.02
+
+Исправлена опечатка в английском переводе.
+
+Corrected a typo in the English translation.
+
+-------------------
+
+v.1.01
+
+Добавлены новые танцы (1 журнал, 4 карточки).
+
+Added new dances (1 magazine, 4 cards).
+
+-------------------
+
+v.1.0
+Release

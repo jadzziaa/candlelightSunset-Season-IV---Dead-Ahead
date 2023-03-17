@@ -1,0 +1,178 @@
+module Base
+{
+    /******************* Storage ************************/
+
+    item SS100topbag3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =    5.0,
+        Type    =    Normal,
+        DisplayName = SS100 Top Bag,
+        Icon    =    SS100_topstorage,
+        MaxCapacity = 32,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        WorldStaticModel = SS100topbagWI,
+    }
+
+    item SS100sidebag3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =    3.0,
+        Type    =    Normal,
+        DisplayName = SS100 Side Bag,
+        Icon    =    SS100_sidestorage,
+        MaxCapacity = 25,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 100,
+        WorldStaticModel = SS100sidebagWI,
+    }
+
+    /******************* Muffler ************************/
+    
+    item SS100muffler3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	5.0,
+        Type	=	Normal,
+        DisplayName	=	SS100 Muffler,
+        Icon	=	SS100_muffler,
+        EngineLoudness = 120,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.015,
+        ConditionLowerOffroad = 0.35,
+        MechanicsItem = TRUE,
+        WorldStaticModel = SS100mufflerWI,
+    }
+
+    /******************* Tires ************************/
+
+    item SS100oldTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	13.0,
+        Type	=	Normal,
+        DisplayName	=	SS100 Valu-Tire,
+        Icon	=	SS100_tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 70,
+        ConditionLowerStandard = 0.08,
+        ConditionLowerOffroad = 0.5,
+        WheelFriction = 1.4,
+        MechanicsItem = TRUE,
+        WorldStaticModel = SS100TireWI,
+    }
+
+    item SS100normalTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	14.0,
+        Type	=	Normal,
+        DisplayName	=	SS100 Regular Tire,
+        Icon	=	SS100_tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.4,
+        WheelFriction = 1.5,
+        MechanicsItem = TRUE,
+        WorldStaticModel = SS100TireWI,
+    }
+
+    item SS100modernTire
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	SS100 Performance Tire,
+        Icon	=	SS100_tire,
+        MaxCapacity = 35,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+        ConditionLowerStandard = 0.02,
+        ConditionLowerOffroad = 0.35,
+        WheelFriction = 1.6,
+        MechanicsItem = TRUE,
+        WorldStaticModel = SS100TireWI,
+    }
+
+    /******************* GasTank ************************/
+    
+    item SS100gasTank3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	SS100 Gas Tank,
+        Icon	=	SS100_gasTank,
+        MaxCapacity = 43,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 50,
+        MechanicsItem = TRUE,
+        WorldStaticModel = SS100gasTankWI,
+    }
+
+    /******************* Seat ************************/
+    
+    item SS100seat3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	4.0,
+        Type	=	Normal,
+        DisplayName	=	SS100 Seat,
+        Icon	=	SS100_seat,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = SS100seatWI,
+    }
+
+    /******************* Windshield ************************/
+    
+    item SS100windshield3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   3.0,
+        Type    =   Normal,
+        DisplayName =   SS100 Windshield,
+        Icon    =   SS100_windshield,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = SS100windshieldWI,
+    }
+
+    /******************* Fenders ************************/
+    
+    item SS100fenderFront3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   5.0,
+        Type    =   Normal,
+        DisplayName =   SS100 Front Fender,
+        Icon    =   SS100_fenderf,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = SS100fenderFrontWI,
+    }
+
+    item SS100fenderRear3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   5.0,
+        Type    =   Normal,
+        DisplayName =   SS100 Rear Fender,
+        Icon    =   SS100_fenderr,
+        ChanceToSpawnDamaged = 70,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = SS100fenderRearWI,
+    }
+
+}

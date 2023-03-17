@@ -1,0 +1,4 @@
+name=NoirsAttachments_AttachGuncases
+poster=poster.png
+id=NoirsAttachments_AttachGuncases
+description=Extends NoirsAttachments to attach vanila guncases as containers and as small containers

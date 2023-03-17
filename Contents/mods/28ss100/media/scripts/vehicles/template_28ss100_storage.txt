@@ -1,0 +1,139 @@
+module Base
+{
+	model 28ss100_sidebagl
+    {
+        mesh = vehicles/Bikes_28ss100_Body|ss100_side_bag_l,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+    }
+    model 28ss100_sidebagr
+    {
+        mesh = vehicles/Bikes_28ss100_Body|ss100_side_bag_r,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+    }
+    model 28ss100_topbox
+    {
+        mesh = vehicles/Bikes_28ss100_Body|ss100_top_bag,
+        shader = vehicle_noreflect,
+        scale = 0.1,
+    }
+
+	template vehicle SS100trunkStorages
+	{
+
+		part SS100sideBoxl
+		{
+			model sidestuffl
+			{
+				file = 28ss100_sidebagl,
+			}
+
+			category = bodywork,
+			area = TruckBedLeft,
+			itemType = Base.SS100sidebag,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = SS100.ContainerAccess.TrunkBoxLeft,
+			}
+			lua
+			{
+				create = KI5.Create.Blank,
+			}
+		}
+
+		part SS100sideBoxr
+		{
+			model sidestuffr
+			{
+				file = 28ss100_sidebagr,
+			}
+
+			category = bodywork,
+			area = TruckBedRight,
+			itemType = Base.SS100sidebag,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = SS100.ContainerAccess.TrunkBoxRight,
+			}
+			lua
+			{
+				create = KI5.Create.Blank,
+			}
+		}
+
+		part SS100sideBox*
+		{
+			table install
+			{
+				requireEmpty = true,
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = KI5.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Default,
+			}
+			table uninstall
+			{
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = KI5.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+
+			}
+		}
+
+		part SS100topbox
+		{
+			model topstuff
+			{
+				file = 28ss100_topbox,
+			}
+
+			category = bodywork,
+			area = TruckBed,
+			itemType = Base.SS100topbag,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = SS100.ContainerAccess.TrunkBox,
+			}
+
+			table install
+			{
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = KI5.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Default,
+			}
+			table uninstall
+			{
+				requireEmpty = true,
+				time = 500,
+				skills = Mechanics:1,
+				recipes = Basic Mechanics,
+				test = KI5.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+				requireUninstalled = SS100Tent,
+
+			}
+
+			lua
+			{
+				create = KI5.Create.Blank,
+			}
+		}
+
+	}
+
+}

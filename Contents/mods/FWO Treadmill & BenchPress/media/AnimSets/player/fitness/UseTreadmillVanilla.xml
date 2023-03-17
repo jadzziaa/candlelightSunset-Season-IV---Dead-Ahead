@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>treadmill</m_Name>
+	<m_AnimName>Bob_Run</m_AnimName>
+	<m_deferredBoneAxis>Z</m_deferredBoneAxis>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_Conditions>
+		<m_Name>ExerciseType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>treadmill</m_StringValue>
+	</m_Conditions>
+
+	<m_SubStateBoneWeights>
+		<boneName>Dummy01</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Translation_Data</boneName>
+	</m_SubStateBoneWeights>
+</animNode>

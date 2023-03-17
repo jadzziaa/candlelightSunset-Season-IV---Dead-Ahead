@@ -1,0 +1,93 @@
+module Base
+{
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_1.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_2.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_3.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_4.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_5.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_6.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_7.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_8.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_9.ogg,
+			volume = 0.9,
+		}
+	}
+	sound inTIsnd_WeaponPart
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/inside/TIsnd_WeaponPart_10.ogg,
+			volume = 0.9,
+		}
+	}
+}

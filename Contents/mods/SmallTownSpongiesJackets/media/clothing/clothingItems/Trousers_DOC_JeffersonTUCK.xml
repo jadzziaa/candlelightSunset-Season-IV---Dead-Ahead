@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Spongie\M_TrousersTucked</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Spongie\F_TrousersTucked</m_FemaleModel>
+	<m_GUID>0a82fa86-06c7-4f8b-90ed-4e3eb0e1026b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<textureChoices>Clothes\Trousers_Mesh\TrousersMesh_DOC_Jefferson</textureChoices>
+</clothingItem>

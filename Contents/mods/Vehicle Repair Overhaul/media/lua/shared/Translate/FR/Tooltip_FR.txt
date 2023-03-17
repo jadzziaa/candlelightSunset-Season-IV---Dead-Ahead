@@ -1,0 +1,4 @@
+Tooltip_FR = {
+	Tooltip_FixAFlat = "Reparation de pneus.",
+	Tooltip_SalvageVehicle = " Récupérer des véhicules avec un masque de soudage et une torche au propane les enlèvera de votre chemin. La récupération du véhicule prend plus de temps à compléter et utilise plus de propane que le démantèlement de l’épave de voiture, mais donne des articles supplémentaires et un XP plus élevé. <LINE> Des compétences supérieures en travail des métaux permettront de récupérer plus de récupération utilisable. <LINE> *Astuce retirer les pièces du véhicule d’abord et vider le coffre.",
+}
