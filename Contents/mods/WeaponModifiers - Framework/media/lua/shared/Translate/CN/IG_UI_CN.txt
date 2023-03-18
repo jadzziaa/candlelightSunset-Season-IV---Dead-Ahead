@@ -1,4 +1,0 @@
-IGUI_CN = {
-	IGUI_category_unknown = "未知",
-	IGUI_category_improvised = "简易",
-}

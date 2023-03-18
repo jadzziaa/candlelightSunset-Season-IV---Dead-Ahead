@@ -1,3 +1,0 @@
-IGUI_CN = {
-	IGUI_perks_Tinkering = "铸造",
-}

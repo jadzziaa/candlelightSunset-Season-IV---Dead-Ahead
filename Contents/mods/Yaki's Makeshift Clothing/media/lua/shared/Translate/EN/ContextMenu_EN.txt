@@ -1,5 +1,0 @@
-ContextMenu_EN = {
-
-	ContextMenu_WearIt = "Wear",
-	
-}

@@ -1,1 +1,0 @@
-VehicleZoneDistribution.police.vehicles["Base.CarLightsStatepolice"] = {index = -1, spawnChance = 30};

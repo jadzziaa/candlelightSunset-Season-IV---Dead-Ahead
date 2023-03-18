@@ -1,3 +1,0 @@
-Tooltip_CH = {
-    Tooltip_BookTitle_Tinkering = "工匠",
-}

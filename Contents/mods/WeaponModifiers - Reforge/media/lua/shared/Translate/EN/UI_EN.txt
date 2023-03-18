@@ -1,4 +1,0 @@
-UI_EN = {
-    UI_trait_tinkerer = "Tinkerer",
-    UI_trait_tinkererdesc = "Faster and better tinkering.<br>+20% chance to not consume items when tinkering.",
-}

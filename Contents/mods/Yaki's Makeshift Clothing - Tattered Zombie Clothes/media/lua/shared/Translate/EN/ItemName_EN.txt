@@ -1,4 +1,0 @@
-
-ItemName_EN = {
-ItemName_Base.Makeshift_Dress_Tattered = "Tattered Dress",	
-}

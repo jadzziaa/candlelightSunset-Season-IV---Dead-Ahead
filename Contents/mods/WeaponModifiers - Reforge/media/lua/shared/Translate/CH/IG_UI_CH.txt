@@ -1,3 +1,0 @@
-IGUI_CH = {
-    IGUI_perks_Tinkering = "工匠",
-}

@@ -1,4 +1,0 @@
-ContextMenu_CH = {
-    ContextMenu_Tinker = "鍛造",
-    ContextMenu_TinkerWith = "鍛造以",
-}

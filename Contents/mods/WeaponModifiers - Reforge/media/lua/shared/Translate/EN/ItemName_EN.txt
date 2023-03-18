@@ -1,8 +1,0 @@
-ItemName_EN = {
-    ItemName_WeaponModifiers.BookTinkering1 = "Tinkering Vol. 1",
-	ItemName_WeaponModifiers.BookTinkering2 = "Tinkering Vol. 2",
-	ItemName_WeaponModifiers.BookTinkering3 = "Tinkering Vol. 3",
-	ItemName_WeaponModifiers.BookTinkering4 = "Tinkering Vol. 4",
-	ItemName_WeaponModifiers.BookTinkering5 = "Tinkering Vol. 5",
-	ItemName_WeaponModifiers.TinkeringMag = "Tinkering For Dummies",
-}

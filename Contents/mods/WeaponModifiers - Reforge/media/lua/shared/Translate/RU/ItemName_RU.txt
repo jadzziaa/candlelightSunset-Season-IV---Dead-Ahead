@@ -1,7 +1,0 @@
-ItemName_RU = {
-    ItemName_WeaponModifiers.BookTinkering1 = "Курсы инженерии. Том 1",
-	ItemName_WeaponModifiers.BookTinkering2 = "Курсы инженерии. Том 2",
-	ItemName_WeaponModifiers.BookTinkering3 = "Курсы инженерии. Том 3",
-	ItemName_WeaponModifiers.BookTinkering4 = "Курсы инженерии. Том 4",
-	ItemName_WeaponModifiers.BookTinkering5 = "Курсы инженерии. Том 5"
-}

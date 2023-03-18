@@ -1,4 +1,0 @@
-ContextMenu_EN = {
-    ContextMenu_Tinker = "Tinker",
-    ContextMenu_TinkerWith = "Tinker with",
-}

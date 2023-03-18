@@ -1,3 +1,0 @@
-Tooltip_RU = {
-    Tooltip_BookTitle_Tinkering = "Эта книга содержит сведения об инженерии."
-}
