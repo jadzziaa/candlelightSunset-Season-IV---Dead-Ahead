@@ -22,7 +22,7 @@ module Language
         WorldStaticModel = MagazineWordSearch1_Ground,
 
     }
-        item KoreanBook
+    item KoreanBook
     {
         Weight	=	0.2,
         Type	=	Normal,
