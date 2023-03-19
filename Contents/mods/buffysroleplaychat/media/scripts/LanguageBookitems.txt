@@ -22,15 +22,6 @@ module Language
         WorldStaticModel = MagazineWordSearch1_Ground,
 
     }
-    item KoreanBook
-    {
-        Weight	=	0.2,
-        Type	=	Normal,
-        DisplayName	=	Buffetta Stone - Korean,
-        Icon	=	MagazineWordsearch1,
-        WorldStaticModel = MagazineWordSearch2_Ground,
-
-    }
     item RussianBook
     {
         Weight	=	0.2,
@@ -92,6 +83,15 @@ module Language
         DisplayName	=	Buffetta Stone - American Sign Language,
         Icon	=	MagazineWordsearch3,
         WorldStaticModel = MagazineWordSearch3_Ground,
+
+    }
+    item KoreanBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Korean,
+        Icon	=	MagazineWordsearch1,
+        WorldStaticModel = MagazineWordSearch2_Ground,
 
     }
 }
