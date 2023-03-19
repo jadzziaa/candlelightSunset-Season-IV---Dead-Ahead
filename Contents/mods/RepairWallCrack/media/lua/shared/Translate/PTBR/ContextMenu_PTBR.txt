@@ -1,3 +1,0 @@
-ContextMenu_PTBR = {
-	ContextMenu_RepairWallCrack = "Reparar rachadura na parede",
-} 

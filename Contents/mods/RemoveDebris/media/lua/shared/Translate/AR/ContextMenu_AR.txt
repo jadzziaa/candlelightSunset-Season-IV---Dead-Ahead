@@ -1,3 +1,0 @@
-ContextMenu_AR = {
-    ContextMenu_RemoveDebris = "quitar escombros",
-} 

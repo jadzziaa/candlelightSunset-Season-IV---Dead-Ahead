@@ -1,3 +1,0 @@
-ContextMenu_NO = {
-    ContextMenu_RemoveDebris = "fjerne rusk",
-} 

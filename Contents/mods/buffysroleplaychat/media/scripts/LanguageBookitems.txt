@@ -90,8 +90,8 @@ module Language
         Weight	=	0.2,
         Type	=	Normal,
         DisplayName	=	Buffetta Stone - Korean,
-        Icon	=	MagazineWordsearch1,
-        WorldStaticModel = MagazineWordSearch2_Ground,
+        Icon	=	MagazineWordsearch3,
+        WorldStaticModel = MagazineWordSearch3_Ground,
 
     }
 }

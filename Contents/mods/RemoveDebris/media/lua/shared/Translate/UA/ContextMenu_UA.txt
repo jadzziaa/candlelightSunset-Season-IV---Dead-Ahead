@@ -1,3 +1,0 @@
-ContextMenu_UA = {
-    ContextMenu_RemoveDebris = "видалити сміття",
-} 

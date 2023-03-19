@@ -1,3 +1,0 @@
-ContextMenu_TH = {
-	ContextMenu_RepairWallCrack = "ซ่อมผนังแตก",
-} 

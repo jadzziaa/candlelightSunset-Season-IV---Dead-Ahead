@@ -1,3 +1,0 @@
-ContextMenu_AF = {
-    ContextMenu_RepairWallCrack = "Herstel muur kraak",
-}

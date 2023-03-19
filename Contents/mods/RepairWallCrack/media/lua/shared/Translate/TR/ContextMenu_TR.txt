@@ -1,3 +1,0 @@
-ContextMenu_TR = {
-    ContextMenu_RepairWallCrack = "Duvar Çatlaklarını Onar",
-}

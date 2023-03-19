@@ -1,3 +1,0 @@
-ContextMenu_RO = {
-    ContextMenu_RepairWallCrack = "Reparați fisura de perete",
-}

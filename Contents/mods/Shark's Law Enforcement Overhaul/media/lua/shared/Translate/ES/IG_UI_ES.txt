@@ -1,6 +1,0 @@
-IGUI_ES = {
-
-    IGUI_ItemCat_Helmet = "Casco",
-	IGUI_ItemCat_GasMask = "Máscara de gas",
-
-}

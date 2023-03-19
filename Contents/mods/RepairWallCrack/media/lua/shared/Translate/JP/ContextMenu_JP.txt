@@ -1,3 +1,0 @@
-ContextMenu_JP = {
-	ContextMenu_RepairWallCrack = "壁の亀裂を修理する",
-}

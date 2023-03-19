@@ -1,3 +1,0 @@
-ContextMenu_CH = {
-    ContextMenu_RepairRoad = "修复道路",
-}

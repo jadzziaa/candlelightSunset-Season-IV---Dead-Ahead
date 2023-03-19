@@ -1,3 +1,0 @@
-ContextMenu_EE = {
-    ContextMenu_RemoveDebris = "Remove Debris",
-} 

@@ -1,3 +1,0 @@
-ContextMenu_JP = {
-    ContextMenu_RemoveDebris = "がれきを取り除く",
-} 

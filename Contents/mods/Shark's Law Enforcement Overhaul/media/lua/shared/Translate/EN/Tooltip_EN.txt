@@ -1,3 +1,0 @@
-Tooltip_EN = {
-    Tooltip_Shelved = "Currently shelved for a future update",
-}

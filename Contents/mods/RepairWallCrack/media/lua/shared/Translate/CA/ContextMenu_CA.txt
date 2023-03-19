@@ -1,3 +1,0 @@
-ContextMenu_CA = {
-	ContextMenu_RepairWallCrack = "Reparar l'esquerda de la paret",
-} 

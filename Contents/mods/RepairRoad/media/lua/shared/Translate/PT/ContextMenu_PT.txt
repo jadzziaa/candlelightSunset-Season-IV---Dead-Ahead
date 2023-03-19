@@ -1,3 +1,0 @@
-ContextMenu_PT = {
-	ContextMenu_RepairRoad = "Reparar caminho",
-}

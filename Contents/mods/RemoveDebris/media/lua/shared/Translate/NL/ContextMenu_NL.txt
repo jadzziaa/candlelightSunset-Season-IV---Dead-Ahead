@@ -1,3 +1,0 @@
-ContextMenu_NL = {
-    ContextMenu_RemoveDebris = "puin verwijderen",
-} 
