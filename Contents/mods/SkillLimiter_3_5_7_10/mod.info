@@ -1,0 +1,7 @@
+name=Skill Limiter, Caps 3 5 7 10
+id=SkillLimiter_3_5_7_10
+description=Limits skills based on traits and profession. Sets the caps to 3, 5, 7, 10, respectively.
+poster=poster.png
+versionMin=41.0
+url=https://discord.gg/AyhJfGUGfU
+author=Max
