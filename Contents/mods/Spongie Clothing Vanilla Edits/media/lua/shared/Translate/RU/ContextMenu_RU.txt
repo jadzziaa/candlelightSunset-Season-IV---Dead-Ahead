@@ -1,4 +1,0 @@
-ContextMenu_RU = {
-ContextMenu_OpenJacket = "Расстегнуть",
-ContextMenu_CloseJacket = "Застегнуть"
-}

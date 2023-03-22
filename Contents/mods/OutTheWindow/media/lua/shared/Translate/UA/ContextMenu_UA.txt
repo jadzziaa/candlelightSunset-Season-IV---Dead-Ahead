@@ -1,4 +1,0 @@
-ContextMenu_UA = {
-	ContextMenu_ThrowCorpseOutTheWindow = "Викинути труп за вікно"
-	ContextMenu_ThrowCorpseOverFence = "Перекинути труп за огорожу"
-}
