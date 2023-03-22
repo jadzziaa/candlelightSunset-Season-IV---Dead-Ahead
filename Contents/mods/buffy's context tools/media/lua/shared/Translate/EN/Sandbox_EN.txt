@@ -1,5 +1,0 @@
-Sandbox_EN = {
-    Sandbox_BuffysMods = "Buffy's Mods",
-    Sandbox_TrashEnable = "Let users trash items? (All deletions are logged) ",
-    Sandbox_TrashEnable_tooltip = "Checked = ENABLED. Will allow users to delete any item. Helps reduce clutter and chunk lag.",
-}

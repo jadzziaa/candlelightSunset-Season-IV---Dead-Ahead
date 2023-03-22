@@ -1,3 +1,0 @@
-UI_PTBR = {
-    UI_optionscreen_binding_Surrender = "Surrender",
-}

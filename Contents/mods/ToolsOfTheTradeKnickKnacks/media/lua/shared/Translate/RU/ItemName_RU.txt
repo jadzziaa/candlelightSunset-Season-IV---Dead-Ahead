@@ -1,5 +1,0 @@
-ItemName_RU =
-{
-	ItemName_ToolsOfTheTradeKnickKnacks.Mjolnir = "Мьёльнир",
-	ItemName_ToolsOfTheTradeKnickKnacks.Scythe = "Коса",
-}

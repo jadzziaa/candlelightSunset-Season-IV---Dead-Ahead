@@ -1,7 +1,0 @@
-Sandbox_EN = {
-	Sandbox_DAMN_Spawns = "KI5 - Guaranteed Spawns",
-
-	Sandbox_DAMN_AllowBushmasterSpawns = "Enable Preset ARF Brushwhacker Spawns",
-
-	Sandbox_DAMN_AllowPowerChadSpawns = "Enable Preset Dash Fat Betsy Spawns",
-}

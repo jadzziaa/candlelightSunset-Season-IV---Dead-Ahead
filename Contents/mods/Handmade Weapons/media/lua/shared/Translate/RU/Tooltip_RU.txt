@@ -1,3 +1,0 @@
-Tooltip_RU = {
-	Tooltip_ChiselInfo = "Используется для обработки дерева",
-}

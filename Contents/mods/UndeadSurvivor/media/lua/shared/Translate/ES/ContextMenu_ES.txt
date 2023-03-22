@@ -1,4 +1,0 @@
-ContextMenu_ES = {
-    ContextMenu_TuckIn = "Arremangar pantalón",
-    ContextMenu_TuckOut = "Desarremangar pantalón",
-}

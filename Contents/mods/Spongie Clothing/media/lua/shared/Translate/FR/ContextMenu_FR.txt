@@ -1,4 +1,0 @@
-ContextMenu_FR = {
-ContextMenu_OpenJacket = "Ouvrir la veste",
-ContextMenu_CloseJacket = "Fermer la veste"
-}

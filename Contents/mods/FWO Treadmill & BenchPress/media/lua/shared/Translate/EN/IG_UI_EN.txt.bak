@@ -1,8 +1,0 @@
-IGUI_EN = {
-	IGUI_BenchPress= "BenchPress",
-	IGUI_BenchPress_Tooltip= "Train on BenchPress"
-}
-IGUI_EN = {
-	IGUI_Treadmill= "Treadmill",
-	IGUI_Treadmill_Tooltip= "Run on Treadmill"
-}

@@ -1,4 +1,0 @@
-UI_EN = {
-    UI_CDRB_OpenRfm = "Vehicle Radio",
-    UI_CDRB_OpenRfmWithTrueMusic = "Vehicle Radio, RMB for the Cassette Player",
-}

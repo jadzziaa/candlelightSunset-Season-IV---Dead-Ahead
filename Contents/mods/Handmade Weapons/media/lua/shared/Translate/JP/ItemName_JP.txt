@@ -1,4 +1,0 @@
-ItemName_JP = {
-	ItemName_HMWeapons.HMWoodenClub = "木製棍棒",
-	ItemName_HMWeapons.HMWoodenClubNails = "釘打ち木製棍棒",
-}

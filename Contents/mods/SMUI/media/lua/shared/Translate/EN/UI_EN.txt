@@ -1,8 +1,0 @@
-UI_EN = {
-
-ContextMenu_FlipUp = "Flip Up",
-ContextMenu_FlipDown = "Flip Down",
-ContextMenu_RollUp = "Roll Up",
-ContextMenu_RollDown = "Roll Down",
-
-}

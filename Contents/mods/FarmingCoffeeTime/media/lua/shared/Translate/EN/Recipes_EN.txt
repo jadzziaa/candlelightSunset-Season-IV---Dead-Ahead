@@ -1,4 +1,0 @@
-Recipes_EN = {
-    Recipe_Roast_Coffee = "Roast Coffee",
-    Recipe_Open_Packet_of_Coffee_Seeds = "Open Packet of Coffee Seeds",
-}

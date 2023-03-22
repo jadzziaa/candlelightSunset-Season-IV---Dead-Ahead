@@ -1,3 +1,0 @@
-ItemName_PTBR = {
-	ItemName_EasyOutfits.OutfitTag = "Etiqueta para roupas",
-}

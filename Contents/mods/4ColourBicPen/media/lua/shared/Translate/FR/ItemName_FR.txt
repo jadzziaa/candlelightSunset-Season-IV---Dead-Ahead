@@ -1,3 +1,0 @@
-ItemName_FR = {
-	ItemName_BicPen.BicPen = "Stylo Bic 4 couleurs",
-}

@@ -1,9 +1,0 @@
-IG_UI_EN = {
-
-	IGUI_VehicleNameVan_jeffersondoc = "Franklin Valuline",
-	IGUI_VehicleNameVan_meadedoc = "Franklin Valuline",
-	IGUI_VehicleName87gmcarmouredcar = "Armored Truck",
-	IGUI_VehicleNameVanSwat_louisvillepd = "Franklin Valuline",
-	IGUI_VehicleNameVanSwat_jeffersonpd = "Franklin Valuline",
-
-}

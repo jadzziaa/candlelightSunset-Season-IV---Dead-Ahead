@@ -1,3 +1,0 @@
-IG_UI_DE = {
-	IGUI_VehicleName90niva = "'90 Lada Niva Geländewagen",
-}

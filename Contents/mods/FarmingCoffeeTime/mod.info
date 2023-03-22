@@ -1,7 +1,0 @@
-name=Farming Coffee Time
-poster=FarmingCoffee.png
-id=FarmingCoffeeTime
-description=In the darkness of the night, it will keep you awake. You need to activate manually Soul Filcher's Farming Time or Awesome Time.
-versionMin=41.77
-pack=CoFarm
-require=eggonsModdingUtils

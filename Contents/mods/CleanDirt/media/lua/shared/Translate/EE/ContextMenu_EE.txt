@@ -1,3 +1,0 @@
-ContextMenu_EE = {
-    ContextMenu_CleanDirt = "Clean Dirt",
-}

@@ -1,1 +1,0 @@
-LuaEventManager.AddEvent("OnTakePillActionCompleted");

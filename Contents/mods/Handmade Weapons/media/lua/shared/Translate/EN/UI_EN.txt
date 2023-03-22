@@ -1,7 +1,0 @@
-UI_EN = {
-	UI_HWMallet = "Handmade Mallet",
-	UI_HW_SharpedStonePrior = "Prioritize in crafting"
-	UI_HW_SharpedStonePrior_Tooltip = "Use sharp stones in crafting instead of edged weapons"
-	UI_HW_SharpedStoneUnprior = "Remove priority in crafting"
-	UI_HW_SharpedStoneUnprior_Tooltip = "Use edged weapons in crafting instead of sharp stones"
-}

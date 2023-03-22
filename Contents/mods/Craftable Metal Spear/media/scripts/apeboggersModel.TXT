@@ -1,8 +1,0 @@
-module Base
-{
-    
-model SpearMetal
-	{
-		mesh = weapons/2handed/SpearMetal,
-	}
-}

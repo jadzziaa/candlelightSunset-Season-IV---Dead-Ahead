@@ -1,5 +1,0 @@
-IG_UI_DE = {
-	IGUI_VehicleName89def90 = "'89 LAND ROVER Defender 90 Geländewagen",
-	IGUI_VehicleName89def90op = "'89 LAND ROVER Defender 90 Geländewagen mit Offroadausstattung",
-	IGUI_VehiclePartdef90Spare = "Reserveradfach",
-}

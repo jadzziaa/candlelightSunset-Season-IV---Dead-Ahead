@@ -1,8 +1,0 @@
-Tooltip_EN = {
-	Tooltip_TailoringMag1Shoes = "Teaches how to make shoes and boots",
-	Tooltip_TailoringMag2Bulletproof = "Teaches how to make bulletproof vests",
-	Tooltip_TailoringMag3Knitting = "Teaches how to make knitted clothes",
-	Tooltip_TailoringMag4Wedding = "Teaches how to make wedding clothes",
-	Tooltip_TailoringMag7Bags = "Teaches how to make bags and backpacks",
-}
-	

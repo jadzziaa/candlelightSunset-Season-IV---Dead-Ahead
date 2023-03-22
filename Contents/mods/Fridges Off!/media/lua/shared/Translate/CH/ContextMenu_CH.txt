@@ -1,4 +1,0 @@
-ContextMenu_CH = {
-    ContextMenu_TurnOn = "插入",
-    ContextMenu_TurnOff = "拔",
-}

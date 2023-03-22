@@ -1,7 +1,0 @@
-IGUI_CH = {
-    IGUI_take_off_headwear="脫掉頭飾",
-    IGUI_take_off_clothes="脫掉衣服",
-    IGUI_take_off_underWear="脫掉內衣",
-    IGUI_take_off_backpack="脫掉背包",
-    IGUI_consume_water="消耗水源",
-}

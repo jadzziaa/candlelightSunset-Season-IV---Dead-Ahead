@@ -1,3 +1,0 @@
-ContextMenu_ES = {
-ContextMenu_fol_TakeABath="tomar un baño",
-}

@@ -1,7 +1,0 @@
-ContextMenu_EN = {
-    ContextMenu_TuckIn = "Tuck in",
-    ContextMenu_TuckOut = "Tuck out",
-    ContextMenu_UpHoodie = "Up Hoodie",
-    ContextMenu_DownHoodie = "Down Hoodie",
-    ContextMenu_ChangeFeatherPosition = "Change feather position",
-}

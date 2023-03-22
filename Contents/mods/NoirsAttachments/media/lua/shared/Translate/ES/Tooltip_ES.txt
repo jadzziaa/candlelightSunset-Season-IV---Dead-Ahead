@@ -1,5 +1,0 @@
-Tooltip_ES = {
-
-    Tooltip_AddSlotUnequip = "Desquipa tu mochila antes de agregar/quitar ranuras",
-
-}

@@ -1,3 +1,0 @@
-ContextMenu_EN = {
-    ContextMenu_fol_TakeABath="Take A Bath",
-}

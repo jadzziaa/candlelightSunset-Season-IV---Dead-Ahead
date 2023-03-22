@@ -1,9 +1,0 @@
-ItemName_TH = {
-
-  ItemName_newcontainers.basket = "ตะกร้า",
-  ItemName_newcontainers.jugempty = "ถังพลาสติกใส่น้ำ",
-  ItemName_newcontainers.jugfull = "ถังพลาสติกใส่น้ำ (มีน้ำ)",
-  ItemName_newcontainers.spicerack = "แท่นวางเครื่องปรุงอาหาร",
-  ItemName_newcontainers.tacklebox = "กล่องใส่เหยื่อตกปลา",
-
-}

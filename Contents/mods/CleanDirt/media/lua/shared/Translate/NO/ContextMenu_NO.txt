@@ -1,3 +1,0 @@
-ContextMenu_NO = {
-	ContextMenu_CleanDirt = "Rengjor skitten",
-}

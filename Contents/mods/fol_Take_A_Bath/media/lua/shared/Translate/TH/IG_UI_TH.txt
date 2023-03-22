@@ -1,7 +1,0 @@
-IGUI_TH = {
-    IGUI_take_off_headwear="ถอดหมวก",
-    IGUI_take_off_clothes="ถอดเสื้อผ้า",
-    IGUI_take_off_underWear="ถอดชุดชั้นใน",
-    IGUI_take_off_backpack="ถอดกระเป๋า",
-    IGUI_consume_water="ปริมาณการใช้น้ำ",
-}

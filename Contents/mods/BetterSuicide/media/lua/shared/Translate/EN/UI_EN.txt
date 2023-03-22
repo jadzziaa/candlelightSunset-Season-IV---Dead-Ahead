@@ -1,5 +1,0 @@
-UI_EN = {
-    UI_suicide_are_you_sure = "Suicide? Are you sure?",
-    UI_no_Ammo = "No ammo or need reload",
-    UI_Suicide = "Suicide"
-}

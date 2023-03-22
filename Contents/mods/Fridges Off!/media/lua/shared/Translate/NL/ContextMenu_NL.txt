@@ -1,4 +1,0 @@
-ContextMenu_NL = {
-    ContextMenu_TurnOn = "Inpluggen",
-    ContextMenu_TurnOff = "Loskoppelen",
-}

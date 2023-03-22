@@ -1,3 +1,0 @@
-ContextMenu_HU = {
-	ContextMenu_CleanDirt = "Tisztítsa meg a szennyezõdést",
-}

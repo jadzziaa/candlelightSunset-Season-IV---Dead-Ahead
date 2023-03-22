@@ -1,1 +1,0 @@
-table.insert(ZombiesZoneDefinition.Default,{name = "PinkGirl", chance=0.04});

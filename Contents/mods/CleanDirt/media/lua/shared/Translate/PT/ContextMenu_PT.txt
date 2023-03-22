@@ -1,3 +1,0 @@
-ContextMenu_PT = {
-	ContextMenu_CleanDirt = "Limpar a sujeira",
-}

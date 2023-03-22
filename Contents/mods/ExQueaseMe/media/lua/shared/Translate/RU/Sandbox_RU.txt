@@ -1,7 +1,0 @@
-Sandbox_RU = {
-    Sandbox_ExQueaseMe = "ExQuease Me",
-    Sandbox_ExQueaseMe_ReduceQuease = "Уменьшить тошноту",
-    Sandbox_ExQueaseMe_ReduceQuease_tooltip = "Коэффицент, снимаемой каждые 10 минут тошноты, на удалении от мертвых тел.<LINE>Дополнение для уже встроенного в игру. Выставьте 0 чтобы отключить.",
-    Sandbox_ExQueaseMe_ReduceQueaseGain = "Уменьшение усиления тошноты",
-    Sandbox_ExQueaseMe_ReduceQueaseGain_tooltip = "Количество тошноты, которое необходимо снимать каждые 10 минут, находясь рядом с телами, используя противогаз.<LINE>В среднем вы будете набирать 0,7 заболевания каждые 10 минут. Установите значение 0, чтобы отключить",
-}

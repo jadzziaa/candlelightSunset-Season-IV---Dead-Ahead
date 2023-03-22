@@ -1,6 +1,0 @@
-Farming_EN = {
-    Farming_NorthernLights = "Cannabis "Northern Lights"",
-    Farming_PurpleHaze = "Cannabis "Purple Haze"",
-    Farming_SourDiesel = "Cannabis "Sour Diesel"",
-    Farming_Tobacco = "Tobacco",
-}

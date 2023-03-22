@@ -1,7 +1,0 @@
-IGUI_IT = {
-IGUI_take_off_headwear="Togli copricapo",
-IGUI_take_off_clothes="Togli vestiti",
-IGUI_take_off_underWear="Togli intimo",
-IGUI_take_off_backpack="Togli zaino",
-IGUI_consume_water="Consumo acqua",
-}

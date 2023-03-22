@@ -1,4 +1,0 @@
-UI_EN = {
-    UI_Init_BrtualHandwork = "Hello: Brutal Handwork!",
-    UI_optionscreen_binding_BrtualHandwork = Brutal Handwork",
-}

@@ -1,8 +1,0 @@
-ContextMenu_ES = {
-
-	ContextMenu_Dig = "Preparar la tierra",
-	ContextMenu_DigWithHands = "Preparar la tierra con las manos",
-	ContextMenu_Sow_Seed = "Cultivas",
-	ContextMenu_Seeds = "Cultivas",
-	
-} 

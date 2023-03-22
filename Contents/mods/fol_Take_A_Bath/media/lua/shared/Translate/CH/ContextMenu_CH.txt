@@ -1,4 +1,0 @@
-
-ContextMenu_CH = {
-    ContextMenu_fol_TakeABath="洗澡",
-}

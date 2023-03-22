@@ -1,3 +1,0 @@
-DisplayName_NL = {
-    ItemName_Base.CarLighter = "Auto aansteker",
-}

@@ -1,5 +1,0 @@
-name=Industrial Oven Fix
-id=IndustrialOvenFix
-description=Fixes industrial ovens to allow placement of extractor hoods.
-poster=preview.png
-tiledef=appliances_cooking_01 3372

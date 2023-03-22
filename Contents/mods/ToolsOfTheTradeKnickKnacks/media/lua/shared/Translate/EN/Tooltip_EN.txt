@@ -1,5 +1,0 @@
-Tooltip_EN = 
-{
-	Tooltip_Mjolnir = "THOR! ODIN'S SON! PROTECTOR OF MANKIND!<br>RIDE TO MEET YOUR FATE! RAGNAROK AWAITS!",
-	Tooltip_Scythe = "I have cast away the shackles of the Arisen.<br> In form and function, I have embraced my calling...as death.",	
-}

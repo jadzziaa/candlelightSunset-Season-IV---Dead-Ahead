@@ -1,3 +1,0 @@
-DisplayName_IT = {
-    ItemName_Base.CarLighter = "Accendino per auto",
-}

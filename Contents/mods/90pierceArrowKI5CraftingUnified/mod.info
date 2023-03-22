@@ -1,6 +1,0 @@
-name='90 Pierce Arrow Pumper - Unified KI5 Crafting Category
-authors=Panopticon
-poster=preview.png
-id=90pierceArrowKI5CraftingUnified
-require=90pierceArrow
-description=Overwrites the crafting recipes to be under "KI5" instead of "ARRW".

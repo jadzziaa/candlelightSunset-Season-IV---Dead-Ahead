@@ -1,3 +1,0 @@
-DisplayName_RU = {
-    ItemName_Base.CarLighter = "Автомобильный прикуриватель",
-}

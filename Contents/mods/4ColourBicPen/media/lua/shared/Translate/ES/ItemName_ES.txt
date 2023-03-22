@@ -1,3 +1,0 @@
-ItemName_ES = {
-	ItemName_BicPen.BicPen = "Bolígrafo Bic de 4 colores",
-}

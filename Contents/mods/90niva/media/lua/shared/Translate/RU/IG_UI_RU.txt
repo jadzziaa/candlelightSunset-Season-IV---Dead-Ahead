@@ -1,3 +1,0 @@
-IG_UI_RU = {
-	IGUI_VehicleName90niva = "ВАЗ 21213 Нива",
-}

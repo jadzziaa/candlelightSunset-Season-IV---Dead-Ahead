@@ -1,3 +1,0 @@
-ContextMenu_CN = {
-	ContextMenu_CleanDirt = "«ÂΩ‡Œ€π∏",
-} 

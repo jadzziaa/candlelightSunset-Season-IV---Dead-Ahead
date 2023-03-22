@@ -1,5 +1,0 @@
-VERSION = 1,
-
-option DAMN.AllowPowerChadSpawns = {
-	type = boolean, default = true, page = DAMN_Spawns, translation = DAMN_AllowPowerChadSpawns,
-}

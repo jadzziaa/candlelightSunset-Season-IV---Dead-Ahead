@@ -1,3 +1,0 @@
-ContextMenu_CA = {
-	ContextMenu_CleanDirt = "Netejar la brutícia",
-} 

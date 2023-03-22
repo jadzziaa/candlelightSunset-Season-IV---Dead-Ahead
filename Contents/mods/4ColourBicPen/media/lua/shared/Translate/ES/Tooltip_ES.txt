@@ -1,4 +1,0 @@
-Tooltip_ES = {
-	Tooltip_BicPen = "Un bolígrafo de 4 colores, ingenioso.",
-	Tooltip_Map_NeedBicPen = "Necesitas un bolígrafo Bic de 4 colores",
-}

@@ -1,7 +1,0 @@
-IGUI_PL = {
-    IGUI_take_off_headwear="Zdejmuj nakrycie głowy",
-    IGUI_take_off_clothes="Zdejmuj ubrania",
-    IGUI_take_off_underWear="Zdejmuj bieliznę",
-    IGUI_take_off_backpack="Zdejmuj plecak",
-    IGUI_consume_water="Zużycie wody",
-}

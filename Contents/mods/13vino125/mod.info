@@ -1,6 +1,0 @@
-name='13 Yamaha Vino 125
-id=vino125
-description=This mod adds Yamaha Vino 125 with PizzaMan from GTA
-<LINE><LINE><RGB:0.0,1.0,0.0>You will need Tsar's Common Library and Autotsar Motorclub <LINE><RGB:1.0,0.0,0.0>You will NOT need Aquatsar Yacht Club or Cherbourg
-require=tsarslib,amclub
-poster=preview.png

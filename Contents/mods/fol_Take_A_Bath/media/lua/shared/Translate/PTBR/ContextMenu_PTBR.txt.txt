@@ -1,3 +1,0 @@
-ContextMenu_PTBR = {
-    ContextMenu_fol_TakeABath="Tomar banho",
-}

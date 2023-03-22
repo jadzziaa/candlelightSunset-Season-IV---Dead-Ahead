@@ -1,4 +1,0 @@
-IG_UI_EN = {
-	IGUI_NoDestroyingAllowed = "Destroying is not allowed!"
-	IGUI_NoDisassemblingAllowed = "Disassembling is not allowed!"
-}

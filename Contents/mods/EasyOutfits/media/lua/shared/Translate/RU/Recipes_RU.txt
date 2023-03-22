@@ -1,3 +1,0 @@
-Recipes_RU = {
-	Recipe_Make_Outfit_Tag = "Создать комплект одежды",
-}

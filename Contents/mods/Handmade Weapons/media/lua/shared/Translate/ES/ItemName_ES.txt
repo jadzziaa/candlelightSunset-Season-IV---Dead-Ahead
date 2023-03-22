@@ -1,4 +1,0 @@
-ItemName_ES = {
-	ItemName_HMWeapons.HMWoodenClub = "Porra de madera",
-	ItemName_HMWeapons.HMWoodenClubNails = "Porra de madera con clavos",
-}

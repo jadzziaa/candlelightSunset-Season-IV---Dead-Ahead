@@ -1,4 +1,0 @@
-IG_UI_EN = {
-	IGUI_VehicleName88jetta4doorMk2 = "'88 VW Jetta Mk2 4-Door"
-	IGUI_VehicleName88jetta2doorMk2 = "'88 VW Jetta Mk2 2-Door"
-}

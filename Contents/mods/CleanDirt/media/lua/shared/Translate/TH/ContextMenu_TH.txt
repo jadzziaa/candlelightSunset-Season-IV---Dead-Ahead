@@ -1,3 +1,0 @@
-ContextMenu_TH = {
-	ContextMenu_CleanDirt = "ทำความสะอาดสิ่งสกปรก",
-} 

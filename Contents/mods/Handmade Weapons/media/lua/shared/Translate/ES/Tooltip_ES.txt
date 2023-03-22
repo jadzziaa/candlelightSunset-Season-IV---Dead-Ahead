@@ -1,3 +1,0 @@
-Tooltip_ES = {
-	Tooltip_ChiselInfo = "Se utiliza para realizar trabajos en madera.",
-}

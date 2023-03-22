@@ -1,3 +1,0 @@
-Tooltip_EN = {
-    Tooltip_noRestrainingItem = "You need a restraining item."
-}

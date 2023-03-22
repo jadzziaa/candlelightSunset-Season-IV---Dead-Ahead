@@ -1,4 +1,0 @@
-ContextMenu_PTBR = {
-    ContextMenu_TurnOn = "Ligar",
-    ContextMenu_TurnOff = "Desligar",
-}

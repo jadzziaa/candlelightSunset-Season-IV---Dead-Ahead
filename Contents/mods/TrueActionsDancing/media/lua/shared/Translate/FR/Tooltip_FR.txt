@@ -1,3 +1,0 @@
-Tooltip_FR = {
-    Tooltip_TADcard = "Des danses spéciales seront disponibles lorsque cette carte est dans votre inventaire",
-}

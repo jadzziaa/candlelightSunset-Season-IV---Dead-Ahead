@@ -1,4 +1,0 @@
-ContextMenu_PL = {
-	ContextMenu_OpenJacket = "Rozepnij",
-	ContextMenu_CloseJacket = "Zapnij"
-}

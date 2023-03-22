@@ -1,3 +1,0 @@
-﻿DisplayName_CH = {
-    ItemName_Base.CarLighter = "點菸器",
-}

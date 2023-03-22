@@ -1,3 +1,0 @@
-DisplayName_CN = {
-    ItemName_Base.CarLighter = "汽车打火机",
-}

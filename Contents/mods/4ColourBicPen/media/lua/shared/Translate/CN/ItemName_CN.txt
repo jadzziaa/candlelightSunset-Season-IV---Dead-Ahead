@@ -1,3 +1,0 @@
-ItemName_CN = {
-	ItemName_BicPen.BicPen = "四色圆珠笔",
-}

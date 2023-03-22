@@ -1,3 +1,0 @@
-ContextMenu_CH = {
-    ContextMenu_VehicleHotwireSkillEH = "�A�ݭn�_�ͩΪ�<br>�q�u ? �ŻP���u ? �Ť~���u���C",
-}

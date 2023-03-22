@@ -1,4 +1,0 @@
-ContextMenu_CA = {
-    ContextMenu_TurnOn = "Connectar",
-    ContextMenu_TurnOff = "Desconnectar",
-}

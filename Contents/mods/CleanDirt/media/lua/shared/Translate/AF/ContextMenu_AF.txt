@@ -1,3 +1,0 @@
-ContextMenu_AF = {
-    ContextMenu_CleanDirt = "Vee die vuilheid af",
-}
