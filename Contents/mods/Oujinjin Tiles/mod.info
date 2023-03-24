@@ -1,0 +1,10 @@
+name=Oujinjin Tiles
+id=OujinjinTiles
+description=
+poster=poster.png
+pack=chinatown
+pack=vault
+pack=Chinatown_EX
+tiledef=chinatown 0216
+tiledef=Vaulttec 0217
+tiledef=Chinatown_EX 0218
