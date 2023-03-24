@@ -1,0 +1,25 @@
+module TheyKnew
+{
+
+
+import 
+{ 
+	Base 
+}
+
+
+recipe RESPAWN TheyKnew
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MysteriousSatchel,
+		Result:MysteriousSatchel,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+	
+	
+}

@@ -1,0 +1,50 @@
+module Base
+{
+	model TattooMachine
+    {
+        mesh = TattooMachine,
+        texture = TattooMachine,
+    }
+
+	model TattooMachine_Ground
+    {
+        mesh = WorldItems/Clothing/TattooMachine,
+        texture = TattooMachine,
+    }
+
+	model SmallPaintBrush
+	{
+		mesh = SmallPaintBrush,
+		texture = SmallPaintBrush,
+	}
+
+	model SmallPaintBrush_Ground
+    {
+        mesh = WorldItems/Clothing/SmallPaintBrush,
+        texture = SmallPaintBrush,
+     
+    }
+
+	model LacticAcid
+    {
+        mesh = LacticAcid,
+        texture = LacticAcid,        
+    }
+	model LacticAcid_Ground
+    {
+        mesh = WorldItems/Clothing/LacticAcid,
+        texture = LacticAcid,
+    }
+
+	model InkBoxes
+    {
+        mesh = InkBoxes,
+        texture = InkBoxes,        
+    }
+    
+	model InkBoxes_Ground
+    {
+        mesh = WorldItems/Clothing/InkBoxes,
+        texture = InkBoxes,
+    }
+}

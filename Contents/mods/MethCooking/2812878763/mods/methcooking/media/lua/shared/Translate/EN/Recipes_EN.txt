@@ -1,0 +1,5 @@
+Recipes_EN{
+	Recipe_Make_Pot_of_Base_for_Meth = "Make Pot of Base for Meth"
+	Recipe_Make_Baking_Tray_with_Meth = "Make Baking Tray with Meth"
+	Recipe_Pakage_Meth = "Pakage Meth"
+}

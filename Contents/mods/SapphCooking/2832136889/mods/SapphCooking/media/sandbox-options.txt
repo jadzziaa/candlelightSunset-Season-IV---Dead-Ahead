@@ -1,0 +1,74 @@
+VERSION = 1,
+
+option SapphCooking.NonPerishableChance 
+{
+	type = enum,
+	numValues = 6,
+	default = 3,
+
+	page = SapphCooking,
+	translation = SapphCooking_NonPerishableChance,
+	valueTranslation = SapphCooking_NPerishableChance,
+}
+option SapphCooking.PerishableChance 
+{
+	type = enum,
+	numValues = 6,
+	default = 3,
+
+	page = SapphCooking,
+	translation = SapphCooking_PerishableChance,
+	valueTranslation = SapphCooking_PerishableChance,
+}
+option SapphCooking.MagazineChance 
+{
+	type = enum,
+	numValues = 6,
+	default = 3,
+
+	page = SapphCooking,
+	translation = SapphCooking_MagazineChance,
+	valueTranslation = SapphCooking_MagazineChance,
+}
+option SapphCooking.MREChance 
+{
+	type = enum,
+	numValues = 6,
+	default = 3,
+
+	page = SapphCooking,
+	translation = SapphCooking_MREChance,
+	valueTranslation = SapphCooking_MREChance,
+}
+option SapphCooking.KitchenUtensilsChance
+{
+	type = enum,
+	numValues = 6,
+	default = 3,
+
+	page = SapphCooking,
+	translation = SapphCooking_KitchenUtensilsChance,
+	valueTranslation = SapphCooking_KitchenUtensilsChance,
+}
+option SapphCooking.AlcoholChance
+{
+	type = enum,
+	numValues = 6,
+	default = 3,
+
+	page = SapphCooking,
+	translation = SapphCooking_AlcoholChance,
+	valueTranslation = SapphCooking_AlcoholChance,
+}
+
+option SapphCooking.ZombieLootSpawn
+{
+	type = enum,
+	numValues = 6,
+	default = 3,
+
+	page = SapphCooking,
+	translation = SapphCooking_ZombieLootSpawn,
+	valueTranslation = SapphCooking_ZLootSpawn,
+}
+

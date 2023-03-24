@@ -1,0 +1,29 @@
+Tooltip_EN = {
+    Tooltip_MoreMedicalWarning86 = "Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1986)",
+    Tooltip_MoreMedicalWarning87 = "Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1987)",
+    Tooltip_MoreMedicalWarning88 = "Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1988)",
+    Tooltip_MoreMedicalWarning89 = "Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1989)",
+    Tooltip_MoreMedicalWarning90 = "Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1990)",
+    
+    Tooltip_PillsCommercialPainkillers = "Painkillers. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1986)",
+    Tooltip_PillsPrescriptionPainkillers = "Painkillers. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1987)",
+    Tooltip_PillsCaffeine = "Anti-fatigue. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1988)",
+    Tooltip_PillsCommercialAntibiotic = "Antibiotic. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1989)",
+    Tooltip_PillsAntiPoisoning = "Anti-poisoning pills. <br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1990)",
+    Tooltip_PillsCommercialSedative = "Sedative. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1986)",
+    Tooltip_PillsPharmacyPrescription = "Unknown prescription drugs. It is DANGEROUS to take.",
+    
+    Tooltip_SyretteHighGradePainkillers = "Painkillers. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1987)",
+    Tooltip_SyretteAdrenalin = "Anti-fatigue. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1988)",
+    Tooltip_SyrettePrescriptionAntibiotic = "Antibiotic. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1989)",
+    Tooltip_SyrettePrescriptionSedatives = "Sedative. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1990)",
+    Tooltip_BottleFluMedication = "Flu medication. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1986)",
+    Tooltip_PowderPackFluMedication = "Flu medication. WARNING: RISK OF LETHAL OVERDOSE.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1987)",
+    Tooltip_PowderPackHemostatic = "Bleeding agent.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1990)",
+    
+    Tooltip_Tourniquet = "WARNING: DO NOT APPLY TO THE NECK",
+    
+    Tooltip_BottleCoughSyrup = "Cough suppressants.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1988)",
+    Tooltip_NasalSpray = "Cough suppressants.<br>Manufactured by Z-Ontic Medical Breakthroughs Inc.<br>FDA approval pending (1989)",
+    
+}

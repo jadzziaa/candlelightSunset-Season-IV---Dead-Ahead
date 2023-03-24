@@ -1,0 +1,3 @@
+ContextMenu_CS = {
+	ContextMenu_VehicleHotwireSkillEH = "Pot�ebuje� kl��e nebo<br>elektrik��sk� level ? a<br>level mechanika ?<br>, aby jsi mohl nastartovat auto s kabely.",
+}

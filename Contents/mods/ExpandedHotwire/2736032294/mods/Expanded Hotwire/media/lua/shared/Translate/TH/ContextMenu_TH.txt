@@ -1,0 +1,3 @@
+ContextMenu_TH = {
+	ContextMenu_VehicleHotwireSkillEH = "ต้องมีกุญแจ<br>หรือทักษะไฟฟ้า ระดับ ?<br>และทักษะช่างยนต์ ระดับ ?<br>เพื่อทำการต่อสายไฟ",
+}

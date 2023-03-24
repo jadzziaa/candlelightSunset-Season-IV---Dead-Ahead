@@ -1,0 +1,7 @@
+name=Expanded Hotwire
+poster=poster.png
+id=expandedhotwire
+require=radialmenuapi
+versionMin=41.65
+description=Adds the ability to unhotwire a car and make keys if the player has high enough skills.
+url=

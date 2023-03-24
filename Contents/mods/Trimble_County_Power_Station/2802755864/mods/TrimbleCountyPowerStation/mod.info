@@ -1,0 +1,7 @@
+name=Trimble County Power Station & La Grange
+id=TrimbleCountyPowerStation
+description= Adds Trimble County Power Station and extends  the area following east highway of Louisville up to La Grange and Crestwood, also maybe reach Henry county in future.
+poster=poster.png
+pack=TrimbleCountyPowerStationtiles
+tiledef=TrimbleCountyPowerStationtiledefinitions 946
+require=tkTiles_01,FantaStreetTiles_01,Diederiks Tile Palooza,OujinjinTiles

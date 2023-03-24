@@ -1,0 +1,218 @@
+   module Base
+{
+
+    imports    
+    {
+		Base
+	}
+
+
+
+    item FireKlean
+    {
+        Type				=		Drainable,
+	UseDelta			=		0.5,
+        UseWhileEquipped	        =	        FALSE,
+        DisplayName			=		FireKlean gun lube,
+        Icon				=		fireklean,
+        Weight				=		0.2,
+        WorldStaticModel = FireKlean,
+    }
+
+    item CleaningKit
+    {
+        Type				=		Drainable,
+	UseDelta			=		0.25,
+        UseWhileEquipped	        =	        FALSE,
+        DisplayName			=		Gun cleaning kit,
+        Icon				=		cleaningkit,
+        Weight				=		0.6,
+        WorldStaticModel = CleaningKit,
+    }
+
+   item 762Clip
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	7.62 Magazine,
+        Icon	=	762Clip,
+        MaxAmmo = 30,
+        AmmoType = 762Bullets,x
+		StaticModel = Magazine_AK47,
+        GunType = AK47,
+        WorldStaticModel = Magazine_AK47,
+    }
+
+    item 762Box
+    {
+        Weight	=	1.2,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of 7.62 Rounds,
+        DisplayCategory = Ammo,
+        Icon	=	762AmmoBox,
+        MetalValue = 40,
+        WorldStaticModel = 762Box,
+    }
+
+    item 762Bullets
+    {
+        Count	=	5,
+        Weight	=	0.025,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	7.62 Rounds,
+        DisplayCategory = Ammo,
+        Icon	=	762Bullets,
+        MetalValue = 1,
+        WorldStaticModel = 762Bullets,
+    }
+
+    item 22Bullets
+    {
+        Count	=	10,
+        Weight	=	0.025,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	.22 Rounds,
+        DisplayCategory = Ammo,
+        Icon	=	22bullets,
+        MetalValue = 1,
+        WorldStaticModel = Bullets22lr,
+    }
+
+
+    item 22Box
+    {
+        Weight	=	0.8,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of .22 Rounds,
+        DisplayCategory = Ammo,
+        Icon	=	22box,
+        MetalValue = 40,
+        WorldStaticModel = BoxOfRounds22LR,
+    }
+	
+	item 223Clip20
+    {
+        CanStack    =    FALSE,
+        Weight    =    0.2,
+        Type    =    Normal,
+        DisplayName    =    .223 Magazine,
+        Icon    =    223Clip20,
+        MaxAmmo = 20,
+        AmmoType = 223Bullets,
+        StaticModel = Magazine_MINI14,
+        GunType = Mini14,
+        WorldStaticModel = Magazine_MINI14,
+    }
+	
+
+    	item 22ClipRifle
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	.22 Magazine,
+        Icon	=	1022Clip,
+        MaxAmmo = 10,
+        AmmoType = Base.22Bullets,
+        StaticModel = Magazine_1022,
+        GunType = Base.1022,
+        WorldStaticModel = Magazine_1022,
+    }
+
+	
+    item 308Clip
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	.308 Magazine,
+        Icon	=	BerettaClip,
+        MaxAmmo = 3,
+        AmmoType = Base.308Bullets,
+        StaticModel = GunMagazine,
+        GunType = Base.HuntingRifle,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+
+
+    item OilFilter
+    {
+        Type				=		Normal,
+        DisplayName			=		Large Oil Filter,
+        Icon				=		oilfilter,
+        Weight				=		0.8,
+        WorldStaticModel = OilFilter,
+    }
+
+
+    item OilFilter2
+    {
+        Type				=		Normal,
+        DisplayName			=		Small Oil Filter,
+        Icon				=		oilfilter2,
+        Weight				=		0.8,
+        WorldStaticModel = OilFilter2,
+    }
+
+
+    item 9mmClip20
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	TEC-9 Magazine,
+        Icon	=	BerettaClip,
+        MaxAmmo = 20,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = GunMagazine,
+        GunType = Base.Tec9,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+
+    item 9mmClip13
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	P229 Magazine,
+        Icon	=	p229clip,
+        MaxAmmo = 13,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        GunType = Base.P229,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 9mmClip17
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	G17 Magazine,
+        Icon	=	GlockClip,
+        MaxAmmo = 17,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_glock,
+        GunType = Base.Glock,
+        WorldStaticModel = Magazine_glock,
+    }
+
+    item 9mmClip30
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	MP5 Magazine,
+        Icon	=	BerettaClip,
+        MaxAmmo = 30,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = Magazine_MP5,
+        GunType = Base.MP5,
+        WorldStaticModel = Magazine_MP5,
+    }
+}

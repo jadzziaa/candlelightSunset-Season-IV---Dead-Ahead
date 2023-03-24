@@ -1,0 +1,56 @@
+sandbox_ES = {
+
+Sandbox_JSSevereInfection = "infección no letal",
+
+Sandbox_JSSevereInfection_OnsetHours = "Horario inicial de infección",
+Sandbox_JSSevereInfection_OnsetHours_tooltip = "Inicializar las horas de finalización en su punto máximo.",
+
+Sandbox_JSSevereInfection_PeakHours = "Horas de máxima actividad",
+Sandbox_JSSevereInfection_PeakHours_tooltip = "Número de horas que viajó hasta su punto máximo.",
+
+Sandbox_JSSevereInfection_RecoveryHours = "Horas de recuperación",
+Sandbox_JSSevereInfection_RecoveryHours_tooltip = "Cantidad de horas que tarda en curarse".,
+
+Sandbox_JSSevereInfection_BandageMulti = "Infección del multiplicador por vendajes",
+Sandbox_JSSevereInfection_BandageMulti_tooltip = "Aumenta la duración de la infección si no se usa con un vendaje".,
+
+Sandbox_JSSevereInfection_InfectionMulti = "Severidad de la 'herida infectada'",
+Sandbox_JSSevereInfection_InfectionMulti_tooltip = "Aumenta la gravedad de la infección si el feto no viene desinfectado(feit infecta)"",
+
+Sandbox_JSSevereInfection_FatigueRate = "Fatiga por infección",
+Sandbox_JSSevereInfection_FatigueRate_tooltip = "Cuando estás infectado, sientes más fatiga según la etapa de la infección/se suma al valor base del juego".,
+
+Sandbox_JSSevereInfection_ThirstRate = "Sentir más sed",
+Sandbox_JSSevereInfection_ThirstRate_tooltip = "Cuando estás infectado sientes más sed / si se suma al valor base del juego.",
+
+Sandbox_JSSevereInfection_HungerRate = "Sentir más hambre",
+Sandbox_JSSevereInfection_HungerRate_tooltip = "Cuando estás infectado sientes más Hambre/si se suma al valor base del juego.",
+
+Sandbox_JSSevereInfection_CalorieRate = "Pérdida de calorías",
+Sandbox_JSSevereInfection_CalorieRate_tooltip = "Cuando estoy infectado, pierdo calorías/si se suma al valor base del juego".,
+
+Sandbox_JSSevereInfection_WeightLossRate = "Pérdida de peso",
+Sandbox_JSSevereInfection_WeightLossRate_tooltip = "Vea si ha perdido peso más rápidamente si infecta/si aumenta el valor base del juego.",
+
+Sandbox_JSSevereInfection_CriticalInfPercent = "Porcentaje crítico de 'infección'",
+Sandbox_JSSevereInfection_CriticalInfPercent_tooltip = "Cuando siento que la infección alcanza su punto máximo con una parte crítica, pierdo la vida. \ Perdí la vida hasta el valor "mínimo"",
+
+Sandbox_JSSevereInfection_CriticalInfHealthMin = "Vida mínima de infección crítica",
+Sandbox_JSSevereInfection_CriticalInfHealthMin_tooltip = "La salud mínima que alcanzas cuando está en la fase crítica".,
+
+Sandbox_JSSevereInfection_MaxWakeFatigue = "Todos los cabos",
+Sandbox_JSSevereInfection_MaxWakeFatigue_tooltip = "Seleccione el máximo que su cuerpo puede soportar mientras duerme si tiene hambre o si no se despierta".,
+
+Sandbox_JSSevereInfection_SeverityRandom = "'Gravedad' aleatoria de la infección",
+Sandbox_JSSevereInfection_SeverityRandom_tooltip = "Determinar la posibilidad de la fuerza o debilidad de la infección / básicamente cada infección es diferente y afecta la gravedad de las sanciones".,
+
+Sandbox_JSSevereInfection_InfTimeRandom = "Infección de 'velocidad' grave",
+Sandbox_JSSevereInfection_InfTimeRandom_tooltip = "La infección puede ser muy rápida o lenta.",
+
+Sandbox_JSSevereInfection_BiteSeverity = "Multiplicador de mordidas",
+Sandbox_JSSevereInfection_BiteSeverity_tooltip = "Â¿Cuánto tiempo dura la infección si se muerde / elija cuánto tiempo la mordedura agrava la infección - no letal.",
+
+Sandbox_JSSevereInfection_BitesLethal = "Mordidas letales",
+Sandbox_JSSevereInfection_BitesLethal_tooltip = "Las mordeduras matan como básicas (infección clásica que mata)",
+
+}

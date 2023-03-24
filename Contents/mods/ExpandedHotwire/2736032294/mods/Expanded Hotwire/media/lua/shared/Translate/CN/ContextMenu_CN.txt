@@ -1,0 +1,3 @@
+ContextMenu_CN = {
+	ContextMenu_VehicleHotwireSkillEH = "你需要钥匙或 <br> 电工?级和 <br> 技工?级 <br> 来短接。",
+}

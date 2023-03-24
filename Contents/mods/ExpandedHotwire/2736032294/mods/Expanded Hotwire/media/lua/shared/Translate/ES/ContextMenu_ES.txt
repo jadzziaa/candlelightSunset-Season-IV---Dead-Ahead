@@ -1,0 +1,3 @@
+ContextMenu_ES = {
+	ContextMenu_VehicleHotwireSkillEH = "Necesitas las llaves o<br>Electr�nica Nvl ? y<br>Mec�nica Nvl ?<br>para hacer un puente",
+}

@@ -1,0 +1,15 @@
+	Recipes_IT = {
+
+/*Actions*/
+Recipe_Fold_Stock = "Piega il calcio",
+Recipe_Unfold_Stock = "Apri il calcio",
+
+Recipe_Saw_Off_Shotgun_Stock = "calcio di fucile segato", /*NEW-NEW*/
+
+Recipe_Open_Box_of_7.62_Ammo = "Apri scatola di munizioni 7.62",
+Recipe Place_7.62_Ammo_in_Box = "Deposita le munizioni 7.62 in una scatola", /*NEW-NEW*/
+
+Recipe_Open _ox of_.22_Ammo = "Apri scatola di munizioni .22", /*NEW-NEW*/
+Recipe_Place_.22_Ammo_in_Box = "Deposita le munizioni .22 in una scatola", /*NEW-NEW*/
+
+}

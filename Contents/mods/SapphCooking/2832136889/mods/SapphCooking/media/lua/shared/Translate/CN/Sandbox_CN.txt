@@ -1,0 +1,61 @@
+Sandbox_CN = {
+
+	Sandbox_SapphCooking = "Sapph 烹饪",
+	
+	Sandbox_SapphCooking_NonPerishableChance = "不易腐烂的食物生成几率",
+	Sandbox_SapphCooking_NPerishableChance_option1 = "极其稀有",
+	Sandbox_SapphCooking_NPerishableChance_option2 = "稀有",
+	Sandbox_SapphCooking_NPerishableChance_option3 = "正常",
+	Sandbox_SapphCooking_NPerishableChance_option4 = "较多",
+	Sandbox_SapphCooking_NPerishableChance_option5 = "丰富",
+	Sandbox_SapphCooking_NPerishableChance_option6 = "无（不推荐）",
+
+	Sandbox_SapphCooking_PerishableChance = "易腐烂的食物生成几率",
+	Sandbox_SapphCooking_PerishableChance_option1 = "极其稀有",
+	Sandbox_SapphCooking_PerishableChance_option2 = "稀有",
+	Sandbox_SapphCooking_PerishableChance_option3 = "正常",
+	Sandbox_SapphCooking_PerishableChance_option4 = "较多",
+	Sandbox_SapphCooking_PerishableChance_option5 = "丰富",
+	Sandbox_SapphCooking_PerishableChance_option6 = "无（不推荐）",
+
+	Sandbox_SapphCooking_MagazineChance = "食品杂志的生成几率",
+	Sandbox_SapphCooking_MagazineChance_option1 = "极其稀有",
+	Sandbox_SapphCooking_MagazineChance_option2 = "稀有",
+	Sandbox_SapphCooking_MagazineChance_option3 = "正常",
+	Sandbox_SapphCooking_MagazineChance_option4 = "较多",
+	Sandbox_SapphCooking_MagazineChance_option5 = "丰富",
+	Sandbox_SapphCooking_MagazineChance_option6 = "无（不推荐）",
+
+	Sandbox_SapphCooking_MREChance = "MRE军粮的生成几率",
+	Sandbox_SapphCooking_MREChance_option1 = "极其稀有",
+	Sandbox_SapphCooking_MREChance_option2 = "稀有",
+	Sandbox_SapphCooking_MREChance_option3 = "正常",
+	Sandbox_SapphCooking_MREChance_option4 = "较多",
+	Sandbox_SapphCooking_MREChance_option5 = "丰富",
+	Sandbox_SapphCooking_MREChance_option6 = "无（不推荐）",
+
+	Sandbox_SapphCooking_KitchenUtensilsChance = "厨房用品的生成几率",
+	Sandbox_SapphCooking_KitchenUtensilsChance_option1 = "极其稀有",
+	Sandbox_SapphCooking_KitchenUtensilsChance_option2 = "稀有",
+	Sandbox_SapphCooking_KitchenUtensilsChance_option3 = "正常",
+	Sandbox_SapphCooking_KitchenUtensilsChance_option4 = "较多",
+	Sandbox_SapphCooking_KitchenUtensilsChance_option5 = "丰富",
+	Sandbox_SapphCooking_KitchenUtensilsChance_option6 = "无（不推荐）",
+
+	Sandbox_SapphCooking_AlcoholChance = "酒类的生成几率",
+	Sandbox_SapphCooking_AlcoholChance_option1 = "极其稀有",
+	Sandbox_SapphCooking_AlcoholChance_option2 = "稀有",
+	Sandbox_SapphCooking_AlcoholChance_option3 = "正常",
+	Sandbox_SapphCooking_AlcoholChance_option4 = "较多",
+	Sandbox_SapphCooking_AlcoholChance_option5 = "丰富",
+	Sandbox_SapphCooking_AlcoholChance_option6 = "无（不推荐）",
+
+	Sandbox_SapphCooking_ZombieLootSpawn = "僵尸身上的战利品生成几率",
+	Sandbox_SapphCooking_ZLootSpawn_option1 = "极其稀有",
+	Sandbox_SapphCooking_ZLootSpawn_option2 = "稀有",
+	Sandbox_SapphCooking_ZLootSpawn_option3 = "正常",
+	Sandbox_SapphCooking_ZLootSpawn_option4 = "较多",
+	Sandbox_SapphCooking_ZLootSpawn_option5 = "丰富",
+	Sandbox_SapphCooking_ZLootSpawn_option6 = "无",
+	
+} 	

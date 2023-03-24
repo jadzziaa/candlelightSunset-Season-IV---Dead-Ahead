@@ -1,0 +1,11 @@
+Sandbox_EN = {
+
+    Sandbox_PlayerTradeOptions = "Player Trade Options",
+
+    Sandbox_PlayerTradeOptions_useCharacterName = "Use Character Name",
+    Sandbox_PlayerTradeOptions_useCharacterName_tooltip = "Use the character full name instead of the player username",
+
+    Sandbox_PlayerTradeOptions_disabled = "Disabled",
+    Sandbox_PlayerTradeOptions_disabled_tooltip = "Disable the trade option",
+
+}

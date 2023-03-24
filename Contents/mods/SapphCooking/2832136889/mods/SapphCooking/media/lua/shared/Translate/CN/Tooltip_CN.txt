@@ -1,0 +1,9 @@
+Tooltip_CN = {
+--
+	Tooltip_OilPan 				= "需要加热以准备使用.",
+	Tooltip_WaterPan			= "需要加热.",
+	Tooltip_AsiaFoodMagazine = "教你如何做亚洲菜的一本杂志",
+	Tooltip_EuropeFoodMagazine = "教你如何做欧洲菜的一本杂志",
+	Tooltip_PastaDoughMagazine = "教你如何做意式菜的一本杂志",
+	
+} 	

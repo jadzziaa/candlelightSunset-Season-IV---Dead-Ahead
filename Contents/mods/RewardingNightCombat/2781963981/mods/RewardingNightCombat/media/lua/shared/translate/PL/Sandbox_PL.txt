@@ -1,0 +1,109 @@
+Sandbox_PL = {
+    Sandbox_RewardingNightCombat = "Nagradzaj¹ca Walka w Nocy",
+
+    Sandbox_RewardingNightCombat_enableIndicator = "W³¹cz WskaŸnik",
+    Sandbox_RewardingNightCombat_enableIndicator_tooltip = "W prawym górnym rogu bêdzie znajdowa³ siê ksiê¿yc, wskazuj¹cy czy bonusy s¹ aktywne.",
+    Sandbox_RewardingNightCombat_draggableIndicator = "Przeci¹gany WskaŸnik",
+
+    Sandbox_RewardingNightCombat_indicatorColor = "Kolor WskaŸnika",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option1 = "Oryginalny",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option2 = "Jasny Pomaranczowy",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option3 = "Karmazynowy",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option4 = "Cyjan",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option5 = "Toksyczny Zielony",
+    Sandbox_RewardingNightCombat_indicatorColorLevels_option6 = "Ciemny Cyjan - Limonkowo Zielony",
+
+    Sandbox_RewardingNightCombat_enableTriggerSound = "DŸwiêk w momencie za³¹czenia bonusów",
+    Sandbox_RewardingNightCombat_enableTriggerSound_tooltip = "DŸwiêk, który powiadamia nas, kiedy bonusy za walke w nocy siê w³¹czaj¹.",
+
+    Sandbox_RewardingNightCombat_triggerProbability = "Prawdopodobieñstwo W³¹czenia Bonusów %",
+    Sandbox_RewardingNightCombat_triggerProbability_tooltip = "Prawdopodobieñstwo, ¿e bonusy za walke w nocy siê w³¹cz¹. Wartoœæ 100 oznacza, ¿e bêdzie siê to dzia³o ka¿dego wieczora.",
+
+    Sandbox_RewardingNightCombat_startAfterXDays = "Zacznij po X dniach",
+    Sandbox_RewardingNightCombat_startAfterXDays_tooltip = "Dzieñ w którym bonusy zaczn¹ wystêpowaæ",
+
+    Sandbox_RewardingNightCombat_startTimeSummer = "Lato - Zaczyna siê od",
+    Sandbox_RewardingNightCombat_startTimeSummer_tooltip = "Godzina, od której gracze zaczn¹ otrzymywaæ bonusy podczas lata",
+    
+    Sandbox_RewardingNightCombat_endTimeSummer   = "Lato - Koñczy siê o",
+    Sandbox_RewardingNightCombat_endTimeSummer_tooltip   = "Godzina, po której gracze przestan¹ otrzymywaæ bonusy podczas lata",
+
+    Sandbox_RewardingNightCombat_startTimeAutumn = "Jesieñ - Zaczyna siê od",
+    Sandbox_RewardingNightCombat_startTimeAutumn_tooltip = "Godzina, od której gracze zaczn¹ otrzymywaæ bonusy podczas jesieni",
+    Sandbox_RewardingNightCombat_endTimeAutumn   = "Jesieñ - Koñczy siê o",
+    Sandbox_RewardingNightCombat_endTimeAutumn_tooltip   = "Godzina, po której gracze przestan¹ otrzymywaæ bonusy podczas jesieni",
+
+    Sandbox_RewardingNightCombat_startTimeWinter = "Zima - Zaczyna siê od",
+    Sandbox_RewardingNightCombat_startTimeWinter_tooltip = "Godzina, od której gracze zaczn¹ otrzymywaæ bonusy podczas zimy",
+    Sandbox_RewardingNightCombat_endTimeWinter   = "Zima - Koñczy siê o",
+    Sandbox_RewardingNightCombat_endTimeWinter_tooltip   = "Godzina, po której gracze przestan¹ otrzymywaæ bonusy podczas zimy",
+
+    Sandbox_RewardingNightCombat_startTimeSpring = "Wiosna - Zaczyna siê od",
+    Sandbox_RewardingNightCombat_startTimeSpring_tooltip = "Godzina, od której gracze zaczn¹ otrzymywaæ bonusy podczas wiosny",
+    Sandbox_RewardingNightCombat_endTimeSpring   = "Wiosna - Koñczy siê o",
+    Sandbox_RewardingNightCombat_endTimeSpring_tooltip   = "Godzina, po której gracze przestan¹ otrzymywaæ bonusy podczas wiosny",
+
+    Sandbox_RewardingNightCombat_timeLevels_option1 = "12 AM / 00:00",
+    Sandbox_RewardingNightCombat_timeLevels_option2 = "1 AM / 01:00",
+    Sandbox_RewardingNightCombat_timeLevels_option3 = "2 AM / 02:00",
+    Sandbox_RewardingNightCombat_timeLevels_option4 = "3 AM / 03:00",
+    Sandbox_RewardingNightCombat_timeLevels_option5 = "4 AM / 04:00",
+    Sandbox_RewardingNightCombat_timeLevels_option6 = "5 AM / 05:00",
+    Sandbox_RewardingNightCombat_timeLevels_option7 = "6 AM / 06:00",
+    Sandbox_RewardingNightCombat_timeLevels_option8 = "7 AM / 07:00",
+    Sandbox_RewardingNightCombat_timeLevels_option9 = "8 AM / 08:00",
+    Sandbox_RewardingNightCombat_timeLevels_option10 = "9 AM / 09:00",
+    Sandbox_RewardingNightCombat_timeLevels_option11 = "10 AM / 10:00",
+    Sandbox_RewardingNightCombat_timeLevels_option12 = "11 AM / 11:00",
+    Sandbox_RewardingNightCombat_timeLevels_option13 = "12 PM / 12:00",
+    Sandbox_RewardingNightCombat_timeLevels_option14 = "1 PM / 13:00",
+    Sandbox_RewardingNightCombat_timeLevels_option15 = "2 PM / 14:00",
+    Sandbox_RewardingNightCombat_timeLevels_option16 = "3 PM / 15:00",
+    Sandbox_RewardingNightCombat_timeLevels_option17 = "4 PM / 16:00",
+    Sandbox_RewardingNightCombat_timeLevels_option18 = "5 PM / 17:00",
+    Sandbox_RewardingNightCombat_timeLevels_option19 = "6 PM / 18:00",
+    Sandbox_RewardingNightCombat_timeLevels_option20 = "7 PM / 19:00",
+    Sandbox_RewardingNightCombat_timeLevels_option21 = "8 PM / 20:00",
+    Sandbox_RewardingNightCombat_timeLevels_option22 = "9 PM / 21:00",
+    Sandbox_RewardingNightCombat_timeLevels_option23 = "10 PM / 22:00",
+    Sandbox_RewardingNightCombat_timeLevels_option24 = "11 PM / 23:00",
+
+    Sandbox_RewardingNightCombat_axeMultiplier = "Mno¿nik Siekier",
+    Sandbox_RewardingNightCombat_axeMultiplier_tooltip = "Bonusowy mno¿nik XP dla siekier, kiedy u¿ywane s¹ w trakcie nocy. Standardowy mno¿nik nie daje bonusu, na ten przyk³ad 1.5x daje 50% bonusu. "
+
+    Sandbox_RewardingNightCombat_longBluntMultiplier = "Mno¿nik D³ugich Obuchów",
+    Sandbox_RewardingNightCombat_longBluntMultiplier_tooltip = "Bonusowy mno¿nik XP dla d³ugich obuchów, kiedy u¿ywane s¹ w trakcie nocy. Standardowy mno¿nik nie daje bonusu, na ten przyk³ad 1.5x daje 50% bonusu."
+
+    Sandbox_RewardingNightCombat_shortBluntMultiplier = "Mno¿nik Krótkich Obuchów",
+    Sandbox_RewardingNightCombat_shortBluntMultiplier_tooltip = "Bonusowy mno¿nik XP dla krótkich obuchów, kiedy u¿ywane s¹ w trakcie nocy. Standardowy mno¿nik nie daje bonusu, na ten przyk³ad 1.5x daje 50% bonusu."
+
+    Sandbox_RewardingNightCombat_longBladeMultiplier = "Mno¿nik D³ugich Ostrzy",
+    Sandbox_RewardingNightCombat_longBladeMultiplier_tooltip = "Bonusowy mno¿nik XP dla d³ugich ostrzy, kiedy u¿ywane s¹ w trakcie nocy. Standardowy mno¿nik nie daje bonusu, na ten przyk³ad 1.5x daje 50% bonusu."
+
+    Sandbox_RewardingNightCombat_shortBladeMultiplier = "Mno¿nik Krótkich Ostrzy",
+    Sandbox_RewardingNightCombat_shortBladeMultiplier_tooltip = "Bonusowy mno¿nik XP dla krótkich ostrzy, kiedy u¿ywane s¹ w trakcie nocy. Standardowy mno¿nik nie daje bonusu, na ten przyk³ad 1.5x daje 50% bonusu."
+
+    Sandbox_RewardingNightCombat_spearMultiplier = "Mno¿nik W³óczni",
+    Sandbox_RewardingNightCombat_spearMultiplier_tooltip = "Bonusowy mno¿nik XP dla w³óczni, kiedy u¿ywane s¹ w trakcie nocy. Standardowy mno¿nik nie daje bonusu, na ten przyk³ad 1.5x daje 50% bonusu."
+
+    Sandbox_RewardingNightCombat_ignoreAimingXPNerf = "Ignoruj Standardowe Obni¿anie XP dla Celowania",
+    Sandbox_RewardingNightCombat_ignoreAimingXPNerf_tooltip = "Kiedy poziom celowania jest równy 4 lub wiêcej, gra obni¿a zdobywane doœwiadczenie; jeœli ta opcja jest w³¹czona, dodatkowe doœwiadczenie zdobyte przez moda nie jest obni¿ane.",
+    
+
+    Sandbox_RewardingNightCombat_aimingMultiplier = "Mno¿nik Celowania",
+    Sandbox_RewardingNightCombat_aimingMultiplier_tooltip = "Bonusowy mno¿nik XP dla broni palnej, kiedy u¿ywana jest w trakcie nocy. Standardowy mno¿nik nie daje bonusu, na ten przyk³ad 1.5x daje 50% bonusu.",
+
+    Sandbox_RewardingNightCombat_multiplierLevels_option1 = "Vanilla",
+    Sandbox_RewardingNightCombat_multiplierLevels_option2 = "1.1x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option3 = "1.15x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option4 = "1.25x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option5 = "1.5x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option6 = "1.75x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option7 = "2x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option8 = "2.5x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option9 = "3x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option10 = "4x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option11 = "5x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option12 = "7.5x",
+    Sandbox_RewardingNightCombat_multiplierLevels_option13 = "10x",
+}

@@ -1,0 +1,7 @@
+Sandbox_EN = {
+    Sandbox_BuffysMods = "Buffy's Mods",
+    Sandbox_portraitWhitelist = "Portrait whitelist URL ",
+    Sandbox_portraitWhitelist_tooltip = "Portrait URLs will need to contain this text to be allowed. Default is imgur",
+    Sandbox_shortDescriptions = "Enable experimental short descriptions? ",
+    Sandbox_shortDescriptions_tooltip = "Takes the first line of a bio and puts it under the users name. Only works with on hover names enabled in your server options! Experimental feature",
+}

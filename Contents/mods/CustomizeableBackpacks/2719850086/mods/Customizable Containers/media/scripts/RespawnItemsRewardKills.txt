@@ -1,0 +1,25 @@
+module BetterTraits
+{
+
+
+import 
+{ 
+	Base 
+}
+
+
+recipe RESPAWN RewardKills
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		PackerBag,
+		Result:PackerBag,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+
+}

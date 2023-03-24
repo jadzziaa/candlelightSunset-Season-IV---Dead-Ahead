@@ -1,0 +1,57 @@
+module Base  
+{
+
+	model OverlookFireAxe 
+	{
+		mesh = weapons/2handed/OFireAxe,
+                                        texture = weapons/2handed/OFireAxe,
+
+                attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+	}
+
+	model BatLeth 
+	{
+		mesh = weapons/2handed/BatLeth,
+                                        texture = weapons/2handed/BatLeth_tex,
+
+                attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+
+	}
+
+	model MekLeth 
+	{
+		mesh = weapons/1handed/mekleth,
+                                        texture = weapons/mekleth_tex,
+
+                attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+	}
+	
+	model AZZK_pistol 
+	{
+		mesh = weapons/firearm/AZZK,
+                                        texture = weapons/1handed/firearm/AZZK_tex,
+
+                attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+	}
+
+	
+}

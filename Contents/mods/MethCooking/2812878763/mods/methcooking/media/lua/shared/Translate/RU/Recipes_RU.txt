@@ -1,0 +1,7 @@
+Recipes_RU{
+	Recipe_Make_Pot_of_Base_for_Meth = "Сделать основу для мета"
+	Recipe_Make_Pot_of_Base_for_Blue_Meth = "Сделать основу для синего мета"
+	Recipe_Make_Pot_of_Base_for_Pepper_Meth = "Сделать основу для мета с перцем"
+	Recipe_Make_Baking_Tray_with_Meth = "Налить мет на противень"
+	Recipe_Pakage_Meth = "Расфасовать мет"
+}

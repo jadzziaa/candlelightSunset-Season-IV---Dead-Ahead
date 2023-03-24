@@ -1,0 +1,1125 @@
+module Base
+{
+/****************************** This file is for 3D Static Models. (Hand eating/Crafting) ******************************/	
+	model SaucepanChocolateHand
+	{
+		mesh = Worlditems/SaucepanChocolateHand,
+		texture = Worlditems/SaucePanChocolate,
+		scale = 0.0045,
+	}
+	model SaucepanCheeseHand
+	{
+		mesh = Worlditems/SaucepanOilHand,
+		texture = Worlditems/SaucePanQueso,
+		scale = 0.0045,
+	}
+	model CarvingForkHand
+	{
+		mesh = Worlditems/H_CarvingFork,
+		texture = Worlditems/CarvingFork,
+		scale = 0.0045,
+	}
+	model BowlTortelliniHand
+	{
+		mesh = Worlditems/BowlTortelliniHand,
+		texture = Worlditems/BowlPasta,
+		scale = 0.0045,
+	}
+	model BowlSpaguettiMeatballsHand
+	{
+		mesh = Worlditems/BowlSpaguettiMeatballHand,
+		texture = Worlditems/BowlSpaguettiMeatBalls,
+		scale = 0.0045,
+	}
+	model BowlSpaguettiHand
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlSpaguetti,
+		scale = 0.0045,
+	}
+	model BowlRavioliHand
+	{
+		mesh = Worlditems/BowlRavioliHand,
+		texture = Worlditems/BowlPasta,
+		scale = 0.0045,
+	}
+	model BowlMashedPotatoesHand
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlQueso,
+		scale = 0.0045,
+	}
+	model BowlFriedRiceHand
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlFriedRice,
+		scale = 0.0045,
+	}
+	model BowlBeefStewHand
+	{
+		mesh = Worlditems/BowlDipHand,
+		texture = Worlditems/BowlBeefStew,
+		scale = 0.0045,
+	}
+	model H_BrownRiceBowl
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlBrownRice,
+		scale = 0.0045,
+	}
+	model H_LowballGlass_Water
+	{
+		mesh = Worlditems/H_LowballGlass_Full,
+		texture = Worlditems/LowballGlass_Water,
+		scale = 0.0045,
+	}
+	model H_CocktailGlass_Water
+	{
+		mesh = Worlditems/H_CocktailGlass_Full,
+		texture = Worlditems/LowballGlass_Water,
+		scale = 0.0045,
+	}
+	model H_BakedPotato
+	{
+		mesh = Worlditems/H_BakedPotato,
+		texture = Worlditems/BakedPotato,
+		scale = 0.0045,
+	}
+	model H_BowlChickenStroganoff
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlofChickenStroganoff,
+		scale = 0.0045,
+	}
+	model H_SaucepanChickenStroganoff
+	{
+		mesh = Worlditems/SaucepanOilHand,
+		texture = Worlditems/SaucePanChickenStroganoff,
+		scale = 0.0045,
+	}
+	model H_BowlRiceChickenStroganoff
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlofRiceChickenStroganoff,
+		scale = 0.0045,
+	}
+	model H_PlateHuevos
+	{
+		mesh = Worlditems/H_Plate_HuevosRancheros,
+		texture = Worlditems/PlateHuevosHancheros,
+		scale = 0.0045,
+	}
+	model H_PlateFancyHuevos
+	{
+		mesh = Worlditems/H_Plate_HuevosRancheros,
+		texture = Worlditems/PlateFancyHuevosHancheros,
+		scale = 0.0045,
+	}
+	model H_PlateBlueHuevos
+	{
+		mesh = Worlditems/H_Plate_HuevosRancheros,
+		texture = Worlditems/PlateBlueHuevosHancheros,
+		scale = 0.0045,
+	}
+	model H_PlateOrangeHuevos
+	{
+		mesh = Worlditems/H_Plate_HuevosRancheros,
+		texture = Worlditems/PlateOrangeHuevosHancheros,
+		scale = 0.0045,
+	}
+	model H_Churros
+	{
+		mesh = Worlditems/H_Churros,
+		texture = Worlditems/Churros,
+		scale = 0.0045,
+	}
+	model H_ChurrosChocolate
+	{
+		mesh = Worlditems/H_Churros,
+		texture = Worlditems/ChurrosDipChocolate,
+		scale = 0.0045,
+	}
+	model H_PoutineBowl
+	{
+		mesh = Worlditems/H_BowlPoutine,
+		texture = Worlditems/BowlPoutine,
+		scale = 0.0045,
+	}
+	model H_TiramisuPan
+	{
+		mesh = Worlditems/H_TiramisuPan,
+		texture = Worlditems/TiramisuPan,
+		scale = 0.0045,
+	}
+	model H_TiramisuPiece
+	{
+		mesh = Worlditems/H_TiramisuPiece,
+		texture = Worlditems/TiramisuPiece,
+		scale = 0.0045,
+	}
+	model H_Ladyfingers
+	{
+		mesh = Worlditems/H_Ladyfingers,
+		texture = Worlditems/Ladyfingers,
+		scale = 0.0045,
+	}
+	model H_BowlofJello_Lime
+	{
+		mesh = Worlditems/H_BowlofJello,
+		texture = Worlditems/BowlofJello_Lime,
+		scale = 0.0045,
+	}
+	model H_BowlofJello_Strawberry
+	{
+		mesh = Worlditems/H_BowlofJello,
+		texture = Worlditems/BowlofJello_Strawberry,
+		scale = 0.0045,
+	}
+	model H_BowlofJello_Orange
+	{
+		mesh = Worlditems/H_BowlofJello,
+		texture = Worlditems/BowlofJello_Orange,
+		scale = 0.0045,
+	}
+	model H_BowlofJello_Pineapple
+	{
+		mesh = Worlditems/H_BowlJello,
+		texture = Worlditems/BowlofJello_Pineapple,
+		scale = 0.0045,
+	}
+	model H_BowlofJello_Grape
+	{
+		mesh = Worlditems/H_BowlofJello,
+		texture = Worlditems/BowlofJello_Grape,
+		scale = 0.0045,
+	}
+	model H_BowlofPuddingChocolate
+	{
+		mesh = Worlditems/H_BowlofPudding,
+		texture = Worlditems/BowlofChocolatePudding,
+		scale = 0.0045,
+	}
+	model H_BowlofPuddingCaramel
+	{
+		mesh = Worlditems/H_BowlofPudding,
+		texture = Worlditems/BowlofCaramelPudding,
+		scale = 0.0045,
+	}
+	model H_BowlofCremeBrulee
+	{
+		mesh = Worlditems/BowlDipHand,
+		texture = Worlditems/BowlofCremeBrulee,
+		scale = 0.0045,
+	}
+	model H_CoffeeThermos
+	{
+		mesh = Worlditems/H_CoffeeThermos,
+		texture = Worlditems/DevAluminum,
+		scale = 0.0045,
+	}
+	model H_PlateBaconEggs
+	{
+		mesh = Worlditems/H_Plate_BaconEggs,
+		texture = Worlditems/PlateBaconEggs,
+		scale = 0.0045,
+	}
+	model H_PlateFancyBaconEggs
+	{
+		mesh = Worlditems/H_Plate_BaconEggs,
+		texture = Worlditems/PlateFancyBaconEggs,
+		scale = 0.0045,
+	}
+	model H_PlateBlueBaconEggs
+	{
+		mesh = Worlditems/H_Plate_BaconEggs,
+		texture = Worlditems/PlateBlueBaconEggs,
+		scale = 0.0045,
+	}
+	model H_PlateOrangeBaconEggs
+	{
+		mesh = Worlditems/H_Plate_BaconEggs,
+		texture = Worlditems/PlateOrangeBaconEggs,
+		scale = 0.0045,
+	}
+	model H_FryingPanBaconEggs
+	{
+		mesh = Worlditems/H_FryingPan_BaconEggs,
+		texture = Worlditems/FryingPanBaconEggs,
+		scale = 0.0045,
+	}
+	model H_CoffeeGrinder
+	{
+		mesh = Worlditems/H_CoffeeGrinder,
+		texture = Worlditems/DevAluminum,
+		scale = 0.0045,
+	}
+	model H_Fries
+	{
+		mesh = Worlditems/H_Fries,
+		texture = Worlditems/PotatoPeeled,
+		scale = 0.0045,
+	}
+	model H_BowlofCurryRice
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlofCurryRice,
+		scale = 0.0045,
+	}
+	model H_BowlofCurry
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlofCurry,
+		scale = 0.0045,
+	}
+	model H_BowlofRiceBeans
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlRiceBeans,
+		scale = 0.0045,
+	}
+	model H_BowlofBorscht
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlBorscht,
+		scale = 0.0045,
+	}
+	model H_SaucepanwithBorscht
+	{
+		mesh = Worlditems/SaucepanOilHand,
+		texture = Worlditems/SaucePanBorscht,
+		scale = 0.0045,
+	}
+	model H_CurryBread
+	{
+		mesh = Worlditems/H_Bread,
+		texture = Worlditems/CurryBread,
+		scale = 0.0045,
+	}
+	model H_TinCaviar
+	{
+		mesh = Worlditems/H_CreamCheese,
+		texture = Worlditems/TinCaviarOpen,
+		scale = 0.0045,
+	}
+	model H_CanofBeets
+	{
+		mesh = Worlditems/H_GenericCan,
+		texture = Worlditems/CannedBeets,
+		scale = 0.0045,
+	}
+	model H_EuropeanMag
+	{
+		mesh = Worlditems/H_Magazine,
+		texture = Worlditems/MagazineOpen,
+		scale = 0.0045,
+	}
+	model H_AsianMag
+	{
+		mesh = Worlditems/H_Magazine,
+		texture = Worlditems/MagazineOpen,
+		scale = 0.0045,
+	}
+	model H_Ratatouille
+	{
+		mesh = Worlditems/H_LasagnaPan,
+		texture = Worlditems/RatatouillePan,
+		scale = 0.0045,
+	}
+	model H_RatatouillePiece
+	{
+		mesh = Worlditems/H_RatatouillePiece,
+		texture = Worlditems/RatatouillePiece,
+		scale = 0.0045,
+	}
+	model H_BottleRum
+	{
+		mesh = Worlditems/H_RumBottle,
+		texture = Worlditems/RumBottle,
+		scale = 0.0045,
+	}
+	model H_BottleCola
+	{
+		mesh = Worlditems/H_ColaBottle,
+		texture = Worlditems/ColaBottle,
+		scale = 0.0045,
+	}
+	model H_BottleColaMilk
+	{
+		mesh = Worlditems/H_ColaBottle,
+		texture = Worlditems/ColaBottleEmpty,
+		scale = 0.0045,
+	}
+	model H_TenderizedMeat
+	{
+		mesh = Worlditems/H_ThinMeat,
+		texture = Worlditems/MeatSteak,
+		scale = 0.0045,
+	}
+	model H_BreadedTenderizedMeat
+	{
+		mesh = Worlditems/H_ThinMeat,
+		texture = Worlditems/BreadCrumbs,
+		scale = 0.0045,
+	}
+	model H_Schnitzel
+	{
+		mesh = Worlditems/H_ThinMeat,
+		texture = Worlditems/FriedMeat,
+		scale = 0.0045,
+	}
+	model H_WildGarlicBreadPiece
+	{
+		mesh = Worlditems/H_Bread,
+		texture = Worlditems/GarlicBreadSlice,
+		scale = 0.0045,
+	}
+	model H_ToastBread
+	{
+		mesh = Worlditems/H_Bread,
+		texture = Worlditems/ToastedBread,
+		scale = 0.0045,
+	}
+	model H_SaucepanwithJapaneseCurry
+	{
+		mesh = Worlditems/SaucepanOilHand,
+		texture = Worlditems/SaucePanCurryChicken,
+		scale = 0.0045,
+	}
+	model H_BowlMashedPotatoMeatballs
+	{
+		mesh = Worlditems/BowlSpaguettiMeatBallHand,
+		texture = Worlditems/BowlMashedPotatoMeatballs,
+		scale = 0.0045,
+	}
+	model H_AlcoholVodka
+	{
+		mesh = Worlditems/H_AlcoholBottle,
+		texture = Worlditems/VodkaBottle,
+		scale = 0.0045,
+	}
+	model H_AlcoholTequila
+	{
+		mesh = Worlditems/H_AlcoholBottle,
+		texture = Worlditems/TequilaBottle,
+		scale = 0.0045,
+	}
+	model H_AlcoholGin
+	{
+		mesh = Worlditems/H_AlcoholBottle,
+		texture = Worlditems/GinBottle,
+		scale = 0.0045,
+	}
+	model H_AlcoholCachaca
+	{
+		mesh = Worlditems/H_AlcoholBottle,
+		texture = Worlditems/CachacaBottle,
+		scale = 0.0045,
+	}
+	model H_SakeBottle
+	{
+		mesh = Worlditems/H_AlcoholBottle,
+		texture = Worlditems/SakeBottleFull,
+		scale = 0.0045,
+	}
+	model H_WokPanYakisoba
+	{
+		mesh = Worlditems/H_WokFull,
+		texture = Worlditems/Wokpan_Yakisoba,
+		scale = 0.0045,
+	}
+	model H_WokPanKungPao
+	{
+		mesh = Worlditems/H_WokFull,
+		texture = Worlditems/Wokpan_KungPao,
+		scale = 0.0045,
+	}
+	model H_PanShuiZhuYu
+	{
+		mesh = Worlditems/SaucepanOilHand,
+		texture = Worlditems/SaucePanShuiZhuYu,
+		scale = 0.0045,
+	}
+	model H_BowlKungPao
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlKungPao,
+		scale = 0.0045,
+	}
+	model H_BowlYakisoba
+	{
+		mesh = Worlditems/BowlFoodHand,
+		texture = Worlditems/BowlYakisoba,
+		scale = 0.0045,
+	}
+	model H_BowlShuiZhuYu
+	{
+		mesh = Worlditems/BowlDipHand,
+		texture = Worlditems/BowlShuiZhuYu,
+		scale = 0.0045,
+	}
+	model H_CheeseSandwich
+	{
+		mesh = Worlditems/H_Sandwich,
+		texture = Worlditems/CheeseSandwich,
+		scale = 0.0045,
+	}
+	model H_GrilledCheese
+	{
+		mesh = Worlditems/H_Sandwich,
+		texture = Worlditems/GrilledCheese,
+		scale = 0.0045,
+	}
+	model H_CheeseSandwichPiece
+	{
+		mesh = Worlditems/H_SandwichPiece,
+		texture = Worlditems/GrilledSandwich,
+		scale = 0.0045,
+	}
+	model H_SandwichPiece
+	{
+		mesh = Worlditems/H_SandwichPiece,
+		texture = Worlditems/CheeseSandwich,
+		scale = 0.0045,
+	}
+	model H_MRE_Int
+	{
+		mesh = Worlditems/H_MRE_Open,
+		texture = Worlditems/MRE_Int,
+		scale = 0.0045,
+	}
+	model H_MRE_Int2
+	{
+		mesh = Worlditems/H_MRE_Open,
+		texture = Worlditems/MRE_Int2,
+		scale = 0.0045,
+	}
+	model H_MRE_Rice
+	{
+		mesh = Worlditems/H_MRE_Open,
+		texture = Worlditems/MRE_Rice,
+		scale = 0.0045,
+	}
+	model H_MRE_BeefStew
+	{
+		mesh = Worlditems/H_MRE_Open,
+		texture = Worlditems/MRE_BeefStew,
+		scale = 0.0045,
+	}
+	model H_MRE_Chilli
+	{
+		mesh = Worlditems/H_MRE_Open,
+		texture = Worlditems/MRE_Chilli,
+		scale = 0.0045,
+	}
+	model H_MRE_Tortellini
+	{
+		mesh = Worlditems/H_MRE_Open,
+		texture = Worlditems/MRE_Tortellini,
+		scale = 0.0045,
+	}
+	model H_MRE_Spaguetti
+	{
+		mesh = Worlditems/H_MRE_Open,
+		texture = Worlditems/MRE_Spaguetti,
+		scale = 0.0045,
+	}
+	model H_MRE_Sausages
+	{
+		mesh = Worlditems/H_MRE_Open,
+		texture = Worlditems/MRE_Sausages,
+		scale = 0.0045,
+	}
+	model H_FryingPanRice
+	{
+		mesh = Worlditems/H_FryingPanFood,
+		texture = Worlditems/FriedRicePan,
+		scale = 0.0045,
+	}
+	model H_HotdogBun
+	{
+		mesh = Worlditems/H_HotdogBun,
+		texture = Worlditems/HotdogBun,
+		scale = 0.0045,
+	}
+	model H_LasagnaPanEat
+	{
+		mesh = Worlditems/H_LasagnaPan,
+		texture = Worlditems/LasagnaPan,
+		scale = 0.0045,
+	}
+	model H_LasagnaPanUncookedEat
+	{
+		mesh = Worlditems/H_LasagnaPan,
+		texture = Worlditems/LasagnaPanUncooked,
+		scale = 0.0045,
+	}
+	model H_Lasagna
+	{
+		mesh = Worlditems/H_LasagnaPiece,
+		texture = Worlditems/LasagnaPiece,
+		scale = 0.0045,
+	}
+	model H_CandyCigaretteSingle
+	{
+		mesh = Worlditems/H_CandyCigarette,
+		texture = Worlditems/CandyCigarette,
+		scale = 0.0045,
+	}
+	model H_BottleDrinkmix_Apple
+	{
+		mesh = Worlditems/H_EmptyBottle,
+		texture = Worlditems/WaterBottleApple,
+		scale = 0.0045,
+	}
+	model H_BottleDrinkmix_Lemonade
+	{
+		mesh = Worlditems/H_EmptyBottle,
+		texture = Worlditems/WaterBottleLemonade,
+		scale = 0.0045,
+	}
+	model H_BottleDrinkmix_Orange
+	{
+		mesh = Worlditems/H_EmptyBottle,
+		texture = Worlditems/WaterBottleOrangemix,
+		scale = 0.0045,
+	}
+	model H_BottleDrinkmix_Grape
+	{
+		mesh = Worlditems/H_EmptyBottle,
+		texture = Worlditems/WaterBottleGrape,
+		scale = 0.0045,
+	}
+	model H_BottleDrinkmix_Peach
+	{
+		mesh = Worlditems/H_EmptyBottle,
+		texture = Worlditems/WaterBottlePeach,
+		scale = 0.0045,
+	}
+	model H_BottleDrinkmix_Strawberry
+	{
+		mesh = Worlditems/H_EmptyBottle,
+		texture = Worlditems/WaterBottleStrawberry,
+		scale = 0.0045,
+	}
+	model H_BottleDrinkmix_Pineapple
+	{
+		mesh = Worlditems/H_EmptyBottle,
+		texture = Worlditems/WaterBottlePineapple,
+		scale = 0.0045,
+	}
+	model H_BottleDrinkmix_Watermelon
+	{
+		mesh = Worlditems/H_EmptyBottle,
+		texture = Worlditems/WaterBottleWatermelon,
+		scale = 0.0045,
+	}
+	model H_CocktailGlass_Lightgreen
+	{
+		mesh = Worlditems/H_CocktailGlass_Full,
+		texture = Worlditems/LowballGlass_Lightgreen,
+		scale = 0.0045,
+	}
+	model H_CocktailGlass_Gray
+	{
+		mesh = Worlditems/H_CocktailGlass_Full,
+		texture = Worlditems/LowballGlass_Gray,
+		scale = 0.0045,
+	}
+	model H_CocktailGlass_Orange
+	{
+		mesh = Worlditems/H_CocktailGlass_Full,
+		texture = Worlditems/LowballGlass_Orange,
+		scale = 0.0045,
+	}
+	model H_LowballGlass_Black
+	{
+		mesh = Worlditems/H_LowballGlass_Full,
+		texture = Worlditems/LowballGlass_Black,
+		scale = 0.0045,
+	}
+	model H_LowballGlass_Red
+	{
+		mesh = Worlditems/H_LowballGlass_Full,
+		texture = Worlditems/LowballGlass_Red,
+		scale = 0.0045,
+	}
+	model H_LowballGlass_Gray
+	{
+		mesh = Worlditems/H_LowballGlass_Full,
+		texture = Worlditems/LowballGlass_Gray,
+		scale = 0.0045,
+	}
+	model H_LowballGlass_Orange
+	{
+		mesh = Worlditems/H_LowballGlass_Full,
+		texture = Worlditems/LowballGlass_Orange,
+		scale = 0.0045,
+	}
+	model H_LowballGlass_Lightgreen
+	{
+		mesh = Worlditems/H_LowballGlass_Full,
+		texture = Worlditems/LowballGlass_Lightgreen,
+		scale = 0.0045,
+	}
+	model H_LowballGlass_Yellow
+	{
+		mesh = Worlditems/H_LowballGlass_Full,
+		texture = Worlditems/LowballGlass_Yellow,
+		scale = 0.0045,
+	}
+	model H_MeatTenderizer
+	{
+		mesh = Worlditems/H_MeatTenderizer,
+		texture = Worlditems/Tenderizer,
+		scale = 0.0045,
+	}
+	model H_PlasticSpork
+	{
+		mesh = Worlditems/H_PlasticSpork,
+		texture = Worlditems/LowballGlass_Empty,
+		scale = 0.0045,
+	}
+	model H_AlmondMilk
+	{
+		mesh = Worlditems/H_Broth,
+		texture = Worlditems/AlmondMilk,
+		scale = 0.0045,
+	}
+	model H_StrawberryMilk
+	{
+		mesh = Worlditems/H_Broth,
+		texture = Worlditems/StrawberryMilk,
+		scale = 0.0045,
+	}
+	model H_Laddle
+	{
+		mesh = Worlditems/H_Laddle,
+		texture = Worlditems/Laddle,
+		scale = 0.0045,
+	}
+	model WoodenSpoonHand
+	{
+		mesh = Worlditems/WoodenSpoonHand,	
+		texture = Worlditems/GenericWood,
+		scale = 0.0045,
+	}
+	model H_Onigiri
+	{
+		mesh = Worlditems/OnigiriHand,
+		texture = Worlditems/Onigiri,
+		scale = 0.0045,
+	}
+	model VegetableSushiHand
+	{
+		mesh = Worlditems/SushiHand,
+		texture = Worlditems/Sushi,
+		scale = 0.0045,
+	}
+	model SaucepanBeefStewHand
+	{
+		mesh = Worlditems/SaucepanOilHand,
+		texture = Worlditems/SaucePanBeefStew,
+		scale = 0.0045,
+	}
+	model SaucepanMeltedChocolateHand
+	{
+		mesh = Worlditems/SaucepanOilHand,
+		texture = Worlditems/SaucePanChocolateMelted,
+		scale = 0.0045,
+	}
+	model SaucepanYellowHand
+	{
+		mesh = Worlditems/SaucepanFoodHand,
+		texture = Worlditems/SaucePanQueso,
+		scale = 0.0045,
+	}
+	model WoodenSpoonHand
+	{
+		mesh = Worlditems/WoodenSpoonHand,	
+		texture = Worlditems/GenericWood,
+		scale = 0.0045,
+	}
+	model H_WhiteChocolate
+	{
+		mesh = Worlditems/H_WhiteChocolate,
+		texture = Worlditems/WhiteChocolate,
+		scale = 0.0045,
+	}
+	model H_WokFriedRice
+	{
+		mesh = Worlditems/H_WokFull,
+		texture = Worlditems/Wokpan,
+		scale = 0.0045,
+	}
+	model H_EnergyDrink
+	{
+		mesh = Worlditems/H_GenericPopCan,
+		texture = Worlditems/EnergyDrink,
+		scale = 0.0045,
+	}
+	model H_PipingBag
+	{
+		mesh = Worlditems/H_PipingBag,
+		texture = Worlditems/PipingBag,
+		scale = 0.0045,
+	}
+	model H_Gingerbread_Man
+	{
+		mesh = Worlditems/H_Gingerbread_Man,
+		texture = Worlditems/Gingerbread,
+		scale = 0.0045,
+	}
+	model H_SmallEgg
+	{
+		mesh = Worlditems/H_Small_Egg,
+		texture = Worlditems/Bonbon,
+		scale = 0.0045,
+	}
+	model H_MediumEgg
+	{
+		mesh = Worlditems/H_Medium_Egg,
+		texture = Worlditems/Bonbon,
+		scale = 0.0045,
+	}
+	model H_LargeEgg
+	{
+		mesh = Worlditems/H_Large_Egg,
+		texture = Worlditems/Bonbon,
+		scale = 0.0045,
+	}
+	model H_Bonbon
+	{
+		mesh = Worlditems/H_Bonbon,
+		texture = Worlditems/Bonbon,
+		scale = 0.0045,
+	}
+	model H_WoodSkewer_Meat
+	{
+		mesh = Worlditems/H_WoodSkewer_Cubes,
+		texture = Worlditems/SkewerMeat2,
+		scale = 0.0045,
+	}
+	model H_WoodSkewer_Vegetable
+	{
+		mesh = Worlditems/H_WoodSkewer_Cubes,
+		texture = Worlditems/SkewerVegetable,
+		scale = 0.0045,
+	}
+	model H_WoodSkewer
+	{
+		mesh = Worlditems/H_WoodSkewer,
+		texture = Worlditems/Skewer,
+		scale = 0.0045,
+	}
+	model H_WoodSkewer_Insect
+	{
+		mesh = Worlditems/H_WoodSkewerInsect,
+		texture = Worlditems/Skewer,
+		scale = 0.0045,
+	}
+	model H_WoodSkewer_Rat
+	{
+		mesh = Worlditems/H_WoodSkewerRat,
+		texture = Worlditems/SkewerRat,
+		scale = 0.0045,
+	}
+	model H_WoodSkewer_Rat_Cooked
+	{
+		mesh = Worlditems/H_WoodSkewerRat,
+		texture = Worlditems/SkewerRatCooked,
+		scale = 0.0045,
+	}
+	model H_WoodSkewer_Marshmallow
+	{
+		mesh = Worlditems/H_WoodSkewer_Marshmallow,
+		texture = Worlditems/SkewerMeat,
+		scale = 0.0045,
+	}
+	model H_WoodSkewer_Marshmallow_Cooked
+	{
+		mesh = Worlditems/H_WoodSkewer_Marshmallow,
+		texture = Worlditems/SkewerMeat2,
+		scale = 0.0045,
+	}
+	model H_GBWall
+	{
+		mesh = Worlditems/H_GBWall,
+		texture = Worlditems/Gingerbread,
+		scale = 0.0045,
+	}
+	model H_PChef01
+	{
+		mesh = Worlditems/H_PChefKnife02,
+		texture = Worlditems/ChefKnife1,
+		scale = 0.0045,
+	}
+	model H_PChef02
+	{
+		mesh = Worlditems/H_PChefKnife01,
+		texture = Worlditems/ChefKnife2,
+		scale = 0.0045,
+	}
+	model H_PChef03
+	{
+		mesh = Worlditems/H_PChefKnife01,
+		texture = Worlditems/ChefKnife3,
+		scale = 0.0045,
+	}
+	model H_PizzaCutter
+	{
+		mesh = Worlditems/H_Pizza_Cutter,
+		texture = Worlditems/Pzcutter,
+		scale = 0.0045,
+	}
+	model H_MessTray
+	{
+		mesh = Worlditems/H_MessTray,
+		texture = Worlditems/DevAluminum,
+		scale = 0.0045,
+	}
+	model H_IcecreamSandwich
+	{
+		mesh = Worlditems/H_IcecreamSandwich,
+		texture = Worlditems/Gingerbread,
+		scale = 0.0045,
+	}
+	model H_IcecreamSandwich_Melted
+	{
+		mesh = Worlditems/H_IcecreamSandwich_Melted,
+		texture = Worlditems/Gingerbread,
+		scale = 0.0045,
+	}
+	model H_SourCream
+	{
+		mesh = Worlditems/H_CreamCheese,
+		texture = Worlditems/SourCreamPotOpen,
+		scale = 0.0045,
+	}
+	model H_BowlCream
+	{
+		mesh = Worlditems/BowlDipHand,
+		texture = Worlditems/BowlCream,
+		scale = 0.0045,
+	}
+	model H_CarrotPan_Candle
+	{
+		mesh = Worlditems/H_CakePan_Candle,
+		texture = Worlditems/Pan_CarrotCake,
+		scale = 0.0045,
+	}
+	model H_ChocolatePan_Candle
+	{
+		mesh = Worlditems/H_CakePan_Candle,
+		texture = Worlditems/Pan_ChocolateCake,
+		scale = 0.0045,
+	}
+	model H_Pretzel
+	{
+		mesh = Worlditems/H_Pretzel,
+		texture = Worlditems/devPretzel,
+		scale = 0.0045,
+	}
+	model H_JarKimchi
+	{
+		mesh = Worlditems/JarFoodOpen,
+		texture = Worlditems/JarKimchiOpen,
+		scale = 0.0045,
+	}
+	model H_TurkeyLegs
+	{
+		mesh = Worlditems/H_TurkeyLegs,
+		texture = Worlditems/TurkeyLegsCooked,
+		scale = 0.0045,
+	}
+	model H_MisoPot
+	{
+		mesh = Worlditems/H_CreamCheese,
+		texture = Worlditems/MisoPotOpen,
+		scale = 0.0045,
+	}
+	model H_Takoyaki
+	{
+		mesh = Worlditems/H_Meatballs,
+		texture = Worlditems/Takoyaki,
+		scale = 0.0045,
+	}
+	model H_Meatballs
+	{
+		mesh = Worlditems/H_Meatballs,
+		texture = Worlditems/MeatPatty,
+		scale = 0.0045,
+	}
+	model H_MeatballsCooked
+	{
+		mesh = Worlditems/H_Meatballs,
+		texture = Worlditems/MeatPattyCooked,
+		scale = 0.0045,
+	}
+	model H_EclairChocolate
+	{
+		mesh = Worlditems/H_Eclair,
+		texture = Worlditems/EclairChocolate,
+		scale = 0.0045,
+	}
+	model H_EclairWhite
+	{
+		mesh = Worlditems/H_Eclair,
+		texture = Worlditems/EclairWhiteChocolate,
+		scale = 0.0045,
+	}
+	model H_SaucepanWhiteChocolate
+	{
+		mesh = Worlditems/SaucepanChocolateHand,
+		texture = Worlditems/SaucePanWhiteChocolate,
+		scale = 0.0045,
+	}
+	model H_SaucepanMeltedWhiteChocolateHand
+	{
+		mesh = Worlditems/SaucepanOilHand,
+		texture = Worlditems/SaucePanWhiteChocolateMelted,
+		scale = 0.0045,
+	}
+	model H_Eclair
+	{
+		mesh = Worlditems/H_Eclair,
+		texture = Worlditems/Eclair,
+		scale = 0.0045,
+	}
+	model H_HeartChocolate
+	{
+		mesh = Worlditems/H_HeartChocolate,
+		texture = Worlditems/Bonbon,
+		scale = 0.0045,
+	}
+	model H_GingerbreadPieces
+	{
+		mesh = Worlditems/H_GingerbreadPieces,
+		texture = Worlditems/Gingerbread,
+		scale = 0.0045,
+	}
+	model H_BananaBreadPiece
+	{
+		mesh = Worlditems/H_Bread,
+		texture = Worlditems/BananaBreadSlice,
+		scale = 0.0045,
+	}
+	model H_BreadEgg
+	{
+		mesh = Worlditems/H_BreadEgg,
+		texture = Worlditems/BreadEgg,
+		scale = 0.0045,
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	model Cooking_SaucepanOil
+	{
+		mesh = Worlditems/C_SaucepanOil,
+		texture = Worlditems/SaucepanOil,
+		scale = 0.0045,
+	}
+	model Cooking_BeefStew
+	{
+		mesh = Worlditems/C_SaucepanOil,
+		texture = Worlditems/SaucePanBeefStew,
+		scale = 0.0045,
+	}
+	model Cooking_ShuiZhuYu
+	{
+		mesh = Worlditems/C_SaucepanOil,
+		texture = Worlditems/SaucePanShuiZhuYu,
+		scale = 0.0045,
+	}
+	model Cooking_Curry
+	{
+		mesh = Worlditems/C_SaucepanOil,
+		texture = Worlditems/SaucePanCurryChicken,
+		scale = 0.0045,
+	}
+	model Cooking_Borscht
+	{
+		mesh = Worlditems/C_SaucepanOil,
+		texture = Worlditems/SaucePanBorscht,
+		scale = 0.0045,
+	}
+	model Cooking_FryingPanOil
+	{
+		mesh = Worlditems/C_FryingPanOil,
+		texture = Worlditems/FryingPanOil,
+		scale = 0.0045,
+	}
+	model Cooking_FryingPanRice
+	{
+		mesh = Worlditems/C_FryingPanFood,
+		texture = Worlditems/FriedRicePan,
+		scale = 0.0045,
+	}
+	model Cooking_WokPan
+	{
+		mesh = Worlditems/C_Wokpan,
+		texture = Worlditems/WokpanOil,
+		scale = 0.0045,
+	}
+	model Cooking_WokFriedRice
+	{
+		mesh = Worlditems/C_WokFood,
+		texture = Worlditems/Wokpan,
+		scale = 0.0045,
+	}
+	model Cooking_PeelingPotatoes
+	{
+		mesh = Worlditems/C_PeeledPotato,
+		texture = Worlditems/PotatoPeeled,
+		scale = 0.0045,
+	}
+	model Cooking_FryingPanBaconEggs
+	{
+		mesh = Worlditems/C_FryingPan_BaconEggs,
+		texture = Worlditems/FryingPanBaconEggs,
+		scale = 0.0045,
+	}
+	model Cooking_CoffeeThermos
+	{
+		mesh = Worlditems/C_CoffeeThermos,
+		texture = Worlditems/DevAluminum,
+		scale = 0.0045,
+	}
+	model Cooking_CakeCandleCarrot
+	{
+		mesh = Worlditems/C_CakeCandle,
+		texture = Worlditems/Pan_CarrotCake,
+		scale = 0.0045,
+	}
+	model Cooking_CakeCandleChocolate
+	{
+		mesh = Worlditems/C_CakeCandle,
+		texture = Worlditems/Pan_Chocolate,
+		scale = 0.0045,
+	}
+	model Cooking_SaucepanFood
+	{
+		mesh = Worlditems/C_SaucepanFood,
+		texture = Worlditems/SaucePanQueso,
+		scale = 0.0045,
+	}
+	model Cooking_Meatgrinder
+	{
+		mesh = Worlditems/C_Meatgrinder,
+		texture = Worlditems/Meatgrinder,
+		scale = 0.0045,
+	}
+}

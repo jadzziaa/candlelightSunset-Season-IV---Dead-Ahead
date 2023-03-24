@@ -1,0 +1,124 @@
+module Base
+{
+
+	recipe Saw Off Shotgun Stock
+    {
+	  ShotgunSawnoff,
+      keep [Recipe.GetItemTypes.Saw],
+
+      Result:ShotgunSawnoffNoStock,
+      Sound:Sawing,
+	  Time:200.0,
+	  OnCreate:ShotgunSawnoff_OnCreate,
+    }
+
+    recipe Open Box of 7.62 Ammo
+    {
+        762Box,
+
+        Result:762Bullets=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place 7.62 Ammo in Box
+    {
+        762Bullets=40,
+
+        Result:762Box,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Open Box of .22 Ammo
+    {
+        22Box,
+
+        Result:22Bullets=10,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place .22 Ammo in Box
+    {
+        22Bullets=100,
+
+        Result:22Box,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+		recipe Unfold Stock
+   {
+     AK47Folded,
+
+     Result:AK47,
+     Time:15,
+     OnCreate:onFoldStock_OnCreate,
+   }
+
+ 		recipe Fold Stock
+    {
+      AK47,
+
+      Result:AK47Folded,
+      Time:15,
+      OnCreate:onUnfoldStock_OnCreate,
+    }
+
+		recipe Unfold Stock
+   {
+     Mini14Folded,
+
+     Result:Mini14,
+     Time:15,
+     OnCreate:onFoldStock_OnCreate,
+   }
+
+ 		recipe Fold Stock
+    {
+      Mini14,
+
+      Result:Mini14Folded,
+      Time:15,
+      OnCreate:onUnfoldStock_OnCreate,
+    }
+	
+			recipe Unfold Stock
+   {
+     Spas12Folded,
+
+     Result:Spas12,
+     Time:15,
+     OnCreate:onFoldSpasStock_OnCreate,
+   }
+
+ 		recipe Fold Stock
+    {
+      Spas12,
+
+      Result:Spas12Folded,
+      Time:15,
+      OnCreate:onUnfoldSpasStock_OnCreate,
+    }
+
+ 		recipe Couple 5.56 Magazines
+    {
+      556Clip,
+      556Clip,
+      DuctTape,	
+
+      Result:Coupled556,
+      Time:50,
+    }
+
+ 		recipe Couple 7.62 Magazines
+    {
+      762Clip,
+      762Clip,
+      DuctTape,	
+
+      Result:Coupled762,
+      Time:50,
+    }
+}

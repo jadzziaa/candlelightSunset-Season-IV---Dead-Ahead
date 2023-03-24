@@ -1,0 +1,11 @@
+UI_ES = {
+    UI_item_uses_tab_name = "Usos"
+    UI_item_craft_tab_name = "Craft"
+    UI_common_left_col_name = "Receta"
+    UI_common_right_col_name = "Detalles"
+    UI_recipe_panel_required_book = "Libros requeridos (uno de)"
+    UI_recipe_panel_near_item = "Equipo de elaboración requerido"
+    UI_settings_av_valid = "Válido"
+    UI_settings_av_known = "Conocido"
+    UI_settings_av_invalid = "Inválido"
+}

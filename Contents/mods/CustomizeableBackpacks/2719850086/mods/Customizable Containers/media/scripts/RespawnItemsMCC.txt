@@ -1,0 +1,32 @@
+module Base
+{
+
+
+recipe RESPAWN MCC
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_ALICEpack_Camo_Urban,
+        Result:Bag_ALICEpack_Camo_Urban,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+recipe RESPAWN MCC
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_ALICEpack_Camo_Desert,
+        Result:Bag_ALICEpack_Camo_Desert,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+
+
+}

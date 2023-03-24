@@ -1,0 +1,319 @@
+module MethCooking
+{
+/*
+	IRL meth suppresses appetite, causes agitation, reduces fatigue, induces euphoria, increases feelings of physical
+			capability and longer term use results in weight loss and, eventually, psychosis and malnutrition. So how
+			should we model this? For nutrition I have modelled my base values (MethGood) on the value of Canned
+			Chilli as a negative number...
+				* Hunger:	Set to 0 - modelling how meth suppresses hunger.
+				* Calories:	-260 (max character negative calories are around -2200)
+				* Carbohydrates:	-33 (initial ~-450, range -500 to 1000).
+				* Lipids:	-7 (initial ~-150, range -500 to 1000).
+				* Proteins:	-16 (initial ~-110, range -500 to 1000).
+			For blue or pepper meth some of the values are adjusted away these base values.
+*/
+	item MethGood
+	{
+		DisplayName = Meth (good),
+		Type = Food,
+		DisplayCategory = Drug,
+		Weight = 0.05,
+		Icon = MethGood,
+		Packaged = TRUE,
+		HungerChange = 0,			/* surf: 0.1 -> 0 */
+		UnhappyChange = -33,		/* surf: -100 -> -33 */
+		Calories = -260,			/* surf: 0 -> -260 */
+		Carbohydrates = -33,		/* surf: 0 -> -33 */
+		Lipids = -7,				/* surf: 0 -> -7 */
+		Proteins = -16,				/* surf: 0 -> -16 */
+		OnEat = OnTake_MethGood,
+		CustomEatSound 		= MethInhale,
+		CustomContextMenu 	= Take,
+	}
+	
+	item MethBad
+	{
+		DisplayName = Meth (bad),
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 0.05,
+		Icon = MethBad,
+		Packaged = TRUE,
+		HungerChange = 0,			/* surf: 0.1 -> 0 */
+		UnhappyChange = -33,		/* surf: -100 -> -33 */
+		Calories = -300,			/* surf: 0 -> -300 */
+		Carbohydrates = -33,		/* surf: 0 -> -33 */
+		Lipids = -7,				/* surf: 0 -> -7 */
+		Proteins = -16,				/* surf: 0 -> -16 */
+		OnEat = OnTake_MethBad,
+		CustomEatSound 		= MethInhale,
+		CustomContextMenu 	= Take,
+	}
+	
+	item BlueMethGood
+	{
+		DisplayName = Blue Meth (good),
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 0.05,
+		Icon = BlueMethGood,
+		Packaged = TRUE,
+		HungerChange = 0,			/* surf: 0.1 -> 0 */
+		UnhappyChange = -66,		/* surf: -100 -> -66 */
+		Calories = -200,			/* surf: 0 -> -200 */
+		Carbohydrates = -33,		/* surf: 0 -> -33 */
+		Lipids = -7,				/* surf: 0 -> -7 */
+		Proteins = -16,				/* surf: 0 -> -16 */
+		OnEat = OnTake_BlueMethGood,
+		CustomEatSound 		= MethInhale,
+		CustomContextMenu 	= Take,
+	}
+	
+	item BlueMethBad
+	{
+		DisplayName = Blue Meth (bad),
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 0.05,
+		Icon = BlueMethBad,
+		Packaged = TRUE,
+		HungerChange = 0,			/* surf: 0.1 -> 0 */
+		UnhappyChange = -66,		/* surf: -100 -> -66 */
+		Calories = -300,			/* surf: 0 -> -300 */
+		Carbohydrates = -33,		/* surf: 0 -> -33 */
+		Lipids = -7,				/* surf: 0 -> -7 */
+		Proteins = -16,				/* surf: 0 -> -16 */
+		OnEat = OnTake_BlueMethBad,
+		CustomEatSound 		= MethInhale,
+		CustomContextMenu 	= Take,
+	}
+	
+	item PepperMethGood
+	{
+		DisplayName = Pepper Meth (good),
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 0.05,
+		Icon = PepperMethGood,
+		Packaged = TRUE,
+		HungerChange = 0,			/* surf: 0.1 -> 0 */
+		UnhappyChange = -50,		/* surf: -100 -> -50 */
+		Calories = -200,			/* surf: 0 -> -200 */
+		Carbohydrates = -33,		/* surf: 0 -> -33 */
+		Lipids = -7,				/* surf: 0 -> -7 */
+		Proteins = -16,				/* surf: 0 -> -16 */
+		OnEat = OnTake_PepperMethGood,
+		CustomEatSound 		= MethInhale,
+		CustomContextMenu 	= Take,
+	}
+	
+	item PepperMethBad
+	{
+		DisplayName = Pepper Meth (bad),
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 0.05,
+		Icon = PepperMethBad,
+		Packaged = TRUE,
+		HungerChange = 0,			/* surf: 0.1 -> 0 */
+		UnhappyChange = -50,		/* surf: -100 -> -50 */
+		Calories = -300,			/* surf: 0 -> -300 */
+		Carbohydrates = -33,		/* surf: 0 -> -33 */
+		Lipids = -7,				/* surf: 0 -> -7 */
+		Proteins = -16,				/* surf: 0 -> -16 */
+		OnEat = OnTake_PepperMethBad,
+		CustomEatSound 		= MethInhale,
+		CustomContextMenu 	= Take,
+	}
+	
+	item MethBasePot
+	{
+		DisplayName = Cooking Pot with Base for Meth,
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		IsCookable = TRUE,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+		BadInMicrowave = TRUE,
+		MinutesToCook = 60,
+		ReplaceOnCooked = MethCooking.MethPotGood,
+	}
+	
+	item PepperMethBasePot
+	{
+		DisplayName = Cooking Pot with Base for Meth,
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		IsCookable = TRUE,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+		BadInMicrowave = TRUE,
+		MinutesToCook = 60,
+		ReplaceOnCooked = MethCooking.PepperMethPotGood,
+	}
+	
+	item BlueMethBasePot
+	{
+		DisplayName = Cooking Pot with Base for Meth,
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		IsCookable = TRUE,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+		BadInMicrowave = TRUE,
+		MinutesToCook = 60,
+		ReplaceOnCooked = MethCooking.BlueMethPotGood,
+	}
+	
+	item MethPotGood
+	{
+		DisplayName = Cooking Pot with Meth,
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		IsCookable = TRUE,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+		BadInMicrowave = TRUE,
+		MinutesToCook = 5,
+		ReplaceOnCooked = MethCooking.MethPotBad,
+	}
+	
+	item MethPotBad
+	{
+		DisplayName = Cooking Pot with Meth,
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		IsCookable = FALSE,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+	}
+	
+	item BlueMethPotGood
+	{
+		DisplayName = Cooking Pot with Meth,
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		IsCookable = TRUE,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+		BadInMicrowave = TRUE,
+		MinutesToCook = 5,
+		ReplaceOnCooked = MethCooking.BlueMethPotBad,
+	}
+	
+	item BlueMethPotBad
+	{
+		DisplayName = Cooking Pot with Meth,
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		IsCookable = FALSE,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+	}
+	
+	item PepperMethPotGood
+	{
+		DisplayName = Cooking Pot with Meth,
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		IsCookable = TRUE,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+		BadInMicrowave = TRUE,
+		MinutesToCook = 5,
+		ReplaceOnCooked = MethCooking.PepperMethPotBad,
+	}
+	
+	item PepperMethPotBad
+	{
+		DisplayName = Cooking Pot with Meth,
+		DisplayCategory = Drug,
+		Type = Food,
+		Weight = 3,
+		Icon = Pot_Water,
+		IsCookable = FALSE,
+		UseWhileEquipped = FALSE,
+		StaticModel = CookingPot,
+		WorldStaticModel = CookingPotWater_Ground,
+	}
+	
+	item BakingTrayMethGood
+    {
+        DisplayCategory = Drug,
+        Weight	=	0.5,
+        Type	=	Food,
+        DisplayName	=   Baking Tray with Meth,
+        Icon	=	BakingTrayMethGood,
+    }
+	
+	item BakingTrayMethBad
+    {
+        DisplayCategory = Drug,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=   Baking Tray with Meth,
+        Icon	=	BakingTrayMethBad,
+    }
+	
+	item BakingTrayBlueMethGood
+    {
+        DisplayCategory = Drug,
+        Weight	=	0.5,
+        Type	=	Food,
+        DisplayName	=   Baking Tray with Meth,
+        Icon	=	BakingTrayBlueMethGood,
+    }
+	
+	item BakingTrayBlueMethBad
+    {
+        DisplayCategory = Drug,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=   Baking Tray with Meth,
+        Icon	=	BakingTrayBlueMethBad,
+    }
+	
+	item BakingTrayPepperMethGood
+    {
+        DisplayCategory = Drug,
+        Weight	=	0.5,
+        Type	=	Food,
+        DisplayName	=   Baking Tray with Meth,
+        Icon	=	BakingTrayPepperMethGood,
+    }
+	
+	item BakingTrayPepperMethBad
+    {
+        DisplayCategory = Drug,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=   Baking Tray with Meth,
+        Icon	=	BakingTrayPepperMethBad,
+    }
+	
+}
+

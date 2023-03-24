@@ -1,0 +1,9 @@
+name=Fear's Funky Tiles
+poster=poster.png
+id=FearsFunkyTiles
+description=Roleplay centric tiles!
+url=
+pack=fearstiles
+tiledef=fearstiledefinitions01 1013
+lua=fearsworldfiller01
+lua=bbicon

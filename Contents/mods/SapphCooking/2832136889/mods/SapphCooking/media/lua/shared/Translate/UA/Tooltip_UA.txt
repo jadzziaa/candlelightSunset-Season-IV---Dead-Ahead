@@ -1,0 +1,11 @@
+Tooltip_UA = {
+--
+	Tooltip_OilPan 				= "Для використаннЯ потрібне тепло.",
+	Tooltip_WaterPan			= "ЙОго треба готувати.",
+	Tooltip_AsiaFoodMagazine = "Вивчити рецепти азіацької кухні.",
+	Tooltip_EuropeFoodMagazine = "Вивчити рецепти європейської кухні.",
+	Tooltip_PastaDoughMagazine = "Вивчити рецепт пасти.",
+	
+	
+	
+} 	

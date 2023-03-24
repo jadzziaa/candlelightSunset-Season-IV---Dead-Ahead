@@ -1,0 +1,474 @@
+module Base
+{
+
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_Schoolbag_Tier2,
+        Result:Bag_Schoolbag_Tier2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_NormalHikingBag_Tier2,
+        Result:Bag_NormalHikingBag_Tier2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_BigHikingBag_Tier2,
+        Result:Bag_BigHikingBag_Tier2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_SurvivorBag_Tier2,
+        Result:Bag_SurvivorBag_Tier2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_SurvivorBag_Tier3,
+        Result:Bag_SurvivorBag_Tier3,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_ALICEpack_Tier2,
+        Result:Bag_ALICEpack_Tier2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_ALICEpack_Tier3,
+        Result:Bag_ALICEpack_Tier3,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_ALICEpack_Army_Tier2,
+        Result:Bag_ALICEpack_Army_Tier2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_ALICEpack_Army_Tier3,
+        Result:Bag_ALICEpack_Army_Tier3,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		FirstAidKit,
+        Result:FirstAidKit,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		FirstAidKit1,
+        Result:FirstAidKit1,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		FirstAidKit2,
+        Result:FirstAidKit2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		FirstAidKit3,
+        Result:FirstAidKit3,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		FirstAidKit4,
+        Result:FirstAidKit4,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		FirstAidKit5,
+        Result:FirstAidKit5,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		FirstAidKit6,
+        Result:FirstAidKit6,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Lunchbox,
+        Result:Lunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Lunchbox2,
+        Result:Lunchbox2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		PistolCase1,
+        Result:PistolCase1,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		PistolCase2,
+        Result:PistolCase2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		PistolCase3,
+        Result:PistolCase3,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		RevolverCase1,
+        Result:RevolverCase1,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		RevolverCase2,
+        Result:RevolverCase2,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		RevolverCase3,
+        Result:RevolverCase3,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		BigFAK,
+        Result:BigFAK,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		FiendLunchbox,
+        Result:FiendLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		FlashLunchbox,
+        Result:FlashLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		BatmanLunchbox,
+        Result:BatmanLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		DinoLunchbox,
+        Result:DinoLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		NightmareLunchbox,
+        Result:NightmareLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		GargoylesLunchbox,
+        Result:GargoylesLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MermaidLunchbox,
+        Result:MermaidLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		RainbowLunchbox,
+        Result:RainbowLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		SpiffoLunchbox,
+        Result:SpiffoLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		SpideyLunchbox,
+        Result:SpideyLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SleepAttach
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		XMenLunchbox,
+        Result:XMenLunchbox,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+		
+
+}

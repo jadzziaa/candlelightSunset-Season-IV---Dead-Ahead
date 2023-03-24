@@ -1,0 +1,213 @@
+VERSION = 1,
+
+option RewardingNightCombat.enableIndicator
+{
+	type = boolean,
+	default = true,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_enableIndicator,
+}
+
+option RewardingNightCombat.draggableIndicator
+{
+	type = boolean,
+	default = false,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_draggableIndicator,
+}
+
+option RewardingNightCombat.indicatorColor
+{
+	type = enum,
+	numValues = 6,
+	default = 6,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_indicatorColor,
+	valueTranslation = RewardingNightCombat_indicatorColorLevels,
+}
+
+option RewardingNightCombat.enableTriggerSound
+{
+	type = boolean,
+	default = false,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_enableTriggerSound,
+}
+
+option RewardingNightCombat.triggerProbability
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 100,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_triggerProbability,
+}
+
+option RewardingNightCombat.startAfterXDays
+{
+	type = integer,
+	min = 0,
+	max = 365,
+	default = 0,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_startAfterXDays,
+}
+
+option RewardingNightCombat.startTimeSummer
+{
+	type = enum,
+	numValues = 24,
+	default = 24,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_startTimeSummer,
+	valueTranslation = RewardingNightCombat_timeLevels,
+}
+
+option RewardingNightCombat.endTimeSummer
+{
+	type = enum,
+    numValues = 24,
+    default = 7,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_endTimeSummer,
+	valueTranslation = RewardingNightCombat_timeLevels,
+}
+
+option RewardingNightCombat.startTimeAutumn
+{
+	type = enum,
+    numValues = 24,
+    default = 24,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_startTimeAutumn,
+	valueTranslation = RewardingNightCombat_timeLevels,
+}
+
+option RewardingNightCombat.endTimeAutumn
+{
+	type = enum,
+    numValues = 24,
+    default = 7,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_endTimeAutumn,
+	valueTranslation = RewardingNightCombat_timeLevels,
+}
+
+option RewardingNightCombat.startTimeWinter
+{
+	type = enum,
+    numValues = 24,
+    default = 24,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_startTimeWinter,
+	valueTranslation = RewardingNightCombat_timeLevels,
+}
+
+option RewardingNightCombat.endTimeWinter
+{
+	type = enum,
+    numValues = 24,
+    default = 7,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_endTimeWinter,
+	valueTranslation = RewardingNightCombat_timeLevels,
+}
+
+option RewardingNightCombat.startTimeSpring
+{
+	type = enum,
+    numValues = 24,
+    default = 24,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_startTimeSpring,
+	valueTranslation = RewardingNightCombat_timeLevels,
+}
+
+option RewardingNightCombat.endTimeSpring
+{
+	type = enum,
+    numValues = 24,
+    default = 7,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_endTimeSpring,
+	valueTranslation = RewardingNightCombat_timeLevels,
+}
+
+option RewardingNightCombat.axeBonusMultiplier
+{
+	type = enum,
+    numValues = 13,
+    default = 5,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_axeMultiplier,
+	valueTranslation = RewardingNightCombat_multiplierLevels,
+}
+
+option RewardingNightCombat.longBluntBonusMultiplier
+{
+	type = enum,
+    numValues = 13,
+    default = 5,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_longBluntMultiplier,
+	valueTranslation = RewardingNightCombat_multiplierLevels,
+}
+
+option RewardingNightCombat.shortBluntBonusMultiplier
+{
+	type = enum,
+    numValues = 13,
+    default = 6,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_shortBluntMultiplier,
+	valueTranslation = RewardingNightCombat_multiplierLevels,
+}
+
+option RewardingNightCombat.longBladeBonusMultiplier
+{
+	type = enum,
+    numValues = 13,
+    default = 5,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_longBladeMultiplier,
+	valueTranslation = RewardingNightCombat_multiplierLevels,
+}
+
+option RewardingNightCombat.shortBladeBonusMultiplier
+{
+	type = enum,
+    numValues = 13,
+    default = 6,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_shortBladeMultiplier,
+	valueTranslation = RewardingNightCombat_multiplierLevels,
+}
+
+option RewardingNightCombat.spearBonusMultiplier
+{
+	type = enum,
+    numValues = 13,
+    default = 5,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_spearMultiplier,
+	valueTranslation = RewardingNightCombat_multiplierLevels,
+}
+
+option RewardingNightCombat.ignoreAimingXPNerf
+{
+	type = boolean,
+	default = false,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_ignoreAimingXPNerf,
+}
+
+option RewardingNightCombat.aimingBonusMultiplier
+{
+	type = enum,
+	numValues = 13,
+    default = 5,
+	page = RewardingNightCombat,
+	translation = RewardingNightCombat_aimingMultiplier,
+	valueTranslation = RewardingNightCombat_multiplierLevels,
+}

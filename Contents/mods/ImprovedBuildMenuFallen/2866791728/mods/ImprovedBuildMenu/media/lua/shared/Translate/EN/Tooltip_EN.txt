@@ -1,0 +1,9 @@
+Tooltip_EN = {
+	-- Carpentry
+	Tooltip_craft_woodenBrownFloorDesc = "A basic floor made from brown wood.",
+	Tooltip_craft_woodenLightBrownFloorDesc = "A basic floor made from light brown wood.",
+	Tooltip_craft_pillarLogDesc = "Log pillar used as a support or tied together with other logs to form a wall.",
+	Tooltip_craft_WoodenGateDesc = "Basic gate design made from wood.",
+	Tooltip_craft_WoodenBigGateDesc = "High gate design made from wood, with a hole to peep through.",
+	Tooltip_concreteFloorDesc = "Concrete floor to stop the zombies coming out the ground",
+}

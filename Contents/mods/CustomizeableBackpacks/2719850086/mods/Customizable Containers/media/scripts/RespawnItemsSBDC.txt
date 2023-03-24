@@ -1,0 +1,259 @@
+module SameBagDifferentColor
+{
+
+
+import 
+{ 
+	Base 
+}
+
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_DuffelBagGreenMilitar,
+		Result:Bag_DuffelBagGreenMilitar,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_PepsiDuffelBagDC,
+		Result:Bag_PepsiDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_DragonBallDuffelBagDC,
+		Result:Bag_DragonBallDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_CocaColaDuffelBagDC,
+		Result:Bag_CocaColaDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_SpiderManDuffelBagDC,
+		Result:Bag_SpiderManDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_AdidasDuffelBagDC,
+		Result:Bag_AdidasDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_DitoDuffelBagDC,
+		Result:Bag_DitoDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_SnakeDuffelBagDC,
+		Result:Bag_SnakeDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_MtvDuffelBagDC,
+		Result:Bag_MtvDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_NightLivingDeadDuffelBagDC,
+		Result:Bag_NightLivingDeadDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_EseJotaDuffelBagDC,
+		Result:Bag_EseJotaDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_HotDogDuffelBagDC,
+		Result:Bag_HotDogDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_MilitarRedDuffelBagDC,
+		Result:Bag_MilitarRedDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_RedCrossDuffelBagDC,
+		Result:Bag_RedCrossDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_ChicagoBullsDuffelBagDC,
+		Result:Bag_ChicagoBullsDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_FishingDuffelBagDC,
+		Result:Bag_FishingDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_BellaDuffelBagDC,
+		Result:Bag_BellaDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_NaturalDuffelBagDC,
+		Result:Bag_NaturalDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN SBDC
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_ResidentEvilDuffelBagDC,
+		Result:Bag_ResidentEvilDuffelBagDC,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+
+}

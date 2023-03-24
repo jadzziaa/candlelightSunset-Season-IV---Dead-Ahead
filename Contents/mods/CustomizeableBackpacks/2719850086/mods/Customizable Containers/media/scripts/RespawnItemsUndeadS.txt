@@ -1,0 +1,51 @@
+module UndeadSurvivor
+{
+
+
+import 
+{ 
+	Base 
+}
+
+
+recipe RESPAWN UndeadS
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		NomadBackpack,
+		Result:NomadBackpack,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN UndeadS
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		PrepperBags,
+		Result:PrepperBags,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+recipe RESPAWN UndeadS
+ 	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		PrepperVestPacked,
+		Result:PrepperVestPacked,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn,
+		Tooltip:Tooltip_RespawnBag,
+	}
+
+
+}

@@ -1,0 +1,7 @@
+ContextMenu_EN = {
+	ContextMenu_VehicleHotwireSkillEH = "You need keys or<br>Electrical level ? and<br>Mechanics level ?<br>to hotwire.",
+	ContextMenu_VehicleUnHotwire = "UnHotwire",
+	ContextMenu_VehicleUnHotwireSkillEH = "You need keys or<br>Electrical level ? and<br>Mechanics level ?<br>to unhotwire.",
+	ContextMenu_VehicleKeyCrafting = "Craft Key",
+	ContextMenu_VehicleKeyCraftingSkill = "You need keys or<br>Electrical level ? and<br>Mechanics level ?<br>and Metalworking level ?<br>to craft a key.",
+}

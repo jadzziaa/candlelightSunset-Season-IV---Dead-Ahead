@@ -1,0 +1,5 @@
+ContextMenu_EN = {
+    
+    ContextMenu_PlayerTradeOptions_Disabled = "L'échange est désactivé",
+
+}

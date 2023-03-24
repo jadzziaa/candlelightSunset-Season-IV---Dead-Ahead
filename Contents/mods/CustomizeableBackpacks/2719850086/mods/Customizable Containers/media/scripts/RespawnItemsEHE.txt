@@ -1,0 +1,68 @@
+module EHE
+{
+
+
+import 
+{ 
+	Base 
+}
+
+
+recipe RESPAWN EHE
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Vest_PilotSurvivalVest,
+        Result:Vest_PilotSurvivalVest,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN EHE
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Vest_PilotSurvivalVestTightened,
+        Result:Vest_PilotSurvivalVestTightened,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+
+recipe RESPAWN EHE
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Vest_BlackPilotSurvivalVest,
+        Result:Vest_BlackPilotSurvivalVest,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+ 	
+recipe RESPAWN EHE
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Vest_BlackPilotSurvivalVestTightened,
+        Result:Vest_BlackPilotSurvivalVestTightened,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+	
+}
+
+

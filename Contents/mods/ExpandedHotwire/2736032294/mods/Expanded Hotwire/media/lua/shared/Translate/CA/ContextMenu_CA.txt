@@ -1,0 +1,3 @@
+ContextMenu_CA = {
+	ContextMenu_VehicleHotwireSkillEH = "Calen claus o<br>el nivell ? d'Electricitat i<br> nivell ? de Mec�nica<br>per a fer ponts.",
+}

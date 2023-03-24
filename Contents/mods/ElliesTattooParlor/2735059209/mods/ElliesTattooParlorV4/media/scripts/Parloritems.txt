@@ -1,0 +1,111 @@
+module ElliesTattooParlor {
+	imports {
+		Base
+	}
+
+	item FilledTattooNeedle
+	{
+		Type = Drainable,
+		UseDelta = 0.2,
+		ReplaceOnDeplete = EmptyTattooNeedle,
+		DisplayName = Filled Tattoo Needle,
+		Icon = FilledTattooNeedle01,
+		MakeUpType = Tattoo,
+		Weight = 0.01,
+		UseWhileEquipped = false,		
+		StaticModel = TattooMachine,
+		WorldStaticModel = TattooMachine_Ground,
+		ReplaceInSecondHand = Bag_TattooMachine_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_TattooMachine_RHand holdingbagright,
+	}
+
+	item EmptyTattooNeedle
+	{
+		Type = Normal,
+		DisplayName = Empty Tattoo Needle,
+		Icon = EmptyTattooNeedle01,
+		Weight = 0.01,
+		StaticModel = TattooMachine,
+		WorldStaticModel = TattooMachine_Ground,
+		ReplaceInSecondHand = Bag_TattooMachine_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_TattooMachine_RHand holdingbagright,
+	}
+
+
+
+	item SmallPaintBrush
+	{
+		Type = Normal,
+		DisplayName = Small Paint Brush,
+		Icon = SmallPaintBrush,
+		Weight = 0.01,
+		StaticModel = SmallPaintBrush,
+		WorldStaticModel = SmallPaintBrush_Ground,
+		ReplaceInSecondHand = Bag_SmallPaintBrush_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_SmallPaintBrush_RHand holdingbagright,
+	}
+
+	item AcidBrush
+	{
+		Type = Drainable,
+		UseDelta = 0.5,
+		ReplaceOnDeplete = SmallPaintBrush,
+		DisplayName = Acid Brush,
+		Icon = AcidBrush01,
+		MakeUpType = TattooRemoval,
+		Weight = 0.01,
+		UseWhileEquipped = false,		
+		StaticModel = SmallPaintBrush,
+		WorldStaticModel = SmallPaintBrush_Ground,
+		ReplaceInSecondHand = Bag_SmallPaintBrush_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_SmallPaintBrush_RHand holdingbagright,
+	}
+
+
+	item LacticAcid
+	{
+		Type = Drainable,	
+		UseDelta = 0.1,
+		DisplayName = Lactic Acid,
+		Icon = LacticAcid01,
+		Weight = 0.1,
+		UseWhileEquipped = false,
+		StaticModel = LacticAcid,
+		WorldStaticModel = LacticAcid_Ground,
+		ReplaceInSecondHand = Bag_LacticAcid_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_LacticAcid_RHand holdingbagright,
+	}
+
+		item TattoosInkBox
+	{
+		Type = Drainable,
+		UseDelta = 0.5,
+		DisplayName = Tattoos Ink Box,
+		Icon = TattoosInkBox01,
+		Weight = 0.5,
+		StaticModel = InkBoxes,
+		UseWhileEquipped = false,
+		StaticModel = InkBoxes,
+		WorldStaticModel = InkBoxes_Ground,
+		ReplaceInSecondHand = Bag_InkBoxes_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_InkBoxes_RHand holdingbagright,
+	}
+
+	recipe Fill Tattoo Needle
+	{
+		EmptyTattooNeedle,
+		TattoosInkBox=1,
+
+		Result:FilledTattooNeedle,
+		Time:300,
+	}
+
+	recipe Dose Paint Brush In Acid
+	{
+		SmallPaintBrush,
+		LacticAcid=1,
+
+		Result:AcidBrush,
+		Time:150,
+	}
+}

@@ -1,0 +1,24 @@
+Sandbox_EN = {
+	Sandbox_DWF = "Destroyable World Fences",
+
+	Sandbox_DWF_HealthHighWoodenFancyWall = "Health of Wooden Fancy Walls",
+	Sandbox_DWF_HealthHighWoodenFancyWall_tooltip = "",
+
+	Sandbox_DWF_HealthHighMetallicBarbedFence = "Health of High Metallic fences with barbed wire",
+	Sandbox_DWF_HealthHighMetallicBarbedFence_tooltip = "",
+
+    Sandbox_DWF_HealthHighMetallicFence = "Health of High Metallic fences",
+	Sandbox_DWF_HealthHighMetallicFence_tooltip = "",
+
+    Sandbox_DWF_HealthHighMetallicFancyFence = "Health of High Metallic fancy fences",
+	Sandbox_DWF_HealthHighMetallicFancyFence_tooltip = "",
+
+    Sandbox_DWF_HealthHighWoodenWall = "Health of High Wodden fancy walls",
+	Sandbox_DWF_HealthHighWoodenWall = "",
+
+    Sandbox_DWF_HealthHighMetallicMilitaryFence = "Health of High Wodden fancy walls",
+	Sandbox_DWF_HealthHighMetallicMilitaryFence_tooltip = "",
+
+    Sandbox_DWF_HealthHighMetallicMilitaryBarbedFence = "Health of High Wodden fancy walls",
+	Sandbox_DWF_HealthHighMetallicMilitaryBarbedFence_tooltip = "",
+}

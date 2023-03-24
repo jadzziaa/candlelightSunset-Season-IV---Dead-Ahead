@@ -1,0 +1,121 @@
+module SLEOClothing
+{
+
+
+import 
+{ 
+	Base 
+}
+
+
+recipe RESPAWN SLEO
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_DuffelPolice,
+        Result:Bag_DuffelPolice,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN SLEO
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_DuffelSheriff,
+        Result:Bag_DuffelSheriff,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN SLEO
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_PoliceUtilityBag,
+        Result:Bag_PoliceUtilityBag,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN SLEO
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_PoliceUtilityBagGreen,
+        Result:Bag_PoliceUtilityBagGreen,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN SLEO
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		BlackLegPouch_RLeg,
+        Result:BlackLegPouch_RLeg,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SLEO
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		BlackLegPouch_LLeg,
+        Result:BlackLegPouch_LLeg,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN SLEO
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		GreenLegPouch_RLeg,
+        Result:GreenLegPouch_RLeg,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN SLEO
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		GreenLegPouch_LLeg,
+        Result:GreenLegPouch_LLeg,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+ 		
+}
+
+

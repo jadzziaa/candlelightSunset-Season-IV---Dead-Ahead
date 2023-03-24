@@ -1,0 +1,8 @@
+Sandbox_EN = {	
+    
+    Sandbox_Darkvision = "Darkvision",
+	
+    Sandbox_everyoneHasDarkvision = "Everyone Has Darkvision (Trait Override)",
+	Sandbox_everyoneHasDarkvision_tooltip = "If this is selected, everyone in your server will be allowed to activate darkvision using Mod Options.\n<RGB:1.0,0.6,0.0>Mod Options is a separate mod. You must subscribe to it via the Steam Workshop."
+
+}

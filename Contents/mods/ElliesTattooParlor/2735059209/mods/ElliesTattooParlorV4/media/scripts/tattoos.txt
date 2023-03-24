@@ -1,0 +1,364 @@
+module ElliesTattooParlor 
+{
+
+  item Face_Tattoo_Heart 
+    {
+    Type = Clothing,
+    ClothingItem = Face_Tattoo_Heart,
+    BodyLocation = Face_Tattoo
+    }
+
+  item UpperBody_Tattoo_Heart
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_Heart,
+    BodyLocation = UpperBody_Tattoo
+    }
+
+  item UpperBody_Tattoo_Scorp
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_Scorp,
+    BodyLocation = UpperBody_Tattoo
+    }
+
+  item UpperBody_Tattoo_Sakura
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_Sakura,
+    BodyLocation = UpperBody_Tattoo
+    }
+
+  item UpperBody_Tattoo_Shuru
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_Shuru,
+    BodyLocation = UpperBody_Tattoo
+    }
+
+  item UpperBody_Tattoo_Val
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_Val,
+    BodyLocation = UpperBody_Tattoo
+    }
+  
+  item UpperBody_Tattoo_Marines2
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_Marines2,
+    BodyLocation = UpperBody_Tattoo
+    }
+
+  item UpperBody_Tattoo_Ellie
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_Ellie,
+    BodyLocation = UpperBody_Tattoo
+    }
+
+  item UpperBody_Tattoo_Engine
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_Engine,
+    BodyLocation = UpperBody_Tattoo
+    }    
+
+  item UpperBody_Tattoo_CrossSkulls
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_CrossSkulls,
+    BodyLocation = UpperBody_Tattoo
+    }
+    
+  item UpperBody_Tattoo_Moto
+    {
+    Type = Clothing,
+    ClothingItem = UpperBody_Tattoo_Moto,
+    BodyLocation = UpperBody_Tattoo
+    }     
+         
+
+  item LowerBody_Tattoo_Heart
+    {
+    Type = Clothing,
+    ClothingItem = LowerBody_Tattoo_Heart,
+    BodyLocation = LowerBody_Tattoo
+    }
+
+  item LowerBody_Tattoo_Mask
+    {
+    Type = Clothing,
+    ClothingItem = LowerBody_Tattoo_Mask,
+    BodyLocation = LowerBody_Tattoo
+    }
+
+  item LowerBody_Tattoo_Tribal1
+    {
+    Type = Clothing,
+    ClothingItem = LowerBody_Tattoo_Tribal1,
+    BodyLocation = LowerBody_Tattoo
+    }
+
+  item LowerBody_Tattoo_Tank
+    {
+    Type = Clothing,
+    ClothingItem = LowerBody_Tattoo_Tank,
+    BodyLocation = LowerBody_Tattoo
+    }
+
+  item LowerBody_Tattoo_Jap1
+    {
+    Type = Clothing,
+    ClothingItem = LowerBody_Tattoo_Jap1,
+    BodyLocation = LowerBody_Tattoo
+    }
+
+  item LowerBody_Tattoo_SkullsBike
+    {
+    Type = Clothing,
+    ClothingItem = LowerBody_Tattoo_SkullsBike,
+    BodyLocation = LowerBody_Tattoo
+    }    
+
+  item LeftArm_Tattoo_Heart
+    {
+    Type = Clothing,
+    ClothingItem = LeftArm_Tattoo_Heart,
+    BodyLocation = LeftArm_Tattoo
+    }
+
+  item LeftArm_Tattoo_Cat
+    {
+    Type = Clothing,
+    ClothingItem = LeftArm_Tattoo_Cat,
+    BodyLocation = LeftArm_Tattoo
+    }
+
+  item LeftArm_Tattoo_Dragon 
+    {
+    Type = Clothing,
+    ClothingItem = LeftArm_Tattoo_Dragon,
+    BodyLocation = LeftArm_Tattoo
+    }
+
+  item LeftArm_Tattoo_Cavalry
+    {
+    Type = Clothing,
+    ClothingItem = LeftArm_Tattoo_Cavalry,
+    BodyLocation = LeftArm_Tattoo
+    }
+  
+  item LeftArm_Tattoo_Tribal2
+    {
+    Type = Clothing,
+    ClothingItem = LeftArm_Tattoo_Tribal2,
+    BodyLocation = LeftArm_Tattoo
+    }
+
+  item LeftArm_Tattoo_MCEagle
+    {
+    Type = Clothing,
+    ClothingItem = LeftArm_Tattoo_MCEagle,
+    BodyLocation = LeftArm_Tattoo
+    }
+
+  item RightArm_Tattoo_Heart
+    {
+    Type = Clothing,
+    ClothingItem = RightArm_Tattoo_Heart,
+    BodyLocation = RightArm_Tattoo
+    } 
+
+  item RightArm_Tattoo_Harley
+    {
+    Type = Clothing,
+    ClothingItem = RightArm_Tattoo_Harley,
+    BodyLocation = RightArm_Tattoo
+    }     
+
+  item RightArm_Tattoo_OniDemon
+    {
+    Type = Clothing,
+    ClothingItem = RightArm_Tattoo_OniDemon,
+    BodyLocation = RightArm_Tattoo
+    }
+
+  item RightArm_Tattoo_OniFemale
+    {
+    Type = Clothing,
+    ClothingItem = RightArm_Tattoo_OniFemale,
+    BodyLocation = RightArm_Tattoo
+    }
+
+  item RightArm_Tattoo_OniMask
+    {
+    Type = Clothing,
+    ClothingItem = RightArm_Tattoo_OniMask,
+    BodyLocation = RightArm_Tattoo
+    } 
+
+  item RightArm_Tattoo_Marine
+    {
+    Type = Clothing,
+    ClothingItem = RightArm_Tattoo_Marine,
+    BodyLocation = RightArm_Tattoo
+    }
+
+  item RightArm_Tattoo_Tribal3
+    {
+    Type = Clothing,
+    ClothingItem = RightArm_Tattoo_Tribal3,
+    BodyLocation = RightArm_Tattoo
+    } 
+
+  item Back_Tattoo_ILoveSpiffos
+    {
+    Type = Clothing,
+    ClothingItem = Back_Tattoo_ILoveSpiffos,
+    BodyLocation = Back_Tattoo
+    } 
+
+  item LeftLeg_Tattoo_Heart
+    {
+    Type = Clothing,
+    ClothingItem = LeftLeg_Tattoo_Heart,
+    BodyLocation = LeftLeg_Tattoo
+    }
+
+  item LeftLeg_Tattoo_Tribal5
+    {
+    Type = Clothing,
+    ClothingItem = LeftLeg_Tattoo_Tribal5,
+    BodyLocation = LeftLeg_Tattoo
+    }
+
+  item LeftLeg_Tattoo_Tribal6
+    {
+    Type = Clothing,
+    ClothingItem = LeftLeg_Tattoo_Tribal6,
+    BodyLocation = LeftLeg_Tattoo
+    } 
+
+  item LeftLeg_Tattoo_Tiger
+    {
+    Type = Clothing,
+    ClothingItem = LeftLeg_Tattoo_Tiger,
+    BodyLocation = LeftLeg_Tattoo
+    }
+
+  item LeftLeg_Tattoo_Soldier
+    {
+    Type = Clothing,
+    ClothingItem = LeftLeg_Tattoo_Soldier,
+    BodyLocation = LeftLeg_Tattoo
+    }
+
+  item LeftLeg_Tattoo_SexyRevolver
+    {
+    Type = Clothing,
+    ClothingItem = LeftLeg_Tattoo_SexyRevolver,
+    BodyLocation = LeftLeg_Tattoo
+    }
+
+  item LeftLeg_Tattoo_Wheel
+    {
+    Type = Clothing,
+    ClothingItem = LeftLeg_Tattoo_Wheel,
+    BodyLocation = LeftLeg_Tattoo
+    }    
+  
+  item RightLeg_Tattoo_Heart
+    {
+    Type = Clothing,
+    ClothingItem = RightLeg_Tattoo_Heart,
+    BodyLocation = RightLeg_Tattoo
+    }
+
+  item RightLeg_Tattoo_BikerHorse
+    {
+    Type = Clothing,
+    ClothingItem = RightLeg_Tattoo_BikerHorse,
+    BodyLocation = RightLeg_Tattoo
+    }    
+
+  item RightLeg_Tattoo_Tribal4
+    {
+    Type = Clothing,
+    ClothingItem = RightLeg_Tattoo_Tribal4,
+    BodyLocation = RightLeg_Tattoo
+    }
+
+  item RightLeg_Tattoo_Fish
+    {
+    Type = Clothing,
+    ClothingItem = RightLeg_Tattoo_Fish,
+    BodyLocation = RightLeg_Tattoo
+    }
+
+  item RightLeg_Tattoo_Medic
+    {
+    Type = Clothing,
+    ClothingItem = RightLeg_Tattoo_Medic,
+    BodyLocation = RightLeg_Tattoo
+    }
+
+  item Back_Tattoo_Heart
+    {
+    Type = Clothing,
+    ClothingItem = Back_Tattoo_Heart,
+    BodyLocation = Back_Tattoo
+    }
+
+  item Back_Tattoo_Veteran
+    {
+    Type = Clothing,
+    ClothingItem = Back_Tattoo_Veteran,
+    BodyLocation = Back_Tattoo
+    }
+
+  item Back_Tattoo_SkullAce
+    {
+    Type = Clothing,
+    ClothingItem = Back_Tattoo_SkullAce,
+    BodyLocation = Back_Tattoo
+    }
+
+  item Back_Tattoo_Snake
+    {
+    Type = Clothing,
+    ClothingItem = Back_Tattoo_Snake,
+    BodyLocation = Back_Tattoo
+    }
+
+  item Back_Tattoo_Owl
+    {
+    Type = Clothing,
+    ClothingItem = Back_Tattoo_Owl,
+    BodyLocation = Back_Tattoo
+    }
+
+  item Back_Tattoo_TribalHeart
+    {
+    Type = Clothing,
+    ClothingItem = Back_Tattoo_TribalHeart,
+    BodyLocation = Back_Tattoo
+    }
+
+  item Back_Tattoo_BikerGirl
+    {
+    Type = Clothing,
+    ClothingItem = Back_Tattoo_BikerGirl,
+    BodyLocation = Back_Tattoo
+    }  
+
+  item Back_Tattoo_GrimRider
+    {
+    Type = Clothing,
+    ClothingItem = Back_Tattoo_GrimRider,
+    BodyLocation = Back_Tattoo
+    }      
+
+}
+
+

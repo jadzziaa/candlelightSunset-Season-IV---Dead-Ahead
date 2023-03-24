@@ -1,0 +1,87 @@
+ItemName_RU = {
+    /*Weapons*/
+    ItemName_Base.AK47 = "Штурмовая винтовка AK47",	
+	ItemName_Base.AK47Folded = "Штурмовая винтовка AK47",
+	
+	ItemName_Base.SKS = "Винтовка SKS",
+	
+	ItemName_Base.Mini14 = "Винтовка MINI-14",	
+	ItemName_Base.Mini14Folded = "Винтовка MINI-14",
+	
+	ItemName_Base.HuntingRifle = "Винтовка R788",	
+	ItemName_Base.VarmintRifle = "Винтовка R700",
+	
+	ItemName_Base.Spas12 = "Дробовик SPAS-12",
+	ItemName_Base.Spas12Folded = "Дробовик SPAS-12",
+	
+	ItemName_Base.Revolver_Short = "Револьвер M10-5",
+	
+	ItemName_Base.Revolver_Long = "Револьвер M29 магнум",
+	
+	ItemName_Base.Shotgun = "Дробовик M500",
+	
+	ItemName_Base.ShotgunSawnoff = "Обрез дробовика M500",
+	
+	ItemName_Base.ShotgunSawnoffNoStock = "Обрез дробовика M500",
+	
+	ItemName_Base.Pistol3 = "Пистолет DE",
+	
+	ItemName_Base.Tec9 = "Пистолет TEC9",
+	
+	ItemName_Base.LeverRifle = "Карабин W1866",
+	
+	ItemName_Base.MP5 = "Пистолет-пулемет MP5",
+	
+	ItemName_Base.1022 = "Винтовка R1022",
+	
+	ItemName_Base.Glock = "Пистолет G17",
+	
+		ItemName_Base.MP5SD = "Пистолет-пулемет MP5SD", /*NEW-NEW*/
+	
+	ItemName_Base.CAR15 = "Штурмовая винтовка CAR-15", /*NEW-NEW*/
+	
+	ItemName_Base.CAR15D = "Тактическая штурмовая винтовка CAR-15", /*NEW-NEW*/
+	
+	/*Ammo*/	
+	ItemName_Base.762Box = "Коробка патронов 7.62",
+	ItemName_Base.762Bullets = "Патрон 7.62",
+	
+	ItemName_Base.22Box = "Коробка патронов .22",
+	ItemName_Base.22Bullets = "Патрон .22",
+	
+	/*Magazines*/
+	ItemName_Base.762Clip = "Магазин от AK47",
+	ItemName_Base.223Clip20 = "Магазин от MINI-14",
+	
+	ItemName_Base.9mmClip20 = "Магазин от TEC9",
+	ItemName_Base.9mmClip30 = "Магазин от MP5",
+	
+	ItemName_Base.22ClipRifle = "Магазин от R1022",
+	ItemName_Base.22ClipPistol = "Магазин .22 WIP",
+	
+	ItemName_Base.9mmClip = "Магазин от M9",
+	ItemName_Base.44Clip = "Магазин от DE", 
+	ItemName_Base.45Clip = "Магазин от M1911",
+	ItemName_Base.308Clip = "Магазин от MSR788", 
+	ItemName_Base.556Clip = "Магазин от M16", 
+	ItemName_Base.M14Clip = "Магазин от M14",
+		ItemName_Base.22ClipRifle = "Магазин от R1022",
+	ItemName_Base.9mmClip17 = "Магазин от G17",
+	
+	/*Attachments*/
+	ItemName_Base.OilFilterSuppressor = "Глушитель из масляного фильтра WIP",		
+	ItemName_Base.OilFilterSuppressor2 = "Глушитель из масляного фильтра WIP",
+	
+	ItemName_Base.OilFilter = "Масляный фильтр WIP",
+	ItemName_Base.OilFilter2 = "Масляный фильтр WIP",
+	
+	ItemName_Base.Bipod = "Сошка",
+	
+	ItemName_Base.ShellHolder = "Держатель патронов",
+	
+		/*Items*/
+	ItemName_Base.CleaningKit = "Набор для чистки оружия", /*NEW-NEW*/
+	ItemName_Base.FireKlean = "Оружейное масло "FireKlean"", /*NEW-NEW*/
+	
+	}
+	

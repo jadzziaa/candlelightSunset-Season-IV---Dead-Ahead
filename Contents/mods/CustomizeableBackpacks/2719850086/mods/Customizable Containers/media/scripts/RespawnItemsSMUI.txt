@@ -1,0 +1,160 @@
+module SMUIClothing
+{
+
+
+import 
+{ 
+	Base 
+}
+
+
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MilitaryWebbing,
+        Result:MilitaryWebbing,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MilitaryWebbingTightened,
+        Result:MilitaryWebbingTightened,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MilitaryWebbingBag,
+        Result:MilitaryWebbingBag,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MilitaryWebbingBagTightened,
+        Result:MilitaryWebbingBagTightened,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_MilitaryMedicalBag,
+        Result:Bag_MilitaryMedicalBag,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}		
+
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Bag_CFP90PatrolPack,
+        Result:Bag_CFP90PatrolPack,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+ 	
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		GasMaskBag,
+        Result:GasMaskBag,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		M1956Webbing,
+        Result:M1956Webbing,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		M1956WebbingTightened,
+        Result:M1956WebbingTightened,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		M1956WebbingBag,
+        Result:M1956WebbingBag,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+
+recipe RESPAWN SMUI
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		M1956WebbingBagTightened,
+        Result:M1956WebbingBagTightened,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+}
+
+

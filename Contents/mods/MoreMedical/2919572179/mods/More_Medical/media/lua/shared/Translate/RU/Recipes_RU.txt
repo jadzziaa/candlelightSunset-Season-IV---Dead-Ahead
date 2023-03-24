@@ -1,0 +1,4 @@
+Recipe_RU = {
+    Recipe_Open_SealedBandage = "Достать бинт",
+    Recipe_Make_HotDrinkFluMedication = "Засыпать порошок в кружку",
+}

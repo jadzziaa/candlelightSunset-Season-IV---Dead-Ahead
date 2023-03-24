@@ -1,0 +1,6 @@
+name=Dylan's tiles
+id=DylansTiles
+description=A resource of tile sprites for custom maps.
+poster=poster.png
+pack=DTilesPack
+tiledef=dylanstiles 6985

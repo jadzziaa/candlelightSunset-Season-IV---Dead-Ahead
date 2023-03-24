@@ -1,0 +1,386 @@
+module Songbirds_Curtains {
+    imports {
+        Base
+    }
+	/** CURTAINS are not ITEMS, but instead they are MOVEABLE MAP TILES**/
+	
+	/**Tiles can be viewed from within the Project Zomboid Modding Tools => TileZed => PackViewer
+	View file: 		Project Zomboid\Media\Texture Packs\Tiles2x.pack
+					
+	Vanilla game curtain tiles (south-facing, open curtains) are:
+	Sheet curtains:	Moveables.fixtures_windows_curtains_01_22	(white)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_23")
+	
+	Long curtains:	Moveables.fixtures_windows_curtains_01_6 	(beige)	Tiles2x.pack => Tiles2x40	(alternative "fixtures_windows_curtains_01_7")
+					Moveables.fixtures_windows_curtains_01_14 	(white)	Tiles2x.pack => Tiles2x40 	(alternative "fixtures_windows_curtains_01_15")
+					Moveables.fixtures_windows_curtains_01_94	(grey)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_95")
+					
+	Short curtains:	Moveables.fixtures_windows_curtains_01_30	(blue)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_31")
+					Moveables.fixtures_windows_curtains_01_38	(pink)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_39")
+					Moveables.fixtures_windows_curtains_01_46	(brown)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_47")
+					Moveables.fixtures_windows_curtains_01_54	(white)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_55")
+					Moveables.fixtures_windows_curtains_01_62	(beige)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_63")
+					Moveables.fixtures_windows_curtains_01_70	(green)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_71")
+					Moveables.fixtures_windows_curtains_01_78	(black)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_79")
+					Moveables.fixtures_windows_curtains_01_86	(grey)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_01_87")
+
+	Roller blinds:	Moveables.fixtures_windows_curtains_02_6	(white)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_02_7")
+	(small			Moveables.fixtures_windows_curtains_02_14	(green)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_02_15")
+	curtains)		Moveables.fixtures_windows_curtains_02_22	(bordeaux)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_02_23")
+					Moveables.fixtures_windows_curtains_02_30	(pearl)	Tiles2x.pack => Tiles2x41	(alternative "fixtures_windows_curtains_02_31")
+	**/
+	
+	
+	/** These scripts refer to the custom lua functions:
+	Recipe.OnGiveXP.Tailoring5,
+	SongbirdSewingChangeMood,
+	Recipe.OnGiveXP.WoodWork100, --FOR TESTING ONLY
+	**/
+	
+	/**
+	recipe Make AA TEST give XP carpentry and chips
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:Crisps=1,
+        Time:20,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork100,
+    }
+	recipe Make AA TEST give sturdy sticks
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:WoodenStick=5,
+        Time:20,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+    }
+	recipe Make AA TEST give screws
+	{
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:Screws=6, /**6x5=30screws**/
+        Time:20,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+    }
+	recipe Make AA TEST give chips
+	{
+        keep [Recipe.GetItemTypes.SewingNeedle],
+
+        Result:Crisps=5,
+        Time:20,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+    }
+	**/
+	
+	recipe Make Curtain (Long Beige)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=3,
+        Sheet=2,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_6,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Long White)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=3,
+        Sheet=2,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_14,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Long Grey)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=3,
+        Sheet=2,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_94,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Short Blue)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_30,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Short Pink)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_38,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Short Brown)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_46,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Short White)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_54,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Short Beige)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_62,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Short Green)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_70,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Short Black)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_78,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Short Grey)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_01_86,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Small White)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_02_6,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Small Green)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_02_14,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Small Bordeaux)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_02_22,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	recipe Make Curtain (Small Pearl)
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep [Recipe.GetItemTypes.Scissors],
+        Thread=2,
+        Sheet=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WoodenStick=1,
+		Screws=6,
+
+        Result:Moveables.fixtures_windows_curtains_02_30,
+        Time:500,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Category:Tailoring,
+		SkillRequired:Tailoring=1,
+		SkillRequired:Tailoring=1;Woodwork=1;,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring5,
+		OnCreate:SongbirdSewingChangeMood,
+    }
+	
+	
+	
+}

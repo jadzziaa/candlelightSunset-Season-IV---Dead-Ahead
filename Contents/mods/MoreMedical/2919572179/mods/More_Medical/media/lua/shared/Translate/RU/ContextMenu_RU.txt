@@ -1,0 +1,6 @@
+ContextMenu_RU = {
+    ContextMenu_Inject = "Вколоть",
+    ContextMenu_BurnTreatment = "Помазать ожог кремом",
+    ContextMenu_PackHemostatic = "Применить гемостатический порошок",
+    ContextMenu_Tourniquet = "Наложить жгут",
+}

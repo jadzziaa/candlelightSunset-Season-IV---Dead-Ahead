@@ -1,0 +1,63 @@
+ContextMenu_PTBR = {
+	
+
+	ContextMenu_EvolvedRecipe_SapphCooking.ArborioRiceBowl = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofFriedRice = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofOmurice = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRisotto = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BrownRiceBowl = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRavioli = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofTortellini = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBeefStew = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRefriedBeans = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguetti = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofSpaguettiandMeatballs = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofYakisoba = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofKungPaoChicken = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofShuiZhuYu = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofJapaneseCurry = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofBorscht = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofMashedPotatoes_Meatballs = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceJapaneseCurry = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.FryingPan_BaconandEggs = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_BaconandEggs = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_BaconandEggs = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_BaconandEggs = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_BaconandEggs = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.RiceBeanBowl = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofChickenStroganoff = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.BowlofRiceChickenStroganoff = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.Plate_HuevosRancheros = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateBlue_HuevosRancheros = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateOrange_HuevosRancheros = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.PlateFancy_HuevosRancheros = "Adicionar",
+
+
+
+
+
+
+
+
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_1 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_2 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_3 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_4 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_5 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_6 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_7 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_8 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_9 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_10 = "Adicionar",
+	ContextMenu_EvolvedRecipe_SapphCooking.MRE_11 = "Adicionar",
+  	ContextMenu_EvolvedRecipe_SapphCooking.MRE_12 = "Adicionar",
+  
+
+	ContextMenu_EvolvedRecipe_SapphCooking.SkewersMeat = "Espeto",
+	ContextMenu_EvolvedRecipe_SapphCooking.SkewersVegetable = "Espeto",
+	ContextMenu_EvolvedRecipe_SapphCooking.SkewersInsect = "Espeto",
+	ContextMenu_EvolvedRecipe_SapphCooking.ThermosBeverage = "Garrafa Térmica",
+	ContextMenu_EvolvedRecipe_SapphCooking.SapphCrackers = "Biscoitos",
+  	ContextMenu_EvolvedRecipe_SapphCooking.SapphCrackers2 = "Biscoitos Graham",
+} 

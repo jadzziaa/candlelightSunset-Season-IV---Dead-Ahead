@@ -1,0 +1,47 @@
+module Base
+{
+
+
+recipe RESPAWN ScrapArmor
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		Rucksack,
+        Result:Rucksack,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN ScrapArmor
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		ScrapLegPouchL,
+        Result:ScrapLegPouchL,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+recipe RESPAWN ScrapArmor
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		ScrapLegPouchR,
+        Result:ScrapLegPouchR,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+	
+}

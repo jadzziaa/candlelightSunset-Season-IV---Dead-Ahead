@@ -1,0 +1,28 @@
+ItemName_EN = {
+    ItemName_MoreMedical.PillsCommercialPainkillers = "Neboline Pills",
+    ItemName_MoreMedical.PillsPrescriptionPainkillers = "Torcine Pills",
+    ItemName_MoreMedical.PillsCaffeine = "Caffeine Pills‎",
+    ItemName_MoreMedical.PillsCommercialAntibiotic = "Idivon Pills‎",
+    ItemName_MoreMedical.PillsAntiPoisoning = "Antipzidin Pills",
+    ItemName_MoreMedical.PillsCommercialSedative = "Hrenozepam Pills‎",
+    ItemName_MoreMedical.PillsPharmacyPrescription = "Prescription Pills‎",
+    ItemName_MoreMedical.SyretteHighGradePainkillers = "Morphine Syrette‎",
+    ItemName_MoreMedical.SyretteAdrenalin = "Adrenalin Syrette",
+    ItemName_MoreMedical.SyrettePrescriptionAntibiotic = "Denashol Syrette",
+    ItemName_MoreMedical.SyrettePrescriptionSedatives = "US Pоcaine Syrette",
+    ItemName_MoreMedical.BottleFluMedication = "TsarFlu Bottle",
+    ItemName_MoreMedical.SealedBandage = "Sterile bandage packaging",
+    
+    ItemName_MoreMedical.PowderPackFluMedication = "TsarFlu Powder Pack",
+    ItemName_MoreMedical.HotDrinkFluMedicationMug = "TsarFlu Hot Drink",
+    ItemName_MoreMedical.HotDrinkFluMedicationMugRed = "TsarFlu Hot Drink",
+    ItemName_MoreMedical.HotDrinkFluMedicationMugWhite = "TsarFlu Hot Drink",
+    ItemName_MoreMedical.HotDrinkFluMedicationMugSpiffo = "TsarFlu Hot Drink",
+    
+    ItemName_MoreMedical.BurnTreatment = "Pog Orel Gel",
+    ItemName_MoreMedical.PowderPackHemostatic = "Hemostatic powder",
+    ItemName_MoreMedical.Tourniquet = "Tourniquet",
+    
+    ItemName_MoreMedical.BottleCoughSyrup = "Bottle of cough syrup «Dr. IBLT»",
+    ItemName_MoreMedical.NasalSpray = "SoPlaR Forte Nasal Spray",
+}

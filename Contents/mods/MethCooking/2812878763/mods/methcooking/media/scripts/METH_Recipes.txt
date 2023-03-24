@@ -1,0 +1,167 @@
+module MethCooking
+{
+
+
+recipe Make Pot of Base for Meth
+{
+    destroy Pot,
+	Bleach,
+	Disinfectant,
+	Salt,
+	
+    Result:MethBasePot,
+	Category:MethCooking,
+    Time:150.0,
+}
+
+recipe Make Pot of Base for Blue Meth
+{
+    MethBasePot,
+	PillsBeta,
+	PillsAntiDep,
+	Pop/Pop2/Pop3,
+	
+    Result:BlueMethBasePot,
+	IsHidden:true,
+	Category:MethCooking,
+    Time:150.0,
+}
+
+recipe Make Pot of Base for Pepper Meth
+{
+    MethBasePot,
+	PepperJalapeno/BellPepper/PepperHabanero,
+	
+    Result:PepperMethBasePot,
+	IsHidden:true,
+	Category:MethCooking,
+    Time:150.0,
+}
+
+recipe Make Baking Tray with Meth
+{
+	MethPotGood,
+	BakingTray,
+	
+    Result:BakingTrayMethGood,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:BakingTrayWithMeth1,
+}
+
+recipe Pakage Meth
+{
+	BakingTrayMethGood,
+	
+    Result:MethGood=5,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:PakageMeth1,
+}
+
+recipe Make Baking Tray with Meth
+{
+	MethPotBad,
+	BakingTray,
+	
+    Result:BakingTrayMethBad,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:BakingTrayWithMeth2,
+}
+
+recipe Pakage Meth
+{
+	BakingTrayMethBad,
+	
+    Result:MethBad=6,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:PakageMeth2,
+}
+
+recipe Make Baking Tray with Meth
+{
+	BlueMethPotGood,
+	BakingTray,
+	
+    Result:BakingTrayBlueMethGood,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:BakingTrayWithMeth3,
+}
+
+recipe Pakage Meth
+{
+	BakingTrayBlueMethGood,
+	
+    Result:BlueMethGood=5,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:PakageMeth3,
+}
+
+recipe Make Baking Tray with Meth
+{
+	BlueMethPotBad,
+	BakingTray,
+	
+    Result:BakingTrayBlueMethBad,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:BakingTrayWithMeth4,
+}
+
+recipe Pakage Meth
+{
+	BakingTrayBlueMethBad,
+	
+    Result:BlueMethBad=6,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:PakageMeth4,
+}
+
+recipe Make Baking Tray with Meth
+{
+	PepperMethPotGood,
+	BakingTray,
+	
+    Result:BakingTrayPepperMethGood,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:BakingTrayWithMeth5,
+}
+
+recipe Pakage Meth
+{
+	BakingTrayPepperMethGood,
+	
+    Result:PepperMethGood=5,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:PakageMeth5,
+}
+
+recipe Make Baking Tray with Meth
+{
+	PepperMethPotBad,
+	BakingTray,
+	
+    Result:BakingTrayPepperMethBad,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:BakingTrayWithMeth6,
+}
+
+recipe Pakage Meth
+{
+	BakingTrayPepperMethBad,
+	
+    Result:PepperMethBad=6,
+	Category:MethCooking,
+    Time:150.0,
+	OnCreate:PakageMeth6,
+}
+
+}

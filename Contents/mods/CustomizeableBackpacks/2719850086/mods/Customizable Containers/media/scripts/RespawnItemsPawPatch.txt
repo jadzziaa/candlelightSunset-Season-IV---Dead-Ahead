@@ -1,0 +1,136 @@
+module Base
+{
+
+
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MVest_Black,
+        Result:MVest_Black,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}	
+	
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MVest2_Black,
+        Result:MVest2_Black,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MVest_Military,
+        Result:MVest_Military,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		MVest2_Military,
+        Result:MVest2_Military,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		TacticalWaistBagBack_Black,
+        Result:TacticalWaistBagBack_Black,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		TacticalWaistBagFront_Black,
+        Result:TacticalWaistBagFront_Black,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		TacticalWaistBagBack_Military,
+        Result:TacticalWaistBagBack_Military,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		TacticalWaistBagFront_Military,
+        Result:TacticalWaistBagFront_Military,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		RogueWaistBag_Black,
+        Result:RogueWaistBag_Black,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+recipe RESPAWN PawLowPatch
+	{
+		keep Scissors,
+        keep Needle/SutureNeedle,
+		Respawn_Token,
+		RogueWaistBag_Military,
+        Result:RogueWaistBag_Military,
+		Time:500.0, 
+		NeedToBeLearn:true,
+		Category:Respawn, 
+		Tooltip:Tooltip_RespawnBag,
+ 	}
+ 	
+ 		
+}

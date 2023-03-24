@@ -1,0 +1,5 @@
+MultiStageBuild_EN = {
+    -- Metal Door Frame
+    MultiStageBuild_UpgradeMetalDoorFrame_1To2 = "Upgrade to Metal Window Lvl 2",
+}
+

@@ -1,0 +1,33 @@
+ContextMenu_EN = {  
+  -- Woodworking
+  ContextMenu_Brown_Wooden_Floor = "Brown Wooden Floor",
+  ContextMenu_Light_Brown_Wooden_Floor = "Light Brown Wooden Floor",
+  ContextMenu_Dining = "Dining Furniture",
+  ContextMenu_Storage = "Storage",
+  ContextMenu_Outdoor = "Outdoor",
+  ContextMenu_Collector = "Collectors",
+  ContextMenu_Rain_Collector_Barrel = "Small Rain Collector",
+  ContextMenu_Large_Rain_Collector_Barrel = "Large Rain Collector",
+  ContextMenu_Half_Wooden_Crate = "Wooden Half Crate",
+  ContextMenu_Stairs_LightBrown = "Light Brown Stairs",
+  ContextMenu_Stairs_Brown = "Brown Stairs",
+  ContextMenu_Stairs_Dark = "Dark Stairs",
+  ContextMenu_Wooden_Gate = "Wooden Fence Gate",
+  ContextMenu_Wooden_Big_Gate = "Wooden Gate",
+  ContextMenu_Log_Pillar = "Log Pillar",
+  ContextMenu_Military_Crate = "Military Crate",
+  
+  --Metalworking
+  ContextMenu_JailWallFrame = "Jail Wall Frame",
+  ContextMenu_DoorGates = "Doors/Gates",
+  ContextMenu_Gates = "Gates",
+  ContextMenu_FloorRoof = "Floor/Roof",
+  ContextMenu_MetalFloor = "Metal Floor",
+  ContextMenu_DoorFrameMetal = "Metal Door Frame",
+  ContextMenu_MetalDoor = "Metal Door",
+  ContextMenu_DoorFrameJail = "Jail Door Frame",
+  ContextMenu_JailDoor = "Jail Door",
+  
+  --Other
+  ContextMenu_Concrete_Floor = "Pour Concrete",
+}

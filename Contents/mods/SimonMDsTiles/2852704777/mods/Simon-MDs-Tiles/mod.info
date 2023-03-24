@@ -1,0 +1,6 @@
+name=Simon MDs Tiles
+poster=poster.png
+id=simonMDsTiles
+description=Some tiles I created for the Stalker Stores and other projects
+pack=SimonMDsTiles
+tiledef=SimonMDsTiles 3333
