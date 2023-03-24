@@ -1,0 +1,12 @@
+You will need to follow the directions on the the article here to make a Discord Application and Discord Bot account.
+https://realpython.com/how-to-make-a-discord-bot-python/#how-to-make-a-discord-bot-in-the-developer-portal
+Follow all of "How to Make a Discord Bot in the Developer Portal" until you get to the "Now, you know how to make a Discord bot using the Developer Portal. Next comes the fun stuff: implementing your bot in Python!", where you can stop.
+For Permissions, I only needed the bot Scope and the Send Messages text permission for my test.
+
+For Python, you will likely need to install discord and may need to install nest_asyncio.
+The commands to do so are:
+$ pip install -U discord
+$ pip install -U nest_asyncio
+
+After everything is set up, you'll need to run the DiscordBot. This will need to run constantly, so I'd suggest setting up a script to run it when the server restarts or something, but will leave the details to you.
+$ python DiscordBot.py
