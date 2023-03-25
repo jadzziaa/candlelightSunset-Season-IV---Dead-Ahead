@@ -85,4 +85,13 @@ module Language
         WorldStaticModel = MagazineWordSearch3_Ground,
 
     }
+    item KoreanBook
+    {
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Buffetta Stone - Korean,
+        Icon	=	MagazineWordsearch3,
+        WorldStaticModel = MagazineWordSearch3_Ground,
+
+    }
 }
