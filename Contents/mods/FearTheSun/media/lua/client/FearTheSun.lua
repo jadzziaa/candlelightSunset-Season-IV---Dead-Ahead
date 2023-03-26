@@ -13,11 +13,11 @@ local initialised = false;
 local stepCounter = 0;
 
 --Modifier constants
-local sneakLoudlyChance = 0.25; --CHANCE: 0.25% chance of waking zombies while sneaking
-local wakeBuildingChance = 2; --CHANCE: 2% chance of waking zombies in building
-local stepLoudlyChance = 5; --CHANCE: 5% chance of waking zombies if you step loudly
-local hitChance = 25; --CHANCE: 25% chance of waking zombies on hit
-local collisionChance = 75; --CHANCE: 75% chance of waking zombies on collision
+local sneakLoudlyChance = 10; --CHANCE: 0.25% chance of waking zombies while sneaking
+local wakeBuildingChance = 75; --CHANCE: 2% chance of waking zombies in building
+local stepLoudlyChance = 50; --CHANCE: 5% chance of waking zombies if you step loudly
+local hitChance = 100; --CHANCE: 25% chance of waking zombies on hit
+local collisionChance = 100; --CHANCE: 75% chance of waking zombies on collision
 local lureChance = 75; --CHANCE: 25% chance of luring zombie
 
 local function teleport(character,x,y,z)
