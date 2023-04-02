@@ -143,7 +143,7 @@ local function limitSkill(character, perk, level)
     end
 
     -- If perk is Carpentry, Cooking, Farming, First Aid, Electrical, Metalworking, Mechanics, or Tailoring, then we add the relevant Crafting bonus.
-    if perk_name == "carpentry" or perk_name == "cooking" or perk_name == "farming" or perk_name == "first aid" or perk_name == "electrical" or perk_name == "metalworking" or perk_name == "mechanics" or perk_name == "tailoring" then
+    if perk_name == "carpentry" or perk_name == "cooking" or perk_name == "farming" or perk_name == "first aid" or perk_name == "electrical" or perk_name == "metalworking" or perk_name == "mechanics" or perk_name == "tailoring" or perk_name == "tinkering" then
         bonus = getCraftingBonus()
         perk_found = true
     end
