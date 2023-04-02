@@ -26,7 +26,7 @@ local function initTinkeringSkillTraits()
 	BaseGameCharacterDetails.SetProfessionDescription(repairman)
 
 	local engineer = ProfessionFactory.getProfession("engineer")
-	engineer:addXPBoost(Perks.Tinkering, 1);
+	engineer:addXPBoost(Perks.Tinkering, 3);
 	BaseGameCharacterDetails.SetProfessionDescription(engineer)
 	
 end
