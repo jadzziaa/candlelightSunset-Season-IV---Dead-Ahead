@@ -1,0 +1,45 @@
+This mod adds modifiers to weapons and bags, and displays their effects on the item's tooltip.
+
+While it may not be very realistic, it does provide a lot of variance on the loot and quality of weapons.
+
+[h1]Modifier effects :[/b]
+[list]
+[*][b][u]Damage :[/u][/b] Affects minimum and maximum damage (all weapons), as well as tree damage and door damage (melee weapons)
+[*][b][u]Minimum range[/u][/b] (all weapons)
+[*][b][u]Maximum range[/u][/b] (all weapons)
+[*][b][u]Critical chance[/u][/b] (all weapons)
+[*][b][u]Durability :[/u][/b] (all weapons) Affects the max condition, current condition and chance to lose condition
+
+[*][b][u]Attack speed :[/u][/b] (melee weapons only)
+[*][b][u]Endurance cost[/u][/b] (melee weapons only)
+
+[*][b][u]Accuracy :[/u][/b] Affects the hit chance. (ranged weapons only)
+[*][b][u]Recoil :[/u][/b] Affects the recoil delay (ranged weapons only)
+[*][b][u]Aim time :[/u][/b] Affects the aim time (ranged weapons only)
+[*][b][u]Reload time :[/u][/b] Affects the reload time (ranged weapons only)
+[*][b][u]Sound radius :[/u][/b] Affects sound radius, sound volume and sound gain (ranged weapons only)
+
+[*][b][u]Weight Reduction :[/u][/b] (bags only)
+[*][b][u]Capacity :[/u][/b] (bags only)
+[/list]
+
+[h1]Tooltip stats :[/h1]
+Inspired and tweaked from the mod "Show weapon stats". On the tooltips, the item stats are shown in yellow.
+The stats of the modifier (if the item has one) are ALREADY applied to those stats.
+The stats in parenthesis are the bonuses from the players' traits and skills, NOT from the modifiers.
+
+
+[h1]Modifiers :[/h1]
+Each item has 75% chance to get a modifier.
+Each modifier can have 1 of 6 colors, each representing its quality:
+[list]
+[*] dark red: shitty
+[*] grey: bad
+[*] white: common
+[*] green: good
+[*] blue: great
+[*] purple : epic
+[*] light red: insane
+[*] orange: legendary
+[/list]
+Many modify only one stat. Others modify multiple stats. There may be both bonuses and maluses on a modifier.

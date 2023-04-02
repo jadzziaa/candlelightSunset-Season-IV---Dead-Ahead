@@ -1,0 +1,34 @@
+Tooltip_RU = {
+    Tooltip_modifier_type="Тип",
+    Tooltip_modifier_standard="Стандартный",
+
+    Tooltip_modifier_attack_speed="Скорость атаки",
+    Tooltip_modifier_knockback="Отталкивание",
+    Tooltip_modifier_minrange="Минимальная дальность",
+    Tooltip_modifier_maxrange="Максимальная дальность",
+    Tooltip_modifier_crit="Шанс крит. удара",
+    Tooltip_modifier_durability="Прочность",
+    Tooltip_modifier_endurance_cost="Расход выносливости",
+
+    Tooltip_modifier_accuracy="Точность",
+    Tooltip_modifier_recoil="Разброс",
+    Tooltip_modifier_aim_time="Время прицеливания",
+    Tooltip_modifier_reload_time="Время перезарядки",
+    Tooltip_modifier_noise="Громкость",
+
+
+    Tooltip_item_stats_damage="Урон",
+    Tooltip_item_stats_crit="Крит. урон",
+    Tooltip_item_stats_range="Дальность",
+    Tooltip_item_stats_break_chance="Шанс поломки",
+    Tooltip_item_stats_break_chance_one_in="1 из",
+    Tooltip_item_stats_recoil_aim_reload="Разброс/Прицеливание/Время перезарядки",
+
+
+    Tooltip_item_stats_sound_radius="Радиус слышимости",
+    Tooltip_item_stats_accuracy="Точность",
+    Tooltip_item_stats_knockback="Отталкивание",
+    Tooltip_item_stats_attack_speed="Скорость атаки",
+    Tooltip_item_stats_endurance_used="Использование выносливости",
+    Tooltip_item_stats_tiles="метров"
+}

@@ -1,0 +1,4 @@
+IG_UI_CH = {
+    IGUI_category_improvised = "即興",
+    IGUI_category_unknown = "未知",
+}

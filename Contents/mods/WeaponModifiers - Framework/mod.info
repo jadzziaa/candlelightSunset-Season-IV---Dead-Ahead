@@ -1,0 +1,4 @@
+name=Weapon Modifiers - Framework
+id=WeaponModifiersFramework
+poster=poster.png
+description=The Framework for Weapon Modifiers : requires either "Weapon Modifiers - Extensive" or "Weapon Modifiers - Realistic and Lore Friendly". Many options customizable in sandbox settings : modify the chance of applying a modifier on a weapon and the overall rarity quality according to a start day and a peak day, modify the chance of modifier for Ranged Weapons or Attached Weapons (weapons on zombies).

@@ -1,0 +1,5 @@
+name=Weapon Modifiers - Realistic Modifier List
+id=WeaponModifiersRealistic
+poster=poster.png
+description=Basic modifiers with lore friendly names, for an experience focused on realism. Not as many modifiers. Stats modifiers not as diverse, and only 3 rarities (rare - 6%, good - 47%, bad = 47% ). Also disables modifiers on Ranged Weapons. DO NOT ENABLE THE REALISTIC MODIFIER LIST AND EXTENSIVE MODIFIER LIST AT THE SAME TIME.
+require=WeaponModifiersFramework

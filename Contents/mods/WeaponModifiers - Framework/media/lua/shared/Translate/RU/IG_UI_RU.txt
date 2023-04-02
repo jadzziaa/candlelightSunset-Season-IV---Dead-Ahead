@@ -1,0 +1,4 @@
+IGUI_RU = {
+    IGUI_category_improvised = "Импровизированный",
+    IGUI_category_unknown = "Неизвестный"
+}

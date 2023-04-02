@@ -1,0 +1,4 @@
+ContextMenu_CN = {
+	ContextMenu_Tinker = "铸造",
+	ContextMenu_TinkerWith = "铸造以",
+}

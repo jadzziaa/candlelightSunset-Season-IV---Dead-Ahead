@@ -1,0 +1,4 @@
+UI_CN = {
+	UI_trait_tinkerer = "铸造者",
+	UI_trait_tinkererdesc = "更快更好地铸造<br>+20%的几率在铸造时不消耗物品。",
+}

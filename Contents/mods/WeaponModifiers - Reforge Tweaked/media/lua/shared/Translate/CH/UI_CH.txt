@@ -1,0 +1,4 @@
+UI_CH = {
+    UI_trait_tinkerer = "專業工匠",
+    UI_trait_tinkererdesc = "更快且更好的鍛造.<br>+20%機率在鍛造時不消耗物品.",
+}
