@@ -28,6 +28,11 @@ function Recipe.OnGiveXP.Electricity03(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Electricity, 3);
 end
 
+function Recipe.OnGiveXP.Metalworking03(recipe, ingredients, result, player)
+	player:getXp():AddXP(Perks.MetalWelding, 3);
+	--player:getXp():AddXP(Perks.Strength, 10);
+end
+
 -- keep favs when dismantling
 function Recipe.OnTest.DismantleFavs(item)
     if not item  then return end
