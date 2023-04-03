@@ -1,0 +1,47 @@
+module Base
+{
+
+    item EmptyLighter
+    {
+		DisplayCategory = LightSource,
+		Weight	=	0.1,
+		DisplayName	=	Empty Lighter,
+		Icon	=	Lighter_Empty,
+		StaticModel = Zippo,
+		WorldStaticModel = ZippoGround,
+    }
+
+	item GlassMold
+    {
+		DisplayCategory = Material,
+		Weight	=	3.0,
+		Type	=	Normal,
+		DisplayName	=	Glass Mold,
+		Icon	=	GlassMold,
+		WorldStaticModel = GlassMold,
+    }
+
+	item GlassShard
+    {
+		DisplayCategory = Material,
+		Weight	=	0.1,
+		Type	=	Normal,		
+		DisplayName	=	Glass Shard,
+		Icon	=	GlassShard,
+		WorldStaticModel = GlassShard,
+    }
+
+	item GlassPane
+    {
+		DisplayCategory = Material,
+		Weight	=	2.0,
+		Type	=	Normal,		
+		DisplayName	=	Glass Pane,
+		Icon	=	GlassPane,
+		WorldStaticModel = GlassPane,
+    }
+	
+}
+
+
+	

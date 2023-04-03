@@ -1,0 +1,974 @@
+module VPR_QoL
+{
+	imports
+	{
+		Base
+	}
+	
+
+    /************************ QoL Recipes ************************/
+	
+	recipe Make Sturdy Sticks
+    {
+		keep HandAxe/AxeStone/Saw/GardenSaw,
+		Broom/CanoePadel/CanoePadelX2/Mop/Plunger/WoodenLance/Poolcue/WoodenMallet/Rake/LeafRake/GardenFork/GardenHoe/SnowShovel/TentPeg,
+		
+	    Result:WoodenStick=1,
+		Time:250.0,
+		Sound:Sawing,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+	recipe Make Tarp from Garbage Bags
+	{
+		Garbagebag=4,
+		DuctTape=1,
+		
+		Result:Tarp,
+		Time:250.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		Sound:FixWithTape,
+	}
+
+	recipe Make Garbage Bags from Tarp
+	{
+		keep Scissors,
+		Tarp,
+		
+		Result:Garbagebag=4,
+		Time:250.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+	}	
+	
+	recipe Make Garbage Bags
+	{
+		keep Scissors,
+		Plasticbag/GroceryBag1/GroceryBag2/GroceryBag3/GroceryBag4,
+		
+		Result:Garbagebag,
+		Time:250.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+	}
+
+	recipe Make Baseball Bat from Log
+	{
+		keep HandAxe/AxeStone/Axe/WoodAxe,
+		Log=1,
+		LeatherStrips/LeatherStripsDirty=2,
+		
+		Result:BaseballBat,
+		Time:2000.0,
+		Category:Weapons,
+		SkillRequired:Woodwork=5,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:ChopTree,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,		
+	}	
+	
+		recipe Make Matches
+	{
+		keep KitchenKnife/HuntingKnife/FlintKnife,
+		keep MortarPestle,
+		Glue/Woodglue=1,
+		UnusableWood=1,
+		GunPowder=1,
+		
+		Result:Matches=3,
+		Time:250.0,
+		Category:Survivalist,
+		SkillRequired:Woodwork=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+	}
+
+	recipe Make Fishing Tackle
+	{
+		keep KitchenKnife/HuntingKnife/FlintKnife,
+		Paperclip/Needle/SutureNeedle=1,
+		Thread,
+
+		Result:FishingTackle=1,
+		Time:250.0,
+		Category:Survivalist,
+		SkillRequired:Fishing=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+	}	
+
+	recipe Make Glue	
+	{
+		WaterBottleEmpty/PopBottleEmpty,
+		Flour=1,
+		Water=2,
+
+		Result:Glue=2,
+		Time:250.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		SkillRequired:Cooking=2,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+	}	
+	
+		recipe Make Wooden Window
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Saw/GardenSaw,
+		Nails=8,
+		Plank=4,
+		GlassPane=2,
+
+		Result:Moveables.fixtures_windows_01_1,
+		Time:2000.0,
+		Category:Recycling,
+		SkillRequired:Woodwork=6,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:Hammering,
+	}
+	
+	recipe Make Jar
+	{
+		keep Saw/GardenSaw,
+		WineEmpty/WineEmpty2,
+		Thread=1,
+		Lighter=1,
+
+		Result:EmptyJar=1,
+		Time:500.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		Sound:BreakGlassItem,
+	}	
+	
+	recipe Make Mop
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		WoodenStick=1,
+		Nails=3,
+		RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty=5,
+
+		Result:Mop,
+		Time:200.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+	}					
+ 
+ 	recipe Make Soap
+     {
+		keep MortarPestle,
+		Water=5,
+		BakingSoda=1,
+		Butter/OilVegetable/OilOlive/Comfrey/LemonGrass/BlackSage/Plantain=1,
+		
+		Result:Soap2=2,
+		Time:250.0,
+		Category:Survivalist,
+		SkillRequired:PlantScavenging=1,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     }	
+	 
+ 	recipe Make Cleaning Liquid
+     {
+		Water=10,
+		Soap2,
+		
+		Result:CleaningLiquid2=1,
+		Time:250.0,
+		Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     }
+	 
+ 	recipe Make Charcoal
+     {
+		keep HandAxe/AxeStone/Axe/WoodAxe,
+		keep CampfireKit,
+		Log=1,
+		
+		Result:Charcoal,
+		Time:500.0,
+		Category:Survivalist,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+     }	 
+	 
+	 
+ 	recipe Make Needle
+     {
+		keep [Recipe.GetItemTypes.Hammer],
+		Paperclip/Nails,
+		
+		Result:Needle,
+		Time:200.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     }
+	 
+ 	recipe Make Tea
+     {
+		keep MortarPestle,
+		AlcoholRippedSheets=1,
+		Comfrey/LemonGrass/BlackSage/Plantain/Violets/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5,
+				
+		Result:Teabag2=2,
+		Time:200.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     }	 
+	 
+ 	recipe Make Notebook
+     {
+		Wire=1,
+		SheetPaper2=8,
+				
+		Result:Notebook,
+		Time:200.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     }	 	 
+
+ 	recipe Make Chipped Stone
+     {
+		keep [Recipe.GetItemTypes.Hammer],
+		Stone,
+				
+		Result:SharpedStone=2,
+		Time:200.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.DisStr,
+     } 
+	
+	recipe Put Cabbages in Sack
+     {
+		EmptySandbag,
+		Cabbage=8,
+				
+		Result:SackProduce_Cabbage,
+		Time:100.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     } 
+
+	recipe Put Tomatos in Sack
+     {
+		EmptySandbag,
+		Tomato=12,
+				
+		Result:SackProduce_Tomato,
+		Time:100.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     } 
+	 
+	recipe Put Potatos in Sack
+     {
+		EmptySandbag,
+		Potato=12,
+				
+		Result:SackProduce_Potato,
+		Time:100.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     } 
+	 
+	recipe Put Broccoli in Sack
+     {
+		EmptySandbag,
+		Broccoli=12,
+				
+		Result:SackProduce_Broccoli,
+		Time:100.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     } 
+	 
+	recipe Put Carrots in Sack
+     {
+		EmptySandbag,
+		Carrots=12,
+				
+		Result:SackProduce_Carrot,
+		Time:100.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     }
+
+	recipe Put Radishes in Sack
+     {
+		EmptySandbag,
+		RedRadish=12,
+				
+		Result:SackProduce_RedRadish,
+		Time:100.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     }
+
+	recipe Put Strawberries in Sack
+     {
+		EmptySandbag,
+		Strewberrie=16,
+				
+		Result:SackProduce_Strawberry,
+		Time:100.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+     }
+
+
+    /************************ Tailoring Recipes ************************/	
+	
+	recipe Rip Leather Item
+	{
+		keep Scissors/[Recipe.GetItemTypes.SharpKnife],
+		HolsterSimple/HolsterDouble/Handbag/Purse/Basketball/Football/Football2/SoccerBall/Shoes_RidingBoots/Shoes_BlackBoots/Shoes_ArmyBoots/Shoes_ArmyBootsDesert/Shoes_Black/Shoes_Brown/Shoes_Random/Shoes_Strapped/Shoes_Sandals/Shoes_Fancy/Shoes_Bowling/Shoes_Wellies/Belt2/Shoes_RedTrainers/Shoes_BlueTrainers/Shoes_TrainerTINT,
+		
+		Result:LeatherStrips=2,
+		Time:200.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		AnimNode:RipSheets,
+		Sound:ClothesRipping,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,
+	}	
+
+	recipe Rip Leather Item (small)
+	{
+		keep Scissors/[Recipe.GetItemTypes.SharpKnife],
+		Wallet/Wallet2/Wallet3/Wallet4/DogChew/Shoes_FlipFlop/Necklace_Choker/Necklace_Choker_Sapphire/Necklace_Choker_Amber/Necklace_Choker_Diamond,
+		
+		Result:LeatherStrips=1,
+		Time:150.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		AnimNode:RipSheets,
+		Sound:ClothesRipping,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,
+	}
+	
+	recipe Rip Underwear
+    {
+        Bra_Strapless_Black/Bra_Strapless_RedSpots/Bra_Strapless_White/Bra_Straps_Black/Bra_Straps_White/Bra_Strapless_AnimalPrint/Bra_Straps_AnimalPrint/Bra_Straps_FrillyBlack/Bra_Strapless_FrillyBlack/Bra_Straps_FrillyPink/Bra_Strapless_FrillyPink/Bra_Straps_FrillyRed/Bra_Strapless_FrillyRed/Underpants_Black/Underpants_RedSpots/Underpants_White/Underpants_AnimalPrint/FrillyUnderpants_Black/FrillyUnderpants_Pink/FrillyUnderpants_Red/Boxers_Hearts/Boxers_Silk_Black/Boxers_Silk_Red/Boxers_RedStripes/Boxers_White/Briefs_White/Briefs_AnimalPrints/Briefs_SmallTrunks_Black/Briefs_SmallTrunks_Blue/Briefs_SmallTrunks_Red/Garter/Corset_Black/Corset_Red/Corset/Briefs_SmallTrunks_WhiteTINT,
+
+        Result:RippedSheets,
+		Time:80.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		AnimNode:RipSheets,
+        Sound:ClothesRipping,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,		
+    }
+	
+	recipe Make Thread
+	{
+		keep Scissors,
+		RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty=3,
+		
+		Result:Thread=1,
+		Time:200.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		AnimNode:RipSheets,
+		Sound:ClothesRipping,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,
+	}
+
+	recipe Make Rope
+	{
+		RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty=5,
+
+		Result:Rope,
+		Time:300.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,
+	}		
+	
+	recipe Make Sheet
+	{
+		keep Needle/SutureNeedle,
+		Thread=4,
+		RippedSheets/RippedSheetsDirty=12,
+			   
+		Result:Sheet=1,
+		Time:300.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		AnimNode:RipSheets,
+		Sound:ClothesRipping,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,
+	}	
+	
+	recipe Sheet Rope to Sheet
+	{
+		SheetRope=1,
+
+		Result:Sheet,
+		Time:150.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+	}	
+
+	recipe Make Pillow
+	{
+		keep Needle/SutureNeedle,
+		Thread/Twine=3,
+		RippedSheets=10,
+		Sheet=1,
+
+		Result:Pillow,
+		Time:750.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring03,
+	}
+	
+	recipe Make Leather Gloves
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips/LeatherStripsDirty=8,
+		Thread=2,
+
+		Result:Gloves_LeatherGloves,
+		Time:500.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+    }	
+
+	recipe Make Leather Belt
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=6,
+		Thread=2,
+		Paperclip/Nails=1,
+
+		Result:Belt2,
+		Time:500.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring05,
+    }	
+	
+	recipe Make Rope
+	{
+		Twine=15,
+
+		Result:Rope,
+		Time:300.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+	}
+	
+	recipe Rope to Twine
+	{
+		keep KitchenKnife/HuntingKnife/FlintKnife,
+		Rope=1,
+
+		Result:Twine=10,
+		Time:300.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,		
+	}	
+	
+	recipe Thread to Twine
+	{
+		Thread=15,
+
+		Result:Twine,
+		Time:300.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,		
+	}		
+
+	recipe Make Sack
+	{
+		keep Needle/SutureNeedle,
+		Sheet=1,
+		Thread=3,
+
+		Result:EmptySandbag,
+		Time:300.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,
+	}		
+
+	recipe Make Bath Towel
+	{
+		Sheet=1,
+
+		Result:BathTowel,
+		Time:300.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring03,
+	}	
+
+	recipe Repair Vest (Civillian)
+	{
+		destroy Vest_BulletCivilian,
+		Thread=5,
+		SmallSheetMetal=1,
+		keep Needle=1,
+
+		Result:Vest_BulletCivilian,
+		Time:800.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		SkillRequired:Tailoring=4,		
+		OnGiveXP:Recipe.OnGiveXP.Tailoring03,
+	}	
+	
+	recipe Repair Vest (Police)
+	{
+		destroy Vest_BulletPolice,
+		Thread=5,
+		SmallSheetMetal=1,
+		keep Needle=1,
+
+		Result:Vest_BulletPolice,
+		Time:900.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		SkillRequired:Tailoring=6,		
+		OnGiveXP:Recipe.OnGiveXP.Tailoring03,
+	}
+
+	recipe Repair Vest (Military)
+	{
+		destroy Vest_BulletArmy,
+		Thread=7,
+		SmallSheetMetal=2,
+		keep Needle=1,
+
+		Result:Vest_BulletArmy,
+		Time:900.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		SkillRequired:Tailoring=6,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring03,
+	}	
+
+	recipe Make Wooly Hat
+	{
+		keep KnittingNeedles,
+		Yarn=2,
+
+		Result:Hat_WoolyHat,
+		Time:700.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		SkillRequired:Tailoring=5,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring05,
+	}		
+
+	recipe Make Scarf
+	{
+		keep KnittingNeedles,
+		Yarn=2,
+
+		Result:Scarf_White,
+		Time:500.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring05,
+	}		
+	
+ 	recipe Make Bandage
+    {
+		keep Needle/SutureNeedle,
+		Thread=1,
+		RippedSheets=2,
+				
+		Result:Bandage,
+		Time:200.0,
+		Category:Health,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,
+    }
+
+ 	recipe Make Sling
+    {
+		keep Needle/SutureNeedle,
+		LeatherStrips=5,
+				
+		Result:Sling,
+		Time:200.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring03,
+    }	
+
+	recipe Make Fruit Jam
+	{
+		WaterSaucepan=5,
+		Carrots/RedRadish/Strewberrie/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/BerryBlack/BerryBlue/BerryPoisonIvy/Rosehips/BeautyBerry/HollyBerry/WinterBerry=5,
+		[Recipe.GetItemTypes.Sugar];2,
+
+        Heat:-0.22,
+		Result:JamFruit,
+		Time:500.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:Cooking=3,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }	
+
+	recipe Make Dried Meat
+	{
+		Smallbirdmeat/Smallanimalmeat/Rabbitmeat/FrogMeat/FishFillet,
+		keep [Recipe.GetItemTypes.SharpKnife],
+		keep CampfireKit,
+
+		Result:DehydratedMeatStick=2,
+		Time:1500.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		SkillRequired:Cooking=3,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }	
+
+	recipe Make Pasta
+	{
+		keep [Recipe.GetItemTypes.SharpKnife],
+		keep RollingPin,
+		[Recipe.GetItemTypes.Flour]=2,
+		Egg/WildEggs=1,
+		[Recipe.GetItemTypes.Oil]/Butter/Lard/Margarine;2,
+
+		Result:Pasta,
+		Time:800.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		SkillRequired:Cooking=3,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }	
+
+	recipe Make Leather Jeans
+	{
+		keep Needle,
+		keep Scissors,
+		Thread=5,
+		DenimStrips=5,
+		LeatherStrips=15,
+		destroy TrousersMesh_DenimLight/Shorts_LongDenim/Trousers_Denim/Trousers_JeanBaggy,
+
+		Result:Trousers_LeatherBlack,
+		Time:800.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring03,
+    }
+
+	recipe Make Gunpowder
+	{
+	   	[Recipe.GetItemTypes.Petrol]=1,
+		Charcoal=2,
+		Fertilizer/Fertilizer=1,
+
+		Result:GunPowder,
+		Time:800.0,
+		Category:Survival,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:Cooking=3,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    /************************ Metalwork QoL Recipes ************************/
+	 
+	 recipe Make Jar Lids from Aluminum
+	 {
+		keep [Recipe.GetItemTypes.Hammer],
+		Aluminum=1,
+		
+		Result:JarLid=3,
+		Time:250.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:Hammering,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding05,
+	 }
+
+	recipe Make Hinge
+     {
+		keep WeldingMask,
+		BlowTorch=1,
+		WeldingRods=1,
+		ScrapMetal=4,
+		
+		Result:Hinge=1,
+		Time:250.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding03,
+     }		 
+
+	recipe Make Door Knob
+     {
+		keep WeldingMask,
+		BlowTorch=1,
+		WeldingRods=1,
+		ScrapMetal=4,
+		
+		Result:Doorknob=1,
+		Time:250.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding03,
+     }
+	 
+	recipe Make Barbed Wire
+     {
+		keep WeldingMask,
+		BlowTorch=1,
+		WeldingRods=1,
+		ScrapMetal=3,
+		Wire,
+		
+		Result:BarbedWire=1,
+		Time:150.0,
+		Category:Welding,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding03,
+     }	
+
+	recipe Make Crowbar
+	{
+		keep WeldingMask,
+		MetalBar=1,
+		ScrapMetal=7,
+		WeldingRods=1,
+		BlowTorch=1,
+		
+		Result:Crowbar,
+		Time:500.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding05,
+	}
+	 
+	  	recipe Make Sledgehammer
+     {
+		keep WeldingMask,
+		BlowTorch=1,
+		WeldingRods=2,
+		ScrapMetal=10,
+		MetalPipe=2,
+		ClubHammer=3,
+		
+		Result:Sledgehammer,
+		Time:1500.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		SkillRequired:MetalWelding=8;Blunt=2,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+     }
+
+ 	recipe Make Padlock
+     {
+		keep WeldingMask,
+		BlowTorch=1,
+		ScrapMetal=2,
+		WeldingRods=1,
+				
+		Result:Padlock,
+		Time:250.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=3,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding01,
+     }
+	 
+ 	recipe Make Combination Padlock
+     {
+		keep WeldingMask,
+		BlowTorch=1,
+		ScrapMetal=2,
+		WeldingRods=1,
+				
+		Result:CombinationPadlock,
+		Time:250.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=5,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding01,
+     }	 
+	 
+    /************************ Fixing Recipes ************************/
+	 
+	 	recipe Repair Katana
+     {
+		keep WeldingMask,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=1,
+		ScrapMetal=3,
+		destroy Katana,
+		
+		Result:Katana,
+		Time:800.0,
+		Category:Welding,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=6;LongBlade=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		AllowDestroyedItem:true,
+     }	 	 
+
+	recipe Repair Machete
+     {
+		keep WeldingMask,
+		BlowTorch=1,
+		WeldingRods=1,
+		SmallSheetMetal=1,
+		ScrapMetal=3,
+		destroy Machete,
+		
+		Result:Machete,
+		Time:800.0,
+		Category:Welding,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=4;SmallBlade=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		AllowDestroyedItem:true,
+     }		 
+
+	recipe Repair Wood Axe
+     {
+		keep WeldingMask,
+		BlowTorch=1,
+		WeldingRods=1,
+		ScrapMetal=7,
+		TreeBranch=1,
+		destroy WoodAxe,
+		
+		Result:WoodAxe,
+		Time:800.0,
+		Category:Welding,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=4;Axe=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		AllowDestroyedItem:true,
+     }
+	 
+	/************************ Vanilla Recipe Overrides ************************/
+	 
+	recipe Make Pipe bomb
+     {
+       ElectronicsScrap=3,
+       MetalPipe,
+       GunPowder=20,
+       Twine=1,
+       keep [Recipe.GetItemTypes.Saw],
+
+       Result:PipeBomb,
+       Time:100.0,
+       NeedToBeLearn:false,
+       Category:Engineer,
+	   Override:true,
+     }
+	 
+	recipe Make Aerosol bomb
+     {
+       Hairspray,
+       Sparklers,
+       Aluminum,
+
+       Result:Aerosolbomb,
+       Time:80.0,
+       NeedToBeLearn:false,
+       Category:Engineer,
+	   Override:true,
+     }
+
+    recipe Make Flame bomb
+     {
+       [Recipe.GetItemTypes.Petrol]=4,
+       RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
+       WaterBottleEmpty/PopBottleEmpty,
+
+       Result:FlameTrap,
+       Time:80.0,
+       NeedToBeLearn:false,
+       Category:Engineer,
+	   Override:true,
+     } 
+}

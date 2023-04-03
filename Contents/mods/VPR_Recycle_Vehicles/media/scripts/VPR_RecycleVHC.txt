@@ -1,0 +1,128 @@
+module VPR_RecycleVHC
+{
+	imports
+	{
+		Base
+	}
+	
+	/************************ Recycling Vehicle Parts ************************/
+	
+	recipe Dismantle Car Hood
+	{
+		keep WeldingMask,
+		EngineDoor1/EngineDoor2/EngineDoor3,
+		BlowTorch=2,
+		
+		Result:SheetMetal=2,
+		Time:700.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=2,		
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetalVHC,
+		AllowDestroyedItem:true,
+	}
+
+	recipe Dismantle Car Trunk Lid
+	{
+		keep WeldingMask,
+		TrunkDoor1/TrunkDoor2/TrunkDoor3,
+		BlowTorch=2,
+		
+		Result:SheetMetal=1,
+		Time:700.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=2,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetalVHC,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe Dismantle Car Gas Tank
+	{
+		keep WeldingMask,
+		SmallGasTank1/SmallGasTank2/SmallGasTank3/NormalGasTank1/NormalGasTank2/NormalGasTank3/BigGasTank1/BigGasTank2/BigGasTank3,
+		BlowTorch=2,
+		
+		Result:SmallSheetMetal=2,
+		Time:700.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=3,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetalVHC,
+		AllowDestroyedItem:true,
+	}
+
+	recipe Dismantle Car Brake
+	{
+		keep WeldingMask,
+		OldBrake1/OldBrake2/OldBrake3/NormalBrake1/NormalBrake2/NormalBrake3/ModernBrake1/ModernBrake2/ModernBrake3,
+		BlowTorch=2,
+		
+		Result:ScrapMetal,
+		Time:700.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=3,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetalVHC,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe Dismantle Car Suspension
+	{
+		keep WeldingMask,
+		NormalSuspension1/NormalSuspension2/NormalSuspension3/ModernSuspension1/ModernSuspension2/ModernSuspension3,
+		BlowTorch=2,
+		
+		Result:MetalBar=2,
+		Time:700.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=3,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetalVHC,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe Dismantle Car Muffler
+	{
+		keep WeldingMask,
+		OldCarMuffler1/OldCarMuffler2/OldCarMuffler3/NormalCarMuffler1/NormalCarMuffler2/NormalCarMuffler3/ModernCarMuffler1/ModernCarMuffler2/ModernCarMuffler3,
+		BlowTorch=2,
+		
+		Result:SmallSheetMetal,
+		Time:700.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=3,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetalVHC,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe Dismantle Car Door
+	{
+		keep WeldingMask,
+		FrontCarDoor1/FrontCarDoor2/FrontCarDoor3/RearCarDoor1/RearCarDoor2/RearCarDoor3/RearCarDoorDouble1/RearCarDoorDouble2/RearCarDoorDouble3,
+		BlowTorch=2,
+		
+		Result:SmallSheetMetal=3,
+		Time:700.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=3,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetalVHC,
+		AllowDestroyedItem:true,
+	}
+}

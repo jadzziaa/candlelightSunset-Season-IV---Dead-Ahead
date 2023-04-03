@@ -1,0 +1,7 @@
+description=Realistic recipes to recycle all vehicle parts. This was made separate so that you can use other vehicle mods which also include recycing recipes.
+id=VPR_Recycle_Vehicles
+name=Viperel's Vehicle Recycling
+poster=RecyclingCenter.png
+modversion=0.5
+pzversion=41.78
+require=VPR_RecyclingCenter

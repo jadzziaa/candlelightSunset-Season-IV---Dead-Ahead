@@ -1,0 +1,741 @@
+module VPR_Recycle
+{
+	imports
+	{
+		Base
+	}
+	
+
+	recipe Refill Lighter
+	{
+		destroy Lighter=1,
+		[Recipe.GetItemTypes.Petrol]=1,
+		
+		Result:Lighter,
+		Time:150.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:flase,
+	}	
+
+	recipe Refill Lighter (Empty)
+	{
+		EmptyLighter=1,
+		[Recipe.GetItemTypes.Petrol]=1,
+		
+		Result:Lighter,
+		Time:150.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:flase,
+	}	
+	
+	recipe Break Glass items
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		SmashedBottle/GlassWine/GlassTumbler/WineEmpty/WineEmpty2/WhiskeyEmpty/BeerEmpty/[Recipe.GetItemTypes.BrokenGlass]/Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+
+		Result:GlassShard=1,
+		Time:100.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		Sound:BreakGlassItem,
+	}	
+
+	recipe Make Glass Mold
+	{
+		keep WeldingMask,
+		ScrapMetal=20,
+		WeldingRods=2,
+		BlowTorch=1,
+
+		Result:GlassMold,
+		Time:700.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Glass Pane
+	{
+		keep GlassMold,
+		CampfireKit=1,
+		GlassShard=4,
+
+		Result:GlassPane,
+		RemoveResultItem:true,
+		Time:1000.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:MakePlaster,
+		OnCreate:Recipe.OnCreate.TryMakeGlass,
+	}	
+	
+
+	 
+    /************************ Recycle Metalworking ************************/
+	
+	recipe  Break Classic Watch (XP)
+    {	
+		keep [Recipe.GetItemTypes.Hammer],
+		WristWatch_Right_ClassicBlack/WristWatch_Left_ClassicBlack/WristWatch_Right_ClassicBrown/WristWatch_Left_ClassicBrown/WristWatch_Right_ClassicMilitary/WristWatch_Left_ClassicMilitary/WristWatch_Right_ClassicGold/WristWatch_Left_ClassicGold,     
+
+		Result:ScrapMetal=1,
+		RemoveResultItem:true,
+		Time:150.0,
+		Category:Recycling,
+		AnimNode:Disassemble,
+		Sound:Hammering,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.BreakStr,
+    }	
+		
+	recipe Break Accessory (XP)
+    {
+		keep [Recipe.GetItemTypes.Hammer],
+		Necklace_DogTag/Necklace_Gold/Necklace_GoldRuby/Necklace_GoldDiamond/Necklace_Silver/Necklace_SilverSapphire/Necklace_SilverCrucifix/Necklace_SilverDiamond/Necklace_Crucifix/Necklace_YingYang/Necklace_Pearl/NecklaceLong_Gold/NecklaceLong_GoldDiamond/NecklaceLong_Silver/NecklaceLong_SilverEmerald/NecklaceLong_SilverSapphire/NecklaceLong_SilverDiamond/NecklaceLong_Amber/NoseRing_Gold/NoseRing_Silver/NoseStud_Gold/NoseStud_Silver/Earring_LoopLrg_Gold/Earring_LoopLrg_Silver/Earring_LoopMed_Silver/Earring_LoopMed_Gold/Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Gold_Both/Earring_LoopSmall_Gold_Top/Earring_LoopSmall_Silver_Top/Earring_Stud_Gold/Earring_Stud_Silver/Earring_Stone_Sapphire/Earring_Stone_Emerald/Earring_Stone_Ruby/Earring_Pearl/Earring_Dangly_Sapphire/Earring_Dangly_Emerald/Earring_Dangly_Ruby/Earring_Dangly_Diamond/Earring_Dangly_Pearl/Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold/Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver/Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond/Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby/Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond/Bracelet_BangleRightGold/Bracelet_BangleLeftGold/Bracelet_ChainRightGold/Bracelet_ChainLeftGold/Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver/Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver/BellyButton_DangleGold/BellyButton_DangleGoldRuby/BellyButton_DangleSilver/BellyButton_DangleSilverDiamond/BellyButton_RingGold/BellyButton_RingGoldDiamond/BellyButton_RingGoldRuby/BellyButton_RingSilver/BellyButton_RingSilverAmethyst/BellyButton_RingSilverDiamond/BellyButton_RingSilverRuby/BellyButton_StudGold/BellyButton_StudGoldDiamond/BellyButton_StudSilver/BellyButton_StudSilverDiamond,
+		
+		Result:ScrapMetal,
+		RemoveResultItem:true,
+		Time:150.0,
+		Category:Recycling,
+		CanBeDoneFromFloor:false,
+		Sound:Hammering,
+		OnTest:Recipe.OnTest.DismantleFavs,
+		OnGiveXP:Recipe.OnGiveXP.BreakStr,
+    }
+
+	recipe Break Accessory x3 (scrap)
+    {
+		keep [Recipe.GetItemTypes.Hammer],
+		Necklace_DogTag/Necklace_Gold/Necklace_GoldRuby/Necklace_GoldDiamond/Necklace_Silver/Necklace_SilverSapphire/Necklace_SilverCrucifix/Necklace_SilverDiamond/Necklace_Crucifix/Necklace_YingYang/Necklace_Pearl/NecklaceLong_Gold/NecklaceLong_GoldDiamond/NecklaceLong_Silver/NecklaceLong_SilverEmerald/NecklaceLong_SilverSapphire/NecklaceLong_SilverDiamond/NecklaceLong_Amber/NoseRing_Gold/NoseRing_Silver/NoseStud_Gold/NoseStud_Silver/Earring_LoopLrg_Gold/Earring_LoopLrg_Silver/Earring_LoopMed_Silver/Earring_LoopMed_Gold/Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Gold_Both/Earring_LoopSmall_Gold_Top/Earring_LoopSmall_Silver_Top/Earring_Stud_Gold/Earring_Stud_Silver/Earring_Stone_Sapphire/Earring_Stone_Emerald/Earring_Stone_Ruby/Earring_Pearl/Earring_Dangly_Sapphire/Earring_Dangly_Emerald/Earring_Dangly_Ruby/Earring_Dangly_Diamond/Earring_Dangly_Pearl/Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold/Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver/Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond/Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby/Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond/Bracelet_BangleRightGold/Bracelet_BangleLeftGold/Bracelet_ChainRightGold/Bracelet_ChainLeftGold/Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver/Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver/BellyButton_DangleGold/BellyButton_DangleGoldRuby/BellyButton_DangleSilver/BellyButton_DangleSilverDiamond/BellyButton_RingGold/BellyButton_RingGoldDiamond/BellyButton_RingGoldRuby/BellyButton_RingSilver/BellyButton_RingSilverAmethyst/BellyButton_RingSilverDiamond/BellyButton_RingSilverRuby/BellyButton_StudGold/BellyButton_StudGoldDiamond/BellyButton_StudSilver/BellyButton_StudSilverDiamond=3,
+		
+		Result:ScrapMetal,
+		Time:150.0,
+		Category:Recycling,
+		CanBeDoneFromFloor:True,
+		Sound:Hammering,
+		OnGiveXP:Recipe.OnGiveXP.BreakStr,
+    }	
+	
+	recipe Break Small Metal Item (XP)
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		BreadKnife/ButterKnife/Fork/Spoon/LetterOpener/CombinationPadlock/Padlock/SutureNeedleHolder/Tongs/HandShovel/Hinge/Bell/Wire/ElectricWire/AlarmClock2/HandScythe/PaintbucketEmpty/HandFork/CarvingFork/Spatula/BakingPan/GrillBrush,
+		
+		Result:ScrapMetal,
+		RemoveResultItem:true,
+		Time:200.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:Hammering,
+		OnTest:Recipe.OnTest.DismantleFavs,
+		OnGiveXP:Recipe.OnGiveXP.BreakStr,
+		AllowDestroyedItem:true,
+	}
+
+	recipe Dismantle Metal (Tool)
+	{
+		keep WeldingMask,
+		BlowTorch=1,
+		Hammer/ClubHammer/BallPeenHammer/Crowbar/GardenSaw/Saw/HandAxe/LugWrench/PipeWrench/Wrench/Axe/WoodAxe/Shovel/Shovel2/Golfclub/TirePump/Jack/MetalBar/Pipe/MetalPipe,
+		
+		Result:ScrapMetal,
+		RemoveResultItem:true,
+		Time:400.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		OnTest:Recipe.OnTest.DismantleFavs,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetal,
+		AllowDestroyedItem:true,
+	}
+
+	recipe Dismantle Metal (Kitchen)
+	{
+		keep WeldingMask,
+		BlowTorch=1,
+		MeatCleaver/KitchenKnife/Pan/Pot/GridlePan/RoastingPan/BakingTray/Saucepan/MuffinTray/TinOpener/,
+		
+		Result:ScrapMetal,
+		RemoveResultItem:true,
+		Time:400.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		OnTest:Recipe.OnTest.DismantleFavs,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetal,
+		AllowDestroyedItem:true,
+	}
+
+	recipe Dismantle Metal (Weights)
+	{
+		keep WeldingMask,
+		BlowTorch=1,
+		DumbBell/BarBell/Mov_FitnessContraption,
+		
+		Result:ScrapMetal,
+		RemoveResultItem:true,
+		Time:400.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		OnTest:Recipe.OnTest.DismantleFavs,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetal,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe Dismantle Metal Container
+	{
+		keep WeldingMask,
+		BlowTorch=1,
+		Toolbox/RifleCase1/RifleCase2/RifleCase3/ShotgunCase1/ShotgunCase2/RevolverCase1/RevolverCase2/RevolverCase3/PistolCase1/PistolCase2/PistolCase3/Flightcase/Lunchbox/Lunchbox2,
+	
+		Result:SmallSheetMetal,
+		Time:500.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		OnTest:Recipe.OnTest.DismantleFavs,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetal,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe Make Scrap Metal from Unusable
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		keep WeldingMask,
+		UnusableMetal=1,
+		BlowTorch=1,
+		
+		Result:ScrapMetal,
+		RemoveResultItem:true,
+		Time:500.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:Hammering,
+		OnCreate:Recipe.OnCreate.RecycleToScrapMetal,
+		AllowDestroyedItem:true,
+	}
+
+	recipe Make Welding Rods
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		ScrapMetal=12,
+		Aluminum=2,
+		
+		Result:WeldingRods,
+		Time:500.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+	
+	recipe Make Aluminum (Empty Pop Cans x10)
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		keep WeldingMask,
+		PopEmpty/Pop2Empty/Pop3Empty=10,
+		BlowTorch=1,
+		
+		Result:Aluminum,
+		Time:250.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:Hammering,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding05,
+	}
+
+	recipe Make Aluminum (Empty Tin Cans)
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		keep WeldingMask,
+		TinCanEmpty=5,
+		BlowTorch=1,
+		
+		Result:Aluminum,
+		Time:250.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:Hammering,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding05,
+	}	
+	
+	recipe Make Aluminum (Empty Beer Cans)
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		keep WeldingMask,
+		BeerCanEmpty=10,
+		BlowTorch=1,
+		
+		Result:Aluminum,
+		Time:250.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:Hammering,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding05,
+	}
+	
+	recipe Make Small Metal Sheet (Scrap)
+	{
+		keep WeldingMask,
+		ScrapMetal=12,
+		WeldingRods=2,
+		BlowTorch=1,
+		
+		Result:SmallSheetMetal,
+		Time:500.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}	
+	
+	recipe Make Metal Sheet (Scrap)
+	{
+		keep WeldingMask,
+		ScrapMetal=30,
+		WeldingRods=2,
+		BlowTorch=1,
+		
+		Result:SheetMetal,
+		Time:500.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:MetalWelding=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Wire
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		keep WeldingMask,
+		SmallSheetMetal=1,
+		ScrapMetal=3,
+		BlowTorch=1,
+		
+		Result:Wire,
+		Time:200.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding03,
+	}			
+	
+	recipe Make Metal Bar
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		keep WeldingMask,
+		ScrapMetal=10,
+		WeldingRods=2,
+		BlowTorch=1,
+		
+		Result:MetalBar,
+		Time:350.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding05,
+	}		
+
+	recipe Make Metal Pipe
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		keep WeldingMask,
+		ScrapMetal=10,
+		WeldingRods=2,
+		BlowTorch=1,
+		
+		Result:MetalPipe,
+		Time:350.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding05,
+	}
+	
+	recipe Make Nails
+     {
+		keep [Recipe.GetItemTypes.Hammer],
+		ScrapMetal=2,
+		
+		Result:Nails=2,
+		Time:150.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding01,
+     }	
+	
+	recipe Make Screws
+     {
+		keep [Recipe.GetItemTypes.Hammer],
+		ScrapMetal=2,
+		
+		Result:Screws=2,
+		Time:150.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding01,
+     }	 
+	 
+	recipe Dismantle Electronics
+	 {
+		keep Screwdriver,
+		RadioTransmitter/RadioReceiver/Receiver/GuitarElectricBlack/GuitarElectricBassBlack/GuitarElectricBlue/GuitarElectricBassBlue/GuitarElectricRed/GuitarElectricBassRed/MotionSensor/RemoteCraftedV1/RemoteCraftedV2/RemoteCraftedV3/Amplifier,
+		
+		Result:ElectronicsScrap=2,
+		Time:150.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:Screwdriver,
+		OnGiveXP:Recipe.OnGiveXP.Electricity03,
+	 }			 
+	
+    /************************ Vanilla Recipe Overrides ************************/
+
+	recipe Make Small Metal Sheet
+	{
+		keep WeldingMask,
+		SheetMetal=1,
+		BlowTorch=1,
+		
+		Result:SmallSheetMetal=3,
+		Time:350.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:MetalWelding=3,
+		Sound:BlowTorch,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		Override:true,
+	}
+	
+    recipe Make Metal Sheet
+    {
+	   keep WeldingMask,
+       SmallSheetMetal=3,
+       BlowTorch=1,
+	   WeldingRods=1,
+
+       Result:SheetMetal,
+       Time:350.0,
+       Category:Welding,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       SkillRequired:MetalWelding=3,
+	   Sound:BlowTorch,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	   Override:true,
+    }	
+
+     recipe Make Bucket of Plaster
+    {
+       destroy BucketEmpty/BucketWaterFull,
+       Water=5,
+       PlasterPowder/ConcretePowder,
+
+       Result:BucketPlasterFull,
+       Time:150.0,
+       Category:Carpentry,
+       Sound:MakePlaster,
+	   Override:true,		
+    }
+
+	recipe Break Car Window
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		Windshield1/Windshield2/Windshield3/RearWindshield1/RearWindshield2/RearWindshield3/FrontWindow1/FrontWindow2/FrontWindow3/RearWindow1/RearWindow2/RearWindow3,
+		
+		Result:GlassShard=4,
+		Time:300.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BreakGlassItem,
+		AllowDestroyedItem:true,
+	}
+	
+    /************************ Paint & Mixing Recipes ************************/	
+
+	 recipe Make Paint (White)
+    {
+       destroy BucketEmpty/PaintbucketEmpty,
+       Water=40,
+       PlasterPowder=1,
+	   
+       Result:PaintWhite=2,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,	   
+       Sound:MakePlaster,	
+    }
+
+	 recipe Mix Paint (Purple)
+    {
+       PaintRed=5,
+	   PaintBlue=5,
+	   
+       Result:PaintPurple,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Mix Paint (Green)
+    {
+       PaintYellow=5,
+	   PaintBlue=5,
+	   
+       Result:PaintGreen,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	 recipe Mix Paint (Orange)
+    {
+       PaintRed=5,
+	   PaintYellow=5,
+	   
+       Result:PaintOrange,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	 recipe Mix Paint (Yellow)
+    {
+       PaintRed=5,
+	   PaintGreen=5,
+	   
+       Result:PaintYellow,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Mix Paint (Pink)
+    {
+       PaintRed=5,
+	   PaintWhite=5,
+	   
+       Result:PaintPink,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Mix Paint (Light Blue)
+    {
+       PaintBlue=5,
+	   PaintWhite=5,
+	   
+       Result:PaintLightBlue,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }	
+
+	recipe Mix Paint (Light Brown)
+    {
+       PaintBrown=5,
+	   PaintWhite=5,
+	   
+       Result:PaintLightBrown,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Mix Paint (Grey)
+    {
+       PaintBlack=5,
+	   PaintWhite=5,
+	   
+       Result:PaintGrey,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }	
+
+	recipe Mix Paint (Cyan)
+    {
+       PaintBlue=5,
+	   PaintWhite=5,
+	   
+       Result:PaintCyan,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Color LightBulb (Red)
+    {
+       keep PaintRed,
+	   keep Paintbrush,
+	   LightBulb,
+	   
+       Result:LightBulbRed,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Color LightBulb (Yellow)
+    {
+       keep PaintYellow,
+	   keep Paintbrush,
+	   LightBulb,
+	   
+       Result:LightBulbYellow,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }	
+
+	recipe Color LightBulb (Green)
+    {
+       keep PaintGreen,
+	   keep Paintbrush,
+	   LightBulb,
+	   
+       Result:LightBulbGreen,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }	
+
+	recipe Color LightBulb (Purple)
+    {
+       keep PaintPurple,
+	   keep Paintbrush,
+	   LightBulb,
+	   
+       Result:LightBulbPurple,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Color LightBulb (Pink)
+    {
+       keep PaintPink,
+	   keep Paintbrush,
+	   LightBulb,
+	   
+       Result:LightBulbPink,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Color LightBulb (Orange)
+    {
+       keep PaintOrange,
+	   keep Paintbrush,
+	   LightBulb,
+	   
+       Result:LightBulbOrange,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Color LightBulb (Cyan)
+    {
+       keep PaintCyan,
+	   keep Paintbrush,
+	   LightBulb,
+	   
+       Result:LightBulbCyan,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+
+	recipe Color LightBulb (Blue)
+    {
+       keep PaintBlue,
+	   keep Paintbrush,
+	   LightBulb,
+	   
+       Result:LightBulbBlue,
+       Time:150.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+	
+	recipe Clean LightBulbs
+    {
+       keep Sponge/DishCloth/RippedSheets,
+	   keep [Recipe.GetItemTypes.Petrol],
+	   LightBulbYellow/LightBulbRed/LightBulbGreen/LightBulbPurple/LightBulbPink/LightBulbOrange/LightBulbCyan/LightBulbBlue,
+	   
+       Result:LightBulb,
+       Time:250.0,
+       Category:Paints,
+       NeedToBeLearn:false,
+	   CanBeDoneFromFloor:true,
+       Sound:MakePlaster,	
+    }
+	
+}	

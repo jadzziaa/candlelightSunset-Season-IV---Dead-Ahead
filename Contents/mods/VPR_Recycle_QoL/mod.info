@@ -1,0 +1,7 @@
+description=Realistic quality of life recipies, which make sense to be in the game.
+id=VPR_Recycle_QoL
+name=Viperel's QoL Recipes
+poster=RecyclingCenter.png
+modversion=0.5
+pzversion=41.78
+require=VPR_RecyclingCenter
