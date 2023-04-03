@@ -1,4 +1,0 @@
-Recipe_EN = {
-    Recipe_Open_SealedBandage = "Get Bandage",
-    Recipe_Make_HotDrinkFluMedication = "Pour the powder into mug",
-}

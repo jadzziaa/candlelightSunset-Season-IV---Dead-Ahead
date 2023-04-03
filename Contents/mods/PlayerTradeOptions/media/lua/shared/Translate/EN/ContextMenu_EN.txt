@@ -1,5 +1,0 @@
-ContextMenu_EN = {
-    
-    ContextMenu_PlayerTradeOptions_Disabled = "Trade is disabled",
-
-}

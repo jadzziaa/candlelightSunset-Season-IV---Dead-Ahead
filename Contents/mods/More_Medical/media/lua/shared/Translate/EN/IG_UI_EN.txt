@@ -1,7 +1,0 @@
-IGUI_EN = {
-    IGUI_JobType_ApplyBurnTreatment = "Apply Burn Cream",
-    IGUI_JobType_ApplyPowderPackHemostatic = "Apply Hemostatic powder",
-    IGUI_JobType_ApplyTourniquet = "Apply Tourniquet",
-    IGUI_JobType_ApplyTourniquetOnNeck = "Strangle myself",
-    IGUI_PlayerText_PleaseStop = "PLEASE STOP! I DON'T DESERVE THIS!!! GIVE ME ANOTHER CHANCE!!! PRESS 'ESC' NOW!!!! READ THE INSTRUCTIONS FOR TOURNIQUET FIRST!!!",
-}

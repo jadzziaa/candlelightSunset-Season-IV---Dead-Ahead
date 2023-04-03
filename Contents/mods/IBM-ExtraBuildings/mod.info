@@ -1,6 +1,0 @@
-name=IBM - Extra Buildings
-id=IBM-EB
-author=Fallen
-poster=preview.png
-description=Provides additional buildings for the game
-require=ImprovedBuildMenuFallen,DylansTiles
