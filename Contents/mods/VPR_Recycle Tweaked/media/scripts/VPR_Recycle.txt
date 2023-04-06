@@ -400,7 +400,29 @@ module VPR_Recycle
 		CanBeDoneFromFloor:true,
 		Sound:Screwdriver,
 		OnGiveXP:Recipe.OnGiveXP.Electricity03,
-	 }			 
+	 }
+
+	recipe Fabricate Engine Parts
+    {
+		keep Wrench,
+		keep WeldingMask/WeldingGoggles.WeldingGoggles,
+		keep GardenSaw/Saw,
+		keep Screwdriver/ToolsOfTheTrade.Jackknife/ToolsOfTheTrade.Multitool/ToolsOfTheTrade.SpiffArmyKnife,
+		BlowTorch=10,
+		WeldingRods=5,
+		Screws=8,
+		MetalPipe=2,
+		SheetMetal,
+		MetalBar,
+		Result:EngineParts=5,
+		Time:500.0,
+		Category:Recycling,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding01,
+		SkillRequired:MetalWelding=10,
+		Sound:BlowTorch,
+    }
 	
     /************************ Vanilla Recipe Overrides ************************/
 
