@@ -1,0 +1,19 @@
+Recipes_RU = {
+Recipe_Open_Tool_Kit ="Открыть набор инструментов",
+Recipe_Close_Tool_Kit ="Закрыть набор инструментов",
+
+Recipe_Open_Box_of_.357 ="Открыть коробку патронов .357",
+Recipe Place_.357_in_box ="Сложить патроны .357 в коробку", 
+
+Recipe_Open_Box_of_7.62_NATO ="Открыть коробку патронов 7.62 НАТО", 
+Recipe_Place_7.62_NATO_in_Box ="Сложить патроны 7.62 НАТО в коробку", 
+
+Recipe_Open_Box_of_5.45_="Открыть коробку of 5.45x39", 
+Recipe_Place_5.45_in_box ="Сложить 5.45x39 в коробку", 
+
+Recipe_Open_Box_of_7.62x39="Открыть коробку of 7.62x39", 
+Recipe_Place_7.62x39_in_box ="Сложить 7.62x39 в коробку", 
+
+Recipe_Open_Box_of_22_lr.="Открыть коробку of 22 lr.", 
+Recipe_Place_22_lr._in_box ="Сложить 22 lr. в коробку",
+}

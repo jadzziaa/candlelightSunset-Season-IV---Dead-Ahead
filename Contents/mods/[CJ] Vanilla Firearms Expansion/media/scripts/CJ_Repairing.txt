@@ -1,0 +1,280 @@
+module Base
+{
+	imports    
+    {
+		Base
+	}
+    fixing Fix shotgun AA-12
+    {
+       Require : CJ_AA12,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle AK-74
+    {
+       Require : CJ_AK74,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle AK-74
+    {
+       Require : CJ_AK74_Folded,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle AK-74
+    {
+       Require : CJ_AK74M,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle AUG
+    {
+       Require : CJ_AUG,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix pistol Beretta M9
+    {
+       Require : CJ_BerettaM9,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix revolver Colt Python
+    {
+       Require : CJ_ColtPython,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix pistol Colt M1911
+    {
+       Require : CJ_Colt1911,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix pistol Desert Eagle
+    {
+       Require : CJ_DE,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle G3A3
+    {
+       Require : CJ_G3A3,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix pistol Glock-17
+    {
+       Require : CJ_Glock17,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle L85A1
+    {
+       Require : CJ_L85A1,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle M1A
+    {
+       Require : CJ_M1A,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle M40
+    {
+       Require : CJ_M40,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix machinegun M60
+    {
+       Require : CJ_M60,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix machinegun M249
+    {
+       Require : CJ_M249,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix shotgun M870
+    {
+       Require : CJ_M870,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix shotgun M870
+    {
+       Require : CJ_M870_Civil,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix shotgun M870
+    {
+       Require : CJ_M870_Civil_Sawn,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix shotgun M1897
+    {
+       Require : CJ_1897,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix shotgun M1897
+    {
+       Require : CJ_M1897_Sawn,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle Mini-14
+    {
+       Require : CJ_Mini14,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix submachinegun MP5SD2
+    {
+       Require : CJ_MP5SD2,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix pistol P226
+    {
+       Require : CJ_P226,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix machinegun PK
+    {
+       Require : CJ_PK,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix shotgun SAP-6
+    {
+       Require : CJ_SAP6,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix carbine SG552 Commando
+    {
+       Require : CJ_SG552_Commando,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle SKS
+    {
+       Require : CJ_SKS,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle SKS
+    {
+       Require : CJ_SKS_Sawn,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix shotgun SPAS-12
+    {
+       Require : CJ_Spas12,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle SR-25
+    {
+       Require : CJ_SR25,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle SVD
+    {
+       Require : CJ_SVD,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix revolver SW M36
+    {
+       Require : CJ_SW_M36,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix revolver SW M625
+    {
+       Require : CJ_SW_M625,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix pistol TEC-9
+    {
+       Require : CJ_TEC9,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix rifle WA2000
+    {
+       Require : CJ_WA2000_1,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix pistol Walther PP
+    {
+       Require : CJ_Walther_PP,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix carbine XM4
+    {
+       Require : CJ_XM4,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+    fixing Fix shotgun Striker
+    {
+       Require : CJ_Striker,
+       Fixer : GUNOIL2; Aiming=3,
+       Fixer : GUNOIL1; Aiming=2,
+       Fixer : CJWD40; Aiming=1,
+    }
+}
