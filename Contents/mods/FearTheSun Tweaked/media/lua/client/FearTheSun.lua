@@ -61,8 +61,9 @@ end
 -- calculate the closeset building in the list
 local function calcClosestBuilding(_square, onlyUnexplored) --isAllExplored()
     local sourcesq = _square ;
-    local closest = nil;
-    local closestDist = 1000000;
+    local closest = nil;--Default
+	--local closestDist = 1000000;--Default
+	local closestDist = 1000;
 
     if isBuildingListEmpty() == true then 
         closest = sourcesq;
@@ -268,8 +269,8 @@ local function randomLureZombieFar(zombie)
     local targetsq = zombie:getCurrentSquare();
 
     if targetsq == nil then return; end
-
-    local x,y,z = targetsq:getX() + ZombRand(-100,100), targetsq:getY() + ZombRand(-100,100), targetsq:getZ();
+	local dist = 25
+    local x,y,z = targetsq:getX() + ZombRand(-dist,dist), targetsq:getY() + ZombRand(-dist,dist), targetsq:getZ();
 
     if coinFlip() then
         lureSoundXYZ(zombie, x, y, z);
@@ -283,8 +284,8 @@ end
 --if the target is too far, 25 tiles, just send the zombie walking far, handling rural cases wakeAll
 local function randomLureZombie(zombie)
     local targetsq = zombie:getCurrentSquare();
-
-    if isDay() then
+	
+	if isDay() then
         targetsq = getSquareInClosestBuilding(zombie);
     else
         targetsq = getRandomOutdoorSquare(zombie);
@@ -298,7 +299,37 @@ local function randomLureZombie(zombie)
         lureZombieToSoundSquare(zombie, targetsq);
     else
         lureZombieToLocationSquare(zombie, targetsq);
+    end 
+end
+
+local function debug_randomLureZombie(zombie)
+    local targetsq = zombie:getCurrentSquare();
+	
+	local debugDay = true;
+    if debugDay then
+        targetsq = getSquareInClosestBuilding(zombie);
+    else
+        targetsq = randomLureZombieFar(zombie);
     end
+
+    if targetsq == nil then return; end
+
+    if targetSquareIsFar(zombie,targetsq) == true then
+        randomLureZombieFar(zombie);
+    else
+        --lureZombieToSoundSquare(zombie, targetsq);
+        lureZombieToLocationSquare(zombie, targetsq);
+    end 
+end
+
+local function benchmark_randomLureZombie(zombie)
+	--Kayse is adding benchmark code to randomLureZombie on 08Apr23
+	local startTime = getTimeInMillis();
+	for i=0, 10000 do
+		debug_randomLureZombie(zombie)
+	end
+	local stopTime = getTimeInMillis();
+	print(string.format("elapsed time: %.0f\n", stopTime - startTime))
  
 end
 
