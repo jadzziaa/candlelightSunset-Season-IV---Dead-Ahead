@@ -420,7 +420,7 @@ module VPR_Recycle
 		NeedToBeLearn:false,
 		CanBeDoneFromFloor:true,
 		OnGiveXP:Recipe.OnGiveXP.MetalWelding01,
-		SkillRequired:MetalWelding=10,
+		SkillRequired:MetalWelding=7,
 		Sound:BlowTorch,
     }
 	
