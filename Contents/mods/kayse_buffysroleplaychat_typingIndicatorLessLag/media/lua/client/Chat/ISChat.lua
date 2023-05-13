@@ -1395,32 +1395,32 @@ ISChat.addLineInChat = function(message, tabID)
 			message:setOverHeadSpeech(true)--Likely redudent, but expressing to show over the head.
 			return--Don't add to chat log or further handle.
 		end
-		if string.match(line, "I can't wait until its time to sleep...") and playerAuthor ~= modPlayerobj then
+		if string.match(line, "I can't wait until its time to sleep...") then
             --Hiding messages from Depression Makes You Sleepy (DMYS) and Boredom Makes You Hungry (BMYH) from others.
             message:setOverHeadSpeech(false)
             return
         end
-		if string.match(line, "I should be happier in my dreams.") and playerAuthor ~= modPlayerobj then
+		if string.match(line, "I should be happier in my dreams.") then
             --Hiding messages from Depression Makes You Sleepy (DMYS) and Boredom Makes You Hungry (BMYH) from others.
             message:setOverHeadSpeech(false)
             return
         end
-		if string.match(line, "I want to escape reality. Sleep may be the answer.") and playerAuthor ~= modPlayerobj then
+		if string.match(line, "I want to escape reality. Sleep may be the answer.") then
             --Hiding messages from Depression Makes You Sleepy (DMYS) and Boredom Makes You Hungry (BMYH) from others.
             message:setOverHeadSpeech(false)
             return
         end
-		if string.match(line, "I wonder whats in the fridge...") and playerAuthor ~= modPlayerobj then
+		if string.match(line, "I wonder whats in the fridge...") then
             --Hiding messages from Depression Makes You Sleepy (DMYS) and Boredom Makes You Hungry (BMYH) from others.
             message:setOverHeadSpeech(false)
             return
         end
-		if string.match(line, "Chips sound nice right about now.") and playerAuthor ~= modPlayerobj then
+		if string.match(line, "Chips sound nice right about now.") then
             --Hiding messages from Depression Makes You Sleepy (DMYS) and Boredom Makes You Hungry (BMYH) from others.
             message:setOverHeadSpeech(false)
             return
         end
-		if string.match(line, "Let me see whats in the pantry.") and playerAuthor ~= modPlayerobj then
+		if string.match(line, "Let me see whats in the pantry.") then
             --Hiding messages from Depression Makes You Sleepy (DMYS) and Boredom Makes You Hungry (BMYH) from others.
             message:setOverHeadSpeech(false)
             return
